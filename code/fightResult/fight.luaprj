@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="fight.luaprj" >
+    <LuaFile RelativePath=".\entry.lua" />
+    <Filter Name="actor" >
+        <LuaFile RelativePath=".\actor\actor.lua" />
+        <LuaFile RelativePath=".\actor\actorManager.lua" />
+    </Filter>
+    <Filter Name="base" >
+        <LuaFile RelativePath=".\base\class.lua" />
+        <LuaFile RelativePath=".\base\configurationFile.lua" />
+        <LuaFile RelativePath=".\base\delegate.lua" />
+        <LuaFile RelativePath=".\base\enum.lua" />
+        <LuaFile RelativePath=".\base\globalData.lua" />
+        <LuaFile RelativePath=".\base\queue.lua" />
+        <LuaFile RelativePath=".\base\tools.lua" />
+        <LuaFile RelativePath=".\base\Vector.lua" />
+        <LuaFile RelativePath=".\..\lua\base\affinetransform.lua" />
+        <LuaFile RelativePath=".\..\lua\base\algorithms.lua" />
+        <LuaFile RelativePath=".\..\lua\base\class.lua" />
+        <LuaFile RelativePath=".\..\lua\base\configurationFile.lua" />
+        <LuaFile RelativePath=".\..\lua\base\delegate.lua" />
+        <LuaFile RelativePath=".\..\lua\base\enum.lua" />
+        <LuaFile RelativePath=".\..\lua\base\globalData.lua" />
+        <LuaFile RelativePath=".\..\lua\base\globalFunction.lua" />
+        <LuaFile RelativePath=".\..\lua\base\queue.lua" />
+    </Filter>
+    <Filter Name="effect" >
+        <LuaFile RelativePath=".\effect\effect.lua" />
+        <LuaFile RelativePath=".\effect\effectFunction.lua" />
+        <LuaFile RelativePath=".\effect\effectManager.lua" />
+        <LuaFile RelativePath=".\effect\effectScript.lua" />
+        <LuaFile RelativePath=".\effect\effectScriptManager.lua" />
+    </Filter>
+    <Filter Name="event" >
+        <LuaFile RelativePath=".\event\event.lua" />
+        <LuaFile RelativePath=".\event\eventFight.lua" />
+        <LuaFile RelativePath=".\event\eventManager.lua" />
+    </Filter>
+    <Filter Name="fightRecord" >
+        <LuaFile RelativePath=".\fightRecord\fightRecordEvent.lua" />
+        <LuaFile RelativePath=".\fightRecord\fightRecordManager.lua" />
+    </Filter>
+    <Filter Name="fightSystem" >
+        <LuaFile RelativePath=".\fightSystem\fightAttackClass.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightAttackManager.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightCommonFunction.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighter.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighter_boss.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighter_monster.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighter_novice_player.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighter_player.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighterAvatarData.lua" />
+        <LuaFile RelativePath=".\fightSystem\fighterPropertyData.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightGestureSkill.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightManager.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightSkill.lua" />
+        <LuaFile RelativePath=".\fightSystem\fightShowSkillManager.lua" />
+    </Filter>
+    <Filter Name="gameState" >
+        <LuaFile RelativePath=".\gameState\game.lua" />
+        <LuaFile RelativePath=".\gameState\godsSenki.lua" />
+    </Filter>
+    <Filter Name="resTable" >
+        <LuaFile RelativePath=".\resTable\resTable.lua" />
+    </Filter>
+</Project>

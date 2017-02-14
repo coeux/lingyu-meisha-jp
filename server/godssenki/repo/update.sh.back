@@ -1,0 +1,3 @@
+#!/bin/bash
+svn up /home/publish/god_design/export
+cp /home/publish/god_design/export/*.json . 

@@ -1,0 +1,31 @@
+<skeleton name="S172_1" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S172_1">
+   <b name="图层 1" x="-4.62" y="-1.27" kX="0" kY="0" cX="1" cY="1" pX="29.5" pY="20.83" z="0">
+    <d name="元件 3" pX="-1.77" pY="-0.97"/>
+    <d name="元件 2" pX="0" pY="-0.65"/>
+    <d name="元件 4" pX="2.35" pY="0"/>
+    <d name="元件 5" pX="-0.82" pY="-1.2"/>
+    <d name="元件 6" pX="0" pY="-2.35"/>
+    <d name="元件 7" pX="-1.85" pY="0"/>
+    <d name="元件 8" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S172_1">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-4.62" y="-1.27" kX="0" kY="0" cX="1" cY="1" pX="29.5" pY="20.83" z="0" dI="0" dr="1"/>
+     <f x="-3.97" y="-0.85" kX="0" kY="0" cX="1" cY="1" pX="29.95" pY="20.6" z="0" dI="1" dr="1"/>
+     <f x="-4.5" y="-1.3" kX="0" kY="0" cX="1" cY="1" pX="30.48" pY="21.68" z="0" dI="2" dr="1"/>
+     <f x="-5.27" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="33.8" pY="24.25" z="0" dI="3" dr="1"/>
+     <f x="-3.75" y="2.9" kX="0" kY="0" cX="1" cY="1" pX="30.6" pY="22" z="0" dI="4" dr="1"/>
+     <f x="-3.32" y="1.3" kX="0" kY="0" cX="1" cY="1" pX="31.45" pY="21.9" z="0" dI="5" dr="1"/>
+     <f x="-4.92" y="0.95" kX="0" kY="0" cX="1" cY="1" pX="32.85" pY="21.78" z="0" dI="6" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

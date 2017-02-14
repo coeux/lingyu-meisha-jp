@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <Desktop Margin="L:228.000000 T:246.000000 R:0.000000 B:0.000000" Name="loading" Size="W:960.000000 H:640.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <Label Font="huakang_22_blue" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:45.000000" Name="tip2" Size="W:943.000000 H:38.000000" TextAlignStyle="BottomCenter" VLayout="Bottom" Visibility="Hidden" />
+        <Panel HLayout="Center" Name="panel" Size="W:1136.000000 H:640.000000" VLayout="Stretch" />
+        <Label Font="huakang_20_pink" HLayout="Center" Margin="L:0.000000 T:8.000000 R:0.000000 B:220.000000" Name="percent" Size="W:310.000000 H:38.000000" Text="Now Loading...(90%)" TextAlignStyle="MiddleCenter" VLayout="Center" Visibility="Hidden" />
+        <ImageElement HLayout="Center" Margin="L:31.000000 T:-3.000000 R:0.000000 B:0.000000" Name="tip" Size="W:50.000000 H:50.000000" VLayout="Center" />
+        <Panel HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:42.000000" Name="panel1" Size="W:363.000000 H:34.000000" VLayout="Bottom" />
+        <ProgressBar Background="loading.login_jindu" Clip="true" CurValue="50" Font="huakang_18" ForwardBrush="loading.loading_jidutiao_Image" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:54.000000" MaxValue="100" Name="bar" ShowText="true" Size="W:330.000000 H:13.000000" Text="50/100" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+        <Panel Background="login.login_home-color_bg_fillet" HLayout="Center" Name="warningPanel" Size="W:650.000000 H:370.000000" VLayout="Center">
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:20.000000 R:0.000000 B:0.000000" Name="text0" Size="W:600.000000 H:30.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" Name="text1" Size="W:600.000000 H:60.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:140.000000 R:0.000000 B:0.000000" Name="text2" Size="W:600.000000 H:120.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:260.000000 R:0.000000 B:0.000000" Name="text3" Size="W:600.000000 H:30.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:290.000000 R:0.000000 B:0.000000" Name="text4" Size="W:600.000000 H:30.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+            <Label AutoNewline="true" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:320.000000 R:0.000000 B:0.000000" Name="text5" Size="W:600.000000 H:30.000000" Text="ok1111111111111111111111111111111111111111111111111111111111" TextAlignStyle="TopLeft" />
+        </Panel>
+    </Desktop>
+</UISystem>

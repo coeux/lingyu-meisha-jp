@@ -1,0 +1,7 @@
+<TextureAtlas name="H015_xuli" width="256" height="256">
+  <SubTexture name="元件 5" width="74" height="71" x="74" y="0"/>
+  <SubTexture name="元件 4" width="71" height="73" x="74" y="73"/>
+  <SubTexture name="元件 3" width="72" height="75" x="0" y="0"/>
+  <SubTexture name="元件 2" width="72" height="73" x="150" y="0"/>
+  <SubTexture name="元件 1" width="73" height="70" x="147" y="75"/>
+</TextureAtlas>

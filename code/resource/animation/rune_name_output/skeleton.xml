@@ -1,0 +1,26 @@
+<skeleton name="rune_name" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="rune_name">
+   <b name="60002.png" x="-0.65" y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 2" pX="80.6" pY="15"/>
+    <d name="元件 3" pX="95.1" pY="10.5"/>
+    <d name="元件 4" pX="110.6" pY="6.88"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="rune_name">
+   <mov name="play" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+    <b name="60002.png" sc="1" dl="0">
+     <f x="-0.65" y="0.25" cocos2d_x="0" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-0.65" y="0.25" cocos2d_x="0" cocos2d_y="1" kX="0" kY="0" cX="1.01" cY="1.08" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-1.15" y="0" cocos2d_x="-1" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="0.1" y="0.88" cocos2d_x="1" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="0.1" y="0.88" cocos2d_x="1" cocos2d_y="1" kX="0" kY="0" cX="1.04" cY="0.27" pX="0" pY="0" z="0" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="31" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

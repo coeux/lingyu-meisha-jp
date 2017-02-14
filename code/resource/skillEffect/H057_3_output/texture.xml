@@ -1,0 +1,22 @@
+<TextureAtlas name="H057_3" width="512" height="512">
+ <SubTexture name="shape 15" width="67" height="39" cocos2d_pX="6" cocos2d_pY="0" x="123" y="197"/>
+ <SubTexture name="shape 14" width="34" height="31" cocos2d_pX="4" cocos2d_pY="0" x="64" y="230"/>
+ <SubTexture name="shape 13" width="34" height="35" cocos2d_pX="2" cocos2d_pY="0" x="340" y="221"/>
+ <SubTexture name="shape 12" width="44" height="38" cocos2d_pX="0" cocos2d_pY="-1" x="377" y="169"/>
+ <SubTexture name="shape 10" width="46" height="35" cocos2d_pX="3" cocos2d_pY="-1" x="377" y="209"/>
+ <SubTexture name="shape 9" width="31" height="18" cocos2d_pX="1" cocos2d_pY="0" x="100" y="238"/>
+ <SubTexture name="shape 8" width="46" height="33" cocos2d_pX="0" cocos2d_pY="0" x="292" y="221"/>
+ <SubTexture name="补间 10" width="189" height="42" cocos2d_pX="95" cocos2d_pY="21" x="0" y="49"/>
+ <SubTexture name="补间 13" width="218" height="47" cocos2d_pX="109" cocos2d_pY="24" x="0" y="0"/>
+ <SubTexture name="补间 12" width="206" height="42" cocos2d_pX="103" cocos2d_pY="21" x="220" y="0"/>
+ <SubTexture name="补间 11" width="198" height="43" cocos2d_pX="99" cocos2d_pY="22" x="220" y="44"/>
+ <SubTexture name="补间 9" width="24" height="41" cocos2d_pX="12" cocos2d_pY="21" x="191" y="49"/>
+ <SubTexture name="补间 8" width="47" height="78" cocos2d_pX="24" cocos2d_pY="39" x="377" y="89"/>
+ <SubTexture name="补间 7" width="52" height="114" cocos2d_pX="26" cocos2d_pY="57" x="426" y="160"/>
+ <SubTexture name="补间 6" width="57" height="135" cocos2d_pX="29" cocos2d_pY="68" x="64" y="93"/>
+ <SubTexture name="补间 5" width="62" height="148" cocos2d_pX="31" cocos2d_pY="74" x="0" y="93"/>
+ <SubTexture name="补间 4" width="73" height="149" cocos2d_pX="37" cocos2d_pY="75" x="217" y="89"/>
+ <SubTexture name="补间 3" width="81" height="158" cocos2d_pX="41" cocos2d_pY="79" x="428" y="0"/>
+ <SubTexture name="补间 2" width="83" height="130" cocos2d_pX="42" cocos2d_pY="65" x="292" y="89"/>
+ <SubTexture name="补间 1" width="84" height="102" cocos2d_pX="42" cocos2d_pY="51" x="123" y="93"/>
+</TextureAtlas>

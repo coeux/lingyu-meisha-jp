@@ -1,0 +1,8 @@
+<TextureAtlas name="M008_daoghuang" width="256" height="512">
+ <SubTexture name="元件 55" width="24" height="36" x="202" y="0"/>
+ <SubTexture name="元件 50" width="51" height="58" x="149" y="0"/>
+ <SubTexture name="元件 45" width="135" height="73" x="0" y="365"/>
+ <SubTexture name="元件 40" width="133" height="125" x="0" y="118"/>
+ <SubTexture name="元件 35" width="133" height="118" x="0" y="245"/>
+ <SubTexture name="元件 25" width="147" height="116" x="0" y="0"/>
+</TextureAtlas>

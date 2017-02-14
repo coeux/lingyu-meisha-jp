@@ -1,0 +1,61 @@
+<skeleton name="S568_1" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S568_1">
+   <b name="图层 3" x="0.93" y="-0.05" kX="0" kY="0" cX="1.02" cY="0.6" pX="0" pY="0" z="0">
+    <d name="未命名文件夹 5/未命名文件夹 4/未命名文件夹 3/未命名文件夹 2/元件 6" pX="63" pY="61.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S568_1">
+   <mov name="play" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="0" kY="0" cX="1.02" cY="0.6" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="14" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="26.58" kY="9.69" cX="0.99" cY="0.64" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="31" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="47.6" kY="20.49" cX="0.92" cY="0.75" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="47" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="63.19" kY="34.02" cX="0.81" cY="0.87" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="66" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="75.07" kY="51.98" cX="0.69" cY="0.96" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="84" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="85.28" kY="76.39" cX="0.61" cY="1.02" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="94.72" kY="103.61" cX="0.61" cY="1.02" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="104.93" kY="128.02" cX="0.69" cY="0.96" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="116.81" kY="145.98" cX="0.81" cY="0.87" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="132.4" kY="159.51" cX="0.92" cY="0.75" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="153.42" kY="170.31" cX="0.99" cY="0.64" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="180" kY="180" cX="1.02" cY="0.6" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-153.42" kY="-170.31" cX="0.99" cY="0.64" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-132.4" kY="-159.51" cX="0.92" cY="0.75" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-116.81" kY="-145.98" cX="0.81" cY="0.87" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-104.93" kY="-128.02" cX="0.69" cY="0.96" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-94.72" kY="-103.61" cX="0.61" cY="1.02" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-85.28" kY="-76.39" cX="0.61" cY="1.02" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-75.07" kY="-51.98" cX="0.69" cY="0.96" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="84" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-63.19" kY="-34.02" cX="0.81" cY="0.87" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="66" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-47.6" kY="-20.49" cX="0.92" cY="0.75" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="47" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="-26.58" kY="-9.69" cX="0.99" cY="0.64" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="31" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.93" y="-0.05" cocos2d_x="1" cocos2d_y="0" kX="0" kY="0" cX="1.02" cY="0.6" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="14" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

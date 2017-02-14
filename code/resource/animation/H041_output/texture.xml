@@ -1,0 +1,30 @@
+<TextureAtlas name="H041" width="512" height="256">
+ <SubTexture name="水娘.psd 资源/hair_1" width="55" height="44" cocos2d_pX="28" cocos2d_pY="22" x="0" y="106"/>
+ <SubTexture name="水娘.psd 资源/hair_2" width="21" height="62" cocos2d_pX="11" cocos2d_pY="31" x="483" y="0"/>
+ <SubTexture name="水娘.psd 资源/hair_3" width="83" height="72" cocos2d_pX="42" cocos2d_pY="36" x="398" y="0"/>
+ <SubTexture name="水娘.psd 资源/left_arm" width="42" height="32" cocos2d_pX="21" cocos2d_pY="27" x="341" y="147"/>
+ <SubTexture name="水娘.psd 资源/left_hand" width="16" height="18" cocos2d_pX="23" cocos2d_pY="9" x="441" y="146"/>
+ <SubTexture name="水娘.psd 资源/left_arm_up" width="21" height="33" cocos2d_pX="11" cocos2d_pY="17" x="483" y="64"/>
+ <SubTexture name="biaoqing_5" width="47" height="40" cocos2d_pX="23" cocos2d_pY="21" x="98" y="154"/>
+ <SubTexture name="biaoqing_3" width="47" height="41" cocos2d_pX="24" cocos2d_pY="21" x="292" y="147"/>
+ <SubTexture name="biaoqing_6" width="48" height="41" cocos2d_pX="25" cocos2d_pY="21" x="242" y="147"/>
+ <SubTexture name="biaoqing_1" width="48" height="38" cocos2d_pX="24" cocos2d_pY="18" x="147" y="154"/>
+ <SubTexture name="biaoqing_4" width="47" height="41" cocos2d_pX="24" cocos2d_pY="21" x="0" y="152"/>
+ <SubTexture name="水娘.psd 资源/head" width="67" height="70" cocos2d_pX="36" cocos2d_pY="32" x="396" y="74"/>
+ <SubTexture name="水娘.psd 资源/body" width="39" height="57" cocos2d_pX="20" cocos2d_pY="33" x="57" y="106"/>
+ <SubTexture name="水娘.psd 资源/qunzi_1" width="33" height="43" cocos2d_pX="17" cocos2d_pY="22" x="465" y="120"/>
+ <SubTexture name="水娘.psd 资源/qunzi_2" width="51" height="45" cocos2d_pX="27" cocos2d_pY="23" x="388" y="146"/>
+ <SubTexture name="水娘.psd 资源/right_arm_up_2" width="39" height="34" cocos2d_pX="18" cocos2d_pY="11" x="197" y="154"/>
+ <SubTexture name="水娘.psd 资源/right_arm_2" width="35" height="38" cocos2d_pX="24" cocos2d_pY="8" x="49" y="165"/>
+ <SubTexture name="水娘.psd 资源/right_hand" width="15" height="16" cocos2d_pX="8" cocos2d_pY="8" x="465" y="99"/>
+ <SubTexture name="水娘.psd 资源/right_hand_2" width="21" height="19" cocos2d_pX="10" cocos2d_pY="6" x="482" y="99"/>
+ <SubTexture name="shui_6" width="137" height="55" cocos2d_pX="70" cocos2d_pY="28" x="108" y="53"/>
+ <SubTexture name="shui_5" width="142" height="42" cocos2d_pX="74" cocos2d_pY="15" x="98" y="110"/>
+ <SubTexture name="shui_4" width="147" height="44" cocos2d_pX="75" cocos2d_pY="16" x="247" y="53"/>
+ <SubTexture name="shui_3" width="139" height="46" cocos2d_pX="66" cocos2d_pY="18" x="247" y="99"/>
+ <SubTexture name="shui_2" width="144" height="51" cocos2d_pX="69" cocos2d_pY="24" x="108" y="0"/>
+ <SubTexture name="shui" width="142" height="51" cocos2d_pX="74" cocos2d_pY="24" x="254" y="0"/>
+ <SubTexture name="水娘.psd 资源/hair_4" width="15" height="23" cocos2d_pX="8" cocos2d_pY="12" x="465" y="74"/>
+ <SubTexture name="水娘.psd 资源/hair_5" width="106" height="104" cocos2d_pX="53" cocos2d_pY="52" x="0" y="0"/>
+ <SubTexture name="重复项目文件夹/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="459" y="165"/>
+</TextureAtlas>

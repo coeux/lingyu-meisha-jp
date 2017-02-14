@@ -1,0 +1,45 @@
+<skeleton name="H058_1" frameRate="24" version="2.1">
+ <armatures>
+  <armature name="H058_1_1">
+   <b name="00001.png" x="3.88" y="-58.9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+    <d name="补间 1" pX="32.15" pY="33.5"/>
+    <d name="补间 2" pX="40.2" pY="37.35"/>
+    <d name="补间 3" pX="32.48" pY="31.33"/>
+    <d name="补间 4" pX="34.83" pY="26.98"/>
+    <d name="补间 5" pX="41.7" pY="36.67"/>
+    <d name="补间 6" pX="29.15" pY="35"/>
+    <d name="补间 7" pX="33.17" pY="32.33"/>
+    <d name="补间 8" pX="37.17" pY="34.53"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H058_1_1">
+   <mov name="play" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <b name="00001.png" sc="1" dl="0">
+     <f x="3.88" y="-58.9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="39.05" y="-75.75" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="35.53" y="-73.2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="42.05" y="-72.7" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="18.7" y="-60.15" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="20.98" y="-79.28" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="20.98" y="-79.28" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="90" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="14.95" y="-89.8" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="70" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="14.95" y="-89.8" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="50" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.05" y="-99.07" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="30" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.05" y="-99.07" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="10" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

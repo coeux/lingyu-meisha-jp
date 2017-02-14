@@ -1,0 +1,49 @@
+<TextureAtlas name="P102" width="512" height="512">
+  <SubTexture name="head_wing" width="0" height="0" x="509" y="8"/>
+  <SubTexture name="元件 9" width="0" height="0" x="509" y="4"/>
+  <SubTexture name="元件 10" width="0" height="0" x="509" y="6"/>
+  <SubTexture name="元件 11" width="0" height="0" x="509" y="10"/>
+  <SubTexture name="元件 12" width="0" height="0" x="509" y="0"/>
+  <SubTexture name="元件 8" width="66" height="77" x="376" y="245"/>
+  <SubTexture name="元件 7" width="162" height="145" x="0" y="0"/>
+  <SubTexture name="元件 6" width="167" height="135" x="164" y="0"/>
+  <SubTexture name="元件 5" width="154" height="124" x="333" y="0"/>
+  <SubTexture name="元件 4" width="134" height="117" x="333" y="126"/>
+  <SubTexture name="元件 3" width="120" height="108" x="164" y="137"/>
+  <SubTexture name="元件 2" width="114" height="101" x="0" y="147"/>
+  <SubTexture name="元件 1" width="88" height="77" x="286" y="245"/>
+  <SubTexture name="yuanjian/zidan" width="11" height="4" x="116" y="212"/>
+  <SubTexture name="pet_27006" width="0" height="0" x="509" y="2"/>
+  <SubTexture name="yuanjian/hair_3" width="24" height="51" x="116" y="147"/>
+  <SubTexture name="yuanjian/hair_1" width="35" height="52" x="286" y="137"/>
+  <SubTexture name="yuanjian/hair_2" width="36" height="29" x="116" y="225"/>
+  <SubTexture name="yuanjian/left_hand" width="9" height="11" x="469" y="205"/>
+  <SubTexture name="yuanjian/left_arm" width="10" height="18" x="142" y="169"/>
+  <SubTexture name="yuanjian/weapon_1" width="25" height="15" x="480" y="213"/>
+  <SubTexture name="yuanjian/weapon" width="24" height="79" x="484" y="132"/>
+  <SubTexture name="yuanjian/left_arm_up" width="12" height="21" x="489" y="109"/>
+  <SubTexture name="yuanjian/head_5" width="58" height="55" x="154" y="247"/>
+  <SubTexture name="yuanjian/head_2" width="58" height="55" x="120" y="304"/>
+  <SubTexture name="yuanjian/head_1" width="58" height="55" x="0" y="250"/>
+  <SubTexture name="yuanjian/head_4" width="58" height="55" x="444" y="252"/>
+  <SubTexture name="yuanjian/head_3" width="58" height="55" x="60" y="256"/>
+  <SubTexture name="yuanjian/head" width="58" height="55" x="214" y="247"/>
+  <SubTexture name="yuanjian/piaodai_1" width="9" height="18" x="469" y="170"/>
+  <SubTexture name="yuanjian/piaodai_2" width="10" height="11" x="315" y="205"/>
+  <SubTexture name="yuanjian/xiongbu" width="21" height="16" x="489" y="91"/>
+  <SubTexture name="yuanjian/left_foot_1" width="14" height="12" x="142" y="189"/>
+  <SubTexture name="yuanjian/left_foot" width="13" height="13" x="469" y="190"/>
+  <SubTexture name="yuanjian/left_up_leg" width="18" height="31" x="489" y="0"/>
+  <SubTexture name="yuanjian/left_down_leg" width="12" height="26" x="489" y="63"/>
+  <SubTexture name="yuanjian/right_up_leg" width="13" height="28" x="489" y="33"/>
+  <SubTexture name="yuanjian/right_down_leg" width="11" height="21" x="469" y="147"/>
+  <SubTexture name="yuanjian/right_foot_1" width="14" height="10" x="116" y="200"/>
+  <SubTexture name="yuanjian/right_foot" width="13" height="12" x="315" y="191"/>
+  <SubTexture name="yuanjian/kuzi" width="28" height="20" x="132" y="203"/>
+  <SubTexture name="yuanjian/body" width="27" height="39" x="286" y="191"/>
+  <SubTexture name="yuanjian/right_arm_up" width="12" height="20" x="142" y="147"/>
+  <SubTexture name="yuanjian/right_hand" width="8" height="10" x="323" y="137"/>
+  <SubTexture name="yuanjian/right_arm" width="13" height="19" x="469" y="126"/>
+  <SubTexture name="yuanjian/hair_4" width="59" height="50" x="180" y="304"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" x="469" y="230"/>
+</TextureAtlas>

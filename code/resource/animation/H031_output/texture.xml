@@ -1,0 +1,65 @@
+<TextureAtlas name="H031" width="512" height="1024">
+ <SubTexture name="元件 28" width="24" height="31" cocos2d_pX="12" cocos2d_pY="16" x="486" y="223"/>
+ <SubTexture name="元件 27" width="64" height="67" cocos2d_pX="32" cocos2d_pY="34" x="37" y="384"/>
+ <SubTexture name="元件 26" width="82" height="93" cocos2d_pX="41" cocos2d_pY="47" x="402" y="200"/>
+ <SubTexture name="元件 25" width="84" height="96" cocos2d_pX="42" cocos2d_pY="48" x="404" y="102"/>
+ <SubTexture name="元件 24" width="82" height="95" cocos2d_pX="41" cocos2d_pY="48" x="0" y="154"/>
+ <SubTexture name="元件 23" width="88" height="100" cocos2d_pX="44" cocos2d_pY="50" x="408" y="0"/>
+ <SubTexture name="元件 22" width="88" height="88" cocos2d_pX="44" cocos2d_pY="44" x="126" y="158"/>
+ <SubTexture name="元件 21" width="90" height="74" cocos2d_pX="45" cocos2d_pY="37" x="251" y="301"/>
+ <SubTexture name="元件 20" width="65" height="71" cocos2d_pX="33" cocos2d_pY="36" x="126" y="355"/>
+ <SubTexture name="元件 6" width="61" height="105" cocos2d_pX="31" cocos2d_pY="53" x="126" y="248"/>
+ <SubTexture name="元件 9" width="113" height="74" cocos2d_pX="57" cocos2d_pY="37" x="272" y="153"/>
+ <SubTexture name="元件 10" width="135" height="80" cocos2d_pX="68" cocos2d_pY="40" x="0" y="0"/>
+ <SubTexture name="元件 11" width="133" height="75" cocos2d_pX="67" cocos2d_pY="38" x="137" y="81"/>
+ <SubTexture name="元件 12" width="128" height="71" cocos2d_pX="64" cocos2d_pY="36" x="274" y="80"/>
+ <SubTexture name="元件 13" width="114" height="59" cocos2d_pX="57" cocos2d_pY="30" x="396" y="295"/>
+ <SubTexture name="元件 15" width="110" height="61" cocos2d_pX="55" cocos2d_pY="31" x="338" y="418"/>
+ <SubTexture name="元件 18" width="100" height="35" cocos2d_pX="50" cocos2d_pY="18" x="0" y="453"/>
+ <SubTexture name="元件 8" width="104" height="70" cocos2d_pX="52" cocos2d_pY="35" x="251" y="229"/>
+ <SubTexture name="元件 7" width="135" height="79" cocos2d_pX="68" cocos2d_pY="40" x="137" y="0"/>
+ <SubTexture name="元件 5" width="132" height="78" cocos2d_pX="66" cocos2d_pY="39" x="274" y="0"/>
+ <SubTexture name="元件 4" width="124" height="70" cocos2d_pX="62" cocos2d_pY="35" x="0" y="82"/>
+ <SubTexture name="元件 3" width="113" height="60" cocos2d_pX="57" cocos2d_pY="30" x="381" y="356"/>
+ <SubTexture name="元件 2" width="108" height="59" cocos2d_pX="54" cocos2d_pY="30" x="103" y="428"/>
+ <SubTexture name="元件 1" width="90" height="34" cocos2d_pX="45" cocos2d_pY="17" x="213" y="480"/>
+ <SubTexture name="重复项目文件夹/元件 2 副本" width="102" height="59" cocos2d_pX="51" cocos2d_pY="30" x="234" y="377"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_arm_up" width="13" height="22" cocos2d_pX="7" cocos2d_pY="11" x="387" y="153"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_arm" width="10" height="17" cocos2d_pX="5" cocos2d_pY="9" x="498" y="66"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_hand" width="8" height="10" cocos2d_pX="4" cocos2d_pY="5" x="126" y="82"/>
+ <SubTexture name="weapon" width="121" height="40" cocos2d_pX="61" cocos2d_pY="20" x="213" y="438"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/chibang_2" width="37" height="35" cocos2d_pX="19" cocos2d_pY="18" x="357" y="278"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/chibang_1" width="28" height="43" cocos2d_pX="14" cocos2d_pY="22" x="189" y="306"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_1" width="22" height="10" cocos2d_pX="11" cocos2d_pY="5" x="189" y="248"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_2" width="19" height="25" cocos2d_pX="10" cocos2d_pY="13" x="251" y="158"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_3" width="17" height="27" cocos2d_pX="10" cocos2d_pY="14" x="251" y="185"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_4" width="27" height="47" cocos2d_pX="14" cocos2d_pY="24" x="357" y="229"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_5" width="60" height="42" cocos2d_pX="32" cocos2d_pY="21" x="189" y="262"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/tousheng_1" width="18" height="26" cocos2d_pX="9" cocos2d_pY="13" x="490" y="171"/>
+ <SubTexture name="biaoqing_5" width="36" height="24" cocos2d_pX="18" cocos2d_pY="15" x="343" y="352"/>
+ <SubTexture name="biaoqing_6" width="35" height="25" cocos2d_pX="18" cocos2d_pY="15" x="37" y="355"/>
+ <SubTexture name="biaoqing_1" width="35" height="31" cocos2d_pX="18" cocos2d_pY="20" x="0" y="345"/>
+ <SubTexture name="biaoqing_3" width="35" height="22" cocos2d_pX="18" cocos2d_pY="13" x="338" y="378"/>
+ <SubTexture name="biaoqing_8" width="30" height="24" cocos2d_pX="15" cocos2d_pY="16" x="219" y="345"/>
+ <SubTexture name="biaoqing_7" width="35" height="24" cocos2d_pX="18" cocos2d_pY="15" x="0" y="378"/>
+ <SubTexture name="biaoqing_4" width="35" height="25" cocos2d_pX="18" cocos2d_pY="15" x="74" y="357"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/head" width="47" height="49" cocos2d_pX="26" cocos2d_pY="22" x="61" y="266"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/tousheng_2" width="14" height="19" cocos2d_pX="7" cocos2d_pY="10" x="387" y="177"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/body" width="28" height="38" cocos2d_pX="15" cocos2d_pY="23" x="96" y="317"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_7" width="40" height="110" cocos2d_pX="20" cocos2d_pY="56" x="84" y="154"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/qunzi_1" width="30" height="37" cocos2d_pX="10" cocos2d_pY="19" x="219" y="306"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/qunzi_2" width="33" height="36" cocos2d_pX="17" cocos2d_pY="18" x="61" y="317"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/qunzi_3" width="34" height="35" cocos2d_pX="17" cocos2d_pY="18" x="343" y="315"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_up_leg" width="19" height="32" cocos2d_pX="10" cocos2d_pY="16" x="490" y="102"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_down_leg" width="11" height="25" cocos2d_pX="6" cocos2d_pY="13" x="498" y="0"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/left_foot" width="12" height="14" cocos2d_pX="6" cocos2d_pY="7" x="498" y="85"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/right_down_leg" width="11" height="17" cocos2d_pX="6" cocos2d_pY="9" x="498" y="47"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/right_foot" width="13" height="12" cocos2d_pX="7" cocos2d_pY="6" x="387" y="198"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/right_up_leg" width="13" height="33" cocos2d_pX="7" cocos2d_pY="17" x="490" y="136"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/right_arm_up" width="16" height="22" cocos2d_pX="8" cocos2d_pY="11" x="490" y="199"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/right_arm" width="12" height="18" cocos2d_pX="6" cocos2d_pY="9" x="498" y="27"/>
+ <SubTexture name="hei.psd 资源 9/right_hand" width="8" height="9" cocos2d_pX="4" cocos2d_pY="4" x="126" y="94"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_6" width="33" height="102" cocos2d_pX="7" cocos2d_pY="51" x="216" y="158"/>
+ <SubTexture name="穹妹善恶2.psd 资源 9/hair_8" width="59" height="92" cocos2d_pX="30" cocos2d_pY="46" x="0" y="251"/>
+ <SubTexture name="yuanjian/Leiqie_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="193" y="371"/>
+</TextureAtlas>

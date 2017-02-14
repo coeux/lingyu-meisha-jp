@@ -1,0 +1,24 @@
+<skeleton name="szwpugong" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="szwpugong">
+      <b name="20023.png" x="-6.4" y="4.68" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 6" pX="32.73" pY="19.43"/>
+        <d name="元件 7" pX="34.42" pY="16.68"/>
+        <d name="元件 8" pX="36.1" pY="13.68"/>
+        <d name="元件 9" pX="36.73" pY="15.88"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="szwpugong">
+      <mov name="play" dr="4" to="0" drTW="4" lp="1" twE="NaN">
+        <b name="20023.png" sc="1" dl="0">
+          <f x="-6.4" y="4.68" cocos2d_x="-6" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-12.52" y="1.15" cocos2d_x="-12" cocos2d_y="2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" dr="1"/>
+          <f x="-15.95" y="-3.1" cocos2d_x="-15" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="2" dr="1"/>
+          <f x="-14.75" y="-1.77" cocos2d_x="-14" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

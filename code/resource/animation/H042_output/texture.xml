@@ -1,0 +1,78 @@
+<TextureAtlas name="H042" width="512" height="512">
+  <SubTexture name="head _wing" width="0" height="0" x="509" y="0"/>
+  <SubTexture name="元件 1" width="0" height="0" x="507" y="0"/>
+  <SubTexture name="元件 27" width="149" height="107" x="171" y="0"/>
+  <SubTexture name="元件 28" width="6" height="7" x="449" y="100"/>
+  <SubTexture name="重复项目文件夹/元件 27" width="17" height="13" x="379" y="281"/>
+  <SubTexture name="重复项目文件夹/元件 26" width="26" height="13" x="263" y="381"/>
+  <SubTexture name="重复项目文件夹/元件 25" width="46" height="23" x="297" y="399"/>
+  <SubTexture name="重复项目文件夹/元件 24" width="40" height="22" x="398" y="262"/>
+  <SubTexture name="重复项目文件夹/元件 23" width="37" height="22" x="272" y="302"/>
+  <SubTexture name="重复项目文件夹/元件 22" width="34" height="24" x="440" y="283"/>
+  <SubTexture name="元件 21" width="30" height="25" x="272" y="326"/>
+  <SubTexture name="重复项目文件夹/元件 20" width="76" height="31" x="137" y="357"/>
+  <SubTexture name="重复项目文件夹/元件 19" width="74" height="27" x="361" y="376"/>
+  <SubTexture name="重复项目文件夹/元件 18" width="79" height="25" x="134" y="390"/>
+  <SubTexture name="元件 17" width="80" height="20" x="215" y="397"/>
+  <SubTexture name="元件 16" width="70" height="24" x="345" y="405"/>
+  <SubTexture name="元件 15" width="48" height="29" x="0" y="393"/>
+  <SubTexture name="重复项目文件夹/元件 14" width="35" height="26" x="277" y="274"/>
+  <SubTexture name="元件 13" width="37" height="20" x="468" y="309"/>
+  <SubTexture name="元件 12" width="33" height="14" x="466" y="351"/>
+  <SubTexture name="重复项目文件夹/元件 11" width="24" height="15" x="50" y="393"/>
+  <SubTexture name="元件 29" width="169" height="105" x="0" y="0"/>
+  <SubTexture name="元件 30" width="138" height="98" x="322" y="0"/>
+  <SubTexture name="元件 11" width="25" height="77" x="462" y="67"/>
+  <SubTexture name="元件 10" width="41" height="65" x="462" y="0"/>
+  <SubTexture name="元件 9" width="55" height="49" x="304" y="348"/>
+  <SubTexture name="元件 8" width="71" height="59" x="0" y="275"/>
+  <SubTexture name="元件 7" width="131" height="49" x="162" y="186"/>
+  <SubTexture name="元件 6" width="161" height="65" x="0" y="107"/>
+  <SubTexture name="元件 5" width="125" height="105" x="322" y="100"/>
+  <SubTexture name="元件 4" width="142" height="75" x="163" y="109"/>
+  <SubTexture name="元件 20" width="129" height="38" x="146" y="237"/>
+  <SubTexture name="元件 19" width="129" height="38" x="141" y="317"/>
+  <SubTexture name="元件 18" width="129" height="38" x="141" y="277"/>
+  <SubTexture name="元件 2_2" width="21" height="26" x="272" y="353"/>
+  <SubTexture name="元件 2" width="13" height="17" x="307" y="153"/>
+  <SubTexture name="元件 3_3" width="21" height="25" x="63" y="366"/>
+  <SubTexture name="元件 3" width="13" height="17" x="307" y="134"/>
+  <SubTexture name="pet_27006" width="0" height="0" x="505" y="0"/>
+  <SubTexture name="小丑.psd 资源/lingzi" width="36" height="18" x="468" y="331"/>
+  <SubTexture name="小丑.psd 资源/left_arm" width="31" height="33" x="444" y="248"/>
+  <SubTexture name="小丑.psd 资源/left_hand" width="18" height="11" x="73" y="300"/>
+  <SubTexture name="小丑.psd 资源/left_arm_up" width="31" height="38" x="479" y="238"/>
+  <SubTexture name="小丑.psd 资源/3_1" width="28" height="28" x="438" y="309"/>
+  <SubTexture name="小丑.psd 资源/2_1" width="24" height="28" x="63" y="336"/>
+  <SubTexture name="小丑.psd 资源/1_1_1" width="33" height="38" x="444" y="208"/>
+  <SubTexture name="小丑.psd 资源/1_1" width="18" height="23" x="73" y="275"/>
+  <SubTexture name="小丑.psd 资源/hair_3" width="23" height="38" x="295" y="234"/>
+  <SubTexture name="小丑.psd 资源/hair_4" width="29" height="60" x="449" y="146"/>
+  <SubTexture name="小丑.psd 资源/hair_5" width="17" height="40" x="489" y="114"/>
+  <SubTexture name="小丑.psd 资源/hair_6" width="91" height="99" x="0" y="174"/>
+  <SubTexture name="biaoqing_5" width="46" height="38" x="93" y="307"/>
+  <SubTexture name="biaoqing_4" width="46" height="38" x="89" y="347"/>
+  <SubTexture name="biaoqing_2" width="46" height="37" x="459" y="367"/>
+  <SubTexture name="biaoqing_6" width="46" height="36" x="86" y="387"/>
+  <SubTexture name="biaoqing_1" width="46" height="38" x="215" y="357"/>
+  <SubTexture name="小丑.psd 资源/head" width="63" height="65" x="314" y="281"/>
+  <SubTexture name="小丑.psd 资源/qianlian" width="28" height="42" x="480" y="156"/>
+  <SubTexture name="body" width="57" height="66" x="379" y="308"/>
+  <SubTexture name="小丑.psd 资源/qunzi_1" width="44" height="53" x="398" y="207"/>
+  <SubTexture name="小丑.psd 资源/qunzi_2" width="61" height="55" x="0" y="336"/>
+  <SubTexture name="小丑.psd 资源/left_foot" width="19" height="22" x="438" y="366"/>
+  <SubTexture name="left_up_leg" width="23" height="46" x="295" y="186"/>
+  <SubTexture name="小丑.psd 资源/left_down_leg" width="14" height="31" x="146" y="174"/>
+  <SubTexture name="小丑.psd 资源/right_up_leg" width="18" height="45" x="489" y="67"/>
+  <SubTexture name="小丑.psd 资源/right_down_leg" width="15" height="23" x="277" y="237"/>
+  <SubTexture name="小丑.psd 资源/right_foot" width="19" height="19" x="437" y="390"/>
+  <SubTexture name="小丑.psd 资源/right_arm" width="28" height="29" x="477" y="278"/>
+  <SubTexture name="小丑.psd 资源/right_arm_up" width="27" height="36" x="480" y="200"/>
+  <SubTexture name="right_hand" width="12" height="11" x="307" y="172"/>
+  <SubTexture name="bianzi_1" width="76" height="72" x="320" y="207"/>
+  <SubTexture name="小丑.psd 资源/鞭子杆 副本" width="26" height="25" x="438" y="339"/>
+  <SubTexture name="小丑.psd 资源/hair_2" width="46" height="42" x="93" y="263"/>
+  <SubTexture name="小丑.psd 资源/hair_1" width="13" height="23" x="307" y="109"/>
+  <SubTexture name="小丑.psd 资源/maozi" width="51" height="87" x="93" y="174"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" x="398" y="286"/>
+</TextureAtlas>

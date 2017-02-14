@@ -1,0 +1,13 @@
+<TextureAtlas name="技能2" width="512" height="256">
+ <SubTexture name="tupian/元件 12" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="206" y="110"/>
+ <SubTexture name="tupian/元件 11" width="113" height="74" cocos2d_pX="57" cocos2d_pY="37" x="392" y="87"/>
+ <SubTexture name="tupian/元件 10" width="107" height="78" cocos2d_pX="54" cocos2d_pY="39" x="0" y="108"/>
+ <SubTexture name="tupian/元件 9" width="120" height="103" cocos2d_pX="60" cocos2d_pY="52" x="270" y="0"/>
+ <SubTexture name="tupian/元件 8" width="119" height="104" cocos2d_pX="60" cocos2d_pY="52" x="270" y="105"/>
+ <SubTexture name="tupian/元件 7" width="134" height="106" cocos2d_pX="67" cocos2d_pY="53" x="0" y="0"/>
+ <SubTexture name="tupian/元件 6" width="132" height="108" cocos2d_pX="66" cocos2d_pY="54" x="136" y="0"/>
+ <SubTexture name="tupian/元件 5" width="103" height="85" cocos2d_pX="62" cocos2d_pY="49" x="392" y="0"/>
+ <SubTexture name="tupian/元件 4" width="95" height="49" cocos2d_pX="48" cocos2d_pY="25" x="109" y="110"/>
+ <SubTexture name="tupian/元件 3" width="93" height="51" cocos2d_pX="47" cocos2d_pY="26" x="109" y="161"/>
+ <SubTexture name="tupian/元件 2" width="76" height="32" cocos2d_pX="30" cocos2d_pY="35" x="391" y="163"/>
+</TextureAtlas>

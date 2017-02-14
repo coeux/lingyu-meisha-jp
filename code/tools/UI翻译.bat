@@ -1,0 +1,2 @@
+ruby Translate.rb
+pause

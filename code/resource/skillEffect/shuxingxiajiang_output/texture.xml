@@ -1,0 +1,37 @@
+<TextureAtlas name="shuxingxiajiang" width="512" height="256">
+  <SubTexture name="物攻22" width="42" height="21" x="296" y="98"/>
+  <SubTexture name="物防22" width="40" height="21" x="215" y="115"/>
+  <SubTexture name="技攻22" width="42" height="21" x="0" y="100"/>
+  <SubTexture name="技防22" width="40" height="21" x="173" y="113"/>
+  <SubTexture name="日文原件/双攻" width="62" height="20" x="66" y="92"/>
+  <SubTexture name="日文原件/双防" width="61" height="22" x="233" y="91"/>
+  <SubTexture name="日文原件/暴击" width="81" height="21" x="44" y="114"/>
+  <SubTexture name="日文原件/闪避" width="42" height="21" x="352" y="95"/>
+  <SubTexture name="日文原件/免伤" width="41" height="21" x="130" y="107"/>
+  <SubTexture name="日文原件/怒气" width="29" height="19" x="257" y="115"/>
+  <SubTexture name="日文原件/combo伤害" width="88" height="22" x="91" y="161"/>
+  <SubTexture name="日文原件/风系伤害" width="89" height="23" x="0" y="137"/>
+  <SubTexture name="日文原件/无系伤害" width="89" height="22" x="91" y="137"/>
+  <SubTexture name="日文原件/火系伤害" width="88" height="22" x="181" y="162"/>
+  <SubTexture name="日文原件/水系伤害" width="89" height="22" x="182" y="138"/>
+  <SubTexture name="日文原件/水系抗性" width="88" height="23" x="273" y="145"/>
+  <SubTexture name="日文原件/火系抗性" width="88" height="22" x="0" y="162"/>
+  <SubTexture name="日文原件/无系抗性" width="88" height="21" x="363" y="167"/>
+  <SubTexture name="日文原件/风系抗性" width="88" height="21" x="90" y="185"/>
+  <SubTexture name="日文原件/全属性抗性" width="90" height="22" x="288" y="121"/>
+  <SubTexture name="yuanjian1/元件 19" width="50" height="23" x="181" y="88"/>
+  <SubTexture name="日文原件/全属伤害" width="88" height="21" x="271" y="170"/>
+  <SubTexture name="yuajian2/元件 3" width="15" height="29" x="495" y="87"/>
+  <SubTexture name="yuanjian1/元件 17" width="10" height="58" x="483" y="87"/>
+  <SubTexture name="yuanjian1/元件 16" width="47" height="85" x="453" y="0"/>
+  <SubTexture name="yuanjian1/元件 15" width="48" height="96" x="302" y="0"/>
+  <SubTexture name="yuanjian1/元件 14" width="47" height="93" x="352" y="0"/>
+  <SubTexture name="yuanjian1/元件 13" width="45" height="105" x="134" y="0"/>
+  <SubTexture name="yuanjian1/元件 12" width="66" height="90" x="66" y="0"/>
+  <SubTexture name="yuanjian1/元件 11" width="64" height="98" x="0" y="0"/>
+  <SubTexture name="yuanjian1/元件 10" width="57" height="89" x="243" y="0"/>
+  <SubTexture name="yuanjian1/元件 9" width="60" height="86" x="181" y="0"/>
+  <SubTexture name="yuanjian1/元件 8" width="50" height="82" x="401" y="0"/>
+  <SubTexture name="yuanjian1/元件 7" width="49" height="81" x="401" y="84"/>
+  <SubTexture name="yuanjian1/元件 6" width="29" height="67" x="452" y="87"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<TextureAtlas name="吟唱" width="512" height="512">
+ <SubTexture name="元件 3" width="82" height="80" x="404" y="91"/>
+ <SubTexture name="元件 4" width="141" height="120" x="186" y="270"/>
+ <SubTexture name="元件 5" width="161" height="121" x="225" y="147"/>
+ <SubTexture name="元件 6" width="130" height="113" x="329" y="279"/>
+ <SubTexture name="元件 7" width="223" height="157" x="0" y="0"/>
+ <SubTexture name="元件 8" width="184" height="125" x="0" y="159"/>
+ <SubTexture name="元件 9" width="177" height="145" x="225" y="0"/>
+ <SubTexture name="元件 10" width="117" height="104" x="388" y="173"/>
+ <SubTexture name="元件 11" width="115" height="103" x="0" y="286"/>
+ <SubTexture name="元件 12" width="117" height="98" x="0" y="391"/>
+ <SubTexture name="元件 13" width="110" height="95" x="119" y="392"/>
+ <SubTexture name="元件 14" width="105" height="89" x="404" y="0"/>
+</TextureAtlas>

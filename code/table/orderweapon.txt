@@ -1,0 +1,8 @@
+number	string	number	number	number	number	number	number	number	number
+id	name	quality	role_id	atk	mgc	def	res	hp	cost
+90061	西瓜のメット	1	6	0	0	100	0	0	50
+90063	猫又鈴	3	6	100	0	100	0	150	150
+90072	王者の籠手	2	7	0	0	150	100	0	100
+90073	王者の鎧	3	7	0	0	100	100	150	150
+90572	安全メット	2	57	0	0	150	100	0	100
+90573	七つ工具	3	57	150	0	100	100	0	150

@@ -1,0 +1,16 @@
+<TextureAtlas name="S320" width="512" height="512">
+  <SubTexture name="元件 14" width="81" height="68" x="398" y="306"/>
+  <SubTexture name="元件 13" width="113" height="110" x="233" y="0"/>
+  <SubTexture name="元件 12" width="108" height="111" x="112" y="106"/>
+  <SubTexture name="元件 11" width="114" height="105" x="348" y="0"/>
+  <SubTexture name="元件 10" width="110" height="137" x="0" y="0"/>
+  <SubTexture name="元件 9" width="112" height="104" x="222" y="112"/>
+  <SubTexture name="元件 8" width="119" height="104" x="112" y="0"/>
+  <SubTexture name="元件 7" width="119" height="97" x="348" y="107"/>
+  <SubTexture name="元件 6" width="95" height="89" x="99" y="219"/>
+  <SubTexture name="元件 5" width="81" height="91" x="315" y="306"/>
+  <SubTexture name="元件 4" width="81" height="94" x="0" y="242"/>
+  <SubTexture name="元件 3" width="91" height="94" x="222" y="218"/>
+  <SubTexture name="元件 2" width="96" height="98" x="336" y="206"/>
+  <SubTexture name="元件 1" width="97" height="101" x="0" y="139"/>
+</TextureAtlas>

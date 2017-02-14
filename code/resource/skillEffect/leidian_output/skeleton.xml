@@ -1,0 +1,33 @@
+<skeleton name="leidian" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="leidian">
+   <b name="图层 3" x="-7.52" y="-40.8" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="-0.05" z="0">
+    <d name="元件 18" pX="51.5" pY="61.03"/>
+    <d name="元件 19" pX="70.18" pY="71.68"/>
+    <d name="元件 20" pX="67.35" pY="65.65"/>
+    <d name="元件 21" pX="50.28" pY="62"/>
+    <d name="元件 22" pX="73.75" pY="71.53"/>
+    <d name="元件 23" pX="69.85" pY="63.83"/>
+    <d name="元件 24" pX="50.75" pY="60.45"/>
+    <d name="元件 25" pX="43.68" pY="48.68"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="leidian">
+   <mov name="play" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f x="-7.52" y="-40.8" cocos2d_x="-7" cocos2d_y="-40" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="-0.05" z="0" dI="0" dr="1"/>
+     <f x="-9.3" y="-42.42" cocos2d_x="-9" cocos2d_y="-42" kX="0" kY="0" cX="0.68" cY="0.68" pX="-0.02" pY="-0.02" z="0" dI="1" dr="2"/>
+     <f x="-10.67" y="-38.27" cocos2d_x="-10" cocos2d_y="-38" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="-0.02" z="0" dI="2" dr="2"/>
+     <f x="5.68" y="-39.9" cocos2d_x="6" cocos2d_y="-39" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="7.1" y="-42.92" cocos2d_x="8" cocos2d_y="-42" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="7.5" y="-37.12" cocos2d_x="8" cocos2d_y="-37" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-7.72" y="-40.42" cocos2d_x="-7" cocos2d_y="-40" kX="0" kY="0" cX="0.68" cY="0.68" pX="-0.05" pY="0" z="0" dI="6" dr="2"/>
+     <f x="4.28" y="-28.57" cocos2d_x="5" cocos2d_y="-28" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

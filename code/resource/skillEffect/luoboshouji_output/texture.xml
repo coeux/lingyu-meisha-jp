@@ -1,0 +1,12 @@
+<TextureAtlas name="受击" width="512" height="256">
+ <SubTexture name="10010.png" width="100" height="75" x="102" y="0"/>
+ <SubTexture name="10009.png" width="100" height="75" x="408" y="77"/>
+ <SubTexture name="10008.png" width="100" height="75" x="306" y="0"/>
+ <SubTexture name="10007.png" width="100" height="75" x="306" y="77"/>
+ <SubTexture name="10006.png" width="100" height="75" x="0" y="77"/>
+ <SubTexture name="10005.png" width="100" height="75" x="0" y="0"/>
+ <SubTexture name="10004.png" width="100" height="75" x="204" y="0"/>
+ <SubTexture name="10003.png" width="100" height="75" x="408" y="0"/>
+ <SubTexture name="10002.png" width="100" height="75" x="102" y="77"/>
+ <SubTexture name="10001.png" width="100" height="75" x="204" y="77"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<TextureAtlas name="S820_shouji_1" width="512" height="1024">
+ <SubTexture name="元件 14" width="73" height="45" cocos2d_pX="64" cocos2d_pY="48" x="174" y="446"/>
+ <SubTexture name="元件 13" width="129" height="75" cocos2d_pX="76" cocos2d_pY="71" x="0" y="409"/>
+ <SubTexture name="元件 12" width="138" height="87" cocos2d_pX="79" cocos2d_pY="69" x="133" y="357"/>
+ <SubTexture name="元件 11" width="143" height="100" cocos2d_pX="80" cocos2d_pY="78" x="307" y="347"/>
+ <SubTexture name="元件 10" width="160" height="110" cocos2d_pX="78" cocos2d_pY="82" x="0" y="173"/>
+ <SubTexture name="元件 9" width="157" height="125" cocos2d_pX="90" cocos2d_pY="88" x="311" y="120"/>
+ <SubTexture name="元件 8" width="143" height="117" cocos2d_pX="72" cocos2d_pY="75" x="162" y="238"/>
+ <SubTexture name="元件 7" width="171" height="118" cocos2d_pX="86" cocos2d_pY="90" x="311" y="0"/>
+ <SubTexture name="元件 27" width="131" height="122" cocos2d_pX="66" cocos2d_pY="61" x="0" y="285"/>
+ <SubTexture name="元件 5" width="196" height="171" cocos2d_pX="98" cocos2d_pY="86" x="0" y="0"/>
+ <SubTexture name="元件 4" width="169" height="98" cocos2d_pX="132" cocos2d_pY="75" x="307" y="247"/>
+ <SubTexture name="元件 3" width="111" height="236" cocos2d_pX="68" cocos2d_pY="144" x="198" y="0"/>
+ <SubTexture name="元件 26" width="41" height="84" cocos2d_pX="26" cocos2d_pY="58" x="131" y="446"/>
+ <SubTexture name="元件 1" width="53" height="151" cocos2d_pX="37" cocos2d_pY="76" x="452" y="347"/>
+</TextureAtlas>

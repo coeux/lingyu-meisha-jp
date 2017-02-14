@@ -1,0 +1,1530 @@
+db_account_t = 
+{
+    db = {
+        aid = 'uint32_t',
+        domain='ystring_t<10>',
+        name = 'ystring_t<20>',
+        flag = 'uint8_t',
+        lasthostnum = 'uint16_t',
+        lastuid = 'uint32_t',
+    },
+    key = {'aid', 'name'},
+    --autokey = {'aid'},
+    ops_conditon = {
+        sel = {
+            select_name = {'domain', 'name'},
+            select_aid = {'aid'},
+        },
+        update = {
+            {'aid'},
+        },
+        del = {
+            {'aid'},
+        },
+    }
+}
+
+db_cdkey_t =
+{
+    db = {
+        sn = 'ystring_t<8>',
+        flag = 'int32_t',
+        expire_date = 'ystring_t<30>',
+        uid = 'int32_t',
+        nickname = 'ystring_t<30>',
+        giventm = 'ystring_t<30>',
+    },
+    key = {'sn'},
+    ops_conditon = {
+        sel = {
+            select_sn = {'sn'},
+        },
+        update = {
+            {'sn'},
+        },
+    }
+}
+
+db_userid_t = 
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        resid = 'int32_t',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        grade = 'int32_t',
+        viplevel = 'int32_t',
+        state = 'int32_t',
+    },
+    key = {'aid', 'uid', 'resid'},
+    --autokey = {'uid'},
+    ops_conditon = {
+        sel = {
+            select_user = {'aid', 'hostnum'},
+            select_user_state = {'aid', 'hostnum', 'state'},
+            select_user_condition = {'aid', 'hostnum', '@condition'},
+            select_uid = {'uid'},
+            select_uid_state = {'uid', 'state'},
+            select_all_uid_state = {'aid', 'state'},
+            select_uid_condition = {'uid', '@condition'},
+        },
+        update = {
+            {'uid'},
+        },
+        del = {
+            {'uid'},
+        },
+    }
+}
+
+db_newaccount_t =
+{
+    db = {
+        domain = 'ystring_t<10>',
+        name = 'ystring_t<64>',
+        aid = 'int32_t',
+        ctime = 'ystring_t<30>',
+    },
+    ops_conditon = {},
+}
+
+db_buylog_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        vip = 'int32_t',
+        buytm = 'ystring_t<30>',
+        resid = 'int32_t',
+        itemname = 'ystring_t<30>',
+        count = 'int32_t',
+        buytype = 'int32_t',
+        price = 'int32_t',
+        payyb = 'int32_t',
+        freeyb = 'int32_t',
+        fpoint = 'int32_t',
+    },
+    ops_conditon = {},
+}
+
+db_fpexception_t =
+{
+    db = {
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        aid = 'int32_t',
+        uid = 'int32_t',
+        nickname = 'ystring_t<30>',
+        resid = 'int32_t',
+        rolefp = 'int32_t',
+        resfp = 'int32_t',
+    },
+    ops_conditon = {},
+}
+
+db_yblog_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        hostnum = 'int32_t',
+        sid = 'int32_t',
+        nickname = 'ystring_t<30>',
+        name = 'ystring_t<32>',
+        domain = 'ystring_t<10>',
+        appid = 'ystring_t<32>',
+        domain = 'ystring_t<10>',
+        serid = 'int32_t',
+        payyb = 'int32_t',
+        freeyb = 'int32_t',
+        totalyb = 'int32_t',
+        resid = 'int32_t',
+        price = 'int32_t',
+        count = 'int32_t',
+        rmb = 'int32_t',
+        tradetm = 'ystring_t<30>',
+        giventm = 'ystring_t<30>',
+    },
+    ops_conditon = {},
+}
+db_eventlog_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        eventid = 'int32_t',
+        eventm = 'ystring_t<30>',
+        resid = 'int32_t',
+        count = 'int32_t',
+        code = 'int32_t',
+        flag = 'int32_t',
+        extra = 'ystring_t<300>',
+    },
+    ops_conditon = {},
+}
+db_consumelog_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        consumetm = 'ystring_t<30>',
+        consumetype = 'int32_t',
+        resid = 'int32_t',
+        itemname = 'ystring_t<30>',
+        count = 'int32_t',
+        balance = 'int32_t',
+    },
+    ops_conditon = {},
+}
+db_quitlog_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        name = 'ystring_t<32>',
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        counttime = 'int32_t',
+        totaltime = 'int32_t',
+        logintm = 'ystring_t<30>',
+        quittm = 'ystring_t<30>',
+        mac = 'ystring_t<64>',
+        sys = 'int32_t',
+        device = 'ystring_t<20>',
+        os = 'ystring_t<20>',
+        grade = 'int32_t',
+        exp = 'int32_t',
+        resid = 'int32_t',
+        vip = 'int32_t',
+        questid = 'int32_t',
+        step = 'int32_t',
+    },
+    ops_conditon = {},
+}
+db_online_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        serid = 'int32_t',
+        name = 'ystring_t<32>',
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        nickname = 'ystring_t<30>',
+        counttime = 'int32_t',
+        logintm = 'ystring_t<30>',
+        loginstamp = 'uint32_t',
+        mac = 'ystring_t<64>',
+        sys = 'int32_t',
+        device = 'ystring_t<20>',
+        os = 'ystring_t<20>',
+        grade = 'int32_t',
+        exp = 'int32_t',
+        resid = 'int32_t',
+        vip = 'int32_t',
+        questid = 'int32_t',
+    },
+    ops_conditon = {},
+}
+
+db_newrole_t =
+{
+    db = {
+        domain = 'ystring_t<10>',
+        hostnum = 'int32_t',
+        aid = 'int32_t',
+        uid = 'int32_t',
+        mac = 'ystring_t<64>',
+        ctime = 'ystring_t<30>',
+    },
+    ops_conditon = {},
+}
+
+db_userinfo_t =
+{
+    db = {
+        uid = 'int32_t',
+        aid = 'int32_t',
+        resid = 'int32_t',
+        nickname = 'ystring_t<30>',
+        hostnum = 'int32_t',
+        vipexp = 'int32_t',
+        viplevel = 'int32_t',
+        fpoint = 'int32_t',
+        gold = 'int32_t',
+        payyb = 'int32_t',
+        freeyb = 'int32_t',
+        exp = 'int32_t',
+        grade = 'int32_t',
+        isnew = 'int32_t',
+        ybflushpub = 'int32_t',
+        ybround='int32_t',
+        hybflushpub = 'int32_t',
+        hybround = 'int32_t',
+        hybgold = 'int32_t',
+        autopub = 'int32_t',
+        power = 'int32_t',
+        energy = 'int32_t',
+        quality = 'int32_t',
+        potential = 'int32_t',
+        battlexp = 'int32_t',
+        runechip = 'int32_t',
+        sceneid = 'int32_t',
+        roundid = 'int32_t',
+        eliteid = 'int32_t',
+        zodiacid = 'int32_t',
+        questid = 'int32_t',
+        treasure = 'int32_t',
+        lastquit = 'uint32_t',
+        roundstars = 'ystring_t<1024>',
+        --achievement = 'ystring_t<1024>',
+        rank = 'int32_t',
+        fp = 'int32_t',
+        helphero = 'int32_t',
+        hhresid = 'int32_t',
+        frd = 'int32_t',
+        ggid = 'int32_t',
+        totaltime = 'uint32_t',
+        bagn = 'int32_t',
+        func = 'uint64_t',
+        utype='int32_t',
+        boxn='int32_t',
+        boxe='int32_t',
+    },
+    key = {'uid', 'resid', 'aid', 'nickname'},
+    ops_conditon = {
+        sel = {
+            select_user = {'uid'}
+        },
+        update = {
+            {'uid'},
+        },
+        del = {
+            {'uid'},
+        },
+    }
+}
+
+db_partner_t=
+{
+    db = {
+        pid = 'int32_t',
+        uid = 'int32_t',
+        resid = 'int32_t',
+        grade = 'int32_t',
+        exp = 'int32_t',
+        quality = 'int32_t',
+        potential = 'int32_t',
+    },
+    key = {'uid', 'pid', 'resid'},
+    --autokey = {'pid'},
+    ops_conditon = {
+        sel = {
+            select_partner = {'uid'}
+        },
+        update = {
+            {'uid', 'pid'},
+        },
+        del = {
+            {'uid', 'pid'},
+        },
+    }
+}
+
+db_item_t=
+{
+    db = {
+        itid = 'int32_t',
+        uid = 'int32_t',
+        resid = 'int32_t',
+        count = 'int32_t',
+    },
+    key = {'itid', 'uid', 'resid'},
+    --autokey = {'itid'},
+    ops_conditon = {
+        sel = {
+            select_item_all = {'uid'},
+        },
+        update = {
+            {'uid', 'itid'},
+        },
+        del = {
+            {'uid', 'itid'},
+        },
+    }
+}
+
+db_equip_t = 
+{
+    db = {
+        eid = 'int32_t',
+        resid = 'int32_t',
+        uid = 'int32_t',
+        pid = 'int32_t',
+        gresid1 = 'int32_t',
+        gresid2 = 'int32_t',
+        gresid3 = 'int32_t',
+        strenlevel = 'int32_t',
+        isweared = 'int32_t', 
+    },
+    key = {'eid', 'uid'},
+    --autokey = {'eid'},
+    ops_conditon = {
+        sel = {
+            select_equip_all = {'uid'},
+        },
+        update = {
+            {'uid', 'eid'},
+        },
+        del = {
+            {'uid', 'eid'},
+        },
+    }
+}
+
+db_skill_t = 
+{
+    db = {
+        skid  = 'int32_t',
+        resid  = 'int32_t',
+        uid  = 'int32_t',
+        pid  = 'int32_t',
+        level  = 'int32_t',
+    },
+    key = {'skid', 'uid', 'pid'},
+    ops_conditon = {
+        sel = {
+            select_skill = {'uid'}
+        },
+        update = {
+            {'uid', 'skid'},
+        },
+        del = {
+            {'uid', 'skid'},
+        },
+    }
+}
+
+db_team_t = 
+{
+    db = {
+        uid = 'int32_t',
+        p1 = 'int32_t',
+        p2 = 'int32_t',
+        p3 = 'int32_t',
+        p4 = 'int32_t',
+        p5 = 'int32_t',
+    },
+    key = {'uid'},
+    ops_conditon = {
+        sel = {
+            select_team = {'uid'}
+        },
+        update = {
+            {'uid'},
+        },
+        del = {
+            {'uid'},
+        },
+    }
+}
+
+db_server_t = 
+{
+    db = {
+        serid = 'int32_t',
+        maxlv = 'int32_t',
+        wbcut = 'uint32_t',
+        bosslv = 'int32_t',
+        result_rank_stamp = 'uint32_t',
+        ctime = 'uint32_t',
+    },
+    key = {'serid'},
+    ops_conditon = {
+        sel = {
+            select_server = {'serid'}
+        },
+        update = {
+            {'serid'},
+        },
+        del = {
+            {'serid'},
+        },
+    }
+}
+
+db_reward_t = 
+{
+    db = {
+        uid = 'int32_t',
+        vip1 = 'int32_t',
+        vip2 = 'int32_t',
+        vip3 = 'int32_t',
+        vip4 = 'int32_t',
+        vip5 = 'int32_t',
+        vip6 = 'int32_t',
+        vip7 = 'int32_t',
+        vip8 = 'int32_t',
+        vip9 = 'int32_t',
+        vip10 = 'int32_t',
+        vip11 = 'int32_t',
+        vip12 = 'int32_t',
+        given_power_stamp = 'uint32_t',
+        given_rank_stamp = 'uint32_t',
+        first_yb = 'int32_t',
+        acc_yb1 = 'int32_t',
+        acc_yb2 = 'int32_t',
+        acc_yb3 = 'int32_t',
+        acc_yb4 = 'int32_t',
+        acc_yb5 = 'int32_t',
+        acc_yb6 = 'int32_t',
+        acc_yb7 = 'int32_t',
+        yblevel = 'int32_t',
+        con_lg1 = 'int32_t',
+        con_lg2 = 'int32_t',
+        con_lg3 = 'int32_t',
+        con_lg4 = 'int32_t',
+        con_lg5 = 'int32_t',
+        con_lg6 = 'int32_t',
+        con_lg7 = 'int32_t',
+        conhero = 'int32_t',
+        conlglevel = 'int32_t',
+        acc_lg1 = 'int32_t',
+        acc_lg2 = 'int32_t',
+        acc_lg3 = 'int32_t',
+        acc_lg4 = 'int32_t',
+        acc_lg5 = 'int32_t',
+        acc_lg6 = 'int32_t',
+        acc_lg7 = 'int32_t',
+        acc_lg8 = 'int32_t',
+        acc_lg9 = 'int32_t',
+        acc_lg10 = 'int32_t',
+        acc_lg11 = 'int32_t',
+        acc_lg12 = 'int32_t',
+        acc_lg13 = 'int32_t',
+        acc_lg14 = 'int32_t',
+        acc_lg15 = 'int32_t',
+        acc_lg16 = 'int32_t',
+        acc_lg17 = 'int32_t',
+        acc_lg18 = 'int32_t',
+        acc_lg19 = 'int32_t',
+        acc_lg20 = 'int32_t',
+        acc_lg21 = 'int32_t',
+        acc_lg22 = 'int32_t',
+        acc_lg23 = 'int32_t',
+        acc_lg24 = 'int32_t',
+        acclglevel = 'int32_t',
+        acclgexp = 'int32_t',
+        first_login = 'uint32_t',
+        last_login = 'uint32_t',
+        invcode = 'int32_t',
+        inviter = 'int32_t',
+        inv_reward1 = 'int32_t',
+        inv_reward2 = 'int32_t',
+        inv_reward3 = 'int32_t',
+        inv_reward4 = 'int32_t',
+        lv_20 = 'int32_t',
+        lv_25 = 'int32_t',
+        lv_30 = 'int32_t',
+        lv_35 = 'int32_t',
+        lv_40 = 'int32_t',
+        lv_45 = 'int32_t',
+        lv_50 = 'int32_t',
+        lv_55 = 'int32_t',
+        lv_60 = 'int32_t',
+        lv_65 = 'int32_t',
+        lv_70 = 'int32_t',
+        online = 'int32_t',
+        cumureward = 'int32_t',
+        cumulevel= 'int32_t',
+    },
+    key = {'uid'},
+    ops_conditon = {
+        sel = {
+            select_reward = {'uid'}
+        },
+        update = {
+            {'uid'},
+        },
+        del = {
+            {'uid'},
+        },
+    }
+}
+
+db_task_t = 
+{
+    db = {
+        uid = 'int32_t',
+        resid = 'int32_t',
+        step = 'int32_t',
+        state = 'int32_t',
+    },
+    key = {'uid', 'resid'},
+    --autokey = {'rwid'},
+    ops_conditon = {
+        sel = {
+            select_task = {'uid'}
+        },
+        update = {
+            {'uid', 'resid'},
+        },
+        del = {
+            {'uid', 'resid'},
+        },
+    }
+}
+
+db_friend_t =
+{
+    db = {
+        uid = 'int32_t',
+        fuid = 'int32_t',
+    },
+    key = {'uid','fuid'},
+    ops_conditon = {
+        sel = {
+            select_friend = {'uid'}
+        },
+--        update = {
+--            {'uid','fuid'},
+--        },
+        del = {
+            {'uid','fuid'},
+        },
+    }
+}
+
+db_rune_t =
+{
+    db = {
+        uid = 'int32_t',
+        rid = 'int32_t',
+        pid = 'int32_t',
+        resid = 'int32_t',
+        exp = 'int32_t',
+        pos = 'int32_t',
+    },
+    key = {'rid'},
+    ops_conditon = {
+        sel = {
+            select_rune = {'uid'}
+        },
+        update = {
+            {'uid','rid'},
+        },
+        del = {
+            {'uid','rid'},
+        },
+    }
+}
+
+db_star_t =
+{
+    db = {
+        uid = 'int32_t',
+        pid = 'int32_t',
+        lv = 'int32_t',
+        pos = 'int32_t',
+        att = 'int32_t',
+        value = 'int32_t',
+    },
+    key = {'uid','pid','lv','pos'},
+    ops_conditon = {
+        sel = {
+            select_star = {'uid'}
+        },
+        update = {
+            {'uid','pid','lv','pos'},
+        },
+    }
+}
+
+db_gang_t = 
+{
+    db = {
+        ggid = 'int32_t',
+        hostnum = 'int32_t',
+        level = 'int32_t',
+        exp = 'int32_t',
+        name = 'ystring_t<30>',
+        notice = 'ystring_t<100>',
+        bossday = 'int32_t',
+        bosslv = 'int32_t',
+        lastboss = 'int32_t',
+    },
+    key = {'ggid', 'hostnum'},
+    ops_conditon = {
+        sel = {
+            select_gang = {'ggid', 'hostnum'},
+            select_host_gang = {'hostnum'}
+        },
+        update = {
+            {'ggid', 'hostnum'},
+        },
+        del = {
+            {'ggid', 'hostnum'},
+        },
+    }
+}
+
+db_compensate_t =
+{
+    db = {
+        id = 'uint32_t',
+        uid = 'uint32_t',
+        resid = 'uint32_t',
+        count = 'uint32_t',
+        state = 'int32_t',
+        givenstamp = 'uint32_t',
+    },
+    key = {'uid'},
+    ops_conditon = {
+        sel = {
+            select_compensate = {'uid','state'},
+        },
+        update = {
+            {'id'},
+        },
+    }
+}
+
+db_ganguser_t = 
+{
+    db = {
+        uid = 'int32_t',
+        ggid = 'int32_t',
+        hostnum = 'int32_t',
+        flag = 'int32_t',
+        gm = 'int32_t',
+        totalgm = 'int32_t',
+        nickname = 'ystring_t<30>',
+        grade = 'int32_t',
+        rank= 'int32_t',
+        lastquit = 'uint32_t',
+        lastboss = 'uint32_t',
+        state = 'int32_t',
+        skl1 = 'int32_t',
+        skl2 = 'int32_t',
+        skl3 = 'int32_t',
+        skl4 = 'int32_t',
+        skl5 = 'int32_t',
+        skl6 = 'int32_t',
+        skl7 = 'int32_t',
+        skl8 = 'int32_t',
+    },
+    key = {'uid'},
+    ops_conditon = {
+        sel = {
+            select_ganguser = {'hostnum'}
+        },
+        update = {
+            {'uid'},
+        },
+        del = {
+            {'uid'},
+        },
+    }
+}
+
+db_pay_t = 
+{
+    db={
+        serid = 'int32_t',
+        sid = 'int32_t',
+        uid = 'int32_t',
+        appid = 'ystring_t<32>',
+        uin = 'ystring_t<32>',
+        domain = 'ystring_t<10>',
+        goodsid = 'int32_t',
+        goodnum = 'int32_t',
+        cristal = 'int32_t',
+        reward_cristal = 'int32_t',
+        repo_rmb = 'int32_t',
+        pay_rmb = 'int32_t',
+        paytime = 'ystring_t<32>',
+        giventime = 'ystring_t<32>',
+        state = 'int32_t',
+    },
+    key = {'serid','sid', 'uid','appid','uin','plat','goodsid','goodnum'},
+    ops_conditon = {
+        sel = {
+            select_serid = {'serid'},
+            select_uid_state = {'uid','state'},
+        },
+        update = {
+            {'serid'},
+        },
+    }
+}
+
+db_roundstarreward_t=
+{
+    db={
+        uid = 'int32_t',
+        rpid = 'int',
+        r1 =  'int',
+        r2 =  'int',
+        r3 =  'int',
+    },
+    key = {'uid', 'rpid'},
+    ops_conditon = {
+        sel = {
+            select = {'uid'},
+        },
+        update = {
+            {'uid', 'rpid'},
+        },
+    }
+}
+
+db_mail_t={
+    db={
+        uid = 'int32_t',
+        info= 'ystring_t<500>',
+    },
+    key = {'uid'},
+    ops_conditon = {
+        sel = {
+            select = {'uid'},
+        },
+    }
+}
+
+--@end
+
+dbs = {}
+dbs['Account'] = db_account_t
+dbs['UserID'] = db_userid_t
+dbs['Cdkey'] = db_cdkey_t
+dbs['UserInfo'] = db_userinfo_t
+dbs['NewRole'] = db_newrole_t
+dbs['BuyLog'] = db_buylog_t
+dbs['FpException'] = db_fpexception_t
+dbs['NewAccount'] = db_newaccount_t
+dbs['YBLog'] = db_yblog_t
+dbs['EventLog'] = db_eventlog_t
+dbs['ConsumeLog'] = db_consumelog_t
+dbs['QuitLog'] = db_quitlog_t
+dbs['Online'] = db_online_t
+dbs['Partner'] = db_partner_t 
+dbs['Item'] = db_item_t 
+dbs['Equip'] = db_equip_t 
+dbs['Skill'] = db_skill_t
+dbs['Team'] = db_team_t 
+dbs['UserData'] = db_userdata_t 
+dbs['Server'] = db_server_t
+dbs['Reward'] = db_reward_t
+dbs['Task'] = db_task_t
+dbs['Friend'] = db_friend_t
+dbs['Rune'] = db_rune_t
+dbs['Star'] = db_star_t
+dbs['Gang'] = db_gang_t
+dbs['GangUser'] = db_ganguser_t
+dbs['Compensate'] = db_compensate_t
+dbs['Pay'] = db_pay_t
+dbs['RoundStarReward'] = db_roundstarreward_t
+dbs['Mail'] = db_mail_t 
+
+--==============================================================
+
+function gen()
+    local h_file = io.open('db_def.h', 'w') 
+    local seg = {}
+    table.insert(seg, '#ifndef _db_def_h_\n')
+    table.insert(seg, '#define _db_def_h_\n')
+    table.insert(seg, '#include <stdint.h>\n')
+    table.insert(seg, '#include <sstream>\n')
+    table.insert(seg, 'using namespace std;\n')
+    table.insert(seg, '#include \"sql_result.h\"\n')
+    table.insert(seg, '#include \"db_helper.h\"\n')
+    table.insert(seg, '#include \"db_service.h\"\n')
+    table.insert(seg, '#include \"ystring.h\"\n')
+    for k, v in pairs(dbs) do
+        if v.key ~= nil then
+            for _, kn in pairs(v.key) do
+                v.key[kn] = kn
+            end
+        end
+        --[
+        if v.autokey ~= nil then
+            for _, kn in pairs(v.autokey) do
+                v.autokey[kn] = kn
+            end
+        end
+        --]]
+        table.insert(seg, gen_db_dec(k, v))
+    end
+    table.insert(seg, '#endif\n')
+    h_file:write(table.concat(seg))
+    h_file:close()
+    
+    local cpp_file = io.open('db_def.cpp', 'w')
+    seg = {}
+    table.insert(seg, '#include \"db_def.h\"\n')
+    table.insert(seg, '#include \"db_service.h\"\n')
+    table.insert(seg, '#include \<boost/format.hpp>\n')
+    for k, v in pairs(dbs) do
+        table.insert(seg, gen_db_impl(k, v))
+    end
+    cpp_file:write(table.concat(seg))
+    cpp_file:close() 
+end
+
+function gen_db_dec(name_, t_)
+    local seg = {}
+
+    table.insert(seg, 'struct db_'..name_..'_t {\n')
+    local mem_array = {} 
+    for k,v in pairs(t_.db) do
+        if v == 'timedate' then
+            v = 'int'
+        end
+        table.insert(mem_array, v..' '..k)
+    end
+    table.insert(seg, table.concat(mem_array, ';\n')..';\n')
+
+    table.insert(seg, string.format('static const char* tablename(){ return \"%s\"; }\n', name_))
+
+    table.insert(seg, 'int init(sql_result_row_t& row_);\n')
+    if t_.ops_conditon.sel ~= nil then
+        table.insert(seg, gen_db_select_dec(name_, t_)..'\n')
+        table.insert(seg, gen_db_sync_select_dec(name_, t_)..'\n')
+    end
+    if t_.ops_conditon.update ~= nil then
+        table.insert(seg, 'int update();\n')
+        table.insert(seg, 'int sync_update();\n')
+    end
+    if t_.ops_conditon.del ~= nil then
+        table.insert(seg, 'int remove();\n')
+    end
+    table.insert(seg, 'int insert();\n')
+    table.insert(seg, 'string gen_insert_sql();\n')
+    table.insert(seg, 'int sync_insert();\n')
+    --table.insert(seg, 'static int new_id();\n')
+    --table.insert(seg, gen_db_json_dec(name_, t_))
+    table.insert(seg, '};\n')
+    return table.concat(seg)
+end
+
+function gen_db_impl(name_, t_)
+    local seg = {}
+    table.insert(seg, gen_db_init_impl(name_, t_))
+
+    if t_.ops_conditon.sel ~= nil then
+        table.insert(seg, gen_db_select_impl(name_, t_))
+        table.insert(seg, gen_db_sync_select_impl(name_, t_))
+    end
+    if t_.ops_conditon.update ~= nil then
+        table.insert(seg, gen_db_update_impl(name_, t_))
+        table.insert(seg, gen_db_sync_update_impl(name_, t_))
+    end
+    if t_.ops_conditon.del ~= nil then
+        table.insert(seg, gen_db_remove_impl(name_, t_))
+    end
+
+    table.insert(seg, gen_db_insert_sql_impl(name_, t_))
+    table.insert(seg, gen_db_insert_impl(name_, t_))
+    table.insert(seg, gen_db_sync_insert_impl(name_, t_))
+    return table.concat(seg)
+end
+
+function gen_db_select_dec(name_, t_)
+    local selmethods = {}
+    if t_.ops_conditon.sel == nil then
+        return
+    end
+    for k,v in pairs(t_.ops_conditon.sel) do
+        local params = {}
+        local begin_str = 'static int select(';
+        if type(k) == 'string' then
+            begin_str = 'static int '..k..'(';
+        end
+        for _, vv  in pairs(v) do
+            local dec_type
+            local dec_par
+            if (vv == '@condition') then
+                dec_type = "const char*"
+                dec_par = "condition_"
+            else
+                dec_type = t_.db[vv]
+                if dec_type == 'timedate' then
+                    dec_type = 'int'
+                end
+                dec_type = 'const '..dec_type..'&'
+                dec_par = vv..'_'
+            end
+            table.insert(params, dec_type..' '..dec_par)
+        end
+        table.insert(params, 'sql_result_t &res_')
+        local param_str = table.concat(params, ', ')
+        local end_str = ');'
+        table.insert(selmethods, begin_str..param_str..end_str)
+    end
+    return table.concat(selmethods, '\n')
+end
+
+function gen_db_sync_select_dec(name_, t_)
+    local selmethods = {}
+    if t_.ops_conditon.sel == nil then
+        return
+    end
+    for k,v in pairs(t_.ops_conditon.sel) do
+        local params = {}
+        local begin_str = 'static int sync_select(';
+        if type(k) == 'string' then
+            begin_str = 'static int sync_'..k..'(';
+        end
+        for _, vv  in pairs(v) do
+            local dec_type
+            local dec_par
+            if (vv == '@condition') then
+                dec_type = "const char*"
+                dec_par = "condition_"
+            else
+                dec_type = t_.db[vv]
+                if dec_type == 'timedate' then
+                    dec_type = 'int'
+                end
+                dec_type = 'const '..dec_type..'&'
+                dec_par = vv..'_'
+            end
+            table.insert(params, dec_type..' '..dec_par)
+        end
+        table.insert(params, 'sql_result_t &res_')
+        local param_str = table.concat(params, ', ')
+        local end_str = ');'
+        table.insert(selmethods, begin_str..param_str..end_str)
+    end
+    return table.concat(selmethods, '\n')
+end
+
+function gen_db_json_dec(name_, t_)
+    local seg ={}
+    local n =0
+    for k,v in pairs(t_.db) do
+        table.insert(seg, k)
+        n = n+1
+    end
+    local mem_dec = table.concat(seg, ', ')
+    return 'JSON'..n..'(db_'..name_..'_t, '..mem_dec..');\n'
+end
+
+function gen_db_init_impl(name_, t_)
+    local head = 'int db_'..name_..'_t::init(sql_result_row_t& row_){\
+    if (row_.empty())\
+    {\
+        return -1;\
+    }\
+    size_t i=0;'
+    
+    local seg = {}
+    for k, v in pairs(t_.db) do
+        if string.find(v,'ystring_t') ~= nil then
+            local c = k..' = row_[i++];\n'
+            table.insert(seg, c)
+        elseif value == 'uint64_t' then
+            local c = 'stringstream stream;\n stream << row_[i++]; stream >> '..k..'; stream.clear();\n'
+            table.insert(seg, c)
+        elseif value == 'uint32_t' then
+            local c = k..'=(uint32_t)std::atoi(row_[i++].c_str());\n'
+            table.insert(seg, c)
+        elseif value == 'float' then
+            local c = k..'=(float)std::atof(row_[i++].c_str());\n'
+            table.insert(seg, c)
+        else
+            local c = k..'=(int)std::atoi(row_[i++].c_str());\n'
+            table.insert(seg, c)
+        end
+    end
+
+    return head..table.concat(seg)..'return 0;\n}\n'
+end
+
+function gen_db_select_impl(name_, t_)
+    local codes = {}
+    if t_.ops_conditon.sel == nil then
+        return
+    end
+    for k,v in pairs(t_.ops_conditon.sel) do
+
+        local params = {}
+        local begin_str = 'int db_'..name_..'_t::select(';
+        if type(k) == 'string' then
+            begin_str = 'int db_'..name_..'_t::'..k..'(';
+        end
+        for _, vv  in pairs(v) do
+            local dec_type
+            local dec_par
+            if (vv == '@condition') then
+                dec_type = "const char*";
+                dec_par = "condition_";
+            else
+                dec_type = 'const '..t_.db[vv]..'&'
+                dec_par = vv..'_'
+            end
+            table.insert(params, dec_type..' '..dec_par)
+        end
+        table.insert(params, 'sql_result_t &res_')
+        local param_str = table.concat(params, ', ')
+        local end_str = '){\n'
+
+        local head = begin_str..param_str..end_str
+
+        --生成条件语句
+        local condition_str = gen_condition( t_.db, v )
+        local columns_str = gen_columns(t_.db)
+        local sql = "\"SELECT " .. columns_str .. " FROM `" .. name_ .. "` WHERE " .. condition_str..'\"'
+        local seg = {}
+        table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+        for _, vv in pairs(v) do 
+            if vv=='@condition' then
+                table.insert(seg, 'condition_')
+            elseif string.find(t_.db[vv], 'ystring_t')  then 
+                table.insert(seg, vv..'_.c_str()')
+            else
+                table.insert(seg, vv..'_')
+            end
+        end
+        local code = table.concat(seg, '% ')
+        code = code..';\n'
+
+        code = code .. 'db_service.async_select(sqlfmt.str(), res_);\
+        sql_result_row_t* row = res_.get_row_at(0); \
+        if (row != NULL)\
+        {\
+            return 0;\
+        }\
+        return -1;'
+
+        code = head..code..'\n}\n'
+        table.insert(codes, code)
+    end
+    return table.concat(codes)
+end
+
+function gen_db_sync_select_impl(name_, t_)
+    local codes = {}
+    if t_.ops_conditon.sel == nil then
+        return
+    end
+    for k,v in pairs(t_.ops_conditon.sel) do
+
+        local params = {}
+        local begin_str = 'int db_'..name_..'_t::sync_select(';
+        if type(k) == 'string' then
+            begin_str = 'int db_'..name_..'_t::sync_'..k..'(';
+        end
+        for _, vv  in pairs(v) do
+            local dec_type
+            local dec_par
+            if (vv == '@condition') then
+                dec_type = "const char*";
+                dec_par = "condition_";
+            else
+                dec_type = 'const '..t_.db[vv]..'&'
+                dec_par = vv..'_'
+            end
+            table.insert(params, dec_type..' '..dec_par)
+        end
+        table.insert(params, 'sql_result_t &res_')
+        local param_str = table.concat(params, ', ')
+        local end_str = '){\n'
+
+        local head = begin_str..param_str..end_str
+
+        --生成条件语句
+        local condition_str = gen_condition( t_.db, v )
+        local columns_str = gen_columns(t_.db)
+        local sql = "\"SELECT " .. columns_str .. " FROM `" .. name_ .. "` WHERE " .. condition_str..'\"'
+        local seg = {}
+        table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+        for _, vv in pairs(v) do 
+            if vv=='@condition' then
+                table.insert(seg, 'condition_')
+            elseif string.find(t_.db[vv], 'ystring_t')  then 
+                table.insert(seg, vv..'_.c_str()')
+            else
+                table.insert(seg, vv..'_')
+            end
+        end
+        local code = table.concat(seg, '% ')
+        code = code..';\n'
+
+        code = code .. 'db_service.sync_select(sqlfmt.str(), res_);\
+        sql_result_row_t* row = res_.get_row_at(0); \
+        if (row != NULL)\
+        {\
+            return 0;\
+        }\
+        return -1;'
+
+        code = head..code..'\n}\n'
+        table.insert(codes, code)
+    end
+    return table.concat(codes)
+end
+
+function gen_db_insert_sql_impl(name_, t_)
+    --生成数据插入语句
+    local data_arr = {}
+    local data_cols_name = {}
+    local data_cols_val = {}
+    for k, v in pairs( t_.db ) do
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            table.insert( data_cols_name , ' `' .. k.. '` ' )
+            table.insert( data_cols_val , gen_value( v ) )
+        end
+    end
+    local data_cols_name_str = table.concat( data_cols_name , ' , ' )
+    local data_cols_val_str = table.concat( data_cols_val, ' , ' )
+
+    local sql = "\"INSERT INTO `" .. name_.. "` (" .. data_cols_name_str .. ") VALUES ( " .. data_cols_val_str .. " )\" "
+
+
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for k, v in pairs(t_.db) do 
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            if string.find(v, 'ystring_t')  ~= nil then 
+                table.insert(seg, k..'.c_str()')
+            else
+                table.insert(seg, k)
+            end
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'string db_'..name_..'_t::gen_insert_sql(){\n'..code .. 'return sqlfmt.str();\n}\n'
+    return code
+end
+
+function gen_db_insert_impl(name_, t_)
+    --生成数据插入语句
+    local data_arr = {}
+    local data_cols_name = {}
+    local data_cols_val = {}
+    for k, v in pairs( t_.db ) do
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            table.insert( data_cols_name , ' `' .. k.. '` ' )
+            table.insert( data_cols_val , gen_value( v ) )
+        end
+    end
+    local data_cols_name_str = table.concat( data_cols_name , ' , ' )
+    local data_cols_val_str = table.concat( data_cols_val, ' , ' )
+
+    local sql = "\"INSERT INTO `" .. name_.. "` (" .. data_cols_name_str .. ") VALUES ( " .. data_cols_val_str .. " )\" "
+
+
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for k, v in pairs(t_.db) do 
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            if string.find(v, 'ystring_t')  ~= nil then 
+                table.insert(seg, k..'.c_str()')
+            else
+                table.insert(seg, k)
+            end
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'int db_'..name_..'_t::insert(){\n'..code .. 'return db_service.async_execute(sqlfmt.str());\n}\n'
+    return code
+end
+
+function gen_db_sync_insert_impl(name_, t_)
+    --生成数据插入语句
+    local data_arr = {}
+    local data_cols_name = {}
+    local data_cols_val = {}
+    for k, v in pairs( t_.db ) do
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            table.insert( data_cols_name , ' `' .. k.. '` ' )
+            table.insert( data_cols_val , gen_value( v ) )
+        end
+    end
+    local data_cols_name_str = table.concat( data_cols_name , ' , ' )
+    local data_cols_val_str = table.concat( data_cols_val, ' , ' )
+
+    local sql = "\"INSERT INTO `" .. name_.. "` (" .. data_cols_name_str .. ") VALUES ( " .. data_cols_val_str .. " )\" "
+
+
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for k, v in pairs(t_.db) do 
+        if t_.autokey == nil or t_.autokey[k] == nil then
+            if string.find(v, 'ystring_t')  ~= nil then 
+                table.insert(seg, k..'.c_str()')
+            else
+                table.insert(seg, k)
+            end
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'int db_'..name_..'_t::sync_insert(){\n'..code .. 'return db_service.sync_execute(sqlfmt.str());\n}\n'
+    return code
+end
+
+function gen_db_update_impl(name_, t_)
+    if t_.ops_conditon.update  == nil then
+        return
+    end
+    local cond = t_.ops_conditon.update[1]
+    --生成条件语句
+    local condition_str = gen_condition( t_.db, cond , t_.key)
+
+    --生成数据更新语句
+    local data_str = gen_data_string( t_.db, t_.key)
+
+    local sql = "\"UPDATE `" .. name_.. "` SET " .. data_str .." WHERE " .. condition_str.."\""
+
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for k, v in pairs(t_.db) do 
+        if t_.key == nil or t_.key[k] == nil then
+            if string.find(v, 'ystring_t')  ~= nil then 
+                table.insert(seg, k..'.c_str()')
+            else
+                table.insert(seg, k)
+            end
+        end
+    end
+    for _, v in pairs(cond) do
+        if string.find(t_.db[v], 'ystring_t')  ~= nil then 
+            table.insert(seg, v..'.c_str()')
+        else
+            table.insert(seg, v)
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'int db_'..name_..'_t::update(){\n'..code .. 'return db_service.async_execute(sqlfmt.str());\n}\n'
+    return code
+end
+
+function gen_db_sync_update_impl(name_, t_)
+    if t_.ops_conditon.update  == nil then
+        return
+    end
+    local cond = t_.ops_conditon.update[1]
+    --生成条件语句
+    local condition_str = gen_condition( t_.db, cond, t_.key )
+
+    --生成数据更新语句
+    local data_str = gen_data_string( t_.db, t_.key)
+
+    local sql = "\"UPDATE `" .. name_.. "` SET " .. data_str .." WHERE " .. condition_str.."\""
+
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for k, v in pairs(t_.db) do 
+        if t_.key == nil or t_.key[k] == nil then
+            if string.find(v, 'ystring_t')  ~= nil then 
+                table.insert(seg, k..'.c_str()')
+            else
+                table.insert(seg, k)
+            end
+        end
+    end
+    for _, v in pairs(cond) do
+        if string.find(t_.db[v], 'ystring_t')  ~= nil then 
+            table.insert(seg, v..'.c_str()')
+        else
+            table.insert(seg, v)
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'int db_'..name_..'_t::sync_update(){\n'..code .. 'return db_service.sync_execute(sqlfmt.str());\n}\n'
+    return code
+end
+
+function gen_db_remove_impl(name_, t_)
+    if t_.ops_conditon.del == nil then
+        return
+    end
+    local cond = t_.ops_conditon.del[1]
+    --生成条件语句
+    local condition_str = gen_condition( t_.db, cond )
+
+    local sql = "\"DELETE FROM `" .. name_.. "` WHERE " .. condition_str.."\""
+    local seg = {}
+    table.insert(seg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for _, v in pairs(cond) do
+        if string.find(t_.db[v], 'ystring_t')  ~= nil then 
+            table.insert(seg, v..'.c_str()')
+        else
+            table.insert(seg, v)
+        end
+    end
+    local code = table.concat(seg, '% ')
+    code = code..';\n'
+
+    code = 'int db_'..name_..'_t::remove(){\n'..code .. 'return db_service.async_execute(sqlfmt.str());\n}\n'
+    return code
+end
+
+function gen_columns(db_)
+    local colname = {}
+    for k, v in pairs(db_) do
+        table.insert( colname , '`' .. k .. '`' )
+    end
+    return table.concat( colname , ' , ' )
+end
+
+function gen_condition(db_, cond_, exclude_)
+    --生成SQL条件部分
+    local condition_arr = {}
+    local condition_str = ''
+    for _, v in pairs( cond_) do
+        if (v == '@condition') then
+            table.insert( condition_arr , '%s');
+        else
+        --if exclude_ == nil or exclude_[v] == nil then
+            table.insert( condition_arr , ' `' .. v.. '`' .. " = " .. gen_value(db_[v] ) )
+        --end
+        end
+    end
+    --大于一个条件则需要使用AND连接
+    if #condition_arr > 1 then
+        condition_str = table.concat( condition_arr , ' AND ' )
+    else
+        condition_str = condition_arr[1]
+    end
+
+    return condition_str
+end
+
+function gen_data_string( data , exclude_)
+    --生成SQL条件部分
+    local data_arr = {}
+    local data_str
+    for key , value in pairs( data ) do
+        if exclude_ == nil or exclude_[key] == nil then
+            table.insert( data_arr, ' `' .. key .. '`' .. " = " .. gen_value( value ) )
+        end
+    end
+    --大于一个条件则需要使用AND连接
+    if #data_arr > 1 then
+        data_str = table.concat( data_arr, ' , ' )
+    else
+        data_str = data_arr[1]
+    end
+
+    return data_str
+end
+
+function gen_value(value)
+    if string.find(value,'ystring_t') ~= nil then
+        return  '\'%s\'' 
+    elseif value == 'uint64_t' then
+        return '%lu' 
+    elseif value == 'uint32_t' then
+        return '%u' 
+    elseif value == 'float' then
+        return '%f'
+    elseif value == 'timedate' then
+        return 'FROM_UNIXTIME(%d)'
+    else
+        return '%d'
+    end
+end
+
+gen()
+
+--===========================================================
+function gen_ext()
+    local h_file = io.open('db_ext.h', 'w') 
+    local seg = {}
+    table.insert(seg, '#ifndef _db_ext_h_\n')
+    table.insert(seg, '#define _db_ext_h_\n')
+    table.insert(seg, '#include "db_def.h"\n')
+    table.insert(seg, '#include "db_smart_up.h"\n')
+    table.insert(seg, '#include <boost/noncopyable.hpp>\n')
+
+    for k, v in pairs(dbs) do
+        table.insert(seg, gen_db_ext_dec(k, v))
+    end
+
+    table.insert(seg, '#endif\n')
+
+    h_file:write(table.concat(seg))
+    h_file:close()
+end
+
+function gen_db_ext_dec(k_,v_)
+    if v_.ops_conditon.update == nil then
+        return ""
+    end
+
+    local seg = {}
+    table.insert(seg, "class ".."db_"..k_.."_ext_t")
+    table.insert(seg, ": public db_"..k_.."_t, db_smart_up_t, boost::noncopyable\n")
+    table.insert(seg, "{\n")
+    table.insert(seg, "public:\n")
+    table.insert(seg, "db_"..k_.."_ext_t()\n")
+    table.insert(seg, "{\n")
+    for memname, memtype in pairs(v_.db) do
+        if v_.key == nil or v_.key[memname] == nil then
+            table.insert(seg, string.format("REG_MEM(%s,%s)\n", memtype, memname))
+        end
+    end
+    table.insert(seg, "}\n")
+
+    for memname, memtype in pairs(v_.db) do
+        if v_.key == nil or v_.key[memname] == nil then
+            table.insert(seg, string.format("DEC_SET(%s,%s)\n", memtype, memname))
+        end
+    end
+
+    table.insert(seg, "string get_up_sql()\n")
+    table.insert(seg, "{\n")
+    table.insert(seg, "if (!has_changed()) return \"\";\n")
+
+    local cond = v_.ops_conditon.update[1]
+    --生成条件语句
+    local condition_str = gen_condition( v_.db, cond, v_.key)
+
+    local sql = "\"UPDATE `" .. k_ .. "` SET %%1%% WHERE " .. condition_str.."\""
+
+    local upseg = {}
+    table.insert(upseg, '\nboost::format sqlfmt=boost::format('..sql..')')
+    for _, v in pairs(cond) do
+        if string.find(v_.db[v], 'ystring_t')  ~= nil then 
+            table.insert(upseg, v..'.c_str()')
+        else
+            table.insert(upseg, v)
+        end
+    end
+    table.insert(seg, table.concat(upseg, '% ') .. ';\n')
+    table.insert(seg, 'return gen_up_sql(sqlfmt.str());\n')
+    table.insert(seg, "}\n")
+
+    table.insert(seg, "db_"..k_.."_t& data()\n")
+    table.insert(seg, "{\n")
+    table.insert(seg, "return *((db_"..k_.."_t*)(this));\n")
+    table.insert(seg, "}\n")
+    
+    table.insert(seg, "};\n")
+    return table.concat(seg)
+end
+
+gen_ext()

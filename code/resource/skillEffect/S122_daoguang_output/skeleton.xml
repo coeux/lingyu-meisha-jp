@@ -1,0 +1,22 @@
+<skeleton name="S122_daoguang" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S122_daoguang">
+   <b name="图层 1" x="-18.5" y="2.03" kX="0" kY="0" cX="1" cY="1" pX="40.23" pY="60.53" z="0">
+    <d name="元件 4" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S122_daoguang">
+   <mov name="play" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-18.5" y="2.03" kX="0" kY="0" cX="1" cY="1" pX="40.23" pY="60.53" z="0" dI="0" twE="0" dr="4"/>
+     <f x="-18.5" y="12.53" kX="0" kY="0" cX="1" cY="0.83" pX="40.23" pY="60.53" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="22" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

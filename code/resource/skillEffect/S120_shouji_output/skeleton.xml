@@ -1,0 +1,29 @@
+<skeleton name="S120_shouji" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="S120_shouji">
+      <b name="图层 1" x="-1.37" y="-92.55" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0">
+        <d name="元件 26" pX="87.93" pY="107.33"/>
+        <d name="元件 27" pX="90.9" pY="118.2"/>
+        <d name="元件 28" pX="93.2" pY="113.93"/>
+        <d name="元件 29" pX="84.95" pY="79"/>
+        <d name="元件 30" pX="78.38" pY="36.88"/>
+        <d name="元件 31" pX="80.65" pY="26.65"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S120_shouji">
+      <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1.37" y="-92.55" cocos2d_x="-1" cocos2d_y="-92" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-1.02" y="-96.82" cocos2d_x="-1" cocos2d_y="-96" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-2.7" y="-102.4" cocos2d_x="-2" cocos2d_y="-102" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="2"/>
+          <f x="0.95" y="-66.2" cocos2d_x="1" cocos2d_y="-66" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+          <f x="9.5" y="-21.4" cocos2d_x="10" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+          <f x="8.53" y="-19.1" cocos2d_x="9" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="5" dr="2"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

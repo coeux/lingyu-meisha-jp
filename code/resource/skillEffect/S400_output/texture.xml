@@ -1,0 +1,37 @@
+<TextureAtlas name="S400" width="512" height="512">
+ <SubTexture name="yuanjian/元件 26" width="93" height="66" cocos2d_pX="47" cocos2d_pY="33" x="333" y="316"/>
+ <SubTexture name="yuanjian/元件 25" width="94" height="68" cocos2d_pX="47" cocos2d_pY="34" x="0" y="305"/>
+ <SubTexture name="yuanjian/元件 24" width="107" height="65" cocos2d_pX="54" cocos2d_pY="33" x="231" y="239"/>
+ <SubTexture name="yuanjian/元件 23" width="108" height="76" cocos2d_pX="54" cocos2d_pY="38" x="121" y="177"/>
+ <SubTexture name="yuanjian/元件 22" width="110" height="69" cocos2d_pX="55" cocos2d_pY="35" x="371" y="192"/>
+ <SubTexture name="yuanjian/元件 21" width="111" height="58" cocos2d_pX="56" cocos2d_pY="29" x="0" y="245"/>
+ <SubTexture name="yuanjian/元件 20" width="100" height="67" cocos2d_pX="50" cocos2d_pY="34" x="113" y="255"/>
+ <SubTexture name="yuanjian/元件 19" width="117" height="76" cocos2d_pX="59" cocos2d_pY="38" x="135" y="99"/>
+ <SubTexture name="yuanjian/元件 18" width="129" height="86" cocos2d_pX="65" cocos2d_pY="43" x="279" y="0"/>
+ <SubTexture name="yuanjian/元件 17" width="143" height="93" cocos2d_pX="72" cocos2d_pY="47" x="0" y="0"/>
+ <SubTexture name="yuanjian/元件 16" width="132" height="97" cocos2d_pX="66" cocos2d_pY="49" x="145" y="0"/>
+ <SubTexture name="yuanjian/元件 43" width="64" height="65" cocos2d_pX="32" cocos2d_pY="33" x="203" y="397"/>
+ <SubTexture name="yuanjian/元件 42" width="66" height="67" cocos2d_pX="33" cocos2d_pY="34" x="70" y="392"/>
+ <SubTexture name="yuanjian/元件 41" width="71" height="89" cocos2d_pX="36" cocos2d_pY="45" x="215" y="306"/>
+ <SubTexture name="yuanjian/元件 40" width="65" height="89" cocos2d_pX="33" cocos2d_pY="45" x="428" y="327"/>
+ <SubTexture name="yuanjian/元件 39" width="63" height="67" cocos2d_pX="32" cocos2d_pY="34" x="138" y="392"/>
+ <SubTexture name="yuanjian/元件 38" width="68" height="76" cocos2d_pX="34" cocos2d_pY="38" x="0" y="375"/>
+ <SubTexture name="yuanjian/元件 35" width="93" height="103" cocos2d_pX="47" cocos2d_pY="52" x="410" y="0"/>
+ <SubTexture name="yuanjian/元件 34" width="76" height="57" cocos2d_pX="38" cocos2d_pY="29" x="288" y="384"/>
+ <SubTexture name="yuanjian/元件 33" width="48" height="62" cocos2d_pX="24" cocos2d_pY="31" x="462" y="263"/>
+ <SubTexture name="yuanjian/元件 32" width="21" height="44" cocos2d_pX="11" cocos2d_pY="22" x="254" y="99"/>
+ <SubTexture name="yuanjian/元件 31" width="85" height="85" cocos2d_pX="43" cocos2d_pY="43" x="405" y="105"/>
+ <SubTexture name="yuanjian/元件 30" width="52" height="62" cocos2d_pX="26" cocos2d_pY="31" x="366" y="384"/>
+ <SubTexture name="yuanjian/元件 29" width="44" height="43" cocos2d_pX="22" cocos2d_pY="22" x="0" y="453"/>
+ <SubTexture name="yuanjian/元件 14" width="64" height="64" cocos2d_pX="34" cocos2d_pY="34" x="420" y="418"/>
+ <SubTexture name="yuanjian/元件 15" width="61" height="61" cocos2d_pX="31" cocos2d_pY="31" x="344" y="448"/>
+ <SubTexture name="yuanjian/元件 13" width="17" height="30" cocos2d_pX="9" cocos2d_pY="15" x="492" y="105"/>
+ <SubTexture name="yuanjian/元件 12" width="43" height="45" cocos2d_pX="22" cocos2d_pY="23" x="288" y="306"/>
+ <SubTexture name="yuanjian/元件 11" width="92" height="66" cocos2d_pX="46" cocos2d_pY="33" x="96" y="324"/>
+ <SubTexture name="yuanjian/元件 10" width="115" height="78" cocos2d_pX="58" cocos2d_pY="39" x="254" y="159"/>
+ <SubTexture name="yuanjian/元件 9" width="133" height="73" cocos2d_pX="67" cocos2d_pY="37" x="0" y="95"/>
+ <SubTexture name="yuanjian/元件 8" width="119" height="73" cocos2d_pX="60" cocos2d_pY="37" x="0" y="170"/>
+ <SubTexture name="yuanjian/元件 7" width="124" height="69" cocos2d_pX="62" cocos2d_pY="35" x="279" y="88"/>
+ <SubTexture name="yuanjian/元件 6" width="120" height="51" cocos2d_pX="60" cocos2d_pY="26" x="340" y="263"/>
+ <SubTexture name="yuanjian/元件 5" width="73" height="51" cocos2d_pX="37" cocos2d_pY="26" x="269" y="443"/>
+</TextureAtlas>

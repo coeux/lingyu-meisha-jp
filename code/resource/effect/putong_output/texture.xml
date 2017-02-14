@@ -1,0 +1,5 @@
+<TextureAtlas name="putong" width="1024" height="512">
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_654_001.png.imag" width="39" height="39" x="642" y="0"/>
+  <SubTexture name="シンボル 2" width="135" height="128" x="505" y="0"/>
+  <SubTexture name="トゥイーン 2" width="503" height="499" x="0" y="0"/>
+</TextureAtlas>

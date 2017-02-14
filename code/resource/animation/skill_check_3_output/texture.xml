@@ -1,0 +1,35 @@
+<TextureAtlas name="红色" width="2048" height="2048">
+ <SubTexture name="bj33" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1120" y="1064"/>
+ <SubTexture name="bj32" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="560" y="0"/>
+ <SubTexture name="bj31" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1120" y="532"/>
+ <SubTexture name="bj30" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1120" y="0"/>
+ <SubTexture name="bj29" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1400" y="798"/>
+ <SubTexture name="bj28" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1680" y="0"/>
+ <SubTexture name="bj27" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1680" y="532"/>
+ <SubTexture name="bj26" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="280" y="266"/>
+ <SubTexture name="bj25" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="840" y="1064"/>
+ <SubTexture name="bj24" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="840" y="266"/>
+ <SubTexture name="bj23" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="280" y="798"/>
+ <SubTexture name="bj22" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1400" y="266"/>
+ <SubTexture name="bj21" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="0" y="1064"/>
+ <SubTexture name="bj20" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="0" y="532"/>
+ <SubTexture name="bj19" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="840" y="798"/>
+ <SubTexture name="bj18" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="560" y="532"/>
+ <SubTexture name="bj17" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="0" y="0"/>
+ <SubTexture name="bj16" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="280" y="0"/>
+ <SubTexture name="bj15" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="840" y="0"/>
+ <SubTexture name="bj14" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1400" y="0"/>
+ <SubTexture name="bj13" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="0" y="266"/>
+ <SubTexture name="bj12" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="560" y="266"/>
+ <SubTexture name="bj11" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1120" y="266"/>
+ <SubTexture name="bj10" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1680" y="266"/>
+ <SubTexture name="bj9" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="280" y="532"/>
+ <SubTexture name="bj8" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="840" y="532"/>
+ <SubTexture name="bj7" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1400" y="532"/>
+ <SubTexture name="bj6" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="0" y="798"/>
+ <SubTexture name="bj5" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="560" y="798"/>
+ <SubTexture name="bj4" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1120" y="798"/>
+ <SubTexture name="bj3" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="1680" y="798"/>
+ <SubTexture name="bj2" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="280" y="1064"/>
+ <SubTexture name="bj1" width="278" height="264" cocos2d_pX="139" cocos2d_pY="132" x="560" y="1064"/>
+</TextureAtlas>

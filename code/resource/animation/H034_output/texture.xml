@@ -1,0 +1,37 @@
+<TextureAtlas name="H034" width="256" height="256">
+  <SubTexture name="偶像2ok1.psd 资源 9/maozi" width="47" height="53" cocos2d_pX="24" cocos2d_pY="27" x="121" y="87"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/bianzi" width="21" height="46" cocos2d_pX="11" cocos2d_pY="23" x="229" y="50"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_1" width="15" height="16" cocos2d_pX="8" cocos2d_pY="8" x="43" y="173"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_arm" width="10" height="17" cocos2d_pX="5" cocos2d_pY="9" x="154" y="170"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_hand" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="245" y="0"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/weapon" width="35" height="125" cocos2d_pX="18" cocos2d_pY="63" x="84" y="0"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/zhuzi" width="26" height="18" cocos2d_pX="13" cocos2d_pY="9" x="224" y="134"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_2" width="31" height="34" cocos2d_pX="16" cocos2d_pY="17" x="31" y="137"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_3" width="65" height="48" cocos2d_pX="33" cocos2d_pY="24" x="178" y="0"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_4" width="55" height="85" cocos2d_pX="28" cocos2d_pY="43" x="121" y="0"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_arm_up" width="14" height="24" cocos2d_pX="7" cocos2d_pY="12" x="209" y="104"/>
+  <SubTexture name="biaoqing_2" width="36" height="29" cocos2d_pX="19" cocos2d_pY="20" x="170" y="136"/>
+  <SubTexture name="biaoqing_5" width="37" height="30" cocos2d_pX="19" cocos2d_pY="20" x="170" y="104"/>
+  <SubTexture name="biaoqing_6" width="34" height="24" cocos2d_pX="19" cocos2d_pY="17" x="117" y="171"/>
+  <SubTexture name="biaoqing_4" width="35" height="24" cocos2d_pX="19" cocos2d_pY="17" x="166" y="167"/>
+  <SubTexture name="biaoqing" width="36" height="30" cocos2d_pX="19" cocos2d_pY="20" x="81" y="127"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/head" width="49" height="52" cocos2d_pX="27" cocos2d_pY="23" x="178" y="50"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/lingdai" width="7" height="12" cocos2d_pX="4" cocos2d_pY="6" x="245" y="26"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hudiejie" width="18" height="18" cocos2d_pX="9" cocos2d_pY="9" x="23" y="173"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/body" width="32" height="43" cocos2d_pX="17" cocos2d_pY="22" x="31" y="92"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/qunzi_1" width="21" height="21" cocos2d_pX="11" cocos2d_pY="11" x="0" y="159"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/qunzi_2" width="20" height="23" cocos2d_pX="10" cocos2d_pY="12" x="224" y="154"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/qunzi_3" width="33" height="27" cocos2d_pX="17" cocos2d_pY="16" x="119" y="142"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_up_leg" width="21" height="34" cocos2d_pX="11" cocos2d_pY="17" x="229" y="98"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_down_leg" width="10" height="26" cocos2d_pX="5" cocos2d_pY="13" x="154" y="142"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/left_foot" width="13" height="15" cocos2d_pX="7" cocos2d_pY="8" x="203" y="173"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_up_leg" width="16" height="33" cocos2d_pX="8" cocos2d_pY="17" x="65" y="92"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_down_leg" width="10" height="22" cocos2d_pX="5" cocos2d_pY="11" x="64" y="153"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_foot" width="14" height="14" cocos2d_pX="7" cocos2d_pY="7" x="208" y="157"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_arm" width="14" height="24" cocos2d_pX="7" cocos2d_pY="14" x="65" y="127"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_hand" width="9" height="10" cocos2d_pX="5" cocos2d_pY="5" x="245" y="14"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/right_arm_up" width="13" height="25" cocos2d_pX="7" cocos2d_pY="13" x="209" y="130"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_5" width="29" height="65" cocos2d_pX="15" cocos2d_pY="33" x="0" y="92"/>
+  <SubTexture name="偶像2ok1.psd 资源 9/hair_6" width="82" height="90" cocos2d_pX="41" cocos2d_pY="45" x="0" y="0"/>
+  <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="76" y="159"/>
+</TextureAtlas>

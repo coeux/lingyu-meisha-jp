@@ -1,0 +1,28 @@
+<skeleton name="interrupt" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="interrupt">
+   <b name="图层 1" x="0" y="6.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="25.4" pY="24"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="interrupt">
+   <mov name="play" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="6.5" cocos2d_x="0" cocos2d_y="6.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0" y="-84.5" cocos2d_x="0" cocos2d_y="-84.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="0" y="-78.65" cocos2d_x="0" cocos2d_y="-78.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="0" y="-79.95" cocos2d_x="0" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="17"/>
+     <f x="0" y="-86.95" cocos2d_x="0" cocos2d_y="-86.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="7"/>
+     <f x="0" y="-115.45" cocos2d_x="0" cocos2d_y="-115.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

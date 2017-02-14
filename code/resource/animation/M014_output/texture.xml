@@ -1,0 +1,46 @@
+<TextureAtlas name="M014" width="512" height="512">
+ <SubTexture name="元件 12" width="118" height="86" cocos2d_pX="59" cocos2d_pY="43" x="177" y="0"/>
+ <SubTexture name="元件 11" width="99" height="104" cocos2d_pX="50" cocos2d_pY="52" x="411" y="0"/>
+ <SubTexture name="元件 10" width="87" height="92" cocos2d_pX="44" cocos2d_pY="46" x="297" y="93"/>
+ <SubTexture name="元件 9" width="76" height="80" cocos2d_pX="38" cocos2d_pY="40" x="170" y="179"/>
+ <SubTexture name="元件 8" width="64" height="73" cocos2d_pX="32" cocos2d_pY="37" x="401" y="198"/>
+ <SubTexture name="元件 7" width="103" height="89" cocos2d_pX="52" cocos2d_pY="45" x="177" y="88"/>
+ <SubTexture name="元件 6" width="112" height="91" cocos2d_pX="56" cocos2d_pY="46" x="297" y="0"/>
+ <SubTexture name="元件 5" width="101" height="105" cocos2d_pX="51" cocos2d_pY="53" x="74" y="0"/>
+ <SubTexture name="元件 4" width="87" height="90" cocos2d_pX="44" cocos2d_pY="45" x="407" y="106"/>
+ <SubTexture name="元件 3" width="76" height="82" cocos2d_pX="38" cocos2d_pY="41" x="74" y="107"/>
+ <SubTexture name="元件 2" width="72" height="73" cocos2d_pX="36" cocos2d_pY="37" x="281" y="187"/>
+ <SubTexture name="元件 1" width="72" height="76" cocos2d_pX="36" cocos2d_pY="38" x="0" y="163"/>
+ <SubTexture name="biaoqing" width="34" height="26" cocos2d_pX="17" cocos2d_pY="12" x="355" y="240"/>
+ <SubTexture name="biaoqing_2" width="30" height="22" cocos2d_pX="15" cocos2d_pY="10" x="248" y="223"/>
+ <SubTexture name="biaoqing_3" width="35" height="27" cocos2d_pX="18" cocos2d_pY="15" x="467" y="198"/>
+ <SubTexture name="biaoqing_4" width="34" height="27" cocos2d_pX="17" cocos2d_pY="15" x="467" y="227"/>
+ <SubTexture name="jian" width="46" height="25" cocos2d_pX="23" cocos2d_pY="13" x="56" y="262"/>
+ <SubTexture name="hair_3" width="15" height="34" cocos2d_pX="8" cocos2d_pY="17" x="152" y="107"/>
+ <SubTexture name="yanjing" width="54" height="61" cocos2d_pX="27" cocos2d_pY="31" x="0" y="241"/>
+ <SubTexture name="hair_1" width="12" height="13" cocos2d_pX="6" cocos2d_pY="7" x="496" y="131"/>
+ <SubTexture name="hair_2" width="27" height="25" cocos2d_pX="14" cocos2d_pY="13" x="355" y="187"/>
+ <SubTexture name="hair_4" width="13" height="23" cocos2d_pX="7" cocos2d_pY="12" x="496" y="106"/>
+ <SubTexture name="hair_5" width="47" height="20" cocos2d_pX="24" cocos2d_pY="10" x="250" y="262"/>
+ <SubTexture name="hair_6" width="51" height="32" cocos2d_pX="26" cocos2d_pY="16" x="197" y="261"/>
+ <SubTexture name="head" width="48" height="52" cocos2d_pX="26" cocos2d_pY="24" x="147" y="261"/>
+ <SubTexture name="hair_7" width="71" height="69" cocos2d_pX="36" cocos2d_pY="35" x="74" y="191"/>
+ <SubTexture name="hair_8" width="13" height="24" cocos2d_pX="7" cocos2d_pY="12" x="282" y="88"/>
+ <SubTexture name="left_arm_up" width="15" height="25" cocos2d_pX="8" cocos2d_pY="13" x="384" y="190"/>
+ <SubTexture name="left_hand" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="496" y="146"/>
+ <SubTexture name="left_arm" width="10" height="23" cocos2d_pX="5" cocos2d_pY="12" x="282" y="114"/>
+ <SubTexture name="body" width="31" height="42" cocos2d_pX="16" cocos2d_pY="25" x="248" y="179"/>
+ <SubTexture name="weapon" width="72" height="161" cocos2d_pX="36" cocos2d_pY="81" x="0" y="0"/>
+ <SubTexture name="pigu" width="34" height="24" cocos2d_pX="17" cocos2d_pY="12" x="104" y="262"/>
+ <SubTexture name="left_up_leg" width="19" height="29" cocos2d_pX="9" cocos2d_pY="18" x="386" y="128"/>
+ <SubTexture name="left_foot" width="16" height="23" cocos2d_pX="8" cocos2d_pY="12" x="147" y="199"/>
+ <SubTexture name="left_down_leg" width="19" height="33" cocos2d_pX="10" cocos2d_pY="20" x="386" y="93"/>
+ <SubTexture name="right_up_leg" width="16" height="29" cocos2d_pX="8" cocos2d_pY="18" x="386" y="159"/>
+ <SubTexture name="right_foot" width="16" height="16" cocos2d_pX="8" cocos2d_pY="8" x="372" y="217"/>
+ <SubTexture name="right_down_leg" width="20" height="27" cocos2d_pX="10" cocos2d_pY="8" x="152" y="143"/>
+ <SubTexture name="right_arm_up" width="16" height="25" cocos2d_pX="8" cocos2d_pY="13" x="152" y="172"/>
+ <SubTexture name="right_hand" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="282" y="139"/>
+ <SubTexture name="right_arm" width="15" height="24" cocos2d_pX="-8" cocos2d_pY="-30" x="355" y="214"/>
+ <SubTexture name="pandan" width="37" height="14" cocos2d_pX="19" cocos2d_pY="7" x="299" y="262"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="467" y="256"/>
+</TextureAtlas>

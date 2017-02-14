@@ -1,0 +1,49 @@
+<skeleton name="S490" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="S490_1">
+   <b name="图层 2" x="-0.12" y="-89.96" kX="0" kY="0" cX="0.55" cY="1.25" pX="0" pY="0" z="0">
+    <d name="重复项目文件夹/元件 19" pX="28.8" pY="78.4"/>
+   </b>
+   <b name="10001.png" x="4.16" y="-30.12" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="重复项目文件夹/元件 10 副本 2" pX="51.4" pY="31.16"/>
+    <d name="重复项目文件夹/元件 11 副本" pX="52.24" pY="31.24"/>
+    <d name="重复项目文件夹/元件 12 副本 2" pX="64.84" pY="43.04"/>
+    <d name="重复项目文件夹/元件 13 副本" pX="78.72" pY="47.64"/>
+    <d name="重复项目文件夹/元件 14 副本 2" pX="83.2" pY="57.96"/>
+    <d name="重复项目文件夹/元件 15 副本 2" pX="83.2" pY="57.96"/>
+    <d name="重复项目文件夹/元件 16 副本 2" pX="83.2" pY="57.96"/>
+    <d name="重复项目文件夹/元件 17" pX="83.2" pY="57.96"/>
+    <d name="重复项目文件夹/元件 18" pX="83.2" pY="57.96"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S490_1">
+   <mov name="play" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f x="-0.12" y="-89.96" cocos2d_x="0" cocos2d_y="-89" kX="0" kY="0" cX="0.55" cY="1.25" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+     <f x="1.8" y="-100.92" cocos2d_x="2" cocos2d_y="-100" kX="0" kY="0" cX="1.09" cY="1.39" pX="0" pY="0" z="0" dI="0" twE="0" dr="1"/>
+     <f x="1.8" y="-100.92" cocos2d_x="2" cocos2d_y="-100" kX="0" kY="0" cX="0.54" cY="1.39" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+     <f x="1.8" y="-100.92" cocos2d_x="2" cocos2d_y="-100" kX="0" kY="0" cX="1.09" cY="1.39" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+     <f x="1.8" y="-96.48" cocos2d_x="2" cocos2d_y="-96" kX="0" kY="0" cX="0.36" cY="1.33" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="10001.png" sc="1" dl="0">
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="2"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="1"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="2"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="3" dr="2"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="4.16" y="-30.12" cocos2d_x="5" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="33" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,28 @@
+<skeleton name="S134_2" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S134_2">
+   <b name="图层 1" x="-1.2" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="34.42" pY="44.13" z="0">
+    <d name="元件 1" pX="0" pY="0"/>
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 3" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S134_2">
+   <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-1.2" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="34.42" pY="44.13" z="0" dI="0" dr="2"/>
+     <f x="-2.22" y="-10.1" kX="0" kY="0" cX="1" cY="1" pX="35.42" pY="40.8" z="0" dI="1" dr="2"/>
+     <f x="-4.62" y="-14.42" kX="0" kY="0" cX="1" cY="1" pX="46.03" pY="36.48" z="0" dI="2" dr="1"/>
+     <f x="-4.62" y="-15.95" kX="0" kY="0" cX="1" cY="1" pX="46.03" pY="34.95" z="0" dI="3" twE="0" dr="2"/>
+     <f x="-4.62" y="-15.95" kX="0" kY="0" cX="1" cY="1" pX="46.03" pY="34.95" z="0" dI="3" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="11" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

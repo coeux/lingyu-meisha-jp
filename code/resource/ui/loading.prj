@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="loading" ResourceFileName="godsSenki.res" LayoutFileName="loading.lay">
+	<AssistLine P0="34, 0" P1="34, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="0, 639" P1="4096, 639" Width="2" Color="Gold" />
+	<AssistLine P0="0, 287" P1="4096, 287" Width="2" Color="Gold" />
+	<AssistLine P0="0, 764" P1="4096, 764" Width="2" Color="Gold" />
+	<GlobalStyles />
+</Project>

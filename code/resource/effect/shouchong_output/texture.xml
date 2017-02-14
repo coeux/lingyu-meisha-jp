@@ -1,0 +1,20 @@
+<TextureAtlas name="shouchong" width="256" height="128">
+  <SubTexture name="元件 1ddsadds" width="25" height="19" x="228" y="62"/>
+  <SubTexture name="nofolder_1_mc" width="13" height="11" x="191" y="27"/>
+  <SubTexture name="nofolder_2_mc" width="21" height="14" x="94" y="72"/>
+  <SubTexture name="nofolder_3_mc" width="24" height="23" x="34" y="61"/>
+  <SubTexture name="nofolder_4_mc" width="32" height="27" x="194" y="62"/>
+  <SubTexture name="nofolder_5_mc" width="43" height="29" x="206" y="31"/>
+  <SubTexture name="nofolder_6_mc" width="56" height="30" x="133" y="27"/>
+  <SubTexture name="nofolder_7_mc" width="69" height="25" x="138" y="0"/>
+  <SubTexture name="nofolder_8_mc" width="73" height="22" x="63" y="0"/>
+  <SubTexture name="nofolder_9_mc" width="68" height="19" x="63" y="24"/>
+  <SubTexture name="nofolder_10_mc" width="58" height="25" x="63" y="45"/>
+  <SubTexture name="nofolder_11_mc" width="45" height="29" x="209" y="0"/>
+  <SubTexture name="nofolder_12_mc" width="32" height="29" x="0" y="61"/>
+  <SubTexture name="nofolder_13_mc" width="33" height="28" x="159" y="59"/>
+  <SubTexture name="nofolder_14_mc" width="34" height="27" x="123" y="59"/>
+  <SubTexture name="nofolder_15_mc" width="32" height="21" x="60" y="72"/>
+  <SubTexture name="nofolder_16_mc" width="32" height="19" x="94" y="88"/>
+  <SubTexture name="121212" width="61" height="59" x="0" y="0"/>
+</TextureAtlas>

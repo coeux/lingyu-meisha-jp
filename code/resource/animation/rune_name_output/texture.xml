@@ -1,0 +1,5 @@
+<TextureAtlas name="jiemian1_2" width="256" height="128">
+ <SubTexture name="元件 4" width="222" height="14" cocos2d_pX="111" cocos2d_pY="7" x="0" y="0"/>
+ <SubTexture name="元件 3" width="191" height="21" cocos2d_pX="96" cocos2d_pY="11" x="0" y="16"/>
+ <SubTexture name="元件 2" width="162" height="30" cocos2d_pX="81" cocos2d_pY="15" x="0" y="39"/>
+</TextureAtlas>

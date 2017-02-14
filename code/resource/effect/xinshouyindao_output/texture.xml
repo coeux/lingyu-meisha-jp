@@ -1,0 +1,6 @@
+<TextureAtlas name="新手引导" width="256" height="128">
+ <SubTexture name="元件 4" width="46" height="56" cocos2d_pX="23" cocos2d_pY="29" x="157" y="69"/>
+ <SubTexture name="元件 5" width="67" height="67" cocos2d_pX="34" cocos2d_pY="34" x="157" y="0"/>
+ <SubTexture name="元件 6" width="75" height="75" cocos2d_pX="38" cocos2d_pY="38" x="80" y="0"/>
+ <SubTexture name="元件 7" width="78" height="99" cocos2d_pX="39" cocos2d_pY="50" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<TextureAtlas name="daoguang" width="128" height="256">
+  <SubTexture name="10004.png" width="50" height="65" cocos2d_pX="0" cocos2d_pY="0" x="0" y="67"/>
+  <SubTexture name="10003.png" width="50" height="65" cocos2d_pX="0" cocos2d_pY="0" x="52" y="67"/>
+  <SubTexture name="10002.png" width="50" height="65" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="10001.png" width="50" height="65" cocos2d_pX="0" cocos2d_pY="0" x="52" y="0"/>
+</TextureAtlas>

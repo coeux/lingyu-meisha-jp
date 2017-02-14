@@ -1,0 +1,27 @@
+<TextureAtlas name="H068" width="256" height="512">
+  <SubTexture name="right_down_arm" width="9" height="26" x="165" y="140"/>
+  <SubTexture name="right_hand" width="10" height="13" x="225" y="158"/>
+  <SubTexture name="right_up_arm" width="29" height="42" x="102" y="136"/>
+  <SubTexture name="head_1" width="50" height="51" x="88" y="227"/>
+  <SubTexture name="head" width="50" height="51" x="36" y="211"/>
+  <SubTexture name="special_3" width="52" height="42" x="140" y="231"/>
+  <SubTexture name="left_down_leg" width="19" height="42" x="227" y="94"/>
+  <SubTexture name="right_up_leg" width="23" height="46" x="227" y="0"/>
+  <SubTexture name="special_1" width="25" height="18" x="225" y="138"/>
+  <SubTexture name="body" width="30" height="64" x="133" y="104"/>
+  <SubTexture name="bao_right_up_arm" width="41" height="72" x="182" y="100"/>
+  <SubTexture name="bao_head_2" width="52" height="55" x="168" y="174"/>
+  <SubTexture name="bao_head" width="53" height="55" x="45" y="154"/>
+  <SubTexture name="bao_special_1" width="29" height="48" x="102" y="86"/>
+  <SubTexture name="bao_special_up_leg" width="43" height="83" x="0" y="86"/>
+  <SubTexture name="bao_body" width="131" height="84" x="0" y="0"/>
+  <SubTexture name="bao_right_hand" width="51" height="30" x="194" y="231"/>
+  <SubTexture name="bao_right_down_arm" width="33" height="55" x="133" y="170"/>
+  <SubTexture name="bao_right_down_leg" width="24" height="44" x="227" y="48"/>
+  <SubTexture name="special_left_up_leg" width="55" height="66" x="45" y="86"/>
+  <SubTexture name="bao_right_foot" width="34" height="21" x="0" y="201"/>
+  <SubTexture name="发个梵蒂冈" width="47" height="102" x="133" y="0"/>
+  <SubTexture name="special_2" width="43" height="98" x="182" y="0"/>
+  <SubTexture name="left_up_arm" width="14" height="34" x="165" y="104"/>
+  <SubTexture name="special_4" width="30" height="28" x="0" y="171"/>
+</TextureAtlas>

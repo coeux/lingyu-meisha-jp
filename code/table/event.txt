@@ -1,0 +1,5 @@
+number	string	string	string	string	string	string	string	number	number	number	number
+id	name	resource1	resource2	resource3	start_time	end_time	reset_time	item_id	role_id	role_id_1	role_id_2
+1	卡拉德波加	resource1	resource2	resource3	2017-01-14 00:00:00	2017-01-19 23:59:59	2017-01-20 23:59:59	16001	26	2	1
+2	袖搦	resource1	resource2	resource3	2017-01-22 12:00:00	2017-02-05 00:01:30	2017-02-06 14:40:00	16001	41	21	22
+3	血琥珀	resource1	resource2	resource3	2017-02-06 15:00:00	2017-02-19 00:01:30	2017-02-19 23:59:59	16001	61	9	23

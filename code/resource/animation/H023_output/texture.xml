@@ -1,0 +1,48 @@
+<TextureAtlas name="H023" width="512" height="512">
+ <SubTexture name="元件 1" width="34" height="14" cocos2d_pX="17" cocos2d_pY="7" x="475" y="217"/>
+ <SubTexture name="元件 3" width="82" height="80" cocos2d_pX="-85" cocos2d_pY="-69" x="112" y="318"/>
+ <SubTexture name="元件 4" width="141" height="120" cocos2d_pX="-47" cocos2d_pY="-39" x="163" y="0"/>
+ <SubTexture name="元件 5" width="161" height="121" cocos2d_pX="-41" cocos2d_pY="-44" x="0" y="0"/>
+ <SubTexture name="元件 6" width="130" height="113" cocos2d_pX="-57" cocos2d_pY="-42" x="306" y="0"/>
+ <SubTexture name="元件 2" width="112" height="79" cocos2d_pX="56" cocos2d_pY="40" x="397" y="261"/>
+ <SubTexture name="元件 15" width="92" height="63" cocos2d_pX="46" cocos2d_pY="32" x="0" y="320"/>
+ <SubTexture name="元件 9" width="115" height="97" cocos2d_pX="-62" cocos2d_pY="-55" x="280" y="221"/>
+ <SubTexture name="元件 10" width="117" height="104" cocos2d_pX="-62" cocos2d_pY="-51" x="306" y="115"/>
+ <SubTexture name="元件 11" width="115" height="103" cocos2d_pX="-63" cocos2d_pY="-51" x="163" y="122"/>
+ <SubTexture name="元件 12" width="117" height="98" cocos2d_pX="-61" cocos2d_pY="-52" x="0" y="123"/>
+ <SubTexture name="元件 13" width="110" height="95" cocos2d_pX="-68" cocos2d_pY="-51" x="0" y="223"/>
+ <SubTexture name="元件 14" width="105" height="89" cocos2d_pX="-68" cocos2d_pY="-58" x="162" y="227"/>
+ <SubTexture name="yuanjian/MaoMN_L_arm_up" width="13" height="23" cocos2d_pX="7" cocos2d_pY="12" x="487" y="164"/>
+ <SubTexture name="yuanjian/MaoMN_L_arm" width="10" height="15" cocos2d_pX="5" cocos2d_pY="8" x="425" y="168"/>
+ <SubTexture name="yuanjian/MaoMN_wuqi_3" width="66" height="16" cocos2d_pX="34" cocos2d_pY="8" x="266" y="320"/>
+ <SubTexture name="yuanjian/MaoMN_wuqi_1" width="68" height="16" cocos2d_pX="34" cocos2d_pY="8" x="196" y="318"/>
+ <SubTexture name="yuanjian/MaoMN_hair_5" width="23" height="15" cocos2d_pX="12" cocos2d_pY="8" x="487" y="147"/>
+ <SubTexture name="yuanjian/MaoMN_maozi" width="56" height="39" cocos2d_pX="29" cocos2d_pY="19" x="438" y="0"/>
+ <SubTexture name="yuanjian/MaoMN_hair_2" width="39" height="22" cocos2d_pX="20" cocos2d_pY="11" x="119" y="123"/>
+ <SubTexture name="yuanjian/MaoMN_hair_3" width="16" height="40" cocos2d_pX="8" cocos2d_pY="20" x="280" y="122"/>
+ <SubTexture name="yuanjian/MaoMN_head_3" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="437" y="173"/>
+ <SubTexture name="yuanjian/MaoMN_head_4" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="437" y="129"/>
+ <SubTexture name="yuanjian/MaoMN_head_6" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="438" y="41"/>
+ <SubTexture name="yuanjian/MaoMN_head_5" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="438" y="85"/>
+ <SubTexture name="yuanjian/MaoMN_head_2" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="112" y="223"/>
+ <SubTexture name="yuanjian/MaoMN_head_1" width="48" height="42" cocos2d_pX="24" cocos2d_pY="21" x="425" y="217"/>
+ <SubTexture name="yuanjian/MaoMN_hair_4" width="12" height="32" cocos2d_pX="6" cocos2d_pY="16" x="496" y="0"/>
+ <SubTexture name="yuanjian/MaoMN_lindang" width="11" height="10" cocos2d_pX="6" cocos2d_pY="5" x="146" y="191"/>
+ <SubTexture name="yuanjian/MaoMN_body" width="25" height="30" cocos2d_pX="13" cocos2d_pY="15" x="119" y="169"/>
+ <SubTexture name="yuanjian/MaoMN_yao" width="21" height="14" cocos2d_pX="11" cocos2d_pY="7" x="280" y="185"/>
+ <SubTexture name="yuanjian/MaoMN_hair_1" width="21" height="59" cocos2d_pX="11" cocos2d_pY="30" x="488" y="65"/>
+ <SubTexture name="yuanjian/MaoMN_cloth_1" width="24" height="19" cocos2d_pX="12" cocos2d_pY="10" x="280" y="164"/>
+ <SubTexture name="yuanjian/MaoMN_cloth_2" width="21" height="19" cocos2d_pX="11" cocos2d_pY="10" x="488" y="126"/>
+ <SubTexture name="yuanjian/MaoMN_L_leg_up" width="14" height="29" cocos2d_pX="7" cocos2d_pY="15" x="496" y="34"/>
+ <SubTexture name="yuanjian/MaoMN_L_leg" width="10" height="24" cocos2d_pX="5" cocos2d_pY="12" x="425" y="142"/>
+ <SubTexture name="yuanjian/MaoMN_L_foot" width="17" height="16" cocos2d_pX="9" cocos2d_pY="8" x="280" y="201"/>
+ <SubTexture name="yuanjian/MaoMN_R_leg_up" width="10" height="25" cocos2d_pX="5" cocos2d_pY="13" x="425" y="115"/>
+ <SubTexture name="yuanjian/MaoMN_R_leg" width="7" height="22" cocos2d_pX="4" cocos2d_pY="11" x="502" y="164"/>
+ <SubTexture name="yuanjian/MaoMN_R_foot" width="17" height="13" cocos2d_pX="9" cocos2d_pY="7" x="487" y="202"/>
+ <SubTexture name="yuanjian/MaoMN_wuqi_2" width="25" height="20" cocos2d_pX="13" cocos2d_pY="10" x="119" y="201"/>
+ <SubTexture name="yuanjian/MaoMN_R_arm_up" width="12" height="20" cocos2d_pX="6" cocos2d_pY="10" x="146" y="169"/>
+ <SubTexture name="yuanjian/MaoMN_R_arm" width="13" height="11" cocos2d_pX="7" cocos2d_pY="6" x="487" y="189"/>
+ <SubTexture name="yuanjian/MaoMN_L_hand" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="502" y="188"/>
+ <SubTexture name="yuanjian/MaoMN_R_hand" width="9" height="7" cocos2d_pX="5" cocos2d_pY="4" x="425" y="185"/>
+ <SubTexture name="yuanjian/BianMN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="119" y="147"/>
+</TextureAtlas>

@@ -1,0 +1,60 @@
+<skeleton name="e502" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="e502">
+      <b name="图层 1" x="0.8" y="-8.52" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0">
+        <d name="元件 2" pX="-27.4" pY="-39.1"/>
+        <d name="元件 3" pX="-26.82" pY="-37.08"/>
+        <d name="元件 4" pX="-23.95" pY="-19"/>
+        <d name="元件 5" pX="-21.07" pY="-14.7"/>
+        <d name="元件 6" pX="-21.95" pY="-9.52"/>
+        <d name="元件 7" pX="-31.12" pY="-20.15"/>
+        <d name="元件 8" pX="-31.7" pY="-14.12"/>
+        <d name="元件 9" pX="-30.85" pY="-17"/>
+        <d name="元件 10" pX="-32.85" pY="-18.73"/>
+        <d name="元件 11" pX="-22.52" pY="-17"/>
+        <d name="元件 12" pX="-23.67" pY="-16.27"/>
+        <d name="元件 13" pX="-22.95" pY="-14.42"/>
+        <d name="元件 14" pX="-21.82" pY="-11.85"/>
+        <d name="元件 15" pX="-22.95" pY="-10.35"/>
+        <d name="元件 16" pX="-24.8" pY="-8.15"/>
+        <d name="元件 17" pX="-24.8" pY="-8.15"/>
+        <d name="元件 18" pX="-26.65" pY="-25.9"/>
+        <d name="元件 19" pX="-27" pY="-38.1"/>
+        <d name="元件 20" pX="-26.27" pY="-36.25"/>
+        <d name="元件 22" pX="-35.9" pY="-44.4"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="e502">
+      <mov name="play" dr="38" to="0" drTW="38" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="0" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="1" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="2" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="3" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="4" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="5" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="6" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="7" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="8" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="9" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="10" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="11" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="12" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="13" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="14" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="15" dr="1"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="16" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="17" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="18" dr="2"/>
+          <f x="0.8" y="-8.52" cocos2d_x="-49" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="19" twE="0" dr="3"/>
+          <f x="0.8" y="-10.4" cocos2d_x="-49" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="19" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="22" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

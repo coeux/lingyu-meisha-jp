@@ -1,0 +1,46 @@
+﻿<skeleton name="zhandouli" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="zhandouli">
+      <b name="图层 1" x="1" y="0" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0">
+        <d name="20026.png" pX="0" pY="0"/>
+        <d name="20027.png" pX="0" pY="0"/>
+        <d name="20028.png" pX="0" pY="0"/>
+        <d name="20029.png" pX="0" pY="0"/>
+        <d name="20030.png" pX="0" pY="0"/>
+        <d name="20031.png" pX="0" pY="0"/>
+        <d name="20032.png" pX="0" pY="0"/>
+        <d name="20033.png" pX="0" pY="0"/>
+        <d name="20034.png" pX="0" pY="0"/>
+        <d name="20035.png" pX="0" pY="0"/>
+        <d name="20036.png" pX="0" pY="0"/>
+        <d name="20037.png" pX="0" pY="0"/>
+        <d name="20038.png" pX="0" pY="0"/>
+        <d name="20039.png" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="zhandouli">
+      <mov name="play" dr="34" to="6" drTW="34" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="0" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="1" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="2" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="3" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="4" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="5" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="6" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="7" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="8" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="9" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="10" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="11" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="12" dr="1"/>
+          <f x="1" y="0" cocos2d_x="-44" cocos2d_y="-20" kX="0" kY="0" cX="1" cY="1" pX="45" pY="20" z="0" dI="13" dr="1"/>
+          <f dr="13" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

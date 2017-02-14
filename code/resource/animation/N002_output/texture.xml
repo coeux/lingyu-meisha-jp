@@ -1,0 +1,31 @@
+<TextureAtlas name="N002" width="128" height="128">
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_hair_1" width="25" height="21" cocos2d_pX="13" cocos2d_pY="9" x="0" y="34"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_hair_2" width="11" height="30" cocos2d_pX="4" cocos2d_pY="15" x="53" y="34"/>
+  <SubTexture name="head_2" width="32" height="32" cocos2d_pX="16" cocos2d_pY="16" x="35" y="0"/>
+  <SubTexture name="head" width="33" height="32" cocos2d_pX="16" cocos2d_pY="16" x="0" y="0"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_fajie" width="20" height="19" cocos2d_pX="10" cocos2d_pY="10" x="0" y="57"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_fadai" width="16" height="29" cocos2d_pX="8" cocos2d_pY="15" x="35" y="34"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_hair_3" width="7" height="22" cocos2d_pX="4" cocos2d_pY="11" x="111" y="37"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_hair_4" width="25" height="39" cocos2d_pX="13" cocos2d_pY="20" x="69" y="0"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_hand" width="7" height="8" cocos2d_pX="4" cocos2d_pY="4" x="75" y="65"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_arm" width="5" height="8" cocos2d_pX="3" cocos2d_pY="4" x="120" y="37"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_arm_up" width="8" height="16" cocos2d_pX="4" cocos2d_pY="8" x="86" y="41"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_piaodai_1" width="13" height="40" cocos2d_pX="7" cocos2d_pY="18" x="96" y="0"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_hudiejie" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="120" y="55"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_body" width="18" height="22" cocos2d_pX="9" cocos2d_pY="11" x="66" y="41"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_qunbai_1" width="12" height="14" cocos2d_pX="4" cocos2d_pY="7" x="96" y="58"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_qunbai_2" width="13" height="14" cocos2d_pX="7" cocos2d_pY="7" x="96" y="42"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_foot" width="7" height="6" cocos2d_pX="4" cocos2d_pY="3" x="45" y="66"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_leg" width="7" height="16" cocos2d_pX="4" cocos2d_pY="8" x="86" y="59"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_L_leg_up" width="7" height="14" cocos2d_pX="4" cocos2d_pY="7" x="66" y="65"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_R_foot" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="120" y="47"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_R_leg" width="6" height="15" cocos2d_pX="3" cocos2d_pY="8" x="27" y="34"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_R_leg_up" width="8" height="13" cocos2d_pX="3" cocos2d_pY="7" x="110" y="61"/>
+  <SubTexture name="yuanjian/GTJJ_R_hand_1" width="12" height="12" cocos2d_pX="6" cocos2d_pY="6" x="31" y="65"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_R_arm" width="5" height="7" cocos2d_pX="3" cocos2d_pY="4" x="27" y="51"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_R_arm_up" width="7" height="15" cocos2d_pX="4" cocos2d_pY="12" x="22" y="60"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_piaodai_2" width="11" height="35" cocos2d_pX="6" cocos2d_pY="15" x="111" y="0"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_daoxiao" width="35" height="10" cocos2d_pX="18" cocos2d_pY="5" x="0" y="101"/>
+  <SubTexture name="哥特剑姬1.psd 资源 9/GTJJ_wuqi" width="34" height="27" cocos2d_pX="17" cocos2d_pY="14" x="75" y="77"/>
+  <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="79"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+<TextureAtlas name="dandao" width="256" height="256">
+  <SubTexture name="30005.png" width="175" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="104"/>
+  <SubTexture name="30003.png" width="175" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="52"/>
+  <SubTexture name="30001.png" width="175" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+</TextureAtlas>

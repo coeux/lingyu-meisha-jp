@@ -1,0 +1,29 @@
+<TextureAtlas name="N010" width="256" height="128">
+ <SubTexture name="钢铁之翼1.psd 资源 9/fashi" width="10" height="13" cocos2d_pX="5" cocos2d_pY="7" x="176" y="63"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/hair_2" width="22" height="19" cocos2d_pX="11" cocos2d_pY="10" x="213" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/hair_3" width="9" height="32" cocos2d_pX="6" cocos2d_pY="17" x="194" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/head_2" width="31" height="33" cocos2d_pX="12" cocos2d_pY="26" x="213" y="0"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/head" width="32" height="33" cocos2d_pX="13" cocos2d_pY="26" x="179" y="0"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/hair_1" width="8" height="22" cocos2d_pX="4" cocos2d_pY="10" x="246" y="0"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_arm_up" width="9" height="14" cocos2d_pX="5" cocos2d_pY="7" x="245" y="58"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="205" y="59"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_arm" width="7" height="11" cocos2d_pX="5" cocos2d_pY="4" x="114" y="67"/>
+ <SubTexture name="weapon" width="101" height="73" cocos2d_pX="42" cocos2d_pY="27" x="0" y="0"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/xiongbu" width="12" height="7" cocos2d_pX="6" cocos2d_pY="4" x="231" y="65"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/body" width="16" height="26" cocos2d_pX="11" cocos2d_pY="13" x="176" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/qunzi_1" width="19" height="15" cocos2d_pX="7" cocos2d_pY="7" x="103" y="50"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/qunzi_2" width="16" height="14" cocos2d_pX="1" cocos2d_pY="8" x="213" y="56"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_up_leg" width="8" height="17" cocos2d_pX="4" cocos2d_pY="9" x="246" y="24"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_down_leg" width="6" height="14" cocos2d_pX="3" cocos2d_pY="7" x="205" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_foot" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="103" y="67"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_foot" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="123" y="69"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_up_leg" width="9" height="17" cocos2d_pX="1" cocos2d_pY="9" x="124" y="50"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_down_leg" width="6" height="13" cocos2d_pX="3" cocos2d_pY="7" x="237" y="50"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_arm_up" width="7" height="13" cocos2d_pX="4" cocos2d_pY="7" x="237" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_hand" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="205" y="51"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_arm" width="8" height="13" cocos2d_pX="4" cocos2d_pY="7" x="246" y="43"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/right_up_wing" width="33" height="29" cocos2d_pX="17" cocos2d_pY="15" x="141" y="35"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/left_up_wing" width="36" height="33" cocos2d_pX="18" cocos2d_pY="17" x="141" y="0"/>
+ <SubTexture name="钢铁之翼1.psd 资源 9/hair_4" width="36" height="48" cocos2d_pX="18" cocos2d_pY="24" x="103" y="0"/>
+ <SubTexture name="yuanjian/JJN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="135" y="66"/>
+</TextureAtlas>

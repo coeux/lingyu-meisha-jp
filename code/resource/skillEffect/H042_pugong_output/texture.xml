@@ -1,0 +1,6 @@
+<TextureAtlas name="H042_pugong" width="256" height="256">
+ <SubTexture name="元件 5" width="106" height="100" cocos2d_pX="53" cocos2d_pY="50" x="0" y="102"/>
+ <SubTexture name="元件 4" width="106" height="100" cocos2d_pX="53" cocos2d_pY="50" x="108" y="102"/>
+ <SubTexture name="元件 3" width="106" height="100" cocos2d_pX="53" cocos2d_pY="50" x="0" y="0"/>
+ <SubTexture name="元件 2" width="106" height="100" cocos2d_pX="53" cocos2d_pY="50" x="108" y="0"/>
+</TextureAtlas>

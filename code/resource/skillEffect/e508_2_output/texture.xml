@@ -1,0 +1,21 @@
+<TextureAtlas name="e508_2" width="512" height="256">
+ <SubTexture name="未命名文件夹 1/元件 43" width="42" height="62" cocos2d_pX="21" cocos2d_pY="31" x="431" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 42" width="98" height="92" cocos2d_pX="49" cocos2d_pY="46" x="0" y="98"/>
+ <SubTexture name="未命名文件夹 1/元件 41" width="38" height="52" cocos2d_pX="19" cocos2d_pY="26" x="431" y="117"/>
+ <SubTexture name="未命名文件夹 1/元件 40" width="37" height="43" cocos2d_pX="19" cocos2d_pY="22" x="471" y="134"/>
+ <SubTexture name="未命名文件夹 1/元件 39" width="97" height="79" cocos2d_pX="49" cocos2d_pY="40" x="143" y="122"/>
+ <SubTexture name="未命名文件夹 1/元件 38" width="35" height="43" cocos2d_pX="18" cocos2d_pY="22" x="475" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 37" width="38" height="44" cocos2d_pX="19" cocos2d_pY="22" x="342" y="128"/>
+ <SubTexture name="未命名文件夹 1/元件 36" width="37" height="44" cocos2d_pX="19" cocos2d_pY="22" x="382" y="128"/>
+ <SubTexture name="未命名文件夹 1/元件 35" width="38" height="46" cocos2d_pX="19" cocos2d_pY="23" x="302" y="128"/>
+ <SubTexture name="未命名文件夹 1/元件 34" width="40" height="49" cocos2d_pX="20" cocos2d_pY="25" x="260" y="128"/>
+ <SubTexture name="未命名文件夹 1/元件 33" width="41" height="49" cocos2d_pX="21" cocos2d_pY="25" x="100" y="98"/>
+ <SubTexture name="未命名文件夹 1/元件 32" width="42" height="51" cocos2d_pX="21" cocos2d_pY="26" x="431" y="64"/>
+ <SubTexture name="未命名文件夹 1/元件 31" width="150" height="49" cocos2d_pX="75" cocos2d_pY="25" x="279" y="77"/>
+ <SubTexture name="未命名文件夹 1/元件 30" width="150" height="96" cocos2d_pX="75" cocos2d_pY="48" x="0" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 29" width="150" height="75" cocos2d_pX="75" cocos2d_pY="38" x="279" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 28" width="125" height="120" cocos2d_pX="63" cocos2d_pY="60" x="152" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 27" width="30" height="42" cocos2d_pX="15" cocos2d_pY="21" x="475" y="45"/>
+ <SubTexture name="未命名文件夹 1/元件 26" width="23" height="43" cocos2d_pX="12" cocos2d_pY="22" x="475" y="89"/>
+ <SubTexture name="未命名文件夹 1/元件 25" width="16" height="45" cocos2d_pX="8" cocos2d_pY="23" x="242" y="122"/>
+</TextureAtlas>

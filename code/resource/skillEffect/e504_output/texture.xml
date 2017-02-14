@@ -1,0 +1,12 @@
+<TextureAtlas name="e504" width="512" height="256">
+ <SubTexture name="yujian/元件 5" width="83" height="62" x="336" y="93"/>
+ <SubTexture name="yujian/元件 6" width="88" height="65" x="115" y="101"/>
+ <SubTexture name="yujian/元件 8" width="87" height="63" x="0" y="104"/>
+ <SubTexture name="yujian/元件 10" width="89" height="71" x="225" y="99"/>
+ <SubTexture name="yujian/元件 12" width="87" height="69" x="422" y="89"/>
+ <SubTexture name="yujian/元件 14" width="87" height="87" x="422" y="0"/>
+ <SubTexture name="yujian/元件 16" width="84" height="91" x="336" y="0"/>
+ <SubTexture name="yujian/元件 18" width="109" height="97" x="225" y="0"/>
+ <SubTexture name="yujian/元件 20" width="113" height="102" x="0" y="0"/>
+ <SubTexture name="yujian/元件 21" width="108" height="99" x="115" y="0"/>
+</TextureAtlas>

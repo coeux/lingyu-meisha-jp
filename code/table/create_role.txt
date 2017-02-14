@@ -1,0 +1,5 @@
+number	string	string	string	string	string	string
+id	icon1	icon2	icon3	description1	description2	description3
+101	login_role1_1	login_icon_201	login_desc2	風使いの少女。純真な心を持ち、意外と勇敢さもある。	前衛盾役。高いHPと防御力を持つ。	鋭い風の刃で敵を薙ぎ払う。
+102	login_role2_1	login_icon_202	login_desc4	特殊部隊の司令官。正確無比な射撃は他を寄せ付けない。	後衛攻撃手。全体攻撃を得意とする。	炎の力で全てを燃やし尽くす。
+103	login_role3_1	login_icon_200	login_desc0	神秘的なオーラを纏う少年。穏やかな空気を持つ。	中衛万能型。連撃能力に長ける。	召喚により冥界の者を操る。

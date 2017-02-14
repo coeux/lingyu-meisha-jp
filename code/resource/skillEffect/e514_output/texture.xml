@@ -1,0 +1,20 @@
+<TextureAtlas name="e514" width="512" height="512">
+  <SubTexture name="元件 18" width="40" height="54" x="62" y="408"/>
+  <SubTexture name="元件 17" width="60" height="86" x="443" y="400"/>
+  <SubTexture name="元件 16" width="60" height="78" x="0" y="408"/>
+  <SubTexture name="元件 15" width="103" height="113" x="226" y="299"/>
+  <SubTexture name="元件 14" width="112" height="106" x="112" y="299"/>
+  <SubTexture name="元件 13" width="125" height="108" x="356" y="290"/>
+  <SubTexture name="元件 12" width="126" height="138" x="370" y="0"/>
+  <SubTexture name="元件 11" width="124" height="133" x="0" y="153"/>
+  <SubTexture name="元件 10" width="127" height="151" x="0" y="0"/>
+  <SubTexture name="元件 9" width="117" height="161" x="129" y="0"/>
+  <SubTexture name="元件 8" width="120" height="149" x="248" y="0"/>
+  <SubTexture name="元件 7" width="106" height="146" x="248" y="151"/>
+  <SubTexture name="元件 6" width="110" height="148" x="370" y="140"/>
+  <SubTexture name="元件 5" width="114" height="134" x="126" y="163"/>
+  <SubTexture name="元件 4" width="110" height="118" x="0" y="288"/>
+  <SubTexture name="元件 3" width="110" height="97" x="331" y="400"/>
+  <SubTexture name="元件 2" width="94" height="79" x="112" y="407"/>
+  <SubTexture name="元件 1" width="51" height="44" x="208" y="414"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+<skeleton name="S210_2" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S210_2">
+   <b name="图层 1" x="-20.17" y="10.8" kX="0" kY="0" cX="1" cY="1" pX="29" pY="31" z="0">
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="元件 7" pX="0" pY="0"/>
+    <d name="元件 9" pX="0" pY="0"/>
+    <d name="元件 11" pX="0" pY="0"/>
+    <d name="元件 13" pX="0" pY="0"/>
+    <d name="元件 15" pX="0" pY="0"/>
+    <d name="元件 17" pX="0" pY="0"/>
+    <d name="元件 19" pX="0" pY="0"/>
+    <d name="元件 21" pX="0" pY="0"/>
+    <d name="元件 23" pX="0" pY="0"/>
+    <d name="元件 25" pX="0" pY="0"/>
+    <d name="元件 27" pX="0" pY="0"/>
+    <d name="元件 28" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S210_2">
+   <mov name="play" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-20.17" y="10.8" kX="0" kY="0" cX="1" cY="1" pX="29" pY="31" z="0" dI="0" dr="2"/>
+     <f x="-22.17" y="12.05" kX="0" kY="0" cX="1" cY="1" pX="27.5" pY="26.75" z="0" dI="1" dr="2"/>
+     <f x="-20.42" y="13.05" kX="0" kY="0" cX="1" cY="1" pX="28.75" pY="26.75" z="0" dI="2" dr="2"/>
+     <f x="-23.42" y="12.05" kX="0" kY="0" cX="1" cY="1" pX="29.25" pY="28.25" z="0" dI="3" dr="2"/>
+     <f x="-25.92" y="8.3" kX="0" kY="0" cX="1" cY="1" pX="33.75" pY="33" z="0" dI="4" dr="2"/>
+     <f x="-34.42" y="-10.2" kX="0" kY="0" cX="1" cY="1" pX="45.75" pY="52" z="0" dI="5" dr="2"/>
+     <f x="-33.17" y="-14.75" kX="0" kY="0" cX="1" cY="1" pX="47.5" pY="54.03" z="0" dI="6" dr="2"/>
+     <f x="-34.67" y="-14" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="54.78" z="0" dI="7" dr="2"/>
+     <f x="-34.17" y="-20.2" kX="0" kY="0" cX="1" cY="1" pX="40" pY="43.5" z="0" dI="8" dr="2"/>
+     <f x="-34.17" y="-18.95" kX="0" kY="0" cX="1" cY="1" pX="38" pY="39.25" z="0" dI="9" dr="2"/>
+     <f x="24.83" y="16.77" kX="0" kY="0" cX="1" cY="1" pX="49.5" pY="44.48" z="0" dI="10" dr="1"/>
+     <f x="20.83" y="16.02" kX="0" kY="0" cX="1" cY="1" pX="45" pY="43.73" z="0" dI="11" dr="2"/>
+     <f x="21.33" y="18.27" kX="0" kY="0" cX="1" cY="1" pX="43.5" pY="42.98" z="0" dI="12" dr="2"/>
+     <f x="17.08" y="18.02" kX="0" kY="0" cX="1" cY="1" pX="41.75" pY="45.23" z="0" dI="13" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

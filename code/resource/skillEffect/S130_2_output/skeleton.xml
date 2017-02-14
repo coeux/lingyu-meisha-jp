@@ -1,0 +1,34 @@
+<skeleton name="S130_2" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="S130_2">
+      <b name="图层 1" x="4.97" y="-20.02" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0">
+        <d name="10027.png" pX="0" pY="0"/>
+        <d name="10028.png" pX="0" pY="0"/>
+        <d name="10029.png" pX="0" pY="0"/>
+        <d name="10030.png" pX="0" pY="0"/>
+        <d name="10031.png" pX="0" pY="0"/>
+        <d name="10032.png" pX="0" pY="0"/>
+        <d name="10033.png" pX="0" pY="0"/>
+        <d name="10034.png" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S130_2">
+      <mov name="play" dr="10" to="6" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="0" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="1" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="2" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="3" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="4" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="5" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="6" dr="1"/>
+          <f x="4.97" y="-20.02" cocos2d_x="-57" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="62.5" pY="37.5" z="0" dI="7" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

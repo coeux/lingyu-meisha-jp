@@ -1,0 +1,6 @@
+<TextureAtlas name="S134_2" width="256" height="256">
+ <SubTexture name="元件 4" width="93" height="70" x="95" y="0"/>
+ <SubTexture name="元件 3" width="93" height="73" x="0" y="0"/>
+ <SubTexture name="元件 2" width="71" height="82" x="166" y="72"/>
+ <SubTexture name="元件 1" width="69" height="89" x="95" y="72"/>
+</TextureAtlas>

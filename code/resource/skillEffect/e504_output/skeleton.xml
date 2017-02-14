@@ -1,0 +1,40 @@
+<skeleton name="e504" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="e504">
+   <b name="图层 1" x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0">
+    <d name="yujian/元件 21" pX="-7.6" pY="-17.2"/>
+    <d name="yujian/元件 20" pX="-6.1" pY="-16.2"/>
+    <d name="yujian/元件 18" pX="-7.85" pY="-16.7"/>
+    <d name="yujian/元件 16" pX="-18.85" pY="-20.95"/>
+    <d name="yujian/元件 14" pX="-17.35" pY="-22.2"/>
+    <d name="yujian/元件 12" pX="-17.1" pY="-30.7"/>
+    <d name="yujian/元件 10" pX="-16.1" pY="-29.45"/>
+    <d name="yujian/元件 8" pX="-16.85" pY="-36.7"/>
+    <d name="yujian/元件 6" pX="-16.6" pY="-35.45"/>
+    <d name="yujian/元件 5" pX="-18.85" pY="-37.2"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="e504">
+   <mov name="play" dr="21" to="0" drTW="21" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="0" dr="1"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="1" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="2" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="3" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="4" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="5" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="6" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="7" dr="2"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="8" dr="1"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="2" cY="2" pX="62.5" pY="62.5" z="0" dI="9" twE="0" dr="3"/>
+     <f x="0" y="-5" kX="0" kY="0" cX="1.9" cY="1.9" pX="62.5" pY="62.53" z="0" dI="9" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="52" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,48 @@
+<TextureAtlas name="M011" width="512" height="512">
+  <SubTexture name="元件 4" width="117" height="189" cocos2d_pX="42" cocos2d_pY="101" x="275" y="187"/>
+  <SubTexture name="元件 3" width="137" height="194" cocos2d_pX="69" cocos2d_pY="96" x="136" y="0"/>
+  <SubTexture name="元件 2" width="134" height="205" cocos2d_pX="69" cocos2d_pY="104" x="0" y="0"/>
+  <SubTexture name="元件 1" width="133" height="185" cocos2d_pX="66" cocos2d_pY="100" x="275" y="0"/>
+  <SubTexture name="元件 45" width="46" height="31" cocos2d_pX="23" cocos2d_pY="16" x="207" y="282"/>
+  <SubTexture name="元件 44" width="57" height="45" cocos2d_pX="29" cocos2d_pY="23" x="124" y="265"/>
+  <SubTexture name="元件 42" width="52" height="54" cocos2d_pX="26" cocos2d_pY="27" x="394" y="247"/>
+  <SubTexture name="元件 41" width="43" height="46" cocos2d_pX="22" cocos2d_pY="23" x="410" y="170"/>
+  <SubTexture name="元件 40" width="54" height="58" cocos2d_pX="27" cocos2d_pY="29" x="68" y="207"/>
+  <SubTexture name="元件 39" width="53" height="41" cocos2d_pX="27" cocos2d_pY="21" x="68" y="267"/>
+  <SubTexture name="元件 38" width="66" height="67" cocos2d_pX="33" cocos2d_pY="34" x="0" y="207"/>
+  <SubTexture name="元件 37" width="69" height="67" cocos2d_pX="35" cocos2d_pY="34" x="136" y="196"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/嘴2" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="260" y="210"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/嘴3" width="5" height="4" cocos2d_pX="3" cocos2d_pY="2" x="504" y="57"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左臂上" width="10" height="26" cocos2d_pX="5" cocos2d_pY="13" x="394" y="187"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左臂下" width="11" height="19" cocos2d_pX="6" cocos2d_pY="10" x="498" y="189"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左手" width="11" height="12" cocos2d_pX="6" cocos2d_pY="6" x="260" y="196"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/刀" width="51" height="84" cocos2d_pX="26" cocos2d_pY="42" x="207" y="196"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/领子 左" width="29" height="23" cocos2d_pX="15" cocos2d_pY="12" x="0" y="303"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/风衣左" width="21" height="51" cocos2d_pX="11" cocos2d_pY="26" x="475" y="162"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/风衣左 下摆" width="30" height="55" cocos2d_pX="15" cocos2d_pY="28" x="478" y="0"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/头发2" width="46" height="93" cocos2d_pX="23" cocos2d_pY="48" x="410" y="75"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/头发4" width="22" height="21" cocos2d_pX="11" cocos2d_pY="11" x="183" y="265"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/头发" width="41" height="27" cocos2d_pX="21" cocos2d_pY="14" x="410" y="218"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/头发3" width="17" height="22" cocos2d_pX="9" cocos2d_pY="11" x="255" y="282"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/嘴" width="10" height="3" cocos2d_pX="5" cocos2d_pY="2" x="498" y="210"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/头" width="66" height="73" cocos2d_pX="33" cocos2d_pY="37" x="410" y="0"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/脖子" width="14" height="10" cocos2d_pX="7" cocos2d_pY="5" x="394" y="215"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/风衣右" width="20" height="46" cocos2d_pX="10" cocos2d_pY="23" x="453" y="227"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/领子右" width="16" height="14" cocos2d_pX="8" cocos2d_pY="7" x="448" y="302"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/风衣右 下摆" width="17" height="52" cocos2d_pX="9" cocos2d_pY="26" x="458" y="75"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/胯" width="35" height="25" cocos2d_pX="18" cocos2d_pY="13" x="475" y="266"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/上身" width="33" height="49" cocos2d_pX="17" cocos2d_pY="25" x="477" y="111"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左腿上" width="24" height="52" cocos2d_pX="12" cocos2d_pY="26" x="478" y="57"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左腿下" width="18" height="31" cocos2d_pX="9" cocos2d_pY="16" x="455" y="194"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左脚" width="18" height="17" cocos2d_pX="9" cocos2d_pY="9" x="31" y="303"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/右腿上" width="19" height="49" cocos2d_pX="10" cocos2d_pY="25" x="475" y="215"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/左腿下_1" width="16" height="25" cocos2d_pX="8" cocos2d_pY="13" x="448" y="275"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/右脚" width="19" height="16" cocos2d_pX="10" cocos2d_pY="8" x="183" y="288"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/右臂上" width="12" height="25" cocos2d_pX="6" cocos2d_pY="22" x="498" y="162"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/右臂下" width="15" height="23" cocos2d_pX="8" cocos2d_pY="12" x="458" y="169"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/右手" width="10" height="12" cocos2d_pX="5" cocos2d_pY="6" x="124" y="207"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/爪" width="15" height="38" cocos2d_pX="8" cocos2d_pY="19" x="458" y="129"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/领子后" width="56" height="25" cocos2d_pX="28" cocos2d_pY="13" x="0" y="276"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/饮血改.psd 资源/风衣后" width="38" height="13" cocos2d_pX="19" cocos2d_pY="7" x="394" y="303"/>
+  <SubTexture name="未命名文件夹 3/群体治疗怪0.psd 资源/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="466" y="293"/>
+</TextureAtlas>

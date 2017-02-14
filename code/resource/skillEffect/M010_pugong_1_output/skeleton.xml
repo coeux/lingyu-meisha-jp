@@ -1,0 +1,18 @@
+<skeleton name="M010_pugong_1" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="M010_pugong_1">
+      <b name="图层 1" x="-15.1" y="0.45" kX="0" kY="0" cX="0.97" cY="1.44" pX="0" pY="0" z="0">
+        <d name="元件 1" pX="91" pY="28.75"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="M010_pugong_1">
+      <mov name="play" dr="9" to="0" drTW="9" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-15.1" y="0.45" cocos2d_x="-15.1" cocos2d_y="0.45" kX="0" kY="0" cX="0.97" cY="1.44" pX="0" pY="0" z="0" dI="0" dr="9"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

@@ -1,0 +1,3 @@
+<TextureAtlas name="瓶子" width="64" height="64">
+  <SubTexture name="yuanjian/pingzi_1" width="38" height="61" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+</TextureAtlas>

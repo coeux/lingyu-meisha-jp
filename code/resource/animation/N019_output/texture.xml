@@ -1,0 +1,28 @@
+<TextureAtlas name="N019" width="256" height="128">
+ <SubTexture name="青龙刀1.psd 资源 9/hair_1" width="15" height="21" cocos2d_pX="8" cocos2d_pY="11" x="228" y="42"/>
+ <SubTexture name="青龙刀1.psd 资源 9/hair_2" width="23" height="40" cocos2d_pX="12" cocos2d_pY="20" x="228" y="0"/>
+ <SubTexture name="青龙刀1.psd 资源 9/hair_3" width="10" height="16" cocos2d_pX="5" cocos2d_pY="8" x="134" y="58"/>
+ <SubTexture name="head_2" width="30" height="33" cocos2d_pX="23" cocos2d_pY="23" x="89" y="49"/>
+ <SubTexture name="head" width="30" height="34" cocos2d_pX="23" cocos2d_pY="24" x="190" y="39"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_arm_up" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="245" y="51"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_arm" width="10" height="11" cocos2d_pX="5" cocos2d_pY="6" x="146" y="58"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_hand" width="4" height="6" cocos2d_pX="2" cocos2d_pY="3" x="222" y="39"/>
+ <SubTexture name="青龙刀1.psd 资源 9/weapon" width="99" height="19" cocos2d_pX="50" cocos2d_pY="7" x="89" y="0"/>
+ <SubTexture name="青龙刀1.psd 资源 9/xiongbu" width="10" height="10" cocos2d_pX="5" cocos2d_pY="5" x="222" y="65"/>
+ <SubTexture name="青龙刀1.psd 资源 9/body" width="19" height="20" cocos2d_pX="10" cocos2d_pY="10" x="169" y="21"/>
+ <SubTexture name="青龙刀1.psd 资源 9/kua" width="14" height="13" cocos2d_pX="7" cocos2d_pY="7" x="71" y="55"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_up_leg" width="14" height="22" cocos2d_pX="7" cocos2d_pY="11" x="169" y="43"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_foot" width="6" height="8" cocos2d_pX="3" cocos2d_pY="4" x="245" y="62"/>
+ <SubTexture name="青龙刀1.psd 资源 9/left_down_leg" width="12" height="6" cocos2d_pX="6" cocos2d_pY="3" x="167" y="67"/>
+ <SubTexture name="青龙刀1.psd 资源 9/paiqitong" width="43" height="26" cocos2d_pX="22" cocos2d_pY="13" x="89" y="21"/>
+ <SubTexture name="青龙刀1.psd 资源 9/qiangan" width="11" height="23" cocos2d_pX="6" cocos2d_pY="12" x="121" y="49"/>
+ <SubTexture name="青龙刀1.psd 资源 9/qianlun_1" width="36" height="37" cocos2d_pX="19" cocos2d_pY="19" x="190" y="0"/>
+ <SubTexture name="青龙刀1.psd 资源 9/jiaodeng" width="7" height="8" cocos2d_pX="4" cocos2d_pY="4" x="158" y="58"/>
+ <SubTexture name="青龙刀1.psd 资源 9/che" width="87" height="53" cocos2d_pX="55" cocos2d_pY="27" x="0" y="0"/>
+ <SubTexture name="青龙刀1.psd 资源 9/houlun_1" width="33" height="35" cocos2d_pX="17" cocos2d_pY="18" x="134" y="21"/>
+ <SubTexture name="青龙刀1.psd 资源 9/right_arm_up" width="9" height="7" cocos2d_pX="5" cocos2d_pY="4" x="245" y="42"/>
+ <SubTexture name="青龙刀1.psd 资源 9/right_arm" width="10" height="7" cocos2d_pX="5" cocos2d_pY="4" x="71" y="70"/>
+ <SubTexture name="青龙刀1.psd 资源 9/right_hand" width="5" height="5" cocos2d_pX="3" cocos2d_pY="3" x="234" y="65"/>
+ <SubTexture name="青龙刀1.psd 资源 9/hair_4" width="28" height="27" cocos2d_pX="14" cocos2d_pY="14" x="41" y="55"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="55"/>
+</TextureAtlas>

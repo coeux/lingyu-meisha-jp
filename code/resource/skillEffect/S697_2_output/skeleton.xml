@@ -1,0 +1,25 @@
+<skeleton name="S697_2" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="S697_2">
+      <b name="20001.png" x="0.5" y="2.48" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0">
+        <d name="元件 5" pX="52" pY="54.75"/>
+        <d name="元件 6" pX="55.63" pY="60.88"/>
+        <d name="元件 7" pX="64.63" pY="62.13"/>
+        <d name="元件 8" pX="57.88" pY="54.88"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S697_2">
+      <mov name="play" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="20001.png" sc="1" dl="0">
+          <f x="0.5" y="2.48" cocos2d_x="1" cocos2d_y="3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="0" dr="2"/>
+          <f x="5.25" y="-8.77" cocos2d_x="6" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="3.75" y="-6.77" cocos2d_x="4" cocos2d_y="-6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="1.75" y="-5.27" cocos2d_x="2" cocos2d_y="-5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

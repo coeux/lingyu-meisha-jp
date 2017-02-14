@@ -1,0 +1,15 @@
+<TextureAtlas name="女战士战斗1" width="512" height="512">
+ <SubTexture name="元件 1" width="150" height="57" x="154" y="386"/>
+ <SubTexture name="元件 3" width="206" height="67" x="0" y="239"/>
+ <SubTexture name="元件 5" width="212" height="68" x="212" y="169"/>
+ <SubTexture name="元件 7" width="229" height="82" x="0" y="0"/>
+ <SubTexture name="元件 8" width="219" height="89" x="231" y="0"/>
+ <SubTexture name="元件 9" width="219" height="76" x="0" y="84"/>
+ <SubTexture name="元件 10" width="214" height="76" x="221" y="91"/>
+ <SubTexture name="元件 12" width="194" height="73" x="0" y="308"/>
+ <SubTexture name="元件 14" width="210" height="75" x="0" y="162"/>
+ <SubTexture name="元件 16" width="192" height="76" x="208" y="239"/>
+ <SubTexture name="元件 17" width="179" height="67" x="196" y="317"/>
+ <SubTexture name="元件 18" width="152" height="56" x="0" y="383"/>
+ <SubTexture name="元件 2" width="126" height="49" x="377" y="317"/>
+</TextureAtlas>

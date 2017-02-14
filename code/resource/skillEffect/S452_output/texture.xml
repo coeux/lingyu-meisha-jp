@@ -1,0 +1,5 @@
+<TextureAtlas name="S452" width="256" height="256">
+ <SubTexture name="元件 3" width="95" height="90" cocos2d_pX="48" cocos2d_pY="45" x="123" y="105"/>
+ <SubTexture name="元件 2" width="104" height="103" cocos2d_pX="52" cocos2d_pY="52" x="123" y="0"/>
+ <SubTexture name="元件 1" width="121" height="128" cocos2d_pX="61" cocos2d_pY="64" x="0" y="0"/>
+</TextureAtlas>

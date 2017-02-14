@@ -1,0 +1,5 @@
+<TextureAtlas name="xinshoujiantou" width="256" height="512">
+  <SubTexture name="重复项目文件夹/元件 4" width="46" height="56" cocos2d_pX="23" cocos2d_pY="29" x="191" y="0"/>
+  <SubTexture name="元件 4" width="98" height="98" cocos2d_pX="49" cocos2d_pY="49" x="0" y="191"/>
+  <SubTexture name="元件 3" width="189" height="189" cocos2d_pX="95" cocos2d_pY="95" x="0" y="0"/>
+</TextureAtlas>

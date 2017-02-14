@@ -1,0 +1,106 @@
+<skeleton name="H041_pugong" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S760_2">
+   <b name="30001.png" x="-10.3" y="-16.73" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 14" pX="48.25" pY="38"/>
+    <d name="元件 15" pX="42" pY="34.75"/>
+    <d name="元件 16" pX="57.5" pY="36.25"/>
+    <d name="元件 17" pX="57.5" pY="30.25"/>
+    <d name="元件 18" pX="52.5" pY="31.25"/>
+    <d name="元件 19" pX="39.75" pY="23.75"/>
+   </b>
+  </armature>
+  <armature name="H041_pugong_3">
+   <b name="30001.png" x="-11.25" y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 14" pX="48.25" pY="38"/>
+    <d name="元件 15" pX="42" pY="34.75"/>
+    <d name="元件 16" pX="57.5" pY="36.25"/>
+    <d name="元件 17" pX="57.5" pY="30.25"/>
+    <d name="元件 18" pX="52.5" pY="31.25"/>
+    <d name="元件 19" pX="39.75" pY="23.75"/>
+   </b>
+  </armature>
+  <armature name="H041_pugong_2">
+   <b name="20001.png" x="0.5" y="-13.27" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0">
+    <d name="元件 9" pX="47.5" pY="44.75"/>
+    <d name="元件 10" pX="71" pY="61"/>
+    <d name="元件 11" pX="53.75" pY="58.25"/>
+    <d name="元件 12" pX="56.75" pY="57.75"/>
+    <d name="元件 13" pX="52" pY="59.25"/>
+   </b>
+  </armature>
+  <armature name="H041_pugong_1">
+   <b name="10001.png" x="-19.95" y="-3.32" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0">
+    <d name="元件 1" pX="77.08" pY="58.88"/>
+    <d name="元件 2" pX="73.3" pY="59.53"/>
+    <d name="元件 3" pX="70.35" pY="62.68"/>
+    <d name="元件 4" pX="53.75" pY="56.08"/>
+    <d name="元件 5" pX="41.95" pY="45.15"/>
+    <d name="元件 6" pX="36.55" pY="35.17"/>
+    <d name="元件 7" pX="30.95" pY="29.38"/>
+    <d name="元件 8" pX="27.15" pY="26.38"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S760_2">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="30001.png" sc="1" dl="0">
+     <f x="-10.3" y="-16.73" cocos2d_x="-10" cocos2d_y="-16" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="2.95" y="-12.1" cocos2d_x="3" cocos2d_y="-12" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-3.1" y="-1.35" cocos2d_x="-3" cocos2d_y="-1" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-2.97" y="-2.33" cocos2d_x="-2" cocos2d_y="-2" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-2.47" y="-2.25" cocos2d_x="-2" cocos2d_y="-2" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="7.28" y="2.13" cocos2d_x="8" cocos2d_y="3" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="7.28" y="2.13" cocos2d_x="8" cocos2d_y="3" kX="-172.04" kY="7.96" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="32" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H041_pugong_3">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="30001.png" sc="1" dl="0">
+     <f x="-11.25" y="-3" cocos2d_x="-11" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="2.5" y="-5.75" cocos2d_x="3" cocos2d_y="-5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-2" y="-17.25" cocos2d_x="-2" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-2" y="-16.25" cocos2d_x="-2" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-1.5" y="-16.25" cocos2d_x="-1" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="8.75" y="-19.25" cocos2d_x="9" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="8.75" y="-19.25" cocos2d_x="9" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="32" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H041_pugong_2">
+   <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+    <b name="20001.png" sc="1" dl="0">
+     <f x="0.5" y="-13.27" cocos2d_x="1" cocos2d_y="-13" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="0" dr="2"/>
+     <f x="3" y="-24.52" cocos2d_x="3" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" dr="2"/>
+     <f x="2.25" y="-30.77" cocos2d_x="3" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="2" dr="2"/>
+     <f x="3.25" y="-31.27" cocos2d_x="4" cocos2d_y="-31" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+     <f x="4" y="-25.77" cocos2d_x="4" cocos2d_y="-25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H041_pugong_1">
+   <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+    <b name="10001.png" sc="1" dl="0">
+     <f x="-19.95" y="-3.32" cocos2d_x="-19" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="0" dr="1"/>
+     <f x="-23.75" y="-1.2" cocos2d_x="-23" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-12.35" y="-2.35" cocos2d_x="-12" cocos2d_y="-2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="4.22" y="4.95" cocos2d_x="5" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="6.8" y="8" cocos2d_x="7" cocos2d_y="8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="3.8" y="-1.2" cocos2d_x="4" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="5" dr="1"/>
+     <f x="5" y="-1.4" cocos2d_x="5" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="6" dr="1"/>
+     <f x="0" y="-0.4" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="7" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

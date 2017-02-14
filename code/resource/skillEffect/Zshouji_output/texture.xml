@@ -1,0 +1,11 @@
+<TextureAtlas name="受击" width="512" height="256">
+  <SubTexture name="元件 10" width="36" height="20" cocos2d_pX="18" cocos2d_pY="10" x="448" y="0"/>
+  <SubTexture name="元件 9" width="72" height="71" cocos2d_pX="36" cocos2d_pY="36" x="168" y="106"/>
+  <SubTexture name="元件 8" width="75" height="70" cocos2d_pX="38" cocos2d_pY="35" x="91" y="106"/>
+  <SubTexture name="元件 7" width="95" height="104" cocos2d_pX="48" cocos2d_pY="52" x="345" y="100"/>
+  <SubTexture name="元件 6" width="113" height="104" cocos2d_pX="57" cocos2d_pY="52" x="0" y="0"/>
+  <SubTexture name="元件 5" width="113" height="104" cocos2d_pX="57" cocos2d_pY="52" x="115" y="0"/>
+  <SubTexture name="元件 4" width="113" height="104" cocos2d_pX="57" cocos2d_pY="52" x="230" y="0"/>
+  <SubTexture name="元件 3" width="101" height="98" cocos2d_pX="51" cocos2d_pY="49" x="345" y="0"/>
+  <SubTexture name="元件 2" width="89" height="90" cocos2d_pX="45" cocos2d_pY="45" x="0" y="106"/>
+</TextureAtlas>

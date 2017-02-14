@@ -1,0 +1,15 @@
+<TextureAtlas name="M105_pugong_2" width="512" height="512">
+  <SubTexture name="元件 45" width="50" height="16" cocos2d_pX="25" cocos2d_pY="8" x="259" y="222"/>
+  <SubTexture name="元件 44" width="53" height="108" cocos2d_pX="27" cocos2d_pY="54" x="332" y="169"/>
+  <SubTexture name="元件 43" width="72" height="109" cocos2d_pX="36" cocos2d_pY="55" x="86" y="175"/>
+  <SubTexture name="元件 42" width="75" height="111" cocos2d_pX="38" cocos2d_pY="56" x="182" y="171"/>
+  <SubTexture name="元件 41" width="88" height="127" cocos2d_pX="44" cocos2d_pY="64" x="403" y="124"/>
+  <SubTexture name="元件 40" width="84" height="122" cocos2d_pX="42" cocos2d_pY="61" x="0" y="168"/>
+  <SubTexture name="元件 39" width="93" height="166" cocos2d_pX="47" cocos2d_pY="83" x="0" y="0"/>
+  <SubTexture name="元件 38" width="94" height="122" cocos2d_pX="47" cocos2d_pY="61" x="403" y="0"/>
+  <SubTexture name="元件 37" width="85" height="173" cocos2d_pX="43" cocos2d_pY="87" x="95" y="0"/>
+  <SubTexture name="元件 36" width="81" height="169" cocos2d_pX="41" cocos2d_pY="85" x="182" y="0"/>
+  <SubTexture name="元件 35" width="69" height="167" cocos2d_pX="35" cocos2d_pY="84" x="332" y="0"/>
+  <SubTexture name="元件 34" width="65" height="172" cocos2d_pX="33" cocos2d_pY="86" x="265" y="0"/>
+  <SubTexture name="元件 33" width="55" height="46" cocos2d_pX="28" cocos2d_pY="23" x="259" y="174"/>
+</TextureAtlas>

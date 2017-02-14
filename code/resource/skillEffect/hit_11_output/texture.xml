@@ -1,0 +1,9 @@
+<TextureAtlas name="hit_11" width="256" height="128">
+  <SubTexture name="未命名文件夹 1/元件 7" width="28" height="40" x="223" y="0"/>
+  <SubTexture name="未命名文件夹 1/元件 6" width="51" height="67" x="115" y="0"/>
+  <SubTexture name="未命名文件夹 1/元件 5" width="59" height="68" x="0" y="0"/>
+  <SubTexture name="未命名文件夹 1/元件 4" width="52" height="66" x="61" y="0"/>
+  <SubTexture name="未命名文件夹 1/元件 3" width="53" height="58" x="168" y="0"/>
+  <SubTexture name="未命名文件夹 1/元件 2" width="37" height="38" x="168" y="60"/>
+  <SubTexture name="未命名文件夹 1/元件 1" width="24" height="24" x="223" y="42"/>
+</TextureAtlas>

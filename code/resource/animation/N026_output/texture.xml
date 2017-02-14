@@ -1,0 +1,28 @@
+<TextureAtlas name="N026" width="128" height="128">
+ <SubTexture name="螺旋剑1.psd 资源 9/dunpai" width="34" height="64" cocos2d_pX="17" cocos2d_pY="32" x="0" y="0"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/hair_3" width="8" height="12" cocos2d_pX="4" cocos2d_pY="6" x="104" y="63"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/toushi" width="29" height="12" cocos2d_pX="15" cocos2d_pY="6" x="23" y="91"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/hair_1" width="21" height="30" cocos2d_pX="11" cocos2d_pY="15" x="0" y="66"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/hair_2" width="20" height="31" cocos2d_pX="10" cocos2d_pY="16" x="71" y="75"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/head_2" width="39" height="38" cocos2d_pX="20" cocos2d_pY="19" x="36" y="0"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/head" width="39" height="38" cocos2d_pX="20" cocos2d_pY="19" x="77" y="0"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_arm_up" width="8" height="13" cocos2d_pX="4" cocos2d_pY="7" x="118" y="19"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_arm" width="5" height="11" cocos2d_pX="3" cocos2d_pY="6" x="23" y="78"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="62" y="78"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/yaojia" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="104" y="77"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/qunzi_1" width="16" height="12" cocos2d_pX="8" cocos2d_pY="6" x="18" y="105"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/qunzi_2" width="16" height="13" cocos2d_pX="8" cocos2d_pY="7" x="0" y="98"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/body" width="16" height="27" cocos2d_pX="8" cocos2d_pY="14" x="93" y="87"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_up_leg" width="10" height="21" cocos2d_pX="5" cocos2d_pY="11" x="104" y="40"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_down_leg" width="7" height="17" cocos2d_pX="4" cocos2d_pY="9" x="118" y="0"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/left_foot" width="9" height="10" cocos2d_pX="5" cocos2d_pY="5" x="23" y="66"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_up_leg" width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="116" y="49"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_down_leg" width="7" height="14" cocos2d_pX="4" cocos2d_pY="7" x="62" y="62"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_foot" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="93" y="75"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_arm_up" width="8" height="13" cocos2d_pX="4" cocos2d_pY="7" x="118" y="34"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_arm" width="8" height="11" cocos2d_pX="4" cocos2d_pY="6" x="114" y="71"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/right_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="114" y="84"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/hair_5" width="25" height="33" cocos2d_pX="13" cocos2d_pY="17" x="77" y="40"/>
+ <SubTexture name="螺旋剑1.psd 资源 9/hair_4" width="24" height="27" cocos2d_pX="12" cocos2d_pY="14" x="36" y="62"/>
+ <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="36" y="40"/>
+</TextureAtlas>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <Desktop Margin="L:204.000000 T:224.000000 R:0.000000 B:0.000000" Name="Monster" Size="W:1600.000000 H:480.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <TextBox Background="EidolonSystem.ActiveCaption" Focusable="true" Font="huakang" Margin="L:12.000000 T:7.000000 R:0.000000 B:0.000000" Name="sceneID" Size="W:82.000000 H:23.000000" />
+        <TextBox Background="EidolonSystem.BlueViolet" Focusable="true" Font="dahuakang" Margin="L:11.000000 T:142.000000 R:0.000000 B:0.000000" Name="monsterID" Size="W:137.000000 H:58.000000" />
+        <Button Background="EidolonSystem.BurlyWood" CoverBrush="EidolonSystem.BurlyWood" DisableBrush="EidolonSystem.BurlyWood" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" NormalBrush="EidolonSystem.BurlyWood" PressBrush="EidolonSystem.BurlyWood" Size="W:75.000000 H:24.000000" Text="切换场景" TextAlignStyle="MiddleCenter" TextColor="0xff000000">
+            <Events>
+                <Event Name="Button::ClickEvent" Subscriber="Editor:OnChangeScene" />
+            </Events>
+        </Button>
+        <Button Background="EidolonSystem.BurlyWood" CoverBrush="EidolonSystem.BurlyWood" DisableBrush="EidolonSystem.BurlyWood" Font="dahuakang" Margin="L:9.000000 T:242.000000 R:0.000000 B:0.000000" NormalBrush="EidolonSystem.BurlyWood" PressBrush="EidolonSystem.BurlyWood" Size="W:136.000000 H:68.000000" Text="写文件" TextAlignStyle="MiddleCenter">
+            <Events>
+                <Event Name="Button::ClickEvent" Subscriber="Editor:printArray" />
+            </Events>
+        </Button>
+        <Label Background="EidolonSystem.Crimson" HLayout="Stretch" Margin="L:0.000000 T:-20.000000 R:0.000000 B:0.000000" Pick="false" Size="W:50.000000 H:3.000000" VLayout="Center" />
+        <Label Background="EidolonSystem.Crimson" HLayout="Stretch" Margin="L:0.000000 T:-45.000000 R:0.000000 B:0.000000" Pick="false" Size="W:50.000000 H:3.000000" VLayout="Center" />
+        <Label Background="EidolonSystem.Crimson" HLayout="Stretch" Margin="L:0.000000 T:-70.000000 R:0.000000 B:0.000000" Pick="false" Size="W:50.000000 H:3.000000" VLayout="Center" />
+        <Label Background="EidolonSystem.Crimson" HLayout="Stretch" Margin="L:0.000000 T:-95.000000 R:0.000000 B:0.000000" Pick="false" Size="W:50.000000 H:3.000000" VLayout="Center" />
+        <Label Background="EidolonSystem.Crimson" HLayout="Stretch" Margin="L:0.000000 T:-120.000000 R:0.000000 B:0.000000" Pick="false" Size="W:50.000000 H:3.000000" VLayout="Center" />
+    </Desktop>
+</UISystem>

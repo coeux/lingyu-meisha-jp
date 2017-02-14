@@ -1,0 +1,22 @@
+<TextureAtlas name="S740" width="512" height="512">
+ <SubTexture name="元件 25" width="38" height="43" cocos2d_pX="0" cocos2d_pY="0" x="471" y="99"/>
+ <SubTexture name="元件 24" width="103" height="92" cocos2d_pX="0" cocos2d_pY="0" x="399" y="299"/>
+ <SubTexture name="元件 23" width="114" height="100" cocos2d_pX="0" cocos2d_pY="0" x="0" y="276"/>
+ <SubTexture name="元件 22" width="127" height="120" cocos2d_pX="0" cocos2d_pY="0" x="300" y="126"/>
+ <SubTexture name="元件 21" width="169" height="154" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="元件 34" width="90" height="89" cocos2d_pX="0" cocos2d_pY="0" x="116" y="352"/>
+ <SubTexture name="元件 33" width="87" height="87" cocos2d_pX="0" cocos2d_pY="0" x="0" y="378"/>
+ <SubTexture name="元件 32" width="81" height="86" cocos2d_pX="0" cocos2d_pY="0" x="429" y="211"/>
+ <SubTexture name="元件 31" width="127" height="130" cocos2d_pX="0" cocos2d_pY="0" x="171" y="0"/>
+ <SubTexture name="元件 30" width="130" height="124" cocos2d_pX="0" cocos2d_pY="0" x="300" y="0"/>
+ <SubTexture name="元件 29" width="128" height="118" cocos2d_pX="0" cocos2d_pY="0" x="0" y="156"/>
+ <SubTexture name="元件 28" width="126" height="113" cocos2d_pX="0" cocos2d_pY="0" x="171" y="132"/>
+ <SubTexture name="元件 27" width="132" height="103" cocos2d_pX="0" cocos2d_pY="0" x="130" y="247"/>
+ <SubTexture name="元件 26" width="133" height="97" cocos2d_pX="0" cocos2d_pY="0" x="264" y="248"/>
+ <SubTexture name="元件 40" width="37" height="110" cocos2d_pX="0" cocos2d_pY="0" x="432" y="99"/>
+ <SubTexture name="元件 39" width="86" height="105" cocos2d_pX="0" cocos2d_pY="0" x="264" y="347"/>
+ <SubTexture name="元件 38" width="77" height="97" cocos2d_pX="0" cocos2d_pY="0" x="432" y="0"/>
+ <SubTexture name="元件 37" width="103" height="67" cocos2d_pX="0" cocos2d_pY="0" x="352" y="393"/>
+ <SubTexture name="元件 36" width="105" height="48" cocos2d_pX="0" cocos2d_pY="0" x="89" y="443"/>
+ <SubTexture name="元件 35" width="102" height="45" cocos2d_pX="0" cocos2d_pY="0" x="196" y="454"/>
+</TextureAtlas>

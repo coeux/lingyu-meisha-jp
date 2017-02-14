@@ -1,0 +1,8 @@
+<TextureAtlas name="attack_3" width="512" height="512">
+ <SubTexture name="元件 12" width="84" height="241" cocos2d_pX="42" cocos2d_pY="121" x="426" y="0"/>
+ <SubTexture name="元件 11" width="136" height="234" cocos2d_pX="68" cocos2d_pY="117" x="0" y="0"/>
+ <SubTexture name="元件 10" width="143" height="221" cocos2d_pX="72" cocos2d_pY="111" x="138" y="0"/>
+ <SubTexture name="元件 9" width="141" height="219" cocos2d_pX="71" cocos2d_pY="110" x="283" y="0"/>
+ <SubTexture name="元件 8" width="119" height="215" cocos2d_pX="60" cocos2d_pY="108" x="283" y="221"/>
+ <SubTexture name="元件 7" width="73" height="133" cocos2d_pX="37" cocos2d_pY="67" x="138" y="223"/>
+</TextureAtlas>

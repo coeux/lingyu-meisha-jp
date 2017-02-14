@@ -1,0 +1,37 @@
+<TextureAtlas name="H048dz" width="256" height="256">
+ <SubTexture name="棒球妹子ok2.psd 资源/left_hand" width="18" height="23" cocos2d_pX="10" cocos2d_pY="12" x="208" y="131"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/left_arm" width="22" height="13" cocos2d_pX="11" cocos2d_pY="7" x="62" y="229"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/weapon" width="151" height="19" cocos2d_pX="77" cocos2d_pY="9" x="61" y="0"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/left_arm_up" width="24" height="35" cocos2d_pX="12" cocos2d_pY="18" x="230" y="81"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_1" width="27" height="40" cocos2d_pX="14" cocos2d_pY="20" x="209" y="39"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_2" width="22" height="25" cocos2d_pX="11" cocos2d_pY="13" x="225" y="221"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_3" width="27" height="14" cocos2d_pX="14" cocos2d_pY="7" x="184" y="227"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/maozi" width="98" height="66" cocos2d_pX="49" cocos2d_pY="47" x="61" y="21"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing" width="51" height="44" cocos2d_pX="25" cocos2d_pY="19" x="0" y="160"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing_3" width="53" height="39" cocos2d_pX="26" cocos2d_pY="21" x="53" y="169"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing_5" width="47" height="37" cocos2d_pX="22" cocos2d_pY="16" x="158" y="163"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing_4" width="46" height="39" cocos2d_pX="19" cocos2d_pY="20" x="161" y="81"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing_6" width="48" height="39" cocos2d_pX="23" cocos2d_pY="19" x="158" y="122"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/biaoqing_2" width="53" height="42" cocos2d_pX="27" cocos2d_pY="22" x="0" y="116"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/head" width="74" height="78" cocos2d_pX="37" cocos2d_pY="39" x="61" y="89"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_4" width="32" height="37" cocos2d_pX="16" cocos2d_pY="19" x="214" y="0"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/body" width="46" height="58" cocos2d_pX="23" cocos2d_pY="35" x="161" y="21"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/yao" width="38" height="17" cocos2d_pX="19" cocos2d_pY="9" x="62" y="210"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/qunzi_1" width="47" height="33" cocos2d_pX="30" cocos2d_pY="17" x="135" y="202"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/qunzi_2" width="24" height="28" cocos2d_pX="12" cocos2d_pY="14" x="230" y="191"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/qunzi_3" width="29" height="30" cocos2d_pX="15" cocos2d_pY="15" x="0" y="206"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/left_foot" width="21" height="25" cocos2d_pX="14" cocos2d_pY="12" x="207" y="178"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/left_down_leg" width="19" height="48" cocos2d_pX="10" cocos2d_pY="24" x="209" y="81"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/left_up_leg" width="25" height="39" cocos2d_pX="13" cocos2d_pY="24" x="108" y="169"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_foot" width="23" height="24" cocos2d_pX="9" cocos2d_pY="12" x="102" y="210"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_down_leg" width="17" height="39" cocos2d_pX="9" cocos2d_pY="20" x="230" y="118"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_up_leg" width="19" height="39" cocos2d_pX="10" cocos2d_pY="25" x="137" y="89"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_hand" width="20" height="20" cocos2d_pX="10" cocos2d_pY="11" x="208" y="156"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_hand_2" width="18" height="19" cocos2d_pX="7" cocos2d_pY="9" x="137" y="168"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_arm_2" width="24" height="30" cocos2d_pX="14" cocos2d_pY="18" x="230" y="159"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/right_arm_up" width="19" height="36" cocos2d_pX="10" cocos2d_pY="18" x="137" y="130"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_6" width="11" height="26" cocos2d_pX="6" cocos2d_pY="13" x="238" y="39"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_7" width="29" height="29" cocos2d_pX="34" cocos2d_pY="3" x="31" y="210"/>
+ <SubTexture name="棒球妹子ok2.psd 资源/hair_5" width="59" height="114" cocos2d_pX="58" cocos2d_pY="58" x="0" y="0"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="184" y="205"/>
+</TextureAtlas>

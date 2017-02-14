@@ -1,0 +1,21 @@
+<TextureAtlas name="雪怪" width="512" height="1024">
+  <SubTexture name="yuanjian/maozi_2" width="73" height="92" cocos2d_pX="0" cocos2d_pY="0" x="200" y="508"/>
+  <SubTexture name="yuanjian/maozi_1" width="209" height="141" cocos2d_pX="0" cocos2d_pY="0" x="284" y="0"/>
+  <SubTexture name="yuanjian/zuoxia" width="83" height="86" cocos2d_pX="0" cocos2d_pY="0" x="0" y="451"/>
+  <SubTexture name="yuanjian/zuoshang" width="89" height="98" cocos2d_pX="0" cocos2d_pY="0" x="402" y="360"/>
+  <SubTexture name="yuanjian/zuoshou" width="69" height="62" cocos2d_pX="0" cocos2d_pY="0" x="438" y="460"/>
+  <SubTexture name="yuanjian/biaoqing_2" width="134" height="156" cocos2d_pX="0" cocos2d_pY="-3" x="266" y="267"/>
+  <SubTexture name="yuanjian/biaoqing_3" width="120" height="169" cocos2d_pX="0" cocos2d_pY="0" x="0" y="280"/>
+  <SubTexture name="yuanjian/biaoqing_1" width="123" height="144" cocos2d_pX="-1" cocos2d_pY="-12" x="122" y="280"/>
+  <SubTexture name="yuanjian/body" width="282" height="142" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="yuanjian/hand" width="264" height="134" cocos2d_pX="0" cocos2d_pY="0" x="0" y="144"/>
+  <SubTexture name="yuanjian/xian" width="49" height="54" cocos2d_pX="0" cocos2d_pY="0" x="438" y="524"/>
+  <SubTexture name="yuanjian/youshang" width="76" height="100" cocos2d_pX="0" cocos2d_pY="0" x="122" y="426"/>
+  <SubTexture name="yuanjian/youxia" width="70" height="99" cocos2d_pX="0" cocos2d_pY="0" x="366" y="460"/>
+  <SubTexture name="yuanjian/bangzi" width="183" height="122" cocos2d_pX="0" cocos2d_pY="0" x="284" y="143"/>
+  <SubTexture name="yuanjian/youshou" width="38" height="58" cocos2d_pX="0" cocos2d_pY="0" x="469" y="143"/>
+  <SubTexture name="yuanjian/maozi_3" width="56" height="70" cocos2d_pX="0" cocos2d_pY="0" x="275" y="508"/>
+  <SubTexture name="yuanjian/zuojiao" width="105" height="91" cocos2d_pX="0" cocos2d_pY="0" x="402" y="267"/>
+  <SubTexture name="yuanjian/youjiao" width="117" height="81" cocos2d_pX="0" cocos2d_pY="0" x="247" y="425"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="469" y="203"/>
+</TextureAtlas>

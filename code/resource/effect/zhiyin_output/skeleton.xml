@@ -1,0 +1,24 @@
+<skeleton name="zhiyin" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="zhiyin">
+   <b name="图层 2" x="-0.12" y="-0.2" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="0">
+    <d name="元件 4" pX="22.75" pY="28.48"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="zhiyin">
+   <mov name="play" dr="14" to="6" drTW="14" lp="1" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f x="-0.12" y="-0.2" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+      <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="68" gM="68" bM="68"/>
+     </f>
+     <f x="4.18" y="7.08" cocos2d_x="5" cocos2d_y="8" kX="0" kY="0" cX="0.79" cY="0.79" pX="0" pY="0" z="0" dI="0" twE="0" dr="6"/>
+     <f x="-0.12" y="-0.2" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="68" gM="68" bM="68"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

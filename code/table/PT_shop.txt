@@ -1,0 +1,5 @@
+number	number	string	number	number	number	number	number	number
+id	item_id	name	price	islimited	item_num	event_id	isnew	hide
+1	10018	結婚指輪	20000	1	1	1	2	0
+2	10013	レアガチャ券	20000	1	3	2	2	0
+3	39999	情報	5500	1	5	3	2	0

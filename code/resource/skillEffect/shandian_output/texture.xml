@@ -1,0 +1,8 @@
+<TextureAtlas name="普通攻击" width="256" height="256">
+ <SubTexture name="元件 8" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="102" y="0"/>
+ <SubTexture name="元件 9" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="102" y="104"/>
+ <SubTexture name="元件 10" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="104"/>
+ <SubTexture name="元件 11" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="元件 12" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="52"/>
+ <SubTexture name="元件 13" width="100" height="50" cocos2d_pX="0" cocos2d_pY="0" x="102" y="52"/>
+</TextureAtlas>

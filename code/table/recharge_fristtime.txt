@@ -1,0 +1,3 @@
+number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number
+id	item1	count1	item2	count2	item3	count3	item4	count4	item5	count5	item6	count6	item7	count7	item8	count8	item9	count9
+1	10001	88888	10003	100	24001	30	30042	80	0	0	0	0	0	0	0	0	0	0

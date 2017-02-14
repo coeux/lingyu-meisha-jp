@@ -1,0 +1,7 @@
+<TextureAtlas name="bmshouji" width="512" height="256">
+  <SubTexture name="元件 13" width="64" height="61" cocos2d_pX="0" cocos2d_pY="0" x="136" y="100"/>
+  <SubTexture name="元件 19" width="134" height="121" cocos2d_pX="0" cocos2d_pY="0" x="0" y="100"/>
+  <SubTexture name="元件 17" width="162" height="110" cocos2d_pX="0" cocos2d_pY="0" x="234" y="0"/>
+  <SubTexture name="元件 15" width="232" height="98" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="元件 14" width="102" height="119" cocos2d_pX="0" cocos2d_pY="0" x="398" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,44 @@
+<skeleton name="M105_pugong_2" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="M105_pugong_2">
+      <b name="图层 1" x="2.17" y="-16.37" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0">
+        <d name="元件 33" pX="27.3" pY="22.98"/>
+        <d name="元件 34" pX="32.25" pY="85.53"/>
+        <d name="元件 35" pX="34.13" pY="83.18"/>
+        <d name="元件 36" pX="40.03" pY="84.03"/>
+        <d name="元件 37" pX="42.2" pY="86.45"/>
+        <d name="元件 38" pX="46.88" pY="60.8"/>
+        <d name="元件 39" pX="46.1" pY="82.65"/>
+        <d name="元件 40" pX="41.63" pY="60.88"/>
+        <d name="元件 41" pX="43.83" pY="63.13"/>
+        <d name="元件 42" pX="37.1" pY="55.4"/>
+        <d name="元件 43" pX="35.85" pY="54.3"/>
+        <d name="元件 44" pX="26.4" pY="53.9"/>
+        <d name="元件 45" pX="24.98" pY="7.88"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="M105_pugong_2">
+      <mov name="play" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="2.17" y="-16.37" cocos2d_x="3" cocos2d_y="-16" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="1.88" y="-204.62" cocos2d_x="2" cocos2d_y="-204" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="4.13" y="-195.87" cocos2d_x="5" cocos2d_y="-195" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="3.83" y="-193.37" cocos2d_x="4" cocos2d_y="-193" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="5.03" y="-183.77" cocos2d_x="6" cocos2d_y="-183" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="3.53" y="-99.02" cocos2d_x="4" cocos2d_y="-98" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="1.18" y="-186.62" cocos2d_x="2" cocos2d_y="-186" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="3.83" y="-121.32" cocos2d_x="4" cocos2d_y="-121" kX="0" kY="0" cX="3" cY="3" pX="0" pY="-0.05" z="0" dI="7" dr="1"/>
+          <f x="3.58" y="-125.72" cocos2d_x="4" cocos2d_y="-125" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="8" dr="2"/>
+          <f x="7.13" y="-106.22" cocos2d_x="8" cocos2d_y="-106" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="9" dr="2"/>
+          <f x="6.68" y="-105.77" cocos2d_x="7" cocos2d_y="-105" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="10" dr="2"/>
+          <f x="0.83" y="-104.12" cocos2d_x="1" cocos2d_y="-104" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="11" dr="2"/>
+          <f x="3.73" y="32.98" cocos2d_x="4" cocos2d_y="33" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="12" twE="0" dr="2"/>
+          <f x="3.73" y="32.98" cocos2d_x="4" cocos2d_y="33" kX="0" kY="0" cX="3" cY="3" pX="0" pY="0" z="0" dI="12" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

@@ -1,0 +1,18 @@
+<TextureAtlas name="H053_2" width="512" height="512">
+ <SubTexture name="元件 5" width="61" height="80" cocos2d_pX="31" cocos2d_pY="40" x="449" y="0"/>
+ <SubTexture name="元件 4" width="68" height="78" cocos2d_pX="34" cocos2d_pY="39" x="321" y="202"/>
+ <SubTexture name="元件 3" width="74" height="71" cocos2d_pX="37" cocos2d_pY="36" x="0" y="203"/>
+ <SubTexture name="元件 2" width="88" height="73" cocos2d_pX="44" cocos2d_pY="37" x="0" y="128"/>
+ <SubTexture name="元件 1" width="46" height="53" cocos2d_pX="23" cocos2d_pY="27" x="449" y="82"/>
+ <SubTexture name="补间 11" width="60" height="25" cocos2d_pX="30" cocos2d_pY="13" x="446" y="164"/>
+ <SubTexture name="补间 10" width="63" height="25" cocos2d_pX="32" cocos2d_pY="13" x="446" y="137"/>
+ <SubTexture name="补间 9" width="68" height="25" cocos2d_pX="34" cocos2d_pY="13" x="205" y="204"/>
+ <SubTexture name="补间 8" width="49" height="24" cocos2d_pX="25" cocos2d_pY="12" x="446" y="191"/>
+ <SubTexture name="补间 7" width="84" height="84" cocos2d_pX="42" cocos2d_pY="42" x="119" y="123"/>
+ <SubTexture name="补间 6" width="97" height="91" cocos2d_pX="49" cocos2d_pY="46" x="347" y="109"/>
+ <SubTexture name="补间 5" width="117" height="126" cocos2d_pX="59" cocos2d_pY="63" x="0" y="0"/>
+ <SubTexture name="补间 4" width="113" height="121" cocos2d_pX="57" cocos2d_pY="60" x="119" y="0"/>
+ <SubTexture name="补间 3" width="100" height="107" cocos2d_pX="50" cocos2d_pY="53" x="347" y="0"/>
+ <SubTexture name="补间 2" width="85" height="87" cocos2d_pX="43" cocos2d_pY="44" x="234" y="115"/>
+ <SubTexture name="补间 1" width="111" height="113" cocos2d_pX="56" cocos2d_pY="57" x="234" y="0"/>
+</TextureAtlas>

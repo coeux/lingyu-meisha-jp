@@ -1,0 +1,16 @@
+<TextureAtlas name="技能1_1" width="256" height="256">
+ <SubTexture name="yuanjian/元件 9" width="72" height="56" x="0" y="116"/>
+ <SubTexture name="yuanjian/元件 10" width="126" height="51" x="128" y="58"/>
+ <SubTexture name="yuanjian/元件 12" width="128" height="49" x="93" y="111"/>
+ <SubTexture name="yuanjian/元件 13" width="126" height="56" x="128" y="0"/>
+ <SubTexture name="yuanjian/元件 14" width="126" height="67" x="0" y="0"/>
+ <SubTexture name="yuanjian/元件 15" width="91" height="45" x="0" y="69"/>
+ <SubTexture name="yuanjian/元件 16" width="82" height="30" x="74" y="162"/>
+ <SubTexture name="yuanjian/元件 8" width="81" height="26" x="158" y="162"/>
+ <SubTexture name="yuanjian/元件 7" width="71" height="22" x="0" y="174"/>
+ <SubTexture name="yuanjian/元件 6" width="66" height="23" x="73" y="194"/>
+ <SubTexture name="yuanjian/元件 5" width="68" height="24" x="158" y="190"/>
+ <SubTexture name="yuanjian/元件 4" width="61" height="22" x="66" y="219"/>
+ <SubTexture name="yuanjian/元件 3" width="64" height="21" x="0" y="198"/>
+ <SubTexture name="yuanjian/元件 2" width="64" height="21" x="141" y="216"/>
+</TextureAtlas>

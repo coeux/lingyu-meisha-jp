@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <Desktop Margin="L:212.000000 T:176.000000 R:0.000000 B:0.000000" Name="versionUpdate" Size="W:960.000000 H:640.000000" Visibility="Hidden">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <Panel HLayout="Center" Name="background" Pick="false" Size="W:1136.000000 H:576.000000" VLayout="Stretch" />
+        <Panel Background="update.versionUpdate_bar_Diban" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:66.000000" Pick="false" Size="W:567.000000 H:28.000000" VLayout="Bottom" />
+        <Label Font="huakang_13" HLayout="Center" Margin="L:-1.000000 T:0.000000 R:0.000000 B:17.000000" Name="tip" Size="W:450.000000 H:40.000000" Text="检查版本更新" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+        <Panel Background="update.versionUpdataBox" HLayout="Center" Name="netError" Size="W:373.000000 H:242.000000" VLayout="Center" Visibility="Hidden">
+            <Button Background="update.versionUpBtn2" CoverBrush="update.versionUpBtn2" Font="huakang_13" HLayout="Center" Margin="L:0.000000 T:166.000000 R:0.000000 B:0.000000" Name="ok" NormalBrush="update.versionUpBtn2" PressBrush="update.versionUpBtn1" Size="W:107.000000 H:51.000000" Text="はい" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="VersionUpdate:onNetError" />
+                </Events>
+            </Button>
+            <Label Font="huakang_13" Margin="L:36.000000 T:36.000000 R:0.000000 B:0.000000" Name="msg" Size="W:301.000000 H:113.000000" Text="通信状態をお確かめの上、再度お試しください。" TextAlignStyle="MiddleCenter" />
+        </Panel>
+        <ProgressBar Background="update.versionUpdataBar" CurValue="50" Font="huakang_13" ForwardBrush="update.versionUpdata_BarImage" HLayout="Center" Margin="L:-1.000000 T:0.000000 R:0.000000 B:73.000000" MaxValue="100" Name="percent" ShowText="false" Size="W:545.000000 H:15.000000" VLayout="Bottom" />
+        <Panel Background="update.versionUpdataBox" HLayout="Center" Name="messageBox" Size="W:373.000000 H:242.000000" VLayout="Center" Visibility="Hidden">
+            <Button Background="update.versionUpBtn2" CoverBrush="update.versionUpBtn2" Font="huakang_13" Margin="L:23.000000 T:166.000000 R:0.000000 B:0.000000" Name="ok" NormalBrush="update.versionUpBtn2" PressBrush="update.versionUpBtn1" Size="W:107.000000 H:51.000000" Text="はい" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="VersionUpdate:onGameUpdateClick" />
+                </Events>
+            </Button>
+            <Button Background="update.versionUpBtn2" CoverBrush="update.versionUpBtn2" Font="huakang_13" Margin="L:243.000000 T:166.000000 R:0.000000 B:0.000000" Name="cancel" NormalBrush="update.versionUpBtn2" PressBrush="update.versionUpBtn1" Size="W:107.000000 H:51.000000" Text="いいえ" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="VersionUpdate:onGameUpdateCancelClick" />
+                </Events>
+            </Button>
+            <Button Background="update.versionUpBtn2" CoverBrush="update.versionUpBtn2" Font="huakang_13" Margin="L:133.000000 T:166.000000 R:0.000000 B:0.000000" Name="queren" NormalBrush="update.versionUpBtn2" PressBrush="update.versionUpBtn1" Size="W:107.000000 H:51.000000" Text="はい" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="VersionUpdate:onAppUpdateClick" />
+                </Events>
+            </Button>
+            <Label Font="huakang_13" Margin="L:36.000000 T:36.000000 R:0.000000 B:0.000000" Name="msg" Size="W:301.000000 H:113.000000" Text="新たなバージョンがあります。更新しますか？" TextAlignStyle="MiddleCenter" />
+        </Panel>
+        <Panel Background="update.versionUpdataBox" HLayout="Center" Name="serverMaintain" Size="W:373.000000 H:242.000000" VLayout="Center" Visibility="Hidden">
+            <Button Background="update.versionUpBtn2" CoverBrush="update.versionUpBtn2" Font="huakang_13" HLayout="Center" Margin="L:0.000000 T:166.000000 R:0.000000 B:0.000000" Name="ok" NormalBrush="update.versionUpBtn2" PressBrush="update.versionUpBtn1" Size="W:107.000000 H:51.000000" Text="はい" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="VersionUpdate:onServerMaintainClick" />
+                </Events>
+            </Button>
+            <Label AutoNewline="true" Font="huakang_13" Margin="L:36.000000 T:36.000000 R:0.000000 B:0.000000" Name="msg" Size="W:301.000000 H:113.000000" Text="在サーバメンテナンス中です。" TextAlignStyle="MiddleCenter" />
+        </Panel>
+        <Label Font="huakang_13" HLayout="Center" Margin="L:10.000000 T:0.000000 R:0.000000 B:69.000000" Name="percentText" Size="W:125.000000 H:24.000000" Text="50%" TextAlignStyle="MiddleCenter" VLayout="Bottom" ZOrder="5" />
+    </Desktop>
+</UISystem>

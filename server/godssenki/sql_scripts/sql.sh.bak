@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "======================================"
+echo "cmd: sql.sh xxx.sql create dbname"
+echo "======================================"
+
+DB_IP=10.1.13.24
+DB_PORT=3306
+DB_USER=inter
+DB_PSWD=helloworld
+
+echo "db user:$DB_USER"
+echo "db ip:$DB_IP"
+echo "db pwd:$DB_PSWD"
+
+find . -name "$1"|while read var; do
+    if [ "$2" == "create" ] 
+    then
+        mysql -u $DB_USER -h$DB_IP -P$DB_PORT -p${DB_PSWD} -e "create database $3"
+        mysql -u $DB_USER -h$DB_IP -P$DB_PORT -p${DB_PSWD} $3 < $var
+        echo "run sql file:$var...done"
+    fi
+done
+
+echo "======================================"
+echo "run sql script to rebuild database ... done"

@@ -1,0 +1,24 @@
+<skeleton name="S620_2" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="S620_2">
+      <b name="10001.png" x="-27.5" y="-31.02" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0">
+        <d name="元件 1" pX="73.5" pY="46.5"/>
+        <d name="元件 2" pX="72" pY="59.5"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S620_2">
+      <mov name="play" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="10001.png" sc="1" dl="0">
+          <f x="-27.5" y="-31.02" cocos2d_x="-27" cocos2d_y="-31" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="0" dr="1"/>
+          <f x="4.5" y="-15.02" cocos2d_x="5" cocos2d_y="-15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" twE="0" dr="3"/>
+          <f x="13.7" y="-15.02" cocos2d_x="14" cocos2d_y="-15" kX="0" kY="0" cX="1" cY="1.11" pX="0" pY="-0.02" z="0" dI="1" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="26" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

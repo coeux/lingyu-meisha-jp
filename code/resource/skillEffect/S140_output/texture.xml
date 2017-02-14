@@ -1,0 +1,16 @@
+<TextureAtlas name="女战士战斗2" width="512" height="512">
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 42" width="193" height="28" cocos2d_pX="0" cocos2d_pY="0" x="195" y="386"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 43" width="193" height="62" cocos2d_pX="0" cocos2d_pY="0" x="195" y="322"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 44" width="193" height="83" cocos2d_pX="0" cocos2d_pY="0" x="150" y="237"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 45" width="193" height="81" cocos2d_pX="0" cocos2d_pY="-31" x="0" y="322"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 41" width="182" height="111" cocos2d_pX="0" cocos2d_pY="0" x="0" y="114"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 40" width="181" height="118" cocos2d_pX="0" cocos2d_pY="0" x="195" y="0"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 39" width="193" height="112" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 38" width="166" height="115" cocos2d_pX="0" cocos2d_pY="0" x="184" y="120"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 37" width="126" height="107" cocos2d_pX="0" cocos2d_pY="-9" x="378" y="0"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 36" width="119" height="100" cocos2d_pX="-4" cocos2d_pY="0" x="378" y="109"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 35" width="92" height="85" cocos2d_pX="0" cocos2d_pY="0" x="352" y="211"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 29" width="62" height="67" cocos2d_pX="0" cocos2d_pY="0" x="446" y="211"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 31" width="76" height="72" cocos2d_pX="0" cocos2d_pY="0" x="0" y="227"/>
+  <SubTexture name="未命名文件夹 3/未命名文件夹 2/元件 30" width="70" height="66" cocos2d_pX="0" cocos2d_pY="0" x="78" y="227"/>
+</TextureAtlas>

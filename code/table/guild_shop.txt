@@ -1,0 +1,6 @@
+number	number	string	number	number	number	number	number
+id	item_id	name	money_type	price	islimited	item_num	probability
+1	30020	シェスタの情報	4	140	1	5	10000
+2	24001	神獣の羽	4	60	1	8	10000
+3	10015	花束	4	15	1	1	10000
+4	10050	下痢止め薬	4	15	1	1	10000

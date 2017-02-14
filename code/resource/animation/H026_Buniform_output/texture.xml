@@ -1,0 +1,35 @@
+<TextureAtlas name="H026_Buniform" width="256" height="256">
+ <SubTexture name="yuanjian/head 副本" width="0" height="0" x="252" y="40"/>
+ <SubTexture name="wing_up_left_3" width="0" height="0" x="250" y="40"/>
+ <SubTexture name="wing_down_left_3" width="0" height="0" x="248" y="40"/>
+ <SubTexture name="wing_up_right_3" width="0" height="0" x="246" y="40"/>
+ <SubTexture name="wing_down_right_3" width="0" height="0" x="254" y="40"/>
+ <SubTexture name="yuanjian/hair_3" width="12" height="18" x="167" y="116"/>
+ <SubTexture name="yuanjian/toushi" width="43" height="17" x="210" y="87"/>
+ <SubTexture name="yuanjian/hair_1" width="32" height="45" x="212" y="40"/>
+ <SubTexture name="yuanjian/hair_2" width="29" height="46" x="53" y="58"/>
+ <SubTexture name="yuanjian/head_1" width="58" height="56" x="53" y="0"/>
+ <SubTexture name="yuanjian/head" width="58" height="56" x="113" y="0"/>
+ <SubTexture name="black yunajian/元件 1" width="21" height="36" x="27" y="77"/>
+ <SubTexture name="black yunajian/元件 2" width="22" height="30" x="225" y="106"/>
+ <SubTexture name="black yunajian/元件 3" width="12" height="16" x="16" y="132"/>
+ <SubTexture name="black yunajian/元件 4" width="29" height="15" x="16" y="115"/>
+ <SubTexture name="black yunajian/元件 5" width="12" height="21" x="153" y="116"/>
+ <SubTexture name="black yunajian/元件 6" width="10" height="23" x="161" y="58"/>
+ <SubTexture name="black yunajian/元件 7" width="51" height="75" x="0" y="0"/>
+ <SubTexture name="black yunajian/元件 8" width="41" height="38" x="212" y="0"/>
+ <SubTexture name="black yunajian/元件 9" width="25" height="36" x="134" y="58"/>
+ <SubTexture name="black yunajian/元件 10" width="21" height="34" x="202" y="106"/>
+ <SubTexture name="black yunajian/元件 11" width="24" height="25" x="72" y="108"/>
+ <SubTexture name="black yunajian/元件 12" width="25" height="48" x="84" y="58"/>
+ <SubTexture name="black yunajian/元件 13" width="17" height="40" x="134" y="96"/>
+ <SubTexture name="black yunajian/元件 14" width="23" height="23" x="98" y="108"/>
+ <SubTexture name="black yunajian/元件 15" width="21" height="48" x="111" y="58"/>
+ <SubTexture name="black yunajian/元件 16" width="14" height="31" x="0" y="115"/>
+ <SubTexture name="black yunajian/元件 17" width="20" height="36" x="50" y="106"/>
+ <SubTexture name="black yunajian/元件 18" width="25" height="36" x="0" y="77"/>
+ <SubTexture name="black yunajian/元件 19" width="13" height="16" x="181" y="116"/>
+ <SubTexture name="yuanjian/hair_4" width="35" height="41" x="173" y="51"/>
+ <SubTexture name="yuanjian/hair_5" width="37" height="49" x="173" y="0"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" x="161" y="94"/>
+</TextureAtlas>

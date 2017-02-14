@@ -1,0 +1,19 @@
+<TextureAtlas name="renwuwancheng_2" width="256" height="128">
+  <SubTexture name="元件 30" width="40" height="41" x="200" y="0"/>
+  <SubTexture name="元件 29" width="40" height="41" x="42" y="27"/>
+  <SubTexture name="元件 28" width="40" height="41" x="0" y="27"/>
+  <SubTexture name="元件 19" width="38" height="38" x="200" y="43"/>
+  <SubTexture name="元件 18" width="38" height="36" x="84" y="50"/>
+  <SubTexture name="元件 17" width="36" height="37" x="152" y="50"/>
+  <SubTexture name="元件 2" width="3" height="3" x="84" y="27"/>
+  <SubTexture name="元件 6" width="12" height="12" x="242" y="15"/>
+  <SubTexture name="元件 27" width="12" height="13" x="242" y="0"/>
+  <SubTexture name="元件 26" width="26" height="24" x="124" y="50"/>
+  <SubTexture name="元件 25" width="29" height="34" x="0" y="70"/>
+  <SubTexture name="元件 24" width="46" height="48" x="152" y="0"/>
+  <SubTexture name="元件 23" width="46" height="48" x="104" y="0"/>
+  <SubTexture name="元件 22" width="30" height="28" x="190" y="83"/>
+  <SubTexture name="元件 21" width="32" height="26" x="31" y="70"/>
+  <SubTexture name="元件 20" width="29" height="18" x="222" y="83"/>
+  <SubTexture name="renwuwancheng" width="102" height="25" x="0" y="0"/>
+</TextureAtlas>

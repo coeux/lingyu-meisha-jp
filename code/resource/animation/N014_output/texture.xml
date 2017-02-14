@@ -1,0 +1,26 @@
+<TextureAtlas name="N014" width="128" height="128">
+  <SubTexture name="女战士1.psd 资源 9/hair_4" width="34" height="23" cocos2d_pX="17" cocos2d_pY="12" x="29" y="56"/>
+  <SubTexture name="女战士1.psd 资源 9/hair_2" width="8" height="27" cocos2d_pX="4" cocos2d_pY="13" x="116" y="0"/>
+  <SubTexture name="女战士1.psd 资源 9/head_2" width="34" height="34" cocos2d_pX="17" cocos2d_pY="18" x="29" y="20"/>
+  <SubTexture name="女战士1.psd 资源 9/head" width="34" height="34" cocos2d_pX="17" cocos2d_pY="18" x="65" y="20"/>
+  <SubTexture name="女战士1.psd 资源 9/hair_1" width="8" height="26" cocos2d_pX="4" cocos2d_pY="13" x="114" y="29"/>
+  <SubTexture name="女战士1.psd 资源 9/hair_3" width="27" height="45" cocos2d_pX="14" cocos2d_pY="23" x="0" y="20"/>
+  <SubTexture name="女战士1.psd 资源 9/L_shoulder" width="7" height="10" cocos2d_pX="4" cocos2d_pY="5" x="16" y="78"/>
+  <SubTexture name="女战士1.psd 资源 9/L_arm" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="65" y="80"/>
+  <SubTexture name="女战士1.psd 资源 9/L_arm_up" width="6" height="14" cocos2d_pX="3" cocos2d_pY="7" x="8" y="67"/>
+  <SubTexture name="女战士1.psd 资源 9/L_hand" width="6" height="5" cocos2d_pX="3" cocos2d_pY="3" x="76" y="80"/>
+  <SubTexture name="女战士1.psd 资源 9/body" width="19" height="22" cocos2d_pX="10" cocos2d_pY="11" x="65" y="56"/>
+  <SubTexture name="女战士1.psd 资源 9/cloth_2" width="14" height="19" cocos2d_pX="5" cocos2d_pY="1" x="112" y="57"/>
+  <SubTexture name="女战士1.psd 资源 9/cloth_1" width="9" height="15" cocos2d_pX="5" cocos2d_pY="8" x="86" y="56"/>
+  <SubTexture name="女战士1.psd 资源 9/L_leg_up" width="11" height="23" cocos2d_pX="6" cocos2d_pY="12" x="101" y="20"/>
+  <SubTexture name="女战士1.psd 资源 9/L_leg" width="6" height="16" cocos2d_pX="3" cocos2d_pY="8" x="0" y="67"/>
+  <SubTexture name="女战士1.psd 资源 9/L_foot" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="113" y="78"/>
+  <SubTexture name="女战士1.psd 资源 9/R_leg_up" width="9" height="23" cocos2d_pX="1" cocos2d_pY="12" x="101" y="45"/>
+  <SubTexture name="女战士1.psd 资源 9/R_leg" width="6" height="12" cocos2d_pX="3" cocos2d_pY="6" x="97" y="70"/>
+  <SubTexture name="女战士1.psd 资源 9/R_foot" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="16" y="67"/>
+  <SubTexture name="女战士1.psd 资源 9/R_arm" width="7" height="10" cocos2d_pX="4" cocos2d_pY="5" x="86" y="73"/>
+  <SubTexture name="女战士1.psd 资源 9/R_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="105" y="70"/>
+  <SubTexture name="女战士1.psd 资源 9/R_arm_up" width="6" height="11" cocos2d_pX="9" cocos2d_pY="6" x="105" y="78"/>
+  <SubTexture name="元件 1" width="114" height="18" cocos2d_pX="50" cocos2d_pY="9" x="0" y="0"/>
+  <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="25" y="88"/>
+</TextureAtlas>

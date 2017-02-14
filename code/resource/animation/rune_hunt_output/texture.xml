@@ -1,0 +1,21 @@
+<TextureAtlas name="jiemian1_1" width="1024" height="1024">
+  <SubTexture name="元件 8" width="50" height="50" cocos2d_pX="25" cocos2d_pY="25" x="963" y="0"/>
+  <SubTexture name="元件 7" width="41" height="38" cocos2d_pX="21" cocos2d_pY="19" x="963" y="52"/>
+  <SubTexture name="重复项目文件夹/元件 5" width="17" height="19" cocos2d_pX="9" cocos2d_pY="10" x="963" y="92"/>
+  <SubTexture name="元件 6" width="196" height="196" cocos2d_pX="98" cocos2d_pY="98" x="0" y="690"/>
+  <SubTexture name="ZI" width="202" height="199" cocos2d_pX="101" cocos2d_pY="100" x="701" y="669"/>
+  <SubTexture name="元件 4" width="145" height="136" cocos2d_pX="73" cocos2d_pY="68" x="370" y="693"/>
+  <SubTexture name="重复项目文件夹/元件 3" width="208" height="197" cocos2d_pX="104" cocos2d_pY="99" x="701" y="470"/>
+  <SubTexture name="元件 5" width="170" height="177" cocos2d_pX="85" cocos2d_pY="89" x="198" y="692"/>
+  <SubTexture name="元件 11" width="220" height="220" cocos2d_pX="110" cocos2d_pY="110" x="231" y="470"/>
+  <SubTexture name="补间 10" width="236" height="232" cocos2d_pX="118" cocos2d_pY="116" x="484" y="234"/>
+  <SubTexture name="补间 9" width="234" height="233" cocos2d_pX="117" cocos2d_pY="117" x="722" y="235"/>
+  <SubTexture name="补间 8" width="228" height="223" cocos2d_pX="114" cocos2d_pY="112" x="471" y="468"/>
+  <SubTexture name="补间 7" width="237" height="233" cocos2d_pX="119" cocos2d_pY="117" x="724" y="0"/>
+  <SubTexture name="重复项目文件夹/补间 6" width="241" height="237" cocos2d_pX="121" cocos2d_pY="119" x="0" y="0"/>
+  <SubTexture name="重复项目文件夹/补间 5" width="234" height="229" cocos2d_pX="117" cocos2d_pY="115" x="0" y="239"/>
+  <SubTexture name="重复项目文件夹/补间 4" width="229" height="218" cocos2d_pX="115" cocos2d_pY="109" x="0" y="470"/>
+  <SubTexture name="重复项目文件夹/补间 3" width="239" height="237" cocos2d_pX="119" cocos2d_pY="119" x="243" y="0"/>
+  <SubTexture name="重复项目文件夹/补间 2" width="238" height="232" cocos2d_pX="119" cocos2d_pY="116" x="484" y="0"/>
+  <SubTexture name="重复项目文件夹/补间 1" width="233" height="229" cocos2d_pX="117" cocos2d_pY="115" x="236" y="239"/>
+</TextureAtlas>

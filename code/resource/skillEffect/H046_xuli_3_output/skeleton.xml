@@ -1,0 +1,31 @@
+<skeleton name="H046_xuli_3" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="H046_xuli_3">
+   <b name="图层 1" x="-2.15" y="-21.22" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0">
+    <d name="元件 1" pX="43.73" pY="38.35"/>
+    <d name="元件 2" pX="56.7" pY="50.48"/>
+    <d name="元件 3" pX="59.8" pY="53.58"/>
+    <d name="元件 4" pX="66.85" pY="58.1"/>
+    <d name="元件 5" pX="76.7" pY="61.78"/>
+    <d name="元件 6" pX="83.2" pY="67.4"/>
+    <d name="元件 7" pX="80.95" pY="72.4"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H046_xuli_3">
+   <mov name="play" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-2.15" y="-21.22" cocos2d_x="-2" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="0" dr="2"/>
+     <f x="0.1" y="-27.72" cocos2d_x="1" cocos2d_y="-27" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-2.42" y="-36.47" cocos2d_x="-2" cocos2d_y="-36" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="2"/>
+     <f x="4.05" y="-36.47" cocos2d_x="5" cocos2d_y="-36" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="3" dr="2"/>
+     <f x="3.23" y="-41.85" cocos2d_x="4" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+     <f x="2.93" y="-46.9" cocos2d_x="3" cocos2d_y="-46" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="5" dr="2"/>
+     <f x="0.68" y="-43.05" cocos2d_x="1" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="6" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

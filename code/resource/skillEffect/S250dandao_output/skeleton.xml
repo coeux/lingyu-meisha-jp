@@ -1,0 +1,18 @@
+<skeleton name="S250dandao" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="S250dandao">
+   <b name="图层 1" x="-23.02" y="-3.12" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 2" pX="45.15" pY="20.83"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S250dandao">
+   <mov name="play" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-23.02" y="-3.12" cocos2d_x="-23" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="5"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

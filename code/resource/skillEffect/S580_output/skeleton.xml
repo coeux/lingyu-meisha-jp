@@ -1,0 +1,64 @@
+<skeleton name="S580" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="S580_2">
+   <b name="50028.png" x="0.75" y="-17.98" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 7" pX="29.75" pY="20.75"/>
+    <d name="元件 8" pX="36.25" pY="27.75"/>
+    <d name="元件 9" pX="58.75" pY="62.5"/>
+    <d name="元件 10" pX="79.25" pY="87.75"/>
+    <d name="元件 12" pX="104" pY="94.13"/>
+    <d name="元件 11" pX="94.75" pY="92.5"/>
+    <d name="元件 13" pX="87" pY="72.75"/>
+    <d name="元件 14" pX="72.75" pY="51.75"/>
+    <d name="元件 15" pX="46.5" pY="32"/>
+    <d name="元件 16" pX="47.5" pY="29.75"/>
+    <d name="元件 17" pX="31.75" pY="25.5"/>
+    <d name="元件 18" pX="23.5" pY="23"/>
+   </b>
+  </armature>
+  <armature name="S580_1">
+   <b name="40025.png" x="5.25" y="-6.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="66.25" pY="72.97"/>
+    <d name="元件 2" pX="92.28" pY="68"/>
+    <d name="元件 3" pX="94.25" pY="52"/>
+    <d name="元件 4" pX="82.5" pY="57.5"/>
+    <d name="元件 5" pX="42.75" pY="56"/>
+    <d name="元件 6" pX="38.75" pY="52"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S580_2">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="50028.png" sc="1" dl="0">
+     <f x="0.75" y="-17.98" cocos2d_x="1" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="2.75" y="-21.5" cocos2d_x="3" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" dr="1"/>
+     <f x="-1.25" y="-41.25" cocos2d_x="-1" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="2" dr="1"/>
+     <f x="2.75" y="-59" cocos2d_x="3" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="1"/>
+     <f x="0" y="-60.12" cocos2d_x="0" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="1"/>
+     <f x="-4.75" y="-62.77" cocos2d_x="-4" cocos2d_y="-62" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="5" dr="1"/>
+     <f x="-0.5" y="-45.52" cocos2d_x="0" cocos2d_y="-45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="6" dr="1"/>
+     <f x="2.75" y="-60" cocos2d_x="3" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-6" y="-72.75" cocos2d_x="-6" cocos2d_y="-72" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="1" y="-72" cocos2d_x="1" cocos2d_y="-72" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-5.75" y="-72.25" cocos2d_x="-5" cocos2d_y="-72" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="-7.5" y="-69.75" cocos2d_x="-7" cocos2d_y="-69" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S580_1">
+   <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+    <b name="40025.png" sc="1" dl="0">
+     <f x="5.25" y="-6.25" cocos2d_x="6" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="34.73" y="-9.22" cocos2d_x="35" cocos2d_y="-9" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+     <f x="41.73" y="-7.22" cocos2d_x="42" cocos2d_y="-7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="31.98" y="-9.22" cocos2d_x="32" cocos2d_y="-9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="7.23" y="-6.72" cocos2d_x="8" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="4" dr="2"/>
+     <f x="5.23" y="-3.22" cocos2d_x="6" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,10 @@
+<TextureAtlas name="lianjixiaoguo" width="512" height="512">
+  <SubTexture name="tubiao_3" width="212" height="157" cocos2d_pX="104.45" cocos2d_pY="58.75" x="0" y="0"/>
+  <SubTexture name="tubiao_1" width="172" height="156" cocos2d_pX="84.45" cocos2d_pY="58.75" x="214" y="0"/>
+  <SubTexture name="tubiao_2" width="133" height="156" cocos2d_pX="66.5" cocos2d_pY="58.75" x="0" y="159"/>
+  <SubTexture name="元件 7" width="183" height="91" cocos2d_pX="95.55" cocos2d_pY="47.75" x="319" y="316"/>
+  <SubTexture name="元件 4" width="29" height="25" cocos2d_pX="14.5" cocos2d_pY="12.5" x="388" y="59"/>
+  <SubTexture name="元件 6" width="182" height="97" cocos2d_pX="94.95" cocos2d_pY="50.65" x="135" y="316"/>
+  <SubTexture name="tubiao_4" width="172" height="156" cocos2d_pX="86.7" cocos2d_pY="58.75" x="214" y="158"/>
+  <SubTexture name="元件 9" width="92" height="57" cocos2d_pX="46" cocos2d_pY="28.5" x="388" y="0"/>
+</TextureAtlas>

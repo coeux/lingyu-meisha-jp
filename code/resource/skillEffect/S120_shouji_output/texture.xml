@@ -1,0 +1,8 @@
+<TextureAtlas name="技能1受击" width="512" height="512">
+  <SubTexture name="元件 31" width="162" height="54" cocos2d_pX="81" cocos2d_pY="27" x="159" y="447"/>
+  <SubTexture name="元件 30" width="157" height="74" cocos2d_pX="79" cocos2d_pY="37" x="0" y="399"/>
+  <SubTexture name="元件 29" width="170" height="158" cocos2d_pX="85" cocos2d_pY="79" x="0" y="239"/>
+  <SubTexture name="元件 28" width="187" height="228" cocos2d_pX="94" cocos2d_pY="114" x="184" y="0"/>
+  <SubTexture name="元件 27" width="182" height="237" cocos2d_pX="91" cocos2d_pY="119" x="0" y="0"/>
+  <SubTexture name="元件 26" width="176" height="215" cocos2d_pX="88" cocos2d_pY="108" x="184" y="230"/>
+</TextureAtlas>

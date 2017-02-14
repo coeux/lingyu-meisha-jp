@@ -1,0 +1,8 @@
+number	number	string	number	number	number
+id	item	name	ishot	islimited	hide
+1	30003	葵華姫（あいかひめ）の情報	1	0	0
+2	30027	湛卢碎片	1	0	0
+3	30030	备前长船碎片	1	0	0
+4	30032	含光碎片	1	0	0
+5	30033	承影碎片	1	0	0
+6	30036	大夏龙雀碎片	1	0	0

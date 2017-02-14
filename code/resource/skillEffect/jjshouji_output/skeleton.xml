@@ -1,0 +1,27 @@
+<skeleton name="jjshouji" frameRate="25" version="2.1">
+  <armatures>
+    <armature name="jjshouji">
+      <b name="图层 1" x="-11.05" y="-2.52" kX="0" kY="0" cX="1" cY="1" pX="15.05" pY="17.1" z="0">
+        <d name="元件 2" pX="0" pY="0"/>
+        <d name="元件 3" pX="0" pY="0"/>
+        <d name="元件 4" pX="0" pY="0"/>
+        <d name="元件 5" pX="0" pY="0"/>
+        <d name="元件 6" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="jjshouji">
+      <mov name="play" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-11.05" y="-2.52" kX="0" kY="0" cX="1" cY="1" pX="15.05" pY="17.1" z="0" dI="0" dr="1"/>
+          <f x="-13.55" y="-5.03" kX="0" kY="0" cX="1" cY="1" pX="17.1" pY="20.08" z="0" dI="1" dr="1"/>
+          <f x="1.4" y="-4.35" kX="0" kY="0" cX="1" cY="1" pX="35.25" pY="25.95" z="0" dI="2" dr="1"/>
+          <f x="2.42" y="-6.27" kX="0" kY="0" cX="1" cY="1" pX="44.43" pY="31.95" z="0" dI="3" dr="1"/>
+          <f x="2.1" y="-7.02" kX="0" kY="0" cX="1" cY="1" pX="47.5" pY="37.95" z="0" dI="4" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

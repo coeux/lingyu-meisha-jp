@@ -1,0 +1,18 @@
+﻿<skeleton name="qiu" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="qiu">
+   <b name="图层 1" x="-0.5" y="0" kX="0" kY="0" cX="1" cY="1" pX="12.5" pY="12.5" z="0">
+    <d name="元件 1" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="qiu">
+   <mov name="play" dr="10" to="6" drTW="10" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-0.5" y="0" cocos2d_x="-13" cocos2d_y="-12" kX="0" kY="0" cX="1" cY="1" pX="12.5" pY="12.5" z="0" dI="0" dr="10"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,50 @@
+<skeleton name="H016_pugong" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="H016_pugong_2">
+   <b name="图层 1" x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0">
+    <d name="元件 1" pX="-5" pY="-17"/>
+    <d name="元件 2" pX="-18" pY="-19"/>
+    <d name="元件 3" pX="-26.5" pY="-22.5"/>
+    <d name="元件 4" pX="-31" pY="-34.5"/>
+    <d name="元件 5" pX="-60" pY="-56.5"/>
+   </b>
+  </armature>
+  <armature name="H016_pugong_1">
+   <b name="图层 1" x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0">
+    <d name="元件 6" pX="-70.5" pY="-59.02"/>
+    <d name="元件 7" pX="-68.5" pY="-43.52"/>
+    <d name="元件 8" pX="-11" pY="-39.02"/>
+    <d name="元件 9" pX="-52" pY="-38.52"/>
+    <d name="元件 10" pX="-62" pY="-50.02"/>
+    <d name="元件 11" pX="-97.5" pY="-59.02"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H016_pugong_2">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="0" dr="1"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="1" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="2" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="3" dr="1"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="4" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H016_pugong_1">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="0" dr="1"/>
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="1" dr="1"/>
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="2" dr="1"/>
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="3" dr="1"/>
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="4" dr="1"/>
+     <f x="15" y="4.97" kX="0" kY="0" cX="1" cY="1" pX="100" pY="75" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

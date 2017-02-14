@@ -1,0 +1,11 @@
+<TextureAtlas name="序列" width="512" height="512">
+ <SubTexture name="元件 10" width="138" height="87" x="0" y="352"/>
+ <SubTexture name="元件 9" width="142" height="104" x="148" y="340"/>
+ <SubTexture name="元件 8" width="146" height="107" x="0" y="243"/>
+ <SubTexture name="元件 7" width="193" height="113" x="198" y="0"/>
+ <SubTexture name="元件 6" width="185" height="100" x="191" y="238"/>
+ <SubTexture name="元件 5" width="189" height="115" x="0" y="126"/>
+ <SubTexture name="元件 4" width="196" height="124" x="0" y="0"/>
+ <SubTexture name="元件 3" width="185" height="121" x="198" y="115"/>
+ <SubTexture name="元件 11" width="142" height="100" x="292" y="340"/>
+</TextureAtlas>

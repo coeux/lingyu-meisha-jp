@@ -1,0 +1,8 @@
+<TextureAtlas name="S97_3" width="512" height="512">
+ <SubTexture name="元件 26" width="125" height="138" cocos2d_pX="63" cocos2d_pY="69" x="267" y="141"/>
+ <SubTexture name="元件 19" width="128" height="139" cocos2d_pX="64" cocos2d_pY="70" x="272" y="0"/>
+ <SubTexture name="元件 18" width="121" height="136" cocos2d_pX="61" cocos2d_pY="68" x="0" y="145"/>
+ <SubTexture name="元件 17" width="125" height="140" cocos2d_pX="63" cocos2d_pY="70" x="140" y="140"/>
+ <SubTexture name="元件 28" width="138" height="143" cocos2d_pX="69" cocos2d_pY="72" x="0" y="0"/>
+ <SubTexture name="元件 27" width="130" height="138" cocos2d_pX="65" cocos2d_pY="69" x="140" y="0"/>
+</TextureAtlas>

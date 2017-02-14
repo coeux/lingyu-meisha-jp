@@ -1,0 +1,19 @@
+<skeleton name="pingzi" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="pingzi">
+      <b name="图层 1" x="-4.5" y="0.18" kX="-114.81" kY="65.19" cX="0.22" cY="0.22" pX="10.85" pY="17.18" z="0">
+        <d name="yuanjian/pingzi_1" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="pingzi">
+      <mov name="play" dr="28" to="6" drTW="28" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-4.5" y="0.18" cocos2d_x="-8" cocos2d_y="0" kX="-114.81" kY="65.19" cX="0.22" cY="0.22" pX="10.85" pY="17.18" z="0" dI="0" dr="27"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

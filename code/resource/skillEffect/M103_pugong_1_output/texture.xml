@@ -1,0 +1,6 @@
+<TextureAtlas name="attack_1" width="512" height="512">
+ <SubTexture name="元件 4" width="225" height="250" cocos2d_pX="113" cocos2d_pY="125" x="0" y="252"/>
+ <SubTexture name="元件 3" width="225" height="250" cocos2d_pX="113" cocos2d_pY="125" x="227" y="252"/>
+ <SubTexture name="元件 2" width="225" height="250" cocos2d_pX="113" cocos2d_pY="125" x="0" y="0"/>
+ <SubTexture name="元件 1" width="225" height="250" cocos2d_pX="113" cocos2d_pY="125" x="227" y="0"/>
+</TextureAtlas>

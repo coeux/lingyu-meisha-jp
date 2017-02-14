@@ -1,0 +1,30 @@
+<TextureAtlas name="N022" width="128" height="128">
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_hair_1" width="30" height="32" cocos2d_pX="15" cocos2d_pY="16" x="78" y="56"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_toushi" width="12" height="18" cocos2d_pX="6" cocos2d_pY="9" x="19" y="59"/>
+ <SubTexture name="大小姐1.psd 资源 9/head_2" width="33" height="35" cocos2d_pX="17" cocos2d_pY="18" x="35" y="22"/>
+ <SubTexture name="大小姐1.psd 资源 9/head" width="33" height="35" cocos2d_pX="17" cocos2d_pY="18" x="0" y="22"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_arm" width="6" height="11" cocos2d_pX="3" cocos2d_pY="6" x="70" y="57"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_arm_up" width="7" height="15" cocos2d_pX="4" cocos2d_pY="8" x="0" y="88"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_hand" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="104" y="95"/>
+ <SubTexture name="yuanjian/DXJ_wuqi" width="76" height="20" cocos2d_pX="38" cocos2d_pY="10" x="0" y="0"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_hair_4" width="6" height="33" cocos2d_pX="3" cocos2d_pY="13" x="70" y="22"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_haojiao" width="10" height="7" cocos2d_pX="5" cocos2d_pY="4" x="74" y="90"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_body" width="17" height="27" cocos2d_pX="9" cocos2d_pY="14" x="0" y="59"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_piaodai_1" width="10" height="14" cocos2d_pX="5" cocos2d_pY="7" x="50" y="80"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_piaodai_2" width="10" height="13" cocos2d_pX="5" cocos2d_pY="7" x="62" y="87"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_qunbai" width="6" height="10" cocos2d_pX="3" cocos2d_pY="5" x="120" y="83"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_qunzi_2" width="19" height="18" cocos2d_pX="10" cocos2d_pY="9" x="33" y="59"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_qunzi_1" width="19" height="18" cocos2d_pX="13" cocos2d_pY="9" x="29" y="79"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_foot" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="86" y="90"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_leg_up" width="10" height="19" cocos2d_pX="5" cocos2d_pY="10" x="54" y="59"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_L_leg" width="6" height="11" cocos2d_pX="3" cocos2d_pY="6" x="120" y="70"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_foot" width="7" height="7" cocos2d_pX="4" cocos2d_pY="4" x="95" y="90"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_leg_up" width="8" height="17" cocos2d_pX="4" cocos2d_pY="9" x="19" y="79"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_leg" width="6" height="12" cocos2d_pX="3" cocos2d_pY="6" x="120" y="56"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_arm" width="8" height="11" cocos2d_pX="4" cocos2d_pY="6" x="9" y="88"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_hand" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="112" y="95"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_R_arm_up" width="10" height="15" cocos2d_pX="5" cocos2d_pY="8" x="66" y="70"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_hair_3" width="8" height="37" cocos2d_pX="4" cocos2d_pY="19" x="110" y="56"/>
+ <SubTexture name="大小姐1.psd 资源 9/DXJ_hair_2" width="42" height="54" cocos2d_pX="21" cocos2d_pY="27" x="78" y="0"/>
+ <SubTexture name="yuanjian/DXJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="19" y="99"/>
+</TextureAtlas>

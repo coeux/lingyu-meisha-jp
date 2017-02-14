@@ -1,0 +1,14 @@
+<TextureAtlas name="升级" width="512" height="512">
+ <SubTexture name="元件 15" width="68" height="188" x="341" y="197"/>
+ <SubTexture name="元件 14" width="74" height="186" x="175" y="194"/>
+ <SubTexture name="元件 12" width="77" height="189" x="415" y="0"/>
+ <SubTexture name="元件 10" width="91" height="210" x="0" y="0"/>
+ <SubTexture name="元件 9" width="80" height="204" x="93" y="0"/>
+ <SubTexture name="元件 8" width="82" height="192" x="175" y="0"/>
+ <SubTexture name="元件 6" width="80" height="185" x="259" y="189"/>
+ <SubTexture name="元件 5" width="80" height="187" x="259" y="0"/>
+ <SubTexture name="元件 4" width="80" height="185" x="415" y="191"/>
+ <SubTexture name="元件 3" width="73" height="187" x="93" y="206"/>
+ <SubTexture name="元件 2" width="72" height="195" x="341" y="0"/>
+ <SubTexture name="元件 1" width="60" height="188" x="0" y="212"/>
+</TextureAtlas>

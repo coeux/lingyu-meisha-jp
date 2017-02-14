@@ -1,0 +1,37 @@
+<skeleton name="S134_1" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S134_1">
+   <b name="图层 1" x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0">
+    <d name="元件 1" pX="0" pY="0"/>
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="元件 5" pX="0" pY="0"/>
+    <d name="元件 6" pX="0" pY="0"/>
+    <d name="元件 7" pX="0" pY="0"/>
+    <d name="元件 8" pX="0" pY="0"/>
+    <d name="元件 9" pX="0" pY="0"/>
+    <d name="元件 10" pX="0" pY="0"/>
+    <d name="元件 11" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S134_1">
+   <mov name="play" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="0" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="1" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="2" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="3" dr="1"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="4" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="5" dr="1"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="6" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="7" dr="1"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="8" dr="2"/>
+     <f x="0.28" y="-0.02" kX="0" kY="0" cX="1" cY="1" pX="43.35" pY="43.35" z="0" dI="9" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

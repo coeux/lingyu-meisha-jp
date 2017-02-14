@@ -1,0 +1,10 @@
+#!/bin/bash
+echo ===============================
+echo auto gen rebot
+echo ===============================
+
+for ((id=1; id<=$3; id++))
+do
+    echo gen reobot: $id
+    ./simu_client/client $1 $2 ./simu_script/ ./repo/ $id
+done

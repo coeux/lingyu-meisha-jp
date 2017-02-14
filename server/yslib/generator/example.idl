@@ -1,0 +1,21 @@
+
+struct friend_t
+{
+    uint64 uid
+    string name;
+    uint16 level;
+};
+
+struct get_friends_req_t
+{
+    uint64 uid;
+    string msg;
+    array<friend_t> friends;
+};
+
+
+struct all_friends_ret_t
+{
+    array<uint32> friends;
+};
+

@@ -1,0 +1,110 @@
+<skeleton name="H048_gongji2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="H048_gj3">
+   <b name="160014.png" x="3.48" y="-20.65" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0">
+    <d name="重复项目文件夹/元件 1 副本 2" pX="52.5" pY="25.48"/>
+    <d name="重复项目文件夹/元件 2 副本 2" pX="28.5" pY="21.63"/>
+    <d name="重复项目文件夹/元件 3 副本" pX="32.75" pY="46.63"/>
+    <d name="重复项目文件夹/元件 4 副本 2" pX="32.25" pY="49.63"/>
+    <d name="重复项目文件夹/元件 5 副本 2" pX="41.25" pY="43.48"/>
+    <d name="重复项目文件夹/元件 6 副本 2" pX="34.5" pY="34.23"/>
+    <d name="重复项目文件夹/元件 7" pX="57.5" pY="52.73"/>
+    <d name="重复项目文件夹/元件 8 副本" pX="55" pY="58.98"/>
+    <d name="重复项目文件夹/元件 9 副本" pX="49.25" pY="37.48"/>
+    <d name="重复项目文件夹/元件 10 副本" pX="45.75" pY="55.23"/>
+    <d name="重复项目文件夹/元件 11 副本" pX="46.75" pY="46.23"/>
+    <d name="重复项目文件夹/元件 12" pX="45.5" pY="43.23"/>
+    <d name="重复项目文件夹/元件 13" pX="98.23" pY="67.63"/>
+   </b>
+  </armature>
+  <armature name="H048_gj2">
+   <b name="170001.png" x="11.98" y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="重复项目文件夹/元件 13 副本" pX="52.5" pY="29.23"/>
+    <d name="重复项目文件夹/元件 14" pX="58.5" pY="37.73"/>
+    <d name="元件 15" pX="47.25" pY="27.25"/>
+    <d name="元件 16" pX="46.5" pY="35.73"/>
+    <d name="元件 17" pX="59" pY="26.23"/>
+    <d name="元件 18" pX="54" pY="26.23"/>
+    <d name="元件 19" pX="53.25" pY="34.48"/>
+    <d name="元件 20" pX="59.75" pY="37.23"/>
+    <d name="元件 21" pX="57.75" pY="39.98"/>
+    <d name="元件 22" pX="56.25" pY="40.73"/>
+    <d name="元件 23" pX="59" pY="30.98"/>
+   </b>
+  </armature>
+  <armature name="H048_gj1">
+   <b name="170001.png" x="11.73" y="-28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="重复项目文件夹/元件 1 副本 3" pX="52.75" pY="42.98"/>
+    <d name="重复项目文件夹/元件 2 副本 3" pX="52.5" pY="41.48"/>
+    <d name="重复项目文件夹/元件 3 副本 2" pX="51" pY="45.73"/>
+    <d name="重复项目文件夹/元件 4 副本 3" pX="46.25" pY="42.23"/>
+    <d name="重复项目文件夹/元件 5 副本 3" pX="51" pY="41.48"/>
+    <d name="重复项目文件夹/元件 6 副本 3" pX="39.5" pY="46.48"/>
+    <d name="重复项目文件夹/元件 7 副本" pX="63.75" pY="41.48"/>
+    <d name="重复项目文件夹/元件 8 副本 2" pX="54" pY="43.98"/>
+    <d name="重复项目文件夹/元件 9 副本 2" pX="54" pY="40.48"/>
+    <d name="重复项目文件夹/元件 10 副本 2" pX="57.75" pY="48.73"/>
+    <d name="重复项目文件夹/元件 11 副本 2" pX="61.25" pY="41.73"/>
+    <d name="重复项目文件夹/元件 12 副本" pX="51.75" pY="44.23"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H048_gj3">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="160014.png" sc="1" dl="0">
+     <f x="3.48" y="-20.65" cocos2d_x="4" cocos2d_y="-20" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="13.7" y="-119.67" cocos2d_x="14" cocos2d_y="-119" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="14" y="-87.8" cocos2d_x="14" cocos2d_y="-87" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-3.85" y="-83.97" cocos2d_x="-3" cocos2d_y="-83" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-14.05" y="-44.25" cocos2d_x="-14" cocos2d_y="-44" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="0.93" y="-19.05" cocos2d_x="1" cocos2d_y="-19" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="19.43" y="-38.83" cocos2d_x="20" cocos2d_y="-38" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-0.35" y="-21.3" cocos2d_x="0" cocos2d_y="-21" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-3.85" y="-33.42" cocos2d_x="-3" cocos2d_y="-33" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="7" y="-45.22" cocos2d_x="7" cocos2d_y="-45" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="8.28" y="-26.72" cocos2d_x="9" cocos2d_y="-26" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="15.6" y="-13.95" cocos2d_x="16" cocos2d_y="-13" kX="0" kY="180" cX="1.28" cY="1.28" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="52.53" y="-51.15" cocos2d_x="53" cocos2d_y="-51" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H048_gj2">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="170001.png" sc="1" dl="0">
+     <f x="11.98" y="-25.75" cocos2d_x="12" cocos2d_y="-25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="8.98" y="-12.75" cocos2d_x="9" cocos2d_y="-12" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="2.73" y="-13.25" cocos2d_x="3" cocos2d_y="-13" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="1.98" y="-21.75" cocos2d_x="2" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="2.48" y="-17.25" cocos2d_x="3" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="5.48" y="-22.25" cocos2d_x="6" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="1.73" y="-30" cocos2d_x="2" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-4.78" y="-17.25" cocos2d_x="-4" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-1.77" y="-22.5" cocos2d_x="-1" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="12.73" y="-22.75" cocos2d_x="13" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="2.98" y="-24.5" cocos2d_x="3" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H048_gj1">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="170001.png" sc="1" dl="0">
+     <f x="11.73" y="-28" cocos2d_x="12" cocos2d_y="-28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="13.98" y="-30" cocos2d_x="14" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="7.98" y="-27.75" cocos2d_x="8" cocos2d_y="-27" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="4.22" y="-28.75" cocos2d_x="5" cocos2d_y="-28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="4.47" y="-27.5" cocos2d_x="5" cocos2d_y="-27" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="1.48" y="-25" cocos2d_x="2" cocos2d_y="-25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="17.23" y="-28.5" cocos2d_x="18" cocos2d_y="-28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="13.48" y="-24.5" cocos2d_x="14" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="8.98" y="-33.5" cocos2d_x="9" cocos2d_y="-33" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="8.73" y="-23.25" cocos2d_x="9" cocos2d_y="-23" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-4.78" y="-28.75" cocos2d_x="-4" cocos2d_y="-28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="2.73" y="-21.25" cocos2d_x="3" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

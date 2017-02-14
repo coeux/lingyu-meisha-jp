@@ -1,0 +1,9 @@
+<TextureAtlas name="huo" width="256" height="256">
+ <SubTexture name="元件 5" width="79" height="79" cocos2d_pX="40" cocos2d_pY="40" x="0" y="120"/>
+ <SubTexture name="元件 4" width="92" height="94" cocos2d_pX="46" cocos2d_pY="47" x="123" y="0"/>
+ <SubTexture name="元件 3" width="121" height="118" cocos2d_pX="60" cocos2d_pY="59" x="0" y="0"/>
+ <SubTexture name="yuanjian/元件 21" width="99" height="83" cocos2d_pX="-14" cocos2d_pY="-29" x="123" y="96"/>
+ <SubTexture name="yuanjian/元件 23" width="60" height="55" cocos2d_pX="-30" cocos2d_pY="-48" x="81" y="181"/>
+ <SubTexture name="yuanjian/元件 25" width="34" height="37" cocos2d_pX="-37" cocos2d_pY="-59" x="217" y="41"/>
+ <SubTexture name="yuanjian/元件 26" width="36" height="39" cocos2d_pX="-37" cocos2d_pY="-57" x="217" y="0"/>
+</TextureAtlas>

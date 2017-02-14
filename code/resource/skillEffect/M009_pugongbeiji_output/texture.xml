@@ -1,0 +1,6 @@
+<TextureAtlas name="普攻被击" width="512" height="256">
+  <SubTexture name="元件 5" width="128" height="125" cocos2d_pX="63.75" cocos2d_pY="62.5" x="279" y="0"/>
+  <SubTexture name="元件 4" width="129" height="135" cocos2d_pX="64.25" cocos2d_pY="67.5" x="148" y="0"/>
+  <SubTexture name="元件 3" width="146" height="132" cocos2d_pX="73" cocos2d_pY="65.55" x="0" y="0"/>
+  <SubTexture name="元件 2" width="123" height="122" cocos2d_pX="61.25" cocos2d_pY="60.55" x="279" y="127"/>
+</TextureAtlas>

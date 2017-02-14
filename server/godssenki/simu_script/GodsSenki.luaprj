@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="GodsSenki.luaprj" >
+    <Filter Name="effect" >
+        <LuaFile RelativePath=".\effect\effectFunction.lua" />
+        <LuaFile RelativePath=".\effect\effect.lua" />
+        <LuaFile RelativePath=".\effect\effectManager.lua" />
+        <LuaFile RelativePath=".\effect\effectScript.lua" />
+        <LuaFile RelativePath=".\effect\effectScriptManager.lua" />
+    </Filter>
+    <Filter Name="base" >
+        <LuaFile RelativePath=".\base\globalData.lua" />
+        <LuaFile RelativePath=".\base\queue.lua" />
+        <LuaFile RelativePath=".\base\delegate.lua" />
+        <LuaFile RelativePath=".\base\class.lua" />
+        <LuaFile RelativePath=".\base\enum.lua" />
+        <LuaFile RelativePath=".\base\configurationFile.lua" />
+        <LuaFile RelativePath=".\base\Vector.lua" />
+    </Filter>
+    <Filter Name="actor" >
+        <LuaFile RelativePath=".\actor\actor.lua" />
+        <LuaFile RelativePath=".\actor\actorManager.lua" />
+    </Filter>
+    <Filter Name="fight" >
+        <LuaFile RelativePath=".\fight\fightManager.lua" />
+        <LuaFile RelativePath=".\fight\fighter.lua" />
+        <LuaFile RelativePath=".\fight\fighter_player.lua" />
+        <LuaFile RelativePath=".\fight\fighter_monster.lua" />
+    </Filter>
+    <Filter Name="resTable" >
+        <LuaFile RelativePath=".\resTable\resTable.lua" />
+        <LuaFile RelativePath=".\resTable\resTableManager.lua" />
+    </Filter>
+    <Filter Name="gameState" >
+        <LuaFile RelativePath=".\gameState\game.lua" />
+        <LuaFile RelativePath=".\gameState\godsSenki.lua" />
+    </Filter>
+    <LuaFile RelativePath=".\entry.lua" />
+    <Filter Name="skillScript" >
+        <LuaFile RelativePath=".\skillScript\afx.lua" />
+        <LuaFile RelativePath=".\skillScript\H001_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H002_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H006_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H010_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H011_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H021_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H022_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H023_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H024_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H032_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H033_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H034_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H035_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H036_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H037_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H040_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H041_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H045_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H046_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H050_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H051_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\H103_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M001_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M004_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M007_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M009_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M010_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M021_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M022_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M023_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M031_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M032_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M033_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M034_mormal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M034_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M035_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M064_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\M064_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\P02_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\P03_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\P04_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\P05_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\P06_normal_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S101_magic_H002_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S201_magic_H021_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S201_magic_M021_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S201_magic_P02_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S211_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S221_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S301_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S301_magic_H022_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S301_magic_M037_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S301_magic_P03_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S301_magic_P04_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S322_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S401_magic_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S411_magic_P05_attack.lua" />
+        <LuaFile RelativePath=".\skillScript\S411_magic_P06_attack.lua" />
+    </Filter>
+</Project>

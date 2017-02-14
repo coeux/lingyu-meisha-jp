@@ -1,0 +1,104 @@
+<skeleton name="S162" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S162_2">
+   <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 12" pX="72.03" pY="19.9"/>
+    <d name="元件 13" pX="75" pY="22.23"/>
+    <d name="元件 14" pX="72.03" pY="28.78"/>
+    <d name="元件 15" pX="72.03" pY="35.35"/>
+    <d name="元件 16" pX="70.88" pY="36.5"/>
+    <d name="元件 17" pX="37.65" pY="39.2"/>
+    <d name="元件 18" pX="31.08" pY="49.63"/>
+    <d name="元件 19" pX="31.85" pY="53.5"/>
+    <d name="元件 20" pX="31.85" pY="56.98"/>
+    <d name="元件 21" pX="31.08" pY="55.43"/>
+    <d name="元件 22" pX="14.48" pY="56.6"/>
+    <d name="元件 23" pX="16.8" pY="55.83"/>
+    <d name="元件 11" pX="-16.05" pY="36.5"/>
+   </b>
+  </armature>
+  <armature name="S162_3">
+   <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 25" pX="15.13" pY="13.75"/>
+    <d name="元件 26" pX="21.68" pY="13.15"/>
+    <d name="元件 27" pX="25.53" pY="16.05"/>
+    <d name="元件 28" pX="40.35" pY="29.73"/>
+    <d name="元件 29" pX="35.92" pY="23.75"/>
+    <d name="元件 30" pX="32.45" pY="17.6"/>
+    <d name="元件 31" pX="28.4" pY="13.15"/>
+    <d name="元件 32" pX="26.68" pY="11.23"/>
+    <d name="元件 33" pX="26.1" pY="10.07"/>
+    <d name="元件 34" pX="24.18" pY="7.78"/>
+   </b>
+  </armature>
+  <armature name="S162_1">
+   <b name="图层 1" x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="62.08" pY="47.88"/>
+    <d name="元件 2" pX="51.65" pY="47.5"/>
+    <d name="元件 4" pX="44.68" pY="45.55"/>
+    <d name="元件 5" pX="45.85" pY="46.33"/>
+    <d name="元件 6" pX="41.2" pY="39.78"/>
+    <d name="元件 7" pX="41.2" pY="39"/>
+    <d name="元件 8" pX="30.78" pY="31.28"/>
+    <d name="元件 10" pX="30.4" pY="26.1"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S162_2">
+   <mov name="play" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S162_3">
+   <mov name="play" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S162_1">
+   <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-4.62" y="-6.77" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

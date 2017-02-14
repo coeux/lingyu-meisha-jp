@@ -1,0 +1,31 @@
+<TextureAtlas name="H006_xuli" width="512" height="256">
+ <SubTexture name="元件 10" width="90" height="46" x="94" y="75"/>
+ <SubTexture name="元件 9" width="87" height="43" x="275" y="71"/>
+ <SubTexture name="元件 8" width="89" height="57" x="366" y="58"/>
+ <SubTexture name="元件 7" width="91" height="56" x="366" y="0"/>
+ <SubTexture name="元件 6" width="86" height="69" x="278" y="0"/>
+ <SubTexture name="元件 5" width="92" height="79" x="0" y="0"/>
+ <SubTexture name="元件 4" width="90" height="73" x="94" y="0"/>
+ <SubTexture name="元件 3" width="90" height="68" x="186" y="0"/>
+ <SubTexture name="元件 2" width="87" height="50" x="186" y="70"/>
+ <SubTexture name="元件 1" width="85" height="42" x="0" y="81"/>
+ <SubTexture name="元件 39" width="61" height="30" x="212" y="183"/>
+ <SubTexture name="元件 38" width="61" height="31" x="249" y="150"/>
+ <SubTexture name="元件 37" width="59" height="30" x="0" y="190"/>
+ <SubTexture name="元件 36" width="61" height="30" x="149" y="156"/>
+ <SubTexture name="元件 35" width="61" height="31" x="0" y="125"/>
+ <SubTexture name="元件 34" width="59" height="31" x="436" y="183"/>
+ <SubTexture name="元件 33" width="61" height="30" x="63" y="158"/>
+ <SubTexture name="元件 32" width="62" height="31" x="339" y="117"/>
+ <SubTexture name="元件 31" width="61" height="32" x="403" y="117"/>
+ <SubTexture name="元件 30" width="62" height="32" x="275" y="116"/>
+ <SubTexture name="元件 29" width="61" height="31" x="312" y="150"/>
+ <SubTexture name="元件 28" width="60" height="29" x="126" y="188"/>
+ <SubTexture name="元件 27" width="61" height="30" x="436" y="151"/>
+ <SubTexture name="元件 26" width="61" height="28" x="336" y="186"/>
+ <SubTexture name="元件 25" width="61" height="32" x="186" y="122"/>
+ <SubTexture name="元件 24" width="59" height="32" x="275" y="183"/>
+ <SubTexture name="元件 23" width="59" height="33" x="375" y="151"/>
+ <SubTexture name="元件 22" width="60" height="33" x="87" y="123"/>
+ <SubTexture name="元件 21" width="61" height="30" x="0" y="158"/>
+</TextureAtlas>

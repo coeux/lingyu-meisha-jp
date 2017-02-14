@@ -1,0 +1,45 @@
+alter table UserInfo add column hm_maxid int(10) unsigned not null default '0' comment '全服邮件当前最大接收id' after honor;
+alter table Reward add column adt_reward int(10) unsigned not null default '0' comment '活跃度奖励领取情况' after daily_pay_reward;
+alter table UserInfo add column tkgflushfirst tinyint(3) not null default '0' comment '至尊十连抽第一次刷新伙伴' after kgflushtimes;
+alter table UserInfo add column twoprecord int(10) unsigned not null default '0' comment 'tw操作记录' after hm_maxid;
+alter table Reward add column conequip tinyint(3) not null default '0' comment '装备领取'; 
+alter table Reward add column vip_package_stamp int(10) unsigned not null default '0' comment 'vip每日奖励时间戳';
+alter table UserInfo add column zodiacstamp int(10) unsigned not null default '0' comment '十二宫时间戳';
+
+create table if not exists GMail(
+mid int(10) unsigned not null default '0',
+uid int(10) unsigned not null default '0',
+resid int(10) unsigned not null default '0',
+flag tinyint(3) unsigned not null default '0',
+opened tinyint(3) unsigned not null default '0',
+rewarded tinyint(3) unsigned not null default '0',
+item1 int(10) unsigned not null default '0',
+count1 int(10) unsigned not null default '0',
+item2 int(10) unsigned not null default '0',
+count2 int(10) unsigned not null default '0',
+item3 int(10) unsigned not null default '0',
+count3 int(10) unsigned not null default '0',
+item4 int(10) unsigned not null default '0',
+count4 int(10) unsigned not null default '0',
+item5 int(10) unsigned not null default '0',
+count5 int(10) unsigned not null default '0',
+title varchar(64) character set utf8 default null,
+sender varchar(32) character set utf8 default null,
+info varchar(256) character set utf8 default null,
+stamp int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(mid, uid))engine=innodb;
+
+create table if not exists HostGMail(
+mid int(10) unsigned auto_increment,
+hostnum int(10) unsigned not null default '0',
+jstr varchar(2048) character set utf8 default null,
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(mid, hostnum))engine=innodb;
+
+create table if not exists ActDailyTask(
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0',
+step tinyint(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid, resid))engine=innodb;

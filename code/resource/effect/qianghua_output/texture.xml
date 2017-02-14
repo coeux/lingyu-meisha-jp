@@ -1,0 +1,9 @@
+<TextureAtlas name="强化" width="512" height="256">
+  <SubTexture name="元件 7" width="107" height="103" cocos2d_pX="54" cocos2d_pY="51" x="228" y="0"/>
+  <SubTexture name="元件 6" width="110" height="108" cocos2d_pX="53" cocos2d_pY="53" x="116" y="0"/>
+  <SubTexture name="元件 5" width="114" height="106" cocos2d_pX="60" cocos2d_pY="52" x="0" y="0"/>
+  <SubTexture name="元件 4" width="106" height="103" cocos2d_pX="54" cocos2d_pY="52" x="337" y="0"/>
+  <SubTexture name="元件 3" width="103" height="102" cocos2d_pX="51" cocos2d_pY="51" x="228" y="105"/>
+  <SubTexture name="元件 2" width="98" height="100" cocos2d_pX="48" cocos2d_pY="51" x="333" y="105"/>
+  <SubTexture name="元件 1" width="80" height="88" cocos2d_pX="40" cocos2d_pY="55" x="0" y="108"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<TextureAtlas name="love_max2" width="1024" height="512">
+  <SubTexture name="重复项目文件夹/元件 1" width="499" height="147" x="0" y="177"/>
+  <SubTexture name="xin" width="274" height="204" x="566" y="207"/>
+  <SubTexture name="重复项目文件夹/元件 2" width="275" height="205" x="570" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 5" width="148" height="120" x="847" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 4" width="57" height="46" x="938" y="280"/>
+  <SubTexture name="重复项目文件夹/元件 3" width="568" height="175" x="0" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 6" width="71" height="61" x="938" y="217"/>
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_652_009.png.imag" width="45" height="63" x="501" y="259"/>
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_660_014.png.imag" width="94" height="93" x="842" y="217"/>
+  <SubTexture name="元件 7" width="147" height="93" x="847" y="122"/>
+  <SubTexture name="元件 3" width="63" height="80" x="501" y="177"/>
+  <SubTexture name="assets¥flash¥ui¥secretbox¥img¥star1.png.imag" width="23" height="23" x="997" y="0"/>
+</TextureAtlas>

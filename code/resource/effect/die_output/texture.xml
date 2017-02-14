@@ -1,0 +1,3 @@
+<TextureAtlas name="die" width="512" height="256">
+  <SubTexture name="shape 6" width="305" height="174" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+</TextureAtlas>

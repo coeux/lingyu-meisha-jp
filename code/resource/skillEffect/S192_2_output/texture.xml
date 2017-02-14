@@ -1,0 +1,12 @@
+<TextureAtlas name="必杀受击特效" width="512" height="512">
+  <SubTexture name="元件 11" width="82" height="78" cocos2d_pX="41" cocos2d_pY="39" x="0" y="275"/>
+  <SubTexture name="元件 10" width="90" height="94" cocos2d_pX="45" cocos2d_pY="47" x="125" y="267"/>
+  <SubTexture name="元件 9" width="103" height="104" cocos2d_pX="52" cocos2d_pY="52" x="388" y="266"/>
+  <SubTexture name="元件 8" width="148" height="148" cocos2d_pX="74" cocos2d_pY="74" x="0" y="0"/>
+  <SubTexture name="元件 7" width="105" height="107" cocos2d_pX="53" cocos2d_pY="54" x="281" y="266"/>
+  <SubTexture name="元件 6" width="144" height="135" cocos2d_pX="72" cocos2d_pY="68" x="150" y="0"/>
+  <SubTexture name="元件 5" width="134" height="129" cocos2d_pX="67" cocos2d_pY="65" x="296" y="135"/>
+  <SubTexture name="元件 4" width="123" height="123" cocos2d_pX="62" cocos2d_pY="62" x="0" y="150"/>
+  <SubTexture name="元件 3" width="129" height="128" cocos2d_pX="65" cocos2d_pY="64" x="150" y="137"/>
+  <SubTexture name="元件 2" width="138" height="133" cocos2d_pX="69" cocos2d_pY="67" x="296" y="0"/>
+</TextureAtlas>

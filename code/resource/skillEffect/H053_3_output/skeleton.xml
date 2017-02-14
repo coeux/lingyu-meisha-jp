@@ -1,0 +1,80 @@
+<skeleton name="H053_3" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="H053_3_3">
+   <b name="50001.png" x="-1.67" y="1.48" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="19.25" pY="19.25"/>
+    <d name="元件 2" pX="30.75" pY="32"/>
+    <d name="元件 3" pX="43" pY="40.75"/>
+    <d name="元件 4" pX="50" pY="44.75"/>
+    <d name="元件 5" pX="56.25" pY="54.25"/>
+    <d name="元件 6" pX="60.5" pY="58.5"/>
+   </b>
+  </armature>
+  <armature name="H053_3_2">
+   <b name="50002.png" x="97.1" y="-83.62" kX="9.36" kY="9.36" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 7" pX="34" pY="15.75"/>
+   </b>
+   <b name="50003.png" x="87.43" y="-76.92" kX="11.61" kY="11.61" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 7" pX="34" pY="15.75"/>
+   </b>
+   <b name="50002.png 复制" x="95.25" y="-77.47" kX="6.64" kY="6.64" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 7" pX="34" pY="15.75"/>
+   </b>
+   <b name="50003.png 复制" x="87.43" y="-76.92" kX="11.61" kY="11.61" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 7" pX="34" pY="15.75"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H053_3_3">
+   <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+    <b name="50001.png" sc="1" dl="0">
+     <f x="-1.67" y="1.48" cocos2d_x="-1" cocos2d_y="2" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="0.28" y="-1.8" cocos2d_x="1" cocos2d_y="-1" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" dr="2"/>
+     <f x="-3" y="-3" cocos2d_x="-3" cocos2d_y="-2" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="2" dr="2"/>
+     <f x="-2.45" y="0.48" cocos2d_x="-2" cocos2d_y="1" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+     <f x="-0.17" y="1.45" cocos2d_x="0" cocos2d_y="2" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+     <f x="0.05" y="0.2" cocos2d_x="1" cocos2d_y="1" kX="-0.89" kY="-0.89" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H053_3_2">
+   <mov name="play" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="50002.png" sc="1" dl="0">
+     <f x="97.1" y="-83.62" cocos2d_x="98" cocos2d_y="-83" kX="9.36" kY="9.36" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="236.18" y="-51.25" cocos2d_x="237" cocos2d_y="-51" kX="11.39" kY="11.39" cX="1.57" cY="1.03" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="236.18" y="-51.25" cocos2d_x="237" cocos2d_y="-51" kX="11.39" kY="11.39" cX="1.57" cY="0.27" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="6" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="19" dI="-1"/>
+    </b>
+    <b name="50003.png" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="87.43" y="-76.92" cocos2d_x="88" cocos2d_y="-76" kX="11.61" kY="11.61" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="277.18" y="-48.1" cocos2d_x="278" cocos2d_y="-48" kX="10.32" kY="10.32" cX="1.57" cY="1.03" pX="0" pY="0" z="0" dI="0" twE="0" dr="4"/>
+     <f x="277.18" y="-48.1" cocos2d_x="278" cocos2d_y="-48" kX="10.31" kY="10.32" cX="1.57" cY="0.26" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="5" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="12" dI="-1"/>
+    </b>
+    <b name="50002.png 复制" sc="1" dl="0">
+     <f dr="12" dI="-1"/>
+     <f x="95.25" y="-77.47" cocos2d_x="96" cocos2d_y="-77" kX="6.64" kY="6.64" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="294.13" y="-54.3" cocos2d_x="295" cocos2d_y="-54" kX="7.89" kY="7.89" cX="1.57" cY="1.03" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="294.13" y="-54.3" cocos2d_x="295" cocos2d_y="-54" kX="7.89" kY="7.89" cX="1.57" cY="0.23" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="5" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="50003.png 复制" sc="1" dl="0">
+     <f dr="18" dI="-1"/>
+     <f x="87.43" y="-76.92" cocos2d_x="88" cocos2d_y="-76" kX="11.61" kY="11.61" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="251.33" y="-38.3" cocos2d_x="252" cocos2d_y="-38" kX="12.53" kY="12.53" cX="1.57" cY="1.03" pX="0" pY="0" z="0" dI="0" twE="0" dr="4"/>
+     <f x="251.33" y="-38.3" cocos2d_x="252" cocos2d_y="-38" kX="12.53" kY="12.53" cX="1.57" cY="0.45" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="5" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

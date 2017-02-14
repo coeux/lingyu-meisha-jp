@@ -1,0 +1,12 @@
+<TextureAtlas name="S512_1" width="512" height="256">
+ <SubTexture name="元件 10" width="88" height="82" cocos2d_pX="44" cocos2d_pY="41" x="413" y="93"/>
+ <SubTexture name="元件 9" width="128" height="124" cocos2d_pX="64" cocos2d_pY="62" x="283" y="0"/>
+ <SubTexture name="元件 8" width="141" height="140" cocos2d_pX="71" cocos2d_pY="70" x="0" y="0"/>
+ <SubTexture name="元件 7" width="118" height="117" cocos2d_pX="59" cocos2d_pY="59" x="283" y="126"/>
+ <SubTexture name="元件 6" width="93" height="91" cocos2d_pX="47" cocos2d_pY="46" x="413" y="0"/>
+ <SubTexture name="元件 5" width="125" height="101" cocos2d_pX="63" cocos2d_pY="51" x="143" y="139"/>
+ <SubTexture name="元件 4" width="138" height="137" cocos2d_pX="69" cocos2d_pY="69" x="143" y="0"/>
+ <SubTexture name="元件 3" width="73" height="68" cocos2d_pX="37" cocos2d_pY="34" x="403" y="177"/>
+ <SubTexture name="元件 2" width="99" height="85" cocos2d_pX="50" cocos2d_pY="43" x="0" y="142"/>
+ <SubTexture name="元件 1" width="35" height="40" cocos2d_pX="18" cocos2d_pY="20" x="101" y="142"/>
+</TextureAtlas>

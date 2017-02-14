@@ -1,0 +1,5 @@
+<TextureAtlas name="wing01" width="128" height="128">
+  <SubTexture name="元件 7sss" width="116" height="48" x="0" y="58"/>
+  <SubTexture name="元件 15" width="25" height="11" x="0" y="108"/>
+  <SubTexture name="元件 7sss 副本" width="126" height="56" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<TextureAtlas name="战斗力1" width="256" height="512">
+  <SubTexture name="20039.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="0"/>
+  <SubTexture name="20038.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="252"/>
+  <SubTexture name="20037.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="42"/>
+  <SubTexture name="20036.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="168"/>
+  <SubTexture name="20035.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="84"/>
+  <SubTexture name="20034.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="252"/>
+  <SubTexture name="20033.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="126"/>
+  <SubTexture name="20032.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="20031.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="42"/>
+  <SubTexture name="20030.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="84"/>
+  <SubTexture name="20029.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="126"/>
+  <SubTexture name="20028.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="168"/>
+  <SubTexture name="20027.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="0" y="210"/>
+  <SubTexture name="20026.png" width="90" height="40" cocos2d_pX="0" cocos2d_pY="0" x="92" y="210"/>
+</TextureAtlas>

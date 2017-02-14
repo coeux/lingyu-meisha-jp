@@ -1,0 +1,15 @@
+<TextureAtlas name="lianji" width="512" height="256">
+ <SubTexture name="元件 30" width="33" height="48" cocos2d_pX="18" cocos2d_pY="24" x="71" y="100"/>
+ <SubTexture name="元件 32" width="68" height="96" cocos2d_pX="34" cocos2d_pY="48" x="285" y="0"/>
+ <SubTexture name="元件 31" width="69" height="99" cocos2d_pX="35" cocos2d_pY="50" x="0" y="0"/>
+ <SubTexture name="元件 29" width="69" height="98" cocos2d_pX="35" cocos2d_pY="49" x="71" y="0"/>
+ <SubTexture name="元件 28" width="70" height="95" cocos2d_pX="35" cocos2d_pY="48" x="142" y="0"/>
+ <SubTexture name="元件 27" width="69" height="96" cocos2d_pX="35" cocos2d_pY="48" x="214" y="0"/>
+ <SubTexture name="元件 26" width="66" height="90" cocos2d_pX="33" cocos2d_pY="45" x="424" y="0"/>
+ <SubTexture name="元件 25" width="67" height="89" cocos2d_pX="34" cocos2d_pY="45" x="355" y="0"/>
+ <SubTexture name="元件 24" width="65" height="86" cocos2d_pX="33" cocos2d_pY="43" x="355" y="91"/>
+ <SubTexture name="元件 22" width="66" height="72" cocos2d_pX="33" cocos2d_pY="36" x="142" y="97"/>
+ <SubTexture name="元件 21" width="63" height="57" cocos2d_pX="32" cocos2d_pY="29" x="210" y="98"/>
+ <SubTexture name="元件 20" width="63" height="36" cocos2d_pX="32" cocos2d_pY="18" x="275" y="98"/>
+ <SubTexture name="元件 19" width="61" height="83" cocos2d_pX="31" cocos2d_pY="42" x="422" y="92"/>
+</TextureAtlas>

@@ -1,0 +1,36 @@
+<skeleton name="H057_2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="H057_2">
+   <b name="20001.png" x="2.73" y="-86.75" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+    <d name="补间 11" pX="41.03" pY="42.05"/>
+    <d name="补间 12" pX="53.75" pY="41.88"/>
+    <d name="补间 13" pX="58.3" pY="47.23"/>
+    <d name="补间 14" pX="59.45" pY="54.6"/>
+    <d name="补间 15" pX="59.45" pY="56.28"/>
+    <d name="补间 16" pX="59.45" pY="53.78"/>
+    <d name="补间 17" pX="59.45" pY="52.6"/>
+    <d name="补间 18" pX="50.25" pY="54.1"/>
+    <d name="补间 19" pX="52.93" pY="53.93"/>
+    <d name="补间 20" pX="41.55" pY="50.75"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H057_2">
+   <mov name="play" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+    <b name="20001.png" sc="1" dl="0">
+     <f x="2.73" y="-86.75" cocos2d_x="3" cocos2d_y="-86" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="2.73" y="-92.52" cocos2d_x="3" cocos2d_y="-92" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="2.5" y="-92.05" cocos2d_x="3" cocos2d_y="-92" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="4.22" y="-77.97" cocos2d_x="5" cocos2d_y="-77" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="4.22" y="-78.47" cocos2d_x="5" cocos2d_y="-78" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="4.22" y="-75.7" cocos2d_x="5" cocos2d_y="-75" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="4.22" y="-74.95" cocos2d_x="5" cocos2d_y="-74" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="5.5" y="-74.72" cocos2d_x="6" cocos2d_y="-74" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="6.5" y="-76.47" cocos2d_x="7" cocos2d_y="-76" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="-5.05" y="-81.25" cocos2d_x="-5" cocos2d_y="-81" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="9" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

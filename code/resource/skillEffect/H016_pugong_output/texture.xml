@@ -1,0 +1,13 @@
+<TextureAtlas name="H016_pugong" width="512" height="256">
+ <SubTexture name="元件 11" width="39" height="26" x="470" y="93"/>
+ <SubTexture name="元件 10" width="115" height="42" x="0" y="123"/>
+ <SubTexture name="元件 9" width="123" height="56" x="254" y="69"/>
+ <SubTexture name="元件 8" width="141" height="67" x="254" y="0"/>
+ <SubTexture name="元件 7" width="54" height="37" x="141" y="107"/>
+ <SubTexture name="元件 6" width="22" height="23" x="470" y="121"/>
+ <SubTexture name="元件 5" width="33" height="32" x="197" y="107"/>
+ <SubTexture name="元件 4" width="89" height="77" x="379" y="93"/>
+ <SubTexture name="元件 3" width="96" height="91" x="397" y="0"/>
+ <SubTexture name="元件 2" width="111" height="105" x="141" y="0"/>
+ <SubTexture name="元件 1" width="139" height="121" x="0" y="0"/>
+</TextureAtlas>

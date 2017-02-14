@@ -1,0 +1,10 @@
+<TextureAtlas name="S130_2" width="512" height="256">
+  <SubTexture name="10034.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="127" y="0"/>
+  <SubTexture name="10033.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="254" y="77"/>
+  <SubTexture name="10032.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="381" y="0"/>
+  <SubTexture name="10031.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="381" y="77"/>
+  <SubTexture name="10030.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="10029.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="254" y="0"/>
+  <SubTexture name="10028.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="77"/>
+  <SubTexture name="10027.png" width="125" height="75" cocos2d_pX="0" cocos2d_pY="0" x="127" y="77"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<skeleton name="S172_3" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S172_3">
+   <b name="图层 1" x="-81.72" y="-3.95" kX="0" kY="0" cX="1" cY="1" pX="110.23" pY="30.4" z="0">
+    <d name="元件 6" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S172_3">
+   <mov name="play" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-81.72" y="-3.95" kX="0" kY="0" cX="1" cY="1" pX="110.23" pY="30.4" z="0" dI="0" dr="5"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

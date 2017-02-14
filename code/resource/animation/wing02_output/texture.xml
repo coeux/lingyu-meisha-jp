@@ -1,0 +1,6 @@
+<TextureAtlas name="wing02" width="256" height="256">
+  <SubTexture name="元件 9" width="133" height="71" x="0" y="83"/>
+  <SubTexture name="元件 1" width="132" height="70" x="0" y="156"/>
+  <SubTexture name="元件 1 副本" width="142" height="81" x="0" y="0"/>
+  <SubTexture name="wwfasdasdasdw.psd 资源/元件 15" width="36" height="22" x="144" y="0"/>
+</TextureAtlas>

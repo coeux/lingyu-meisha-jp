@@ -1,0 +1,527 @@
+#!/usr/bin/python
+
+from nuts_conf import getconf
+from datetime import timedelta
+from tools import str2date,date_list
+import mylog
+import re
+
+log = mylog.debugf('cal_nuts_data')
+
+class CalStaticsData(object):
+    def __init__(self, dbi, datelist):
+        self.dbi = dbi
+        self.datelist = datelist
+
+    def cal(self, game):
+        log(20, 'datelist = %s' % self.datelist)
+        kv = {'game':game}
+        kv.update(getconf(game))
+        for d in self.datelist:
+            kv['rundt']=str(d)
+            self.update_account(kv)
+            self.get_newuser(kv)
+            '''
+            prefix = re.compile('^__update_\w+')
+            funclist = []
+            for x in dir(self):
+                func = prefix.search(x)
+                if func:
+                    funclist.append(getattr(self, x))
+            funclist.sort()
+            for f in funclist:
+                f(kv)
+             '''
+
+    def update_account(self, kv):
+        sql="""
+insert into 
+Account(aid,name,domain,firstdate,firstmac,firstsys,uid,hostnum,nickname,grade,exp,resid,vip,questid)
+select aid,plat_name,plat_domain,logintm,mac,sys,uid,hostnum,nickname,grade,exp,resid,vip,questid 
+from LoginLog%(rundt)s q on duplicate key update
+Account.name = q.plat_name,
+Account.domain = q.plat_domain,
+Account.firstdate = if(Account.firstdate<q.logintm,Account.firstdate,q.logintm),
+Account.firstmac = if(Account.firstdate<q.logintm,Account.firstmac,q.mac),
+Account.firstsys = if(Account.firstdate<q.logintm,Account.sys,q.sys),
+Account.uid = if(Account.exp>q.exp,Account.uid,q.uid),
+Account.hostnum = if(Account.exp>q.exp,Account.hostnum,q.hostnum),
+Account.nickname = if(Account.exp>q.exp,Account.nickname,q.nickname),
+Account.grade = if(Account.exp>q.exp,Account.grade,q.grade),
+Account.resid = if(Account.exp>q.exp,Account.resid,q.resid),
+Account.exp = if(Account.exp>q.exp,Account.exp,q.exp),
+Account.vip = if(Account.exp>q.exp,Account.vip,q.vip),
+Account.questid = if(Account.exp>q.exp,Account.questid,q.questid);
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+insert into 
+Account(aid,name,domain,firstdate,firstmac,firstsys,lastdate,lastmac,lastsys,uid,hostnum,nickname,grade,exp,resid,vip,questid)
+select aid,plat_name,plat_domain,logintm,mac,sys,logintm,mac,sys,uid,hostnum,nickname,grade,exp,resid,vip,questid 
+from QuitLog%(rundt)s q on duplicate key update
+Account.name = q.plat_name,
+Account.domain = q.plat_domain,
+Account.firstdate = if(Account.firstdate<q.logintm,Account.firstdate,q.logintm),
+Account.firstmac = if(Account.firstdate<q.logintm,Account.firstmac,q.mac),
+Account.firstsys = if(Account.firstdate<q.logintm,Account.firstsys,q.sys),
+Account.lastdate = if(Account.lastdate>q.logintm,Account.lastdate,q.logintm),
+Account.lastmac = if(Account.lastdate>q.logintm,Account.lastmac,q.mac),
+Account.lastsys = if(Account.lastdate>q.logintm,Account.lastsys,q.sys),
+Account.uid = if(Account.exp>q.exp,Account.uid,q.uid),
+Account.hostnum = if(Account.exp>q.exp,Account.hostnum,q.hostnum),
+Account.nickname = if(Account.exp>q.exp,Account.nickname,q.nickname),
+Account.grade = if(Account.exp>q.exp,Account.grade,q.grade),
+Account.resid = if(Account.exp>q.exp,Account.resid,q.resid),
+Account.exp = if(Account.exp>q.exp,Account.exp,q.exp),
+Account.vip = if(Account.exp>q.exp,Account.vip,q.vip),
+Account.questid = if(Account.exp>q.exp,Account.questid,q.questid);
+            """ % kv
+        self.dbi.run_sql(sql)
+        
+    def get_newuser(self, kv):
+        '''
+        sql="""
+create table if not exists NewUser%(rundt)s( 
+aid int(10) not null default '0',
+domain varchar(10) default NULL comment '平台类型',
+uid int(11) unsigned DEFAULT NULL,
+grade int(10) unsigned DEFAULT NULL,
+resid int(10) unsigned default null,
+questid int(10) unsigned default null,
+primary key(domain,aid))engine=innodb;
+           """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+truncate table NewUser%(rundt)s;
+           """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+insert ignore into NewUser%(rundt)s
+select aid,domain,uid,grade,resid,questid
+from Account where firstdate > '%(rundt)s';
+           """ % kv
+        self.dbi.run_sql(sql)
+        '''
+
+        sql="""
+create table if not exists AllUser%(rundt)s( 
+aid int(11) not null default '0',
+domain varchar(10) default NULL comment '平台类型',
+primary key(domain,aid))engine=innodb;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+truncate table AllUser%(rundt)s;
+           """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+insert ignore into AllUser%(rundt)s
+select aid,plat_domain from QuitLog%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+        
+        sql="""
+insert ignore into AllUser%(rundt)s
+select aid,plat_domain from LoginLog%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+'''
+        sql="""
+drop table if exists LoginUser%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+       
+        sql="""
+create table LoginUser%(rundt)s
+select * from AllUser%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+        '''
+
+        last7date = str2date(kv['rundt']) - timedelta(7)
+        kv['last7str'] = last7date.strftime('%Y%m%d')
+
+        '''
+        sql="""
+create table if not exists NewUser%(last7str)s( 
+aid int(10) not null default '0',
+uid int(11) unsigned DEFAULT NULL,
+grade int(10) unsigned DEFAULT NULL,
+resid int(10) unsigned default null,
+questid int(10) unsigned default null,
+primary key(aid))engine=innodb;
+            """ % kv
+        self.dbi.run_sql(sql)
+        '''
+       
+        begindate = str2date(kv['rundt']) - timedelta(6)
+        enddate = str2date(kv['rundt']) - timedelta(1)
+
+        beginstr = begindate.strftime('%Y%m%d')
+        endstr = enddate.strftime('%Y%m%d')
+        dl = date_list(beginstr,endstr)
+
+        for d in dl:
+            kv['curdt'] = str(d)
+            
+            '''
+            sql="""
+            create table if not exists LoginUser%(curdt)s( 
+            aid int(11) not null default '0' primary key)engine=innodb;
+                """ % kv
+            self.dbi.run_sql(sql)
+
+            sql="""
+            create table if not exists NewUser%(curdt)s( 
+            aid int(10) not null default '0',
+            uid int(11) unsigned DEFAULT NULL,
+            grade int(10) unsigned DEFAULT NULL,
+            resid int(10) unsigned default null,
+            questid int(10) unsigned default null,
+            primary key(aid))engine=innodb;
+                """ % kv
+            self.dbi.run_sql(sql)
+            '''
+
+            sql="""
+            create table if not exists 
+            AllUser%(curdt)s( 
+            aid int(11) not null default '0',
+            domain varchar(10) default NULL comment '平台类型',
+            primary key(aid,domain))engine=innodb;
+                """ % kv
+            self.dbi.run_sql(sql)
+
+            sql="""
+            insert ignore into AllUser%(curdt)s
+            select aid from AllUser%(rundt)s;
+                """ % kv
+            self.dbi.run_sql(sql)
+
+    def __update_firstlogin__(self, kv):
+        sql="""
+delete from FirstLogin where day='%(rundt)s';
+             """ % kv
+        self.dbi.run_sql(sql)
+       
+        sql="""
+insert into FirstLogin(
+day,warrier_m,warrier_f,archer_m,archer_f,master_m,master_f,
+guidence_0,guidence_1,guidence_2,guidence_3,guidence_4,guidence_5,guidence_6,guidence_7,guidence_8,guidence_9,guidence_10,
+guidence_11,guidence_12,guidence_13,guidence_14,guidence_15,guidence_16,guidence_17,guidence_18,guidence_19,guidence_20,
+guidence_21,guidence_22,guidence_23,guidence_24,guidence_25,guidence_26,guidence_27,
+guidence_finish)
+select '%(rundt)s',
+sum(if(resid=1001,1,0)),sum(if(resid=1002,1,0)),sum(if(resid=1003,1,0)),
+sum(if(resid=1004,1,0)),sum(if(resid=1005,1,0)),sum(if(resid=1006,1,0)),
+sum(if(questid=0,1,0)),
+sum(if(questid=201,1,0)),sum(if(questid=202,1,0)),sum(if(questid=203,1,0)),
+sum(if(questid=204,1,0)),sum(if(questid=205,1,0)),sum(if(questid=206,1,0)),
+sum(if(questid=207,1,0)),sum(if(questid=208,1,0)),sum(if(questid=209,1,0)),
+sum(if(questid=210,1,0)),
+sum(if(questid=211,1,0)),sum(if(questid=212,1,0)),sum(if(questid=213,1,0)),
+sum(if(questid=214,1,0)),sum(if(questid=215,1,0)),sum(if(questid=216,1,0)),
+sum(if(questid=217,1,0)),sum(if(questid=218,1,0)),sum(if(questid=219,1,0)),
+sum(if(questid=220,1,0)),
+sum(if(questid=221,1,0)),sum(if(questid=222,1,0)),sum(if(questid=223,1,0)),
+sum(if(questid=224,1,0)),sum(if(questid=225,1,0)),sum(if(questid=226,1,0)),
+sum(if(questid=227,1,0)),
+sum(if(questid>227,1,0))
+from NewUser%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update FirstLogin a,( select count(*) v from NewUser%(rundt)s ) b
+set a.new = b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update FirstLogin set
+away_0=guidence_0*100/new,
+away_1=guidence_1*100/new,away_2=guidence_2*100/new, away_3=guidence_3*100/new,
+away_4=guidence_4*100/new,away_5=guidence_5*100/new, away_6=guidence_6*100/new,
+away_7=guidence_7*100/new,away_8=guidence_8*100/new, away_9=guidence_9*100/new,
+away_10=guidence_10*100/new,
+away_11=guidence_11*100/new,away_12=guidence_12*100/new, away_13=guidence_13*100/new,
+away_14=guidence_14*100/new,away_15=guidence_15*100/new, away_16=guidence_16*100/new,
+away_17=guidence_17*100/new,away_18=guidence_18*100/new, away_19=guidence_19*100/new,
+away_20=guidence_20*100/new,
+away_21=guidence_21*100/new,away_22=guidence_22*100/new, away_23=guidence_23*100/new,
+away_24=guidence_24*100/new,away_25=guidence_25*100/new, away_26=guidence_26*100/new,
+away_27=guidence_27*100/new,
+away_finish=guidence_finish*100/new
+where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+    def __update_revenue__(self, kv):
+        sql="""
+delete from Revenue where day='%(rundt)s';
+             """ % kv
+        self.dbi.run_sql(sql)
+       
+        sql="""
+insert into Revenue(
+day,vip0,vip1,vip2,vip3,vip4,vip5,vip6,vip7,vip8,vip9,vip10,vip11,vip12)
+select '%(rundt)s',sum(if(vip=0,1,0)),
+sum(if(vip=1,1,0)),sum(if(vip=2,1,0)),sum(if(vip=3,1,0)),
+sum(if(vip=4,1,0)),sum(if(vip=5,1,0)),sum(if(vip=6,1,0)),
+sum(if(vip=7,1,0)),sum(if(vip=8,1,0)),sum(if(vip=9,1,0)),
+sum(if(vip=10,1,0)),sum(if(vip=11,1,0)),sum(if(vip=12,1,0))
+from User;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Revenue a,(select ifnull(sum(payyb),0) v from YBLog%(rundt)s) b 
+set a.revenue=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Revenue a,(select count(distinct(aid)) v from YBLog%(rundt)s) b 
+set a.apa=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Revenue a,(select count(distinct(aid)) v from LoginUser%(rundt)s) b 
+set a.dau=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Revenue a,(select count(*) v from YBLog%(rundt)s) b 
+set a.pay_count=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Revenue 
+set Revenue.arpu=revenue/dau,Revenue.arppu=revenue/apa,Revenue.pur=apa*100/dau 
+where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+    def __update_active__(self, kv):
+        sql="""
+delete from Active where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+insert into Active(day,dau) select '%(rundt)s',count(distinct(aid)) from LoginUser%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,(select count(*) v from NewUser%(rundt)s) b 
+set a.new=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,(select count(*) v from User) b 
+set a.total=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,(select sum(totaltime-counttime)/3600/count(distinct(aid)) v from QuitLog%(rundt)s) b 
+set a.online=b.v where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active set active_rate = dau*100/total where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+        
+        kv['last1'] = str(str2date(kv['rundt']) - timedelta(1)).replace('-','')
+        kv['last2'] = str(str2date(kv['rundt']) - timedelta(2)).replace('-','')
+        kv['last3'] = str(str2date(kv['rundt']) - timedelta(3)).replace('-','')
+        kv['last4'] = str(str2date(kv['rundt']) - timedelta(4)).replace('-','')
+        kv['last5'] = str(str2date(kv['rundt']) - timedelta(5)).replace('-','')
+        kv['last6'] = str(str2date(kv['rundt']) - timedelta(6)).replace('-','')
+        kv['last7'] = str(str2date(kv['rundt']) - timedelta(7)).replace('-','')
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last6)s join NewUser%(last7)s using(aid) ) b,
+( select count(*) v from NewUser%(last7)s ) c
+set a.retention7_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last5)s join NewUser%(last6)s using(aid) ) b,
+( select count(*) v from NewUser%(last6)s ) c
+set a.retention6_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last4)s join NewUser%(last5)s using(aid) ) b,
+( select count(*) v from NewUser%(last5)s ) c
+set a.retention5_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last3)s join NewUser%(last4)s using(aid) ) b,
+( select count(*) v from NewUser%(last4)s ) c
+set a.retention4_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last6)s join NewUser%(last3)s using(aid) ) b,
+( select count(*) v from NewUser%(last3)s ) c
+set a.retention3_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(last6)s join NewUser%(last2)s using(aid) ) b,
+( select count(*) v from NewUser%(last2)s ) c
+set a.retention2_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from AllUser%(rundt)s join NewUser%(last1)s using(aid) ) b,
+( select count(*) v from NewUser%(last1)s ) c
+set a.retention1_h=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last7)s using(aid) ) b,
+( select count(*) v from NewUser%(last7)s ) c
+set a.retention7_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last6)s using(aid) ) b,
+( select count(*) v from NewUser%(last6)s ) c
+set a.retention6_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last5)s using(aid) ) b,
+( select count(*) v from NewUser%(last5)s ) c
+set a.retention5_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last4)s using(aid) ) b,
+( select count(*) v from NewUser%(last4)s ) c
+set a.retention4_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last3)s using(aid) ) b,
+( select count(*) v from NewUser%(last3)s ) c
+set a.retention3_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last2)s using(aid) ) b,
+( select count(*) v from NewUser%(last2)s ) c
+set a.retention2_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+        sql="""
+update Active a,
+( select count(*) v from LoginUser%(rundt)s join NewUser%(last1)s using(aid) ) b,
+( select count(*) v from NewUser%(last1)s ) c
+set a.retention1_l=b.v*100/if(c.v=0,1,c.v) where day='%(rundt)s';
+            """ % kv
+        self.dbi.run_sql(sql)
+
+if __name__ == '__main__':
+    from dbapi import DBApi
+    from nuts_conf import conf
+    dbi = DBApi(conf.get('dbi_conf'))
+    dates = []
+    dates.append('20120605')
+    c=CalTimeGame(dbi,dates)
+    c.cal('XYQ')
+    
+        def cal(self, game):
+        log(20, 'datelist = %s' % self.datelist)
+        kv = {'game':game}
+        kv.update(getconf(game))
+        for d in self.datelist:
+            kv['rundt']=str(d)
+#更新account表
+            self.update_account(kv)
+#更新元信息表
+            self.update_metadata(kv)
+#执行一系列__update_函数
+            prefix = re.compile('^__update_\w+')
+            funclist = []
+            for x in dir(self):
+                func = prefix.search(x)
+                if func:
+                    funclist.append(getattr(self, x))
+            funclist.sort()
+            for f in funclist:
+                f(kv)
+
+    def update_metadata(self,kv):
+        sql="""
+    insert ignore into stat_platform(domain)
+    select distinct domain from QuitLog%(rundt)s where domain<>'';
+            """ % kv
+        self.dbi.run_sql(sql)
+        
+        sql="""
+    insert ignore into stat_hostnum(domain,hostnum)
+    select distinct domain,hostnum from QuitLog%(rundt)s where domain<>'';
+            """ % kv
+        self.dbi.run_sql(sql)
+        
+        sql="""
+    insert ignore into stat_itemname
+    select distinct resid,itemname from BuyLog%(rundt)s;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+    def __update_buy_(self,kv):
+        sql="""
+    insert into stat_buy(buyday,domain,hostnum,resid,count)
+    select '%(rundt)s',domain,hostnum,resid,sum(count)
+    from BuyLog%(rundt)s
+    where domain<>''
+    group by domain,hostnum,resid;
+            """ % kv
+        self.dbi.run_sql(sql)
+
+

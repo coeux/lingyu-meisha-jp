@@ -1,0 +1,32 @@
+<TextureAtlas name="机械怪1" width="256" height="256">
+  <SubTexture name="MovieClip/机械怪缩小.psd 资源/n10005.png" width="35" height="35" cocos2d_pX="0" cocos2d_pY="0" x="206" y="37"/>
+  <SubTexture name="MovieClip/机械怪缩小.psd 资源/n10003.png" width="35" height="35" cocos2d_pX="0" cocos2d_pY="0" x="0" y="63"/>
+  <SubTexture name="MovieClip/机械怪缩小.psd 资源/n10001.png" width="35" height="35" cocos2d_pX="0" cocos2d_pY="0" x="37" y="63"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_arm_1" width="12" height="19" cocos2d_pX="6" cocos2d_pY="10" x="191" y="113"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_arm_2" width="14" height="21" cocos2d_pX="7" cocos2d_pY="11" x="56" y="100"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_hand" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="244" y="14"/>
+  <SubTexture name="机械怪缩小.psd 资源/weapon_1" width="93" height="61" cocos2d_pX="42" cocos2d_pY="26" x="0" y="0"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_7" width="29" height="17" cocos2d_pX="15" cocos2d_pY="9" x="0" y="100"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_11" width="28" height="25" cocos2d_pX="14" cocos2d_pY="13" x="136" y="98"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_4" width="23" height="17" cocos2d_pX="12" cocos2d_pY="9" x="31" y="100"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_5" width="21" height="16" cocos2d_pX="11" cocos2d_pY="8" x="229" y="101"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_0" width="14" height="13" cocos2d_pX="7" cocos2d_pY="7" x="15" y="119"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_2" width="55" height="47" cocos2d_pX="28" cocos2d_pY="24" x="147" y="49"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_3" width="57" height="47" cocos2d_pX="29" cocos2d_pY="24" x="147" y="0"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_1" width="36" height="35" cocos2d_pX="46" cocos2d_pY="13" x="206" y="0"/>
+  <SubTexture name="机械怪缩小.psd 资源/qunzi" width="42" height="26" cocos2d_pX="39" cocos2d_pY="9" x="95" y="69"/>
+  <SubTexture name="机械怪缩小.psd 资源/body" width="23" height="37" cocos2d_pX="12" cocos2d_pY="19" x="204" y="74"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_arm_1" width="11" height="19" cocos2d_pX="6" cocos2d_pY="10" x="243" y="61"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_arm_2" width="17" height="18" cocos2d_pX="9" cocos2d_pY="9" x="72" y="102"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_hand" width="6" height="7" cocos2d_pX="3" cocos2d_pY="4" x="244" y="24"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_up_leg" width="13" height="17" cocos2d_pX="7" cocos2d_pY="9" x="205" y="113"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_foot" width="11" height="12" cocos2d_pX="6" cocos2d_pY="6" x="243" y="82"/>
+  <SubTexture name="机械怪缩小.psd 资源/left_down_leg" width="12" height="25" cocos2d_pX="6" cocos2d_pY="13" x="229" y="74"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_up_leg" width="13" height="16" cocos2d_pX="7" cocos2d_pY="8" x="0" y="119"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_foot" width="10" height="12" cocos2d_pX="5" cocos2d_pY="6" x="244" y="0"/>
+  <SubTexture name="机械怪缩小.psd 资源/right_down_leg" width="11" height="22" cocos2d_pX="6" cocos2d_pY="11" x="243" y="37"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_9" width="23" height="25" cocos2d_pX="12" cocos2d_pY="13" x="166" y="98"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_8" width="19" height="37" cocos2d_pX="10" cocos2d_pY="19" x="74" y="63"/>
+  <SubTexture name="机械怪缩小.psd 资源/head_6" width="50" height="67" cocos2d_pX="22" cocos2d_pY="34" x="95" y="0"/>
+  <SubTexture name="机械怪缩小.psd 资源/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="95" y="97"/>
+</TextureAtlas>

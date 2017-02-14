@@ -1,0 +1,236 @@
+#!/bin/sh
+
+. /etc/rc.d/init.d/functions
+
+#方法
+call=$1
+#平台
+domain=$2
+#进程名
+prog=$3
+#服务器编号
+sid=$4
+
+rootpath='/data'
+apppath="$rootpath/app"
+binpath="$apppath/bin"
+schpath="$rootpath/schedule"
+corepath="$rootpath/coredump"
+lockpath="$rootpath/lock"
+runpath="$rootpath/run"
+conffile="$apppath/$domain.lua"
+pidfile="$runpath/$domain.$prog.$sid.pid"
+lockfile="$lockpath/$domain.$prog.$sid.lock"
+chkcorpattern=`less /proc/sys/kernel/core_pattern`
+
+RETVAL=0
+
+save_pid(){
+    pid=`ps x | grep "$binpath/$prog -id $sid -conf $conffile" |grep -v "grep" | awk '{print $1}'` 
+    echo $pid>$pidfile
+}
+
+checkcore() {
+    echo $"Check Env: "
+    isok=0
+    echo -n "Check DAEMON_COREFILE_LIMIT: "
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo -n "Need: DAEMON_COREFILE_LIMIT='ulimit'"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    echo -n "Check Core Dump Path: "
+    if [ ! -d "$corepath" ]; then
+        echo -n "Need: $corepath"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    echo -n "Check core_pattern: "
+    if [ "$chkcorpattern" != "$corepath/core_%e" ]; then
+        echo -n "Need:$corepath/core_%e"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    if [ $isok -eq 0 ]; then
+        echo_success
+        echo
+    else
+        echo_failure
+        echo
+    fi
+    return $isok
+}
+
+checkdir(){
+    if [ ! -d "$schpath" ]; then
+        mkdir "$schpath"
+    fi
+
+    if [ ! -d "$corepath" ]; then
+        mkdir "$corepath"
+    fi
+
+    if [ ! -d "$runpath" ]; then
+        mkdir "$runpath"
+    fi
+
+    if [ ! -d "$lockpath" ]; then
+        mkdir "$lockpath" 
+    fi
+}
+
+schstart(){
+    checkdir
+    schfile="/data/schedule/start.$domain.$prog.$sid"
+    echo "/data/app/godser start $domain $prog $sid " > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+schphpstart(){
+    checkdir
+    schfile="/data/schedule/phpstart.$domain.$prog.$sid"
+    echo "/data/app/godser phpstart $domain $prog $sid " > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+schstop(){
+    schfile="/data/schedule/close.$domain.$prog.$sid"
+    echo "/data/app/godser stop $domain $prog $sid" > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+start() {
+    echo -n $"Starting $domain $prog $sid: "
+
+    checkdir
+
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo "DAEMON_COREFILE_LIMIT='ulimit'" >> /etc/sysconfig/init
+    fi
+
+    if [ "$chkcorpattern" != "$corepath/core_%e" ]; then
+        echo "$corepath/core_%e" > /proc/sys/kernel/core_pattern
+    fi
+
+    chkcorpattern=`less /proc/sys/kernel/core_pattern`
+    if [ "$chkcorpattern" != "$corepath/core_%e" ]; then
+        echo -n "Error: $chkcorpattern"
+        failure 
+        echo
+        return 1
+    fi
+
+    daemon --pidfile=${pidfile} $binpath/$prog -id $sid -conf ${conffile} -d
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && save_pid && touch ${lockfile}
+    return $RETVAL
+}
+
+phpstart() {
+    echo -n $"Starting $domain $prog $sid: "
+
+    checkdir
+
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo "DAEMON_COREFILE_LIMIT='ulimit'" >> /etc/sysconfig/init
+    fi
+
+    if [ "$chkcorpattern" != "$corepath/core_%e" ]; then
+        echo "$corepath/core_%e" > /proc/sys/kernel/core_pattern
+    fi
+
+    chkcorpattern=`less /proc/sys/kernel/core_pattern`
+    if [ "$chkcorpattern" != "$corepath/core_%e" ]; then
+        echo -n "Error: $chkcorpattern"
+        failure 
+        echo
+        return 1
+    fi
+
+    daemon --pidfile=${pidfile} $binpath/$prog -id $sid -conf ${conffile} -domain $domain -phpstart -d
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && save_pid && touch ${lockfile}
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $domain $prog $sid: "
+    killproc -p ${pidfile} ${prog}
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && rm -f ${lockfile} ${pidfile}
+}
+
+rh_status() {
+    status -p ${pidfile} ${prog}
+}
+
+version(){
+    cat version
+}
+
+# See how we were called.
+case "$call" in
+    version)
+        version
+        ;;
+    schphpstart)
+        schphpstart
+        ;;
+    schstart)
+        schstart
+        ;;
+    schstop)
+     	schstop   
+        ;;
+    checkcore)
+        checkcore
+        ;;
+    phpstart)
+        rh_status >/dev/null 2>&1 && exit 0
+        phpstart
+        ;;
+    start)
+        rh_status >/dev/null 2>&1 && exit 0
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    status)
+        rh_status
+        RETVAL=$?
+        ;;
+    *)
+        echo $"Usage: $prog {schphpstart|schstart|schstop|checkcore|phpstart|start|stop|restart|status}"
+        RETVAL=2
+esac
+
+exit $RETVAL

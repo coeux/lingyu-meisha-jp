@@ -1,0 +1,32 @@
+<skeleton name="S170_3" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S170_3">
+   <b name="图层 3" x="-0.75" y="-5.35" kX="0" kY="0" cX="1" cY="1" pX="31.35" pY="11.28" z="0">
+    <d name="元件 10" pX="0" pY="0"/>
+    <d name="元件 11" pX="0" pY="0"/>
+    <d name="元件 12" pX="0" pY="0"/>
+    <d name="元件 13" pX="0" pY="0"/>
+    <d name="元件 14" pX="0" pY="0"/>
+    <d name="元件 15" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S170_3">
+   <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f x="-0.75" y="-5.35" kX="0" kY="0" cX="1" cY="1" pX="31.35" pY="11.28" z="0" dI="0" dr="1"/>
+     <f x="-1.37" y="-6.8" kX="0" kY="0" cX="1" cY="1" pX="37" pY="12.35" z="0" dI="1" dr="1"/>
+     <f x="-0.32" y="-6.8" kX="0" kY="0" cX="1" cY="1" pX="53.95" pY="16.1" z="0" dI="2" dr="1"/>
+     <f x="-1.37" y="-6.17" kX="0" kY="0" cX="1" cY="1" pX="65.45" pY="20.08" z="0" dI="3" dr="1"/>
+     <f x="0.3" y="-6.17" kX="0" kY="0" cX="1" cY="1" pX="72.15" pY="21.33" z="0" dI="4" dr="1"/>
+     <f x="0.5" y="-5.12" kX="0" kY="0" cX="1" cY="1" pX="81.55" pY="23.23" z="0" dI="5" twE="0" dr="2"/>
+     <f x="0.5" y="-5.12" kX="0" kY="0" cX="1.23" cY="1.23" pX="81.55" pY="23.25" z="0" dI="5" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="20" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,27 @@
+<TextureAtlas name="公会boss" width="512" height="256">
+ <SubTexture name="10027.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="460" y="0"/>
+ <SubTexture name="10026.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="40" y="0"/>
+ <SubTexture name="10025.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="280" y="0"/>
+ <SubTexture name="10024.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="80" y="0"/>
+ <SubTexture name="10023.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="400" y="0"/>
+ <SubTexture name="10022.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="120" y="0"/>
+ <SubTexture name="10020.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="320" y="0"/>
+ <SubTexture name="10019.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="160" y="0"/>
+ <SubTexture name="10018.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="480" y="0"/>
+ <SubTexture name="10017.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="200" y="0"/>
+ <SubTexture name="10016.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="360" y="0"/>
+ <SubTexture name="10015.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="240" y="0"/>
+ <SubTexture name="10013.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="10012.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="20" y="0"/>
+ <SubTexture name="10011.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="60" y="0"/>
+ <SubTexture name="10010.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="100" y="0"/>
+ <SubTexture name="10009.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="140" y="0"/>
+ <SubTexture name="10008.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="180" y="0"/>
+ <SubTexture name="10007.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="220" y="0"/>
+ <SubTexture name="10006.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="260" y="0"/>
+ <SubTexture name="10005.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="300" y="0"/>
+ <SubTexture name="10004.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="340" y="0"/>
+ <SubTexture name="10003.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="380" y="0"/>
+ <SubTexture name="10002.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="420" y="0"/>
+ <SubTexture name="10001.png" width="18" height="200" cocos2d_pX="0" cocos2d_pY="0" x="440" y="0"/>
+</TextureAtlas>

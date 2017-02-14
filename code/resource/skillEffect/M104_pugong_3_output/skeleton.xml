@@ -1,0 +1,20 @@
+<skeleton name="M104_pugong_3" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="M104_pugong_3">
+      <b name="10001.png" x="-15.32" y="-229.22" kX="32.51" kY="32.51" cX="2" cY="2" pX="-4.8" pY="-66.03" z="0">
+        <d name="普攻序列/元件 4" pX="38.1" pY="88.25"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="M104_pugong_3">
+      <mov name="play" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="10001.png" sc="1" dl="0">
+          <f x="-15.32" y="-229.22" cocos2d_x="-78" cocos2d_y="-112" kX="32.51" kY="32.51" cX="2" cY="2" pX="-4.8" pY="-66.03" z="0" dI="0" dr="1"/>
+          <f x="22.38" y="-96.25" cocos2d_x="-139" cocos2d_y="-36" kX="73.98" kY="73.98" cX="2.6" cY="2.6" pX="-4.82" pY="-66.07" z="0" dI="0" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

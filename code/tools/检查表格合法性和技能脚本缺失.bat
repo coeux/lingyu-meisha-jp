@@ -1,0 +1,2 @@
+ruby CheckTable.rb
+pause

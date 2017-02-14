@@ -1,0 +1,49 @@
+<TextureAtlas name="M010" width="512" height="256">
+ <SubTexture name="机甲.psd 资源/攻击 手" width="10" height="11" cocos2d_pX="5" cocos2d_pY="6" x="477" y="112"/>
+ <SubTexture name="元件 3" width="63" height="33" cocos2d_pX="32" cocos2d_pY="17" x="296" y="130"/>
+ <SubTexture name="元件 2" width="65" height="33" cocos2d_pX="33" cocos2d_pY="17" x="296" y="95"/>
+ <SubTexture name="元件 1" width="64" height="33" cocos2d_pX="32" cocos2d_pY="17" x="44" y="109"/>
+ <SubTexture name="机甲.psd 资源/大炮前" width="51" height="33" cocos2d_pX="26" cocos2d_pY="17" x="215" y="149"/>
+ <SubTexture name="机甲.psd 资源/支架" width="33" height="12" cocos2d_pX="17" cocos2d_pY="6" x="34" y="185"/>
+ <SubTexture name="机甲.psd 资源/护甲" width="51" height="39" cocos2d_pX="26" cocos2d_pY="20" x="44" y="144"/>
+ <SubTexture name="机甲.psd 资源/元件 3" width="35" height="35" cocos2d_pX="18" cocos2d_pY="18" x="470" y="163"/>
+ <SubTexture name="机甲.psd 资源/元件 4" width="34" height="35" cocos2d_pX="17" cocos2d_pY="18" x="361" y="164"/>
+ <SubTexture name="机甲.psd 资源/履带 前  3" width="121" height="45" cocos2d_pX="61" cocos2d_pY="23" x="119" y="48"/>
+ <SubTexture name="机甲.psd 资源/履带 前  2" width="121" height="45" cocos2d_pX="61" cocos2d_pY="23" x="242" y="48"/>
+ <SubTexture name="机甲.psd 资源/履带 前1" width="121" height="45" cocos2d_pX="61" cocos2d_pY="23" x="365" y="48"/>
+ <SubTexture name="机甲.psd 资源/天线 前" width="42" height="56" cocos2d_pX="21" cocos2d_pY="28" x="433" y="95"/>
+ <SubTexture name="机甲.psd 资源/机身 前" width="61" height="46" cocos2d_pX="31" cocos2d_pY="23" x="168" y="95"/>
+ <SubTexture name="机甲.psd 资源/左小臂 " width="7" height="20" cocos2d_pX="4" cocos2d_pY="10" x="502" y="57"/>
+ <SubTexture name="机甲.psd 资源/左手" width="8" height="9" cocos2d_pX="4" cocos2d_pY="5" x="231" y="95"/>
+ <SubTexture name="机甲.psd 资源/左大臂" width="17" height="18" cocos2d_pX="15" cocos2d_pY="9" x="488" y="23"/>
+ <SubTexture name="机甲.psd 资源/帽子" width="68" height="32" cocos2d_pX="34" cocos2d_pY="16" x="363" y="95"/>
+ <SubTexture name="机甲.psd 资源/头发" width="53" height="52" cocos2d_pX="27" cocos2d_pY="26" x="241" y="95"/>
+ <SubTexture name="机甲.psd 资源/脸 攻击" width="32" height="25" cocos2d_pX="16" cocos2d_pY="13" x="215" y="184"/>
+ <SubTexture name="机甲.psd 资源/脸  死亡" width="29" height="26" cocos2d_pX="15" cocos2d_pY="13" x="397" y="164"/>
+ <SubTexture name="机甲.psd 资源/脸 眨眼" width="29" height="25" cocos2d_pX="15" cocos2d_pY="13" x="249" y="184"/>
+ <SubTexture name="机甲.psd 资源/脸  受击" width="33" height="27" cocos2d_pX="17" cocos2d_pY="14" x="296" y="165"/>
+ <SubTexture name="机甲.psd 资源/脸  通常" width="32" height="25" cocos2d_pX="16" cocos2d_pY="13" x="0" y="167"/>
+ <SubTexture name="机甲.psd 资源/头" width="45" height="48" cocos2d_pX="23" cocos2d_pY="24" x="168" y="143"/>
+ <SubTexture name="机甲.psd 资源/上身" width="27" height="34" cocos2d_pX="14" cocos2d_pY="17" x="477" y="127"/>
+ <SubTexture name="机甲.psd 资源/衣摆" width="21" height="21" cocos2d_pX="11" cocos2d_pY="11" x="488" y="0"/>
+ <SubTexture name="机甲.psd 资源/左小腿 " width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="499" y="79"/>
+ <SubTexture name="机甲.psd 资源/左脚" width="14" height="10" cocos2d_pX="7" cocos2d_pY="5" x="477" y="100"/>
+ <SubTexture name="机甲.psd 资源/左大腿" width="26" height="20" cocos2d_pX="13" cocos2d_pY="10" x="268" y="149"/>
+ <SubTexture name="机甲.psd 资源/右小腿 " width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="488" y="78"/>
+ <SubTexture name="机甲.psd 资源/右脚" width="13" height="9" cocos2d_pX="7" cocos2d_pY="5" x="493" y="101"/>
+ <SubTexture name="机甲.psd 资源/右大腿" width="28" height="20" cocos2d_pX="14" cocos2d_pY="10" x="331" y="165"/>
+ <SubTexture name="机甲.psd 资源/右大臂" width="12" height="19" cocos2d_pX="6" cocos2d_pY="10" x="488" y="57"/>
+ <SubTexture name="机甲.psd 资源/右小臂" width="15" height="6" cocos2d_pX="8" cocos2d_pY="3" x="489" y="112"/>
+ <SubTexture name="机甲.psd 资源/右手" width="11" height="5" cocos2d_pX="6" cocos2d_pY="3" x="489" y="120"/>
+ <SubTexture name="机甲.psd 资源/头发后" width="54" height="58" cocos2d_pX="27" cocos2d_pY="29" x="112" y="95"/>
+ <SubTexture name="机甲.psd 资源/衣摆 后" width="21" height="12" cocos2d_pX="11" cocos2d_pY="6" x="488" y="43"/>
+ <SubTexture name="机甲.psd 资源/机身" width="117" height="82" cocos2d_pX="59" cocos2d_pY="41" x="0" y="0"/>
+ <SubTexture name="机甲.psd 资源/座" width="40" height="41" cocos2d_pX="20" cocos2d_pY="21" x="428" y="153"/>
+ <SubTexture name="机甲.psd 资源/天线 后" width="42" height="56" cocos2d_pX="21" cocos2d_pY="28" x="0" y="109"/>
+ <SubTexture name="机甲.psd 资源/大炮 后2" width="63" height="33" cocos2d_pX="32" cocos2d_pY="17" x="363" y="129"/>
+ <SubTexture name="机甲.psd 资源/大炮 后 1" width="50" height="33" cocos2d_pX="25" cocos2d_pY="17" x="97" y="155"/>
+ <SubTexture name="机甲.psd 资源/履带 后 3" width="121" height="46" cocos2d_pX="61" cocos2d_pY="23" x="365" y="0"/>
+ <SubTexture name="机甲.psd 资源/履带 后 2" width="121" height="46" cocos2d_pX="61" cocos2d_pY="23" x="242" y="0"/>
+ <SubTexture name="机甲.psd 资源/履带 后 1" width="121" height="46" cocos2d_pX="61" cocos2d_pY="23" x="119" y="0"/>
+ <SubTexture name="yuanjian/ZhuZN_shaodw" width="110" height="23" cocos2d_pX="34" cocos2d_pY="6" x="0" y="84"/>
+</TextureAtlas>

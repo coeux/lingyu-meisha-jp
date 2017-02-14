@@ -1,0 +1,33 @@
+<TextureAtlas name="N012" width="256" height="128">
+ <SubTexture name="caozuopang" width="25" height="14" cocos2d_pX="13" cocos2d_pY="7" x="130" y="51"/>
+ <SubTexture name="pifeng_1" width="24" height="26" cocos2d_pX="12" cocos2d_pY="13" x="214" y="36"/>
+ <SubTexture name="pifeng_2" width="20" height="18" cocos2d_pX="10" cocos2d_pY="9" x="108" y="43"/>
+ <SubTexture name="hair_2" width="7" height="14" cocos2d_pX="4" cocos2d_pY="7" x="146" y="67"/>
+ <SubTexture name="hair_1" width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="199" y="56"/>
+ <SubTexture name="head_2" width="35" height="34" cocos2d_pX="18" cocos2d_pY="17" x="217" y="0"/>
+ <SubTexture name="head" width="35" height="34" cocos2d_pX="18" cocos2d_pY="17" x="180" y="0"/>
+ <SubTexture name="left_arm" width="7" height="11" cocos2d_pX="4" cocos2d_pY="6" x="10" y="71"/>
+ <SubTexture name="left_arm_up" width="7" height="10" cocos2d_pX="4" cocos2d_pY="5" x="28" y="71"/>
+ <SubTexture name="left_hand" width="4" height="6" cocos2d_pX="2" cocos2d_pY="3" x="173" y="29"/>
+ <SubTexture name="body" width="19" height="26" cocos2d_pX="10" cocos2d_pY="13" x="87" y="43"/>
+ <SubTexture name="qunzi_1" width="12" height="12" cocos2d_pX="3" cocos2d_pY="6" x="225" y="64"/>
+ <SubTexture name="qunzi_2" width="13" height="12" cocos2d_pX="7" cocos2d_pY="6" x="210" y="64"/>
+ <SubTexture name="left_up_leg" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="135" y="67"/>
+ <SubTexture name="right_arm_up" width="6" height="9" cocos2d_pX="3" cocos2d_pY="5" x="56" y="71"/>
+ <SubTexture name="right_arm" width="7" height="10" cocos2d_pX="4" cocos2d_pY="5" x="19" y="71"/>
+ <SubTexture name="right_hand" width="4" height="5" cocos2d_pX="2" cocos2d_pY="3" x="173" y="37"/>
+ <SubTexture name="right_up_leg" width="8" height="12" cocos2d_pX="4" cocos2d_pY="6" x="0" y="71"/>
+ <SubTexture name="pifeng_3" width="46" height="27" cocos2d_pX="23" cocos2d_pY="14" x="132" y="0"/>
+ <SubTexture name="hair_3" width="18" height="34" cocos2d_pX="9" cocos2d_pY="17" x="179" y="36"/>
+ <SubTexture name="right_down_leg" width="8" height="16" cocos2d_pX="4" cocos2d_pY="8" x="125" y="67"/>
+ <SubTexture name="right_foot" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="37" y="71"/>
+ <SubTexture name="left_down_leg" width="9" height="18" cocos2d_pX="5" cocos2d_pY="9" x="240" y="56"/>
+ <SubTexture name="left_foot" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="47" y="71"/>
+ <SubTexture name="houbai_2" width="11" height="18" cocos2d_pX="6" cocos2d_pY="9" x="240" y="36"/>
+ <SubTexture name="houbai_1" width="17" height="21" cocos2d_pX="9" cocos2d_pY="11" x="157" y="51"/>
+ <SubTexture name="hair_4" width="43" height="41" cocos2d_pX="22" cocos2d_pY="21" x="87" y="0"/>
+ <SubTexture name="tielian" width="13" height="18" cocos2d_pX="7" cocos2d_pY="9" x="199" y="36"/>
+ <SubTexture name="mao" width="15" height="14" cocos2d_pX="8" cocos2d_pY="7" x="108" y="63"/>
+ <SubTexture name="chuan" width="85" height="69" cocos2d_pX="43" cocos2d_pY="35" x="0" y="0"/>
+ <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="132" y="29"/>
+</TextureAtlas>

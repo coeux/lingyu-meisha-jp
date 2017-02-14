@@ -1,0 +1,14 @@
+<TextureAtlas name="S697_1" width="512" height="512">
+  <SubTexture name="元件 24" width="179" height="90" cocos2d_pX="90" cocos2d_pY="45" x="0" y="0"/>
+  <SubTexture name="元件 22" width="182" height="61" cocos2d_pX="91" cocos2d_pY="31" x="182" y="181"/>
+  <SubTexture name="元件 20" width="180" height="86" cocos2d_pX="90" cocos2d_pY="43" x="0" y="181"/>
+  <SubTexture name="元件 18" width="178" height="90" cocos2d_pX="89" cocos2d_pY="45" x="181" y="89"/>
+  <SubTexture name="元件 16" width="180" height="62" cocos2d_pX="90" cocos2d_pY="31" x="182" y="244"/>
+  <SubTexture name="元件 14" width="181" height="87" cocos2d_pX="91" cocos2d_pY="44" x="181" y="0"/>
+  <SubTexture name="元件 34" width="91" height="45" cocos2d_pX="46" cocos2d_pY="23" x="364" y="0"/>
+  <SubTexture name="元件 33" width="92" height="31" cocos2d_pX="46" cocos2d_pY="16" x="361" y="94"/>
+  <SubTexture name="元件 32" width="90" height="43" cocos2d_pX="45" cocos2d_pY="22" x="0" y="92"/>
+  <SubTexture name="元件 31" width="90" height="45" cocos2d_pX="45" cocos2d_pY="23" x="364" y="47"/>
+  <SubTexture name="元件 30" width="91" height="31" cocos2d_pX="46" cocos2d_pY="16" x="361" y="127"/>
+  <SubTexture name="元件 29" width="90" height="27" cocos2d_pX="45" cocos2d_pY="14" x="0" y="137"/>
+</TextureAtlas>

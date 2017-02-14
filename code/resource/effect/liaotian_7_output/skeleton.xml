@@ -1,0 +1,29 @@
+<skeleton name="liaotian_7" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="liaotian_7">
+      <b name="图层 4" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 24" pX="22.45" pY="23.95"/>
+      </b>
+      <b name="图层 3" x="-8.45" y="-11.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="元件 4" pX="9.25" pY="3.15"/>
+        <d name="元件 2" pX="9.15" pY="4.65"/>
+        <d name="元件 1" pX="8.9" pY="3.65"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="liaotian_7">
+      <mov name="play" dr="51" to="0" drTW="51" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="51"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-8.45" y="-11.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="12"/>
+          <f dr="13" dI="-1"/>
+          <f x="-8.45" y="-11.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="13"/>
+          <f x="-8.45" y="-11.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="13"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

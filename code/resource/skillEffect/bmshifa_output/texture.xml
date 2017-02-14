@@ -1,0 +1,8 @@
+<TextureAtlas name="bmshifa" width="256" height="512">
+  <SubTexture name="tupian/元件 7" width="44" height="45" cocos2d_pX="22" cocos2d_pY="23" x="174" y="100"/>
+  <SubTexture name="tupian/元件 6" width="44" height="48" cocos2d_pX="22" cocos2d_pY="24" x="174" y="50"/>
+  <SubTexture name="tupian/元件 5" width="47" height="48" cocos2d_pX="24" cocos2d_pY="24" x="174" y="0"/>
+  <SubTexture name="tupian/元件 4" width="116" height="127" cocos2d_pX="58" cocos2d_pY="64" x="0" y="179"/>
+  <SubTexture name="tupian/元件 3" width="172" height="177" cocos2d_pX="86" cocos2d_pY="89" x="0" y="0"/>
+  <SubTexture name="tupian/元件 2" width="93" height="93" cocos2d_pX="47" cocos2d_pY="47" x="118" y="179"/>
+</TextureAtlas>

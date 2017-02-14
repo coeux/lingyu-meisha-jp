@@ -1,0 +1,22 @@
+﻿<skeleton name="S320dandao" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="S320dandao">
+      <b name="图层 1" x="-60" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="87.5" pY="25" z="0">
+        <d name="30001.png" pX="0" pY="0"/>
+        <d name="30003.png" pX="0" pY="0"/>
+        <d name="30005.png" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S320dandao">
+      <mov name="play" dr="6" to="6" drTW="6" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-60" y="0.23" cocos2d_x="-147" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="87.5" pY="25" z="0" dI="0" dr="2"/>
+          <f x="-60" y="0.23" cocos2d_x="-147" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="87.5" pY="25" z="0" dI="1" dr="2"/>
+          <f x="-60" y="0.23" cocos2d_x="-147" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="87.5" pY="25" z="0" dI="2" dr="2"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

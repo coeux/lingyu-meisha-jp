@@ -1,0 +1,23 @@
+<TextureAtlas name="yanchu" width="1024" height="1024">
+  <SubTexture name="元件 16" width="70" height="68" x="810" y="567"/>
+  <SubTexture name="元件 7" width="114" height="119" x="342" y="523"/>
+  <SubTexture name="元件 8" width="117" height="107" x="901" y="545"/>
+  <SubTexture name="元件 9" width="99" height="99" x="810" y="654"/>
+  <SubTexture name="元件 10" width="114" height="123" x="907" y="420"/>
+  <SubTexture name="元件 11" width="102" height="98" x="342" y="644"/>
+  <SubTexture name="元件 12" width="127" height="137" x="213" y="523"/>
+  <SubTexture name="元件 13" width="89" height="120" x="810" y="445"/>
+  <SubTexture name="元件 14" width="100" height="100" x="446" y="653"/>
+  <SubTexture name="元件 15" width="257" height="257" x="551" y="445"/>
+  <SubTexture name="元件 20" width="48" height="48" x="458" y="603"/>
+  <SubTexture name="xingxing " width="78" height="78" x="458" y="523"/>
+  <SubTexture name="元件 6" width="579" height="244" x="0" y="0"/>
+  <SubTexture name="补间 5" width="549" height="239" x="0" y="246"/>
+  <SubTexture name="补间 4" width="436" height="227" x="581" y="0"/>
+  <SubTexture name="补间 3" width="324" height="214" x="581" y="229"/>
+  <SubTexture name="补间 2" width="211" height="202" x="0" y="487"/>
+  <SubTexture name="补间 1" width="97" height="189" x="907" y="229"/>
+  <SubTexture name="元件 4" width="629" height="189" x="0" y="755"/>
+  <SubTexture name="元件 3" width="336" height="34" x="213" y="487"/>
+  <SubTexture name="元件 1" width="572" height="7" x="0" y="946"/>
+</TextureAtlas>

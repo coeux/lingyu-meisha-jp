@@ -1,0 +1,25 @@
+<skeleton name="jiu_pugong" frameRate="25" version="2.1">
+  <armatures>
+    <armature name="jiu_pugong">
+      <b name="图层 1" x="8" y="-32.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 2" pX="71" pY="41.25"/>
+        <d name="元件 3" pX="39.25" pY="62.23"/>
+        <d name="元件 4" pX="29.25" pY="60"/>
+        <d name="元件 5" pX="20.75" pY="24.73"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="jiu_pugong">
+      <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="8" y="-32.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="76.75" y="11.23" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="86.75" y="14.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="84.25" y="47.73" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

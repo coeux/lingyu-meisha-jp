@@ -1,0 +1,15 @@
+<TextureAtlas name="Bosskuangbao" width="256" height="256">
+  <SubTexture name="元件 6" width="28" height="79" x="199" y="96"/>
+  <SubTexture name="元件 5" width="64" height="26" x="0" y="171"/>
+  <SubTexture name="元件 4" width="35" height="66" x="71" y="117"/>
+  <SubTexture name="元件 3" width="27" height="58" x="108" y="120"/>
+  <SubTexture name="元件 2" width="22" height="54" x="229" y="96"/>
+  <SubTexture name="元件 26" width="69" height="24" x="0" y="145"/>
+  <SubTexture name="元件 25" width="69" height="41" x="0" y="102"/>
+  <SubTexture name="元件 24" width="62" height="94" x="169" y="0"/>
+  <SubTexture name="元件 23" width="69" height="100" x="0" y="0"/>
+  <SubTexture name="元件 1" width="54" height="115" x="71" y="0"/>
+  <SubTexture name="元件 22" width="40" height="118" x="127" y="0"/>
+  <SubTexture name="元件 21" width="106" height="21" x="66" y="188"/>
+  <SubTexture name="元件 20" width="28" height="90" x="169" y="96"/>
+</TextureAtlas>

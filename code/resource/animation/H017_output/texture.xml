@@ -1,0 +1,32 @@
+<TextureAtlas name="H017" width="256" height="256">
+ <SubTexture name="yuanjian/BianMN_hair_2" width="16" height="64" cocos2d_pX="8" cocos2d_pY="32" x="41" y="83"/>
+ <SubTexture name="yuanjian/BianMN_daima_2" width="43" height="87" cocos2d_pX="6" cocos2d_pY="9" x="66" y="0"/>
+ <SubTexture name="yuanjian/BianMN_daima_1" width="45" height="82" cocos2d_pX="10" cocos2d_pY="7" x="111" y="0"/>
+ <SubTexture name="yuanjian/BianMN_L_arm_up" width="9" height="19" cocos2d_pX="5" cocos2d_pY="9" x="179" y="144"/>
+ <SubTexture name="yuanjian/BianMN_L_arm" width="11" height="17" cocos2d_pX="6" cocos2d_pY="9" x="193" y="133"/>
+ <SubTexture name="yuanjian/BianMN_qiu_2" width="25" height="25" cocos2d_pX="13" cocos2d_pY="13" x="152" y="124"/>
+ <SubTexture name="yuanjian/BianMN_L_hand" width="10" height="14" cocos2d_pX="5" cocos2d_pY="7" x="99" y="145"/>
+ <SubTexture name="yuanjian/BianMN_R_hand" width="10" height="11" cocos2d_pX="5" cocos2d_pY="6" x="228" y="146"/>
+ <SubTexture name="yuanjian/BianMN_hair_4" width="25" height="15" cocos2d_pX="13" cocos2d_pY="8" x="101" y="128"/>
+ <SubTexture name="yuanjian/BianMN_hair_1" width="51" height="38" cocos2d_pX="26" cocos2d_pY="19" x="158" y="62"/>
+ <SubTexture name="yuanjian/BianMN_head_3" width="39" height="42" cocos2d_pX="20" cocos2d_pY="21" x="0" y="83"/>
+ <SubTexture name="yuanjian/BianMN_head_4" width="39" height="42" cocos2d_pX="20" cocos2d_pY="21" x="215" y="0"/>
+ <SubTexture name="yuanjian/BianMN_head_2" width="39" height="42" cocos2d_pX="20" cocos2d_pY="21" x="211" y="88"/>
+ <SubTexture name="yuanjian/BianMN_head_5" width="39" height="42" cocos2d_pX="20" cocos2d_pY="21" x="111" y="84"/>
+ <SubTexture name="yuanjian/BianMN_head_1" width="39" height="42" cocos2d_pX="20" cocos2d_pY="21" x="215" y="44"/>
+ <SubTexture name="yuanjian/BianMN_xiongbu" width="19" height="12" cocos2d_pX="0" cocos2d_pY="0" x="228" y="132"/>
+ <SubTexture name="yuanjian/BianMN_piaodai" width="16" height="16" cocos2d_pX="8" cocos2d_pY="8" x="210" y="132"/>
+ <SubTexture name="yuanjian/BianMN_L_leg_up" width="15" height="29" cocos2d_pX="8" cocos2d_pY="15" x="193" y="102"/>
+ <SubTexture name="yuanjian/BianMN_L_leg" width="19" height="13" cocos2d_pX="10" cocos2d_pY="7" x="59" y="132"/>
+ <SubTexture name="yuanjian/BianMN_L_foot" width="17" height="14" cocos2d_pX="9" cocos2d_pY="7" x="80" y="137"/>
+ <SubTexture name="yuanjian/BianMN_body" width="24" height="41" cocos2d_pX="12" cocos2d_pY="14" x="59" y="89"/>
+ <SubTexture name="yuanjian/BianMN_R_leg_up" width="14" height="30" cocos2d_pX="7" cocos2d_pY="15" x="0" y="127"/>
+ <SubTexture name="yuanjian/BianMN_R_leg" width="16" height="21" cocos2d_pX="8" cocos2d_pY="11" x="16" y="127"/>
+ <SubTexture name="yuanjian/BianMN_R_foot" width="13" height="20" cocos2d_pX="7" cocos2d_pY="10" x="128" y="128"/>
+ <SubTexture name="yuanjian/BianMN_R_arm_up" width="12" height="18" cocos2d_pX="6" cocos2d_pY="9" x="179" y="124"/>
+ <SubTexture name="yuanjian/BianMN_R_arm" width="11" height="11" cocos2d_pX="6" cocos2d_pY="6" x="111" y="145"/>
+ <SubTexture name="yuanjian/BianMN_hair_3" width="14" height="46" cocos2d_pX="7" cocos2d_pY="23" x="85" y="89"/>
+ <SubTexture name="yuanjian/BianMN_hair_6" width="55" height="60" cocos2d_pX="28" cocos2d_pY="30" x="158" y="0"/>
+ <SubTexture name="yuanjian/BianMN_hair_5" width="64" height="81" cocos2d_pX="32" cocos2d_pY="47" x="0" y="0"/>
+ <SubTexture name="yuanjian/BianMN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="152" y="102"/>
+</TextureAtlas>

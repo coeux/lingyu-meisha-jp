@@ -1,0 +1,22 @@
+<TextureAtlas name="liaotian_6" width="128" height="128">
+  <SubTexture name="元件 19" width="22" height="16" x="0" y="67"/>
+  <SubTexture name="元件 18" width="23" height="16" x="49" y="47"/>
+  <SubTexture name="元件 17" width="23" height="15" x="24" y="81"/>
+  <SubTexture name="元件 16" width="22" height="15" x="74" y="75"/>
+  <SubTexture name="元件 15" width="22" height="17" x="0" y="48"/>
+  <SubTexture name="元件 14" width="23" height="15" x="24" y="64"/>
+  <SubTexture name="元件 13" width="23" height="16" x="24" y="28"/>
+  <SubTexture name="元件 12" width="23" height="15" x="98" y="73"/>
+  <SubTexture name="元件 11" width="23" height="16" x="86" y="38"/>
+  <SubTexture name="元件 10" width="23" height="16" x="24" y="46"/>
+  <SubTexture name="元件 9" width="23" height="15" x="98" y="56"/>
+  <SubTexture name="元件 8" width="22" height="18" x="0" y="28"/>
+  <SubTexture name="元件 7" width="25" height="17" x="91" y="19"/>
+  <SubTexture name="元件 6" width="23" height="15" x="49" y="65"/>
+  <SubTexture name="元件 4" width="23" height="18" x="61" y="27"/>
+  <SubTexture name="元件 5" width="29" height="26" x="0" y="0"/>
+  <SubTexture name="元件 3" width="28" height="26" x="31" y="0"/>
+  <SubTexture name="元件 2" width="26" height="17" x="91" y="0"/>
+  <SubTexture name="元件 1" width="22" height="17" x="74" y="56"/>
+  <SubTexture name="元件 24" width="28" height="25" x="61" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+number	string	string	number	number	number	number	number	number	number	number	number	number	string
+id	name	icon	max_level	type1	value1	base1	type2	value2	base2	quality	next_skill	next_skill_drawing	info
+1116	火焰亲和	S999	100	8	8	20	0	0	0	3	117	14202	增加少量闪避值
+1117	火焰亲和	S999	100	8	30	60	0	0	0	4	0	0	增加大量闪避值
+1118	炙热之心	S999	100	6	8	20	0	0	0	3	119	14202	增加少量暴击
+1119	炙热之心	S999	100	6	30	60	0	0	0	4	0	0	增加大量暴击
+1136	高等血脉	S1136	100	8	8	20	0	0	0	3	137	14204	增加中量攻击和命中值。
+1137	高等血脉	S1137	100	8	30	60	0	0	0	4	0	0	增加大量攻击和命中值。
+1204	圣枪精通	S999	100	7	8	16	6	0	0	3	205	14200	增加命中
+1205	圣枪精通	S999	100	7	30	60	6	0	0	4	0	0	增加命中

@@ -1,0 +1,48 @@
+<TextureAtlas name="H035" width="512" height="256">
+ <SubTexture name="轩辕3.psd 资源 9/paodan_1_1" width="70" height="29" cocos2d_pX="35" cocos2d_pY="20" x="409" y="90"/>
+ <SubTexture name="轩辕3.psd 资源 9/paodan_1_2" width="70" height="18" cocos2d_pX="35" cocos2d_pY="-1" x="234" y="102"/>
+ <SubTexture name="轩辕3.psd 资源 9/paodan_1" width="44" height="10" cocos2d_pX="11" cocos2d_pY="3" x="207" y="157"/>
+ <SubTexture name="轩辕3.psd 资源 9/jiyi" width="100" height="31" cocos2d_pX="50" cocos2d_pY="16" x="307" y="72"/>
+ <SubTexture name="轩辕3.psd 资源 9/daodan" width="107" height="21" cocos2d_pX="54" cocos2d_pY="11" x="125" y="81"/>
+ <SubTexture name="轩辕3.psd 资源 9/paokou" width="27" height="44" cocos2d_pX="14" cocos2d_pY="22" x="197" y="104"/>
+ <SubTexture name="轩辕3.psd 资源 9/jijian_1" width="123" height="107" cocos2d_pX="62" cocos2d_pY="48" x="0" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/maozi" width="59" height="28" cocos2d_pX="30" cocos2d_pY="14" x="306" y="105"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_1" width="8" height="29" cocos2d_pX="4" cocos2d_pY="15" x="499" y="29"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_2" width="28" height="33" cocos2d_pX="14" cocos2d_pY="17" x="226" y="122"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_3" width="43" height="37" cocos2d_pX="22" cocos2d_pY="19" x="44" y="109"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_4" width="19" height="50" cocos2d_pX="10" cocos2d_pY="25" x="89" y="109"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_5" width="14" height="44" cocos2d_pX="7" cocos2d_pY="22" x="481" y="108"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_6" width="10" height="61" cocos2d_pX="4" cocos2d_pY="32" x="487" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/left_arm" width="20" height="14" cocos2d_pX="12" cocos2d_pY="8" x="144" y="146"/>
+ <SubTexture name="轩辕3.psd 资源 9/left_hand" width="10" height="9" cocos2d_pX="5" cocos2d_pY="5" x="397" y="105"/>
+ <SubTexture name="轩辕3.psd 资源 9/left_arm_up" width="15" height="27" cocos2d_pX="8" cocos2d_pY="14" x="166" y="124"/>
+ <SubTexture name="轩辕3.psd 资源 9/jijian_4" width="118" height="79" cocos2d_pX="59" cocos2d_pY="37" x="125" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/jijian_3" width="33" height="30" cocos2d_pX="25" cocos2d_pY="42" x="397" y="121"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing_2" width="35" height="24" cocos2d_pX="18" cocos2d_pY="12" x="330" y="135"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing_3" width="35" height="25" cocos2d_pX="18" cocos2d_pY="12" x="256" y="122"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing_1" width="35" height="26" cocos2d_pX="18" cocos2d_pY="13" x="432" y="121"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing_4" width="30" height="24" cocos2d_pX="14" cocos2d_pY="12" x="44" y="148"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing" width="32" height="24" cocos2d_pX="16" cocos2d_pY="12" x="110" y="146"/>
+ <SubTexture name="轩辕3.psd 资源 9/biaoqing_5" width="35" height="24" cocos2d_pX="18" cocos2d_pY="12" x="293" y="135"/>
+ <SubTexture name="轩辕3.psd 资源 9/head" width="42" height="42" cocos2d_pX="21" cocos2d_pY="21" x="0" y="109"/>
+ <SubTexture name="轩辕3.psd 资源 9/body" width="28" height="41" cocos2d_pX="14" cocos2d_pY="21" x="367" y="105"/>
+ <SubTexture name="轩辕3.psd 资源 9/yibai" width="19" height="15" cocos2d_pX="9" cocos2d_pY="8" x="0" y="153"/>
+ <SubTexture name="轩辕3.psd 资源 9/qunzi" width="34" height="19" cocos2d_pX="17" cocos2d_pY="10" x="256" y="149"/>
+ <SubTexture name="轩辕3.psd 资源 9/left_down_leg" width="12" height="31" cocos2d_pX="6" cocos2d_pY="16" x="498" y="87"/>
+ <SubTexture name="轩辕3.psd 资源 9/left_up_leg" width="22" height="14" cocos2d_pX="11" cocos2d_pY="7" x="183" y="150"/>
+ <SubTexture name="轩辕3.psd 资源 9/right_down_leg" width="10" height="27" cocos2d_pX="5" cocos2d_pY="14" x="499" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/right_up_leg" width="23" height="14" cocos2d_pX="12" cocos2d_pY="7" x="367" y="148"/>
+ <SubTexture name="轩辕3.psd 资源 9/right_arm" width="20" height="13" cocos2d_pX="10" cocos2d_pY="7" x="21" y="153"/>
+ <SubTexture name="轩辕3.psd 资源 9/right_hand" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="234" y="81"/>
+ <SubTexture name="轩辕3.psd 资源 9/right_arm_up" width="13" height="24" cocos2d_pX="7" cocos2d_pY="12" x="110" y="109"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_9" width="15" height="43" cocos2d_pX="7" cocos2d_pY="18" x="481" y="63"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_8" width="7" height="25" cocos2d_pX="4" cocos2d_pY="13" x="499" y="60"/>
+ <SubTexture name="轩辕3.psd 资源 9/hair_7" width="60" height="100" cocos2d_pX="30" cocos2d_pY="50" x="245" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/jijian_2" width="73" height="57" cocos2d_pX="37" cocos2d_pY="29" x="412" y="0"/>
+ <SubTexture name="轩辕3.psd 资源 9/paodan_2_1" width="70" height="29" cocos2d_pX="36" cocos2d_pY="20" x="409" y="59"/>
+ <SubTexture name="轩辕3.psd 资源 9/paodan_2_2" width="70" height="18" cocos2d_pX="36" cocos2d_pY="-2" x="125" y="104"/>
+ <SubTexture name="轩辕3.psd 资源 9/paodan_2" width="44" height="10" cocos2d_pX="12" cocos2d_pY="3" x="432" y="149"/>
+ <SubTexture name="元件 5" width="103" height="34" cocos2d_pX="52" cocos2d_pY="17" x="307" y="0"/>
+ <SubTexture name="元件 6" width="100" height="34" cocos2d_pX="50" cocos2d_pY="17" x="307" y="36"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="125" y="124"/>
+</TextureAtlas>

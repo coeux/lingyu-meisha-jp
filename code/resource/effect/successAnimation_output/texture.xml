@@ -1,0 +1,6 @@
+<TextureAtlas name="战斗结算" width="256" height="256">
+  <SubTexture name="元件 5" width="70" height="70" cocos2d_pX="35" cocos2d_pY="35" x="68" y="0"/>
+  <SubTexture name="元件 15" width="66" height="254" cocos2d_pX="33" cocos2d_pY="117" x="0" y="0"/>
+  <SubTexture name="补间 2" width="52" height="50" cocos2d_pX="26" cocos2d_pY="25" x="140" y="0"/>
+  <SubTexture name="补间 1" width="3" height="3" cocos2d_pX="2" cocos2d_pY="2" x="194" y="0"/>
+</TextureAtlas>

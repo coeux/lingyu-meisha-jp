@@ -1,0 +1,13 @@
+number	string	number	number	number	number	number	number	number	number	number	number	number	number
+buff_type	buff_type_desc	reject_buff1	reject_buff2	reject_buff3	reject_buff4	reject_buff5	reject_buff6	reject_buff7	reject_buff8	reject_buff9	reject_buff10	reject_buff11	reject
+1	加减防类BUFF	1	0	0	0	0	0	0	0	0	0	0	2048
+2	加减攻击类BUFF	0	1	0	0	0	0	0	0	0	0	0	1024
+3	加减暴击BUFF	0	0	1	0	0	0	0	0	0	0	0	512
+4	加减命中类BUFF	0	0	0	1	0	0	0	0	0	0	0	256
+5	加减闪避类BUFF	0	0	0	0	1	0	0	0	0	0	0	128
+6	加减速度类BUFF	0	0	0	0	0	1	0	0	0	0	0	64
+7	中毒类BUFF	0	0	0	0	0	0	1	1	0	0	0	24
+8	回血类BUFF	0	0	0	0	0	0	1	1	0	0	0	24
+9	定身类BUFF	0	0	0	0	0	0	0	0	1	0	0	4
+10	无敌	0	0	0	0	0	0	0	0	0	1	0	2
+11	重击类	0	0	0	0	0	0	0	0	0	0	1	1

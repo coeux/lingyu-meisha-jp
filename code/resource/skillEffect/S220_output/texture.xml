@@ -1,0 +1,25 @@
+<TextureAtlas name="技能2" width="512" height="512">
+ <SubTexture name="元件 56" width="10" height="11" x="485" y="0"/>
+ <SubTexture name="元件 55" width="87" height="68" x="205" y="379"/>
+ <SubTexture name="元件 54" width="83" height="67" x="294" y="381"/>
+ <SubTexture name="元件 53" width="81" height="83" x="393" y="344"/>
+ <SubTexture name="元件 52" width="142" height="80" x="0" y="84"/>
+ <SubTexture name="元件 51" width="141" height="77" x="144" y="96"/>
+ <SubTexture name="元件 50" width="129" height="78" x="135" y="175"/>
+ <SubTexture name="元件 49" width="139" height="87" x="344" y="0"/>
+ <SubTexture name="元件 48" width="181" height="82" x="0" y="0"/>
+ <SubTexture name="元件 47" width="148" height="72" x="344" y="89"/>
+ <SubTexture name="元件 46" width="133" height="78" x="287" y="163"/>
+ <SubTexture name="元件 45" width="133" height="76" x="0" y="166"/>
+ <SubTexture name="元件 44" width="130" height="71" x="266" y="243"/>
+ <SubTexture name="元件 43" width="130" height="65" x="0" y="244"/>
+ <SubTexture name="元件 42" width="120" height="61" x="0" y="311"/>
+ <SubTexture name="元件 41" width="106" height="61" x="223" y="316"/>
+ <SubTexture name="元件 40" width="159" height="94" x="183" y="0"/>
+ <SubTexture name="元件 39" width="89" height="94" x="132" y="255"/>
+ <SubTexture name="元件 38" width="92" height="93" x="398" y="249"/>
+ <SubTexture name="元件 37" width="82" height="84" x="422" y="163"/>
+ <SubTexture name="元件 36" width="81" height="83" x="122" y="351"/>
+ <SubTexture name="元件 35" width="80" height="80" x="0" y="374"/>
+ <SubTexture name="元件 34" width="60" height="63" x="331" y="316"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+alter table UserID add column wingid int(10) unsigned not null default '0' comment '翅膀resid' after viplevel;
+
+alter table Activity add column con_wing_stamp int(10) unsigned not null default '0' comment '领取活动翅膀的时间戳' after cumu_yb_rank_stamp;
+alter table Activity add column con_wing_score int(10) not null default '0' comment '领取翅膀积分' after con_wing_stamp;
+alter table Activity add column con_wing_rank int(10) not null default '0' comment '活动翅膀排名' after con_wing_stamp;
+alter table Activity add column con_wing_given int(10) not null default '0' comment '活动翅膀领取标记位' after con_wing_rank;
+
+
+create table if not exists Wing(
+uid int(10) unsigned not null default '0',
+wid int(10) unsigned not null default '0',
+resid int(5) unsigned not null default '0',
+isweared tinyint(3) not null default '0',
+atk int(10) unsigned not null default '0',
+mgc int(10) unsigned not null default '0',
+def int(10) unsigned not null default '0',
+res int(10) unsigned not null default '0',
+hp int(10) unsigned not null default '0',
+crit int(10) unsigned not null default '0',
+acc int(10) unsigned not null default '0',
+dodge int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,wid))engine=innodb;

@@ -1,0 +1,17 @@
+<TextureAtlas name="zhizhu_xuli_1" width="512" height="512">
+ <SubTexture name="元件 15" width="91" height="143" x="94" y="284"/>
+ <SubTexture name="元件 14" width="90" height="141" x="187" y="286"/>
+ <SubTexture name="元件 13" width="97" height="141" x="216" y="143"/>
+ <SubTexture name="元件 12" width="92" height="143" x="0" y="146"/>
+ <SubTexture name="元件 11" width="104" height="141" x="216" y="0"/>
+ <SubTexture name="元件 10" width="94" height="140" x="413" y="173"/>
+ <SubTexture name="元件 9" width="96" height="141" x="315" y="145"/>
+ <SubTexture name="元件 8" width="108" height="144" x="0" y="0"/>
+ <SubTexture name="元件 7" width="100" height="137" x="110" y="145"/>
+ <SubTexture name="元件 6" width="91" height="139" x="279" y="288"/>
+ <SubTexture name="元件 5" width="104" height="143" x="110" y="0"/>
+ <SubTexture name="元件 4" width="98" height="143" x="322" y="0"/>
+ <SubTexture name="元件 3" width="89" height="130" x="0" y="291"/>
+ <SubTexture name="元件 2" width="85" height="127" x="422" y="0"/>
+ <SubTexture name="元件 1" width="83" height="42" x="422" y="129"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<TextureAtlas name="S134_1" width="512" height="256">
+ <SubTexture name="元件 11" width="87" height="87" x="89" y="0"/>
+ <SubTexture name="元件 10" width="87" height="87" x="356" y="89"/>
+ <SubTexture name="元件 9" width="87" height="87" x="267" y="0"/>
+ <SubTexture name="元件 8" width="87" height="87" x="267" y="89"/>
+ <SubTexture name="元件 7" width="87" height="87" x="0" y="89"/>
+ <SubTexture name="元件 6" width="87" height="87" x="0" y="0"/>
+ <SubTexture name="元件 5" width="87" height="87" x="178" y="0"/>
+ <SubTexture name="元件 4" width="87" height="87" x="356" y="0"/>
+ <SubTexture name="元件 2" width="87" height="87" x="89" y="89"/>
+ <SubTexture name="元件 1" width="87" height="87" x="178" y="89"/>
+</TextureAtlas>

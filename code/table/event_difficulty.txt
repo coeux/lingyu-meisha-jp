@@ -1,0 +1,7 @@
+number	number	string	string	number	number
+id	max_round	name	name_1	attribute	open_cost
+1	6003	初級		0.85	5
+2	6103	中級		0.95	10
+3	6203	上級		1.1	30
+4	6303	超級		1.55	50
+5	6403	超超級		2	50

@@ -1,0 +1,16 @@
+number	string	string	array	number	number
+场景ID	场景名称	场景资源	NPCID	场景标志	场景开放任务
+1001	奥林匹斯山	resource/scene/T003.jpg	"[101,102,103,104]"	1	0
+1002	雅典	resource/scene/T001.jpg	"[111,112,113,114,115]"	1	1027
+1003	奥丁圣域	resource/scene/T007.jpg	"[121,122,123,124,125]"	1	1073
+1004	斯巴达	resource/scene/T002.jpg	"[131,132,133,134,135]"	1	1116
+1005	阿尔戈号	resource/scene/T009.jpg	"[141,142,143,144,145]"	1	1159
+1006	罗德岛	resource/scene/T006.jpg	"[151,152,153,154,155]"	1	1200
+1007	克里特岛	resource/scene/T004.jpg	"[161,162,163,164,165]"	1	99999
+1008	亚特兰蒂斯	resource/scene/T010.jpg	"[171,172,173,174,175]"	1	99999
+1009	罗马	resource/scene/T001.jpg	"[181,182,183,184,185]"	1	99999
+1010	冥国	resource/scene/T001.jpg	"[191,192,193,194,195]"	1	99999
+1011	奥林匹斯山	resource/scene/T001.jpg	"[201,202,203,204,205]"	1	99999
+1999	燃烧的雅典	resource/scene/T001.jpg	[]	2	99999
+2998	公会	resource/scene/G001.jpg	"[901,902,903,904]"	3	99999
+2999	公会入侵	resource/scene/G001.jpg	[]	4	99999

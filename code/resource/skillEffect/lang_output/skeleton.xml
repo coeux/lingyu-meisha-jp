@@ -1,0 +1,20 @@
+﻿<skeleton name="lang" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="lang">
+   <b name="图层 1" x="1.38" y="-1.47" kX="-109.82" kY="-109.82" cX="1.36" cY="1.36" pX="37.03" pY="19.83" z="0">
+    <d name="yuanjian/lang" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="lang">
+   <mov name="play" dr="25" to="6" drTW="25" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="1.38" y="-1.47" cocos2d_x="-6" cocos2d_y="55" kX="-109.82" kY="-109.82" cX="1.36" cY="1.36" pX="37.03" pY="19.83" z="0" dI="0" dr="18"/>
+     <f dr="6" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

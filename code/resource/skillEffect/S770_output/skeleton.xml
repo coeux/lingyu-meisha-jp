@@ -1,0 +1,36 @@
+<skeleton name="S770" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S770_1">
+   <b name="20001.png" x="10.07" y="1.83" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 29" pX="138.75" pY="60.75"/>
+    <d name="元件 30" pX="138.23" pY="82.53"/>
+    <d name="元件 31" pX="159.5" pY="107.88"/>
+    <d name="元件 33" pX="145.82" pY="107.35"/>
+    <d name="元件 34" pX="122.05" pY="106.35"/>
+    <d name="元件 35" pX="125.58" pY="104.33"/>
+    <d name="元件 36" pX="119.03" pY="95.5"/>
+    <d name="元件 38" pX="58.5" pY="57"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S770_1">
+   <mov name="play" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+    <b name="20001.png" sc="1" dl="0">
+     <f x="10.07" y="1.83" cocos2d_x="11" cocos2d_y="2" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="3.5" y="9.43" cocos2d_x="4" cocos2d_y="10" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-0.55" y="-1.7" cocos2d_x="0" cocos2d_y="-1" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="22.23" y="7.9" cocos2d_x="23" cocos2d_y="8" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="23.75" y="6.88" cocos2d_x="24" cocos2d_y="7" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-1.05" y="8.9" cocos2d_x="-1" cocos2d_y="9" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-33" y="17.5" cocos2d_x="-33" cocos2d_y="18" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-4.47" y="26" cocos2d_x="-4" cocos2d_y="26" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-4.47" y="26" cocos2d_x="-4" cocos2d_y="26" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="40" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

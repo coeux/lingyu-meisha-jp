@@ -1,0 +1,27 @@
+<skeleton name="bmshouji" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="bmshouji">
+      <b name="图层 1" x="1.98" y="-0.9" kX="0" kY="0" cX="1" cY="1" pX="51" pY="59.15" z="0">
+        <d name="元件 14" pX="0" pY="0"/>
+        <d name="元件 15" pX="0" pY="0"/>
+        <d name="元件 17" pX="0" pY="0"/>
+        <d name="元件 19" pX="0" pY="0"/>
+        <d name="元件 13" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="bmshouji">
+      <mov name="play" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.98" y="-0.9" cocos2d_x="-49" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="51" pY="59.15" z="0" dI="0" dr="1"/>
+          <f x="-3.27" y="-4.57" cocos2d_x="-119" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="115.8" pY="48.85" z="0" dI="1" dr="1"/>
+          <f x="1.4" y="-4.97" cocos2d_x="-79" cocos2d_y="-59" kX="0" kY="0" cX="1" cY="1" pX="80.78" pY="54.68" z="0" dI="2" dr="1"/>
+          <f x="4.88" y="-6.15" cocos2d_x="-61" cocos2d_y="-66" kX="0" kY="0" cX="1" cY="1" pX="66.75" pY="60.13" z="0" dI="3" dr="1"/>
+          <f x="0.05" y="0.1" cocos2d_x="-31" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="31.93" pY="30.18" z="0" dI="4" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

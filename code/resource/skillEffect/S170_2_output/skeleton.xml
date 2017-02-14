@@ -1,0 +1,52 @@
+<skeleton name="S170_2" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S170_2">
+   <b name="图层 1" x="15.55" y="-10.8" kX="0" kY="0" cX="1.2" cY="1.2" pX="23" pY="18.25" z="0">
+    <d name="yuanjian/元件 2" pX="0" pY="0"/>
+    <d name="yuanjian/元件 3" pX="0" pY="0"/>
+    <d name="yuanjian/元件 6" pX="0" pY="0"/>
+    <d name="yuanjian/元件 8" pX="0" pY="0"/>
+    <d name="yuanjian/元件 9" pX="0" pY="0"/>
+    <d name="yuanjian/元件 11" pX="0" pY="0"/>
+    <d name="yuanjian/元件 12" pX="0" pY="0"/>
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 3" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="yuanjian/元件 17" pX="0" pY="0"/>
+    <d name="yuanjian/元件 18" pX="0" pY="0"/>
+    <d name="yuanjian/元件 19" pX="0" pY="0"/>
+    <d name="yuanjian/元件 21" pX="0" pY="0"/>
+    <d name="yuanjian/元件 23" pX="0" pY="0"/>
+    <d name="yuanjian/元件 24" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S170_2">
+   <mov name="play" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="15.55" y="-10.8" kX="0" kY="0" cX="1.2" cY="1.2" pX="23" pY="18.25" z="0" dI="0" dr="1"/>
+     <f x="14.65" y="-19.2" kX="0" kY="0" cX="1.2" cY="1.2" pX="25.75" pY="25.75" z="0" dI="1" dr="2"/>
+     <f x="21.55" y="-29.7" kX="0" kY="0" cX="1.2" cY="1.2" pX="31" pY="37" z="0" dI="2" dr="2"/>
+     <f x="8.35" y="-32.1" kX="0" kY="0" cX="1.2" cY="1.2" pX="52.5" pY="39.5" z="0" dI="3" dr="1"/>
+     <f x="-3.05" y="-36.3" kX="0" kY="0" cX="1.2" cY="1.2" pX="72" pY="44.5" z="0" dI="4" dr="2"/>
+     <f x="-2.45" y="-35.1" kX="0" kY="0" cX="1.2" cY="1.2" pX="73" pY="45.5" z="0" dI="5" dr="1"/>
+     <f x="1.15" y="-37.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="68.5" pY="43.5" z="0" dI="6" dr="2"/>
+     <f x="-4.55" y="-44.7" kX="0" kY="0" cX="1.2" cY="1.2" pX="61.75" pY="29.5" z="0" dI="7" dr="1"/>
+     <f x="-4.55" y="-33.9" kX="0" kY="0" cX="1.2" cY="1.2" pX="66.75" pY="41" z="0" dI="8" dr="2"/>
+     <f x="-6.05" y="-7.8" kX="0" kY="0" cX="1.2" cY="1.2" pX="71" pY="59.75" z="0" dI="9" dr="2"/>
+     <f x="-0.05" y="3.28" kX="0" kY="0" cX="1.2" cY="1.2" pX="77.5" pY="69.47" z="0" dI="10" dr="1"/>
+     <f x="0.25" y="-1.82" kX="0" kY="0" cX="1.2" cY="1.2" pX="87.5" pY="73.22" z="0" dI="11" dr="2"/>
+     <f x="-3.05" y="4.78" kX="0" kY="0" cX="1.2" cY="1.2" pX="75" pY="66.22" z="0" dI="12" dr="2"/>
+     <f x="-0.35" y="3.58" kX="0" kY="0" cX="1.2" cY="1.2" pX="73.25" pY="65.22" z="0" dI="13" dr="2"/>
+     <f x="1.75" y="1.78" kX="0" kY="0" cX="1.2" cY="1.2" pX="71" pY="60.23" z="0" dI="14" dr="1"/>
+     <f x="-1.85" y="-3.02" kX="0" kY="0" cX="1.2" cY="1.2" pX="69.5" pY="52.73" z="0" dI="15" twE="0" dr="2"/>
+     <f x="-1.85" y="-3.02" kX="0" kY="0" cX="1.2" cY="1.2" pX="69.5" pY="52.73" z="0" dI="15" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="20" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

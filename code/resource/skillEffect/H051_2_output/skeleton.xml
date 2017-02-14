@@ -1,0 +1,44 @@
+<skeleton name="H051_2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="H051_2_2">
+   <b name="图层 1" x="-0.25" y="0.88" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="35.25" pY="13.38"/>
+   </b>
+  </armature>
+  <armature name="H051_2_1">
+   <b name="未命名-20001.png" x="2.5" y="4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="补间 1" pX="21.5" pY="23.5"/>
+    <d name="补间 2" pX="27.25" pY="24.75"/>
+    <d name="补间 3" pX="36.25" pY="29.75"/>
+    <d name="补间 4" pX="43.25" pY="35"/>
+    <d name="补间 5" pX="32.75" pY="32"/>
+    <d name="补间 6" pX="37.5" pY="32.25"/>
+    <d name="补间 7" pX="38" pY="34"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H051_2_2">
+   <mov name="play" dr="3" to="0" drTW="3" lp="0" twE="2">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-0.25" y="0.88" cocos2d_x="0" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="121.7" y="1.27" cocos2d_x="122" cocos2d_y="2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="226.63" y="1.68" cocos2d_x="227" cocos2d_y="2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H051_2_1">
+   <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+    <b name="未命名-20001.png" sc="1" dl="0">
+     <f x="2.5" y="4" cocos2d_x="3" cocos2d_y="4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="2.75" y="3.25" cocos2d_x="3" cocos2d_y="4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="5.25" y="0.75" cocos2d_x="6" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="2.25" y="-0.97" cocos2d_x="3" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="4.75" y="-1.5" cocos2d_x="5" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="4" y="-0.25" cocos2d_x="4" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="3" y="-1.97" cocos2d_x="3" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

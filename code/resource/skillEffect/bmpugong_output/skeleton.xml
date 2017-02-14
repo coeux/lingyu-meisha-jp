@@ -1,0 +1,18 @@
+<skeleton name="bmpugong" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="bmpugong">
+      <b name="图层 1" x="-0.85" y="0.03" kX="0" kY="0" cX="0.77" cY="0.92" pX="-0.02" pY="0" z="0">
+        <d name="元件 1" pX="52.98" pY="13.95"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="bmpugong">
+      <mov name="play" dr="4" to="0" drTW="4" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.85" y="0.03" cocos2d_x="0" cocos2d_y="1" kX="0" kY="0" cX="0.77" cY="0.92" pX="-0.02" pY="0" z="0" dI="0" dr="4"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

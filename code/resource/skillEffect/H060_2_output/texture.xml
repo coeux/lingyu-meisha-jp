@@ -1,0 +1,11 @@
+<TextureAtlas name="H060_2" width="512" height="512">
+ <SubTexture name="补间 9" width="146" height="109" x="255" y="251"/>
+ <SubTexture name="补间 8" width="129" height="149" x="128" y="0"/>
+ <SubTexture name="补间 7" width="110" height="118" x="383" y="124"/>
+ <SubTexture name="补间 6" width="96" height="122" x="402" y="0"/>
+ <SubTexture name="补间 5" width="88" height="127" x="0" y="157"/>
+ <SubTexture name="补间 4" width="125" height="100" x="128" y="151"/>
+ <SubTexture name="补间 3" width="122" height="127" x="259" y="122"/>
+ <SubTexture name="补间 2" width="126" height="155" x="0" y="0"/>
+ <SubTexture name="补间 1" width="141" height="120" x="259" y="0"/>
+</TextureAtlas>

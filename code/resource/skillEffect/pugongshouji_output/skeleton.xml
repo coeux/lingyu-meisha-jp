@@ -1,0 +1,40 @@
+<skeleton name="pugongshouji" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="pugongshouji">
+   <b name="图层 1" x="-35" y="-4" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0">
+    <d name="yuanjian/元件 12" pX="0" pY="0"/>
+    <d name="yuanjian/元件 11" pX="0" pY="0"/>
+    <d name="yuanjian/元件 10" pX="0" pY="0"/>
+    <d name="yuanjian/元件 9" pX="0" pY="0"/>
+    <d name="yuanjian/元件 8" pX="0" pY="0"/>
+    <d name="yuanjian/元件 7" pX="0" pY="0"/>
+    <d name="yuanjian/元件 6" pX="0" pY="0"/>
+    <d name="yuanjian/元件 5" pX="0" pY="0"/>
+    <d name="yuanjian/元件 4" pX="0" pY="0"/>
+    <d name="yuanjian/元件 3" pX="0" pY="0"/>
+    <d name="yuanjian/元件 2" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="pugongshouji">
+   <mov name="play" dr="33" to="6" drTW="33" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="17" dI="-1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="0" dr="2"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="1" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="2" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="3" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="4" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="5" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="6" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="7" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="8" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="9" dr="1"/>
+     <f x="-35" y="-4" cocos2d_x="-140" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="52.5" pY="25" z="0" dI="10" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

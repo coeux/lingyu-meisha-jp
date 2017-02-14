@@ -1,0 +1,37 @@
+<skeleton name="S212_3" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S212_3">
+   <b name="图层 1" x="-2.3" y="10.45" kX="0" kY="0" cX="1" cY="1" pX="24.53" pY="23.38" z="0">
+    <d name="元件 11" pX="0" pY="0"/>
+    <d name="元件 12" pX="0" pY="0"/>
+    <d name="元件 13" pX="0" pY="0"/>
+    <d name="元件 14" pX="0" pY="0"/>
+    <d name="元件 15" pX="0" pY="0"/>
+    <d name="元件 16" pX="0" pY="0"/>
+    <d name="元件 17" pX="0" pY="0"/>
+    <d name="元件 18" pX="0" pY="0"/>
+    <d name="元件 19" pX="0" pY="0"/>
+    <d name="元件 20" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S212_3">
+   <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-2.3" y="10.45" kX="0" kY="0" cX="1" cY="1" pX="24.53" pY="23.38" z="0" dI="0" dr="2"/>
+     <f x="-9.85" y="11.6" kX="0" kY="0" cX="1" cY="1" pX="37.6" pY="37.35" z="0" dI="1" dr="2"/>
+     <f x="-10.32" y="14.13" kX="0" kY="0" cX="1" cY="1" pX="46.3" pY="43.55" z="0" dI="2" dr="2"/>
+     <f x="-8.95" y="11.85" kX="0" kY="0" cX="1" cY="1" pX="55.03" pY="54.1" z="0" dI="3" dr="1"/>
+     <f x="-10.77" y="13.68" kX="0" kY="0" cX="1" cY="1" pX="59.6" pY="55.03" z="0" dI="4" dr="1"/>
+     <f x="-10.32" y="10" kX="0" kY="0" cX="1" cY="1" pX="60.98" pY="59.6" z="0" dI="5" dr="1"/>
+     <f x="-8.95" y="26.98" kX="0" kY="0" cX="1" cY="1" pX="65.1" pY="72.9" z="0" dI="6" dr="1"/>
+     <f x="-26.37" y="17.35" kX="0" kY="0" cX="1" cY="1" pX="95.38" pY="103.63" z="0" dI="7" dr="1"/>
+     <f x="-50.7" y="12.3" kX="0" kY="0" cX="1" cY="1" pX="120.58" pY="103.15" z="0" dI="8" dr="1"/>
+     <f x="0.23" y="6.8" kX="0" kY="0" cX="1" cY="1" pX="77.03" pY="54.55" z="0" dI="9" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

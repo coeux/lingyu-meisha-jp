@@ -1,0 +1,22 @@
+<TextureAtlas name="H032_jineng" width="512" height="512">
+ <SubTexture name="元件 23" width="157" height="120" cocos2d_pX="79" cocos2d_pY="60" x="0" y="0"/>
+ <SubTexture name="元件 14" width="20" height="49" cocos2d_pX="10" cocos2d_pY="25" x="316" y="54"/>
+ <SubTexture name="元件 42" width="15" height="47" cocos2d_pX="8" cocos2d_pY="24" x="488" y="92"/>
+ <SubTexture name="元件 41" width="92" height="73" cocos2d_pX="46" cocos2d_pY="37" x="157" y="132"/>
+ <SubTexture name="元件 40" width="92" height="76" cocos2d_pX="46" cocos2d_pY="38" x="159" y="54"/>
+ <SubTexture name="元件 39" width="92" height="75" cocos2d_pX="46" cocos2d_pY="38" x="316" y="111"/>
+ <SubTexture name="元件 38" width="93" height="73" cocos2d_pX="47" cocos2d_pY="37" x="0" y="122"/>
+ <SubTexture name="元件 37" width="87" height="69" cocos2d_pX="44" cocos2d_pY="35" x="410" y="176"/>
+ <SubTexture name="元件 36" width="85" height="70" cocos2d_pX="43" cocos2d_pY="35" x="314" y="188"/>
+ <SubTexture name="元件 35" width="85" height="67" cocos2d_pX="43" cocos2d_pY="34" x="0" y="197"/>
+ <SubTexture name="元件 34" width="79" height="65" cocos2d_pX="40" cocos2d_pY="33" x="220" y="246"/>
+ <SubTexture name="元件 33" width="62" height="46" cocos2d_pX="31" cocos2d_pY="23" x="87" y="218"/>
+ <SubTexture name="元件 16" width="109" height="109" cocos2d_pX="55" cocos2d_pY="55" x="342" y="0"/>
+ <SubTexture name="元件 15" width="181" height="52" cocos2d_pX="95" cocos2d_pY="24" x="159" y="0"/>
+ <SubTexture name="元件 32" width="33" height="82" cocos2d_pX="17" cocos2d_pY="41" x="453" y="92"/>
+ <SubTexture name="元件 31" width="41" height="90" cocos2d_pX="21" cocos2d_pY="45" x="453" y="0"/>
+ <SubTexture name="元件 30" width="61" height="90" cocos2d_pX="31" cocos2d_pY="45" x="157" y="207"/>
+ <SubTexture name="元件 29" width="61" height="92" cocos2d_pX="31" cocos2d_pY="46" x="251" y="152"/>
+ <SubTexture name="元件 28" width="60" height="94" cocos2d_pX="30" cocos2d_pY="47" x="95" y="122"/>
+ <SubTexture name="元件 27" width="61" height="96" cocos2d_pX="31" cocos2d_pY="48" x="253" y="54"/>
+</TextureAtlas>

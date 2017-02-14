@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <UserControl Size="W:166.000000 H:68.000000" Type="btn">
+        <RadioButton Margin="L:0.000000 T:-297.000000 R:0.000000 B:0.000000" Name="btn" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="2">
+            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" Pick="false" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="10-19エリア" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+        </RadioButton>
+    </UserControl>
+    <UserControl Size="W:623.000000 H:191.000000" Type="serverListTemplate">
+        <IconGrid CellHSpace="20.00" CellHeight="50.00" CellVSpace="10.00" CellWidth="184.00" EndPos="X:10.000000 Y:10.000000" HLayout="Stretch" Name="icongrid" Size="W:630.000000 H:191.000000" StartPos="X:16.000000 Y:5.000000" VLayout="Stretch">
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server0" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server1" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server2" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server3" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server4" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server5" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server6" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server7" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+            <Button Background="login.chuangjianjuese_hetiao" CoverBrush="login.chuangjianjuese_hetiao" Font="huakang_20" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server8" NormalBrush="login.chuangjianjuese_hetiao" PressBrush="login.chuangjianjuese_hetiao2" Size="W:184.000000 H:50.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xffffff00">
+                <BrushElement Background="login.chuangjianjuese_xin" Name="new" Size="W:41.000000 H:41.000000" />
+            </Button>
+        </IconGrid>
+    </UserControl>
+    <UserControl Size="W:533.000000 H:357.000000" Type="serverListTemplate2">
+        <Panel Name="serverListTemplate2" Size="W:533.000000 H:357.000000">
+            <IconGrid CellHSpace="18.00" CellHeight="55.00" CellVSpace="3.00" CellWidth="265.00" EndPos="X:10.000000 Y:10.000000" HLayout="Stretch" Margin="L:-17.000000 T:0.000000 R:-17.000000 B:0.000000" Name="icongrid" Size="W:630.000000 H:191.000000" StartPos="X:8.000000 Y:5.000000" VLayout="Stretch">
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" Margin="L:-5.000000 T:458.000000 R:0.000000 B:0.000000" Name="server0" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server1" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server2" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server3" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server4" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server5" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server6" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server7" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server8" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+            </IconGrid>
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:204.000000 H:48.000000" Type="serverListTemplate3">
+        <RadioButton Name="serverListTemplate3" Size="W:204.000000 H:48.000000">
+            <Label Name="text" Size="W:204.000000 H:48.000000" />
+        </RadioButton>
+    </UserControl>
+    <UserControl Size="W:204.000000 H:48.000000" Type="serverTemplate">
+        <RadioButton Name="serverTemplate" Size="W:204.000000 H:48.000000">
+            <Label Font="huakang_22_noborder_cu" Name="curTitle" Size="W:204.000000 H:48.000000" TextAlignStyle="MiddleCenter" TextColor="0xff3c0e00" />
+        </RadioButton>
+    </UserControl>
+    <Desktop Margin="L:228.000000 T:246.000000 R:0.000000 B:0.000000" Name="login" Size="W:960.000000 H:640.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" DisplayTime="10000.00" FadeTime="1000.00" HoverTime="1000.00" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <Panel HLayout="Stretch" Name="waitingPanel" Size="W:50.000000 H:50.000000" UID="waitingPanel" VLayout="Stretch" Visibility="Hidden">
+            <Panel Background="EidolonSystem.Black" HLayout="Stretch" Name="background" Opacity="0.60" Size="W:8.000000 H:8.000000" VLayout="Stretch" />
+            <ImageElement HLayout="Center" Image="Empty" Name="loading" Pick="false" Size="W:81.000000 H:81.000000" VLayout="Center" />
+            <Label Margin="L:480.000000 T:613.000000 R:0.000000 B:0.000000" Name="msgid" Size="W:50.000000 H:25.000000" Text="msgid" />
+        </Panel>
+        <Panel Margin="L:189.000000 T:161.000000 R:0.000000 B:0.000000" Name="serverListTemplate2" Size="W:533.000000 H:357.000000" Visibility="Hidden">
+            <IconGrid CellHSpace="18.00" CellHeight="55.00" CellVSpace="3.00" CellWidth="265.00" EndPos="X:10.000000 Y:10.000000" HLayout="Stretch" Margin="L:-17.000000 T:0.000000 R:-17.000000 B:0.000000" Name="icongrid" Size="W:630.000000 H:191.000000" StartPos="X:8.000000 Y:5.000000" VLayout="Stretch">
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" Margin="L:-5.000000 T:458.000000 R:0.000000 B:0.000000" Name="server0" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server1" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server2" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server3" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server4" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server5" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server6" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server7" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+                <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:381.000000 T:458.000000 R:0.000000 B:0.000000" Name="server8" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                    <BrushElement Margin="L:4.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                </Button>
+            </IconGrid>
+        </Panel>
+        <Panel HLayout="Stretch" Name="loginPanel" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Margin="L:188.000000 T:320.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:50.000000" />
+            <Button Background="login.yellow80_button1" CoverBrush="login.yellow80_button1" Font="huakang_30_miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:133.000000" Name="login1" NormalBrush="login.yellow80_button1" PressBrush="login.yellow80_button2" PressTextColor="0xff404040" Size="W:225.000000 H:63.000000" Text="START" TextAlignStyle="MiddleCenter" TextColor="0xff404040" VLayout="Bottom" Visibility="Hidden" />
+            <Panel HLayout="Center" Margin="L:0.000000 T:-4.000000 R:0.000000 B:0.000000" Name="selectServerPanel1" Size="W:566.000000 H:416.000000" VLayout="Center" Visibility="Hidden">
+                <ImageElement Image="Empty" Margin="L:6.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:558.000000 H:411.000000" Visibility="Hidden" />
+                <TouchScrollPanel Background="login.login_home-color_bg_fillet" Border="L:0.000000 T:10.000000 R:0.000000 B:10.000000" Clip="true" Margin="L:-25.000000 T:-9.000000 R:0.000000 B:0.000000" Name="selectServerPanel2" Pick="false" Size="W:608.000000 H:430.000000" ZOrder="1">
+                    <InnerControl>
+                        <VScrollBar HLayout="Right" LargeChange="2.98" Maximum="3.00" Minimum="0.00" Pick="false" Size="W:20.000000 H:100.000000" SmallChange="0.10" VLayout="Stretch" Value="0.00" Visibility="Hidden">
+                            <InnerControl>
+                                <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" VLayout="Bottom" />
+                                <Button Name="Bar" Pick="false" Translate="X:0.000000 Y:20.000000" />
+                            </InnerControl>
+                        </VScrollBar>
+                        <HScrollBar HLayout="Stretch" LargeChange="207.12" Maximum="326.00" Minimum="0.00" Pick="false" Size="W:100.000000 H:20.000000" SmallChange="0.10" VLayout="Bottom" Value="0.00" Visibility="Hidden">
+                            <InnerControl>
+                                <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button HLayout="Right" Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button Name="Bar" Pick="false" Translate="X:20.000000 Y:0.000000" />
+                            </InnerControl>
+                        </HScrollBar>
+                    </InnerControl>
+                    <StackPanel Margin="L:20.000000 T:13.000000 R:0.000000 B:0.000000" Name="StackPanel" Pick="false" Size="W:532.000000 H:386.000000" ZOrder="2">
+                        <Panel Margin="L:2.000000 T:0.000000 R:0.000000 B:0.000000" Name="panel1" Size="W:528.000000 H:100.000000">
+                            <TextElement Font="huakang_20" Margin="L:21.000000 T:16.000000 R:0.000000 B:0.000000" Size="W:129.000000 H:30.000000" Text="ログイン履歴：" TextColor="LT:0xffffffff LB:0xff44eeff RT:0xffffffff RB:0xff44eeff" />
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:120.000000 T:46.000000 R:0.000000 B:0.000000" Name="lastLoginServer" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                                <BrushElement Margin="L:3.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                            </Button>
+                        </Panel>
+                        <Panel Margin="L:2.000000 T:0.000000 R:0.000000 B:0.000000" Name="panel2" Size="W:528.000000 H:100.000000">
+                            <BrushElement Margin="L:18.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:176.000000 H:34.000000" />
+                            <TextElement Font="huakang_18_miaobian" HLayout="Center" Margin="L:193.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:124.000000 H:28.000000" Text="ランブル推奨：" TextColor="0xffff00ff" />
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:121.000000 T:34.000000 R:0.000000 B:0.000000" Name="huobaoServer1" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                                <BrushElement Margin="L:3.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                            </Button>
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Font="huakang_20_noborder" HLayout="Center" Margin="L:-160.000000 T:34.000000 R:0.000000 B:0.000000" Name="huobaoServer2" NormalBrush="login.button_chat" PressBrush="login.button_chat" PressTextColor="0xff001326" Size="W:265.000000 H:55.000000" Text="300エリア 戦神袋" TextAlignStyle="MiddleCenter" TextColor="0xff001326">
+                                <BrushElement Margin="L:3.000000 T:3.000000 R:0.000000 B:0.000000" Name="new" Size="W:41.000000 H:41.000000" />
+                            </Button>
+                        </Panel>
+                        <Panel Margin="L:2.000000 T:0.000000 R:0.000000 B:0.000000" Name="panel3" Size="W:527.000000 H:279.000000">
+                            <TextElement Font="huakang_20" Margin="L:20.000000 T:-7.000000 R:0.000000 B:0.000000" Size="W:141.000000 H:30.000000" Text="サーバーリスト：" TextColor="LT:0xffffffff LB:0xff44eeff RT:0xffffffff RB:0xff44eeff" />
+                            <ListView Margin="L:18.000000 T:20.000000 R:0.000000 B:0.000000" Name="serverList" PageBrushMargin="L:0.000000 T:0.000000 R:0.000000 B:-2.000000" PageBrushSize="W:25.000000 H:24.000000" PageBrushVLayout="Top" ScrollPageTime="0.50" ShowPageBrush="true" Size="W:548.000000 H:152.000000" />
+                        </Panel>
+                    </StackPanel>
+                </TouchScrollPanel>
+            </Panel>
+            <Panel HLayout="Center" Name="background1" Pick="false" Size="W:1136.000000 H:576.000000" VLayout="Stretch" ZOrder="-1" />
+            <ImageElement AutoSize="false" HLayout="Center" Image="Empty" Margin="L:0.000000 T:60.000000 R:0.000000 B:0.000000" Name="loginLogo" Size="W:404.000000 H:230.000000" />
+            <Button Font="huakang_22_miaobian" HLayout="Right" Margin="L:0.000000 T:0.000000 R:4.000000 B:590.000000" Name="logout" PressTextColor="0xff404040" Size="W:63.000000 H:44.000000" Text="ログアウト" TextAlignStyle="MiddleCenter" TextColor="0xff404040" VLayout="Bottom" Visibility="Hidden" />
+            <Panel HLayout="Center" Margin="L:0.000000 T:242.000000 R:0.000000 B:274.000000" Name="startPanel" Size="W:287.000000 H:45.000000" VLayout="Center">
+                <ImageElement AutoSize="false" Image="Empty" Margin="L:-161.000000 T:2.000000 R:0.000000 B:0.000000" Name="start1" Size="W:681.000000 H:63.000000" />
+                <ImageElement AutoSize="false" Image="Empty" Margin="L:-6.000000 T:-2.000000 R:0.000000 B:0.000000" Name="start2" Size="W:302.000000 H:61.000000" />
+            </Panel>
+            <Button Background="login.login_server_close" CoverBrush="login.login_server_close" HLayout="Center" Margin="L:-403.000000 T:22.000000 R:0.000000 B:0.000000" Name="close1" NormalBrush="login.login_server_close" PressBrush="login.login_server_close" Size="W:80.000000 H:80.000000" Visibility="Hidden" ZOrder="21" />
+            <Panel HLayout="Center" Margin="L:0.000000 T:112.000000 R:0.000000 B:0.000000" Name="selectServerPanel2" Size="W:700.000000 H:408.000000" Visibility="Hidden" ZOrder="20">
+                <Panel HLayout="Center" Name="serverPanel" Size="W:889.000000 H:555.000000" VLayout="Center">
+                    <BrushElement Margin="L:0.000000 T:-1.000000 R:0.000000 B:0.000000" Name="bgBrush1" Size="W:204.000000 H:555.000000" />
+                    <BrushElement HLayout="Right" Name="bgBrush2" Size="W:685.000000 H:555.000000" />
+                    <Panel Margin="L:225.000000 T:21.000000 R:0.000000 B:0.000000" Name="lastLoginPanel" Size="W:593.000000 H:46.000000">
+                        <TextElement Background="login.login_last" Font="huakang_21_noborder" Margin="L:25.000000 T:35.000000 R:0.000000 B:0.000000" Size="W:144.000000 H:27.000000" TextColor="0xff001326" />
+                        <Button Font="huakang_22_noborder_cu" Margin="L:196.000000 T:28.000000 R:0.000000 B:0.000000" Name="lastLoginServer" PressTextColor="0xff3c0e00" Size="W:238.000000 H:38.000000" Text="qweqwe" TextAlignStyle="MiddleCenter" TextColor="0xff3c0e00">
+                            <Label Font="huakang_22_miaobian" Margin="L:310.000000 T:9.000000 R:0.000000 B:0.000000" Name="new" Size="W:39.000000 H:23.000000" TextColor="0xff0b893c" />
+                        </Button>
+                    </Panel>
+                    <StackPanel Margin="L:35.000000 T:111.000000 R:0.000000 B:0.000000" Name="selectbtn" Size="W:141.000000 H:305.000000" Space="-2.00" Visibility="Hidden">
+                        <RadioButton Margin="L:-18.000000 T:-33.000000 R:0.000000 B:0.000000" Name="btn1" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="1">
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+                            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="すすめ" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                        </RadioButton>
+                        <RadioButton Margin="L:-18.000000 T:-33.000000 R:0.000000 B:0.000000" Name="btn5" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="5">
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+                            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="31-40エリア" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                        </RadioButton>
+                        <RadioButton Margin="L:-18.000000 T:-33.000000 R:0.000000 B:0.000000" Name="btn4" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="4">
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+                            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="21-30エリア" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                        </RadioButton>
+                        <RadioButton Margin="L:-18.000000 T:-33.000000 R:0.000000 B:0.000000" Name="btn3" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="3">
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" Pick="false" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+                            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="0-9エリア" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                        </RadioButton>
+                        <RadioButton Margin="L:-18.000000 T:-33.000000 R:0.000000 B:0.000000" Name="btn" SelectedBrush="login.login_dikuang" Size="W:166.000000 H:68.000000" Tag="2">
+                            <Button Background="login.button_chat" CoverBrush="login.button_chat" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" NormalBrush="login.button_chat" Pick="false" PressBrush="login.button_chat" Size="W:142.000000 H:52.000000" />
+                            <Label Font="huakang_21_noborder" Margin="L:19.000000 T:20.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:132.000000 H:28.000000" Text="10-19エリア" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                        </RadioButton>
+                    </StackPanel>
+                    <TextElement Font="huakang_21_noborder" Margin="L:53.000000 T:85.000000 R:0.000000 B:0.000000" Size="W:179.000000 H:31.000000" Text="サービスエリアリスト" TextColor="0xff001326" Visibility="Hidden" />
+                    <Label Font="huakang_21_noborder" Margin="L:383.000000 T:81.000000 R:0.000000 B:0.000000" Name="curTitle" Size="W:171.000000 H:28.000000" Text="おすすめサーバー" TextAlignStyle="MiddleCenter" TextColor="0xff001326" Visibility="Hidden" />
+                    <Panel Background="login.home_newbg" Margin="L:236.000000 T:134.000000 R:0.000000 B:0.000000" Name="serverPanel1" Size="W:600.000000 H:326.000000" Visibility="Hidden">
+                        <Button Font="huakang_22_miaobian" Margin="L:39.000000 T:18.000000 R:0.000000 B:0.000000" Name="LoginServer1" PressTextColor="0xff0763ff" Size="W:210.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:39.000000 T:80.000000 R:0.000000 B:0.000000" Name="LoginServer3" PressTextColor="0xff0763ff" Size="W:210.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:39.000000 T:142.000000 R:0.000000 B:0.000000" Name="LoginServer5" PressTextColor="0xff0763ff" Size="W:210.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:39.000000 T:262.000000 R:0.000000 B:0.000000" Name="LoginServer9" PressTextColor="0xff0763ff" Size="W:210.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:328.000000 T:18.000000 R:0.000000 B:0.000000" Name="LoginServer2" PressTextColor="0xff0763ff" Size="W:228.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:328.000000 T:80.000000 R:0.000000 B:0.000000" Name="LoginServer4" PressTextColor="0xff0763ff" Size="W:228.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:328.000000 T:142.000000 R:0.000000 B:0.000000" Name="LoginServer6" PressTextColor="0xff0763ff" Size="W:228.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:328.000000 T:201.000000 R:0.000000 B:0.000000" Name="LoginServer8" PressTextColor="0xff0763ff" Size="W:228.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:328.000000 T:262.000000 R:0.000000 B:0.000000" Name="LoginServer10" PressTextColor="0xff0763ff" Size="W:228.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                        <Panel Margin="L:30.000000 T:62.000000 R:0.000000 B:0.000000" Name="line1" Size="W:547.000000 H:11.000000">
+                            <ImageElement Image="qiandao_friend_line" Margin="L:-20.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                            <ImageElement Image="qiandao_friend_line" Margin="L:276.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                        </Panel>
+                        <Panel Margin="L:30.000000 T:126.000000 R:0.000000 B:0.000000" Name="line2" Size="W:547.000000 H:11.000000">
+                            <ImageElement Image="qiandao_friend_line" Margin="L:-20.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                            <ImageElement Image="qiandao_friend_line" Margin="L:276.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                        </Panel>
+                        <Panel Margin="L:30.000000 T:188.000000 R:0.000000 B:0.000000" Name="line3" Size="W:547.000000 H:11.000000">
+                            <ImageElement Image="qiandao_friend_line" Margin="L:-20.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                            <ImageElement Image="qiandao_friend_line" Margin="L:276.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                        </Panel>
+                        <Panel Margin="L:30.000000 T:247.000000 R:0.000000 B:0.000000" Name="line4" Size="W:547.000000 H:11.000000">
+                            <ImageElement Image="qiandao_friend_line" Margin="L:-20.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                            <ImageElement Image="qiandao_friend_line" Margin="L:276.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                        </Panel>
+                        <Panel Margin="L:30.000000 T:247.000000 R:0.000000 B:0.000000" Name="line5" Size="W:547.000000 H:11.000000">
+                            <ImageElement Image="qiandao_friend_line" Margin="L:-20.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                            <ImageElement Image="qiandao_friend_line" Margin="L:276.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:272.000000 H:2.000000" />
+                        </Panel>
+                        <Button Font="huakang_22_miaobian" Margin="L:39.000000 T:201.000000 R:0.000000 B:0.000000" Name="LoginServer7" PressTextColor="0xff0763ff" Size="W:210.000000 H:38.000000" TextColor="0xff0763ff">
+                            <Label Font="huakang_22_miaobian" Margin="L:202.000000 T:1.000000 R:0.000000 B:0.000000" Name="new" Size="W:56.000000 H:37.000000" Text="HOT" TextColor="0xff4a25e8" />
+                        </Button>
+                    </Panel>
+                    <TouchScrollPanel Clip="true" Margin="L:0.000000 T:57.000000 R:0.000000 B:0.000000" Name="scrollPanel" Size="W:204.000000 H:448.000000">
+                        <InnerControl>
+                            <VScrollBar HLayout="Right" LargeChange="54.24" Maximum="69.00" Minimum="-20.00" Pick="false" Size="W:20.000000 H:100.000000" SmallChange="0.10" VLayout="Stretch" Value="0.00" Visibility="Hidden">
+                                <InnerControl>
+                                    <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                    <Button Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" VLayout="Bottom" />
+                                    <Button Name="Bar" Pick="false" Translate="X:0.000000 Y:55.808811" />
+                                </InnerControl>
+                            </VScrollBar>
+                            <HScrollBar HLayout="Stretch" LargeChange="0.00" Maximum="0.00" Minimum="0.00" Pick="false" Size="W:100.000000 H:20.000000" SmallChange="0.10" VLayout="Bottom" Value="0.00">
+                                <InnerControl>
+                                    <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                    <Button HLayout="Right" Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                    <Button Name="Bar" Pick="false" Translate="X:-1.#IND00 Y:0.000000" />
+                                </InnerControl>
+                            </HScrollBar>
+                        </InnerControl>
+                        <StackPanel AutoSize="true" Margin="L:0.000000 T:3.000000 R:0.000000 B:0.000000" Name="stackPanel" Size="W:204.000000 H:0.000000" Space="0.00" />
+                    </TouchScrollPanel>
+                    <Panel Margin="L:236.000000 T:134.000000 R:0.000000 B:0.000000" Name="serverPanel" Size="W:600.000000 H:326.000000">
+                        <Button Font="huakang_22_miaobian" Margin="L:-13.000000 T:-4.000000 R:0.000000 B:0.000000" Name="LoginServer1" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:-13.000000 T:66.000000 R:0.000000 B:0.000000" Name="LoginServer3" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:-13.000000 T:136.000000 R:0.000000 B:0.000000" Name="LoginServer5" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:-13.000000 T:206.000000 R:0.000000 B:0.000000" Name="LoginServer7" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:-13.000000 T:276.000000 R:0.000000 B:0.000000" Name="LoginServer9" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:307.000000 T:-4.000000 R:0.000000 B:0.000000" Name="LoginServer2" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:307.000000 T:66.000000 R:0.000000 B:0.000000" Name="LoginServer4" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:307.000000 T:136.000000 R:0.000000 B:0.000000" Name="LoginServer6" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:307.000000 T:206.000000 R:0.000000 B:0.000000" Name="LoginServer8" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                        <Button Font="huakang_22_miaobian" Margin="L:307.000000 T:276.000000 R:0.000000 B:0.000000" Name="LoginServer10" PressTextColor="0xff0763ff" Size="W:307.000000 H:60.000000" TextColor="0xff0763ff">
+                            <Label Background="login.login_server_hot" Font="huakang_22_miaobian" Margin="L:176.000000 T:18.000000 R:0.000000 B:0.000000" Name="hot" Size="W:39.000000 H:23.000000" TextColor="0xff4a25e8" />
+                            <Button Background="login.login_btn_select" CoverBrush="login.login_btn_select" Margin="L:224.000000 T:4.000000 R:0.000000 B:0.000000" Name="selectBtn" NormalBrush="login.login_btn_select" PressBrush="login.login_btn_select" Size="W:77.000000 H:50.000000" />
+                            <Label Font="huakang_22_noborder_cu" Margin="L:13.000000 T:4.000000 R:0.000000 B:0.000000" Name="serverName" Size="W:159.000000 H:52.000000" Text="0-サーバー0" TextColor="0xff3c0e00" />
+                        </Button>
+                    </Panel>
+                </Panel>
+            </Panel>
+            <Button HLayout="Stretch" Name="login" Size="W:960.000000 H:640.000000" VLayout="Stretch" ZOrder="5" />
+            <Button Background="login.login_diban" CoverBrush="login.login_diban" HLayout="Center" Margin="L:-7.000000 T:0.000000 R:0.000000 B:130.000000" Name="curServerBtn" NormalBrush="login.login_diban" PressBrush="login.login_diban" Size="W:334.000000 H:45.000000" TextAlignStyle="MiddleCenter" TextColor="0xffffff00" VLayout="Bottom" ZOrder="10">
+                <Label Font="huakang_20_noborder" Margin="L:57.000000 T:2.000000 R:0.000000 B:0.000000" Name="curServer" Pick="false" Size="W:252.000000 H:35.000000" Text="5サーバーテスト" TextColor="0xff001326" VLayout="Center" />
+                <BrushElement Background="login.login_cilck" Margin="L:173.000000 T:10.000000 R:0.000000 B:0.000000" Size="W:100.000000 H:38.000000" Visibility="Hidden" />
+            </Button>
+        </Panel>
+        <RadioButton Margin="L:164.000000 T:145.000000 R:0.000000 B:0.000000" Name="serverListTemplate3" Size="W:204.000000 H:48.000000" />
+        <RadioButton Margin="L:224.000000 T:235.000000 R:0.000000 B:0.000000" Name="serverTemplate" Size="W:204.000000 H:48.000000" Visibility="Hidden">
+            <Label Font="huakang_22_noborder_cu" Name="curTitle" Size="W:204.000000 H:48.000000" TextAlignStyle="MiddleCenter" TextColor="0xff3c0e00" />
+        </RadioButton>
+        <Panel HLayout="Stretch" Margin="L:-1.000000 T:0.000000 R:-1.000000 B:0.000000" Name="accountPanel" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <Panel HLayout="Center" Name="bg1" Pick="false" Size="W:1136.000000 H:640.000000" VLayout="Center" Visibility="Hidden" />
+            <Panel HLayout="Center" Name="bg2" Pick="false" Size="W:1136.000000 H:640.000000" VLayout="Center" Visibility="Hidden" />
+            <Panel HLayout="Center" Name="bg3" Pick="false" Size="W:1136.000000 H:640.000000" VLayout="Center" Visibility="Hidden" />
+            <TextElement Font="huakang_20" Margin="L:114.000000 T:15.000000 R:0.000000 B:0.000000" Name="accountName" Pick="false" Size="W:121.000000 H:30.000000" Text="1234567890" TextColor="0xff00e7fe" Visibility="Hidden" />
+            <TextElement Font="huakang_20" Margin="L:18.000000 T:16.000000 R:0.000000 B:0.000000" Pick="false" Size="W:138.000000 H:30.000000" Text="おかえりなさい," Visibility="Hidden" />
+            <Panel Margin="L:358.000000 T:294.000000 R:0.000000 B:0.000000" Name="CheckName" Size="W:308.000000 H:50.000000" Visibility="Hidden">
+                <Label Font="huakang_20" Margin="L:78.000000 T:8.000000 R:0.000000 B:0.000000" Name="CheckNameTip" Size="W:170.000000 H:30.000000" Text="ファンデルサール発生" TextAlignStyle="MiddleCenter" />
+            </Panel>
+            <Panel HLayout="Stretch" Name="createActorPanel" Pick="false" Size="W:575.000000 H:362.000000" VLayout="Stretch" ZOrder="2">
+                <ListView ActivePageIndex="0" Margin="L:1.000000 T:0.000000 R:0.000000 B:0.000000" Name="naviList" PageBrushSize="W:0.000000 H:0.000000" PageBrushVLayout="Center" Pick="false" ScrollPageTime="0.50" ShowPageBrush="true" Size="W:600.000000 H:538.000000" VLayout="Stretch">
+                    <BrushElement HLayout="Center" Name="role3" Opacity="0.00" Pick="false" Size="W:600.000000 H:538.000000" VLayout="Stretch" ZOrder="10" />
+                    <BrushElement HLayout="Center" Name="role2" Opacity="0.00" Pick="false" Size="W:600.000000 H:538.000000" VLayout="Stretch" ZOrder="10" />
+                    <BrushElement HLayout="Center" Margin="L:-9.000000 T:0.000000 R:0.000000 B:0.000000" Name="role1" Opacity="0.00" Pick="false" Size="W:600.000000 H:538.000000" VLayout="Stretch" ZOrder="10" />
+                </ListView>
+                <ArmatureUI HLayout="Right" Margin="L:0.000000 T:0.000000 R:215.000000 B:227.000000" Name="selected2" Size="W:2.000000 H:2.000000" VLayout="Bottom" />
+                <Button Background="common.main_leftButton1" CoverBrush="common.main_leftButton1" HLayout="Right" Margin="L:0.000000 T:270.000000 R:9.000000 B:0.000000" Name="rightButton" NormalBrush="common.main_leftButton1" PressBrush="common.main_leftButton2" Scale="X:-1.000000 Y:1.000000" Size="W:55.000000 H:55.000000" />
+                <Button Background="common.main_leftButton1" CoverBrush="common.main_leftButton1" Margin="L:9.000000 T:23.000000 R:0.000000 B:0.000000" Name="leftButton" NormalBrush="common.main_leftButton1" PressBrush="common.main_leftButton2" Size="W:55.000000 H:55.000000" VLayout="Center" />
+                <RadioButton GroupID="1" HLayout="Right" Margin="L:0.000000 T:62.000000 R:211.000000 B:0.000000" Name="radioRole2" Scale="X:0.900000 Y:0.900000" Size="W:150.000000 H:133.000000" Tag="101" />
+                <RadioButton GroupID="1" HLayout="Right" Margin="L:0.000000 T:62.000000 R:341.000000 B:0.000000" Name="radioRole1" Scale="X:0.900000 Y:0.900000" Size="W:150.000000 H:133.000000" Tag="101" />
+                <RadioButton GroupID="1" HLayout="Right" Margin="L:0.000000 T:62.000000 R:82.000000 B:0.000000" Name="radioRole3" Scale="X:0.900000 Y:0.900000" Selected="true" Size="W:150.000000 H:133.000000" Tag="101" />
+                <Label Font="huakang_24_nobroad" HLayout="Center" Size="W:400.000000 H:50.000000" Text="メインキャラを選択してください" TextAlignStyle="MiddleCenter" />
+                <ArmatureUI HLayout="Right" Margin="L:0.000000 T:0.000000 R:296.000000 B:212.000000" Name="selected1" Size="W:2.000000 H:2.000000" VLayout="Bottom" ZOrder="10" />
+                <BrushElement Background="login.login_home-color_bg_fillet" HLayout="Right" Margin="L:0.000000 T:0.000000 R:67.000000 B:233.000000" Name="DescPanel" Pick="false" Size="W:417.000000 H:216.000000" VLayout="Bottom" ZOrder="12">
+                    <BrushElement Background="login.login_diban6" Margin="L:48.000000 T:25.000000 R:0.000000 B:0.000000" Name="role" Size="W:285.000000 H:50.000000">
+                        <Label Margin="L:75.000000 T:-22.000000 R:0.000000 B:0.000000" Name="name" Size="W:150.000000 H:86.000000" />
+                        <ImageElement Image="login_icon3" Margin="L:248.000000 T:-12.000000 R:0.000000 B:0.000000" Name="icon" Size="W:85.000000 H:76.000000" />
+                    </BrushElement>
+                    <StackPanel Margin="L:13.000000 T:93.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:128.000000" Space="25.00">
+                        <ImageElement Image="login_point" Margin="L:11.000000 T:18.000000 R:0.000000 B:0.000000" Size="W:14.000000 H:15.000000" />
+                        <ImageElement Image="login_point" Margin="L:11.000000 T:18.000000 R:0.000000 B:0.000000" Size="W:14.000000 H:15.000000" />
+                        <ImageElement Image="login_point" Margin="L:11.000000 T:18.000000 R:0.000000 B:0.000000" Size="W:14.000000 H:15.000000" />
+                    </StackPanel>
+                    <StackPanel Margin="L:38.000000 T:77.000000 R:0.000000 B:0.000000" Name="desc" Size="W:50.000000 H:128.000000" Space="-10.00">
+                        <Label AutoNewline="true" Font="huakang_20_noborder" LineGap="-5" Margin="L:5.000000 T:5.000000 R:0.000000 B:0.000000" Name="label1" Size="W:356.000000 H:50.000000" Text="特殊部隊の司令官。正確無比な射撃は他を寄せ付けない。" TextColor="0xff001326" />
+                        <Label Font="huakang_20_noborder" Margin="L:5.000000 T:4.000000 R:0.000000 B:0.000000" Name="label2" Size="W:357.000000 H:50.000000" Text="遠距離ダメージは遠距離攻撃に適しています" TextColor="0xff001326" />
+                        <Label Font="huakang_20_noborder" Margin="L:5.000000 T:4.000000 R:0.000000 B:0.000000" Name="label3" Size="W:357.000000 H:50.000000" Text="遠距離ダメージは遠距離攻撃に適しています" TextColor="0xff001326" />
+                    </StackPanel>
+                </BrushElement>
+                <Button Background="login.top_button1_login1" CoverBrush="login.top_button1_login1" Font="huakang_20_miaobian" Margin="L:9.000000 T:9.000000 R:0.000000 B:0.000000" Name="backButton" NormalBrush="login.top_button1_login1" PressBrush="login.top_button1_login2" PressTextColor="0xff001327" Size="W:92.000000 H:56.000000" Text="戻 る" TextAlignStyle="MiddleCenter" TextColor="0xff404040" ZOrder="12" />
+                <Button Background="login.login_dice" CoverBrush="login.login_dice" HLayout="Right" Margin="L:0.000000 T:0.000000 R:139.000000 B:148.000000" Name="dice" NormalBrush="login.login_dice" PressBrush="login.login_dice" Size="W:57.000000 H:57.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="25" />
+                <Button Background="login.yellow80_button1" CoverBrush="login.yellow80_button1" Font="huakang_30_miaobian" HLayout="Right" Margin="L:0.000000 T:0.000000 R:170.000000 B:26.000000" NormalBrush="login.yellow80_button1" PressBrush="login.yellow80_button2" PressTextColor="0xff001326" Size="W:228.000000 H:63.000000" Text="決定" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="30">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="Login:SendCreateRole" />
+                    </Events>
+                </Button>
+                <TextBox Background="login.changjianjuese_diban5" Focusable="true" Font="FZ_25_miaobian" HLayout="Right" Margin="L:0.000000 T:0.000000 R:138.000000 B:145.000000" Name="nameBox" Size="W:291.000000 H:55.000000" Text="名前を入力してください" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="20" />
+                <Label Font="huakang_16_miaobian_R9G47B145" HLayout="Right" Margin="L:0.000000 T:0.000000 R:139.000000 B:91.000000" Size="W:179.000000 H:52.000000" Text="名前は5文字までです。&#x0A;※あとから変更できます" TextAlignStyle="MiddleCenter" VLayout="Bottom" ZOrder="20" />
+                <BrushElement Background="login.pub_name_bg" Margin="L:99.000000 T:486.000000 R:0.000000 B:0.000000" Size="W:195.000000 H:51.000000" ZOrder="10" />
+                <ImageElement Margin="L:136.000000 T:502.000000 R:0.000000 B:0.000000" Name="namgImg" Size="W:122.000000 H:20.000000" ZOrder="11" />
+            </Panel>
+        </Panel>
+        <Panel Background="login.login_home-color_bg_fillet" HLayout="Center" Name="newMessageBox" Size="W:400.000000 H:230.000000" UID="newMessageBox" VLayout="Center" Visibility="Hidden" ZOrder="1000">
+            <ScaleButton Background="login.green40_button1" CoverBrush="login.green40_button1" Font="huakang_20" HLayout="Center" Margin="L:80.000000 T:145.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="ok" NormalBrush="login.green40_button1" PressBrush="login.green40_button2" ScaleTime="0.10" Size="W:110.000000 H:48.000000" Text="確定" TextAlignStyle="MiddleCenter" />
+            <ScaleButton Background="login.green40_button1" CoverBrush="login.green40_button1" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:145.000000 R:80.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="cancel" NormalBrush="login.green40_button1" PressBrush="login.green40_button2" ScaleTime="0.10" Size="W:110.000000 H:48.000000" Text="キャンセル" TextAlignStyle="MiddleCenter" />
+            <ScaleButton Background="login.green40_button1" CoverBrush="login.green40_button1" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:145.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="queding" NormalBrush="login.green40_button1" PressBrush="login.green40_button2" ScaleTime="0.10" Size="W:110.000000 H:48.000000" Text="確定" TextAlignStyle="MiddleCenter" Visibility="Hidden" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:35.000000 R:0.000000 B:0.000000" Name="rootPanel" Size="W:360.000000 H:-5.000000" VLayout="Center" />
+        </Panel>
+        <TextElement Font="huakang_16_noborder" HLayout="Right" Margin="L:0.000000 T:0.000000 R:2.000000 B:6.000000" Name="version" Pick="false" Size="W:34.000000 H:24.000000" Text="1.0.0" TextColor="0xff000000" VLayout="Bottom" ZOrder="1" />
+    </Desktop>
+</UISystem>

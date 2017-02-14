@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <Desktop Margin="L:228.000000 T:246.000000 R:0.000000 B:0.000000" Name="loading" Size="W:960.000000 H:640.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <Label Font="huakang_20_pink" HLayout="Center" Margin="L:0.000000 T:8.000000 R:0.000000 B:220.000000" Name="percent" Size="W:310.000000 H:38.000000" Text="读取中。。。(90%)" TextAlignStyle="MiddleCenter" VLayout="Center" Visibility="Hidden" />
+        <Panel HLayout="Center" Name="panel" Size="W:1136.000000 H:640.000000" VLayout="Stretch" />
+        <ImageElement HLayout="Center" Margin="L:31.000000 T:-3.000000 R:0.000000 B:0.000000" Name="tip" Size="W:50.000000 H:50.000000" VLayout="Center" />
+        <Panel HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:115.000000" Name="panel1" Size="W:363.000000 H:34.000000" VLayout="Bottom" />
+        <ProgressBar Background="loading.login_jindu" Clip="true" CurValue="50" Font="huakang_18" ForwardBrush="loading.loading_jidutiao_Image" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:125.000000" MaxValue="100" Name="bar" ShowText="true" Size="W:330.000000 H:13.000000" Text="50/100" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+        <Label Font="huakang_22_blue" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:45.000000" Name="tip2" Size="W:943.000000 H:38.000000" TextAlignStyle="BottomCenter" VLayout="Bottom" />
+    </Desktop>
+</UISystem>

@@ -1,0 +1,50 @@
+<TextureAtlas name="H057" width="512" height="512">
+  <SubTexture name="wa元件/tou3 副本" width="77" height="90" x="357" y="92"/>
+  <SubTexture name="wa元件/tou2" width="97" height="90" x="364" y="0"/>
+  <SubTexture name="wa元件/tou1" width="92" height="86" x="178" y="52"/>
+  <SubTexture name="wa元件/bing" width="23" height="27" x="153" y="52"/>
+  <SubTexture name="wa元件/right_up_arm 副本" width="17" height="22" x="436" y="121"/>
+  <SubTexture name="wa元件/tou3" width="77" height="76" x="72" y="99"/>
+  <SubTexture name="wa元件/tou 2" width="83" height="87" x="272" y="52"/>
+  <SubTexture name="wa元件/tou" width="73" height="63" x="174" y="140"/>
+  <SubTexture name="wa元件/guanxi 3" width="59" height="54" x="171" y="205"/>
+  <SubTexture name="wa元件/guanxi" width="45" height="49" x="327" y="235"/>
+  <SubTexture name="wa元件/元件 19" width="41" height="24" x="160" y="261"/>
+  <SubTexture name="wa元件/元件 16" width="70" height="97" x="0" y="99"/>
+  <SubTexture name="wa元件/元件 17" width="45" height="91" x="463" y="0"/>
+  <SubTexture name="wa元件/元件 18" width="71" height="49" x="334" y="184"/>
+  <SubTexture name="wa元件/元件 1" width="50" height="43" x="455" y="237"/>
+  <SubTexture name="wa元件/元件 2" width="68" height="48" x="0" y="198"/>
+  <SubTexture name="wa元件/right_up_arm" width="17" height="27" x="436" y="92"/>
+  <SubTexture name="wa元件/元件 10" width="28" height="17" x="407" y="277"/>
+  <SubTexture name="wa元件/right_hand" width="13" height="9" x="249" y="163"/>
+  <SubTexture name="wa元件/元件 22" width="19" height="28" x="153" y="81"/>
+  <SubTexture name="wa元件/元件 4" width="65" height="59" x="267" y="141"/>
+  <SubTexture name="wa元件/biaoqing4" width="42" height="30" x="276" y="245"/>
+  <SubTexture name="wa元件/biaoqing6" width="47" height="41" x="70" y="245"/>
+  <SubTexture name="wa元件/biaoqing 3" width="50" height="47" x="455" y="144"/>
+  <SubTexture name="wa元件/biaoqing5" width="46" height="40" x="407" y="235"/>
+  <SubTexture name="wa元件/biaoqing 2" width="35" height="27" x="276" y="277"/>
+  <SubTexture name="wa元件/biaoqing" width="42" height="33" x="232" y="245"/>
+  <SubTexture name="wa元件/元件 5" width="46" height="49" x="407" y="184"/>
+  <SubTexture name="wa元件/元件 15" width="151" height="45" x="0" y="52"/>
+  <SubTexture name="wa元件/元件 14" width="21" height="19" x="151" y="139"/>
+  <SubTexture name="wa元件/元件 26" width="36" height="30" x="0" y="248"/>
+  <SubTexture name="wa元件/元件 13" width="28" height="28" x="38" y="248"/>
+  <SubTexture name="wa元件/元件 12" width="16" height="10" x="151" y="160"/>
+  <SubTexture name="wa元件/right_hand 副本" width="12" height="12" x="436" y="160"/>
+  <SubTexture name="wa元件/元件 11" width="12" height="9" x="334" y="163"/>
+  <SubTexture name="wa元件/元件 20" width="16" height="20" x="334" y="141"/>
+  <SubTexture name="wa元件/元件 24" width="16" height="21" x="249" y="140"/>
+  <SubTexture name="wa元件/元件 28" width="17" height="13" x="436" y="145"/>
+  <SubTexture name="wa元件/元件 21" width="16" height="26" x="151" y="111"/>
+  <SubTexture name="wa元件/元件 6" width="31" height="56" x="374" y="235"/>
+  <SubTexture name="wa元件/元件 7" width="28" height="62" x="130" y="232"/>
+  <SubTexture name="wa元件/元件 23" width="56" height="66" x="72" y="177"/>
+  <SubTexture name="wa元件/元件 9 副本" width="51" height="49" x="455" y="93"/>
+  <SubTexture name="wa元件/元件 27" width="76" height="41" x="249" y="202"/>
+  <SubTexture name="wa元件/轮子 副本" width="180" height="50" x="0" y="0"/>
+  <SubTexture name="wa元件/轮子" width="180" height="50" x="182" y="0"/>
+  <SubTexture name="wa元件/元件 8" width="39" height="53" x="130" y="177"/>
+  <SubTexture name="wa元件/元件 29" width="53" height="42" x="455" y="193"/>
+</TextureAtlas>

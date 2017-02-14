@@ -1,0 +1,37 @@
+<skeleton name="mao_pugong" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="mao_pugong">
+   <b name="10001.png" x="-22.4" y="0.55" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0">
+    <d name="元件 19" pX="61.33" pY="59.68"/>
+    <d name="元件 20" pX="60.7" pY="59.68"/>
+    <d name="元件 21" pX="61.33" pY="59.68"/>
+    <d name="元件 22" pX="59.08" pY="59.68"/>
+    <d name="元件 7" pX="48.78" pY="62.08"/>
+    <d name="元件 9" pX="47.28" pY="63.58"/>
+    <d name="元件 11" pX="44.28" pY="60.58"/>
+    <d name="元件 13" pX="46.78" pY="50.08"/>
+    <d name="元件 15" pX="27.28" pY="44.08"/>
+    <d name="元件 17" pX="24.28" pY="40.58"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="mao_pugong">
+   <mov name="play" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+    <b name="10001.png" sc="1" dl="0">
+     <f x="-22.4" y="0.55" cocos2d_x="-22" cocos2d_y="1" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-21.15" y="0.55" cocos2d_x="-21" cocos2d_y="1" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-22.4" y="0.55" cocos2d_x="-22" cocos2d_y="1" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-17.9" y="0.55" cocos2d_x="-17" cocos2d_y="1" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="2"/>
+     <f x="-34.72" y="0.55" cocos2d_x="-34" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="MonsterEditor" ResourceFileName="MonsterEditor.res" LayoutFileName="MonsterEditor.lay">
+	<GlobalStyles />
+</Project>

@@ -1,0 +1,20 @@
+<skeleton name="jjpugong" frameRate="25" version="2.1">
+  <armatures>
+    <armature name="jjpugong">
+      <b name="图层 1" x="-28.2" y="-0.52" kX="0" kY="0" cX="1" cY="1" pX="44.43" pY="13.5" z="0">
+        <d name="元件 2" pX="0" pY="0"/>
+        <d name="元件 3" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="jjpugong">
+      <mov name="play" dr="4" to="0" drTW="4" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-28.2" y="-0.52" kX="0" kY="0" cX="1" cY="1" pX="44.43" pY="13.5" z="0" dI="0" dr="2"/>
+          <f x="-20.02" y="-2.12" kX="0" kY="0" cX="1" cY="1" pX="47.98" pY="14.75" z="0" dI="1" dr="2"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

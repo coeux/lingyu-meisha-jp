@@ -1,0 +1,8 @@
+<TextureAtlas name="jinbi_zuanshi" width="128" height="128">
+ <SubTexture name="元件 5" width="51" height="51" cocos2d_pX="27.7" cocos2d_pY="27.3" x="0" y="0"/>
+ <SubTexture name="元件 6" width="50" height="43" cocos2d_pX="24.6" cocos2d_pY="21.25" x="0" y="53"/>
+ <SubTexture name="元件 1 副本" width="39" height="33" cocos2d_pX="19.9" cocos2d_pY="29.65" x="52" y="53"/>
+ <SubTexture name="元件 4" width="50" height="51" cocos2d_pX="28.4" cocos2d_pY="28.35" x="53" y="0"/>
+ <SubTexture name="元件 3" width="34" height="37" cocos2d_pX="16.8" cocos2d_pY="18.2" x="52" y="88"/>
+ <SubTexture name="元件 1" width="32" height="34" cocos2d_pX="15.6" cocos2d_pY="33.35" x="93" y="53"/>
+</TextureAtlas>

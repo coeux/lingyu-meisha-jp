@@ -1,0 +1,14 @@
+<TextureAtlas name="未命名-1" width="512" height="512">
+  <SubTexture name="宠物3.psd 资源/1/头" width="102" height="90" cocos2d_pX="51" cocos2d_pY="45" x="0" y="194"/>
+  <SubTexture name="宠物3.psd 资源/1/身子" width="74" height="59" cocos2d_pX="37" cocos2d_pY="30" x="414" y="161"/>
+  <SubTexture name="宠物3.psd 资源/1/尾巴" width="51" height="49" cocos2d_pX="26" cocos2d_pY="25" x="104" y="194"/>
+  <SubTexture name="宠物3.psd 资源/1/披风" width="85" height="48" cocos2d_pX="43" cocos2d_pY="24" x="416" y="50"/>
+  <SubTexture name="asdqwetrqtqt 副本" width="105" height="105" cocos2d_pX="3" cocos2d_pY="5" x="307" y="109"/>
+  <SubTexture name="asdqwetrqtqt 副本 2" width="107" height="107" cocos2d_pX="4" cocos2d_pY="4" x="307" y="0"/>
+  <SubTexture name="asdqwetrqtqt" width="111" height="111" cocos2d_pX="7" cocos2d_pY="6" x="194" y="0"/>
+  <SubTexture name="重复项目文件夹/头 副本 2" width="102" height="90" cocos2d_pX="51" cocos2d_pY="45" x="194" y="113"/>
+  <SubTexture name="重复项目文件夹/身子 副本" width="74" height="59" cocos2d_pX="37" cocos2d_pY="30" x="416" y="100"/>
+  <SubTexture name="重复项目文件夹/尾巴 副本 2" width="51" height="49" cocos2d_pX="26" cocos2d_pY="25" x="157" y="205"/>
+  <SubTexture name="重复项目文件夹/披风 副本 2" width="85" height="48" cocos2d_pX="43" cocos2d_pY="24" x="416" y="0"/>
+  <SubTexture name="元件 19" width="192" height="192" cocos2d_pX="96" cocos2d_pY="96" x="0" y="0"/>
+</TextureAtlas>

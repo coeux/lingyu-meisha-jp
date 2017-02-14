@@ -1,0 +1,111 @@
+# my.cnf
+[client]
+port            = 3306
+socket          = /tmp/mysql.sock
+
+[mysqld]
+port            = 3306
+socket          = /tmp/mysql.sock
+pid-file        = /data/mysql/data/mysqld.pid
+log-error       = /data/mysql/data/error_20251.log
+datadir         = /data/mysql/data/
+tmpdir          = /data/mysql/tmp/
+slow_query_log_file = /data/mysql/data/slow_20251.log
+relay-log = mysqld-relay-bin
+long_query_time = 1 
+slow_query_log = 1
+sql_mode = ''
+old_passwords = 0
+
+back_log        = 1024 
+open_files_limit = 65535
+explicit_defaults_for_timestamp = 1
+default-storage-engine=InnoDB
+#performance_schema = 0
+max_connections = 16384 
+table_open_cache = 8192 
+thread_concurrency = 32
+
+max_connect_errors = 10000
+interactive_timeout = 512
+wait_timeout = 86400
+max_allowed_packet = 16M
+binlog_cache_size = 1M
+max_heap_table_size = 64M
+sort_buffer_size = 2M
+join_buffer_size = 2M
+# 8 + (max_connections / 100)
+thread_cache_size = 1024
+#query_cache_size = 64M
+query_cache_limit = 16M
+#default_table_type = INNODB
+
+skip-external-locking
+# skip-name-resolve
+server-id       = 20251
+
+#*** master ***
+log-bin = /data/mysql/binlog/bin_20251-log
+binlog-format = ROW
+binlog_rows_query_log_events = 1
+expire_logs_days = 7
+
+replicate-wild-ignore-table = mysql.%
+replicate-wild-ignore-table = test.%
+replicate-wild-ignore-table = information_schema.%
+replicate-wild-ignore-table = performance_schema.%
+
+#*** MyISAM Specific options ***
+key_buffer_size = 32M
+read_buffer_size = 2M
+read_rnd_buffer_size = 16M
+
+innodb_buffer_pool_instances = 8
+innodb_old_blocks_time = 1000
+innodb_buffer_pool_size = 40G
+innodb_log_group_home_dir = /data/mysql/innodb
+innodb_data_home_dir = /data/mysql/innodb
+innodb_data_file_path = ibdata1:1G:autoextend
+innodb_autoextend_increment = 64
+innodb_read_io_threads = 16
+innodb_write_io_threads = 16
+innodb_thread_concurrency = 32
+innodb_flush_log_at_trx_commit = 2
+innodb_flush_method = O_DIRECT
+innodb_log_buffer_size = 128M
+innodb_log_files_in_group = 2
+innodb_log_file_size = 1G
+innodb_open_files = 16384 
+innodb_file_per_table = 1
+innodb_purge_threads = 1
+innodb_stats_persistent = 0
+innodb_io_capacity = 500
+innodb_adaptive_flushing_lwm = 20
+innodb_use_native_aio = 1
+innodb_spin_wait_delay = 96
+innodb_adaptive_hash_index = 0
+innodb_sync_spin_loops = 100
+#innodb_doublewrite = 1
+#innodb_checksum_algorithm = NONE
+
+### slave ### 
+#skip_slave_start
+#slave_compressed_protocol = 1
+slave_parallel_workers = 4
+master-info-repository = TABLE
+relay-log-info-repository = TABLE
+slave_type_conversions = ALL_NON_LOSSY
+
+[mysqldump]
+quick
+max_allowed_packet = 16M
+
+[mysql]
+no-auto-rehash
+
+[mysqlhotcopy]
+interactive-timeout
+
+[mysqld_safe]
+open-files-limit = 65535
+#pid-file         = logs/mysqld.pid

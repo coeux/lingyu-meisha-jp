@@ -1,0 +1,31 @@
+<skeleton name="q_xuli" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="q_xuli">
+      <b name="图层 1" x="-0.5" y="-0.5" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0">
+        <d name="10001.png" pX="0" pY="0"/>
+        <d name="10002.png" pX="0" pY="0"/>
+        <d name="10003.png" pX="0" pY="0"/>
+        <d name="10004.png" pX="0" pY="0"/>
+        <d name="10005.png" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="q_xuli">
+      <mov name="play" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="0" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="1" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="2" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="3" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="4" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="0" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="1" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="2" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="3" dr="1"/>
+          <f x="-0.5" y="-0.5" cocos2d_x="-53" cocos2d_y="-53" kX="0" kY="0" cX="1" cY="1" pX="52.5" pY="52.5" z="0" dI="4" dr="1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

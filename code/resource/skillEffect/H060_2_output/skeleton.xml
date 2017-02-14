@@ -1,0 +1,44 @@
+<skeleton name="H060_2" frameRate="24" version="2.1">
+ <armatures>
+  <armature name="H060_2_1">
+   <b name="daoguang_00000.png" x="26.63" y="-121.62" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0">
+    <d name="补间 1" pX="70.3" pY="59.8"/>
+    <d name="补间 2" pX="62.6" pY="77.43"/>
+    <d name="补间 3" pX="60.93" pY="63.35"/>
+    <d name="补间 4" pX="62.43" pY="49.85"/>
+   </b>
+  </armature>
+  <armature name="H060_2_2">
+   <b name="bao_00000.png" x="13.9" y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+    <d name="补间 5" pX="43.7" pY="63.33"/>
+    <d name="补间 6" pX="47.75" pY="60.63"/>
+    <d name="补间 7" pX="54.6" pY="58.78"/>
+    <d name="补间 8" pX="64.15" pY="74.03"/>
+    <d name="补间 9" pX="72.63" pY="54.28"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H060_2_1">
+   <mov name="play" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+    <b name="daoguang_00000.png" sc="1" dl="0">
+     <f x="26.63" y="-121.62" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="55.7" y="-81.12" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="54.48" y="-62.17" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="39.78" y="-52.52" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="3" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H060_2_2">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="bao_00000.png" sc="1" dl="0">
+     <f x="13.9" y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="4.9" y="-3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-11.45" y="-0.28" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-12.7" y="2.5" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-18.85" y="-9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

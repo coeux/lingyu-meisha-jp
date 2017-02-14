@@ -1,0 +1,7 @@
+number	number
+type	value
+1	8
+2	18
+3	8
+5	12
+9	12

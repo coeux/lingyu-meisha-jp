@@ -1,0 +1,26 @@
+﻿<skeleton name="guaishouji" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="guaishouji">
+   <b name="图层 1" x="-10" y="-44.77" kX="0" kY="0" cX="1" cY="1" pX="112.5" pY="75" z="0">
+    <d name="10001.png" pX="0" pY="0"/>
+    <d name="10002.png" pX="0" pY="0"/>
+    <d name="10003.png" pX="0" pY="0"/>
+    <d name="10004.png" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="guaishouji">
+   <mov name="play" dr="6" to="6" drTW="6" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="-10" y="-44.77" cocos2d_x="-122" cocos2d_y="-119" kX="0" kY="0" cX="1" cY="1" pX="112.5" pY="75" z="0" dI="0" dr="1"/>
+     <f x="-10" y="-44.77" cocos2d_x="-122" cocos2d_y="-119" kX="0" kY="0" cX="1" cY="1" pX="112.5" pY="75" z="0" dI="1" dr="1"/>
+     <f x="-10" y="-44.77" cocos2d_x="-122" cocos2d_y="-119" kX="0" kY="0" cX="1" cY="1" pX="112.5" pY="75" z="0" dI="2" dr="1"/>
+     <f x="-10" y="-44.77" cocos2d_x="-122" cocos2d_y="-119" kX="0" kY="0" cX="1" cY="1" pX="112.5" pY="75" z="0" dI="3" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

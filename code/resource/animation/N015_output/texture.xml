@@ -1,0 +1,44 @@
+<TextureAtlas name="N015" width="256" height="128">
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/小啾啾" width="16" height="14" cocos2d_pX="8" cocos2d_pY="7" x="97" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/bianzi1_1" width="5" height="8" cocos2d_pX="3" cocos2d_pY="4" x="196" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/bianzi1_2" width="14" height="18" cocos2d_pX="7" cocos2d_pY="9" x="20" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/bianzi1_3" width="5" height="7" cocos2d_pX="3" cocos2d_pY="4" x="219" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/4" width="3" height="9" cocos2d_pX="2" cocos2d_pY="5" x="36" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair2" width="9" height="16" cocos2d_pX="5" cocos2d_pY="8" x="50" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair3" width="16" height="27" cocos2d_pX="8" cocos2d_pY="14" x="124" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair4" width="11" height="24" cocos2d_pX="6" cocos2d_pY="12" x="239" y="35"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair5" width="6" height="20" cocos2d_pX="3" cocos2d_pY="10" x="161" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair6" width="7" height="19" cocos2d_pX="4" cocos2d_pY="10" x="41" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair7" width="12" height="33" cocos2d_pX="6" cocos2d_pY="17" x="239" y="0"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/固定" width="25" height="20" cocos2d_pX="15" cocos2d_pY="10" x="97" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair9" width="8" height="17" cocos2d_pX="4" cocos2d_pY="9" x="69" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair10" width="7" height="23" cocos2d_pX="4" cocos2d_pY="12" x="115" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/head_2" width="26" height="26" cocos2d_pX="13" cocos2d_pY="13" x="69" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/head" width="26" height="26" cocos2d_pX="13" cocos2d_pY="13" x="41" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_hand" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="211" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_arm" width="7" height="12" cocos2d_pX="4" cocos2d_pY="6" x="141" y="64"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_arm_up" width="6" height="14" cocos2d_pX="3" cocos2d_pY="7" x="61" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/chain" width="7" height="4" cocos2d_pX="4" cocos2d_pY="2" x="226" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/body" width="17" height="24" cocos2d_pX="9" cocos2d_pY="12" x="142" y="26"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/cloth_1" width="12" height="9" cocos2d_pX="6" cocos2d_pY="5" x="239" y="61"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/cloth_2" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="97" y="64"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/cloth_3" width="4" height="6" cocos2d_pX="2" cocos2d_pY="3" x="27" y="68"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/pant" width="16" height="10" cocos2d_pX="8" cocos2d_pY="5" x="142" y="52"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_foot" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="169" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_leg" width="6" height="14" cocos2d_pX="3" cocos2d_pY="7" x="89" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/L_leg_up" width="9" height="15" cocos2d_pX="5" cocos2d_pY="8" x="124" y="55"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_leg_up" width="8" height="17" cocos2d_pX="4" cocos2d_pY="9" x="79" y="54"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_foot" width="8" height="8" cocos2d_pX="4" cocos2d_pY="4" x="150" y="64"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_leg" width="5" height="9" cocos2d_pX="3" cocos2d_pY="5" x="108" y="64"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/cloth_4" width="6" height="7" cocos2d_pX="3" cocos2d_pY="4" x="188" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/hair" width="18" height="19" cocos2d_pX="9" cocos2d_pY="10" x="0" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/bianzi2_3" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="203" y="66"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/辫子二 " width="3" height="8" cocos2d_pX="2" cocos2d_pY="3" x="36" y="59"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/bianzi2_1" width="6" height="19" cocos2d_pX="3" cocos2d_pY="10" x="161" y="48"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_arm_up" width="4" height="12" cocos2d_pX="2" cocos2d_pY="6" x="135" y="55"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_hand" width="5" height="5" cocos2d_pX="3" cocos2d_pY="3" x="20" y="68"/>
+ <SubTexture name="15-朗基努斯1psd.psd 资源 9/R_arm" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="179" y="66"/>
+ <SubTexture name="weapon" width="167" height="24" cocos2d_pX="84" cocos2d_pY="12" x="0" y="0"/>
+ <SubTexture name="yuajian/hair_15" width="68" height="64" cocos2d_pX="3" cocos2d_pY="0" x="169" y="0"/>
+ <SubTexture name="yuajian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="26"/>
+</TextureAtlas>

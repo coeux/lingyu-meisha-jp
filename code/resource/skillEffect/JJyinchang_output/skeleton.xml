@@ -1,0 +1,45 @@
+<skeleton name="JJyinchang" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="JJyinchang">
+   <b name="图层 1" x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0">
+    <d name="yuanjian/元件 25" pX="-4.28" pY="-3.85"/>
+    <d name="yuanjian/元件 24" pX="-5.03" pY="-4.6"/>
+    <d name="yuanjian/元件 23" pX="-4.28" pY="-4.6"/>
+    <d name="yuanjian/元件 22" pX="-4.28" pY="-4.85"/>
+    <d name="yuanjian/元件 20" pX="0" pY="-4.35"/>
+    <d name="yuanjian/元件 18" pX="-4.53" pY="-4.85"/>
+    <d name="yuanjian/元件 16" pX="-4.28" pY="-4.6"/>
+    <d name="yuanjian/元件 14" pX="-5.52" pY="-2.6"/>
+    <d name="yuanjian/元件 12" pX="-5.03" pY="-4.6"/>
+    <d name="yuanjian/元件 10" pX="-4.78" pY="-4.6"/>
+    <d name="yuanjian/元件 8" pX="-2.52" pY="-2.35"/>
+    <d name="yuanjian/元件 6" pX="-1.52" pY="-4.85"/>
+    <d name="yuanjian/元件 4" pX="-5.27" pY="-1.35"/>
+    <d name="yuanjian/元件 2" pX="-6.02" pY="-4.35"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="JJyinchang">
+   <mov name="play" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="0" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="1" dr="1"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="2" dr="1"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="3" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="4" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="5" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="6" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="7" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="8" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="9" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="10" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="11" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="12" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="2" cY="2" pX="20" pY="20" z="0" dI="13" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,45 @@
+<skeleton name="q_pugong" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="q_pugong">
+      <b name="图层 1" x="-32" y="-2.92" kX="0" kY="0" cX="1" cY="1" pX="54.93" pY="29.7" z="0">
+        <d name="元件 8" pX="0" pY="0"/>
+        <d name="元件 9" pX="0" pY="0"/>
+        <d name="元件 10" pX="0" pY="0"/>
+        <d name="元件 11" pX="0" pY="0"/>
+        <d name="元件 12" pX="0" pY="0"/>
+        <d name="元件 13" pX="0" pY="0"/>
+        <d name="元件 14" pX="0" pY="0"/>
+      </b>
+    </armature>
+    <armature name="H032_pugong">
+      <b name="图层 1" x="-87.27" y="2.4" kX="0" kY="0" cX="1" cY="0.56" pX="0" pY="0" z="0">
+        <d name="元件 2" pX="47.18" pY="32.85"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="q_pugong">
+      <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-32" y="-2.92" cocos2d_x="-86" cocos2d_y="-32" kX="0" kY="0" cX="1" cY="1" pX="54.93" pY="29.7" z="0" dI="0" dr="1"/>
+          <f x="-17.8" y="-4.05" cocos2d_x="-103" cocos2d_y="-33" kX="0" kY="0" cX="1" cY="1" pX="85.98" pY="29.33" z="0" dI="1" dr="1"/>
+          <f x="-0.37" y="-1.47" cocos2d_x="-103" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="103.4" pY="40.33" z="0" dI="2" dr="2"/>
+          <f x="-7.1" y="-3.47" cocos2d_x="-114" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="107.43" pY="37.95" z="0" dI="3" dr="2"/>
+          <f x="-0.25" y="0.93" cocos2d_x="-99" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="99.23" pY="42.35" z="0" dI="4" dr="1"/>
+          <f x="-0.92" y="0.55" cocos2d_x="-95" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="94.43" pY="31.35" z="0" dI="5" dr="2"/>
+          <f x="58.28" y="-2.02" cocos2d_x="31" cocos2d_y="-28" kX="0" kY="0" cX="1" cY="1" pX="28.23" pY="26.95" z="0" dI="6" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="H032_pugong">
+      <mov name="play" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-87.27" y="2.4" cocos2d_x="-87" cocos2d_y="3" kX="0" kY="0" cX="1" cY="0.56" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-50.95" y="2.93" cocos2d_x="-50" cocos2d_y="3" kX="0" kY="0" cX="1" cY="0.56" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

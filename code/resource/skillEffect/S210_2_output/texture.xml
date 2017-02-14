@@ -1,0 +1,16 @@
+<TextureAtlas name="必杀2_2" width="512" height="256">
+ <SubTexture name="元件 28" width="84" height="91" x="383" y="90"/>
+ <SubTexture name="元件 27" width="87" height="86" x="282" y="91"/>
+ <SubTexture name="元件 25" width="90" height="88" x="383" y="0"/>
+ <SubTexture name="元件 23" width="99" height="89" x="282" y="0"/>
+ <SubTexture name="元件 21" width="76" height="79" x="0" y="111"/>
+ <SubTexture name="元件 19" width="80" height="87" x="188" y="106"/>
+ <SubTexture name="元件 17" width="89" height="110" x="97" y="0"/>
+ <SubTexture name="元件 15" width="95" height="109" x="0" y="0"/>
+ <SubTexture name="元件 13" width="92" height="104" x="188" y="0"/>
+ <SubTexture name="元件 11" width="68" height="66" x="78" y="112"/>
+ <SubTexture name="元件 9" width="59" height="57" x="78" y="180"/>
+ <SubTexture name="元件 7" width="58" height="54" x="330" y="183"/>
+ <SubTexture name="元件 4" width="55" height="54" x="390" y="183"/>
+ <SubTexture name="元件 2" width="58" height="62" x="270" y="179"/>
+</TextureAtlas>

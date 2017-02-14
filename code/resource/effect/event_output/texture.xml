@@ -1,0 +1,26 @@
+<TextureAtlas name="event" width="512" height="512">
+  <SubTexture name="开.png" width="59" height="61" x="105" y="142"/>
+  <SubTexture name="开启 战斗图标按钮1.psd 资源 3/mao" width="100" height="93" x="389" y="142"/>
+  <SubTexture name="启.png" width="59" height="61" x="281" y="282"/>
+  <SubTexture name="日文元件/战斗胜利" width="195" height="80" x="237" y="366"/>
+  <SubTexture name="元件 15" width="118" height="58" x="354" y="237"/>
+  <SubTexture name="元件 10" width="106" height="67" x="342" y="297"/>
+  <SubTexture name="元件 13" width="43" height="43" x="0" y="343"/>
+  <SubTexture name="元件 11" width="96" height="35" x="141" y="307"/>
+  <SubTexture name="日文元件/boss" width="113" height="69" x="166" y="236"/>
+  <SubTexture name="元件 18" width="35" height="54" x="317" y="226"/>
+  <SubTexture name="元件 9" width="31" height="132" x="356" y="92"/>
+  <SubTexture name="元件 9 副本" width="37" height="132" x="317" y="92"/>
+  <SubTexture name="元件 16" width="142" height="142" x="173" y="92"/>
+  <SubTexture name="日文元件/恭喜过关" width="204" height="50" x="0" y="388"/>
+  <SubTexture name="日文元件/第-层" width="94" height="34" x="141" y="344"/>
+  <SubTexture name="boss.psd 资源 7/猫" width="103" height="109" x="0" y="142"/>
+  <SubTexture name="勇.png" width="67" height="88" x="0" y="253"/>
+  <SubTexture name="日文元件/斗" width="59" height="61" x="105" y="205"/>
+  <SubTexture name="日文元件/战" width="59" height="61" x="450" y="297"/>
+  <SubTexture name="元件 5" width="97" height="140" x="391" y="0"/>
+  <SubTexture name="元件 6" width="70" height="75" x="69" y="268"/>
+  <SubTexture name="元件 7" width="216" height="90" x="173" y="0"/>
+  <SubTexture name="元件 8" width="171" height="140" x="0" y="0"/>
+  <SubTexture name="元件 27" width="20" height="18" x="490" y="0"/>
+</TextureAtlas>

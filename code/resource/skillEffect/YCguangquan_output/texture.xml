@@ -1,0 +1,23 @@
+<TextureAtlas name="YCguangquan" width="256" height="256">
+ <SubTexture name="元件 49" width="86" height="28" x="0" y="0"/>
+ <SubTexture name="元件 47" width="82" height="27" x="172" y="0"/>
+ <SubTexture name="元件 46" width="80" height="26" x="169" y="57"/>
+ <SubTexture name="元件 45" width="78" height="25" x="164" y="85"/>
+ <SubTexture name="元件 44" width="76" height="25" x="0" y="109"/>
+ <SubTexture name="元件 42" width="65" height="25" x="73" y="140"/>
+ <SubTexture name="元件 41" width="62" height="24" x="0" y="163"/>
+ <SubTexture name="元件 40" width="81" height="26" x="86" y="30"/>
+ <SubTexture name="元件 39" width="79" height="25" x="0" y="82"/>
+ <SubTexture name="元件 38" width="71" height="25" x="0" y="136"/>
+ <SubTexture name="元件 37" width="60" height="23" x="64" y="167"/>
+ <SubTexture name="元件 36" width="82" height="28" x="88" y="0"/>
+ <SubTexture name="元件 35" width="79" height="26" x="83" y="58"/>
+ <SubTexture name="元件 33" width="77" height="26" x="81" y="86"/>
+ <SubTexture name="元件 32" width="74" height="24" x="78" y="114"/>
+ <SubTexture name="元件 31" width="81" height="26" x="172" y="29"/>
+ <SubTexture name="元件 30" width="81" height="25" x="0" y="55"/>
+ <SubTexture name="元件 28" width="84" height="23" x="0" y="30"/>
+ <SubTexture name="元件 26" width="76" height="23" x="160" y="112"/>
+ <SubTexture name="元件 25" width="68" height="22" x="154" y="137"/>
+ <SubTexture name="元件 24" width="68" height="20" x="140" y="161"/>
+</TextureAtlas>

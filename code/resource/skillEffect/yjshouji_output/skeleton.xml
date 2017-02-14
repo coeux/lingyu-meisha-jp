@@ -1,0 +1,29 @@
+<skeleton name="yjshouji" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="yjshouji">
+   <b name="20001.png" x="33.98" y="-55.75" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0">
+    <d name="元件 10" pX="143.25" pY="69.75"/>
+    <d name="元件 11" pX="162.25" pY="72"/>
+    <d name="元件 3" pX="80" pY="40.13"/>
+    <d name="元件 2" pX="78.63" pY="35.5"/>
+    <d name="元件 15" pX="119.25" pY="53.75"/>
+    <d name="元件 17" pX="120" pY="47.75"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="yjshouji">
+   <mov name="play" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+    <b name="20001.png" sc="1" dl="0">
+     <f x="33.98" y="-55.75" cocos2d_x="34" cocos2d_y="-55" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="0" dr="1"/>
+     <f x="33.48" y="-60" cocos2d_x="34" cocos2d_y="-59" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="1" dr="1"/>
+     <f x="42.23" y="-60.75" cocos2d_x="43" cocos2d_y="-60" kX="0" kY="180" cX="2" cY="2" pX="-0.02" pY="-0.02" z="0" dI="2" dr="1"/>
+     <f x="40.48" y="-63" cocos2d_x="41" cocos2d_y="-62" kX="0" kY="180" cX="2" cY="2" pX="-0.02" pY="-0.02" z="0" dI="3" dr="2"/>
+     <f x="-0.02" y="-46.25" cocos2d_x="0" cocos2d_y="-46" kX="0" kY="180" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+     <f x="3.23" y="-56.75" cocos2d_x="4" cocos2d_y="-56" kX="0" kY="180" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

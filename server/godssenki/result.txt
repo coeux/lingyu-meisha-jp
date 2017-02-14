@@ -1,0 +1,294 @@
+rt_private_service.cpp: In member function 'void rt_private_service_t::del_gw(uint16_t)':
+rt_private_service.cpp:132:39: warning: unused variable 'gw' [-Wunused-variable]
+sc_skill.cpp: In member function 'int32_t sc_skill_t::upgrade(int)':
+sc_skill.cpp:49:9: warning: variable 'quality' set but not used [-Wunused-but-set-variable]
+sc_skill.cpp:80:9: warning: unused variable 'skpresid' [-Wunused-variable]
+sc_skill.cpp:81:9: warning: unused variable 'skpresid2' [-Wunused-variable]
+sc_item.cpp: In member function 'int32_t sc_item_mgr_t::gemstone_compose_all(int32_t)':
+sc_item.cpp:634:1: warning: no return statement in function returning non-void [-Wreturn-type]
+sc_card_comment.cpp: In lambda function:
+sc_card_comment.cpp:187:9: warning: control reaches end of non-void function [-Wreturn-type]
+sc_card_comment.cpp: In lambda function:
+sc_card_comment.cpp:180:17: warning: control reaches end of non-void function [-Wreturn-type]
+sc_team.cpp: In lambda function:
+sc_team.cpp:800:5: warning: control reaches end of non-void function [-Wreturn-type]
+sc_team.cpp: In member function 'int32_t& sc_team_mgr_t::operator[](const int32_t&)':
+sc_team.cpp:637:1: warning: control reaches end of non-void function [-Wreturn-type]
+sc_pub.cpp: In member function 'void sc_pub_ctl_t::update_limit_draw_ten_reward(sp_user_t, int32_t, int32_t&, std::string&)':
+sc_pub.cpp:347:107: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_pub.cpp: In member function 'int32_t sc_pub_ctl_t::flush_pub(sp_user_t, int32_t, int32_t, int)':
+sc_pub.cpp:384:13: warning: variable 'c_id' set but not used [-Wunused-but-set-variable]
+sc_pub.cpp: In member function 'int32_t sc_pub_ctl_t::req_enter_modular(sp_user_t, sc_msg_def::ret_enter_pub_t&)':
+sc_pub.cpp:962:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from sc_user.cpp:1:0:
+sc_user.h: In constructor 'sc_user_t::sc_user_t()':
+sc_user.h:98:29: warning: 'sc_user_t::achievement' will be initialized after [-Wreorder]
+sc_user.h:76:29: warning:   'sc_vip_t sc_user_t::vip' [-Wreorder]
+sc_user.cpp:62:1: warning:   when initialized here [-Wreorder]
+In file included from sc_user.cpp:1:0:
+sc_user.h:107:29: warning: 'sc_user_t::pro' will be initialized after [-Wreorder]
+sc_user.h:94:29: warning:   'sc_team_mgr_t sc_user_t::team_mgr' [-Wreorder]
+sc_user.cpp:62:1: warning:   when initialized here [-Wreorder]
+sc_user.cpp: In member function 'sp_view_user_other_t sc_user_t::get_view_others()':
+sc_user.cpp:1270:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_user.cpp: In member function 'int sc_user_t::get_open_service_reward(int32_t)':
+sc_user.cpp:1934:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_user.cpp:1845:28: warning: unused variable 'item' [-Wunused-variable]
+sc_reward.cpp: In member function 'std::string sc_reward_t::update_sevenpayreward()':
+sc_reward.cpp:370:13: warning: unused variable 'sevenpay_count' [-Wunused-variable]
+sc_reward.cpp: In member function 'void sc_reward_t::get_jpk(sc_msg_def::jpk_reward_data_t&)':
+sc_reward.cpp:731:12: warning: label 'dafault' defined but not used [-Wunused-label]
+sc_reward.cpp: In member function 'int32_t sc_reward_t::get_online_reward_pack(int32_t, int32_t&, int32_t&)':
+sc_reward.cpp:930:53: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_single_activity(int)':
+sc_reward.cpp:1176:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:1192:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:1217:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:1240:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:1265:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::get_luckybag_reward(int32_t)':
+sc_reward.cpp:1533:9: warning: unused variable 'index' [-Wunused-variable]
+sc_reward.cpp: In member function 'void sc_reward_t::cast_login(int32_t)':
+sc_reward.cpp:1760:13: warning: unused variable 'is_put' [-Wunused-variable]
+sc_reward.cpp: In member function 'int sc_reward_t::given_starreward(int, int)':
+sc_reward.cpp:3250:56: warning: statement has no effect [-Wunused-value]
+sc_reward.cpp:3288:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::get_cdkey_reward(std::string)':
+sc_reward.cpp:3465:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_limit_activity_power(int32_t, int32_t&, std::string&, int32_t&)':
+sc_reward.cpp:3862:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:3862:99: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_daily_pay()':
+sc_reward.cpp:4225:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_daily_consume_power()':
+sc_reward.cpp:4235:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_daily_draw()':
+sc_reward.cpp:4247:53: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_daily_melting()':
+sc_reward.cpp:4259:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_daily_talent()':
+sc_reward.cpp:4271:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::get_daily_pay_reward(int32_t)':
+sc_reward.cpp:4625:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_single_pay()':
+sc_reward.cpp:4675:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_openyb_info()':
+sc_reward.cpp:4759:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:4759:71: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'void sc_reward_t::update_openybtotal(int32_t)':
+sc_reward.cpp:4791:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:4791:71: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp: In member function 'std::string sc_reward_t::update_limit_sevenpay()':
+sc_reward.cpp:5098:13: warning: unused variable 'seven_count' [-Wunused-variable]
+sc_reward.cpp: In member function 'void sc_reward_t::update_sevenpay_info()':
+sc_reward.cpp:5159:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:5159:110: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_reward.cpp:5158:14: warning: unused variable 'cur_timestamp' [-Wunused-variable]
+sc_user.cpp: In lambda function:
+sc_user.cpp:1887:9: warning: control reaches end of non-void function [-Wreturn-type]
+sc_task.cpp: In member function 'int sc_task_mgr_t::commit(int, int)':
+sc_task.cpp:256:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_arena.cpp: In member function 'void sc_arena_t::win(int, int32_t, int, sc_msg_def::ret_end_arena_fight_t&)':
+sc_arena.cpp:738:9: warning: variable 'index' set but not used [-Wunused-but-set-variable]
+sc_arena.cpp: In member function 'void sc_arena_t::record_a(bool, int32_t, int32_t, sp_view_user_t, int, int, int)':
+sc_arena.cpp:859:9: warning: unused variable 'time' [-Wunused-variable]
+sc_arena.cpp: In member function 'int sc_arena_t::fight(sc_msg_def::ret_begin_arena_fight_t&, int)':
+sc_arena.cpp:927:58: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_arena.cpp:927:95: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_arena.cpp:966:14: warning: unused variable 'rseed' [-Wunused-variable]
+In file included from sc_arena_rank.cpp:1:0:
+sc_arena_rank.h: In constructor 'sc_arena_rank_t::sc_arena_rank_t()':
+sc_arena_rank.h:59:41: warning: 'sc_arena_rank_t::m_send_reward_stamp' will be initialized after [-Wreorder]
+sc_arena_rank.h:56:41: warning:   'bool sc_arena_rank_t::issend1' [-Wreorder]
+sc_arena_rank.cpp:34:1: warning:   when initialized here [-Wreorder]
+sc_arena_rank.cpp: In member function 'int sc_arena_rank_t::load_db(std::vector<int>&)':
+sc_arena_rank.cpp:90:9: warning: unused variable 'size_data' [-Wunused-variable]
+In file included from sc_boss.cpp:1:0:
+sc_boss.h: In constructor 'sc_boss_t::sc_boss_t()':
+sc_boss.h:76:10: warning: 'sc_boss_t::reward0' will be initialized after [-Wreorder]
+sc_boss.h:72:27: warning:   'bool sc_boss_t::is_join_reward' [-Wreorder]
+sc_boss.cpp:62:1: warning:   when initialized here [-Wreorder]
+sc_boss.cpp: In member function 'int32_t sc_world_boss_t::is_boss_available()':
+sc_boss.cpp:592:61: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_boss.cpp:592:134: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_boss.cpp:596:74: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_boss.cpp:589:13: warning: unused variable 'base' [-Wunused-variable]
+sc_boss.cpp: In member function 'void sc_gang_boss_t::load_db(int32_t)':
+sc_boss.cpp:1668:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_arena.cpp: In member function 'bool sc_arena_t::is_in_rank(int, int)':
+sc_arena.cpp:147:1: warning: control reaches end of non-void function [-Wreturn-type]
+sc_boss.cpp: In member function 'int32_t sc_world_boss_t::send_gang_boss_reward(int32_t, int32_t)':
+sc_boss.cpp:1123:1: warning: control reaches end of non-void function [-Wreturn-type]
+sc_new_rune.cpp: In member function 'void sc_rune_page_t::hunt(int32_t)':
+sc_new_rune.cpp:149:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_new_rune.cpp:161:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_new_rune.cpp:214:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_new_rune.cpp:227:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_new_rune.cpp: In member function 'int32_t sc_rune_page_t::compose(int32_t, std::vector<int>&, sc_msg_def::ret_new_rune_compose_t&)':
+sc_new_rune.cpp:573:10: warning: unused variable 'rp_rune_next' [-Wunused-variable]
+sc_new_rune.cpp: In member function 'void sc_rune_message_t::get_latest_20(std::vector<sc_msg_def::hunt_news>&)':
+sc_new_rune.cpp:743:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_friend.cpp: In member function 'bool sc_friend_mgr_t::check_send_flower(int32_t)':
+sc_friend.cpp:437:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+sc_arena.cpp: In member function 'int sc_arena_t::fight_end(sc_msg_def::req_end_arena_fight_t&, sc_msg_def::ret_end_arena_fight_t&)':
+sc_arena.cpp:1097:85: warning: 'rrank_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+sc_shop.cpp: In member function 'int sc_shop_t::unicast_npc_shop_items(int)':
+sc_shop.cpp:576:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_shop.cpp:615:49: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_shop.cpp: In member function 'void sc_npcshop_t::update()':
+sc_shop.cpp:868:13: warning: unused variable 'npcsize' [-Wunused-variable]
+sc_shop.cpp:869:13: warning: unused variable 'spsize' [-Wunused-variable]
+sc_shop.cpp: In member function 'void sc_expeditionshop_mgr_t::load_db()':
+sc_shop.cpp:997:54: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_shop.cpp: In member function 'void sc_gang_shop_mgr_t::load_db()':
+sc_shop.cpp:2032:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_shop.cpp: In member function 'void sc_rune_shop_mgr_t::load_db()':
+sc_shop.cpp:2199:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_treasure.cpp: In member function 'void sc_treasure_t::get_first_pass_treasure_reward(int32_t)':
+sc_treasure.cpp:220:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_treasure.cpp: In member function 'int32_t sc_treasure_t::pass_round()':
+sc_treasure.cpp:365:9: warning: unused variable 'n1' [-Wunused-variable]
+sc_treasure.cpp:365:14: warning: unused variable 'n2' [-Wunused-variable]
+sc_treasure.cpp: In member function 'int32_t sc_treasure_t::occupy_fight_end(sc_msg_def::req_treasure_fight_end_t&, sc_msg_def::ret_treasure_fight_end_t&)':
+sc_treasure.cpp:683:17: warning: unused variable 'last_stamp' [-Wunused-variable]
+sc_treasure.cpp: In member function 'void sc_treasure_t::unicast_revenge_info()':
+sc_treasure.cpp:2721:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_pay.cpp: In lambda function:
+sc_pay.cpp:143:68: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_pay.cpp:143:131: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_pay.cpp: In lambda function:
+sc_pay.cpp:343:68: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_pay.cpp:343:131: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_star.cpp: In member function 'void sc_star_mgr_t::open_attr(sc_msg_def::req_star_open_t&)':
+sc_star.cpp:275:17: warning: unused variable 'size' [-Wunused-variable]
+sc_star.cpp:204:13: warning: variable 'rare' set but not used [-Wunused-but-set-variable]
+sc_star.cpp: In member function 'void sc_star_mgr_t::flush_attr(sc_msg_def::req_star_flush_t&)':
+sc_star.cpp:483:17: warning: unused variable 'size' [-Wunused-variable]
+sc_star.cpp: In member function 'void sc_star_mgr_t::get_attr(sc_msg_def::req_star_get_t&)':
+sc_star.cpp:610:17: warning: unused variable 'size' [-Wunused-variable]
+In file included from sc_scuffle.cpp:1:0:
+sc_scuffle.h: In constructor 'sc_scuffle_hero_t::sc_scuffle_hero_t(int32_t, int32_t, const string&, int32_t, int32_t, sc_scuffle_t&)':
+sc_scuffle.h:42:13: warning: 'sc_scuffle_hero_t::viplevel' will be initialized after [-Wreorder]
+sc_scuffle.h:41:13: warning:   'int32_t sc_scuffle_hero_t::old_scene' [-Wreorder]
+sc_scuffle.cpp:66:1: warning:   when initialized here [-Wreorder]
+In file included from sc_scuffle.cpp:1:0:
+sc_scuffle.h:63:13: warning: 'sc_scuffle_hero_t::hp_percent' will be initialized after [-Wreorder]
+sc_scuffle.h:52:13: warning:   'int32_t sc_scuffle_hero_t::morale' [-Wreorder]
+sc_scuffle.cpp:66:1: warning:   when initialized here [-Wreorder]
+sc_scuffle.cpp: In member function 'void sc_scuffle_t::req_score_rank(int32_t)':
+sc_scuffle.cpp:356:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_scuffle.cpp: In member function 'void sc_scuffle_t::rank_reward()':
+sc_scuffle.cpp:390:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_scuffle.cpp: In member function 'void sc_scuffle_mgr_t::update()':
+sc_scuffle.cpp:855:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_scuffle.cpp: In member function 'void sc_scuffle_mgr_t::exit_scuffle(sp_user_t)':
+sc_scuffle.cpp:1097:34: warning: unused variable 'ret' [-Wunused-variable]
+sc_scuffle.cpp: In member function 'void sc_scuffle_mgr_t::enter_scuffle(sp_user_t, int32_t)':
+sc_scuffle.cpp:1314:13: warning: unused variable 'code' [-Wunused-variable]
+sc_scuffle.cpp: In member function 'void sc_scuffle_mgr_t::enter_battle(sp_user_t, int32_t)':
+sc_scuffle.cpp:1586:47: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_lv_rank.cpp: In member function 'void sc_lv_rank_t::send_reward()':
+sc_lv_rank.cpp:189:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_gmail.cpp: In static member function 'static void sc_gmail_mgr_t::add_offmail(int32_t, const string&, const string&, const string&, int, std::vector<sc_msg_def::jpk_item_t>&, int)':
+sc_gmail.cpp:221:594: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int64_t {aka long int}' [-Wformat]
+sc_rank_season.cpp: In member function 'void sc_rank_season_t::rank_reward(int32_t, int32_t, sp_user_t)':
+sc_rank_season.cpp:218:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_rank_season.cpp: In member function 'void sc_rank_season_t::season_reward(int32_t, int32_t, sp_user_t)':
+sc_rank_season.cpp:269:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from sc_guild_battle.cpp:1:0:
+sc_guild_battle.h: In constructor 'sc_guild_battle_t::sc_guild_battle_t()':
+sc_guild_battle.h:286:10: warning: 'sc_guild_battle_t::during_summary' will be initialized after [-Wreorder]
+sc_guild_battle.h:281:10: warning:   'bool sc_guild_battle_t::battle_over' [-Wreorder]
+sc_guild_battle.cpp:100:1: warning:   when initialized here [-Wreorder]
+sc_guild_battle.cpp: In member function 'void sc_guild_battle_t::load_g_opponent()':
+sc_guild_battle.cpp:498:13: warning: variable 'hostnum' set but not used [-Wunused-but-set-variable]
+sc_guild_battle.cpp: In member function 'void sc_guild_battle_t::save_arrange_partner(int32_t, int32_t*, bool)':
+sc_guild_battle.cpp:616:46: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int32_t* {aka int*}' [-Wformat]
+sc_guild_battle.cpp: In member function 'void sc_guild_battle_t::save_user_info(int32_t, std::string)':
+sc_guild_battle.cpp:982:22: warning: unused variable 'info' [-Wunused-variable]
+sc_guild_battle.cpp: In member function 'bool sc_guild_battle_t::set_pos_state(int32_t, int32_t, int32_t, int32_t)':
+sc_guild_battle.cpp:2667:66: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_guild_battle.cpp: In member function 'int32_t sc_guild_battle_user_t::building_level_up(int32_t, int32_t, int32_t&)':
+sc_guild_battle.cpp:3650:13: warning: unused variable 'key_next' [-Wunused-variable]
+sc_guild_battle.cpp: In member function 'int32_t sc_guild_battle_t::user_fight(int32_t)':
+sc_guild_battle.cpp:3183:1: warning: control reaches end of non-void function [-Wreturn-type]
+sc_logic.cpp: In function 'bool isValidMac(const string&)':
+sc_logic.cpp:761:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_logic.cpp: In member function 'void sc_logic_t::on_req_change_name(uint64_t, msg_dispatcher_t<sc_logic_t>::sp_rpc_conn_t, sc_msg_def::req_change_name_t&)':
+sc_logic.cpp:1326:21: warning: unused variable 'tp' [-Wunused-variable]
+sc_logic.cpp: In member function 'void sc_logic_t::on_send_bullet(uint64_t, msg_dispatcher_t<sc_logic_t>::sp_rpc_conn_t, sc_msg_def::req_send_bullet_t&)':
+sc_logic.cpp:8284:10: warning: unused variable 'res' [-Wunused-variable]
+sc_battle_pvp.cpp: In member function 'void sc_fobj_t::fskill_t::cast_skill()':
+sc_battle_pvp.cpp:425:10: warning: variable 'fill_buff_record' set but not used [-Wunused-but-set-variable]
+sc_battle_pvp.cpp: In member function 'int sc_battlefield_t::find_target_VL(sc_fobj_t*, int, sc_fobj_t**, int)':
+sc_battle_pvp.cpp:1254:1: warning: no return statement in function returning non-void [-Wreturn-type]
+sc_limit_round.cpp: In member function 'void sc_limit_round_mgr_t::get_user_round_data(int, sc_user_t&, sc_msg_def::jpk_round_data_t&)':
+sc_limit_round.cpp:181:13: warning: variable 'maxtimes' set but not used [-Wunused-but-set-variable]
+sc_limit_round.cpp: In member function 'void sc_limit_round_mgr_t::user_round_battle_res(int, int, int, sp_user_t&, std::string)':
+sc_limit_round.cpp:434:13: warning: unused variable 'size' [-Wunused-variable]
+sc_battle_pvp.cpp: At global scope:
+sc_battle_pvp.cpp:197:12: warning: 'stand_y' defined but not used [-Wunused-variable]
+In file included from sc_wing.h:9:0,
+                 from sc_wing.cpp:1:
+../common/db_ext.h: In member function 'void sc_wing_mgr_t::compose(int32_t)':
+../common/db_ext.h:2691:1: warning: 'aim_resid' may be used uninitialized in this function [-Wmaybe-uninitialized]
+sc_wing.cpp:281:9: note: 'aim_resid' was declared here
+In file included from sc_union_rank.cpp:1:0:
+sc_union_rank.h: In constructor 'sc_union_rank_t::sc_union_rank_t()':
+sc_union_rank.h:30:14: warning: 'sc_union_rank_t::timeStamp' will be initialized after [-Wreorder]
+sc_union_rank.h:27:13: warning:   'bool sc_union_rank_t::issend' [-Wreorder]
+sc_union_rank.cpp:10:1: warning:   when initialized here [-Wreorder]
+sc_friend_flower.cpp: In member function 'bool sc_friend_flower_t::checkIsOrNoSendFlower(int32_t, int32_t)':
+sc_friend_flower.cpp:60:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_friend_flower.cpp:69:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_friend_flower.cpp:48:10: warning: unused variable 'time' [-Wunused-variable]
+sc_friend_flower.cpp:49:14: warning: unused variable 'latesttime' [-Wunused-variable]
+sc_reward_mcard.cpp: In member function 'void sc_reward_mcard_t::update_reward()':
+sc_reward_mcard.cpp:55:9: warning: variable 'mcardn' set but not used [-Wunused-but-set-variable]
+sc_reward_mcard.cpp:56:9: warning: variable 'mcardbuytm' set but not used [-Wunused-but-set-variable]
+sc_card_event.cpp: In member function 'void sc_card_event_t::reset_card_event_round()':
+sc_card_event.cpp:289:17: warning: unused variable 'pid_' [-Wunused-variable]
+sc_card_event.cpp: In member function 'void sc_card_event_t::add_user_log()':
+sc_card_event.cpp:521:17: warning: unused variable 'difficult' [-Wunused-variable]
+sc_card_event.cpp: In member function 'int32_t sc_card_event_user_t::point_reward()':
+sc_card_event.cpp:1368:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_card_event.cpp: In member function 'void sc_card_event_user_t::difficult_reward()':
+sc_card_event.cpp:1406:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_card_event.cpp: In member function 'void sc_card_event_user_t::open_reward()':
+sc_card_event.cpp:1434:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_rank.cpp: In member function 'int sc_rank_t::unicast_rank_infos(int32_t, std::vector<sc_msg_def::jpk_rank_t>&)':
+sc_rank.cpp:64:1: warning: no return statement in function returning non-void [-Wreturn-type]
+sc_soulrank.cpp: In member function 'void sc_soulrank_t::init_soulrank()':
+sc_soulrank.cpp:36:17: warning: unused variable 'id' [-Wunused-variable]
+sc_soulrank.cpp:25:10: warning: variable 'f' set but not used [-Wunused-but-set-variable]
+sc_card_event.cpp: In member function 'int32_t sc_card_event_t::latest_season()':
+sc_card_event.cpp:183:17: warning: 'event_id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+sc_farm.cpp:17:0: warning: "FARM_LV" redefined [enabled by default]
+sc_farm.cpp:16:0: note: this is the location of the previous definition
+sc_farm.cpp:18:0: warning: "FARM_LV" redefined [enabled by default]
+sc_farm.cpp:17:0: note: this is the location of the previous definition
+sc_rank_match.cpp: In member function 'int32_t sc_rank_match_t::cancel_wait(int32_t, sp_user_t)':
+sc_rank_match.cpp:340:1: warning: control reaches end of non-void function [-Wreturn-type]
+sc_chip_smash.cpp: In member function 'int sc_chip_smash_t::unicast_smash_items()':
+sc_chip_smash.cpp:61:37: warning: NULL used in arithmetic [-Wpointer-arith]
+sc_chip_smash.cpp:78:35: warning: NULL used in arithmetic [-Wpointer-arith]
+sc_soul.cpp: In member function 'int32_t sc_soul_t::get_reward(sc_msg_def::ret_get_soul_reward_t&, bool)':
+sc_soul.cpp:315:48: warning: 'second' may be used uninitialized in this function [-Wmaybe-uninitialized]
+sc_soul.cpp:316:47: warning: 'first' may be used uninitialized in this function [-Wmaybe-uninitialized]
+sc_soul.cpp: In member function 'int32_t sc_soul_t::hunt(sc_msg_def::ret_hunt_soul_t&)':
+sc_soul.cpp:124:26: warning: 'aim_id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from sc_pub_rank.cpp:1:0:
+sc_pub_rank.h: In constructor 'sc_pub_rank_t::sc_pub_rank_t()':
+sc_pub_rank.h:32:33: warning: 'sc_pub_rank_t::m_pub_serize_tm' will be initialized after [-Wreorder]
+sc_pub_rank.h:30:33: warning:   'bool sc_pub_rank_t::issend' [-Wreorder]
+sc_pub_rank.cpp:13:1: warning:   when initialized here [-Wreorder]
+sc_pub_rank.cpp: In member function 'void sc_pub_rank_t::send_reward()':
+sc_pub_rank.cpp:181:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_farm.cpp: In member function 'int32_t sc_farm_mgr_t::harvest_farm_item(int32_t)':
+sc_farm.cpp:155:54: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_farm.cpp:157:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_report.cpp: In member function 'int32_t sc_report_t::reportuser(int32_t)':
+sc_report.cpp:63:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+sc_report.cpp:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+make[1]: *** No rule to make target `all'.  Stop.
+make: *** [all-recursive] Error 1

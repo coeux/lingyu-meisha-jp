@@ -1,0 +1,6 @@
+<TextureAtlas name="S697_2" width="256" height="256">
+  <SubTexture name="元件 8" width="116" height="110" cocos2d_pX="58" cocos2d_pY="55" x="132" y="124"/>
+  <SubTexture name="元件 7" width="130" height="125" cocos2d_pX="65" cocos2d_pY="63" x="0" y="0"/>
+  <SubTexture name="元件 6" width="112" height="122" cocos2d_pX="56" cocos2d_pY="61" x="132" y="0"/>
+  <SubTexture name="元件 5" width="104" height="110" cocos2d_pX="52" cocos2d_pY="55" x="0" y="127"/>
+</TextureAtlas>

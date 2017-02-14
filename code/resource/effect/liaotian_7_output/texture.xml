@@ -1,0 +1,6 @@
+<TextureAtlas name="liaotian_7" width="32" height="64">
+  <SubTexture name="元件 1" width="16" height="7" x="0" y="34"/>
+  <SubTexture name="元件 2" width="10" height="7" x="18" y="34"/>
+  <SubTexture name="元件 4" width="20" height="5" x="0" y="27"/>
+  <SubTexture name="元件 24" width="28" height="25" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,198 @@
+number	string	number	string	string	string	string	number	number	number	number	number	number	number	number	array	number	number	number	number	number	number	number	string	string	number	string	string
+id	name	job	img	path	atk_script	hit_script	bodytype	actiontime	skill_cancel_time	width	height	speed	hit_rate	hit_area	factor	skill	atk_power	hit_power	kill_power	total_power	shadow	trail	skill_script	next_skill	skill_auto	skill_auto_script	icon
+3001	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.5,1,1.8,0.1,1.6]"		0	0	0	0	2	0					M011_icon_01
+3002	ドラコン	3	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[2.5,1.2,1,1,0.45]"		1	0	0	0	2	0					M014_icon_01
+3003	狙撃手	2	M013	M013_output	M013_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.5,1,1,0.5,0.6]"		0	0	45	0	2	0					M013_icon_01
+3004	サイキック	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[2.5,1,1,1,1]"	524	1	0.5	10	25	2	0	S524_magic_M001_attack	S525_magic_M001_attack			M001_icon_01
+3005	幽霊	1	H005	H005_output	H005_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	530	1	0.5	10	25	2	0	S530_magic_H005_attack	S531_magic_H005_attack	525	H005_auto525_attack	H005_icon_01
+3006	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1.53,1,1,1,0.15]"	527	1	0.5	50	25	2	0	S527_magic_H002_attack	S528_magic_H002_attack			H002_icon_01
+3007	まくら	3	H020	H020_output	H020_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.53,4,1,1,0.9]"	698	0	0	0	0	2	0	S698_magic_H020_attack	S699_magic_H020_attack			H020_icon_01
+3008	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.53,1,1,1,1]"	527	0	0	0	0	2	0	S527_magic_H005_attack	S528_magic_H005_attack			H005_icon_01
+3009	水桃	1	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	530	1	0.5	10	25	2	0	S530_magic_H014_attack	S531_magic_H014_attack	526	H014_auto526_attack	H014_icon_01
+3010	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.76,0.67,1.15,1.15,1.05]"	130	1	0.5	10	25	2	0	S130_magic_H007_attack	S131_magic_H007_attack	538	H007_auto138_attack	H007_icon_01
+3011	ウルリカ	1	H024	H024_output	H024_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.8,0.99,1.16,1.16,2.82]"	170	1	0.5	10	25	2	0	S170_magic_H024_attack		174	H024_auto174_attack	H024_icon_01
+3030	幽霊	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M001_icon_01
+3031	霊	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.02,1,1,1,0.9]"		1	0.5	10	25	2	1					M002_icon_01
+3032	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M011_icon_01
+3033	駆逐者	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1.1]"	533	1	0.5	10	50	2	0	S533_magic_H002_attack	S534_magic_H002_attack	532	H002_auto532_attack	H002_icon_01
+3034	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.02,1.2,1,1,1.1]"	212	1	0.5	10	50	2	1	S212_magic_H017_attack	S213_magic_H017_attack	216	H017_auto216_attack	H017_icon_01
+3035	まくら	3	H020	H020_output	H020_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1,1,1,1,1.1]"	698	1	0.5	10	50	2	0	S698_magic_H020_attack	S699_magic_H020_attack	538	H020_auto538_attack	H020_icon_01
+3036	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1.05,1,1,1,1]"		1	0.5	10	50	2	0					M010_icon_01
+3037	看護師	2	M015	M015_output	M015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1.1]"		1	0.5	10	25	2	0					M012_icon_01
+3038	水桃	1	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1.2,1,1,1]"	144	1	0.5	10	25	2	0	S144_magic_H014_attack	S145_magic_H014_attack	142	H014_auto142_attack	H014_icon_01
+3039	双刀工兵	2	M012	M012_output	M012_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1.2,1.2,1,1,1]"	648	1	0.5	10	25	2	0	S648_magic_M012_attack		649	M012_auto649_attack	M012_icon_01
+3040	騎士	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1.1,1.1,1.3]"		1	0.5	10	25	2	0					M001_icon_01
+3041	軍医	3	M009	M009_output	M009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.02,1.1,1,1.1,0.9]"	646	1	0.5	10	25	2	1	S646_magic_M009_attack		647	M009_auto647_attack	M009_icon_01
+3042	忍者	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M001_icon_01
+3043	冥翠	2	H004	H004_output	H004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"	310	1	0.5	10	25	2	0	S310_magic_H004_attack	S311_magic_H004_attack	316	H004_auto316_attack	H004_icon_01
+3044	コーディー	1	H015	H015_output	H015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	200	1	0.5	10	25	2	0	S200_magic_H015_attack	S201_magic_H015_attack	208	H015_auto208_attack	H015_icon_01
+3045	勇士	2	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"	535	1	0.5	10	25	2	1	S535_magic_H014_attack	S536_magic_H014_attack	536	H014_auto536_attack	H014_icon_01
+3046	兵士	1	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M014_icon_01
+3047	刺客	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M004_icon_01
+3048	隠者	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[0.85,1,0.85,0.85,1]"		1	0.5	10	25	2	1					M002_icon_01
+3049	望乃	1	H006	H006_output	H006_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	161	1	0.5	10	25	2	0	S161_magic_H006_attack	S162_magic_H006_attack	166	H006_auto166_attack	H006_icon_01
+3050	兵士	1	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1.05]"		1	0.5	10	25	2	0					M014_icon_01
+3051	双刀工兵	2	M012	M012_output	M012_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"		1	0.5	10	25	2	0					M012_icon_01
+3052	戦士	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.53,1,1,1,1]"		1	0.5	50	25	2	1					M002_icon_01
+3053	ディオニシス	2	H018	H018_output	H018_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"	392	1	0.5	10	25	2	0	S392_magic_H018_attack	S393_magic_H018_attack	398	H018_auto398_attack	H018_icon_01
+3054	幽霊	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"		1	0.5	10	25	2	0					M001_icon_01
+3055	ドラゴン[火]	2	M102	M102_output	M102_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"	512	1	0.5	10	25	2	0	S512_magic_M102_attack	S513_magic_M102_attack	549	M102_auto549_attack	M102_icon_01
+3056	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"		1	0.5	10	25	2	0					M011_icon_01
+3057	マクシーン	1	H012	H012_output	H012_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	350	1	0.5	10	25	2	0	S350_magic_H012_attack	S351_magic_H012_attack	537	H012_auto537_attack	H012_icon_01
+3058	軍事顧問	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[0.94,0.94,0.76,0.76,0.72]"		1	0.5	10	25	2	1					M002_icon_01
+3059	霊兵士	3	H009	H009_output	H009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.36,1.06,0.9,0.9,0.56]"	300	1	0.5	10	25	2	1	S300_magic_H009_attack	S301_magic_H009_attack	328	H009_auto328_attack	H009_icon_01
+3060	番兵	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.85,0.85,0.8,0.8,0.8]"		1	0.5	10	25	2	0					M004_icon_01
+3061	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.06,0.26,0.9,0.9,0.86]"	180	1	0.5	10	25	2	1	S180_magic_H005_attack	S181_magic_H005_attack	538	H005_auto538_attack	H005_icon_01
+3062	狂剣士	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.91,0.82,1,1,1.25]"		1	0.5	10	25	2	0					H007_icon_01
+3063	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.76,0.67,1.15,1.15,1.05]"	130	1	0.5	10	25	2	0	S130_magic_H007_attack	S131_magic_H007_attack	138	H007_auto138_attack	H007_icon_01
+3064	駆逐者	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.91,0.82,1,1,1.05]"	533	1	0.5	10	25	2	0	S533_magic_H002_attack	S534_magic_H002_attack	532	H002_auto532_attack	H002_icon_01
+3065	葵華	2	H003	H003_output	H003_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"	152	1	0.5	10	25	2	1	S152_magic_H003_attack	S153_magic_H003_attack	156	H003_auto156_attack	H003_icon_01
+3066	スパイ	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"		1	0.5	10	25	2	0					M004_icon_01
+3067	番兵	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"		1	0.5	10	25	2	0					M004_icon_01
+3068	軍医	3	M009	M009_output	M009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.06,1.06,0.9,0.9,0.86]"	646	1	0.5	10	25	2	1	S646_magic_M009_attack		647	M009_auto647_attack	M009_icon_01
+3069	戦士	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.44,1.09,0.66,0.66,0.57]"		1	0.5	10	25	2	1					M002_icon_01
+3070	軍事顧問	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1,1,1,1,1]"		1	0.5	10	25	2	1					M002_icon_01
+3071	勇士	2	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1,1,1,1,1]"	535	1	0.5	10	25	2	1	S535_magic_H014_attack	S536_magic_H014_attack	536	H014_auto536_attack	H014_icon_01
+3072	番兵	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.67,0.67,0.77,0.77,0.88]"		1	0.5	10	25	2	0					M001_icon_01
+3073	ガード	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.77,0.77,0.67,0.67,0.8]"		1	0.5	10	25	2	0					M004_icon_01
+3074	軍事顧問	3	M009	M009_output	M009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[0.74,0.84,0.76,0.76,0.72]"	646	1	0.5	10	25	2	1	S646_magic_M009_attack		647	M009_auto647_attack	M009_icon_01
+3075	隠者	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[1.06,1.16,0.9,0.9,0.86]"		1	0.5	10	25	2	1					M002_icon_01
+3076	イレーネ	3	H010	H010_output	H010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	260	"[0.85,1,0.85,0.85,1]"	360	1	0.5	10	25	2	1	S360_magic_H010_attack	S361_magic_H010_attack	540	H010_auto540_attack	H010_icon_01
+3077	巨熊	1	M101	M101_output	M101_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[1,1,1,1,1]"	547	1	0.5	10	25	2	0	S547_magic_M101_attack	S548_magic_M101_attack	546	M101_auto546_attack	M101_icon_01
+3078	サイキック	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"		1	0.5	10	25	2	0					M001_icon_01
+3079	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.85,0.85,0.9,0.9,0.8]"		1	0.5	15	25	2	0					H002_icon_01
+3080	ミリアム	1	H022	H022_output	H022_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.91,0.82,1,1,1.05]"		1	0.5	10	25	2	0					H022_icon_01
+3081	魂	1	M103	M103_output	M103_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"	686	1	0.5	10	25	2	0	S686_magic_M103_attack		687	M103_auto687_attack	M103_icon_01
+3082	炎のドラゴン	2	M102	M102_output	M102_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"	688	1	0.5	10	25	2	0	S688_magic_M102_attack	S689_magic_M102_attack	689	M102_auto689_attack	M102_icon_01
+3083	巨人	1	M104	M104_output	M104_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"	690	1	0.5	10	25	2	0	S690_magic_M104_attack		691	M104_auto691_attack	M104_icon_01
+3084	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"	692	1	0.5	10	25	2	0	S692_magic_M010_attack		693	M010_auto693_attack	M010_icon_01
+3085	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[0.96,0.96,0.95,0.95,0.95]"	694	1	0.5	10	25	2	0	S694_magic_M010_attack		695	M010_auto695_attack	M010_icon_01
+3086	破壊マシーン	1	M105	M105_output	M105_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	15	"[0.77,0.77,0.84,0.84,0.88]"	696	1	0.5	10	25	2	0	S696_magic_M105_attack				M105_icon_01
+3090	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.65	130	"[1.05,1,1,1,1]"		1	0	48	0	2	0					M010_icon_01
+4001	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M010_icon_01
+4002	狂戦士	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M001_icon_01
+4003	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	533	1	0.5	10	50	2	0	S533_magic_H002_attack	S534_magic_H002_attack	532	H002_auto532_attack	H002_icon_01
+4004	葵華	2	H003	H003_output	H003_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	152	1	0.5	10	50	2	1	S152_magic_H003_attack	S153_magic_H003_attack	156	H003_auto156_attack	H003_icon_01
+4005	番兵	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M004_icon_01
+4006	狙撃手	3	M013	M013_output	M013_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	1					M013_icon_01
+4007	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	180	1	0.5	10	50	2	1	S180_magic_H005_attack	S181_magic_H005_attack	538	H005_auto538_attack	H005_icon_01
+4008	兵士	1	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M014_icon_01
+4009	軍医	3	M009	M009_output	M009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	646	1	0.5	10	50	2	1	S646_magic_M009_attack		647	M009_auto647_attack	M009_icon_01
+4010	戦士	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	1					M002_icon_01
+4011	竜牙	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	539	1	0.5	10	50	2	0	S539_magic_H007_attack	S540_magic_H007_attack	531	H007_auto531_attack	H007_icon_01
+4012	ルミア	2	H024	H024_output	H024_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	372	1	0.5	10	50	2	1	S372_magic_H024_attack	S373_magic_H024_attack	378	H024_auto378_attack	H024_icon_01
+4013	尤奈	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	541	1	0.5	10	50	2	1	S541_magic_M002_attack	S542_magic_M002_attack	542	M002_auto542_attack	M002_icon_01
+4014	霊	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	1					M002_icon_01
+4015	忍者	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M001_icon_01
+4016	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	543	1	0.5	10	50	2	0	S543_magic_H002_attack	S544_magic_H002_attack	544	H002_auto544_attack	H002_icon_01
+4017	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	212	1	0.5	10	50	2	1	S212_magic_H017_attack	S213_magic_H017_attack	216	H017_auto216_attack	H017_icon_01
+4018	まくら	2	H020	H020_output	H020_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	190	1	0.5	10	50	2	0	S190_magic_H020_attack	S191_magic_H020_attack	538	H020_auto538_attack	H020_icon_01
+4019	幽霊	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M001_icon_01
+4020	狂剣士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M011_icon_01
+4021	双刀工兵	2	M012	M012_output	M012_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M012_icon_01
+4022	魂の勇者	1	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	144	1	0.5	10	50	2	0	S144_magic_H014_attack	S145_magic_H014_attack	142	H014_auto142_attack	H014_icon_01
+4023	望乃	1	H006	H006_output	H006_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	161	1	0.5	10	50	2	0	S161_magic_H006_attack	S162_magic_H006_attack	166	H006_auto166_attack	H006_icon_01
+4024	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	130	1	0.5	10	50	2	0	S130_magic_H007_attack	S131_magic_H007_attack	138	H007_auto138_attack	H007_icon_01
+4025	冥翠	2	H004	H004_output	H004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	310	1	0.5	10	50	2	0	S310_magic_H004_attack	S311_magic_H004_attack	316	H004_auto316_attack	H004_icon_01
+4026	刺客	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M004_icon_01
+4027	冥翠	3	H004	H004_output	H004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	310	1	0.5	10	50	2	1	S310_magic_H004_attack	S311_magic_H004_attack	316	H004_auto316_attack	H004_icon_01
+4028	コーディー	1	H015	H015_output	H015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	200	1	0.5	10	50	2	0	S200_magic_H015_attack	S201_magic_H015_attack	208	H015_auto208_attack	H015_icon_01
+4029	軍事顧問	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	1					M002_icon_01
+4030	エミリ	1	H023	H023_output	H023_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	220	1	0.5	10	50	2	0	S220_magic_H023_attack	S221_magic_H023_attack	228	H023_auto228_attack	H023_icon_01
+4031	麗雅	2	H008	H008_output	H008_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	230	1	0.5	10	50	2	0	S230_magic_H008_attack	S231_magic_H008_attack	234	H008_auto234_attack	H008_icon_01
+4032	キャロル	3	H011	H011_output	H011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	250	1	0.5	10	50	2	0	S250_magic_H011_attack	S251_magic_H011_attack	534	H011_auto534_attack	H011_icon_01
+4033	勇士	2	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"	535	1	0.5	10	50	2	1	S535_magic_H014_attack	S536_magic_H014_attack	536	H014_auto536_attack	H014_icon_01
+4034	霊兵士	3	H009	H009_output	H009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[0.9,0.9,0.9,0.9,0.9]"	300	1	0.5	10	50	2	1	S300_magic_H009_attack	S301_magic_H009_attack	308	H009_auto308_attack	H009_icon_01
+4035	ミリアム	2	H022	H022_output	H022_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.9,0.9,0.9,0.9,0.9]"		1	0.5	10	50	2	1					H022_icon_01
+4036	リーゼロッテ	1	H016	H016_output	H016_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	320	1	0.5	10	50	2	0	S320_magic_H016_attack	S321_magic_H016_attack	328	H016_auto328_attack	H016_icon_01
+4037	魂の勇者	1	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.9,0.9,0.9,0.9,0.9]"	144	1	0.5	10	50	2	0	S144_magic_H014_attack	S145_magic_H014_attack	142	H014_auto142_attack	H014_icon_01
+5001	ダークガード	2	M004	M004_output	M004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[0.92,0.92,0.9,0.9,0.9]"		1	0.5	10	50	2	0					M004_icon_01
+5002	ダークガード	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.01,1.01,0.86,0.86,0.81]"		1	0.5	10	50	2	0					M002_icon_01
+5003	ダークガード	2	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[6,1.25,1.25,1.11,1.11]"	522	1	0.5	10	50	2	0	S522_magic_M001_attack	S523_magic_M001_attack			M001_icon_01
+6001	軍医	3	M009	M009_output	M009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.392,1.392,1.2,1.2,1.782]"	646	1	0.5	10	25	2	0	S646_magic_M009_attack		647	M009_auto647_attack	M009_icon_01
+6002	狂戦士	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.538]"		1	0.5	10	25	2	0					M001_icon_01
+6003	忍者	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.02,1.02,1.44,1.56,2.178]"		1	0.5	10	25	2	0					M001_icon_01
+6004	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.26,1.74,1.14,1.14,1.8]"		1	0.5	10	25	2	0					M010_icon_01
+6005	霊	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.752,1.392,1.08,1.08,1.602]"		1	0.5	10	25	2	0					M002_icon_01
+6006	兵士	1	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.178]"		1	0.5	10	25	2	0					M014_icon_01
+6007	戦士	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.992,1.572,1.08,1.08,1.512]"		1	0.5	10	25	2	0					M002_icon_01
+6008	幽霊	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.178]"		1	0.5	10	25	2	0					M001_icon_01
+6009	兵奴	1	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.38,1.14,1.2,1.32,2.178]"		1	0.5	10	25	2	0					M001_icon_01
+6010	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.2,1.2,1.44,1.44,2.538]"	543	1.5	0.5	10	25	2	0	S543_magic_H002_attack	S544_magic_H002_attack	544	H002_auto544_attack	H002_icon_01
+6011	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.512,1.512,1.2,1.2,1.782]"	212	1	0.5	10	25	2	0	S212_magic_H017_attack	S213_magic_H017_attack	216	H017_auto216_attack	H017_icon_01
+6012	まくら	2	H020	H020_output	H020_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.26,1.62,1.26,1.26,1.98]"	190	1	0.5	10	25	2	0	S190_magic_H020_attack	S191_magic_H020_attack	538	H020_auto538_attack	H020_icon_01
+6013	望乃	1	H006	H006_output	H006_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.44,1.44,2.538]"	161	1	0.5	10	25	2	0	S161_magic_H006_attack	S162_magic_H006_attack	166	H006_auto166_attack	H006_icon_01
+6014	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.08,1.08,1.5,1.5,2.178]"	130	1	0.5	10	25	2	0	S130_magic_H007_attack	S131_magic_H007_attack	138	H007_auto138_attack	H007_icon_01
+6015	冥翠	2	H004	H004_output	H004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.38,1.38,1.38,1.38,1.98]"	310	1.5	0.5	10	25	2	0	S310_magic_H004_attack	S311_magic_H004_attack	316	H004_auto316_attack	H004_icon_01
+6016	麗雅	1	H008	H008_output	H008_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.62,1.32,1.32,2.538]"	230	1	0.5	10	25	2	0	S230_magic_H008_attack	S231_magic_H008_attack	234	H008_auto234_attack	H008_icon_01
+6017	ルミア	2	H024	H024_output	H024_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.5,1.26,1.26,1.26,2.16]"	372	1	0.5	10	25	2	0	S372_magic_H024_attack	S373_magic_H024_attack	378	H024_auto378_attack	H024_icon_01
+6018	尤奈	3	M002	M002_output	M002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.392,1.632,1.2,1.2,1.782]"	541	1	0.5	10	25	2	0	S541_magic_M002_attack	S542_magic_M002_attack	542	M002_auto542_attack	M002_icon_01
+6019	魂の勇者	1	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.178]"	144	1	0.5	10	25	2	0	S144_magic_H014_attack	S145_magic_H014_attack	142	H014_auto142_attack	H014_icon_01
+6020	ミリアム	1	H022	H022_output	H022_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.178]"		1	0.5	10	25	2	0					H022_icon_01
+6021	エミリ	1	H023	H023_output	H023_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.32,1.32,2.178]"	220	1	0.5	10	25	2	0	S220_magic_H023_attack	S221_magic_H023_attack	228	H023_auto228_attack	H023_icon_01
+6022	麗雅	2	H008	H008_output	H008_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.26,1.26,1.26,1.26,1.98]"	230	1	0.5	10	25	2	0	S230_magic_H008_attack	S231_magic_H008_attack	234	H008_auto234_attack	H008_icon_01
+6023	キャロル	3	H011	H011_output	H011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.392,1.392,1.2,1.2,1.782]"	250	1	0.5	10	25	2	0	S250_magic_H011_attack	S251_magic_H011_attack	534	H011_auto534_attack	H011_icon_01
+6024	イレーネ	3	H010	H010_output	H010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.512,1.632,1.2,1.2,2.142]"	360	1.5	0.5	10	25	2	0	S360_magic_H010_attack	S361_magic_H010_attack	540	H010_auto540_attack	H010_icon_01
+6025	巨熊	1	M101	M101_output	M101_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.14,1.14,1.2,1.2,3.978]"	547	1	0.5	10	25	2	0	S547_magic_M101_attack	S548_magic_M101_attack	548	M101_auto548_attack	M101_icon_01
+6026	葵華	3	H003	H003_output	H003_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.692,1.452,1.26,1.26,2.322]"	552	1	0.5	10	25	2	0	S552_magic_H003_attack		553	H003_auto553_attack	H003_icon_01
+6027	エミリ	1	H023	H023_output	H023_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,5.076]"	554	1	0.5	10	25	2	0	S554_magic_H023_attack		555	H023_auto555_attack	H023_icon_01
+6028	望乃	1	H006	H006_output	H006_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,5.076]"	556	1	0.5	10	25	2	0	S556_magic_H006_attack		557	H006_auto557_attack	H006_icon_01
+6029	冥翠	2	H004	H004_output	H004_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.56,1.32,1.32,1.32,2.178]"	558	1	0.5	10	25	2	0	S558_magic_H004_attack		559	H004_auto559_attack	H004_icon_01
+6030	ミリアム	1	H022	H022_output	H022_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	560	1	0.5	10	25	2	0	S560_magic_H022_attack		561	H022_auto561_attack	H022_icon_01
+6031	巨人	1	M104	M104_output	M104_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	562	1	0.5	10	25	2	0	S562_magic_M104_attack		563	M104_auto563_attack	M104_icon_01
+6032	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	564	1	0.5	10	25	2	0	S564_magic_H007_attack		565	H007_auto565_attack	H007_icon_01
+6033	オルガ	3	H021	H021_output	H021_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.812,1.812,1.26,1.26,3.042]"	566	1	0.5	10	25	2	0	S566_magic_H021_attack		567	H021_auto567_attack	H021_icon_01
+6034	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	568	1	0.5	10	25	2	0	S568_magic_M001_attack		569	M001_auto569_attack	M011_icon_01
+6035	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	570	1	0.5	10	25	2	0	S570_magic_M001_attack		571	M001_auto571_attack	M011_icon_01
+6036	ウルリカ	1	H024	H024_output	H024_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.548,1.392,1.392,5.076]"	572	1	0.5	10	25	2	0	S572_magic_H024_attack		573	H024_auto573_attack	H024_icon_01
+6037	クラレッタ	3	H009	H009_output	H009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.812,1.452,1.26,1.26,1.422]"	574	1	0.5	10	25	2	0	S574_magic_H009_attack		575	H009_auto575_attack	H009_icon_01
+6038	傀儡	1	M103	M103_output	M103_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.632,1.632,6.876]"	576	1	0.5	10	25	2	0	S576_magic_M103_attack		577	M103_auto577_attack	M103_icon_01
+6039	クラレッタ	3	H009	H009_output	H009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.812,1.452,1.26,1.26,1.782]"	578	1	0.5	10	25	2	0	S578_magic_H009_attack		579	H009_auto579_attack	H009_icon_01
+6040	兵士	2	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.56,1.32,1.32,1.32,5.58]"	580	1	0.5	10	25	2	0	S580_magic_M014_attack		581	M014_auto581_attack	M014_icon_01
+6041	ディオニシス	2	H018	H018_output	H018_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.56,1.56,1.32,1.32,3.78]"	582	1	0.5	10	25	2	0	S582_magic_H018_attack		583	H018_auto583_attack	H018_icon_01
+6042	キャロル	3	H011	H011_output	H011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.812,1.452,1.26,1.26,3.042]"	584	1	0.5	10	25	2	0	S584_magic_H011_attack		585	H011_auto585_attack	H011_icon_01
+6043	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	586	1	0.5	10	25	2	0	S586_magic_M001_attack		587	M001_auto587_attack	M011_icon_01
+6044	狂戦士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	588	1	0.5	10	25	2	0	S588_magic_M001_attack		589	M001_auto589_attack	M011_icon_01
+6045	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.452,1.452,1.26,1.26,3.042]"	590	1	0.5	10	25	2	0	S590_magic_H017_attack		591	H017_auto591_attack	H017_icon_01
+6046	水桃	2	H014	H014_output	H014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.44,1.32,1.32,1.32,3.78]"	592	1	0.5	10	25	2	0	S592_magic_H014_attack		593	H014_auto593_attack	H014_icon_01
+6047	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.452,1.452,1.26,1.26,3.042]"	594	1	0.5	10	25	2	0	S594_magic_H005_attack		595	H005_auto595_attack	H005_icon_01
+6048	コーディー	1	H015	H015_output	H015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	596	1	0.5	10	25	2	0	S596_magic_H015_attack		597	H015_auto597_attack	H015_icon_01
+6049	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	598	1	0.5	10	25	2	0	S598_magic_H002_attack		599	H002_auto599_attack	H002_icon_01
+6050	火炎巨龙	1	M102	M102_output	M102_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.96,1.188,1.392,1.392,6.876]"	600	1	0.5	10	25	2	0	S600_magic_M102_attack		601	M102_auto601_attack	M102_icon_01
+7001	兵士	2	M014	M014_output	M014_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1,1,1.2,1.2,4]"	602	1	0.8	10	80	2	0	S602_magic_M014_attack		603	M014_auto603_attack	M014_icon_01
+7002	リーゼロッテ	3	H016	H016_output	H016_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.05,1.05,1.21,1.21,3.69]"	604	1	0.9	10	50	2	0	S604_magic_H016_attack		605	H016_auto605_attack	H016_icon_01
+7003	クラレッタ	3	H009	H009_output	H009_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.05,1.05,1.21,1.21,3.69]"	606	1	0.9	10	150	2	0	S606_magic_H009_attack		607	H009_auto607_attack	H009_icon_01
+7004	キャロル	2	H011	H011_output	H011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.1,1.1,1.2,1.1,3.1]"	608	1	0.9	10	150	2	0	S608_magic_H011_attack		609	H011_auto609_attack	H011_icon_01
+7005	看護師	3	M015	M015_output	M015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.2,1.2,0.89,0.99,3.6]"	610	1	0.8	10	80	2	0	S610_magic_M015_attack		611	M015_auto611_attack	M012_icon_01
+7006	狂剣士	1	M011	M011_output	M011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1,1,1.2,999999.2,4]"	612	1	0.7	10	80	2	0	S612_magic_M001_attack		613	M001_auto613_attack	M011_icon_01
+7007	ウルリカ	2	H024	H024_output	H024_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.1,1.1,1.2,1.1,3.1]"	614	1	0.9	10	200	2	0	S614_magic_H024_attack		615	H024_auto615_attack	H024_icon_01
+7008	ノエリア	1	H007	H007_output	H007_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.2,1.2,1.2,1.2,5]"	616	1	0.9	10	200	2	0	S616_magic_H007_attack		617	H007_auto617_attack	H007_icon_01
+7009	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.05,1.05,1.21,1.21,2.69]"	618	1	0.5	10	25	2	0	S618_magic_H017_attack		619	H017_auto619_attack	H017_icon_01
+7010	双刀工兵	1	M012	M012_output	M012_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1,1,1.2,1.2,3.5]"	620	1	0.8	10	80	2	0	S620_magic_M012_attack		621	M012_auto621_attack	M012_icon_01
+7011	リーゼロッテ	3	H016	H016_output	H016_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.05,1.05,1.51,1.21,2.69]"	624	1	0.9	10	200	2	0	S624_magic_H016_attack		625	H016_auto625_attack	H016_icon_01
+7012	冥能ガード	3	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.2,1.2,0.89,0.99,3.2]"	626	1	0.7	10	80	2	0	S626_magic_M001_attack		627	M001_auto627_attack	M001_icon_01
+7013	望乃	1	H006	H006_output	H006_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.2,1.2,1.2,1.2,4]"	628	1	0.9	10	150	2	0	S628_magic_H006_attack		629	H006_auto629_attack	H006_icon_01
+7014	コーディー	2	H015	H015_output	H015_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.1,1.1,1.2,1.1,5]"	630	1	0.9	10	200	2	0	S630_magic_H015_attack		631	H015_auto631_attack	H015_icon_01
+7015	ミリアム	1	H022	H022_output	H022_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[1.2,1.2,1.2,1.2,5]"	632	1	0.9	10	150	2	0	S632_magic_H022_attack		633	H022_auto633_attack	H022_icon_01
+7016	爆弾研究者	2	M010	M010_output	M010_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.2,1.2,1.2,1.2,3.9]"	636	1	0.8	10	80	2	0	S636_magic_M010_attack		637	M010_auto637_attack	M010_icon_01
+7017	ディオニシス	2	H018	H018_output	H018_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1,1,1.5,1.2,6]"	638	1	0.9	10	200	2	0	S638_magic_H018_attack		639	H018_auto639_attack	H018_icon_01
+7018	キャロル	2	H011	H011_output	H011_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.1,1.1,1.5,1.1,4.5]"	640	1	0.9	10	200	2	0	S640_magic_H011_attack		641	H011_auto641_attack	H011_icon_01
+7019	ディオニシス	2	H018	H018_output	H018_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.45	130	"[1.1,1.1,1.3,1.1,1.1]"	642	1	0.5	10	25	2	0	S642_magic_H018_attack		643	H018_auto643_attack	H018_icon_01
+7020	ダークガード	3	M001	M001_output	M001_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.6	260	"[1.2,1.2,0.89,0.99,2.8]"	644	1	0.7	10	80	2	0	S644_magic_M001_attack		645	M001_auto645_attack	M001_icon_01
+99998	巨人	1	M104	M104_output	M104_normal_attack	hit_11	2	0.2	0.2	100	170	66	1.8	15	"[0.8,0.99,1.16,1.16,3.82]"	562	1	0.5	10	25	2	0	S562_magic_M104_attack		699	M104_auto699_attack	M104_icon_01
+99999	世界ボス	2	M105	M105_output	M105_normal_attack	hit_11	2	0.1	0.1	100	170	33	1.45	260	"[1,1,1,1,1]"	696	1	0	50	200000	2	0	S696_magic_M105_attack		699	M105_auto699_attack	M105_icon_01
+8001	メラニー	1	H002	H002_output	H002_normal_attack	hit_11	2	0.1	0.1	100	170	170	1.7	15	"[1,1,1,1,1]"	120	1	0.5	10	50	2	0	S120_magic_H002_attack		124	H002_auto124_attack	H002_icon_01
+8002	エミリ	2	H023	H023_output	H023_normal_attack	hit_11	2	0.1	0.1	100	170	170	1.6	15	"[1,1,1,1,1]"	220	1	0.5	10	50	2	0	S220_magic_H023_attack		224	H023_auto224_attack	H023_icon_01
+8003	ウルリカ	4	H024	H024_output	H024_normal_attack	hit_11	2	0.1	0.1	100	170	150	1.6	130	"[1,1,1,1,1]"	170	1	0.5	10	50	2	0	S170_magic_H024_attack		174	H024_auto174_attack	H024_icon_01
+8004	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_11	2	0.1	0.1	100	170	140	1.8	260	"[1,1,1,1,1]"	180	1	0.5	10	50	2	1	S180_magic_H005_attack		184	H005_auto184_attack	H005_icon_01
+8005	リリヤ	3	H017	H017_output	H017_normal_attack	hit_11	2	0.1	0.1	100	170	140	2	260	"[1,1,1,1,1]"	210	1	0.5	10	50	2	1	S210_magic_H017_attack		214	H017_auto214_attack	H017_icon_01
+8006	ドラコン	3	M102	M102_output	M102_normal_attack	hit_11	2	0.1	0.1	100	170	50	2.1	260	"[1,1,1,1,1]"	512	1	1	10	50	2	0	S512_magic_M102_attack				M102_icon_01
+8007	熊	1	M101	M101_output	M101_normal_attack	hit_11	2	0.1	0.1	100	170	100	1.8	130	"[1,1,1,1,1]"	502	0.5	0.2	10	50	2	0	S502_magic_M101_attack				M101_icon_01
+8011	ウルリカ	2	H024	H024_output	H024_normal_attack	hit_12	2	0.1	0.1	100	170	66	1.6	130	"[1,1,1,1,1]"	173	1	0.6	10	200	2	0	S173_magic_H024_attack		176	H024_auto176_attack	H024_icon_01
+8012	美巴瑠	3	H005	H005_output	H005_normal_attack	hit_13	2	0.1	0.1	100	170	66	1.6	260	"[1,1,1,1,1]"	181	1	0.6	10	200	2	0	S181_magic_H005_attack		187	H005_auto187_attack	H005_icon_01
+8013	イレーネ	1	H010	H010_output	H010_normal_attack	hit_14	2	0.1	0.1	100	170	66	1.6	15	"[1,1,1,1,1]"	331	1	0.6	10	200	2	0	S331_magic_H010_attack		339	H010_auto339_attack	H010_icon_01
+8014	水桃	2	H014	H014_output	H014_normal_attack	hit_15	2	0.1	0.1	100	170	66	1.6	130	"[1,1,1,1,1]"	141	1	0.6	10	200	2	0	S141_magic_H014_attack		149	H014_auto149_attack	H014_icon_01
+8015	葵華	3	H003	H003_output	H003_normal_attack	hit_16	2	0.1	0.1	100	170	66	1.6	260	"[1,1,1,1,1]"	151	1	0.6	10	200	2	0	S151_magic_H003_attack		159	H003_auto159_attack	H003_icon_01
+8016	メラニー	1	H002	H002_output	H002_normal_attack	hit_17	2	0.1	0.1	100	170	66	1.6	15	"[1,1,1,1,1]"	121	1	0.6	10	200	2	0	S121_magic_H002_attack		127	H002_auto127_attack	H002_icon_01
+8017	冥翠	2	H004	H004_output	H004_normal_attack	hit_18	2	0.1	0.1	100	170	66	1.6	130	"[1,1,1,1,1]"	313	1	0.6	10	200	2	0	S313_magic_H004_attack		319	H004_auto319_attack	H004_icon_01
+8018	マクシーン	2	H012	H012_output	H012_normal_attack	hit_19	2	0.1	0.1	100	170	66	1.6	130	"[1,1,1,1,1]"	353	1	0.6	10	200	2	0	S353_magic_H012_attack		357	H012_auto357_attack	H012_icon_01

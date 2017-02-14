@@ -1,0 +1,44 @@
+<skeleton name="shengji" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="shengji">
+   <b name="图层 1" x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0">
+    <d name="元件 1" pX="-8.27" pY="-25"/>
+    <d name="元件 2" pX="-7.72" pY="-23.27"/>
+    <d name="元件 3" pX="-7.22" pY="-26.22"/>
+    <d name="元件 4" pX="-7.72" pY="-27.67"/>
+    <d name="元件 5" pX="-7.75" pY="-26.22"/>
+    <d name="元件 6" pX="-8.7" pY="-26.22"/>
+    <d name="元件 8" pX="-9.68" pY="-21.8"/>
+    <d name="元件 9" pX="-8.7" pY="-6.65"/>
+    <d name="元件 10" pX="-9.68" pY="0"/>
+    <d name="元件 12" pX="-15.05" pY="-24.25"/>
+    <d name="元件 14" pX="-11.15" pY="-25.72"/>
+    <d name="元件 15" pX="-14.57" pY="-25.22"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="shengji">
+   <mov name="play" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="0" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="1" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="2" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="3" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="4" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="5" dr="2"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="6" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="7" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="8" dr="2"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="9" dr="2"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="10" dr="1"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="11" twE="0" dr="2"/>
+     <f x="0.25" y="0" kX="0" kY="0" cX="1" cY="1" pX="50" pY="112.5" z="0" dI="11" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

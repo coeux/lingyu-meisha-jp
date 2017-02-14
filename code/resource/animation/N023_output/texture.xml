@@ -1,0 +1,31 @@
+<TextureAtlas name="N023" width="128" height="128">
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_hair_5" width="14" height="9" cocos2d_pX="7" cocos2d_pY="5" x="56" y="64"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/元件2" width="30" height="3" cocos2d_pX="12" cocos2d_pY="2" x="73" y="58"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/元件 1" width="29" height="8" cocos2d_pX="11" cocos2d_pY="4" x="74" y="48"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_maozi" width="34" height="23" cocos2d_pX="17" cocos2d_pY="12" x="41" y="0"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_hair_2" width="23" height="14" cocos2d_pX="12" cocos2d_pY="7" x="0" y="50"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_hair_3" width="9" height="24" cocos2d_pX="5" cocos2d_pY="12" x="117" y="0"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_hair_4" width="7" height="20" cocos2d_pX="4" cocos2d_pY="10" x="108" y="20"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/head_2" width="29" height="26" cocos2d_pX="15" cocos2d_pY="13" x="0" y="22"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/head" width="29" height="26" cocos2d_pX="15" cocos2d_pY="13" x="77" y="20"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_hair_1" width="13" height="36" cocos2d_pX="7" cocos2d_pY="18" x="41" y="25"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_arm_up" width="8" height="14" cocos2d_pX="4" cocos2d_pY="7" x="117" y="26"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_arm" width="6" height="9" cocos2d_pX="3" cocos2d_pY="5" x="105" y="59"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_hand" width="5" height="5" cocos2d_pX="3" cocos2d_pY="3" x="17" y="66"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_wuqi_1" width="38" height="18" cocos2d_pX="19" cocos2d_pY="9" x="77" y="0"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_lindang" width="7" height="6" cocos2d_pX="4" cocos2d_pY="3" x="0" y="66"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/body" width="16" height="23" cocos2d_pX="8" cocos2d_pY="12" x="56" y="25"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_cloth_1" width="15" height="12" cocos2d_pX="8" cocos2d_pY="6" x="73" y="63"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_cloth_2" width="13" height="11" cocos2d_pX="7" cocos2d_pY="6" x="41" y="63"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_wuqi_2" width="15" height="12" cocos2d_pX="8" cocos2d_pY="6" x="56" y="50"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_leg_up" width="8" height="18" cocos2d_pX="4" cocos2d_pY="9" x="31" y="22"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_foot" width="11" height="10" cocos2d_pX="6" cocos2d_pY="5" x="90" y="63"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_L_leg" width="6" height="15" cocos2d_pX="3" cocos2d_pY="8" x="31" y="42"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_leg_up" width="6" height="15" cocos2d_pX="3" cocos2d_pY="8" x="108" y="42"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_foot" width="10" height="8" cocos2d_pX="5" cocos2d_pY="4" x="116" y="56"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_leg" width="4" height="13" cocos2d_pX="2" cocos2d_pY="7" x="25" y="50"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_arm_up" width="7" height="12" cocos2d_pX="4" cocos2d_pY="6" x="116" y="42"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_arm" width="8" height="7" cocos2d_pX="4" cocos2d_pY="4" x="31" y="59"/>
+ <SubTexture name="猫猫娘1.psd 资源 9/MaoMN_R_hand" width="6" height="4" cocos2d_pX="3" cocos2d_pY="2" x="9" y="66"/>
+ <SubTexture name="yuanjian/BianMN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="0"/>
+</TextureAtlas>

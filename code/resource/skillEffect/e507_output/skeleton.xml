@@ -1,0 +1,42 @@
+<skeleton name="e507" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="e507">
+   <b name="图层 1" x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0">
+    <d name="yujian/元件 30" pX="-24.67" pY="-10.9"/>
+    <d name="yujian/元件 28" pX="-21.92" pY="-10.4"/>
+    <d name="yujian/元件 26" pX="-22.67" pY="-13.4"/>
+    <d name="yujian/元件 24" pX="-21.17" pY="-13.15"/>
+    <d name="yujian/元件 22" pX="-20.67" pY="-14.9"/>
+    <d name="yujian/元件 20" pX="-20.42" pY="-14.15"/>
+    <d name="yujian/元件 18" pX="-18.67" pY="-14.9"/>
+    <d name="yujian/元件 16" pX="-18.17" pY="-13.15"/>
+    <d name="yujian/元件 14" pX="-16.92" pY="-13.15"/>
+    <d name="yujian/元件 12" pX="-18.17" pY="-13.9"/>
+    <d name="yujian/元件 10" pX="-17.67" pY="-12.9"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="e507">
+   <mov name="play" dr="29" to="0" drTW="29" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="0" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="1" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="2" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="3" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="4" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="5" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="6" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="7" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="8" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="9" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="10" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="5" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="4" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="3" dr="2"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="2" cY="2" pX="68.75" pY="50" z="0" dI="2" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,18 @@
+<skeleton name="luobo" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="luobo">
+   <b name="图层 1" x="-16.4" y="0.43" kX="53.5" kY="53.5" cX="0.81" cY="0.81" pX="4.83" pY="19.9" z="0">
+    <d name="yuanjian/bizi" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="luobo">
+   <mov name="play" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-16.4" y="0.43" kX="53.5" kY="53.5" cX="0.81" cY="0.81" pX="4.83" pY="19.9" z="0" dI="0" dr="24"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

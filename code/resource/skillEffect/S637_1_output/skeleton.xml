@@ -1,0 +1,18 @@
+<skeleton name="S637_1" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S637_1">
+   <b name="10001.png" x="-30.25" y="-0.28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="67.72" pY="20.73"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S637_1">
+   <mov name="play" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+    <b name="10001.png" sc="1" dl="0">
+     <f x="-30.25" y="-0.28" cocos2d_x="-30" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="5"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

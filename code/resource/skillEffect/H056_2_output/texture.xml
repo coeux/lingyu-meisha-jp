@@ -1,0 +1,19 @@
+<TextureAtlas name="H056_2" width="512" height="256">
+ <SubTexture name="补间 24" width="75" height="57" cocos2d_pX="38" cocos2d_pY="29" x="246" y="163"/>
+ <SubTexture name="补间 23" width="78" height="67" cocos2d_pX="39" cocos2d_pY="33" x="166" y="148"/>
+ <SubTexture name="补间 22" width="83" height="79" cocos2d_pX="42" cocos2d_pY="40" x="0" y="143"/>
+ <SubTexture name="补间 21" width="79" height="70" cocos2d_pX="40" cocos2d_pY="35" x="85" y="148"/>
+ <SubTexture name="补间 20" width="92" height="79" cocos2d_pX="46" cocos2d_pY="40" x="406" y="83"/>
+ <SubTexture name="补间 19" width="89" height="85" cocos2d_pX="45" cocos2d_pY="43" x="315" y="76"/>
+ <SubTexture name="补间 18" width="62" height="61" cocos2d_pX="31" cocos2d_pY="30" x="439" y="0"/>
+ <SubTexture name="补间 2" width="18" height="12" cocos2d_pX="9" cocos2d_pY="6" x="206" y="43"/>
+ <SubTexture name="补间 1" width="42" height="18" cocos2d_pX="21" cocos2d_pY="9" x="438" y="63"/>
+ <SubTexture name="补间 10" width="207" height="39" cocos2d_pX="104" cocos2d_pY="20" x="230" y="0"/>
+ <SubTexture name="补间 9" width="151" height="29" cocos2d_pX="76" cocos2d_pY="15" x="150" y="117"/>
+ <SubTexture name="补间 8" width="162" height="28" cocos2d_pX="81" cocos2d_pY="14" x="0" y="76"/>
+ <SubTexture name="补间 7" width="204" height="31" cocos2d_pX="102" cocos2d_pY="16" x="0" y="43"/>
+ <SubTexture name="补间 6" width="206" height="33" cocos2d_pX="103" cocos2d_pY="17" x="230" y="41"/>
+ <SubTexture name="补间 5" width="228" height="41" cocos2d_pX="114" cocos2d_pY="21" x="0" y="0"/>
+ <SubTexture name="补间 4" width="149" height="39" cocos2d_pX="75" cocos2d_pY="20" x="164" y="76"/>
+ <SubTexture name="补间 3" width="148" height="35" cocos2d_pX="74" cocos2d_pY="18" x="0" y="106"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+number	number	number	number	string	number	number
+id	x	y	radius	armature	switch_id	zorder
+1	-1000	0	100	changjing	-1	0
+2	500	-50	1000	CJ_huo_1	3	-200
+3	480	-180	1000	CJ_huo_2	5	120
+4	500	5	1000	CJ_huo_3	7	-150
+5	500	20	100	CJ_shitou	9	-180

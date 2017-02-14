@@ -1,0 +1,29 @@
+<skeleton name="M008_daoghuang" frameRate="24" version="2.1">
+ <armatures>
+  <armature name="M008_daoguang">
+   <b name="图层 1" x="2.25" y="-63.77" kX="-105.02" kY="74.98" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 25" pX="79.15" pY="53.08"/>
+    <d name="元件 35" pX="56.28" pY="66.55"/>
+    <d name="元件 40" pX="66.43" pY="62.2"/>
+    <d name="元件 45" pX="67.25" pY="36.05"/>
+    <d name="元件 50" pX="25.03" pY="28.63"/>
+    <d name="元件 55" pX="11.63" pY="17.52"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="M008_daoguang">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="2.25" y="-63.77" kX="-105.02" kY="74.98" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="15.28" y="-58.92" kX="62.49" kY="-117.51" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="17.95" y="-60.12" kX="62.49" kY="-117.51" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="41.85" y="-74.9" kX="62.49" kY="-117.51" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="53.6" y="-36.33" kX="62.49" kY="-117.51" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="54.38" y="-22.5" kX="62.49" kY="-117.51" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

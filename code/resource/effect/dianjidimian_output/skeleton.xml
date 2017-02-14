@@ -1,0 +1,136 @@
+<skeleton name="dianjidimian" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="dianjidimian">
+   <b name="图层 1" x="-0.3" y="0.75" kX="0" kY="0" cX="0.13" cY="0.08" pX="0" pY="0" z="0">
+    <d name="元件 3" pX="91.95" pY="92.9"/>
+   </b>
+   <b name="元件 2" x="-0.15" y="-0.1" kX="0" kY="0" cX="0.06" cY="0.04" pX="0" pY="0" z="1">
+    <d name="元件 3" pX="91.95" pY="92.9"/>
+   </b>
+   <b name="元件 20" x="-1.2" y="0.25" kX="0" kY="0" cX="0.48" cY="0.48" pX="0" pY="0" z="2">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+   <b name="元件 21" x="0.05" y="2.95" kX="0" kY="0" cX="0.31" cY="0.31" pX="0" pY="0" z="3">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+   <b name="元件 22" x="2.95" y="-0.85" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="4">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+   <b name="元件 23" x="3.3" y="-1.35" kX="0" kY="0" cX="0.35" cY="0.35" pX="0" pY="0" z="5">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+   <b name="元件 24" x="-3.05" y="-0.85" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="5">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+   <b name="元件 25" x="0.25" y="-1.4" kX="0" kY="0" cX="0.32" cY="0.32" pX="0" pY="0" z="6">
+    <d name="元件 6" pX="2.85" pY="2.35"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="dianjidimian">
+   <mov name="play" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-0.3" y="0.75" cocos2d_x="-0.3" cocos2d_y="0.75" kX="0" kY="0" cX="0.13" cY="0.08" pX="0" pY="0" z="0" dI="0" twE="0" dr="7"/>
+     <f x="-0.3" y="0.75" cocos2d_x="-0.3" cocos2d_y="0.75" kX="0" kY="0" cX="0.32" cY="0.2" pX="0" pY="0" z="0" dI="0" twE="0" dr="8"/>
+     <f x="-0.3" y="0.75" cocos2d_x="-0.3" cocos2d_y="0.75" kX="0" kY="0" cX="0.44" cY="0.28" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="6" dI="-1"/>
+    </b>
+    <b name="元件 2" sc="1" dl="0">
+     <f x="-0.15" y="-0.1" cocos2d_x="-0.15" cocos2d_y="-0.1" kX="0" kY="0" cX="0.06" cY="0.04" pX="0" pY="0" z="1" dI="0" twE="0" dr="3">
+      <colorTransform a="0" r="0" g="0" b="0" aM="19" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-0.15" y="0.2" cocos2d_x="-0.15" cocos2d_y="0.2" kX="0" kY="0" cX="0.08" cY="0.05" pX="0" pY="0" z="1" dI="0" twE="0" dr="6"/>
+     <f x="-0.15" y="0.2" cocos2d_x="-0.15" cocos2d_y="0.2" kX="0" kY="0" cX="0.15" cY="0.1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+     <f x="-0.15" y="0.2" cocos2d_x="-0.15" cocos2d_y="0.2" kX="0" kY="0" cX="0.26" cY="0.17" pX="0" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="元件 20" sc="1" dl="0">
+     <f x="-1.2" y="0.25" cocos2d_x="-1.2" cocos2d_y="0.25" kX="0" kY="0" cX="0.48" cY="0.48" pX="0" pY="0" z="2" dI="0" twE="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="14" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-5.25" y="-8.1" cocos2d_x="-5.25" cocos2d_y="-8.1" kX="0" kY="0" cX="0.88" cY="0.88" pX="0" pY="0" z="2" dI="0" twE="0" dr="2"/>
+     <f x="-9.45" y="-16.5" cocos2d_x="-9.45" cocos2d_y="-16.5" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="2" dI="0" twE="0" dr="2"/>
+     <f x="-12.55" y="-16.75" cocos2d_x="-12.55" cocos2d_y="-16.75" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="2" dI="0" twE="0" dr="4"/>
+     <f x="-15.7" y="-11.25" cocos2d_x="-15.7" cocos2d_y="-11.25" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="2" dI="0" twE="0" dr="2"/>
+     <f x="-17" y="-8.8" cocos2d_x="-17" cocos2d_y="-8.8" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="2" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="9" dI="-1"/>
+    </b>
+    <b name="元件 21" sc="1" dl="0">
+     <f x="0.05" y="2.95" cocos2d_x="0.05" cocos2d_y="2.95" kX="0" kY="0" cX="0.31" cY="0.31" pX="0" pY="0" z="3" dI="0" twE="0" dr="3">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.5" y="-2.5" cocos2d_x="0.5" cocos2d_y="-2.5" kX="0" kY="0" cX="0.93" cY="0.93" pX="0" pY="0" z="3" dI="0" twE="0" dr="3"/>
+     <f x="0.85" y="-7.95" cocos2d_x="0.85" cocos2d_y="-7.95" kX="0" kY="0" cX="1.54" cY="1.54" pX="0" pY="0" z="3" dI="0" twE="0" dr="4"/>
+     <f x="1.45" y="-2.75" cocos2d_x="1.45" cocos2d_y="-2.75" kX="0" kY="0" cX="1.89" cY="1.89" pX="0" pY="0" z="2" dI="0" twE="0" dr="4"/>
+     <f x="1.8" y="1.8" cocos2d_x="1.8" cocos2d_y="1.8" kX="0" kY="0" cX="2.15" cY="2.15" pX="0" pY="0" z="2" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="元件 22" sc="1" dl="0">
+     <f x="2.95" y="-0.85" cocos2d_x="2.95" cocos2d_y="-0.85" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="4" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="24" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="4.25" y="-5.7" cocos2d_x="4.25" cocos2d_y="-5.7" kX="0" kY="0" cX="0.69" cY="0.69" pX="0" pY="0" z="4" dI="0" twE="0" dr="2"/>
+     <f x="7.05" y="-15.35" cocos2d_x="7.05" cocos2d_y="-15.35" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="4" dI="0" twE="0" dr="2"/>
+     <f x="7.65" y="-16.55" cocos2d_x="7.65" cocos2d_y="-16.55" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="4" dI="0" twE="0" dr="4"/>
+     <f x="10.25" y="-10.45" cocos2d_x="10.25" cocos2d_y="-10.45" kX="0" kY="0" cX="1.19" cY="1.19" pX="0" pY="0" z="4" dI="0" twE="0" dr="2"/>
+     <f x="11.5" y="-8.65" cocos2d_x="11.5" cocos2d_y="-8.65" kX="0" kY="0" cX="1.19" cY="1.19" pX="0" pY="0" z="4" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="10" dI="-1"/>
+    </b>
+    <b name="元件 23" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="3.3" y="-1.35" cocos2d_x="3.3" cocos2d_y="-1.35" kX="0" kY="0" cX="0.35" cY="0.35" pX="0" pY="0" z="5" dI="0" twE="0" dr="3">
+      <colorTransform a="0" r="0" g="0" b="0" aM="14" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="6.45" y="-9.55" cocos2d_x="6.45" cocos2d_y="-9.55" kX="0" kY="0" cX="0.7" cY="0.7" pX="0" pY="0" z="5" dI="0" twE="0" dr="3"/>
+     <f x="9.2" y="-15.65" cocos2d_x="9.2" cocos2d_y="-15.65" kX="0" kY="0" cX="1.05" cY="1.05" pX="0" pY="0" z="5" dI="0" twE="0" dr="3"/>
+     <f x="11.15" y="-14.15" cocos2d_x="11.15" cocos2d_y="-14.15" kX="0" kY="0" cX="1.05" cY="1.05" pX="0" pY="0" z="4" dI="0" twE="0" dr="3"/>
+     <f x="13" y="-10.55" cocos2d_x="13" cocos2d_y="-10.55" kX="0" kY="0" cX="1.19" cY="1.19" pX="0" pY="0" z="3" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="8" dI="-1"/>
+    </b>
+    <b name="元件 24" sc="1" dl="0">
+     <f x="-3.05" y="-0.85" cocos2d_x="-3.05" cocos2d_y="-0.85" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="5" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-3.3" y="-1.7" cocos2d_x="-3.3" cocos2d_y="-1.7" kX="0" kY="0" cX="0.47" cY="0.47" pX="0" pY="0" z="6" dI="0" twE="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="33" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-4.75" y="-6.4" cocos2d_x="-4.75" cocos2d_y="-6.4" kX="0" kY="0" cX="0.67" cY="0.67" pX="0" pY="0" z="6" dI="0" twE="0" dr="4"/>
+     <f x="-7.05" y="-13.85" cocos2d_x="-7.05" cocos2d_y="-13.85" kX="0" kY="0" cX="1.08" cY="1.08" pX="0" pY="0" z="6" dI="0" twE="0" dr="3"/>
+     <f x="-10.9" y="-11.35" cocos2d_x="-10.9" cocos2d_y="-11.35" kX="0" kY="0" cX="1.17" cY="1.17" pX="0" pY="0" z="5" dI="0" twE="0" dr="3"/>
+     <f x="-14" y="-8.2" cocos2d_x="-14" cocos2d_y="-8.2" kX="0" kY="0" cX="1.27" cY="1.27" pX="0" pY="0" z="4" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="8" dI="-1"/>
+    </b>
+    <b name="元件 25" sc="1" dl="0">
+     <f x="0.25" y="-1.4" cocos2d_x="0.25" cocos2d_y="-1.4" kX="0" kY="0" cX="0.32" cY="0.32" pX="0" pY="0" z="6" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.25" y="-2.7" cocos2d_x="0.25" cocos2d_y="-2.7" kX="0" kY="0" cX="0.42" cY="0.42" pX="0" pY="0" z="7" dI="0" twE="0" dr="3">
+      <colorTransform a="0" r="0" g="0" b="0" aM="25" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0.15" y="-9.75" cocos2d_x="0.15" cocos2d_y="-9.75" kX="0" kY="0" cX="0.74" cY="0.74" pX="0" pY="0" z="7" dI="0" twE="0" dr="3"/>
+     <f x="0.1" y="-16.05" cocos2d_x="0.1" cocos2d_y="-16.05" kX="0" kY="0" cX="1.05" cY="1.05" pX="0" pY="0" z="7" dI="0" twE="0" dr="4"/>
+     <f x="0.1" y="-13.1" cocos2d_x="0.1" cocos2d_y="-13.1" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="6" dI="0" twE="0" dr="2"/>
+     <f x="0.1" y="-11.65" cocos2d_x="0.1" cocos2d_y="-11.65" kX="0" kY="0" cX="0.55" cY="0.55" pX="0" pY="0" z="5" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="8" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

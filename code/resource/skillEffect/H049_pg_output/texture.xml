@@ -1,0 +1,18 @@
+<TextureAtlas name="H049_pg15" width="1024" height="512">
+ <SubTexture name="元件 8" width="147" height="136" cocos2d_pX="74" cocos2d_pY="68" x="373" y="164"/>
+ <SubTexture name="元件 7" width="208" height="145" cocos2d_pX="104" cocos2d_pY="73" x="568" y="0"/>
+ <SubTexture name="元件 6" width="170" height="150" cocos2d_pX="85" cocos2d_pY="75" x="746" y="151"/>
+ <SubTexture name="元件 5" width="189" height="149" cocos2d_pX="95" cocos2d_pY="75" x="778" y="0"/>
+ <SubTexture name="元件 4" width="182" height="177" cocos2d_pX="91" cocos2d_pY="89" x="189" y="0"/>
+ <SubTexture name="元件 3" width="176" height="160" cocos2d_pX="88" cocos2d_pY="80" x="568" y="147"/>
+ <SubTexture name="元件 2" width="187" height="179" cocos2d_pX="94" cocos2d_pY="90" x="0" y="0"/>
+ <SubTexture name="元件 1" width="193" height="162" cocos2d_pX="97" cocos2d_pY="81" x="373" y="0"/>
+ <SubTexture name="重复项目文件夹/元件 8" width="66" height="63" cocos2d_pX="33" cocos2d_pY="32" x="115" y="245"/>
+ <SubTexture name="重复项目文件夹/元件 7" width="82" height="76" cocos2d_pX="41" cocos2d_pY="38" x="918" y="279"/>
+ <SubTexture name="重复项目文件夹/元件 6" width="67" height="62" cocos2d_pX="34" cocos2d_pY="31" x="115" y="181"/>
+ <SubTexture name="重复项目文件夹/元件 5" width="52" height="72" cocos2d_pX="26" cocos2d_pY="36" x="969" y="93"/>
+ <SubTexture name="重复项目文件夹/元件 4" width="53" height="91" cocos2d_pX="27" cocos2d_pY="46" x="969" y="0"/>
+ <SubTexture name="重复项目文件夹/元件 3" width="72" height="110" cocos2d_pX="36" cocos2d_pY="55" x="918" y="167"/>
+ <SubTexture name="重复项目文件夹/元件 2" width="120" height="139" cocos2d_pX="60" cocos2d_pY="70" x="189" y="179"/>
+ <SubTexture name="重复项目文件夹/元件 1" width="113" height="141" cocos2d_pX="57" cocos2d_pY="71" x="0" y="181"/>
+</TextureAtlas>

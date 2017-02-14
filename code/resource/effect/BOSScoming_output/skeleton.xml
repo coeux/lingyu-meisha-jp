@@ -1,0 +1,146 @@
+<skeleton name="BOSScoming" frameRate="25" version="2.1">
+  <armatures>
+    <armature name="BOSScoming">
+      <b name="元件 2" x="-5.17" y="0.05" kX="0" kY="0" cX="2.33" cY="2" pX="0" pY="0" z="0">
+        <d name="元件 2" pX="124.13" pY="87.5"/>
+      </b>
+      <b name="元件 1" x="-477.62" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1">
+        <d name="元件 1" pX="319.23" pY="31.45"/>
+      </b>
+      <b name="元件 10" x="-477.62" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2">
+        <d name="元件 1" pX="319.23" pY="31.45"/>
+      </b>
+      <b name="图层 6" x="397.28" y="0.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="元件 5" pX="168.25" pY="29.75"/>
+      </b>
+      <b name="元件 4" x="351" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4">
+        <d name="BOSS" pX="119.75" pY="31.73"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="BOSScoming">
+      <mov name="play" dr="75" to="0" drTW="75" lp="0" twE="NaN">
+        <b name="元件 2" sc="1" dl="0">
+          <f x="-5.17" y="0.05" kX="0" kY="0" cX="2.33" cY="2" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f x="-5.17" y="0.05" kX="0" kY="0" cX="2.33" cY="2" pX="0" pY="0" z="0" dI="0" dr="63"/>
+          <f x="-5.17" y="0.05" kX="0" kY="0" cX="2.33" cY="2" pX="0" pY="0" z="0" dI="0" twE="0" dr="6"/>
+          <f x="-5.17" y="0.05" kX="0" kY="0" cX="2.33" cY="2" pX="0" pY="0" z="0" dI="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="元件 1" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-477.62" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="4"/>
+          <f x="85.95" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="3"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" dr="1"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="6"/>
+          <f x="79.43" y="152.95" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="1" dI="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="元件 10" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-477.62" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="4"/>
+          <f x="85.95" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="3"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" dr="1"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="6"/>
+          <f x="79.43" y="-142.55" kX="0" kY="0" cX="1.17" cY="1" pX="0" pY="0" z="2" dI="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="397.28" y="0.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f x="244.28" y="-0.17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="2"/>
+          <f x="76.88" y="-0.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="3"/>
+          <f x="91.28" y="-0.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="63" dI="-1"/>
+        </b>
+        <b name="元件 4" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="351" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4" dI="0" twE="0" dr="4"/>
+          <f x="-14.4" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4" dI="0" twE="0" dr="2"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="6"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="24" gM="24" bM="24"/>
+          </f>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="100" rM="22" gM="22" bM="22"/>
+          </f>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="1"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="6"/>
+          <f x="0" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

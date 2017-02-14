@@ -1,0 +1,169 @@
+{
+	"contain": {
+		"22": {
+			"id": 22,
+			"info": "<Event Value = 1 CenterPush = 1><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  达成了10连胜！号称是最终BOSS的麻麻酱都拜倒在他脚下！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"32": {
+			"id": 32,
+			"info": "<Event Value = 1 CenterPush = 1><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  达成了5连胜！他已经乘风直上九万里了！他已经上天了！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"33": {
+			"id": 33,
+			"info": "<Event Value = 1 CenterPush = 1><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  达成了15连胜！哦漏！滚动条君已经被他的英姿帅瞎了！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"27": {
+			"id": 27,
+			"info": "<Event Value = 1 CenterPush = 0><Text Value =  很遗憾，本次乱斗场没有决出冠军。 Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"26": {
+			"id": 26,
+			"info": "<Event Value = 1 CenterPush = 0><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  战胜了所有挑战者，成为本次乱斗场的霸主！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"25": {
+			"id": 25,
+			"info": "<Event Value = 1 CenterPush = 1><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  终结了 Color = 5\/><Link Value = %5% Level = %6% UID = %7% Vip = %8% \/><Text Value = 的%9%连胜！\/><\/Event>",
+			"date": 0
+		},
+		"24": {
+			"id": 24,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value =  颤抖吧！ Color = 5\/><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  达成了%5%连胜！GM蜀黍快去抓住那个飙车的老司机！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"23": {
+			"id": 23,
+			"info": "<Event Value = 1 CenterPush = 1><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =  达成了20连胜！GM蜀黍快去抓住那个飙车的老司机！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"28": {
+			"id": 28,
+			"info": "<Event Value = 2 CenterPush = 1><Link Value = %1% Level = %2% UID = %3%  Vip = %4% \/><Text Value = 大神在公会发红包啦！快来抢啊~\/><\/Event>",
+			"date": 0
+		},
+		"21": {
+			"id": 21,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value =  乱斗场即将开始，各位英雄准备血战到底吧！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"20": {
+			"id": 20,
+			"info": "<Event Value = 1 CenterPush = 0><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value = 打开黄金宝箱获得\/><Text Itid = %5%\/><Text Value = ，称霸竞技场指日可待！\/><\/Event>",
+			"date": 0
+		},
+		"19": {
+			"id": 19,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 恭喜 Color = 5 \/><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =成为至尊VIP%5% Color = 5 \/><Text Value =！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"18": {
+			"id": 18,
+			"info": "<Event Value = 1 CenterPush = 0><Text Value = 最强骑士【雅典娜】加入 Color = 5 \/><Link Value = %1% Level = %2% UID = %3% \/><Text Value =队伍！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"9": {
+			"id": 9,
+			"info": "<Event Value = 1 CenterPush = 1><Text  Mid =%1% Color = 6\/><Text Value = 逃走了，大家还需努力哦！\/><\/Event>",
+			"date": 0
+		},
+		"1": {
+			"id": 1,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 邪恶怪物即将在%1%点入侵主城，准备迎战！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"15": {
+			"id": 15,
+			"info": "<Event Value = 1 CenterPush = 0><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value = 人品爆发，召唤了【 Color = 5 \/><Text Pid = %5%\/><Text Value = 】！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"3": {
+			"id": 3,
+			"info": "<Event Value = 1 CenterPush = 0><Text Value = 赞美诸神！ Color = 5\/><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value = 战胜了\/><Text Cmid =%5% Color = 6\/><Text Value = ，获得了\/><Text Itid = %6%\/><\/Event>",
+			"date": 0
+		},
+		"2": {
+			"id": 2,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 邪恶怪物已经入侵主城，快去消灭他们吧！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"5": {
+			"id": 5,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 邪恶入侵者逃走了！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"4": {
+			"id": 4,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 邪恶入侵者即将在5分钟后逃离主城！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"7": {
+			"id": 7,
+			"info": "<Event Value = 1 CenterPush = 1><Text  Mid =%1% Color = 6\/><Text Value = 的血量已经不足10%%，大家加油！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"6": {
+			"id": 6,
+			"info": "<Event Value = 1 CenterPush = 1><Text  Mid =%1% Color = 6\/><Text Value = 将于%2%来袭，准备迎战！\/><\/Event>",
+			"date": 0
+		},
+		"14": {
+			"id": 14,
+			"info": "<Event Value = 1 CenterPush = 0><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value = 成功合成%5%个【 Color = 5 \/><Text Itid = %6%\/><Text Value = 】！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"8": {
+			"id": 8,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 世界Boss已被大家合力击杀！【\/><Link Value = %1% Level = %2% UID = %3%  Vip = %4% \/><Text Value = 】在战斗中表现卓越造成了最高伤害！【\/><Link Value = %5% Level = %6% UID = %7%  Vip = %8% b_resid=%9% \/><Text Value = 】补了最后一刀！\/><\/Event>",
+			"date": 0
+		},
+		"29": {
+			"id": 29,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 【\/><Link Value =%1% Level = %2% UID = %3%  Vip = %4% \/><Text Value = 】战胜了【\/><Link Value = %5% Level = %6% UID = %7%  Vip = %8% rank=%9% \/><Text Value = 】成了竞技场霸主！！\/><\/Event>",
+			"date": 0
+		},
+		"30": {
+			"id": 30,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 【\/><Link Value = %1% Level = %2% UID = %3%  Vip = %4% \/><Text Value = 】战胜了【\/><Link Value = %5% Level = %6% UID = %7%  Vip = %8% rank=%9% \/><Text Value = 】成了竞技场第二名！！\/><\/Event>",
+			"date": 0
+		},
+		"31": {
+			"id": 31,
+			"info": "<Event Value = 1 CenterPush = 1><Text Value = 【\/><Link Value = %1% Level = %2% UID = %3%  Vip = %4% \/><Text Value = 】战胜了【\/><Link Value = %5% Level = %6% UID = %7%  Vip = %8% rank=%9% \/><Text Value = 】成了竞技场第三名！！\/><\/Event>",
+			"date": 0
+		},
+		"16": {
+			"id": 16,
+			"info": "<Event Value = 1 CenterPush = 0><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value = 获得了竞技场第一，新的霸主诞生了！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"17": {
+			"id": 17,
+			"info": "<Event Value = 1 CenterPush = 0><Text Value = 强大的竞技场霸主 Color = 5 \/><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =上线了！ Color = 5 \/><\/Event>",
+			"date": 0
+		},
+		"13": {
+			"id": 13,
+			"info": "<Event Value = 2 CenterPush = 0><Text  Mid =%1% Color = 6\/><Text Value = 成功的逃离公会，安然无恙的回到老巢，大家还需努力哦！！！ Color = 5\/><\/Event>",
+			"date": 0
+		},
+		"12": {
+			"id": 12,
+			"info": "<Event Value = 2 CenterPush = 0><Text Value = 恭喜\/><Link Value = %1% Level = %2% UID = %3% Vip = %4% \/><Text Value =击杀了 \/><Text  Mid =%5% Color = 6\/><Text Value = ！><\/Event>",
+			"date": 0
+		},
+		"11": {
+			"id": 11,
+			"info": "<Event Value = 2 CenterPush = 0><Text  Mid =%1% Color = 6\/><Text Value = 的血量已经不足10%%，大家加油！ \/><\/Event>",
+			"date": 0
+		},
+		"10": {
+			"id": 10,
+			"info": "<Event Value = 2 CenterPush = 0><Text  Mid =%1% Color = 6\/><Text Value = 将于%2%来袭，勇士们准备迎战吧！\/><\/Event>",
+			"date": 0
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<TextureAtlas name="H045_xuli" width="512" height="512">
+  <SubTexture name="元件 11" width="74" height="61" cocos2d_pX="37" cocos2d_pY="31" x="384" y="0"/>
+  <SubTexture name="元件 10" width="180" height="107" cocos2d_pX="90" cocos2d_pY="54" x="185" y="223"/>
+  <SubTexture name="元件 9" width="183" height="112" cocos2d_pX="92" cocos2d_pY="56" x="0" y="112"/>
+  <SubTexture name="元件 8" width="194" height="110" cocos2d_pX="97" cocos2d_pY="55" x="0" y="0"/>
+  <SubTexture name="元件 7" width="185" height="108" cocos2d_pX="93" cocos2d_pY="54" x="185" y="113"/>
+  <SubTexture name="元件 6" width="186" height="111" cocos2d_pX="93" cocos2d_pY="56" x="196" y="0"/>
+  <SubTexture name="元件 5" width="167" height="118" cocos2d_pX="84" cocos2d_pY="59" x="0" y="226"/>
+  <SubTexture name="元件 4" width="164" height="110" cocos2d_pX="82" cocos2d_pY="55" x="169" y="332"/>
+  <SubTexture name="元件 2" width="66" height="45" cocos2d_pX="33" cocos2d_pY="23" x="384" y="63"/>
+</TextureAtlas>

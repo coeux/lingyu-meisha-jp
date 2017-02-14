@@ -1,0 +1,9 @@
+<TextureAtlas name="qiushouji" width="256" height="128">
+ <SubTexture name="20013.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="62" y="62"/>
+ <SubTexture name="20011.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="124" y="0"/>
+ <SubTexture name="20010.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="124" y="62"/>
+ <SubTexture name="20008.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="20007.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="62" y="0"/>
+ <SubTexture name="20005.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="186" y="0"/>
+ <SubTexture name="20004.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="0" y="62"/>
+</TextureAtlas>

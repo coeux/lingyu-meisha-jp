@@ -1,0 +1,9 @@
+<TextureAtlas name="技能1释放" width="512" height="512">
+  <SubTexture name="元件 8" width="93" height="53" cocos2d_pX="47" cocos2d_pY="27" x="296" y="237"/>
+  <SubTexture name="元件 7" width="100" height="59" cocos2d_pX="50" cocos2d_pY="30" x="194" y="237"/>
+  <SubTexture name="元件 6" width="220" height="108" cocos2d_pX="110" cocos2d_pY="54" x="218" y="127"/>
+  <SubTexture name="元件 5" width="216" height="125" cocos2d_pX="108" cocos2d_pY="63" x="218" y="0"/>
+  <SubTexture name="元件 4" width="216" height="141" cocos2d_pX="108" cocos2d_pY="71" x="0" y="0"/>
+  <SubTexture name="元件 3" width="192" height="134" cocos2d_pX="96" cocos2d_pY="67" x="0" y="143"/>
+  <SubTexture name="元件 2" width="59" height="96" cocos2d_pX="30" cocos2d_pY="48" x="436" y="0"/>
+</TextureAtlas>

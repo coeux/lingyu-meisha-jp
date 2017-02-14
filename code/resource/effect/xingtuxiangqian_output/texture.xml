@@ -1,0 +1,15 @@
+<TextureAtlas name="xingtuxiangqian" width="256" height="512">
+  <SubTexture name="元件 2" width="84" height="45" x="81" y="83"/>
+  <SubTexture name="nofolder_8_mc" width="62" height="62" x="65" y="198"/>
+  <SubTexture name="元件 15" width="74" height="74" x="177" y="0"/>
+  <SubTexture name="pngs_未命名-2asdasd/pngs_未命名-2asdasd_3_mc" width="63" height="66" x="146" y="147"/>
+  <SubTexture name="pngs_未命名-2asdasd/pngs_未命名-2asdasd_5_mc" width="63" height="66" x="81" y="130"/>
+  <SubTexture name="pngs_未命名-2asdasd/pngs_未命名-2asdasd_6_mc" width="63" height="65" x="0" y="161"/>
+  <SubTexture name="pngs_未命名-2asdasd/pngs_未命名-2asdasd_9_mc" width="58" height="63" x="129" y="215"/>
+  <SubTexture name="pngs_未命名-2asdasd/pngs_未命名-2asdasd_11_mc" width="44" height="44" x="0" y="228"/>
+  <SubTexture name="元件 8" width="86" height="81" x="89" y="0"/>
+  <SubTexture name="元件 7" width="57" height="57" x="189" y="215"/>
+  <SubTexture name="元件 6" width="87" height="81" x="0" y="0"/>
+  <SubTexture name="元件 5" width="79" height="76" x="0" y="83"/>
+  <SubTexture name="元件 3" width="72" height="69" x="177" y="76"/>
+</TextureAtlas>

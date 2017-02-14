@@ -1,0 +1,29 @@
+<TextureAtlas name="战斗中" width="512" height="256">
+  <SubTexture name="yuajian/元件 46" width="74" height="76" cocos2d_pX="37" cocos2d_pY="38" x="0" y="0"/>
+  <SubTexture name="yuajian/元件 51" width="27" height="36" cocos2d_pX="14" cocos2d_pY="18" x="139" y="171"/>
+  <SubTexture name="yuajian/元件 50" width="33" height="52" cocos2d_pX="17" cocos2d_pY="26" x="456" y="111"/>
+  <SubTexture name="yuajian/元件 49" width="36" height="51" cocos2d_pX="18" cocos2d_pY="26" x="456" y="58"/>
+  <SubTexture name="yuajian/元件 48" width="20" height="39" cocos2d_pX="10" cocos2d_pY="20" x="168" y="171"/>
+  <SubTexture name="yuajian/元件 45" width="54" height="56" cocos2d_pX="27" cocos2d_pY="28" x="456" y="0"/>
+  <SubTexture name="yuajian/元件 44" width="71" height="54" cocos2d_pX="36" cocos2d_pY="27" x="373" y="114"/>
+  <SubTexture name="yuajian/元件 43" width="71" height="56" cocos2d_pX="36" cocos2d_pY="28" x="227" y="58"/>
+  <SubTexture name="yuajian/元件 42" width="68" height="55" cocos2d_pX="34" cocos2d_pY="28" x="366" y="170"/>
+  <SubTexture name="yuajian/元件 41" width="71" height="54" cocos2d_pX="36" cocos2d_pY="27" x="73" y="115"/>
+  <SubTexture name="yuajian/元件 40" width="70" height="55" cocos2d_pX="35" cocos2d_pY="28" x="223" y="116"/>
+  <SubTexture name="yuajian/元件 39" width="75" height="56" cocos2d_pX="38" cocos2d_pY="28" x="76" y="0"/>
+  <SubTexture name="yuajian/元件 38" width="74" height="56" cocos2d_pX="37" cocos2d_pY="28" x="306" y="0"/>
+  <SubTexture name="yuajian/元件 37" width="72" height="55" cocos2d_pX="36" cocos2d_pY="28" x="382" y="0"/>
+  <SubTexture name="yuajian/元件 36" width="72" height="54" cocos2d_pX="36" cocos2d_pY="27" x="300" y="58"/>
+  <SubTexture name="yuajian/元件 35" width="70" height="54" cocos2d_pX="35" cocos2d_pY="27" x="0" y="135"/>
+  <SubTexture name="yuajian/元件 34" width="69" height="54" cocos2d_pX="35" cocos2d_pY="27" x="295" y="170"/>
+  <SubTexture name="yuajian/元件 33" width="71" height="55" cocos2d_pX="36" cocos2d_pY="28" x="0" y="78"/>
+  <SubTexture name="yuajian/元件 32" width="72" height="55" cocos2d_pX="36" cocos2d_pY="28" x="382" y="57"/>
+  <SubTexture name="yuajian/元件 31" width="74" height="56" cocos2d_pX="37" cocos2d_pY="28" x="230" y="0"/>
+  <SubTexture name="yuajian/元件 30" width="75" height="55" cocos2d_pX="38" cocos2d_pY="28" x="153" y="0"/>
+  <SubTexture name="yuajian/元件 29" width="71" height="54" cocos2d_pX="36" cocos2d_pY="27" x="300" y="114"/>
+  <SubTexture name="yuajian/元件 28" width="72" height="55" cocos2d_pX="36" cocos2d_pY="28" x="153" y="57"/>
+  <SubTexture name="yuajian/元件 27" width="72" height="55" cocos2d_pX="36" cocos2d_pY="28" x="76" y="58"/>
+  <SubTexture name="yuajian/元件 26" width="71" height="55" cocos2d_pX="36" cocos2d_pY="28" x="150" y="114"/>
+  <SubTexture name="yuajian/元件 25" width="65" height="49" cocos2d_pX="33" cocos2d_pY="25" x="72" y="171"/>
+  <SubTexture name="yuajian/元件 24" width="61" height="50" cocos2d_pX="31" cocos2d_pY="25" x="446" y="165"/>
+</TextureAtlas>

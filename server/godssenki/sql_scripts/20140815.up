@@ -1,0 +1,11 @@
+//reward table
+create table if not exists Activity(
+uid int(10) unsigned NOT NULL comment '角色id',
+hostnum smallint(5) unsigned not null default '0' comment '服务器编号',
+nickname varchar(30) character set utf8 default null comment '角色名',
+grade smallint(5) unsigned not null default '0' comment '等级',
+cumu_yb_rank int(3) unsigned not null default '0' comment '累计消费排名',
+cumu_yb_rank_exp int(10) unsigned not null default '0' comment '累计消费值',
+cumu_yb_rank_stamp int(10) unsigned not null default '0' comment '累计消费排名时间戳',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;

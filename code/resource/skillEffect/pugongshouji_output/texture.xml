@@ -1,0 +1,13 @@
+<TextureAtlas name="pugongshouji" width="256" height="512">
+ <SubTexture name="yuanjian/元件 2" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="156"/>
+ <SubTexture name="yuanjian/元件 3" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="52"/>
+ <SubTexture name="yuanjian/元件 4" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="260"/>
+ <SubTexture name="yuanjian/元件 5" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="104"/>
+ <SubTexture name="yuanjian/元件 6" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="107" y="208"/>
+ <SubTexture name="yuanjian/元件 7" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="yuanjian/元件 8" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="107" y="0"/>
+ <SubTexture name="yuanjian/元件 9" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="107" y="52"/>
+ <SubTexture name="yuanjian/元件 10" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="107" y="104"/>
+ <SubTexture name="yuanjian/元件 11" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="107" y="156"/>
+ <SubTexture name="yuanjian/元件 12" width="105" height="50" cocos2d_pX="0" cocos2d_pY="0" x="0" y="208"/>
+</TextureAtlas>

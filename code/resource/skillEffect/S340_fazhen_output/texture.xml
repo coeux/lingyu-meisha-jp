@@ -1,0 +1,11 @@
+<TextureAtlas name="S340_fazhen" width="256" height="256">
+ <SubTexture name="元件 1" width="77" height="76" cocos2d_pX="39" cocos2d_pY="38" x="107" y="52"/>
+ <SubTexture name="元件 9" width="93" height="49" cocos2d_pX="-17" cocos2d_pY="-13" x="0" y="121"/>
+ <SubTexture name="元件 8" width="106" height="50" cocos2d_pX="-11" cocos2d_pY="-14" x="107" y="0"/>
+ <SubTexture name="元件 7" width="105" height="66" cocos2d_pX="-12" cocos2d_pY="-5" x="0" y="0"/>
+ <SubTexture name="元件 6" width="96" height="51" cocos2d_pX="-16" cocos2d_pY="-16" x="0" y="68"/>
+ <SubTexture name="元件 5" width="86" height="50" cocos2d_pX="-21" cocos2d_pY="-9" x="95" y="130"/>
+ <SubTexture name="元件 4" width="80" height="39" cocos2d_pX="-24" cocos2d_pY="-19" x="0" y="172"/>
+ <SubTexture name="元件 3" width="70" height="39" cocos2d_pX="-29" cocos2d_pY="-23" x="183" y="130"/>
+ <SubTexture name="元件 2" width="61" height="29" cocos2d_pX="-34" cocos2d_pY="-25" x="186" y="52"/>
+</TextureAtlas>

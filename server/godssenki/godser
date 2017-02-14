@@ -1,0 +1,270 @@
+#!/bin/sh
+
+. /etc/rc.d/init.d/functions
+
+#方法
+call=$1
+#平台
+domain=$2
+#进程名
+prog=$3
+#服务器编号
+sid=$4
+
+verpath="/app/servers/god/$domain"
+binpath="/app/servers/god/$domain/bin"
+conffile="$verpath/config.lua"
+godroot="/app/servers/godssenki"
+godssenki="$godroot/$domain"
+pidfile="$godssenki/run/"$domain.$prog.$sid".pid"
+lockfile="$godssenki/lock/"$domain.$prog.$sid".lock"
+corefilepath="/app/servers/coredump"
+chkcorpattern=`less /proc/sys/kernel/core_pattern`
+
+RETVAL=0
+
+save_pid(){
+    pid=`ps x | grep "god.$prog.$domain -id $sid" |grep -v "grep" | awk '{print $1}'` 
+    echo $pid>$pidfile
+}
+
+install(){
+    checkdir
+
+    for f in $binpath/*; do
+        f=`basename $f`
+        if [ ! -f /usr/bin/god.$f.$domain ]; then
+            ln -s $binpath/$f /usr/bin/god.$f.$domain
+        else
+            mv /usr/bin/god.$f.$domain /usr/bin/god.$f.$domain.bk
+            ln -s $binpath/$f /usr/bin/god.$f.$domain
+        fi
+    done
+
+    cp $verpath/godser /etc/init.d/
+}
+
+checkcore() {
+    echo $"Check Env: "
+    isok=0
+    echo -n "Check DAEMON_COREFILE_LIMIT: "
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo -n "Need: DAEMON_COREFILE_LIMIT='ulimit'"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    echo -n "Check Core Dump Path: "
+    if [ ! -d "$corefilepath" ]; then
+        echo -n "Need: $corefilepath"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    echo -n "Check core_pattern: "
+    if [ "$chkcorpattern" != "$corefilepath/core_%e" ]; then
+        echo -n "Need:$corefilepath/core_%e"
+        echo_failure
+        isok=1
+        echo
+    else
+        echo_passed
+        echo
+    fi
+
+    if [ $isok -eq 0 ]; then
+        echo_success
+        echo
+    else
+        echo_failure
+        echo
+    fi
+    return $isok
+}
+
+checkdir(){
+
+    if [ ! -d "$corefilepath" ]; then
+        mkdir "$corefilepath"
+    fi
+
+    if [ ! -d "$godroot" ]; then
+        mkdir "$godroot"
+    fi
+
+    if [ ! -d "$godssenki" ]; then
+        mkdir "$godssenki"
+    fi
+
+    if [ ! -d "$godssenki/schedule" ]; then
+        mkdir "$godssenki/schedule"
+    fi
+
+    if [ ! -d "$godssenki/run" ]; then
+        mkdir "$godssenki/run"
+    fi
+
+    if [ ! -d "$godssenki/lock" ]; then
+        mkdir "$godssenki/lock" 
+    fi
+
+    if [ ! -d "$godssenki/rank" ]; then
+        mkdir "$godssenki/rank"
+    fi
+
+    if [ ! -d "$godssenki/bt_record" ]; then
+        mkdir "$godssenki/bt_record"
+    fi
+}
+
+schstart(){
+    checkdir
+    schfile="$godssenki/schedule/start.$domain.$prog.$sid"
+    echo "sudo /etc/init.d/godser start $domain $prog $sid " > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+schphpstart(){
+    checkdir
+    schfile="$godssenki/schedule/phpstart.$domain.$prog.$sid"
+    echo "sudo /etc/init.d/godser phpstart $domain $prog $sid " > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+schstop(){
+    schfile="$godssenki/schedule/close.$domain.$prog.$sid"
+    echo "sudo /etc/init.d/godser stop $domain $prog $sid" > $schfile 
+    RETVAL=$?
+    at -f $schfile now+1min
+    return $RETVAL
+}
+
+start() {
+    echo -n $"Starting $domain $prog $sid: "
+
+    checkdir
+
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo "DAEMON_COREFILE_LIMIT='ulimit'" >> /etc/sysconfig/init
+    fi
+
+    if [ "$chkcorpattern" != "$corefilepath/core_%e" ]; then
+        echo "$corefilepath/core_%e" > /proc/sys/kernel/core_pattern
+    fi
+
+    chkcorpattern=`less /proc/sys/kernel/core_pattern`
+    if [ "$chkcorpattern" != "$corefilepath/core_%e" ]; then
+        echo -n "Error: $chkcorpattern"
+        failure 
+        echo
+        return 1
+    fi
+
+    daemon --pidfile=${pidfile} god.$prog.$domain -id $sid -conf ${conffile} -d
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && save_pid && touch ${lockfile}
+    return $RETVAL
+}
+
+phpstart() {
+    echo -n $"Starting $domain $prog $sid: "
+
+    checkdir
+
+    if [ -z $DAEMON_COREFILE_LIMIT ]; then
+        echo "DAEMON_COREFILE_LIMIT='ulimit'" >> /etc/sysconfig/init
+    fi
+
+    if [ "$chkcorpattern" != "$corefilepath/core_%e" ]; then
+        echo "$corefilepath/core_%e" > /proc/sys/kernel/core_pattern
+    fi
+
+    chkcorpattern=`less /proc/sys/kernel/core_pattern`
+    if [ "$chkcorpattern" != "$corefilepath/core_%e" ]; then
+        echo -n "Error: $chkcorpattern"
+        failure 
+        echo
+        return 1
+    fi
+
+    daemon --pidfile=${pidfile} god.$prog.$domain -id $sid -conf ${conffile} -domain $domain -phpstart -d
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && save_pid && touch ${lockfile}
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $domain $prog $sid: "
+    killproc -p ${pidfile} ${prog}
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && rm -f ${lockfile} ${pidfile}
+}
+
+rh_status() {
+    status -p ${pidfile} ${prog}
+}
+
+version(){
+    ${prog} -v
+}
+
+# See how we were called.
+case "$call" in
+    version)
+        version
+        ;;
+    install)
+        install
+        ;;
+    schphpstart)
+        schphpstart
+        ;;
+    schstart)
+        schstart
+        ;;
+    schstop)
+     	schstop   
+        ;;
+    checkcore)
+        checkcore
+        ;;
+    phpstart)
+        rh_status >/dev/null 2>&1 && exit 0
+        phpstart
+        ;;
+    start)
+        rh_status >/dev/null 2>&1 && exit 0
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    status)
+        rh_status
+        RETVAL=$?
+        ;;
+    *)
+        echo $"Usage: $prog {install|schphpstart|schstart|schstop|checkcore|phpstart|start|stop|restart|status}"
+        RETVAL=2
+esac
+
+exit $RETVAL

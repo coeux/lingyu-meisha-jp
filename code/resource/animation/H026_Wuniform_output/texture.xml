@@ -1,0 +1,35 @@
+<TextureAtlas name="H026_Wuniform" width="256" height="256">
+ <SubTexture name="yuanjian/head 副本" width="0" height="0" x="253" y="0"/>
+ <SubTexture name="wing_up_left_3" width="0" height="0" x="251" y="0"/>
+ <SubTexture name="wing_down_left_3" width="0" height="0" x="249" y="0"/>
+ <SubTexture name="wing_up_right_3" width="0" height="0" x="247" y="0"/>
+ <SubTexture name="wing_down_right_3" width="0" height="0" x="247" y="2"/>
+ <SubTexture name="yuanjian/hair_3" width="12" height="18" x="119" y="106"/>
+ <SubTexture name="yuanjian/toushi" width="43" height="17" x="208" y="91"/>
+ <SubTexture name="yuanjian/hair_1" width="32" height="45" x="210" y="44"/>
+ <SubTexture name="yuanjian/hair_2" width="29" height="46" x="0" y="58"/>
+ <SubTexture name="yuanjian/head_1" width="58" height="56" x="0" y="0"/>
+ <SubTexture name="yuanjian/head" width="58" height="56" x="60" y="0"/>
+ <SubTexture name="baiyuanjian/元件 1" width="19" height="36" x="187" y="94"/>
+ <SubTexture name="baiyuanjian/元件 2" width="13" height="26" x="0" y="106"/>
+ <SubTexture name="baiyuanjian/元件 3" width="12" height="16" x="31" y="123"/>
+ <SubTexture name="baiyuanjian/元件 4" width="38" height="35" x="58" y="58"/>
+ <SubTexture name="baiyuanjian/元件 5" width="10" height="23" x="244" y="44"/>
+ <SubTexture name="baiyuanjian/元件 6" width="14" height="18" x="15" y="106"/>
+ <SubTexture name="baiyuanjian/元件 7" width="49" height="61" x="120" y="0"/>
+ <SubTexture name="baiyuanjian/元件 8" width="25" height="42" x="31" y="58"/>
+ <SubTexture name="baiyuanjian/元件 9" width="35" height="42" x="210" y="0"/>
+ <SubTexture name="baiyuanjian/元件 10" width="23" height="38" x="144" y="63"/>
+ <SubTexture name="baiyuanjian/元件 11" width="21" height="19" x="31" y="102"/>
+ <SubTexture name="baiyuanjian/元件 12" width="22" height="41" x="120" y="63"/>
+ <SubTexture name="baiyuanjian/元件 13" width="16" height="42" x="169" y="94"/>
+ <SubTexture name="baiyuanjian/元件 14" width="21" height="19" x="96" y="98"/>
+ <SubTexture name="baiyuanjian/元件 15" width="20" height="38" x="98" y="58"/>
+ <SubTexture name="baiyuanjian/元件 16" width="14" height="37" x="80" y="95"/>
+ <SubTexture name="baiyuanjian/元件 17" width="20" height="35" x="58" y="95"/>
+ <SubTexture name="baiyuanjian/元件 18" width="16" height="24" x="144" y="103"/>
+ <SubTexture name="baiyuanjian/元件 19" width="13" height="16" x="96" y="119"/>
+ <SubTexture name="yuanjian/hair_4" width="35" height="41" x="171" y="51"/>
+ <SubTexture name="yuanjian/hair_5" width="37" height="49" x="171" y="0"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" x="208" y="110"/>
+</TextureAtlas>

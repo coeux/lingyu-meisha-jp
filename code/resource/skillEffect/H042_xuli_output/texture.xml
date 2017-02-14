@@ -1,0 +1,4 @@
+<TextureAtlas name="H042_xuli" width="256" height="256">
+ <SubTexture name="Shape/shape 89" width="109" height="127" cocos2d_pX="54.75" cocos2d_pY="66.75" x="113" y="0"/>
+ <SubTexture name="Shape/shape 87" width="111" height="135" cocos2d_pX="57.9" cocos2d_pY="63.25" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,24 @@
+//userid
+alter table UserID add column isoverdue tinyint(3) unsigned not null default '0' comment 'cache过期' after state;
+
+//reward table
+alter table Reward add column daily_pay int(10) unsigned not null default '0' after cumu_yb_reward;
+alter table Reward add column daily_pay_reward int(10) unsigned not null default '0' after daily_pay;
+alter table Reward add column daily_pay_stamp int(10) unsigned not null default '0' after daily_pay_reward;
+alter table Reward add column mcardbuytm int(10) unsigned not null default '0' comment '月卡奖励购买时间戳' after mcardn;
+
+create table if not exists Vip(
+uid int(10) unsigned not null default '0',
+vop smallint(5) unsigned not null default '0',
+num int(3) unsigned not null default '0',
+stamp int(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid; vop))engine=innodb;
+
+create table if not exists Arena(
+uid int(10) unsigned not null default '0',
+fight_count int(3) unsigned not null default '0',
+n_buy int(3) unsigned not null default '0',
+stamp int(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;

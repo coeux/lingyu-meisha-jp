@@ -1,0 +1,8 @@
+<TextureAtlas name="xiongzhuazi" width="256" height="512">
+  <SubTexture name="元件 7" width="102" height="97" cocos2d_pX="51" cocos2d_pY="49" x="78" y="258"/>
+  <SubTexture name="元件 6" width="88" height="127" cocos2d_pX="44" cocos2d_pY="64" x="101" y="129"/>
+  <SubTexture name="元件 5" width="63" height="116" cocos2d_pX="32" cocos2d_pY="58" x="191" y="129"/>
+  <SubTexture name="元件 4" width="76" height="132" cocos2d_pX="38" cocos2d_pY="66" x="0" y="139"/>
+  <SubTexture name="元件 3" width="99" height="137" cocos2d_pX="50" cocos2d_pY="69" x="0" y="0"/>
+  <SubTexture name="元件 2" width="101" height="127" cocos2d_pX="51" cocos2d_pY="64" x="101" y="0"/>
+</TextureAtlas>

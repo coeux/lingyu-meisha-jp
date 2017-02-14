@@ -1,0 +1,3 @@
+<TextureAtlas name="M010_pugong_1" width="256" height="64">
+  <SubTexture name="元件 1" width="182" height="58" cocos2d_pX="91" cocos2d_pY="28.75" x="0" y="0"/>
+</TextureAtlas>

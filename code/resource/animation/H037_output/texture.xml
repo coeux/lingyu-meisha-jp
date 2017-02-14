@@ -1,0 +1,41 @@
+<TextureAtlas name="H037" width="256" height="256">
+ <SubTexture name="厨娘2.psd 资源 9/锅 副本 4" width="53" height="29" cocos2d_pX="27" cocos2d_pY="13" x="62" y="59"/>
+ <SubTexture name="厨娘2.psd 资源 9/锅 副本" width="53" height="29" cocos2d_pX="27" cocos2d_pY="13" x="177" y="68"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_hand" width="8" height="12" cocos2d_pX="4" cocos2d_pY="6" x="51" y="111"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_arm" width="12" height="18" cocos2d_pX="6" cocos2d_pY="9" x="215" y="125"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_arm_up" width="13" height="24" cocos2d_pX="7" cocos2d_pY="12" x="215" y="99"/>
+ <SubTexture name="厨娘2.psd 资源 9/shaozi" width="60" height="15" cocos2d_pX="30" cocos2d_pY="8" x="0" y="94"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_1" width="17" height="14" cocos2d_pX="9" cocos2d_pY="7" x="93" y="118"/>
+ <SubTexture name="厨娘2.psd 资源 9/maozi" width="37" height="36" cocos2d_pX="19" cocos2d_pY="18" x="117" y="87"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_2" width="37" height="34" cocos2d_pX="19" cocos2d_pY="18" x="176" y="99"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_3" width="25" height="30" cocos2d_pX="13" cocos2d_pY="18" x="149" y="128"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_4" width="12" height="31" cocos2d_pX="6" cocos2d_pY="16" x="238" y="34"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_5" width="59" height="51" cocos2d_pX="29" cocos2d_pY="44" x="122" y="0"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_2" width="34" height="26" cocos2d_pX="11" cocos2d_pY="17" x="213" y="153"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_5" width="35" height="27" cocos2d_pX="12" cocos2d_pY="20" x="112" y="125"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_4" width="34" height="29" cocos2d_pX="11" cocos2d_pY="21" x="0" y="111"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_6" width="34" height="27" cocos2d_pX="11" cocos2d_pY="18" x="49" y="136"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_3" width="34" height="25" cocos2d_pX="9" cocos2d_pY="17" x="172" y="163"/>
+ <SubTexture name="厨娘2.psd 资源 9/biaoqing_1" width="35" height="26" cocos2d_pX="12" cocos2d_pY="20" x="176" y="135"/>
+ <SubTexture name="厨娘2.psd 资源 9/head" width="58" height="57" cocos2d_pX="30" cocos2d_pY="29" x="62" y="0"/>
+ <SubTexture name="厨娘2.psd 资源 9/lingjie" width="15" height="9" cocos2d_pX="8" cocos2d_pY="5" x="85" y="149"/>
+ <SubTexture name="厨娘2.psd 资源 9/xiong" width="21" height="15" cocos2d_pX="11" cocos2d_pY="8" x="230" y="100"/>
+ <SubTexture name="厨娘2.psd 资源 9/body" width="29" height="44" cocos2d_pX="15" cocos2d_pY="22" x="62" y="90"/>
+ <SubTexture name="厨娘2.psd 资源 9/qunbai_1" width="29" height="32" cocos2d_pX="15" cocos2d_pY="16" x="0" y="142"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_up_leg" width="18" height="39" cocos2d_pX="9" cocos2d_pY="20" x="156" y="87"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_foot" width="13" height="13" cocos2d_pX="7" cocos2d_pY="7" x="93" y="134"/>
+ <SubTexture name="厨娘2.psd 资源 9/left_down_leg" width="13" height="26" cocos2d_pX="7" cocos2d_pY="13" x="93" y="90"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_foot" width="13" height="13" cocos2d_pX="7" cocos2d_pY="7" x="229" y="138"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_down_leg" width="13" height="19" cocos2d_pX="7" cocos2d_pY="10" x="230" y="117"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_up_leg" width="13" height="32" cocos2d_pX="7" cocos2d_pY="16" x="238" y="0"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_6" width="11" height="31" cocos2d_pX="6" cocos2d_pY="16" x="238" y="67"/>
+ <SubTexture name="厨娘2.psd 资源 9/qunbai_2" width="27" height="33" cocos2d_pX="14" cocos2d_pY="17" x="102" y="154"/>
+ <SubTexture name="厨娘2.psd 资源 9/锅 副本 3" width="53" height="32" cocos2d_pX="27" cocos2d_pY="16" x="183" y="34"/>
+ <SubTexture name="厨娘2.psd 资源 9/锅 副本 2" width="53" height="32" cocos2d_pX="27" cocos2d_pY="16" x="183" y="0"/>
+ <SubTexture name="厨娘2.psd 资源 9/锅" width="53" height="32" cocos2d_pX="27" cocos2d_pY="16" x="122" y="53"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_hand" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="245" y="117"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_arm" width="11" height="16" cocos2d_pX="6" cocos2d_pY="11" x="36" y="134"/>
+ <SubTexture name="厨娘2.psd 资源 9/right_arm_up" width="13" height="21" cocos2d_pX="7" cocos2d_pY="11" x="36" y="111"/>
+ <SubTexture name="厨娘2.psd 资源 9/hair_7" width="60" height="92" cocos2d_pX="30" cocos2d_pY="46" x="0" y="0"/>
+ <SubTexture name="重复项目文件夹/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="131" y="160"/>
+</TextureAtlas>

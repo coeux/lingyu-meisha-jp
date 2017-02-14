@@ -1,0 +1,31 @@
+<skeleton name="qiushouji" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="qiushouji">
+   <b name="图层 1" x="9.18" y="-7.5" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0">
+    <d name="20004.png" pX="0" pY="0"/>
+    <d name="20005.png" pX="0" pY="0"/>
+    <d name="20007.png" pX="0" pY="0"/>
+    <d name="20008.png" pX="0" pY="0"/>
+    <d name="20010.png" pX="0" pY="0"/>
+    <d name="20011.png" pX="0" pY="0"/>
+    <d name="20013.png" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="qiushouji">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="0" dr="1"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="1" dr="2"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="2" dr="1"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="3" dr="2"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="4" dr="1"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="5" dr="2"/>
+     <f x="9.18" y="-7.5" cocos2d_x="-20" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="30" pY="30" z="0" dI="6" dr="2"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,35 @@
+<skeleton name="H045_xuli" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="H045_xuli_1">
+      <b name="80001.png" x="47.63" y="-25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0">
+        <d name="元件 2" pX="32.67" pY="22.45"/>
+        <d name="元件 4" pX="81.83" pY="54.9"/>
+        <d name="元件 5" pX="83.1" pY="58.53"/>
+        <d name="元件 6" pX="92.9" pY="55.13"/>
+        <d name="元件 7" pX="92.48" pY="53.63"/>
+        <d name="元件 8" pX="96.78" pY="54.9"/>
+        <d name="元件 9" pX="91.2" pY="55.78"/>
+        <d name="元件 10" pX="89.7" pY="53.2"/>
+        <d name="元件 11" pX="36.53" pY="30.33"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="H045_xuli_1">
+      <mov name="play" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="80001.png" sc="1" dl="0">
+          <f x="47.63" y="-25" cocos2d_x="48" cocos2d_y="-24" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="0" dr="1"/>
+          <f x="-16.05" y="-42.07" cocos2d_x="-16" cocos2d_y="-42" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-10.47" y="-40.15" cocos2d_x="-10" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="6.18" y="-38.87" cocos2d_x="7" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+          <f x="6.6" y="-41.22" cocos2d_x="7" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="2"/>
+          <f x="8.32" y="-41.22" cocos2d_x="9" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="4.47" y="-40.37" cocos2d_x="5" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="6" dr="2"/>
+          <f x="12.38" y="-40.37" cocos2d_x="13" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="7" dr="2"/>
+          <f x="58.3" y="-35.45" cocos2d_x="59" cocos2d_y="-35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

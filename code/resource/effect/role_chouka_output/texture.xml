@@ -1,0 +1,14 @@
+<TextureAtlas name="role_chouka" width="512" height="512">
+ <SubTexture name="元件 2" width="130" height="130" cocos2d_pX="64.85" cocos2d_pY="64.95" x="89" y="0"/>
+ <SubTexture name="0.0.00" width="87" height="214" cocos2d_pX="43.5" cocos2d_pY="106.5" x="0" y="0"/>
+ <SubTexture name="元件 29" width="49" height="33" cocos2d_pX="24.25" cocos2d_pY="16.25" x="450" y="148"/>
+ <SubTexture name="元件 11" width="142" height="90" cocos2d_pX="71" cocos2d_pY="45" x="221" y="0"/>
+ <SubTexture name="元件 10" width="128" height="90" cocos2d_pX="63.75" cocos2d_pY="45" x="365" y="0"/>
+ <SubTexture name="元件 9" width="113" height="90" cocos2d_pX="56.05" cocos2d_pY="45" x="221" y="92"/>
+ <SubTexture name="元件 8" width="112" height="90" cocos2d_pX="55.85" cocos2d_pY="45" x="336" y="92"/>
+ <SubTexture name="元件 7" width="110" height="90" cocos2d_pX="54.8" cocos2d_pY="45" x="89" y="132"/>
+ <SubTexture name="元件 6" width="91" height="88" cocos2d_pX="45.05" cocos2d_pY="43.8" x="201" y="184"/>
+ <SubTexture name="元件 5" width="51" height="54" cocos2d_pX="25.5" cocos2d_pY="26.55" x="450" y="92"/>
+ <SubTexture name="元件 4" width="95" height="58" cocos2d_pX="47.25" cocos2d_pY="29" x="294" y="184"/>
+ <SubTexture name="元件 3" width="69" height="74" cocos2d_pX="34.15" cocos2d_pY="36.95" x="391" y="184"/>
+</TextureAtlas>

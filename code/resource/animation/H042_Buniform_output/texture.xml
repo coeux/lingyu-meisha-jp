@@ -1,0 +1,37 @@
+<TextureAtlas name="H042_Buniform" width="256" height="256">
+ <SubTexture name="小丑.psd 资源/head 副本" width="0" height="0" x="254" y="29"/>
+ <SubTexture name="wing_up_left_3" width="0" height="0" x="254" y="27"/>
+ <SubTexture name="wing_down_left_3" width="0" height="0" x="254" y="25"/>
+ <SubTexture name="wing_up_right_3" width="0" height="0" x="254" y="31"/>
+ <SubTexture name="wing_down_right_3" width="0" height="0" x="254" y="23"/>
+ <SubTexture name="小丑.psd 资源/hair_3" width="23" height="38" x="139" y="144"/>
+ <SubTexture name="小丑.psd 资源/hair_4" width="29" height="60" x="211" y="0"/>
+ <SubTexture name="小丑.psd 资源/hair_5" width="17" height="40" x="27" y="141"/>
+ <SubTexture name="小丑.psd 资源/hair_6" width="91" height="99" x="0" y="0"/>
+ <SubTexture name="biaoqing_6" width="46" height="36" x="91" y="133"/>
+ <SubTexture name="biaoqing_1" width="46" height="38" x="0" y="101"/>
+ <SubTexture name="小丑.psd 资源/head" width="63" height="65" x="146" y="0"/>
+ <SubTexture name="black yunajian/元件 1" width="21" height="36" x="164" y="144"/>
+ <SubTexture name="black yunajian/元件 2" width="22" height="30" x="96" y="171"/>
+ <SubTexture name="black yunajian/元件 3" width="12" height="16" x="242" y="48"/>
+ <SubTexture name="black yunajian/元件 4" width="29" height="15" x="120" y="184"/>
+ <SubTexture name="black yunajian/元件 5" width="12" height="21" x="242" y="0"/>
+ <SubTexture name="black yunajian/元件 6" width="10" height="23" x="242" y="23"/>
+ <SubTexture name="black yunajian/元件 7" width="51" height="75" x="146" y="67"/>
+ <SubTexture name="black yunajian/元件 8" width="41" height="38" x="48" y="101"/>
+ <SubTexture name="black yunajian/元件 9" width="25" height="36" x="0" y="141"/>
+ <SubTexture name="black yunajian/元件 10" width="21" height="34" x="73" y="171"/>
+ <SubTexture name="black yunajian/元件 11" width="24" height="25" x="0" y="179"/>
+ <SubTexture name="black yunajian/元件 12" width="25" height="48" x="211" y="62"/>
+ <SubTexture name="black yunajian/元件 13" width="17" height="40" x="237" y="124"/>
+ <SubTexture name="black yunajian/元件 14" width="23" height="23" x="46" y="179"/>
+ <SubTexture name="black yunajian/元件 15" width="21" height="48" x="199" y="112"/>
+ <SubTexture name="black yunajian/元件 16" width="14" height="31" x="238" y="66"/>
+ <SubTexture name="black yunajian/元件 17" width="20" height="36" x="228" y="166"/>
+ <SubTexture name="black yunajian/元件 18" width="25" height="36" x="46" y="141"/>
+ <SubTexture name="black yunajian/元件 19" width="13" height="16" x="222" y="112"/>
+ <SubTexture name="小丑.psd 资源/hair_2" width="46" height="42" x="93" y="89"/>
+ <SubTexture name="小丑.psd 资源/hair_1" width="13" height="23" x="238" y="99"/>
+ <SubTexture name="小丑.psd 资源/maozi" width="51" height="87" x="93" y="0"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" x="187" y="162"/>
+</TextureAtlas>

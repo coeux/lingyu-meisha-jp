@@ -1,0 +1,29 @@
+<skeleton name="S122_shifa" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S122_shifa">
+   <b name="图层 1" x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0">
+    <d name="元件 7" pX="-4.37" pY="-11.92"/>
+    <d name="元件 6" pX="-0.3" pY="-7.12"/>
+    <d name="元件 5" pX="-3.25" pY="-6.75"/>
+    <d name="元件 4" pX="-10.67" pY="0"/>
+    <d name="元件 3" pX="-11.4" pY="-4.53"/>
+    <d name="元件 2" pX="-16.95" pY="-18.6"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S122_shifa">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="0" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="1" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="2" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="3" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="4" dr="2"/>
+     <f x="0" y="-0.02" kX="0" kY="0" cX="1.35" cY="1.35" pX="84.38" pY="65.63" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

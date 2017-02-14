@@ -1,0 +1,76 @@
+<skeleton name="chuka" frameRate="25" version="2.1">
+  <armatures>
+    <armature name="chuka">
+      <b name="图层 1" x="317" y="-1.55" kX="0" kY="0" cX="2" cY="2" pX="77" pY="52.75" z="0">
+        <d name="元件 31" pX="0" pY="0"/>
+        <d name="元件 32" pX="0" pY="0"/>
+        <d name="元件 33" pX="0" pY="0"/>
+        <d name="元件 34" pX="0" pY="0"/>
+        <d name="元件 36" pX="0" pY="0"/>
+        <d name="元件 37" pX="0" pY="0"/>
+        <d name="元件 38" pX="0" pY="0"/>
+        <d name="元件 39" pX="0" pY="0"/>
+        <d name="元件 40" pX="0" pY="0"/>
+        <d name="元件 41" pX="0" pY="0"/>
+        <d name="元件 42" pX="0" pY="0"/>
+        <d name="元件 43" pX="0" pY="0"/>
+        <d name="元件 44" pX="0" pY="0"/>
+        <d name="元件 45" pX="0" pY="0"/>
+        <d name="元件 46" pX="0" pY="0"/>
+        <d name="元件 47" pX="0" pY="0"/>
+      </b>
+      <b name="图层 2" x="-1.95" y="5.2" kX="0" kY="0" cX="1.11" cY="1.11" pX="81.5" pY="116.7" z="0">
+        <d name="元件 27" pX="0" pY="0"/>
+        <d name="元件 28" pX="0" pY="0"/>
+        <d name="元件 29" pX="0" pY="0"/>
+        <d name="元件 30" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="chuka">
+      <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="317" y="-1.55" kX="0" kY="0" cX="2" cY="2" pX="77" pY="52.75" z="0" dI="0" dr="2"/>
+          <f x="241.5" y="-5.05" kX="0" kY="0" cX="2" cY="2" pX="88.25" pY="53.5" z="0" dI="1" dr="1"/>
+          <f x="213" y="-0.05" kX="0" kY="0" cX="2" cY="2" pX="102.5" pY="49.5" z="0" dI="2" dr="2"/>
+          <f x="109.5" y="-1.05" kX="0" kY="0" cX="2" cY="2" pX="92.75" pY="50.5" z="0" dI="3" dr="2"/>
+          <f x="55.7" y="-2.05" kX="0" kY="0" cX="2" cY="2" pX="80.1" pY="52" z="0" dI="4" dr="1"/>
+          <f x="-1.5" y="-1.55" kX="0" kY="0" cX="2" cY="2" pX="38.25" pY="47.75" z="0" dI="5" dr="1"/>
+        </b>
+      </mov>
+      <mov name="play2" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-1.95" y="5.2" kX="0" kY="0" cX="1.11" cY="1.11" pX="81.5" pY="116.7" z="0" dI="0" dr="1"/>
+          <f x="-2.25" y="1.1" kX="0" kY="0" cX="1.11" cY="1.11" pX="97.3" pY="160" z="0" dI="1" dr="1"/>
+          <f x="-3.8" y="-0.4" kX="0" kY="0" cX="1.11" cY="1.11" pX="105.3" pY="168" z="0" dI="2" twE="0" dr="3"/>
+          <f x="-3.8" y="-0.4" kX="0" kY="0" cX="1.11" cY="1.11" pX="105.3" pY="168" z="0" dI="2" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="29" rM="100" gM="100" bM="100"/>
+          </f>
+          <f x="-4.55" y="1.8" kX="0" kY="0" cX="1.11" cY="1.11" pX="82.45" pY="111.65" z="0" dI="3" twE="0" dr="3"/>
+          <f x="-4.55" y="1.8" kX="0" kY="0" cX="1.11" cY="1.11" pX="82.45" pY="111.65" z="0" dI="3" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="17" dI="-1"/>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-2.5" y="-3.55" kX="0" kY="0" cX="2" cY="2" pX="39.25" pY="49.25" z="0" dI="6" dr="2"/>
+          <f x="-0.5" y="-2.05" kX="0" kY="0" cX="2" cY="2" pX="43.25" pY="52.5" z="1" dI="7" dr="2"/>
+          <f x="-0.5" y="-1.05" kX="0" kY="0" cX="2" cY="2" pX="45.75" pY="54" z="1" dI="8" dr="1"/>
+          <f x="-0.5" y="-0.05" kX="0" kY="0" cX="2" cY="2" pX="46.25" pY="55.5" z="1" dI="9" dr="2"/>
+          <f x="-1" y="-2.55" kX="0" kY="0" cX="2" cY="2" pX="39.5" pY="48.75" z="1" dI="10" dr="1"/>
+          <f x="-12.3" y="8.05" kX="0" kY="0" cX="2" cY="2" pX="33.15" pY="30.35" z="1" dI="11" dr="2"/>
+          <f x="-12.3" y="5.85" kX="0" kY="0" cX="2" cY="2" pX="35.75" pY="31.8" z="1" dI="12" dr="2"/>
+          <f x="-9.1" y="-2.35" kX="0" kY="0" cX="2" cY="2" pX="38.2" pY="28.4" z="0" dI="13" dr="2"/>
+          <f x="-33.7" y="-8.95" kX="0" kY="0" cX="2" cY="2" pX="29.2" pY="27.3" z="0" dI="14" dr="2"/>
+          <f x="-36.5" y="15.95" kX="0" kY="0" cX="2" cY="2" pX="29.25" pY="9.5" z="0" dI="15" twE="0" dr="2"/>
+          <f x="-36.5" y="15.95" kX="0" kY="0" cX="2" cY="2" pX="29.25" pY="9.5" z="0" dI="15" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="15" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="10" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

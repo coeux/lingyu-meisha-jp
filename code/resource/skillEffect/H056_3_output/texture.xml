@@ -1,0 +1,22 @@
+<TextureAtlas name="H056_3" width="512" height="1024">
+ <SubTexture name="重复项目文件夹/补间 24 副本" width="155" height="76" cocos2d_pX="78" cocos2d_pY="38" x="313" y="366"/>
+ <SubTexture name="重复项目文件夹/补间 23 副本" width="149" height="74" cocos2d_pX="75" cocos2d_pY="37" x="214" y="275"/>
+ <SubTexture name="重复项目文件夹/补间 22" width="124" height="79" cocos2d_pX="62" cocos2d_pY="40" x="313" y="444"/>
+ <SubTexture name="重复项目文件夹/补间 21 副本" width="119" height="74" cocos2d_pX="60" cocos2d_pY="37" x="93" y="384"/>
+ <SubTexture name="重复项目文件夹/补间 20 副本" width="98" height="64" cocos2d_pX="49" cocos2d_pY="32" x="0" y="460"/>
+ <SubTexture name="重复项目文件夹/补间 19 副本" width="94" height="60" cocos2d_pX="47" cocos2d_pY="30" x="205" y="469"/>
+ <SubTexture name="重复项目文件夹/补间 18 副本" width="73" height="44" cocos2d_pX="37" cocos2d_pY="22" x="0" y="401"/>
+ <SubTexture name="补间 13" width="91" height="125" cocos2d_pX="46" cocos2d_pY="63" x="0" y="274"/>
+ <SubTexture name="补间 12" width="93" height="125" cocos2d_pX="47" cocos2d_pY="63" x="367" y="239"/>
+ <SubTexture name="补间 11" width="108" height="126" cocos2d_pX="54" cocos2d_pY="63" x="257" y="147"/>
+ <SubTexture name="补间 10" width="119" height="120" cocos2d_pX="60" cocos2d_pY="60" x="369" y="0"/>
+ <SubTexture name="补间 9" width="119" height="115" cocos2d_pX="60" cocos2d_pY="58" x="369" y="122"/>
+ <SubTexture name="补间 8" width="105" height="111" cocos2d_pX="53" cocos2d_pY="56" x="107" y="271"/>
+ <SubTexture name="补间 7" width="97" height="116" cocos2d_pX="49" cocos2d_pY="58" x="214" y="351"/>
+ <SubTexture name="补间 6" width="105" height="121" cocos2d_pX="53" cocos2d_pY="61" x="0" y="151"/>
+ <SubTexture name="补间 18" width="103" height="54" cocos2d_pX="52" cocos2d_pY="27" x="100" y="460"/>
+ <SubTexture name="补间 17" width="105" height="113" cocos2d_pX="53" cocos2d_pY="57" x="107" y="156"/>
+ <SubTexture name="补间 16" width="110" height="145" cocos2d_pX="55" cocos2d_pY="73" x="257" y="0"/>
+ <SubTexture name="补间 15" width="105" height="154" cocos2d_pX="53" cocos2d_pY="77" x="150" y="0"/>
+ <SubTexture name="补间 14" width="148" height="149" cocos2d_pX="74" cocos2d_pY="75" x="0" y="0"/>
+</TextureAtlas>

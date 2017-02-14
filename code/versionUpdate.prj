@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="versionUpdate" ResourceFileName="versionUpdate.res" LayoutFileName="versionUpdate.lay">
+	<AssistLine P0="30, 0" P1="30, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="0, 498" P1="4096, 498" Width="2" Color="Gold" />
+	<AssistLine P0="0, 503" P1="4096, 503" Width="2" Color="Gold" />
+	<AssistLine P0="0, 471" P1="4096, 471" Width="2" Color="Gold" />
+	<AssistLine P0="1181, 0" P1="1181, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="1104, 0" P1="1104, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="1072, 0" P1="1072, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="70, 0" P1="70, 4096" Width="2" Color="Gold" />
+	<GlobalStyles />
+</Project>

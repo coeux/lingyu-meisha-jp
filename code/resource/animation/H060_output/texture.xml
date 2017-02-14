@@ -1,0 +1,42 @@
+<TextureAtlas name="H060" width="256" height="512">
+ <SubTexture name="H060yuanjian/元件 11" width="34" height="32" x="162" y="243"/>
+ <SubTexture name="H060yuanjian/元件 13" width="4" height="9" x="135" y="37"/>
+ <SubTexture name="H060yuanjian/元件 14" width="12" height="15" x="235" y="89"/>
+ <SubTexture name="H060yuanjian/元件 1 副本 2" width="140" height="16" x="0" y="19"/>
+ <SubTexture name="H060yuanjian/元件 1" width="140" height="17" x="0" y="0"/>
+ <SubTexture name="H060yuanjian/元件 2" width="31" height="56" x="53" y="160"/>
+ <SubTexture name="H060yuanjian/元件 2 副本" width="35" height="46" x="0" y="234"/>
+ <SubTexture name="H060yuanjian/元件 1 副本" width="27" height="57" x="177" y="89"/>
+ <SubTexture name="H060yuanjian/元件 5" width="20" height="45" x="51" y="102"/>
+ <SubTexture name="H060yuanjian/元件 7" width="26" height="45" x="206" y="104"/>
+ <SubTexture name="H060yuanjian/元件 6" width="31" height="46" x="86" y="214"/>
+ <SubTexture name="H060yuanjian/biaoqing6" width="49" height="36" x="0" y="196"/>
+ <SubTexture name="H060yuanjian/biaoqing5" width="51" height="37" x="0" y="157"/>
+ <SubTexture name="H060yuanjian/biaoqing3" width="52" height="31" x="200" y="241"/>
+ <SubTexture name="H060yuanjian/biaoqing4" width="48" height="31" x="198" y="274"/>
+ <SubTexture name="H060yuanjian/biaoqing2" width="49" height="35" x="200" y="204"/>
+ <SubTexture name="H060yuanjian/biaoqing1" width="51" height="35" x="122" y="174"/>
+ <SubTexture name="H060yuanjian/元件 9" width="60" height="65" x="73" y="37"/>
+ <SubTexture name="H060yuanjian/元件 10" width="25" height="102" x="208" y="0"/>
+ <SubTexture name="H060yuanjian/元件 15" width="23" height="29" x="84" y="262"/>
+ <SubTexture name="H060yuanjian/元件 16" width="20" height="30" x="234" y="106"/>
+ <SubTexture name="H060yuanjian/元件 17" width="38" height="44" x="122" y="211"/>
+ <SubTexture name="H060yuanjian/元件 18" width="40" height="54" x="73" y="104"/>
+ <SubTexture name="H060yuanjian/元件 19" width="34" height="52" x="86" y="160"/>
+ <SubTexture name="H060yuanjian/元件 20" width="37" height="51" x="205" y="151"/>
+ <SubTexture name="H060yuanjian/元件 21" width="49" height="53" x="0" y="102"/>
+ <SubTexture name="H060yuanjian/元件 22" width="28" height="25" x="119" y="257"/>
+ <SubTexture name="H060yuanjian/元件 23" width="18" height="43" x="235" y="0"/>
+ <SubTexture name="H060yuanjian/元件 24" width="22" height="39" x="37" y="252"/>
+ <SubTexture name="H060yuanjian/元件 26" width="71" height="63" x="0" y="37"/>
+ <SubTexture name="H060yuanjian/元件 31" width="27" height="24" x="149" y="277"/>
+ <SubTexture name="H060yuanjian/元件 30" width="18" height="42" x="235" y="45"/>
+ <SubTexture name="H060yuanjian/元件 29" width="21" height="39" x="61" y="252"/>
+ <SubTexture name="H060yuanjian/left_down_hand" width="33" height="32" x="51" y="218"/>
+ <SubTexture name="H060yuanjian/元件 12" width="23" height="46" x="175" y="195"/>
+ <SubTexture name="H060yuanjian/元件 25" width="26" height="45" x="177" y="148"/>
+ <SubTexture name="H060yuanjian/left_hand" width="12" height="14" x="115" y="104"/>
+ <SubTexture name="H060yuanjian/元件 27" width="64" height="87" x="142" y="0"/>
+ <SubTexture name="H060yuanjian/元件 28" width="40" height="83" x="135" y="89"/>
+ <SubTexture name="H060yuanjian/元件 1 副本 3" width="51" height="21" x="0" y="293"/>
+</TextureAtlas>

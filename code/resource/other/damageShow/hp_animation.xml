@@ -1,0 +1,20 @@
+<Animation dr="18" >
+	<KeyFrame Key="0" tweenType="none" Scale="X:0.39 Y:0.42" Translate="X:-1.75 Y:-8"/>
+	<KeyFrame Key="1" tweenType="none" Scale="X:0.93 Y:1" Translate="X:-1.65 Y:-5.95"/>
+	<KeyFrame Key="2" tweenType="none" Scale="X:1.46 Y:1.58" Translate="X:-1.9 Y:-3.85"/>
+	<KeyFrame Key="3" tweenType="none" Scale="X:1.4 Y:1.52" Translate="X:-1.75 Y:-7.7" Color="0xFAFFFFFF"/>
+	<KeyFrame Key="4" tweenType="none" Scale="X:1.28 Y:1.38" Translate="X:-2.6 Y:-15.95" Color="0xF2FFFFFF"/>
+	<KeyFrame Key="5" tweenType="none" Scale="X:1.24 Y:1.34" Translate="X:-4.25 Y:-24.65" Color="0xE5FFFFFF"/>
+	<KeyFrame Key="6" tweenType="none" Scale="X:1.19 Y:1.29" Translate="X:-7.15 Y:-33.6" Color="0xD6FFFFFF"/>
+	<KeyFrame Key="7" tweenType="none" Scale="X:1.15 Y:1.24" Translate="X:-11.5 Y:-42.45" Color="0xC6FFFFFF"/>
+	<KeyFrame Key="8" tweenType="none" Scale="X:1.1 Y:1.19" Translate="X:-17.7 Y:-50.7" Color="0xB7FFFFFF"/>
+	<KeyFrame Key="9" tweenType="none" Scale="X:1.05 Y:1.14" Translate="X:-26.2 Y:-57.5" Color="0xA8FFFFFF"/>
+	<KeyFrame Key="10" tweenType="none" Scale="X:1 Y:1.08" Translate="X:-36.8 Y:-61.75" Color="0x96FFFFFF"/>
+	<KeyFrame Key="11" tweenType="none" Scale="X:0.94 Y:1.02" Translate="X:-48.65 Y:-62.95" Color="0x84FFFFFF"/>
+	<KeyFrame Key="12" tweenType="none" Scale="X:0.89 Y:0.96" Translate="X:-61.15 Y:-61.25" Color="0x72FFFFFF"/>
+	<KeyFrame Key="13" tweenType="none" Scale="X:0.83 Y:0.9" Translate="X:-73.5 Y:-57.15" Color="0x5EFFFFFF"/>
+	<KeyFrame Key="14" tweenType="none" Scale="X:0.77 Y:0.83" Translate="X:-85.5 Y:-51.15" Color="0x49FFFFFF"/>
+	<KeyFrame Key="15" tweenType="none" Scale="X:0.71 Y:0.76" Translate="X:-97.35 Y:-43.45" Color="0x39FFFFFF"/>
+	<KeyFrame Key="16" tweenType="none" Scale="X:0.64 Y:0.69" Translate="X:-108.75 Y:-34.45" Color="0x21FFFFFF"/>
+	<KeyFrame Key="17" tweenType="none" Scale="X:0.57 Y:0.62" Translate="X:-119.9 Y:-24.45" Color="0x0AFFFFFF"/>
+</Animation>

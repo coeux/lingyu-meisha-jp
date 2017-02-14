@@ -1,0 +1,11 @@
+<TextureAtlas name="item_chouka" width="512" height="512">
+ <SubTexture name="元件 15" width="154" height="162" cocos2d_pX="76.7" cocos2d_pY="80.55" x="310" y="338"/>
+ <SubTexture name="元件 14" width="198" height="200" cocos2d_pX="98.65" cocos2d_pY="99.75" x="0" y="0"/>
+ <SubTexture name="元件 13" width="174" height="173" cocos2d_pX="86.7" cocos2d_pY="86.1" x="200" y="0"/>
+ <SubTexture name="元件 12" width="160" height="159" cocos2d_pX="79.75" cocos2d_pY="79.15" x="0" y="202"/>
+ <SubTexture name="元件 11" width="143" height="136" cocos2d_pX="71.15" cocos2d_pY="67.8" x="0" y="363"/>
+ <SubTexture name="元件 10" width="138" height="130" cocos2d_pX="68.6" cocos2d_pY="64.75" x="369" y="175"/>
+ <SubTexture name="元件 6" width="45" height="156" cocos2d_pX="22.5" cocos2d_pY="78" x="376" y="0"/>
+ <SubTexture name="元件 5" width="146" height="171" cocos2d_pX="72.7" cocos2d_pY="85.35" x="162" y="338"/>
+ <SubTexture name="元件 4" width="167" height="161" cocos2d_pX="83.1" cocos2d_pY="80.1" x="200" y="175"/>
+</TextureAtlas>

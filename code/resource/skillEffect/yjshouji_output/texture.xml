@@ -1,0 +1,8 @@
+<TextureAtlas name="yjshouji" width="512" height="512">
+ <SubTexture name="元件 17" width="240" height="96" cocos2d_pX="120" cocos2d_pY="48" x="241" y="288"/>
+ <SubTexture name="元件 15" width="239" height="108" cocos2d_pX="120" cocos2d_pY="54" x="0" y="288"/>
+ <SubTexture name="元件 2" width="158" height="71" cocos2d_pX="79" cocos2d_pY="36" x="327" y="83"/>
+ <SubTexture name="元件 3" width="160" height="81" cocos2d_pX="80" cocos2d_pY="41" x="327" y="0"/>
+ <SubTexture name="元件 11" width="325" height="144" cocos2d_pX="163" cocos2d_pY="72" x="0" y="0"/>
+ <SubTexture name="元件 10" width="287" height="140" cocos2d_pX="144" cocos2d_pY="70" x="0" y="146"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+number	string	string	string	string
+id	name	description	source1	source2
+1001	始まりの世界	Lv01～Lv10　素材（緑1）をゲット	fuben_bg2	fuben_bg2
+1002	チームの葛藤	Lv11～Lv20　素材（緑2）をゲット	fuben_bg1	fuben_bg1
+1003	マインドコントロール	Lv21～Lv26　素材（青1）をゲット	fuben_bg3	fuben_bg3
+1004	訓練の日々	Lv27～Lv32　素材（青2）をゲット	fuben_bg4	fuben_bg4
+1005	雪山の悲劇	Lv33～Lv38　素材（青3）をゲット	fuben_bg5	fuben_bg5
+1006	二転三転	Lv39～Lv44　素材（紫1）をゲット	fuben_bg6	fuben_bg6
+1007	偵察任務	Lv45～Lv52　素材（紫2）をゲット	fuben_bg7	fuben_bg7
+1008	呼び起こされる記憶	Lv53～Lv61　素材（紫3）をゲット	fuben_bg8	fuben_bg8
+1009	新たな旅	Lv62～Lv70　素材（紫4）をゲット	fuben_bg9	fuben_bg9
+1010	道が長くても、遠くても	Lv70以上　　 素材（金）をゲット	fuben_bg10	fuben_bg10
+1011	起源	Lv70以上　    素材（金）をゲット	fuben_bg11	fuben_bg11

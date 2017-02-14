@@ -1,0 +1,12 @@
+<TextureAtlas name="hunshijinjie" width="512" height="256">
+ <SubTexture name="元件 11" width="62" height="53" cocos2d_pX="31" cocos2d_pY="27" x="438" y="0"/>
+ <SubTexture name="元件 10" width="106" height="71" cocos2d_pX="53" cocos2d_pY="36" x="344" y="93"/>
+ <SubTexture name="元件 9" width="102" height="69" cocos2d_pX="51" cocos2d_pY="35" x="120" y="111"/>
+ <SubTexture name="元件 8" width="105" height="69" cocos2d_pX="53" cocos2d_pY="35" x="235" y="101"/>
+ <SubTexture name="元件 7" width="113" height="109" cocos2d_pX="57" cocos2d_pY="55" x="120" y="0"/>
+ <SubTexture name="元件 6" width="107" height="99" cocos2d_pX="54" cocos2d_pY="50" x="235" y="0"/>
+ <SubTexture name="元件 5" width="118" height="116" cocos2d_pX="59" cocos2d_pY="58" x="0" y="0"/>
+ <SubTexture name="元件 4" width="91" height="71" cocos2d_pX="46" cocos2d_pY="36" x="0" y="118"/>
+ <SubTexture name="元件 2" width="92" height="91" cocos2d_pX="46" cocos2d_pY="46" x="344" y="0"/>
+ <SubTexture name="元件 1" width="31" height="30" cocos2d_pX="16" cocos2d_pY="15" x="438" y="55"/>
+</TextureAtlas>

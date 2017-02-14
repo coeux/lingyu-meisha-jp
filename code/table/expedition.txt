@@ -1,0 +1,17 @@
+number	string	string	number	number	number	number	number	array	array	array	array
+id	name	source	scene_width	lv_min	lv_max	gold_drop	expedition_coin	drop	coordinate	reward_coordinate	effect_ids
+8001	第1关	resource/scene/senlin/sl_1_2.sce	1706	-15	-13	10000	30	"[1,1]"	"[257,31]"	"[183,113]"	[]
+8002	第2关	resource/scene/senlin/sl_1_2.sce	1706	-13	-11	10250	30	"[1,1]"	"[133,159]"	"[199,254]"	[]
+8003	第3关	resource/scene/senlin/sl_1_2.sce	1706	-11	-9	10500	30	"[1,1]"	"[321,250]"	"[388,349]"	[]
+8004	第4关	resource/scene/senlin/sl_1_2.sce	1706	-9	-7	10750	100	"[2,1]"	"[490,377]"	"[576,348]"	[]
+8005	第5关	resource/scene/senlin/sl_1_2.sce	1706	-7	-5	11000	30	"[1,1]"	"[663,263]"	"[767,291]"	[]
+8006	第6关	resource/scene/senlin/sl_1_2.sce	1706	-5	-3	11250	30	"[1,1]"	"[894,237]"	"[816,183]"	[]
+8007	第7关	resource/scene/senlin/sl_1_2.sce	1706	-3	-1	11500	150	"[3,2]"	"[911,96]"	"[1014,134]"	[]
+8008	第8关	resource/scene/senlin/sl_1_2.sce	1706	-1	1	11750	30	"[1,1]"	"[1128,119]"	"[1225,160]"	[]
+8009	第9关	resource/scene/senlin/sl_1_2.sce	1706	-1	1	12000	30	"[1,1]"	"[1333,126]"	"[1278,247]"	[]
+8010	第10关	resource/scene/senlin/sl_1_2.sce	1706	0	2	12250	30	"[1,1]"	"[1228,317]"	"[1290,432]"	[]
+8011	第11关	resource/scene/senlin/sl_1_2.sce	1706	0	2	12500	100	"[2,2]"	"[1416,309]"	"[1519,282]"	[]
+8012	第12关	resource/scene/senlin/sl_1_2.sce	1706	0	2	12750	30	"[1,1]"	"[1594,169]"	"[1701,166]"	[]
+8013	第13关	resource/scene/senlin/sl_1_2.sce	1706	1	3	13000	30	"[1,1]"	"[1845,107]"	"[1785,212]"	[]
+8014	第14关	resource/scene/senlin/sl_1_2.sce	1706	2	4	13250	150	"[3,2]"	"[1718,258]"	"[1709,354]"	[]
+8015	第15关	resource/scene/senlin/sl_1_2.sce	1706	4	6	13500	200	"[4,3]"	"[1806,396]"	"[1895,424]"	[]

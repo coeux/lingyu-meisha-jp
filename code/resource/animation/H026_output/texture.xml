@@ -1,0 +1,111 @@
+<TextureAtlas name="H026" width="1024" height="512">
+  <SubTexture name="yuanjian/head 副本" width="0" height="0" x="1018" y="51"/>
+  <SubTexture name="重复项目文件夹/元件 1" width="0" height="0" x="1020" y="51"/>
+  <SubTexture name="元件 25" width="90" height="115" x="220" y="0"/>
+  <SubTexture name="元件 84" width="70" height="83" x="800" y="190"/>
+  <SubTexture name="元件 83" width="72" height="84" x="110" y="181"/>
+  <SubTexture name="元件 82" width="70" height="85" x="701" y="188"/>
+  <SubTexture name="元件 81" width="84" height="87" x="714" y="99"/>
+  <SubTexture name="元件 80" width="71" height="79" x="872" y="195"/>
+  <SubTexture name="元件 79" width="69" height="93" x="217" y="117"/>
+  <SubTexture name="元件 42" width="47" height="37" x="974" y="141"/>
+  <SubTexture name="元件 41" width="57" height="43" x="250" y="417"/>
+  <SubTexture name="元件 40" width="85" height="49" x="933" y="277"/>
+  <SubTexture name="元件 39" width="87" height="48" x="756" y="275"/>
+  <SubTexture name="元件 38" width="113" height="50" x="94" y="267"/>
+  <SubTexture name="元件 37" width="109" height="46" x="456" y="270"/>
+  <SubTexture name="元件 36" width="113" height="54" x="288" y="258"/>
+  <SubTexture name="元件 35" width="120" height="51" x="573" y="266"/>
+  <SubTexture name="元件 34" width="114" height="62" x="288" y="194"/>
+  <SubTexture name="元件 33" width="110" height="58" x="0" y="101"/>
+  <SubTexture name="元件 32" width="108" height="56" x="0" y="161"/>
+  <SubTexture name="元件 31" width="92" height="53" x="0" y="219"/>
+  <SubTexture name="元件 30" width="92" height="49" x="0" y="274"/>
+  <SubTexture name="元件 29" width="84" height="43" x="284" y="314"/>
+  <SubTexture name="元件 28" width="83" height="43" x="94" y="319"/>
+  <SubTexture name="元件 27" width="60" height="40" x="489" y="411"/>
+  <SubTexture name="元件 26" width="58" height="38" x="309" y="417"/>
+  <SubTexture name="yuajian3/元件 4" width="78" height="72" x="593" y="192"/>
+  <SubTexture name="yuajian3/元件 3" width="73" height="56" x="209" y="284"/>
+  <SubTexture name="yuajian3/元件 2" width="62" height="40" x="951" y="398"/>
+  <SubTexture name="yuanjian/body_1" width="81" height="89" x="800" y="99"/>
+  <SubTexture name="yuanjian/leg_2" width="17" height="23" x="288" y="117"/>
+  <SubTexture name="yuanjian/leg_1" width="17" height="23" x="395" y="97"/>
+  <SubTexture name="元件 77" width="102" height="95" x="312" y="0"/>
+  <SubTexture name="元件 76" width="98" height="94" x="416" y="0"/>
+  <SubTexture name="元件 75" width="98" height="90" x="516" y="0"/>
+  <SubTexture name="元件 74" width="97" height="88" x="616" y="0"/>
+  <SubTexture name="元件 16" width="88" height="97" x="805" y="0"/>
+  <SubTexture name="元件 15" width="88" height="97" x="715" y="0"/>
+  <SubTexture name="元件 14" width="87" height="98" x="895" y="0"/>
+  <SubTexture name="元件 13" width="110" height="99" x="0" y="0"/>
+  <SubTexture name="元件 12" width="106" height="99" x="112" y="0"/>
+  <SubTexture name="元件 11" width="89" height="78" x="112" y="101"/>
+  <SubTexture name="元件 10" width="71" height="70" x="215" y="212"/>
+  <SubTexture name="元件 1" width="57" height="56" x="191" y="389"/>
+  <SubTexture name="元件 66" width="60" height="57" x="830" y="326"/>
+  <SubTexture name="元件 65" width="70" height="50" x="0" y="325"/>
+  <SubTexture name="元件 64" width="69" height="45" x="179" y="342"/>
+  <SubTexture name="元件 63" width="86" height="48" x="845" y="276"/>
+  <SubTexture name="元件 62" width="78" height="70" x="493" y="198"/>
+  <SubTexture name="元件 61" width="50" height="62" x="520" y="318"/>
+  <SubTexture name="元件 60" width="51" height="63" x="403" y="299"/>
+  <SubTexture name="元件 59" width="62" height="65" x="456" y="318"/>
+  <SubTexture name="元件 58" width="59" height="71" x="695" y="275"/>
+  <SubTexture name="元件 57" width="51" height="66" x="971" y="209"/>
+  <SubTexture name="元件 56" width="75" height="104" x="516" y="92"/>
+  <SubTexture name="元件 55" width="75" height="103" x="416" y="96"/>
+  <SubTexture name="元件 54" width="83" height="100" x="616" y="90"/>
+  <SubTexture name="元件 53" width="81" height="95" x="312" y="97"/>
+  <SubTexture name="元件 17" width="77" height="93" x="895" y="100"/>
+  <SubTexture name="元件 73" width="57" height="57" x="430" y="385"/>
+  <SubTexture name="元件 72" width="57" height="57" x="711" y="373"/>
+  <SubTexture name="元件 71" width="57" height="57" x="132" y="389"/>
+  <SubTexture name="元件 70" width="57" height="57" x="829" y="385"/>
+  <SubTexture name="元件 69" width="57" height="57" x="0" y="377"/>
+  <SubTexture name="元件 68" width="57" height="57" x="892" y="373"/>
+  <SubTexture name="元件 67" width="57" height="57" x="770" y="373"/>
+  <SubTexture name="元件 52" width="59" height="34" x="369" y="422"/>
+  <SubTexture name="元件 51" width="62" height="39" x="632" y="406"/>
+  <SubTexture name="元件 50" width="73" height="43" x="892" y="328"/>
+  <SubTexture name="元件 49" width="55" height="34" x="967" y="328"/>
+  <SubTexture name="元件 48" width="61" height="36" x="59" y="422"/>
+  <SubTexture name="元件 47" width="77" height="48" x="572" y="319"/>
+  <SubTexture name="元件 46" width="72" height="46" x="756" y="325"/>
+  <SubTexture name="元件 45" width="51" height="32" x="967" y="364"/>
+  <SubTexture name="元件 44" width="48" height="27" x="974" y="180"/>
+  <SubTexture name="元件 43" width="47" height="27" x="520" y="382"/>
+  <SubTexture name="pet_27006" width="0" height="0" x="1022" y="51"/>
+  <SubTexture name="yuanjian/dunpai" width="50" height="96" x="404" y="201"/>
+  <SubTexture name="yuanjian/left_arm" width="8" height="16" x="974" y="100"/>
+  <SubTexture name="yuanjian/left_arm_up" width="12" height="20" x="395" y="122"/>
+  <SubTexture name="yuanjian/hair_3" width="12" height="18" x="203" y="123"/>
+  <SubTexture name="yuanjian/toushi" width="43" height="17" x="711" y="348"/>
+  <SubTexture name="yuanjian/hair_1" width="32" height="45" x="984" y="51"/>
+  <SubTexture name="yuanjian/hair_2" width="29" height="46" x="184" y="181"/>
+  <SubTexture name="yuanjian/head_3" width="58" height="56" x="370" y="364"/>
+  <SubTexture name="yuanjian/head_4" width="58" height="56" x="72" y="364"/>
+  <SubTexture name="yuanjian/head_2" width="58" height="56" x="310" y="359"/>
+  <SubTexture name="yuanjian/head_5" width="58" height="56" x="250" y="359"/>
+  <SubTexture name="yuanjian/head_1" width="58" height="56" x="572" y="369"/>
+  <SubTexture name="yuanjian/head" width="58" height="56" x="651" y="348"/>
+  <SubTexture name="yuanjian/yaojia" width="12" height="12" x="203" y="143"/>
+  <SubTexture name="yuanjian/qunzi_1" width="24" height="17" x="945" y="195"/>
+  <SubTexture name="yuanjian/qunzi_2" width="24" height="19" x="673" y="192"/>
+  <SubTexture name="yuanjian/body" width="25" height="40" x="773" y="188"/>
+  <SubTexture name="yuanjian/hair_4" width="35" height="41" x="984" y="98"/>
+  <SubTexture name="yuanjian/hair_5" width="37" height="49" x="984" y="0"/>
+  <SubTexture name="yuanjian/left_up_leg" width="15" height="31" x="593" y="92"/>
+  <SubTexture name="yuanjian/left_down_leg" width="11" height="25" x="701" y="90"/>
+  <SubTexture name="yuanjian/left_foot_1" width="13" height="13" x="288" y="142"/>
+  <SubTexture name="yuanjian/left_foot" width="13" height="14" x="593" y="140"/>
+  <SubTexture name="yuanjian/right_up_leg" width="13" height="30" x="493" y="96"/>
+  <SubTexture name="yuanjian/right_down_leg" width="10" height="21" x="883" y="99"/>
+  <SubTexture name="yuanjian/right_foot_1" width="14" height="13" x="593" y="125"/>
+  <SubTexture name="yuanjian/right_foot" width="14" height="13" x="493" y="128"/>
+  <SubTexture name="yuanjian/right_arm_up" width="12" height="20" x="203" y="101"/>
+  <SubTexture name="yuanjian/right_arm" width="11" height="17" x="701" y="117"/>
+  <SubTexture name="yuanjian/left_hand" width="8" height="9" x="974" y="118"/>
+  <SubTexture name="yuanjian/right_hand" width="7" height="8" x="883" y="122"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" x="651" y="319"/>
+</TextureAtlas>

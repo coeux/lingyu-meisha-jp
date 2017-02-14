@@ -1,0 +1,4 @@
+#0 0 * * * (sh /home/mysql/cron_db/mkstatics_god.sh >>/home/mysql/cron_db/mkstatics.log 2>&1 &)
+#*/5 * * * * (sh /home/mysql/cron_db/log_online_per_5mins.sh >>/home/mysql/cron_db/log_online_per_5mins.log 2>&1 &)
+#*/5 * * * * (sh /home/mysql/cron_db/log_realtime_per_1hour.sh >>/home/mysql/cron_db/log_realtime_per_1hour.log 2>&1 &)
+#10 0 * * * (sh /home/mysql/statics/nuts_cron.sh >>/home/mysql/statics/nuts_cron.log 2>&1 &)

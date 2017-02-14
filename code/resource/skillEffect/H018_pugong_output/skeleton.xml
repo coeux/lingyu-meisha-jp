@@ -1,0 +1,218 @@
+<skeleton name="H018_pugong" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="H018_pugong_3">
+   <b name="图层 2" x="129.68" y="15.58" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0">
+    <d name="元件 41" pX="55.15" pY="56.2"/>
+    <d name="元件 43" pX="58.55" pY="52.6"/>
+    <d name="元件 40" pX="50.28" pY="56.2"/>
+   </b>
+   <b name="10037.png" x="122.4" y="16.65" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1">
+    <d name="元件 43" pX="58.55" pY="52.6"/>
+    <d name="元件 40" pX="50.28" pY="56.2"/>
+    <d name="元件 41" pX="55.15" pY="56.2"/>
+    <d name="元件 42" pX="55.58" pY="54.5"/>
+   </b>
+   <b name="10037.png0" x="2.38" y="3.75" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="元件 29" pX="51.23" pY="52.55"/>
+    <d name="元件 49" pX="53.85" pY="27.58"/>
+    <d name="元件 48" pX="56.48" pY="30.88"/>
+    <d name="元件 50" pX="51.45" pY="33.5"/>
+    <d name="元件 51" pX="52.1" pY="33.05"/>
+    <d name="元件 52" pX="43.13" pY="33.92"/>
+    <d name="元件 27" pX="63.05" pY="63.93"/>
+    <d name="元件 26" pX="56.05" pY="57.8"/>
+    <d name="元件 25" pX="32.42" pY="45.98"/>
+    <d name="元件 24" pX="26.28" pY="8.75"/>
+   </b>
+  </armature>
+  <armature name="H018_pugong_2">
+   <b name="10027.png" x="-22.95" y="-17.87" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0">
+    <d name="元件 18" pX="35.25" pY="33.48"/>
+    <d name="元件 19" pX="39.42" pY="36.35"/>
+    <d name="元件 20" pX="53.63" pY="38.75"/>
+    <d name="元件 21" pX="52.33" pY="41.15"/>
+    <d name="元件 22" pX="56.7" pY="40.28"/>
+    <d name="元件 23" pX="39.85" pY="38.1"/>
+   </b>
+  </armature>
+  <armature name="H018_pugong_1">
+   <b name="图层 3" x="3.18" y="-40.5" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0">
+    <d name="元件 43" pX="58.55" pY="52.6"/>
+    <d name="元件 40" pX="50.28" pY="56.2"/>
+    <d name="元件 41" pX="55.15" pY="56.2"/>
+    <d name="元件 42" pX="55.58" pY="54.5"/>
+    <d name="元件 44" pX="55.35" pY="59.8"/>
+    <d name="元件 45" pX="61.53" pY="54.5"/>
+    <d name="元件 46" pX="59.38" pY="58.53"/>
+   </b>
+   <b name="80013.png" x="3.18" y="-40.5" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0">
+    <d name="元件 43" pX="58.55" pY="52.6"/>
+    <d name="元件 40" pX="50.28" pY="56.2"/>
+    <d name="元件 41" pX="55.15" pY="56.2"/>
+    <d name="元件 42" pX="55.58" pY="54.5"/>
+    <d name="元件 44" pX="55.35" pY="59.8"/>
+    <d name="元件 45" pX="61.53" pY="54.5"/>
+    <d name="元件 46" pX="59.38" pY="58.53"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H018_pugong_3">
+   <mov name="play" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f x="129.68" y="15.58" cocos2d_x="130" cocos2d_y="16" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="55" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="125.8" y="15.58" cocos2d_x="126" cocos2d_y="16" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="28" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="124.8" y="15.58" cocos2d_x="125" cocos2d_y="16" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="23" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="123.8" y="16.33" cocos2d_x="124" cocos2d_y="17" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="23" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="104.6" y="16.3" cocos2d_x="105" cocos2d_y="17" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="43" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="19.9" y="7.18" cocos2d_x="20" cocos2d_y="8" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="13" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="15" dI="-1"/>
+    </b>
+    <b name="10037.png" sc="1" dl="0">
+     <f x="122.4" y="16.65" cocos2d_x="123" cocos2d_y="17" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="104.6" y="17.13" cocos2d_x="105" cocos2d_y="18" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="57" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="85.43" y="14.25" cocos2d_x="86" cocos2d_y="15" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="62" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="63.98" y="15.4" cocos2d_x="64" cocos2d_y="16" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="-0.02" z="1" dI="3" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="55" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="41.3" y="8.1" cocos2d_x="42" cocos2d_y="9" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="85.43" y="14.25" cocos2d_x="86" cocos2d_y="15" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="31" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="63.98" y="15.4" cocos2d_x="64" cocos2d_y="16" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="3" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="30" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="41.3" y="8.1" cocos2d_x="42" cocos2d_y="9" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="20.05" y="6.35" cocos2d_x="21" cocos2d_y="7" kX="0" kY="180" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="25" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="12" dI="-1"/>
+    </b>
+    <b name="10037.png0" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="2.38" y="3.75" cocos2d_x="3" cocos2d_y="4" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1"/>
+     <f x="-0.67" y="2.85" cocos2d_x="0" cocos2d_y="3" kX="0" kY="180" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" dr="1"/>
+     <f x="-5.92" y="5.93" cocos2d_x="-5" cocos2d_y="6" kX="0" kY="180" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-3.75" y="2.42" cocos2d_x="-3" cocos2d_y="3" kX="0" kY="180" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-12.07" y="1.55" cocos2d_x="-12" cocos2d_y="2" kX="0" kY="180" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="-0.25" y="1.55" cocos2d_x="0" cocos2d_y="2" kX="0" kY="180" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="4.58" y="0.25" cocos2d_x="5" cocos2d_y="1" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-1.55" y="3.75" cocos2d_x="-1" cocos2d_y="4" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="7" dr="1"/>
+     <f x="5.45" y="10.33" cocos2d_x="6" cocos2d_y="11" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="8" dr="1"/>
+     <f x="9.82" y="46.65" cocos2d_x="10" cocos2d_y="47" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="9" twE="0" dr="2"/>
+     <f x="9.82" y="46.65" cocos2d_x="10" cocos2d_y="47" kX="0" kY="180" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="9" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="16" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H018_pugong_2">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="10027.png" sc="1" dl="0">
+     <f x="-22.95" y="-17.87" cocos2d_x="-22" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="0" dr="2"/>
+     <f x="-14.85" y="-21.15" cocos2d_x="-14" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="2"/>
+     <f x="-20.75" y="-22.25" cocos2d_x="-20" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-8.5" y="-22.47" cocos2d_x="-8" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-5" y="-22.9" cocos2d_x="-5" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="13.63" y="-22.9" cocos2d_x="14" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H018_pugong_1">
+   <mov name="play" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="3.18" y="-40.5" cocos2d_x="4" cocos2d_y="-40" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="40" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.6" y="-39.55" cocos2d_x="36" cocos2d_y="-39" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="74" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="69.35" y="-41.6" cocos2d_x="70" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="43" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="79.8" y="-39.08" cocos2d_x="80" cocos2d_y="-39" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="3" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="54" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="92.08" y="-43.55" cocos2d_x="93" cocos2d_y="-43" kX="0" kY="0" cX="0.99" cY="0.99" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="59" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="97.5" y="-43.92" cocos2d_x="98" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="62" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="110.68" y="-44.55" cocos2d_x="111" cocos2d_y="-44" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="5" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="62" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="117.5" y="-44.32" cocos2d_x="118" cocos2d_y="-44" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="4" dr="1"/>
+     <f x="116.65" y="-40.22" cocos2d_x="117" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="63" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="116.6" y="-38.27" cocos2d_x="117" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="0" dI="3" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="72" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="116.73" y="-42.27" cocos2d_x="117" cocos2d_y="-42" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.05" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="40" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="113.1" y="-40.27" cocos2d_x="114" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="55" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="9" dI="-1"/>
+    </b>
+    <b name="80013.png" sc="1" dl="0">
+     <f x="3.18" y="-40.5" cocos2d_x="4" cocos2d_y="-40" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="50" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.6" y="-39.55" cocos2d_x="36" cocos2d_y="-39" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+     <f x="69.35" y="-41.6" cocos2d_x="70" cocos2d_y="-41" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="1"/>
+     <f x="79.8" y="-39.08" cocos2d_x="80" cocos2d_y="-39" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="1" dI="3" dr="1"/>
+     <f x="91.93" y="-43.5" cocos2d_x="92" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="0" dr="1"/>
+     <f x="97.5" y="-43.92" cocos2d_x="98" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="1" dI="4" dr="1"/>
+     <f x="110.68" y="-44.55" cocos2d_x="111" cocos2d_y="-44" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="5" dr="1"/>
+     <f x="117.5" y="-44.32" cocos2d_x="118" cocos2d_y="-44" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="1" dI="4" dr="1"/>
+     <f x="115.28" y="-39.67" cocos2d_x="116" cocos2d_y="-39" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="6" dr="1"/>
+     <f x="116.6" y="-38.27" cocos2d_x="117" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="1" dI="3" dr="1"/>
+     <f x="118.13" y="-40.7" cocos2d_x="119" cocos2d_y="-40" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="66" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="111.43" y="-37.47" cocos2d_x="112" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="36" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="117.38" y="-40.45" cocos2d_x="118" cocos2d_y="-40" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="118.13" y="-40.45" cocos2d_x="119" cocos2d_y="-40" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="120.38" y="-39.2" cocos2d_x="121" cocos2d_y="-39" kX="0" kY="0" cX="0.97" cY="0.97" pX="-0.02" pY="0" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="9" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

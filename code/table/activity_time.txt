@@ -1,0 +1,3 @@
+number	string	number	string	string	number	number
+id	name	sort	start	end	start_stamp	end_stamp
+1	副本福利	1	20140620	20140625	1403236800	1403668800

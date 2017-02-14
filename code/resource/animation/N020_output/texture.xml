@@ -1,0 +1,33 @@
+<TextureAtlas name="N020" width="128" height="128">
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hair_4" width="8" height="21" cocos2d_pX="4" cocos2d_pY="10" x="24" y="76"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hair_3" width="8" height="18" cocos2d_pX="5" cocos2d_pY="9" x="57" y="77"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/kouzi" width="7" height="7" cocos2d_pX="10" cocos2d_pY="5" x="67" y="95"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hudiejie_2" width="11" height="11" cocos2d_pX="9" cocos2d_pY="5" x="115" y="77"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hudiejie_1" width="10" height="12" cocos2d_pX="13" cocos2d_pY="9" x="76" y="80"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/maozi_1" width="38" height="32" cocos2d_pX="19" cocos2d_pY="16" x="41" y="0"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hair_2" width="21" height="14" cocos2d_pX="11" cocos2d_pY="7" x="34" y="77"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/head_2" width="23" height="21" cocos2d_pX="12" cocos2d_pY="11" x="77" y="57"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/head" width="23" height="22" cocos2d_pX="12" cocos2d_pY="11" x="81" y="33"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_arm_up" width="9" height="12" cocos2d_pX="5" cocos2d_pY="6" x="43" y="93"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_arm" width="9" height="13" cocos2d_pX="5" cocos2d_pY="7" x="88" y="80"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_hand" width="5" height="5" cocos2d_pX="3" cocos2d_pY="3" x="106" y="41"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="106" y="33"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_arm" width="8" height="11" cocos2d_pX="4" cocos2d_pY="6" x="11" y="94"/>
+ <SubTexture name="yuanjian/guajian" width="11" height="16" cocos2d_pX="5" cocos2d_pY="8" x="102" y="77"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/cloth_1" width="11" height="26" cocos2d_pX="6" cocos2d_pY="13" x="113" y="0"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/cloth_2" width="10" height="25" cocos2d_pX="5" cocos2d_pY="13" x="113" y="28"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/body" width="15" height="20" cocos2d_pX="8" cocos2d_pY="10" x="106" y="55"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_arm_up" width="9" height="11" cocos2d_pX="5" cocos2d_pY="6" x="0" y="94"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/qunzi" width="26" height="15" cocos2d_pX="13" cocos2d_pY="8" x="41" y="60"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_leg_up" width="7" height="15" cocos2d_pX="4" cocos2d_pY="8" x="34" y="93"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_leg" width="6" height="15" cocos2d_pX="3" cocos2d_pY="8" x="69" y="60"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/R_foot" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="76" y="94"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_leg_up" width="8" height="14" cocos2d_pX="4" cocos2d_pY="7" x="115" y="90"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_leg" width="7" height="16" cocos2d_pX="4" cocos2d_pY="8" x="67" y="77"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/L_foot" width="8" height="6" cocos2d_pX="4" cocos2d_pY="3" x="87" y="95"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/hair_1" width="39" height="52" cocos2d_pX="20" cocos2d_pY="26" x="0" y="0"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/wuqi_2" width="22" height="16" cocos2d_pX="11" cocos2d_pY="8" x="0" y="76"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/wuqi_1" width="30" height="31" cocos2d_pX="10" cocos2d_pY="17" x="81" y="0"/>
+ <SubTexture name="咎瓦尤斯1.psd 资源 9/maozi_2" width="34" height="24" cocos2d_pX="17" cocos2d_pY="12" x="41" y="34"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="54"/>
+</TextureAtlas>

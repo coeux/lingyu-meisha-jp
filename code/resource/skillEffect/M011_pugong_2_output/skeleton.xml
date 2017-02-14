@@ -1,0 +1,28 @@
+<skeleton name="M011_pugong_2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="M011_pugong_2">
+   <b name="图层 1" x="92" y="-57.6" kX="-37.23" kY="-37.23" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+    <d name="未命名文件夹 3/Graphic/元件 2" pX="84.25" pY="44.98"/>
+    <d name="未命名文件夹 3/Graphic/元件 1" pX="32.48" pY="60.98"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="M011_pugong_2">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="92" y="-57.6" cocos2d_x="92" cocos2d_y="-57" kX="-37.23" kY="-37.23" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="42" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="100.5" y="-65.1" cocos2d_x="101" cocos2d_y="-65" kX="-49.71" kY="-49.71" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="96.23" y="-58.47" cocos2d_x="97" cocos2d_y="-58" kX="29.26" kY="29.26" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" twE="0" dr="2"/>
+     <f x="84.78" y="-80.47" cocos2d_x="85" cocos2d_y="-80" kX="-30.05" kY="-28.21" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" twE="0" dr="2"/>
+     <f x="69.28" y="-92.97" cocos2d_x="70" cocos2d_y="-92" kX="-50.41" kY="-48.57" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="15" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

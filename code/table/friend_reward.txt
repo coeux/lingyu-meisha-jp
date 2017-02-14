@@ -1,0 +1,6 @@
+number	number	number	number	number	number
+id	friend_count	lv	reward	count	hero
+1	1	27	30025	5	0
+2	2	33	30025	5	0
+3	4	40	30025	10	0
+4	6	50	30025	10	0

@@ -1,0 +1,6 @@
+<TextureAtlas name="zhandoushengli" width="256" height="256">
+  <SubTexture name="未标题-1.psd 资源/元件 12" width="163" height="139" x="0" y="0"/>
+  <SubTexture name="未标题-1.psd 资源/元件 10" width="56" height="153" x="165" y="0"/>
+  <SubTexture name="未标题-1.psd 资源/asczxcxcv 副本" width="50" height="48" x="74" y="141"/>
+  <SubTexture name="未标题-1.psd 资源/asczxcxcv" width="72" height="69" x="0" y="141"/>
+</TextureAtlas>

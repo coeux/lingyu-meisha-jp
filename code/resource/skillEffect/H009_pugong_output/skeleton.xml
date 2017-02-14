@@ -1,0 +1,81 @@
+<skeleton name="H009_pugong" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="H009_pugong_3">
+      <b name="10021.png" x="18.3" y="-6.7" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0">
+        <d name="元件 1" pX="28.05" pY="14.1"/>
+        <d name="元件 2" pX="28.38" pY="14.73"/>
+        <d name="元件 3" pX="30.5" pY="16.25"/>
+        <d name="元件 4" pX="31.73" pY="20.53"/>
+        <d name="元件 5" pX="33.58" pY="24.53"/>
+        <d name="元件 6" pX="32.35" pY="20.53"/>
+        <d name="元件 7" pX="31.13" pY="17.18"/>
+        <d name="元件 8" pX="30.2" pY="17.18"/>
+        <d name="元件 9" pX="30.83" pY="18.4"/>
+        <d name="元件 10" pX="30.2" pY="14.73"/>
+        <d name="元件 11" pX="32.95" pY="12.88"/>
+      </b>
+    </armature>
+    <armature name="H009_pugong_2">
+      <b name="10021.png" x="11.53" y="-8.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 13" pX="47.38" pY="29.1"/>
+        <d name="元件 14" pX="47.38" pY="28.63"/>
+        <d name="元件 15" pX="49.3" pY="30.08"/>
+        <d name="元件 16" pX="48.83" pY="29.6"/>
+        <d name="元件 17" pX="47.85" pY="23.3"/>
+        <d name="元件 18" pX="47.38" pY="20.4"/>
+        <d name="元件 19" pX="46.9" pY="17.5"/>
+        <d name="元件 20" pX="45.45" pY="21.85"/>
+      </b>
+    </armature>
+    <armature name="H009_pugong_1">
+      <b name="图层 1" x="-0.07" y="-0.22" kX="0" kY="0" cX="0.81" cY="1" pX="0" pY="0" z="0">
+        <d name="yuanjian1/元件 1" pX="24.15" pY="3.35"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="H009_pugong_3">
+      <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="10021.png" sc="1" dl="0">
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="0" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="2" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="3" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="4" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="5" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="6" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="7" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="8" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="9" dr="1"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="10" twE="0" dr="2"/>
+          <f x="18.3" y="-6.7" cocos2d_x="19" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="0" dI="10" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="17" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="H009_pugong_2">
+      <mov name="play" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="10021.png" sc="1" dl="0">
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="11.53" y="-8.15" cocos2d_x="12" cocos2d_y="-8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="H009_pugong_1">
+      <mov name="play" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.07" y="-0.22" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="0.81" cY="1" pX="0" pY="0" z="0" dI="0" dr="5"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

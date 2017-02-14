@@ -1,0 +1,63 @@
+<skeleton name="ldpugong" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="H033_pugong">
+   <b name="图层 1" x="7.55" y="-30.75" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0">
+    <d name="元件 2" pX="-94" pY="-25.27"/>
+    <d name="元件 4" pX="-30" pY="-7.27"/>
+    <d name="元件 5" pX="-32.5" pY="-22.77"/>
+    <d name="元件 6" pX="-38" pY="-34.77"/>
+    <d name="元件 7" pX="-37.5" pY="-77.28"/>
+    <d name="元件 8" pX="-36.5" pY="-30.77"/>
+    <d name="元件 9" pX="-36.5" pY="-34.27"/>
+    <d name="元件 10" pX="-38.5" pY="-39.27"/>
+   </b>
+  </armature>
+  <armature name="ldpugong">
+   <b name="图层 1" x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0">
+    <d name="元件 2" pX="-94" pY="-25.27"/>
+    <d name="元件 3" pX="-70.5" pY="-27.27"/>
+    <d name="元件 4" pX="-30" pY="-7.27"/>
+    <d name="元件 5" pX="-32.5" pY="-22.77"/>
+    <d name="元件 6" pX="-38" pY="-34.77"/>
+    <d name="元件 7" pX="-37.5" pY="-77.28"/>
+    <d name="元件 8" pX="-36.5" pY="-30.77"/>
+    <d name="元件 9" pX="-36.5" pY="-34.27"/>
+    <d name="元件 10" pX="-38.5" pY="-39.27"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H033_pugong">
+   <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="7.55" y="-30.75" cocos2d_x="-109" cocos2d_y="-105" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="0" dr="1"/>
+     <f x="-23.15" y="31.23" cocos2d_x="-83" cocos2d_y="-159" kX="56.69" kY="37.09" cX="1.74" cY="1.64" pX="117.5" pY="74.93" z="0" dI="0" dr="1"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="1" dr="1"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="2" dr="2"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="3" dr="2"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="4" dr="1"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="5" dr="2"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="6" dr="2"/>
+     <f x="-1.47" y="8.15" cocos2d_x="-110" cocos2d_y="-52" kX="8.22" kY="0" cX="1" cY="0.82" pX="117.5" pY="74.97" z="0" dI="7" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="ldpugong">
+   <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="0" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="1" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="2" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="3" dr="2"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="4" dr="2"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="5" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="6" dr="2"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="7" dr="2"/>
+     <f x="0" y="0.23" cocos2d_x="-117" cocos2d_y="-74" kX="0" kY="0" cX="1" cY="1" pX="117.5" pY="75" z="0" dI="8" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,23 @@
+<TextureAtlas name="H038_xuli" width="512" height="512">
+ <SubTexture name="元件 13" width="66" height="32" cocos2d_pX="0" cocos2d_pY="0" x="172" y="407"/>
+ <SubTexture name="元件 21" width="76" height="109" cocos2d_pX="0" cocos2d_pY="0" x="104" y="208"/>
+ <SubTexture name="元件 27" width="101" height="93" cocos2d_pX="0" cocos2d_pY="0" x="182" y="221"/>
+ <SubTexture name="元件 26" width="119" height="110" cocos2d_pX="0" cocos2d_pY="0" x="360" y="201"/>
+ <SubTexture name="元件 25" width="167" height="112" cocos2d_pX="0" cocos2d_pY="0" x="191" y="107"/>
+ <SubTexture name="元件 24" width="191" height="105" cocos2d_pX="0" cocos2d_pY="0" x="199" y="0"/>
+ <SubTexture name="元件 23" width="189" height="104" cocos2d_pX="0" cocos2d_pY="0" x="0" y="102"/>
+ <SubTexture name="元件 22" width="197" height="100" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="元件 14" width="120" height="46" cocos2d_pX="0" cocos2d_pY="0" x="358" y="409"/>
+ <SubTexture name="元件 39" width="106" height="101" cocos2d_pX="0" cocos2d_pY="0" x="392" y="0"/>
+ <SubTexture name="元件 38" width="102" height="91" cocos2d_pX="0" cocos2d_pY="0" x="0" y="302"/>
+ <SubTexture name="元件 37" width="102" height="92" cocos2d_pX="0" cocos2d_pY="0" x="0" y="208"/>
+ <SubTexture name="元件 36" width="66" height="67" cocos2d_pX="0" cocos2d_pY="0" x="104" y="391"/>
+ <SubTexture name="元件 35" width="65" height="70" cocos2d_pX="0" cocos2d_pY="0" x="104" y="319"/>
+ <SubTexture name="元件 34" width="71" height="76" cocos2d_pX="0" cocos2d_pY="0" x="285" y="300"/>
+ <SubTexture name="元件 33" width="72" height="77" cocos2d_pX="0" cocos2d_pY="0" x="285" y="221"/>
+ <SubTexture name="元件 32" width="81" height="83" cocos2d_pX="0" cocos2d_pY="0" x="0" y="395"/>
+ <SubTexture name="元件 31" width="83" height="84" cocos2d_pX="0" cocos2d_pY="0" x="273" y="378"/>
+ <SubTexture name="元件 30" width="89" height="89" cocos2d_pX="0" cocos2d_pY="0" x="182" y="316"/>
+ <SubTexture name="元件 29" width="99" height="96" cocos2d_pX="0" cocos2d_pY="0" x="392" y="103"/>
+ <SubTexture name="元件 28" width="95" height="94" cocos2d_pX="0" cocos2d_pY="0" x="358" y="313"/>
+</TextureAtlas>

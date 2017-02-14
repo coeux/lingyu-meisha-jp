@@ -1,0 +1,7 @@
+<TextureAtlas name="未命名-1" width="512" height="512">
+ <SubTexture name="补间 5" width="182" height="149" cocos2d_pX="91" cocos2d_pY="75" x="0" y="0"/>
+ <SubTexture name="补间 4" width="177" height="147" cocos2d_pX="89" cocos2d_pY="74" x="184" y="0"/>
+ <SubTexture name="补间 3" width="174" height="139" cocos2d_pX="87" cocos2d_pY="70" x="184" y="149"/>
+ <SubTexture name="补间 2" width="161" height="101" cocos2d_pX="81" cocos2d_pY="51" x="0" y="151"/>
+ <SubTexture name="补间 1" width="130" height="72" cocos2d_pX="65" cocos2d_pY="36" x="363" y="0"/>
+</TextureAtlas>

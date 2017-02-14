@@ -1,0 +1,8 @@
+<TextureAtlas name="H015_shouji" width="128" height="128">
+  <SubTexture name="元件 12" width="33" height="36" x="90" y="49"/>
+  <SubTexture name="元件 11" width="51" height="43" x="0" y="0"/>
+  <SubTexture name="元件 10" width="42" height="43" x="46" y="49"/>
+  <SubTexture name="元件 9" width="44" height="47" x="0" y="45"/>
+  <SubTexture name="元件 8" width="45" height="47" x="53" y="0"/>
+  <SubTexture name="元件 7" width="26" height="25" x="100" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,25 @@
+<TextureAtlas name="电线怪" width="512" height="512">
+  <SubTexture name="yuanjian/补间 18" width="228" height="220" cocos2d_pX="114" cocos2d_pY="110" x="226" y="0"/>
+  <SubTexture name="yuanjian/元件 2" width="42" height="26" cocos2d_pX="0" cocos2d_pY="0" x="400" y="222"/>
+  <SubTexture name="yuanjian/元件3" width="38" height="21" cocos2d_pX="-2" cocos2d_pY="-1" x="400" y="250"/>
+  <SubTexture name="yuanjian/元件 5" width="35" height="17" cocos2d_pX="-5" cocos2d_pY="-2" x="474" y="253"/>
+  <SubTexture name="yuanjian/补间 4" width="35" height="54" cocos2d_pX="18" cocos2d_pY="27" x="456" y="154"/>
+  <SubTexture name="yuanjian/补间 5" width="56" height="36" cocos2d_pX="28" cocos2d_pY="18" x="75" y="231"/>
+  <SubTexture name="yuanjian/补间 6" width="49" height="41" cocos2d_pX="25" cocos2d_pY="21" x="456" y="210"/>
+  <SubTexture name="yuanjian/补间 7" width="73" height="40" cocos2d_pX="37" cocos2d_pY="20" x="0" y="231"/>
+  <SubTexture name="yuanjian/补间 8" width="86" height="86" cocos2d_pX="43" cocos2d_pY="43" x="226" y="222"/>
+  <SubTexture name="yuanjian/补间 9" width="84" height="34" cocos2d_pX="42" cocos2d_pY="17" x="314" y="222"/>
+  <SubTexture name="yuanjian/补间 10" width="224" height="229" cocos2d_pX="112" cocos2d_pY="115" x="0" y="0"/>
+  <SubTexture name="yuanjian/补间 11" width="32" height="23" cocos2d_pX="16" cocos2d_pY="12" x="440" y="253"/>
+  <SubTexture name="yuanjian/补间 12" width="15" height="35" cocos2d_pX="8" cocos2d_pY="18" x="493" y="96"/>
+  <SubTexture name="yuanjian/补间 13" width="25" height="37" cocos2d_pX="13" cocos2d_pY="19" x="133" y="231"/>
+  <SubTexture name="yuanjian/补间 14" width="48" height="45" cocos2d_pX="24" cocos2d_pY="23" x="456" y="49"/>
+  <SubTexture name="yuanjian/补间 15" width="35" height="56" cocos2d_pX="18" cocos2d_pY="28" x="456" y="96"/>
+  <SubTexture name="yuanjian/补间 16" width="48" height="47" cocos2d_pX="24" cocos2d_pY="24" x="456" y="0"/>
+  <SubTexture name="yuanjian/补间 17" width="34" height="22" cocos2d_pX="17" cocos2d_pY="11" x="160" y="253"/>
+  <SubTexture name="元件 5" width="19" height="20" cocos2d_pX="0" cocos2d_pY="0" x="201" y="231"/>
+  <SubTexture name="元件 4" width="10" height="8" cocos2d_pX="0" cocos2d_pY="0" x="493" y="184"/>
+  <SubTexture name="元件 3" width="10" height="25" cocos2d_pX="0" cocos2d_pY="0" x="493" y="133"/>
+  <SubTexture name="元件 2" width="7" height="22" cocos2d_pX="0" cocos2d_pY="0" x="493" y="160"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="160" y="231"/>
+</TextureAtlas>

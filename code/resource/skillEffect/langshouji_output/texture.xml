@@ -1,0 +1,7 @@
+<TextureAtlas name="受击" width="512" height="512">
+  <SubTexture name="10007.png" width="200" height="125" cocos2d_pX="0" cocos2d_pY="0" x="0" y="254"/>
+  <SubTexture name="10006.png" width="200" height="125" cocos2d_pX="0" cocos2d_pY="0" x="202" y="127"/>
+  <SubTexture name="10005.png" width="200" height="125" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="10003.png" width="200" height="125" cocos2d_pX="0" cocos2d_pY="0" x="202" y="0"/>
+  <SubTexture name="10001.png" width="200" height="125" cocos2d_pX="0" cocos2d_pY="0" x="0" y="127"/>
+</TextureAtlas>

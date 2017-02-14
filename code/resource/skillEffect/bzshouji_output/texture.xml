@@ -1,0 +1,11 @@
+<TextureAtlas name="bzshouji" width="512" height="256">
+ <SubTexture name="元件 10" width="62" height="23" x="435" y="0"/>
+ <SubTexture name="元件 9" width="90" height="49" x="90" y="130"/>
+ <SubTexture name="元件 8" width="88" height="55" x="0" y="130"/>
+ <SubTexture name="元件 7" width="82" height="63" x="254" y="103"/>
+ <SubTexture name="元件 6" width="86" height="85" x="347" y="0"/>
+ <SubTexture name="元件 5" width="80" height="82" x="347" y="87"/>
+ <SubTexture name="元件 4" width="91" height="101" x="254" y="0"/>
+ <SubTexture name="元件 3" width="125" height="128" x="0" y="0"/>
+ <SubTexture name="元件 2" width="125" height="128" x="127" y="0"/>
+</TextureAtlas>

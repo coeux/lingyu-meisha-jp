@@ -1,0 +1,36 @@
+<skeleton name="M105_pugong_3" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="M105_pugong_3">
+      <b name="30001.png" x="1.5" y="-104.92" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0">
+        <d name="元件 15" pX="31.7" pY="93.38"/>
+        <d name="元件 16" pX="31.35" pY="94.28"/>
+        <d name="元件 17" pX="42.23" pY="98.45"/>
+        <d name="元件 18" pX="46.13" pY="110.25"/>
+        <d name="元件 19" pX="45.78" pY="119.43"/>
+        <d name="元件 20" pX="46.68" pY="120.9"/>
+        <d name="元件 21" pX="45.23" pY="112.55"/>
+        <d name="元件 22" pX="45.6" pY="92.45"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="M105_pugong_3">
+      <mov name="play" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="30001.png" sc="1" dl="0">
+          <f x="1.5" y="-104.92" cocos2d_x="2" cocos2d_y="-104" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0" dI="0" dr="1"/>
+          <f x="-1.17" y="-105.7" cocos2d_x="-1" cocos2d_y="-105" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0" dI="1" dr="1"/>
+          <f x="-2" y="-109.05" cocos2d_x="-1" cocos2d_y="-109" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="2" dr="2"/>
+          <f x="-1.42" y="-127.67" cocos2d_x="-1" cocos2d_y="-127" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+          <f x="-2" y="-145.2" cocos2d_x="-1" cocos2d_y="-145" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="4" dr="2"/>
+          <f x="-1.72" y="-142.97" cocos2d_x="-1" cocos2d_y="-142" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="5" dr="2"/>
+          <f x="-1.17" y="-130.07" cocos2d_x="-1" cocos2d_y="-130" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="6" dr="2"/>
+          <f x="-0.65" y="-101.5" cocos2d_x="0" cocos2d_y="-101" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="7" dr="1"/>
+          <f x="-0.65" y="-101.5" cocos2d_x="0" cocos2d_y="-101" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="7" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="37" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

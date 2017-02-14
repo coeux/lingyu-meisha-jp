@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="test" ResourceFileName="test.res" LayoutFileName="test.lay">
+	<GlobalStyles />
+</Project>

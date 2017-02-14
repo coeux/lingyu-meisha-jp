@@ -1,0 +1,46 @@
+<skeleton name="weixuli" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="weixuli">
+   <b name="图层 1" x="-14.25" y="-45.75" kX="0" kY="0" cX="1" cY="1" pX="70.75" pY="49.75" z="0">
+    <d name="元件 11" pX="0" pY="0"/>
+    <d name="元件 3" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="元件 5" pX="0" pY="0"/>
+    <d name="元件 6" pX="0" pY="0"/>
+    <d name="元件 7" pX="0" pY="0"/>
+    <d name="元件 8" pX="0" pY="0"/>
+    <d name="元件 9" pX="0" pY="0"/>
+    <d name="元件 10" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="weixuli">
+   <mov name="play" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-14.25" y="-45.75" kX="0" kY="0" cX="1" cY="1" pX="70.75" pY="49.75" z="0" dI="0" dr="2"/>
+     <f x="4.25" y="-49" kX="0" kY="0" cX="1" cY="1" pX="92.25" pY="60.5" z="0" dI="1" dr="2"/>
+     <f x="10.75" y="-49" kX="0" kY="0" cX="1" cY="1" pX="97.75" pY="62" z="0" dI="2" dr="2"/>
+     <f x="16.25" y="-51.25" kX="0" kY="0" cX="1" cY="1" pX="94.25" pY="57.25" z="0" dI="3" dr="2"/>
+     <f x="14.25" y="-47.75" kX="0" kY="0" cX="1" cY="1" pX="92.25" pY="49.75" z="0" dI="4" dr="2"/>
+     <f x="11.25" y="-44" kX="0" kY="0" cX="1" cY="1" pX="96.25" pY="56.5" z="0" dI="5" dr="2"/>
+     <f x="-16.75" y="-45" kX="0" kY="0" cX="1" cY="1" pX="72.75" pY="53.5" z="0" dI="6" dr="2"/>
+     <f x="4.25" y="-49" kX="0" kY="0" cX="1" cY="1" pX="92.25" pY="60.5" z="0" dI="1" dr="2"/>
+     <f x="10.75" y="-49" kX="0" kY="0" cX="1" cY="1" pX="97.75" pY="62" z="0" dI="2" dr="2"/>
+     <f x="16.25" y="-51.25" kX="0" kY="0" cX="1" cY="1" pX="94.25" pY="57.25" z="0" dI="3" dr="2"/>
+     <f x="14.25" y="-47.75" kX="0" kY="0" cX="1" cY="1" pX="92.25" pY="49.75" z="0" dI="4" dr="2"/>
+     <f x="11.25" y="-44" kX="0" kY="0" cX="1" cY="1" pX="96.25" pY="56.5" z="0" dI="5" dr="2"/>
+     <f x="-16.75" y="-45" kX="0" kY="0" cX="1" cY="1" pX="72.75" pY="53.5" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="69" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-16.75" y="-45" kX="0" kY="0" cX="1" cY="1" pX="72.75" pY="53.5" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="49" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="-11.5" y="-50" kX="0" kY="0" cX="1" cY="1" pX="71" pY="52" z="0" dI="7" dr="1"/>
+     <f x="-21.5" y="-44.75" kX="0" kY="0" cX="1" cY="1" pX="69" pY="43.25" z="0" dI="8" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

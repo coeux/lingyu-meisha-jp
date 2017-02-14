@@ -1,0 +1,82 @@
+<skeleton name="未命名-1" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="skill_check_1">
+   <b name="huang0001.png" x="-6.79" y="-1.54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="beijign1" pX="138.75" pY="137.21"/>
+    <d name="beijing2" pX="138.75" pY="137.21"/>
+    <d name="beijing3" pX="138.75" pY="137.21"/>
+    <d name="beijing4" pX="138.75" pY="137.21"/>
+    <d name="beijing5" pX="138.75" pY="137.21"/>
+    <d name="beijng6" pX="138.75" pY="137.21"/>
+    <d name="beijing7" pX="138.75" pY="137.21"/>
+    <d name="beijing8" pX="138.75" pY="137.21"/>
+    <d name="beijing9" pX="138.75" pY="137.21"/>
+    <d name="beijing10" pX="138.75" pY="137.21"/>
+    <d name="beijing11" pX="138.75" pY="137.21"/>
+    <d name="beijing12" pX="138.75" pY="137.21"/>
+    <d name="beijing13" pX="138.75" pY="137.21"/>
+    <d name="beijing14" pX="138.75" pY="137.21"/>
+    <d name="beijing15" pX="138.75" pY="137.21"/>
+    <d name="beijing16" pX="138.75" pY="137.21"/>
+    <d name="beijing17" pX="138.75" pY="137.21"/>
+    <d name="beijing18" pX="138.75" pY="137.21"/>
+    <d name="beijing19" pX="138.75" pY="137.21"/>
+    <d name="beijing20" pX="138.75" pY="137.21"/>
+    <d name="beijing21" pX="138.75" pY="137.21"/>
+    <d name="beijing22" pX="138.75" pY="137.21"/>
+    <d name="beijing23" pX="138.75" pY="137.21"/>
+    <d name="beijing24" pX="138.75" pY="137.21"/>
+    <d name="beijing25" pX="138.75" pY="137.21"/>
+    <d name="beijing26" pX="138.75" pY="137.21"/>
+    <d name="beijing27" pX="138.75" pY="137.21"/>
+    <d name="beijng28" pX="138.75" pY="137.21"/>
+    <d name="beijing29" pX="138.75" pY="137.21"/>
+    <d name="beijng30" pX="138.75" pY="137.21"/>
+    <d name="beijing31" pX="138.75" pY="137.21"/>
+    <d name="beijng32" pX="138.75" pY="137.21"/>
+    <d name="beijing33" pX="138.75" pY="137.21"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="skill_check_1">
+   <mov name="play" dr="33" to="6" drTW="33" lp="1" twE="NaN">
+    <b name="huang0001.png" sc="1" dl="0">
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="12" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="13" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="14" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="15" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="16" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="17" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="18" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="19" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="20" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="21" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="22" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="23" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="24" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="25" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="26" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="27" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="28" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="29" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="30" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="31" dr="1"/>
+     <f x="-6.79" y="-1.54" cocos2d_x="-6" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="32" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

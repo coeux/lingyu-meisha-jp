@@ -1,0 +1,22 @@
+<TextureAtlas name="zhongdu~" width="512" height="256">
+  <SubTexture name="10020.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="62" y="0"/>
+  <SubTexture name="10019.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="186" y="62"/>
+  <SubTexture name="10018.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="186" y="0"/>
+  <SubTexture name="10017.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="186" y="124"/>
+  <SubTexture name="10016.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="310" y="0"/>
+  <SubTexture name="10015.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="310" y="62"/>
+  <SubTexture name="10014.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="434" y="0"/>
+  <SubTexture name="10013.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="124" y="124"/>
+  <SubTexture name="10012.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="62" y="62"/>
+  <SubTexture name="10011.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="434" y="62"/>
+  <SubTexture name="10010.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="10009.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="124" y="0"/>
+  <SubTexture name="10008.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="248" y="0"/>
+  <SubTexture name="10007.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="372" y="0"/>
+  <SubTexture name="10006.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="0" y="62"/>
+  <SubTexture name="10005.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="124" y="62"/>
+  <SubTexture name="10004.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="248" y="62"/>
+  <SubTexture name="10003.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="372" y="62"/>
+  <SubTexture name="10002.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="0" y="124"/>
+  <SubTexture name="10001.png" width="60" height="60" cocos2d_pX="0" cocos2d_pY="0" x="62" y="124"/>
+</TextureAtlas>

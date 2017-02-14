@@ -1,0 +1,116 @@
+<skeleton name="H040_xuli" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="H040_xuli_2">
+      <b name="70001.png" x="0.3" y="3.3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+        <d name="元件 55" pX="38.33" pY="39.95"/>
+        <d name="元件 57" pX="38.65" pY="39.48"/>
+        <d name="元件 59" pX="38" pY="38.17"/>
+        <d name="元件 60" pX="39.15" pY="39.8"/>
+        <d name="元件 62" pX="37.03" pY="38"/>
+        <d name="元件 63" pX="42.73" pY="38.17"/>
+        <d name="元件 65" pX="35.08" pY="41.1"/>
+        <d name="元件 66" pX="35.23" pY="40.95"/>
+        <d name="元件 68" pX="39.65" pY="38"/>
+        <d name="元件 69" pX="37.03" pY="37.85"/>
+        <d name="元件 70" pX="35.55" pY="37.03"/>
+        <d name="元件 71" pX="37.17" pY="36.53"/>
+        <d name="元件 75" pX="37.03" pY="35.23"/>
+        <d name="元件 77" pX="24.45" pY="31"/>
+        <d name="元件 79" pX="38.35" pY="32.15"/>
+        <d name="元件 80" pX="28.23" pY="25.45"/>
+        <d name="元件 81" pX="21.88" pY="31"/>
+      </b>
+    </armature>
+    <armature name="H040_xuli_1">
+      <b name="70001.png" x="0.3" y="3.3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+        <d name="元件 55" pX="38.33" pY="39.95"/>
+        <d name="元件 56" pX="40.45" pY="39.65"/>
+        <d name="元件 57" pX="38.65" pY="39.48"/>
+        <d name="元件 58" pX="38.03" pY="39.3"/>
+        <d name="元件 59" pX="38" pY="38.17"/>
+        <d name="元件 60" pX="39.15" pY="39.8"/>
+        <d name="元件 61" pX="38.48" pY="39.65"/>
+        <d name="元件 62" pX="37.03" pY="38"/>
+        <d name="元件 63" pX="42.73" pY="38.17"/>
+        <d name="元件 64" pX="38.83" pY="38.17"/>
+        <d name="元件 65" pX="35.08" pY="41.1"/>
+        <d name="元件 66" pX="35.23" pY="40.95"/>
+        <d name="元件 67" pX="39.98" pY="39"/>
+        <d name="元件 68" pX="39.65" pY="38"/>
+        <d name="元件 69" pX="37.03" pY="37.85"/>
+        <d name="元件 70" pX="35.55" pY="37.03"/>
+        <d name="元件 71" pX="37.17" pY="36.53"/>
+        <d name="元件 72" pX="36.2" pY="39.98"/>
+        <d name="元件 73" pX="36.53" pY="36.55"/>
+        <d name="元件 74" pX="42.58" pY="35.58"/>
+        <d name="元件 75" pX="37.03" pY="35.23"/>
+        <d name="元件 76" pX="34.58" pY="39.48"/>
+        <d name="元件 77" pX="24.45" pY="31"/>
+        <d name="元件 78" pX="34.58" pY="39.15"/>
+        <d name="元件 79" pX="38.35" pY="32.15"/>
+        <d name="元件 80" pX="28.23" pY="25.45"/>
+        <d name="元件 81" pX="21.88" pY="31"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="H040_xuli_2">
+      <mov name="play" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="70001.png" sc="1" dl="0">
+          <f x="0.3" y="3.3" cocos2d_x="1" cocos2d_y="4" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-3.6" y="3.55" cocos2d_x="-3" cocos2d_y="4" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="-3.6" y="0.63" cocos2d_x="-3" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="-0.4" y="-0.82" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="0.3" y="0.4" cocos2d_x="1" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="6.43" y="-2.3" cocos2d_x="7" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="-0.15" y="5.05" cocos2d_x="0" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="1.05" y="5.28" cocos2d_x="2" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f x="-1.17" y="-0.12" cocos2d_x="-1" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="8" dr="1"/>
+          <f x="-0.17" y="-0.35" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="9" dr="1"/>
+          <f x="2.55" y="0.9" cocos2d_x="3" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="10" dr="1"/>
+          <f x="2.03" y="-0.37" cocos2d_x="3" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="11" dr="1"/>
+          <f x="4.2" y="0.63" cocos2d_x="5" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="12" dr="1"/>
+          <f x="3" y="15.83" cocos2d_x="3" cocos2d_y="16" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="13" dr="1"/>
+          <f x="-3.12" y="-4.03" cocos2d_x="-3" cocos2d_y="-3" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="14" dr="1"/>
+          <f x="-2.57" y="5.5" cocos2d_x="-2" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="15" dr="1"/>
+          <f x="-3.87" y="-15" cocos2d_x="-3" cocos2d_y="-15" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="16" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="H040_xuli_1">
+      <mov name="play" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="70001.png" sc="1" dl="0">
+          <f x="0.3" y="3.3" cocos2d_x="1" cocos2d_y="4" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-5.32" y="-4.03" cocos2d_x="-5" cocos2d_y="-3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0" dI="1" dr="1"/>
+          <f x="-3.6" y="3.55" cocos2d_x="-3" cocos2d_y="4" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="-3.12" y="0.85" cocos2d_x="-3" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="3" dr="1"/>
+          <f x="-3.6" y="0.63" cocos2d_x="-3" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="-0.4" y="-0.82" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="-0.4" y="-2.57" cocos2d_x="0" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.05" z="0" dI="6" dr="1"/>
+          <f x="0.3" y="0.4" cocos2d_x="1" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f x="6.43" y="-2.3" cocos2d_x="7" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="8" dr="1"/>
+          <f x="2.53" y="-1.8" cocos2d_x="3" cocos2d_y="-1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="9" dr="1"/>
+          <f x="-0.15" y="5.05" cocos2d_x="0" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="10" dr="1"/>
+          <f x="1.05" y="5.28" cocos2d_x="2" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="11" dr="1"/>
+          <f x="-8" y="-5" cocos2d_x="-7" cocos2d_y="-4" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="12" dr="1"/>
+          <f x="-1.17" y="-0.12" cocos2d_x="-1" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="13" dr="1"/>
+          <f x="-0.17" y="-0.35" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="14" dr="1"/>
+          <f x="2.55" y="0.9" cocos2d_x="3" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="15" dr="1"/>
+          <f x="2.03" y="-0.37" cocos2d_x="3" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="16" dr="1"/>
+          <f x="2.53" y="-2.02" cocos2d_x="3" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="17" dr="1"/>
+          <f x="-0.45" y="0.63" cocos2d_x="0" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="18" dr="1"/>
+          <f x="6.68" y="0.63" cocos2d_x="7" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="19" dr="1"/>
+          <f x="4.2" y="0.63" cocos2d_x="5" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="20" dr="1"/>
+          <f x="1.1" y="6.53" cocos2d_x="2" cocos2d_y="7" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="21" dr="1"/>
+          <f x="3" y="15.83" cocos2d_x="3" cocos2d_y="16" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="22" dr="1"/>
+          <f x="-14.62" y="-2.77" cocos2d_x="-14" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="23" dr="1"/>
+          <f x="-3.12" y="-4.03" cocos2d_x="-3" cocos2d_y="-3" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="-0.02" z="0" dI="24" dr="1"/>
+          <f x="-2.57" y="5.5" cocos2d_x="-2" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="25" dr="1"/>
+          <f x="-3.87" y="-15" cocos2d_x="-3" cocos2d_y="-15" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="26" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

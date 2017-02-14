@@ -1,0 +1,2 @@
+ruby CheckAnimation.rb
+pause

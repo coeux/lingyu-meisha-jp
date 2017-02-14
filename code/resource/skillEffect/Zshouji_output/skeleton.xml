@@ -1,0 +1,34 @@
+<skeleton name="Zshouji" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="Zshouji">
+      <b name="30001.png" x="0.23" y="-1.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 2" pX="44.25" pY="44.63"/>
+        <d name="元件 3" pX="50.38" pY="48.88"/>
+        <d name="元件 4" pX="56.25" pY="52"/>
+        <d name="元件 5" pX="56.25" pY="52"/>
+        <d name="元件 6" pX="56.25" pY="52"/>
+        <d name="元件 7" pX="47.25" pY="52"/>
+        <d name="元件 8" pX="37.25" pY="35"/>
+        <d name="元件 9" pX="35.63" pY="35.25"/>
+        <d name="元件 10" pX="17.63" pY="9.63"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="Zshouji">
+      <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="30001.png" sc="1" dl="0">
+          <f x="0.23" y="-1.55" cocos2d_x="1" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-1.4" y="-3.8" cocos2d_x="-1" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="-7.27" y="-0.67" cocos2d_x="-7" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="-7.27" y="-0.67" cocos2d_x="-7" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="-7.27" y="-0.67" cocos2d_x="-7" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="-16.27" y="-0.67" cocos2d_x="-16" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="-26.27" y="-3.17" cocos2d_x="-26" cocos2d_y="-3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="-27.9" y="0.33" cocos2d_x="-27" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f x="-10.15" y="26.45" cocos2d_x="-10" cocos2d_y="27" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

@@ -1,0 +1,60 @@
+<TextureAtlas name="H009" width="1024" height="512">
+ <SubTexture name="yuanjian2/元件 21" width="91" height="41" cocos2d_pX="46" cocos2d_pY="24" x="170" y="237"/>
+ <SubTexture name="yuanjian2/元件 19" width="107" height="83" cocos2d_pX="64" cocos2d_pY="40" x="665" y="155"/>
+ <SubTexture name="yuanjian2/元件 17" width="96" height="108" cocos2d_pX="56" cocos2d_pY="63" x="171" y="127"/>
+ <SubTexture name="yuanjian2/元件 16" width="85" height="89" cocos2d_pX="44" cocos2d_pY="49" x="828" y="201"/>
+ <SubTexture name="yuanjian2/元件 15" width="92" height="98" cocos2d_pX="53" cocos2d_pY="57" x="341" y="181"/>
+ <SubTexture name="yuanjian2/元件 14" width="78" height="94" cocos2d_pX="41" cocos2d_pY="52" x="90" y="190"/>
+ <SubTexture name="yuanjian2/元件 13" width="88" height="98" cocos2d_pX="44" cocos2d_pY="56" x="0" y="190"/>
+ <SubTexture name="yuanjian2/元件 6" width="43" height="42" cocos2d_pX="24" cocos2d_pY="24" x="612" y="263"/>
+ <SubTexture name="元件 1" width="48" height="108" cocos2d_pX="22" cocos2d_pY="55" x="269" y="127"/>
+ <SubTexture name="yuanjian/weapon_2" width="20" height="5" cocos2d_pX="0" cocos2d_pY="0" x="319" y="175"/>
+ <SubTexture name="yuajian1/元件 19" width="121" height="47" cocos2d_pX="62" cocos2d_pY="0" x="489" y="217"/>
+ <SubTexture name="yuajian1/元件 18" width="143" height="60" cocos2d_pX="73" cocos2d_pY="14" x="0" y="128"/>
+ <SubTexture name="yuajian1/元件 16" width="144" height="57" cocos2d_pX="75" cocos2d_pY="12" x="840" y="142"/>
+ <SubTexture name="yuajian1/元件 14" width="153" height="61" cocos2d_pX="78" cocos2d_pY="12" x="840" y="79"/>
+ <SubTexture name="yuajian1/元件 12" width="147" height="59" cocos2d_pX="75" cocos2d_pY="12" x="342" y="120"/>
+ <SubTexture name="yuajian1/元件 10" width="173" height="74" cocos2d_pX="85" cocos2d_pY="15" x="665" y="79"/>
+ <SubTexture name="yuajian1/元件 9" width="172" height="77" cocos2d_pX="84" cocos2d_pY="16" x="845" y="0"/>
+ <SubTexture name="yuajian1/元件 8" width="178" height="77" cocos2d_pX="88" cocos2d_pY="16" x="665" y="0"/>
+ <SubTexture name="yuajian1/元件 7" width="169" height="126" cocos2d_pX="83" cocos2d_pY="65" x="0" y="0"/>
+ <SubTexture name="yuajian1/元件 6" width="169" height="125" cocos2d_pX="82" cocos2d_pY="64" x="171" y="0"/>
+ <SubTexture name="yuajian1/元件 4" width="163" height="118" cocos2d_pX="83" cocos2d_pY="58" x="342" y="0"/>
+ <SubTexture name="yuajian1/元件 3" width="156" height="121" cocos2d_pX="77" cocos2d_pY="59" x="507" y="0"/>
+ <SubTexture name="yuajian1/元件 2" width="114" height="92" cocos2d_pX="58" cocos2d_pY="48" x="507" y="123"/>
+ <SubTexture name="yuajian1/元件 1" width="96" height="75" cocos2d_pX="47" cocos2d_pY="39" x="915" y="201"/>
+ <SubTexture name="yuanjian/hair_2" width="51" height="44" cocos2d_pX="30" cocos2d_pY="18" x="612" y="217"/>
+ <SubTexture name="yuanjian/hair_1" width="52" height="81" cocos2d_pX="26" cocos2d_pY="41" x="774" y="155"/>
+ <SubTexture name="yuanjian/left_arm" width="18" height="13" cocos2d_pX="9" cocos2d_pY="7" x="986" y="173"/>
+ <SubTexture name="yuanjian/left_hand" width="10" height="8" cocos2d_pX="5" cocos2d_pY="4" x="1011" y="159"/>
+ <SubTexture name="yuanjian/left_arm_up" width="16" height="18" cocos2d_pX="8" cocos2d_pY="9" x="623" y="165"/>
+ <SubTexture name="yuanjian/weapon_1" width="82" height="37" cocos2d_pX="42" cocos2d_pY="19" x="665" y="240"/>
+ <SubTexture name="yuanjian/weapon" width="75" height="34" cocos2d_pX="38" cocos2d_pY="17" x="489" y="266"/>
+ <SubTexture name="yuanjian/baiqi" width="8" height="13" cocos2d_pX="4" cocos2d_pY="7" x="828" y="155"/>
+ <SubTexture name="yuanjian/head_3" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="969" y="278"/>
+ <SubTexture name="yuanjian/head_2" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="657" y="279"/>
+ <SubTexture name="yuanjian/head_4" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="435" y="181"/>
+ <SubTexture name="yuanjian/head_1" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="774" y="238"/>
+ <SubTexture name="yuanjian/head_5" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="435" y="235"/>
+ <SubTexture name="yuanjian/head" width="52" height="52" cocos2d_pX="26" cocos2d_pY="26" x="915" y="278"/>
+ <SubTexture name="yuanjian/hudiejie" width="41" height="17" cocos2d_pX="21" cocos2d_pY="9" x="566" y="266"/>
+ <SubTexture name="yuanjian/zuobai" width="14" height="34" cocos2d_pX="7" cocos2d_pY="17" x="491" y="120"/>
+ <SubTexture name="yuanjian/youbai" width="7" height="28" cocos2d_pX="4" cocos2d_pY="14" x="653" y="123"/>
+ <SubTexture name="yuanjian/shubao" width="10" height="19" cocos2d_pX="5" cocos2d_pY="10" x="145" y="155"/>
+ <SubTexture name="yuanjian/body" width="28" height="40" cocos2d_pX="14" cocos2d_pY="20" x="623" y="123"/>
+ <SubTexture name="yuanjian/left_up_leg" width="15" height="27" cocos2d_pX="8" cocos2d_pY="13" x="319" y="127"/>
+ <SubTexture name="yuanjian/left_down_leg" width="10" height="24" cocos2d_pX="5" cocos2d_pY="12" x="653" y="153"/>
+ <SubTexture name="yuanjian/left_foot_1" width="12" height="13" cocos2d_pX="8" cocos2d_pY="7" x="1006" y="173"/>
+ <SubTexture name="yuanjian/left_foot" width="14" height="15" cocos2d_pX="7" cocos2d_pY="8" x="491" y="156"/>
+ <SubTexture name="yuanjian/right_up_leg" width="13" height="25" cocos2d_pX="7" cocos2d_pY="13" x="145" y="128"/>
+ <SubTexture name="yuanjian/right_down_leg" width="9" height="21" cocos2d_pX="5" cocos2d_pY="11" x="160" y="151"/>
+ <SubTexture name="yuanjian/right_foot_1" width="19" height="17" cocos2d_pX="10" cocos2d_pY="9" x="319" y="156"/>
+ <SubTexture name="yuanjian/right_foot" width="13" height="13" cocos2d_pX="7" cocos2d_pY="7" x="491" y="173"/>
+ <SubTexture name="yuanjian/kuzi" width="26" height="19" cocos2d_pX="13" cocos2d_pY="10" x="995" y="138"/>
+ <SubTexture name="yuanjian/right_arm" width="23" height="12" cocos2d_pX="12" cocos2d_pY="6" x="986" y="159"/>
+ <SubTexture name="yuanjian/right_arm_arm" width="9" height="21" cocos2d_pX="5" cocos2d_pY="11" x="160" y="128"/>
+ <SubTexture name="yuanjian/right_hand" width="8" height="9" cocos2d_pX="4" cocos2d_pY="5" x="641" y="165"/>
+ <SubTexture name="yuanjian/hair_3" width="24" height="57" cocos2d_pX="12" cocos2d_pY="29" x="995" y="79"/>
+ <SubTexture name="yuanjian/hair_4" width="65" height="55" cocos2d_pX="33" cocos2d_pY="28" x="263" y="237"/>
+ <SubTexture name="yuanjian/shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="623" y="185"/>
+</TextureAtlas>

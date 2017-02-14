@@ -1,0 +1,9 @@
+<TextureAtlas name="hunshouji" width="256" height="512">
+  <SubTexture name="20010.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="90" y="154"/>
+  <SubTexture name="20009.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="77"/>
+  <SubTexture name="20008.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="231"/>
+  <SubTexture name="20007.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="20006.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="90" y="0"/>
+  <SubTexture name="20005.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="90" y="77"/>
+  <SubTexture name="20004.png" width="88" height="75" cocos2d_pX="0" cocos2d_pY="0" x="0" y="154"/>
+</TextureAtlas>

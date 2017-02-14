@@ -1,0 +1,81 @@
+<skeleton name="S234" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="S234_3">
+   <b name="图层 1" x="-5.75" y="-8.52" kX="0" kY="0" cX="1" cY="1" pX="44" pY="17.25" z="0">
+    <d name="元件 6" pX="0" pY="0"/>
+    <d name="元件 7" pX="0" pY="0"/>
+    <d name="元件 8" pX="0" pY="0"/>
+    <d name="元件 9" pX="0" pY="0"/>
+    <d name="元件 10" pX="0" pY="0"/>
+    <d name="元件 11" pX="0" pY="0"/>
+   </b>
+  </armature>
+  <armature name="S234_1">
+   <b name="图层 1" x="-77.42" y="-4.45" kX="0" kY="0" cX="1" cY="1" pX="73.97" pY="33.78" z="0">
+    <d name="元件 18" pX="0" pY="0"/>
+    <d name="元件 19" pX="0" pY="0"/>
+    <d name="元件 20" pX="0" pY="0"/>
+    <d name="元件 21" pX="0" pY="0"/>
+    <d name="元件 22" pX="0" pY="0"/>
+    <d name="元件 23" pX="0" pY="0"/>
+    <d name="元件 24" pX="0" pY="0"/>
+   </b>
+  </armature>
+  <armature name="S234_2">
+   <b name="图层 1" x="61.08" y="-3.7" kX="0" kY="0" cX="1" cY="1" pX="66" pY="29.25" z="0">
+    <d name="元件 1" pX="0" pY="0"/>
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 3" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="元件 5" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S234_3">
+   <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-5.75" y="-8.52" kX="0" kY="0" cX="1" cY="1" pX="44" pY="17.25" z="0" dI="0" dr="1"/>
+     <f x="-3.25" y="-12.52" kX="0" kY="0" cX="1" cY="1" pX="46.5" pY="21.25" z="0" dI="1" dr="2"/>
+     <f x="-3.5" y="-17.52" kX="0" kY="0" cX="1" cY="1" pX="46.25" pY="26.25" z="0" dI="2" dr="1"/>
+     <f x="-9" y="-20.27" kX="0" kY="0" cX="1" cY="1" pX="40.75" pY="23.5" z="0" dI="3" dr="2"/>
+     <f x="-9" y="-22.02" kX="0" kY="0" cX="1" cY="1" pX="40.75" pY="21.75" z="0" dI="4" dr="2"/>
+     <f x="-17.75" y="-24.02" kX="0" kY="0" cX="1" cY="1" pX="32" pY="19.75" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S234_1">
+   <mov name="play" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-77.42" y="-4.45" kX="0" kY="0" cX="1" cY="1" pX="73.97" pY="33.78" z="0" dI="0" dr="2"/>
+     <f x="-29.5" y="-0.32" kX="0" kY="0" cX="1" cY="1" pX="77.4" pY="67.93" z="0" dI="1" dr="2"/>
+     <f x="-25.92" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="71.5" pY="79" z="0" dI="2" dr="2"/>
+     <f x="-44.75" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="108.63" pY="79" z="0" dI="3" dr="1"/>
+     <f x="-26.12" y="-1.9" kX="0" kY="0" cX="1" cY="1" pX="48" pY="67.53" z="0" dI="4" dr="2"/>
+     <f x="-26.72" y="0.08" kX="0" kY="0" cX="1" cY="1" pX="49.38" pY="69.1" z="0" dI="5" dr="2"/>
+     <f x="-14.47" y="-2.3" kX="0" kY="0" cX="1" cY="1" pX="38.7" pY="70.3" z="0" dI="6" twE="0" dr="3"/>
+     <f x="-14.47" y="-2.3" kX="0" kY="0" cX="1" cY="1" pX="38.7" pY="70.3" z="0" dI="6" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="15" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S234_2">
+   <mov name="play" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="61.08" y="-3.7" kX="0" kY="0" cX="1" cY="1" pX="66" pY="29.25" z="0" dI="0" dr="1"/>
+     <f x="73.33" y="1.55" kX="0" kY="0" cX="1" cY="1" pX="71.25" pY="29.5" z="0" dI="1" dr="2"/>
+     <f x="75.08" y="2.05" kX="0" kY="0" cX="1" cY="1" pX="69.5" pY="29" z="0" dI="2" dr="2"/>
+     <f x="77.08" y="5.05" kX="0" kY="0" cX="1" cY="1" pX="64.5" pY="27" z="0" dI="3" dr="2"/>
+     <f x="98.33" y="4.05" kX="0" kY="0" cX="1" cY="1" pX="42.75" pY="25.5" z="0" dI="4" dr="1"/>
+     <f x="98.33" y="4.05" kX="0" kY="0" cX="1" cY="1" pX="42.75" pY="25.5" z="0" dI="4" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="36" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

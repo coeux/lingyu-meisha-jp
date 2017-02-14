@@ -1,0 +1,59 @@
+<TextureAtlas name="H059" width="512" height="512">
+  <SubTexture name="huyuanjian/weiba4" width="86" height="81" x="86" y="94"/>
+  <SubTexture name="huyuanjian/元件 5 副本" width="15" height="63" x="174" y="94"/>
+  <SubTexture name="huyuanjian/元件 7" width="23" height="12" x="426" y="270"/>
+  <SubTexture name="huyuanjian/元件 8" width="46" height="39" x="291" y="185"/>
+  <SubTexture name="huyuanjian/元件 9" width="15" height="14" x="267" y="228"/>
+  <SubTexture name="huyuanjian/元件 10" width="24" height="27" x="426" y="214"/>
+  <SubTexture name="huyuanjian/元件 11" width="22" height="35" x="267" y="163"/>
+  <SubTexture name="huyuanjian/元件 3" width="46" height="183" x="293" y="0"/>
+  <SubTexture name="huyuanjian/元件 5" width="25" height="49" x="399" y="171"/>
+  <SubTexture name="huyuanjian/元件 4" width="25" height="56" x="428" y="98"/>
+  <SubTexture name="huyuanjian/biaoqing5" width="53" height="36" x="452" y="202"/>
+  <SubTexture name="huyuanjian/biaoqing6" width="53" height="35" x="452" y="240"/>
+  <SubTexture name="huyuanjian/biaoqing4" width="51" height="34" x="0" y="265"/>
+  <SubTexture name="huyuanjian/biaoqing3" width="53" height="31" x="53" y="269"/>
+  <SubTexture name="huyuanjian/biaoqing2" width="49" height="35" x="267" y="269"/>
+  <SubTexture name="huyuanjian/biaoqing1" width="53" height="35" x="176" y="239"/>
+  <SubTexture name="huyuanjian/hu biaoqing 2" width="78" height="74" x="187" y="163"/>
+  <SubTexture name="huyuanjian/hu biaoqing3" width="66" height="45" x="0" y="181"/>
+  <SubTexture name="huyuanjian/hu biaoqing1" width="70" height="36" x="66" y="231"/>
+  <SubTexture name="huyuanjian/元件 1" width="121" height="96" x="341" y="0"/>
+  <SubTexture name="huyuanjian/元件 6" width="85" height="71" x="341" y="98"/>
+  <SubTexture name="huyuanjian/元件 2" width="64" height="35" x="0" y="228"/>
+  <SubTexture name="huyuanjian/元件 12" width="11" height="51" x="174" y="159"/>
+  <SubTexture name="huyuanjian/元件 13" width="25" height="26" x="485" y="277"/>
+  <SubTexture name="huyuanjian/元件 14" width="56" height="64" x="341" y="171"/>
+  <SubTexture name="huyuanjian/元件 15" width="47" height="66" x="455" y="134"/>
+  <SubTexture name="huyuanjian/元件 16" width="59" height="35" x="335" y="237"/>
+  <SubTexture name="huyuanjian/元件 17" width="36" height="42" x="138" y="234"/>
+  <SubTexture name="huyuanjian/元件 18" width="35" height="38" x="318" y="274"/>
+  <SubTexture name="huyuanjian/元件 19" width="16" height="23" x="68" y="181"/>
+  <SubTexture name="huyuanjian/元件 20" width="25" height="23" x="387" y="291"/>
+  <SubTexture name="huyuanjian/元件 21" width="16" height="9" x="267" y="244"/>
+  <SubTexture name="huyuanjian/元件 22" width="21" height="30" x="151" y="177"/>
+  <SubTexture name="huyuanjian/元件 23" width="12" height="14" x="171" y="212"/>
+  <SubTexture name="huyuanjian/元件 24" width="22" height="26" x="267" y="200"/>
+  <SubTexture name="huyuanjian/元件 25" width="9" height="23" x="68" y="206"/>
+  <SubTexture name="huyuanjian/元件 27" width="63" height="52" x="86" y="177"/>
+  <SubTexture name="huyuanjian/元件 29" width="45" height="66" x="464" y="0"/>
+  <SubTexture name="huyuanjian/元件 30" width="28" height="32" x="396" y="257"/>
+  <SubTexture name="huyuanjian/元件 31" width="32" height="22" x="451" y="277"/>
+  <SubTexture name="huyuanjian/元件 32" width="45" height="64" x="464" y="68"/>
+  <SubTexture name="huyuanjian/元件 33" width="25" height="33" x="399" y="222"/>
+  <SubTexture name="huyuanjian/元件 34" width="30" height="22" x="135" y="278"/>
+  <SubTexture name="huyuanjian/元件 35" width="191" height="92" x="0" y="0"/>
+  <SubTexture name="huyuanjian/weiba1" width="84" height="85" x="0" y="94"/>
+  <SubTexture name="huyuanjian/元件 36" width="34" height="34" x="231" y="239"/>
+  <SubTexture name="huyuanjian/元件 37" width="25" height="27" x="108" y="269"/>
+  <SubTexture name="huyuanjian/元件 38" width="32" height="15" x="414" y="291"/>
+  <SubTexture name="huyuanjian/元件 39" width="29" height="34" x="231" y="275"/>
+  <SubTexture name="huyuanjian/元件 40" width="24" height="25" x="426" y="243"/>
+  <SubTexture name="huyuanjian/元件 41" width="29" height="17" x="167" y="299"/>
+  <SubTexture name="huyuanjian/元件 42" width="42" height="41" x="291" y="226"/>
+  <SubTexture name="huyuanjian/元件 43" width="30" height="38" x="355" y="274"/>
+  <SubTexture name="huyuanjian/元件 44" width="18" height="23" x="151" y="209"/>
+  <SubTexture name="huyuanjian/元件 26" width="98" height="161" x="193" y="0"/>
+  <SubTexture name="huyuanjian/元件 28" width="22" height="56" x="428" y="156"/>
+  <SubTexture name="huyuanjian/元件 1 副本" width="51" height="21" x="176" y="276"/>
+</TextureAtlas>

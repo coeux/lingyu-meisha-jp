@@ -1,0 +1,51 @@
+<skeleton name="die" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="die_3">
+      <b name="tuceng " x="68.47" y="-78.07" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0">
+        <d name="shape 6" pX="0" pY="0"/>
+      </b>
+    </armature>
+    <armature name="die_2">
+      <b name="tuceng " x="68.47" y="-78.07" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0">
+        <d name="shape 6" pX="0" pY="0"/>
+      </b>
+    </armature>
+    <armature name="die_1">
+      <b name="tuceng " x="68.47" y="-78.07" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0">
+        <d name="shape 6" pX="0" pY="0"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="die_3">
+      <mov name="play" dr="22" to="6" drTW="22" lp="0" twE="NaN">
+        <b name="tuceng " sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="68.47" y="-78.07" cocos2d_x="69" cocos2d_y="-78" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0" dI="0" dr="21">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="die_2">
+      <mov name="play" dr="22" to="6" drTW="22" lp="0" twE="NaN">
+        <b name="tuceng " sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="68.47" y="-78.07" cocos2d_x="69" cocos2d_y="-78" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0" dI="0" dr="21">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="die_1">
+      <mov name="play" dr="22" to="6" drTW="22" lp="0" twE="NaN">
+        <b name="tuceng " sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="68.47" y="-78.07" cocos2d_x="69" cocos2d_y="-78" kX="-0.35" kY="180" cX="0.45" cY="0.56" pX="0" pY="0" z="0" dI="0" dr="21">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

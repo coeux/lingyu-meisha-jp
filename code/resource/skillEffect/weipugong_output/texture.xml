@@ -1,0 +1,9 @@
+<TextureAtlas name="普攻" width="512" height="512">
+ <SubTexture name="元件 12" width="171" height="18" cocos2d_pX="74" cocos2d_pY="-33" x="0" y="282"/>
+ <SubTexture name="元件 11" width="201" height="122" cocos2d_pX="107" cocos2d_pY="69" x="196" y="141"/>
+ <SubTexture name="元件 10" width="194" height="139" cocos2d_pX="104" cocos2d_pY="70" x="0" y="141"/>
+ <SubTexture name="元件 9" width="203" height="139" cocos2d_pX="113" cocos2d_pY="70" x="0" y="0"/>
+ <SubTexture name="元件 7" width="201" height="139" cocos2d_pX="113" cocos2d_pY="71" x="205" y="0"/>
+ <SubTexture name="元件 5" width="171" height="140" cocos2d_pX="113" cocos2d_pY="71" x="196" y="265"/>
+ <SubTexture name="元件 2" width="129" height="100" cocos2d_pX="113" cocos2d_pY="72" x="369" y="265"/>
+</TextureAtlas>

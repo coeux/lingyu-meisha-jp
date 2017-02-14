@@ -1,0 +1,23 @@
+<TextureAtlas name="S130_3" width="1024" height="512">
+ <SubTexture name="未命名文件夹 1/元件 21" width="120" height="155" cocos2d_pX="60" cocos2d_pY="78" x="168" y="190"/>
+ <SubTexture name="未命名文件夹 1/元件 20" width="120" height="155" cocos2d_pX="60" cocos2d_pY="78" x="426" y="184"/>
+ <SubTexture name="未命名文件夹 1/元件 19" width="114" height="155" cocos2d_pX="57" cocos2d_pY="78" x="693" y="180"/>
+ <SubTexture name="未命名文件夹 1/元件 18" width="118" height="152" cocos2d_pX="59" cocos2d_pY="76" x="290" y="190"/>
+ <SubTexture name="未命名文件夹 1/元件 17" width="271" height="173" cocos2d_pX="136" cocos2d_pY="87" x="0" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 16" width="116" height="153" cocos2d_pX="58" cocos2d_pY="77" x="548" y="196"/>
+ <SubTexture name="未命名文件夹 1/元件 15" width="114" height="151" cocos2d_pX="57" cocos2d_pY="76" x="0" y="286"/>
+ <SubTexture name="未命名文件夹 1/元件 14" width="109" height="151" cocos2d_pX="55" cocos2d_pY="76" x="809" y="334"/>
+ <SubTexture name="未命名文件夹 1/元件 13" width="116" height="163" cocos2d_pX="58" cocos2d_pY="82" x="809" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 12" width="112" height="167" cocos2d_pX="56" cocos2d_pY="84" x="809" y="165"/>
+ <SubTexture name="未命名文件夹 1/元件 11" width="114" height="178" cocos2d_pX="57" cocos2d_pY="89" x="693" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 10" width="119" height="194" cocos2d_pX="60" cocos2d_pY="97" x="572" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 9" width="151" height="188" cocos2d_pX="76" cocos2d_pY="94" x="273" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 8" width="144" height="182" cocos2d_pX="72" cocos2d_pY="91" x="426" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 7" width="166" height="109" cocos2d_pX="83" cocos2d_pY="55" x="0" y="175"/>
+ <SubTexture name="未命名文件夹 1/元件 6" width="92" height="120" cocos2d_pX="46" cocos2d_pY="60" x="927" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 5" width="146" height="104" cocos2d_pX="73" cocos2d_pY="52" x="116" y="347"/>
+ <SubTexture name="未命名文件夹 1/元件 4" width="127" height="96" cocos2d_pX="64" cocos2d_pY="48" x="410" y="341"/>
+ <SubTexture name="未命名文件夹 1/元件 3" width="140" height="100" cocos2d_pX="70" cocos2d_pY="50" x="666" y="337"/>
+ <SubTexture name="未命名文件夹 1/元件 2" width="104" height="91" cocos2d_pX="52" cocos2d_pY="46" x="290" y="344"/>
+ <SubTexture name="未命名文件夹 1/元件 1" width="55" height="62" cocos2d_pX="28" cocos2d_pY="31" x="927" y="122"/>
+</TextureAtlas>

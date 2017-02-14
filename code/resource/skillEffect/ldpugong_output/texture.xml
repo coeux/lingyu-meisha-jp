@@ -1,0 +1,11 @@
+<TextureAtlas name="ldpugong" width="512" height="256">
+ <SubTexture name="元件 3" width="52" height="52" cocos2d_pX="-70" cocos2d_pY="-27" x="303" y="173"/>
+ <SubTexture name="元件 10" width="105" height="78" cocos2d_pX="-38" cocos2d_pY="-39" x="0" y="153"/>
+ <SubTexture name="元件 9" width="145" height="84" cocos2d_pX="-36" cocos2d_pY="-34" x="156" y="97"/>
+ <SubTexture name="元件 8" width="145" height="86" cocos2d_pX="-36" cocos2d_pY="-30" x="312" y="0"/>
+ <SubTexture name="元件 7" width="145" height="39" cocos2d_pX="-37" cocos2d_pY="-77" x="0" y="112"/>
+ <SubTexture name="元件 6" width="146" height="83" cocos2d_pX="-38" cocos2d_pY="-34" x="312" y="88"/>
+ <SubTexture name="元件 5" width="154" height="95" cocos2d_pX="-32" cocos2d_pY="-22" x="156" y="0"/>
+ <SubTexture name="元件 4" width="154" height="110" cocos2d_pX="-30" cocos2d_pY="-7" x="0" y="0"/>
+ <SubTexture name="元件 2" width="22" height="25" cocos2d_pX="-94" cocos2d_pY="-25" x="459" y="0"/>
+</TextureAtlas>

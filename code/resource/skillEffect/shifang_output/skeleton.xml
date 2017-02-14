@@ -1,0 +1,29 @@
+<skeleton name="shifang" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="shifang">
+   <b name="图层 1" x="2.63" y="-0.8" kX="0" kY="0" cX="1" cY="1" pX="23.08" pY="21.35" z="0">
+    <d name="元件 2" pX="0" pY="0"/>
+    <d name="元件 3" pX="0" pY="0"/>
+    <d name="元件 4" pX="0" pY="0"/>
+    <d name="元件 5" pX="0" pY="0"/>
+    <d name="元件 6" pX="0" pY="0"/>
+    <d name="元件 7" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="shifang">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="2.63" y="-0.8" cocos2d_x="-20" cocos2d_y="-22" kX="0" kY="0" cX="1" cY="1" pX="23.08" pY="21.35" z="0" dI="0" dr="1"/>
+     <f x="2.2" y="-1.35" cocos2d_x="-17" cocos2d_y="-23" kX="0" kY="0" cX="1" cY="1" pX="19.8" pY="21.65" z="0" dI="1" dr="1"/>
+     <f x="1.63" y="0.5" cocos2d_x="-24" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="25.78" pY="30.63" z="0" dI="2" dr="1"/>
+     <f x="0.9" y="-1.5" cocos2d_x="-21" cocos2d_y="-32" kX="0" kY="0" cX="1" cY="1" pX="22.78" pY="30.6" z="0" dI="3" dr="1"/>
+     <f x="1.2" y="-0.92" cocos2d_x="-24" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="25.63" pY="36.6" z="0" dI="4" dr="1"/>
+     <f x="-0.5" y="-1.35" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="24.78" pY="36.45" z="0" dI="5" dr="1"/>
+     <f dr="2" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

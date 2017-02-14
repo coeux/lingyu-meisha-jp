@@ -1,0 +1,64 @@
+<skeleton name="S420" frameRate="25" version="2.2">
+  <armatures>
+    <armature name="S420_2">
+      <b name="10017.png" x="15.38" y="-0.62" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+        <d name="元件 8" pX="37.05" pY="37.08"/>
+        <d name="元件 9" pX="46.08" pY="35.28"/>
+        <d name="元件 10" pX="40.23" pY="33.25"/>
+        <d name="元件 11" pX="38.63" pY="36.63"/>
+        <d name="元件 12" pX="36.85" pY="34.38"/>
+        <d name="元件 13" pX="31" pY="29.88"/>
+        <d name="元件 14" pX="24.48" pY="24.95"/>
+        <d name="元件 15" pX="32.1" pY="22.93"/>
+        <d name="元件 16" pX="28.98" pY="24.25"/>
+        <d name="元件 17" pX="40.9" pY="35.48"/>
+        <d name="元件 18" pX="34.83" pY="41.78"/>
+      </b>
+    </armature>
+    <armature name="S420_1">
+      <b name="10036.png" x="-2.62" y="1.38" kX="0" kY="0" cX="1.21" cY="1.21" pX="-0.02" pY="0" z="0">
+        <d name="元件 26" pX="73.65" pY="62.78"/>
+        <d name="元件 27" pX="76.6" pY="63.45"/>
+        <d name="元件 28" pX="82.85" pY="67.4"/>
+        <d name="元件 29" pX="83.5" pY="67.72"/>
+        <d name="元件 30" pX="82.53" pY="67.4"/>
+        <d name="元件 31" pX="83.83" pY="66.4"/>
+        <d name="元件 32" pX="83.83" pY="66.08"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S420_2">
+      <mov name="play" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="10017.png" sc="1" dl="0">
+          <f x="15.38" y="-0.62" cocos2d_x="16" cocos2d_y="0" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-5.5" y="0.05" cocos2d_x="-5" cocos2d_y="1" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+          <f x="0.57" y="-1.65" cocos2d_x="1" cocos2d_y="-1" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="2" dr="1"/>
+          <f x="8.3" y="-9.4" cocos2d_x="9" cocos2d_y="-9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="8.32" y="-2.65" cocos2d_x="9" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="7.65" y="-3.32" cocos2d_x="8" cocos2d_y="-3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="5" dr="1"/>
+          <f x="5.3" y="-2.67" cocos2d_x="6" cocos2d_y="-2" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="-0.02" z="0" dI="6" dr="1"/>
+          <f x="18.75" y="4.43" cocos2d_x="19" cocos2d_y="5" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="7" dr="1"/>
+          <f x="20.15" y="-1.65" cocos2d_x="21" cocos2d_y="-1" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="8" dr="1"/>
+          <f x="-6.52" y="21.28" cocos2d_x="-6" cocos2d_y="22" kX="0" kY="0" cX="1.5" cY="1.5" pX="-0.02" pY="0" z="0" dI="9" dr="1"/>
+          <f x="-6.82" y="5.75" cocos2d_x="-6" cocos2d_y="6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="10" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="S420_1">
+      <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="10036.png" sc="1" dl="0">
+          <f x="-2.62" y="1.38" cocos2d_x="-2" cocos2d_y="2" kX="0" kY="0" cX="1.21" cY="1.21" pX="-0.02" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-3" y="-4.2" cocos2d_x="-3" cocos2d_y="-4" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="-0.05" z="0" dI="1" dr="2"/>
+          <f x="-2.6" y="-4.2" cocos2d_x="-2" cocos2d_y="-4" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="-0.05" z="0" dI="2" dr="2"/>
+          <f x="-5.8" y="-3.77" cocos2d_x="-5" cocos2d_y="-3" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+          <f x="-5.4" y="-2.57" cocos2d_x="-5" cocos2d_y="-2" kX="0" kY="0" cX="1.21" cY="1.21" pX="-0.02" pY="-0.02" z="0" dI="4" dr="2"/>
+          <f x="-6.17" y="-0.6" cocos2d_x="-6" cocos2d_y="0" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-4.62" y="-2.57" cocos2d_x="-4" cocos2d_y="-2" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

@@ -1,0 +1,16 @@
+<TextureAtlas name="吟唱" width="128" height="256">
+ <SubTexture name="yuanjian/元件 2" width="29" height="31" x="32" y="138"/>
+ <SubTexture name="yuanjian/元件 4" width="34" height="33" x="0" y="38"/>
+ <SubTexture name="yuanjian/元件 6" width="34" height="31" x="74" y="66"/>
+ <SubTexture name="yuanjian/元件 8" width="33" height="35" x="39" y="0"/>
+ <SubTexture name="yuanjian/元件 10" width="36" height="31" x="74" y="0"/>
+ <SubTexture name="yuanjian/元件 12" width="30" height="31" x="0" y="107"/>
+ <SubTexture name="yuanjian/元件 14" width="33" height="33" x="39" y="37"/>
+ <SubTexture name="yuanjian/元件 16" width="32" height="30" x="34" y="106"/>
+ <SubTexture name="yuanjian/元件 18" width="30" height="31" x="68" y="132"/>
+ <SubTexture name="yuanjian/元件 20" width="37" height="36" x="0" y="0"/>
+ <SubTexture name="yuanjian/元件 22" width="36" height="31" x="74" y="33"/>
+ <SubTexture name="yuanjian/元件 23" width="32" height="31" x="70" y="99"/>
+ <SubTexture name="yuanjian/元件 24" width="32" height="32" x="0" y="73"/>
+ <SubTexture name="yuanjian/元件 25" width="32" height="32" x="36" y="72"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<TextureAtlas name="YZ_baoxiang_4" width="512" height="256">
+ <SubTexture name="元件 7" width="19" height="19" cocos2d_pX="9.5" cocos2d_pY="9.45" x="461" y="44"/>
+ <SubTexture name="元件 9" width="19" height="19" cocos2d_pX="9.45" cocos2d_pY="9.45" x="482" y="44"/>
+ <SubTexture name="元件 8" width="17" height="17" cocos2d_pX="8.05" cocos2d_pY="8.05" x="461" y="65"/>
+ <SubTexture name="元件 2" width="106" height="57" cocos2d_pX="53" cocos2d_pY="28.5" x="342" y="190"/>
+ <SubTexture name="元件 6" width="42" height="42" cocos2d_pX="20.9" cocos2d_pY="20.9" x="461" y="0"/>
+ <SubTexture name="~d.physical.002[1].fla_1_3_2013-12-31 10:47:4333296" width="79" height="79" cocos2d_pX="7.4" cocos2d_pY="9.8" x="246" y="107"/>
+ <SubTexture name="重复项目文件夹/元件 2" width="244" height="244" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="bx4 开 空 /箱体" width="110" height="93" cocos2d_pX="0" cocos2d_pY="0" x="349" y="95"/>
+ <SubTexture name="元件 4" width="110" height="93" cocos2d_pX="55" cocos2d_pY="46.5" x="349" y="0"/>
+ <SubTexture name="元件 1" width="101" height="105" cocos2d_pX="50.5" cocos2d_pY="52.5" x="246" y="0"/>
+ <SubTexture name="元件 3" width="94" height="47" cocos2d_pX="47" cocos2d_pY="23.5" x="246" y="188"/>
+</TextureAtlas>

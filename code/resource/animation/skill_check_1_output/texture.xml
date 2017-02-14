@@ -1,0 +1,35 @@
+<TextureAtlas name="未命名-1" width="2048" height="2048">
+ <SubTexture name="beijing33" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1120" y="1108"/>
+ <SubTexture name="beijng32" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="560" y="0"/>
+ <SubTexture name="beijing31" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1120" y="554"/>
+ <SubTexture name="beijng30" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1120" y="0"/>
+ <SubTexture name="beijing29" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1400" y="831"/>
+ <SubTexture name="beijng28" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1680" y="0"/>
+ <SubTexture name="beijing27" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1680" y="554"/>
+ <SubTexture name="beijing26" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="280" y="277"/>
+ <SubTexture name="beijing25" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="840" y="1108"/>
+ <SubTexture name="beijing24" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="840" y="277"/>
+ <SubTexture name="beijing23" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="280" y="831"/>
+ <SubTexture name="beijing22" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1400" y="277"/>
+ <SubTexture name="beijing21" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="0" y="1108"/>
+ <SubTexture name="beijing20" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="0" y="554"/>
+ <SubTexture name="beijing19" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="840" y="831"/>
+ <SubTexture name="beijing18" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="560" y="554"/>
+ <SubTexture name="beijing17" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="0" y="0"/>
+ <SubTexture name="beijing16" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="280" y="0"/>
+ <SubTexture name="beijing15" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="840" y="0"/>
+ <SubTexture name="beijing14" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1400" y="0"/>
+ <SubTexture name="beijing13" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="0" y="277"/>
+ <SubTexture name="beijing12" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="560" y="277"/>
+ <SubTexture name="beijing11" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1120" y="277"/>
+ <SubTexture name="beijing10" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1680" y="277"/>
+ <SubTexture name="beijing9" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="280" y="554"/>
+ <SubTexture name="beijing8" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="840" y="554"/>
+ <SubTexture name="beijing7" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1400" y="554"/>
+ <SubTexture name="beijng6" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="0" y="831"/>
+ <SubTexture name="beijing5" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="560" y="831"/>
+ <SubTexture name="beijing4" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1120" y="831"/>
+ <SubTexture name="beijing3" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="1680" y="831"/>
+ <SubTexture name="beijing2" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="280" y="1108"/>
+ <SubTexture name="beijign1" width="278" height="275" cocos2d_pX="139" cocos2d_pY="138" x="560" y="1108"/>
+</TextureAtlas>

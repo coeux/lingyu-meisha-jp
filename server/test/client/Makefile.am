@@ -1,0 +1,40 @@
+INCLUDES= -I$(top_srcdir)/yslib/ys_log 				\
+		  -I$(top_srcdir)/yslib/mysql 				\
+		  -I$(top_srcdir)/yslib/heart_beat 			\
+		  -I$(top_srcdir)/yslib/status 				\
+		  -I$(top_srcdir)/yslib/utility 			\
+		  -I$(top_srcdir)/yslib/rpc 				\
+		  -I$(top_srcdir)/yslib/thread_pool 		\
+		  -I$(top_srcdir)/yslib/package 			\
+		  -I$(top_srcdir)/yslib/perf 				\
+		  -I$(top_srcdir)/yslib/ys_lua/include  	\
+		  -I$(top_srcdir)/yslib/ys_lua/lua-5.1.4 	\
+		  -I../common/
+
+CXXFLAGS = -Wall -g -O2 -fPIC -Wno-deprecated -std=c++0x
+LDFLAGS  = 
+
+capp_LDADD =\
+				$(top_srcdir)/yslib/ys_log/libys_log.la         \
+				$(top_srcdir)/yslib/perf/libys_perf.la      	\
+				$(top_srcdir)/yslib/rpc/libys_rpc.la            \
+				$(top_srcdir)/yslib/thread_pool/libys_thread_pool.la  \
+				$(top_srcdir)/yslib/package/libys_package.la    \
+				$(top_srcdir)/yslib/ys_lua/libys_lua.la     	\
+				$(top_srcdir)/yslib/mysql/libys_mysql.la        \
+				$(top_srcdir)/yslib/utility/libys_utility.la    \
+				-lboost_system-mt\
+				-lboost_thread-mt\
+				-lpthread\
+				-ldl\
+				-lz\
+				-lrt
+
+bin_PROGRAMS = capp 
+
+noinst_PROGRAMS = 
+noinst_LIBRARIES = 
+
+capp_SOURCES = 		\
+		login_client.cpp \
+		main.cpp

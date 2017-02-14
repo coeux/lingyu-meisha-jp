@@ -1,0 +1,13 @@
+number	string	number	string	string	string	string	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number	number
+角色ID	角色名	职业	角色形象	目录	普通攻击脚本	普通被击脚本	动作时间	技能取消时间	体型宽度	体型高度	移动速度	攻击频率	攻击范围	初始物理攻击力	初始魔法攻击力	初始物理防御力	初始魔法防御力	初始生命值	初始暴击值	初始命中值	初始闪避值	对应技能ID	攻击怒气获得	被击怒气获得	boss血条
+2003	宙斯	4	H003	H003_output	H003_normal_attack	hit_41	1	1	80	260	150	1.65	280	0	26000	5000	5000	80000	0	500	0	402	350	200	0
+2004	阿波罗	3	H004	H004_output	H004_normal_attack	hit_31	1	1	80	200	210	1.6	240	20000	0	6000	4000	80000	0	500	0	321	350	200	0
+2076	波塞冬	2	H076	H076_output	H076_normal_attack	hit_11	1	1	80	215	180	1.45	40	18000	0	5000	5000	80000	0	500	0	212	350	200	0
+2077	哈迪斯	1	H077	H077_output	H077_normal_attack	hit_11	1	1	90	210	350	1.8	20	16000	0	7500	7500	130000	0	500	0	121	250	100	0
+4007	战神阿瑞斯	2	H007	H007_output	H007_normal_attack	hit_11	1	1	100	250	70	1.45	110	15000	0	0	0	1200000	0	500	0	211	300	300	7
+3064	弥诺陶洛斯	2	M064	M064_output	M064_normal_attack	hit_11	1	1	100	230	110	1.45	40	8000	0	2000	2000	100000	0	500	0	221	300	300	0
+3023	羊头人战士	2	M023	M022_output	M023_normal_attack	hit_11	1	1	100	160	180	1.45	40	12000	0	0	0	30000	0	500	0	0	300	300	0
+4022	美杜莎	3	H022	H022_output	H022_normal_attack		1	1	100	210	130	1.6	240	15000	0	0	0	30000	0	500	0	301	300	300	0
+4023	戈尔贡姐妹	3	H023	H023_output	H023_normal_attack	hit_31	1	1	80	190	130	1.6	260	10000	0	0	0	20000	0	500	0	0	300	300	0
+4024	愤怒戈尔贡	3	H024	H024_output	H024_normal_attack	hit_31	1	1	80	190	130	1.6	220	10000	0	0	0	20000	0	500	0	0	300	300	0
+3027	红龙	4	M027	M027_output	M027_normal_attack	hit_11	1	1	200	400	180	1.65	150	0	200000	0	0	500000	0	500	0	412	1000	1000	0

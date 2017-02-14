@@ -1,0 +1,19 @@
+<TextureAtlas name="H049_g1" width="1024" height="512">
+ <SubTexture name="元件 17" width="117" height="77" cocos2d_pX="59" cocos2d_pY="39" x="739" y="247"/>
+ <SubTexture name="元件 16" width="93" height="93" cocos2d_pX="47" cocos2d_pY="47" x="474" y="244"/>
+ <SubTexture name="元件 15" width="127" height="104" cocos2d_pX="64" cocos2d_pY="52" x="345" y="244"/>
+ <SubTexture name="元件 14" width="163" height="122" cocos2d_pX="82" cocos2d_pY="61" x="574" y="126"/>
+ <SubTexture name="元件 13" width="166" height="125" cocos2d_pX="83" cocos2d_pY="63" x="814" y="120"/>
+ <SubTexture name="元件 12" width="170" height="122" cocos2d_pX="85" cocos2d_pY="61" x="402" y="120"/>
+ <SubTexture name="元件 11" width="179" height="110" cocos2d_pX="90" cocos2d_pY="55" x="0" y="126"/>
+ <SubTexture name="元件 10" width="196" height="118" cocos2d_pX="98" cocos2d_pY="59" x="814" y="0"/>
+ <SubTexture name="元件 9" width="195" height="124" cocos2d_pX="98" cocos2d_pY="62" x="617" y="0"/>
+ <SubTexture name="元件 8" width="205" height="118" cocos2d_pX="103" cocos2d_pY="59" x="206" y="0"/>
+ <SubTexture name="元件 7" width="204" height="124" cocos2d_pX="102" cocos2d_pY="62" x="0" y="0"/>
+ <SubTexture name="元件 6" width="202" height="118" cocos2d_pX="101" cocos2d_pY="59" x="413" y="0"/>
+ <SubTexture name="元件 5" width="194" height="114" cocos2d_pX="97" cocos2d_pY="57" x="206" y="120"/>
+ <SubTexture name="元件 4" width="162" height="79" cocos2d_pX="81" cocos2d_pY="40" x="181" y="236"/>
+ <SubTexture name="元件 3" width="168" height="68" cocos2d_pX="84" cocos2d_pY="34" x="0" y="238"/>
+ <SubTexture name="元件 2" width="109" height="57" cocos2d_pX="55" cocos2d_pY="29" x="569" y="250"/>
+ <SubTexture name="元件 1" width="116" height="58" cocos2d_pX="58" cocos2d_pY="29" x="858" y="247"/>
+</TextureAtlas>

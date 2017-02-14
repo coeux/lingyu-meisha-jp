@@ -1,0 +1,31 @@
+<skeleton name="huo" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="huo">
+   <b name="图层 1" x="11.18" y="-27.82" kX="0" kY="0" cX="2.24" cY="2.24" pX="62.5" pY="62.5" z="0">
+    <d name="yuanjian/元件 26" pX="-37.4" pY="-57.95"/>
+    <d name="yuanjian/元件 25" pX="-37.85" pY="-59.75"/>
+    <d name="yuanjian/元件 23" pX="-30.25" pY="-48.57"/>
+    <d name="yuanjian/元件 21" pX="-14.65" pY="-29.82"/>
+    <d name="元件 3" pX="60" pY="58.53"/>
+    <d name="元件 4" pX="45.95" pY="46.9"/>
+    <d name="元件 5" pX="39.25" pY="39.28"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="huo">
+   <mov name="play" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="11.18" y="-27.82" cocos2d_x="-128" cocos2d_y="-167" kX="0" kY="0" cX="2.24" cY="2.24" pX="62.5" pY="62.5" z="0" dI="0" dr="1"/>
+     <f x="11.18" y="-27.82" cocos2d_x="-128" cocos2d_y="-167" kX="0" kY="0" cX="2.24" cY="2.24" pX="62.5" pY="62.5" z="0" dI="1" dr="1"/>
+     <f x="11.18" y="-27.82" cocos2d_x="-128" cocos2d_y="-167" kX="0" kY="0" cX="2.24" cY="2.24" pX="62.5" pY="62.5" z="0" dI="2" dr="1"/>
+     <f x="11.18" y="-27.82" cocos2d_x="-128" cocos2d_y="-167" kX="0" kY="0" cX="2.24" cY="2.24" pX="62.5" pY="62.5" z="0" dI="3" dr="2"/>
+     <f x="5.95" y="-14.02" cocos2d_x="6" cocos2d_y="-14" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="10.45" y="-24" cocos2d_x="11" cocos2d_y="-23" kX="0" kY="0" cX="3" cY="3" pX="0" pY="-0.02" z="0" dI="5" dr="2"/>
+     <f x="11.15" y="-27.87" cocos2d_x="12" cocos2d_y="-27" kX="0" kY="0" cX="4" cY="4" pX="0" pY="-0.02" z="0" dI="6" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

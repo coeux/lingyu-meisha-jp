@@ -1,0 +1,17 @@
+number	string	string	number	number
+id	name	model	type	value
+5002600	原·卡拉	H026_output	2	0
+5002601	白·卡拉	H026_Wuniform_output	3	0
+5002602	黑·卡拉	H026_Buniform_output	3	0
+5004200	原·却邪	H042_output	2	0
+5004201	白·却邪	H042_Wuniform_output	3	0
+5004202	黑·却邪	H042_Buniform_output	3	0
+5010100	原·主角	P101_output	1	0
+5010101	白·主角	P101_Wuniform_output	3	0
+5010102	黑·主角	P101_Buniform_output	3	0
+5010200	原·主角	P102_output	1	0
+5010201	白·主角	P102_Wuniform_output	3	0
+5010202	黑·主角	P102_Buniform_output	3	0
+5010300	原·主角	P103_output	1	0
+5010301	白·主角	P103_Wuniform_output	3	0
+5010302	黑·主角	P103_Buniform_output	3	0

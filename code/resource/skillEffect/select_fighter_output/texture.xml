@@ -1,0 +1,4 @@
+<TextureAtlas name="选中状态" width="512" height="256">
+ <SubTexture name="元件 4" width="274" height="138" cocos2d_pX="134.95" cocos2d_pY="128.55" x="0" y="0"/>
+ <SubTexture name="元件 3" width="141" height="70" cocos2d_pX="69.8" cocos2d_pY="64.5" x="276" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Monster" ResourceFileName="Monster.res" LayoutFileName="Monster.lay">
+	<AssistLine P0="0, 528" P1="4096, 528" Width="2" Color="Gold" />
+	<GlobalStyles />
+</Project>

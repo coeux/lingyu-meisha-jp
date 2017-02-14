@@ -1,0 +1,6 @@
+number	string	string	string	number	string	string	number	number	number	number	number	number	string	number	number	number
+id	name	icon	icon	open	effect_main	effect	count	target	target_type	spread_area	spread_area_type	spread_num	info	trail	var1	var2
+101			fight_gou1	1003	GestureSkill_1_attack		1	4	1	0	0	-1		0	3	
+201			fight_quan1	1025		GestureSkill_2_attack	1	2	1	100	3	5		0		1.5
+301			fight_dian1	1007	GestureSkill_3_attack		1	4	1	160	1	4		0	2	
+401			fight_z1	1055	GestureSkill_4_1_attack	GestureSkill_4_2_attack	1	1	2	2000	2	4		0	2.5	2

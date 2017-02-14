@@ -1,0 +1,35 @@
+<TextureAtlas name="N013" width="128" height="128">
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_1" width="13" height="24" cocos2d_pX="7" cocos2d_pY="12" x="65" y="46"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_2" width="8" height="17" cocos2d_pX="4" cocos2d_pY="9" x="50" y="74"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_3" width="7" height="15" cocos2d_pX="4" cocos2d_pY="8" x="78" y="79"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_4" width="6" height="31" cocos2d_pX="3" cocos2d_pY="16" x="80" y="46"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_5" width="5" height="15" cocos2d_pX="3" cocos2d_pY="8" x="121" y="0"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_6" width="5" height="13" cocos2d_pX="3" cocos2d_pY="7" x="121" y="34"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_7" width="4" height="7" cocos2d_pX="2" cocos2d_pY="4" x="35" y="80"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_8" width="12" height="25" cocos2d_pX="6" cocos2d_pY="13" x="88" y="56"/>
+  <SubTexture name="head" width="22" height="26" cocos2d_pX="11" cocos2d_pY="13" x="41" y="46"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_hand" width="5" height="6" cocos2d_pX="3" cocos2d_pY="3" x="121" y="82"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_arm" width="4" height="10" cocos2d_pX="2" cocos2d_pY="5" x="35" y="68"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_arm_up" width="6" height="13" cocos2d_pX="3" cocos2d_pY="7" x="18" y="86"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/yifu_1" width="8" height="11" cocos2d_pX="4" cocos2d_pY="6" x="87" y="83"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/xiong_1" width="5" height="9" cocos2d_pX="3" cocos2d_pY="5" x="121" y="61"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/xiong_2" width="9" height="9" cocos2d_pX="5" cocos2d_pY="5" x="0" y="89"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/body" width="16" height="19" cocos2d_pX="8" cocos2d_pY="10" x="0" y="68"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/jiutan" width="17" height="18" cocos2d_pX="9" cocos2d_pY="9" x="102" y="56"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/pigu" width="15" height="16" cocos2d_pX="8" cocos2d_pY="8" x="18" y="68"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/yifu_2" width="4" height="8" cocos2d_pX="2" cocos2d_pY="4" x="121" y="72"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_up_leg" width="11" height="17" cocos2d_pX="6" cocos2d_pY="9" x="65" y="72"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_foot" width="7" height="7" cocos2d_pX="4" cocos2d_pY="4" x="107" y="92"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/left_down_leg" width="6" height="14" cocos2d_pX="3" cocos2d_pY="7" x="113" y="76"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_foot" width="8" height="7" cocos2d_pX="4" cocos2d_pY="4" x="97" y="92"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_down_leg" width="5" height="10" cocos2d_pX="3" cocos2d_pY="5" x="121" y="49"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_up_leg" width="7" height="19" cocos2d_pX="4" cocos2d_pY="10" x="41" y="74"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_hand" width="6" height="6" cocos2d_pX="3" cocos2d_pY="3" x="116" y="92"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/hair_9" width="31" height="54" cocos2d_pX="16" cocos2d_pY="27" x="88" y="0"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/piaodai_1" width="4" height="15" cocos2d_pX="2" cocos2d_pY="11" x="121" y="17"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/piaodai_2" width="9" height="14" cocos2d_pX="5" cocos2d_pY="7" x="102" y="76"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/weapon" width="86" height="44" cocos2d_pX="43" cocos2d_pY="22" x="0" y="0"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_arm" width="6" height="10" cocos2d_pX="3" cocos2d_pY="5" x="26" y="86"/>
+  <SubTexture name="巨人之剑Q版拆分1.psd 资源 9/right_arm_up" width="12" height="4" cocos2d_pX="6" cocos2d_pY="2" x="60" y="91"/>
+  <SubTexture name="yuanjian/GTJJ_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="0" y="46"/>
+</TextureAtlas>

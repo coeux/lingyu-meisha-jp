@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <Desktop Margin="L:125.000000 T:151.000000 R:0.000000 B:0.000000" Name="test" Size="W:960.000000 H:640.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <Button Background="brush_group.brush2" CoverBrush="brush_group.brush2" Margin="L:184.000000 T:175.000000 R:0.000000 B:0.000000" Name="btnTest" NormalBrush="brush_group.brush2" PressBrush="brush_group.brush2" Size="W:34.000000 H:269.000000" Text="asdfasdf" />
+    </Desktop>
+</UISystem>

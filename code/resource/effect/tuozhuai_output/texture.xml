@@ -1,0 +1,7 @@
+<TextureAtlas name="tuozhuai" width="256" height="128">
+  <SubTexture name="新手引导22.psd 资源 2/元件 5" width="64" height="93" x="65" y="0"/>
+  <SubTexture name="新手引导22.psd 资源 2/元件 3" width="63" height="95" x="0" y="0"/>
+  <SubTexture name="新手引导22.psd 资源 2/元件 6 副本" width="45" height="45" x="131" y="0"/>
+  <SubTexture name="新手引导22.psd 资源 2/元件 6" width="45" height="45" x="178" y="0"/>
+  <SubTexture name="元件 2" width="72" height="17" x="131" y="47"/>
+</TextureAtlas>

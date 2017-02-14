@@ -1,0 +1,249 @@
+#include "lg_logic.h"
+#include "log.h"
+#include "code_def.h"
+#include "db_service.h"
+#include "db_def.h"
+#include "crypto.h"
+#include "remote_info.h"
+#include "config.h"
+#include "seskey_assign.h"
+#include "dbmid_client.h"
+#include "dbid_gen.h"
+
+#define LOG "LG_LOGIC" 
+
+template<class T>
+void update_cache(int32_t aid_, int32_t uid_, T& db_)
+{
+    uint64_t id = aid_ == 0? uid_:aid_;
+    dbmid_helper.async_do(id, [](int32_t aid_, int32_t uid_, T& db_){
+            dbmid_update_t pk;
+            pk.aid = aid_;
+            pk.uid = uid_;
+            pk.tablename = db_.tablename();
+            db_ >> pk.datas;
+            dbmid_helper.async_update(pk); 
+    }, aid_, uid_, db_);
+}
+
+template<class T>
+void insert_cache(int32_t aid_, int32_t uid_, T& db_)
+{
+    uint64_t id = aid_ == 0? uid_:aid_;
+    dbmid_helper.async_do(id, [](int32_t aid_, int32_t uid_, T& db_){
+            dbmid_insert_t pk;
+            pk.aid = aid_;
+            pk.uid = uid_;
+            pk.tablename = db_.tablename();
+            db_ >> pk.datas;
+            dbmid_helper.async_update(pk); 
+    }, aid_, uid_, db_);
+}
+
+lg_logic_t::lg_logic_t()
+{
+    reg_call(&lg_logic_t::on_mac_login);
+    reg_call(&lg_logic_t::on_req_rolelist);
+    reg_call(&lg_logic_t::on_req_new_role);
+    reg_call(&lg_logic_t::on_req_del_role);
+}
+void lg_logic_t::on_mac_login(uint64_t seskey_, sp_rpc_conn_t conn_, lg_msg_def::req_mac_login_t& jpk_)
+{
+    logwarn((LOG, "req_mac_login..., seskey:%lu", seskey_));
+
+    if (jpk_.mac.size() != 12)
+    {
+        logerror((LOG, "on_mac_login! illegle request data!"));
+
+        lg_msg_def::ret_login_t ret;
+        ret.aid = 0;
+        ret.code = ERROR_LG_MAC_ILLEGLE;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+
+        return;
+    }
+
+    sp_acc_t sp_acc;
+    if (!m_mac_cache.get(jpk_.mac, sp_acc))
+    {
+        dbmid_select_acc_t req;
+        req.mac = jpk_.mac;
+        sp_acc = sp_acc_t(new dbmid_acc_t);
+        int code = dbmid_helper.block_conn()->get(req, *sp_acc); 
+        cout << sp_acc->userids.size() << endl;
+        if (code > 0)
+        {
+            //创建新账户
+            db_Account_t& acc = sp_acc->account;
+            if ((acc.aid = dbid_gen.new_dbid("aid")) <= 0)
+            {
+                logerror((LOG, "on_mac_login, create new aid failed, mac:%s!", jpk_.mac.c_str()));
+                lg_msg_def::ret_login_t ret;
+                ret.code = ERROR_LG_EXCEPTION;
+                msg_sender_t::unicast(seskey_, conn_, ret);
+                return;
+            }
+            acc.mac = jpk_.mac;
+            acc.flag= 1;
+            acc.lasthostnum = 0;
+            acc.lastuid = 0;
+            acc.ipnum = 0;
+
+            insert_cache(acc.aid, 0, acc);
+        }
+        //保存到cache
+        sp_acc->update_hostindex();
+        m_mac_cache.put(jpk_.mac, sp_acc);
+        m_aid_cache.put(sp_acc->account.aid, sp_acc);
+    }
+    
+    db_Account_t& acc = sp_acc->account;
+    lg_msg_def::ret_login_t ret;
+    ret.aid = acc.aid;
+    ret.hostnum = acc.lasthostnum;
+    ret.code = SUCCESS;
+    msg_sender_t::unicast(seskey_, conn_, ret);
+}
+void lg_logic_t::on_req_rolelist(uint64_t seskey_, sp_rpc_conn_t conn_, lg_msg_def::req_rolelist_t& jpk_)
+{
+    lg_msg_def::ret_rolelist_t ret;
+    ret.hostnum = jpk_.hostnum;
+
+    sp_acc_t sp_acc;
+    if (!m_aid_cache.get(jpk_.aid, sp_acc))
+    {
+        ret.code = ERROR_LG_NO_AID;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    db_Account_t& acc = sp_acc->account;
+    //更新账户上次登陆的信息
+    acc.lasthostnum = jpk_.hostnum;
+    //保存数据到cache
+    update_cache(jpk_.aid, 0, acc);
+
+    //设置上一次选择的服务器角色
+    ret.lastuid = acc.lastuid;
+
+    //get exist roles
+    auto it = sp_acc->hostindex.find(jpk_.hostnum);
+    if (it == sp_acc->hostindex.end())
+    {
+        ret.code = SUCCESS;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    list<dbmid_acc_t::it_userid_hm_t>& userids = it->second;
+    for(auto it=userids.begin(); it!=userids.end(); it++)
+    {
+        db_UserID_t& user = (*it)->second;
+
+        lg_msg_def::jpk_role_t jpk;
+        jpk.uid = user.uid;
+        jpk.resid = user.resid;
+        jpk.nickname = user.nickname;
+        jpk.level = user.grade;
+        jpk.viplevel = user.viplevel;
+        jpk.weaponid = 0;
+
+        ret.rolelist.push_back(jpk);
+    }
+    ret.code = SUCCESS;
+    msg_sender_t::unicast(seskey_, conn_, ret);
+}
+//请求创建角色
+void lg_logic_t::on_req_new_role(uint64_t seskey_, sp_rpc_conn_t conn_, lg_msg_def::req_new_role_t& jpk_)
+{
+    if (config.resid_range.b > jpk_.resid || jpk_.resid > config.resid_range.e)
+    {
+        logerror((LOG, "on_req_new_role, error role resid:%d,%d,%d!", config.resid_range.b, jpk_.resid, config.resid_range.e));
+        lg_msg_def::ret_new_role_t ret;
+        ret.uid = 0;
+        ret.code = ERROR_LG_ROLE_RESID;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    lg_msg_def::ret_new_role_t ret;
+    ret.uid = 0;
+    ret.code = SUCCESS;
+
+    sp_acc_t sp_acc;
+    //确认账户是否存在
+    if (!m_aid_cache.get(jpk_.aid, sp_acc))
+    {
+        ret.code = ERROR_LG_NO_AID;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    auto it = sp_acc->hostindex.find(jpk_.hostnum);
+    if (it != sp_acc->hostindex.end() && it->second.size() >= 3)
+    {
+        ret.code = ERROR_LG_ROLE_MAX_NUM;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+    else
+    {
+        it = sp_acc->hostindex.insert(make_pair(jpk_.hostnum, list<dbmid_acc_t::it_userid_hm_t>())).first;
+    }
+
+    //插入角色ID
+    db_UserID_t user;
+    if ((user.uid = dbid_gen.new_dbid("uid"))<=0)
+    {
+        logerror((LOG, "on_req_new_role, create new uid failed!"));
+        ret.code = ERROR_LG_EXCEPTION;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    user.aid = jpk_.aid; 
+    user.resid = jpk_.resid;
+    uint64_t sesname = singleton_t<seskey_assign_t>::instance().new_seskey(seskey_>>48);
+    char buf[32]; sprintf(buf, "%lu", sesname);
+    user.nickname = buf;
+    user.grade = 1;
+    user.viplevel = 0;
+    user.state = 0;
+    user.hostnum = jpk_.hostnum;
+    ret.uid = user.uid;
+    ret.code = SUCCESS;
+    msg_sender_t::unicast(seskey_, conn_, ret);
+
+    insert_cache(0, user.uid, user);
+
+    auto it_new = sp_acc->userids.insert(make_pair(user.uid, user)).first;
+    it->second.push_back(it_new);
+}
+void lg_logic_t::on_req_del_role(uint64_t seskey_, sp_rpc_conn_t conn_, lg_msg_def::req_del_role_t& jpk_)
+{
+    lg_msg_def::ret_del_role_t ret;
+    ret.uid = jpk_.uid;
+    ret.code = SUCCESS;
+
+    sp_acc_t sp_acc;
+    if (!m_aid_cache.get(jpk_.aid, sp_acc))
+    {
+        ret.code = ERROR_LG_NO_AID;
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    auto it = sp_acc->userids.find(jpk_.uid);
+    if (it == sp_acc->userids.end())
+    {
+        logerror((LOG, "req_del_role，no uid:%d", jpk_.uid)); 
+        msg_sender_t::unicast(seskey_, conn_, ret);
+        return;
+    }
+
+    db_UserID_t& userid = it->second;
+    userid.state = 1;
+    update_cache(userid.aid, 0, userid);
+
+    msg_sender_t::unicast(seskey_, conn_, ret);
+}

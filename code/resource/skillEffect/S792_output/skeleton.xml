@@ -1,0 +1,55 @@
+<skeleton name="S792" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="S792_2">
+      <b name="100001.png" x="-96.57" y="-170.65" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.02" pY="0" z="0">
+        <d name="元件 1" pX="29.08" pY="24"/>
+        <d name="元件 2" pX="32.45" pY="35.53"/>
+        <d name="元件 31" pX="31.05" pY="71.78"/>
+        <d name="元件 32" pX="31.9" pY="75.97"/>
+        <d name="元件 34" pX="28.5" pY="58.83"/>
+        <d name="元件 6" pX="35.95" pY="62.23"/>
+        <d name="元件 7" pX="39.42" pY="38.4"/>
+        <d name="元件 8" pX="39.65" pY="40.45"/>
+      </b>
+    </armature>
+    <armature name="S792_1">
+      <b name="110001.png" x="6.1" y="-212.72" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="-0.02" z="0">
+        <d name="元件 29" pX="32.33" pY="88.63"/>
+        <d name="元件 26" pX="74.45" pY="179.78"/>
+        <d name="元件 27" pX="85.13" pY="182.05"/>
+        <d name="元件 30" pX="68.05" pY="119.7"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="S792_2">
+      <mov name="play" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="100001.png" sc="1" dl="0">
+          <f x="-96.57" y="-170.65" cocos2d_x="-96" cocos2d_y="-170" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.02" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-51.22" y="-130.15" cocos2d_x="-51" cocos2d_y="-130" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="1" dr="1"/>
+          <f x="-26.82" y="-69.15" cocos2d_x="-26" cocos2d_y="-69" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+          <f x="-13.8" y="-58.87" cocos2d_x="-13" cocos2d_y="-58" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1"/>
+          <f x="-2.17" y="-43.1" cocos2d_x="-2" cocos2d_y="-43" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="4" dr="1"/>
+          <f x="0.57" y="-37.52" cocos2d_x="1" cocos2d_y="-37" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.05" pY="0" z="0" dI="5" dr="1"/>
+          <f x="-0.77" y="-3.17" cocos2d_x="0" cocos2d_y="-3" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="6" dr="1"/>
+          <f x="-0.5" y="-4.82" cocos2d_x="0" cocos2d_y="-4" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.05" pY="0" z="0" dI="7" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="S792_1">
+      <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="110001.png" sc="1" dl="0">
+          <f x="6.1" y="-212.72" cocos2d_x="7" cocos2d_y="-212" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="-0.02" z="0" dI="0" dr="2"/>
+          <f x="1.63" y="-118.6" cocos2d_x="2" cocos2d_y="-118" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="1" dr="2"/>
+          <f x="2.2" y="-104.07" cocos2d_x="3" cocos2d_y="-104" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="2" dr="2"/>
+          <f x="7.8" y="-107.42" cocos2d_x="8" cocos2d_y="-107" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="3" twE="0" dr="3"/>
+          <f x="7.8" y="-107.42" cocos2d_x="8" cocos2d_y="-107" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="3" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="21" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

@@ -1,0 +1,37 @@
+<skeleton name="luoboshouji" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="luoboshouji">
+   <b name="图层 1" x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0">
+    <d name="10001.png" pX="0" pY="0"/>
+    <d name="10002.png" pX="0" pY="0"/>
+    <d name="10003.png" pX="0" pY="0"/>
+    <d name="10004.png" pX="0" pY="0"/>
+    <d name="10005.png" pX="0" pY="0"/>
+    <d name="10006.png" pX="0" pY="0"/>
+    <d name="10007.png" pX="0" pY="0"/>
+    <d name="10008.png" pX="0" pY="0"/>
+    <d name="10009.png" pX="0" pY="0"/>
+    <d name="10010.png" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="luoboshouji">
+   <mov name="play" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="0" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="1" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="2" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="3" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="4" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="5" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="6" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="7" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="8" dr="1"/>
+     <f x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="37.5" z="0" dI="9" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

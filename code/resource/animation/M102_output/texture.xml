@@ -1,0 +1,34 @@
+<TextureAtlas name="M102" width="1024" height="1024">
+ <SubTexture name="未命名文件夹 1/眼" width="12" height="12" cocos2d_pX="6" cocos2d_pY="6" x="177" y="351"/>
+ <SubTexture name="未命名文件夹 1/头" width="87" height="79" cocos2d_pX="44" cocos2d_pY="40" x="197" y="343"/>
+ <SubTexture name="未命名文件夹 1/下颚" width="39" height="41" cocos2d_pX="20" cocos2d_pY="21" x="910" y="380"/>
+ <SubTexture name="未命名文件夹 1/小臂" width="44" height="24" cocos2d_pX="22" cocos2d_pY="12" x="80" y="383"/>
+ <SubTexture name="未命名文件夹 1/大臂" width="29" height="57" cocos2d_pX="15" cocos2d_pY="29" x="573" y="351"/>
+ <SubTexture name="未命名文件夹 1/手" width="20" height="31" cocos2d_pX="10" cocos2d_pY="16" x="174" y="383"/>
+ <SubTexture name="未命名文件夹 1/翅膀前6" width="195" height="349" cocos2d_pX="98" cocos2d_pY="175" x="0" y="0"/>
+ <SubTexture name="未命名文件夹 1/翅膀前5" width="185" height="270" cocos2d_pX="93" cocos2d_pY="135" x="386" y="237"/>
+ <SubTexture name="未命名文件夹 1/翅膀前4" width="242" height="130" cocos2d_pX="121" cocos2d_pY="65" x="521" y="592"/>
+ <SubTexture name="未命名文件夹 1/翅膀前3" width="254" height="146" cocos2d_pX="127" cocos2d_pY="73" x="265" y="509"/>
+ <SubTexture name="未命名文件夹 1/翅膀前2" width="287" height="130" cocos2d_pX="144" cocos2d_pY="65" x="573" y="460"/>
+ <SubTexture name="未命名文件夹 1/翅膀前1" width="279" height="235" cocos2d_pX="140" cocos2d_pY="118" x="386" y="0"/>
+ <SubTexture name="未命名文件夹 1/大腿" width="44" height="97" cocos2d_pX="22" cocos2d_pY="49" x="970" y="286"/>
+ <SubTexture name="未命名文件夹 1/小腿" width="26" height="19" cocos2d_pX="13" cocos2d_pY="10" x="980" y="385"/>
+ <SubTexture name="未命名文件夹 1/脚" width="27" height="57" cocos2d_pX="14" cocos2d_pY="29" x="881" y="380"/>
+ <SubTexture name="未命名文件夹 1/脖子" width="78" height="54" cocos2d_pX="39" cocos2d_pY="27" x="0" y="351"/>
+ <SubTexture name="未命名文件夹 1/胸" width="84" height="112" cocos2d_pX="42" cocos2d_pY="56" x="573" y="237"/>
+ <SubTexture name="未命名文件夹 1/尾巴1" width="201" height="104" cocos2d_pX="101" cocos2d_pY="52" x="0" y="613"/>
+ <SubTexture name="未命名文件夹 1/腰" width="87" height="92" cocos2d_pX="44" cocos2d_pY="46" x="881" y="286"/>
+ <SubTexture name="未命名文件夹 1/大腿_1" width="53" height="90" cocos2d_pX="27" cocos2d_pY="45" x="286" y="343"/>
+ <SubTexture name="未命名文件夹 1/小腿_1" width="27" height="21" cocos2d_pX="14" cocos2d_pY="11" x="951" y="385"/>
+ <SubTexture name="未命名文件夹 1/脚_1" width="33" height="55" cocos2d_pX="17" cocos2d_pY="28" x="341" y="343"/>
+ <SubTexture name="未命名文件夹 1/小臂_1" width="46" height="21" cocos2d_pX="23" cocos2d_pY="11" x="126" y="383"/>
+ <SubTexture name="未命名文件夹 1/大臂_1" width="27" height="57" cocos2d_pX="14" cocos2d_pY="29" x="604" y="351"/>
+ <SubTexture name="未命名文件夹 1/手_1" width="21" height="32" cocos2d_pX="11" cocos2d_pY="16" x="633" y="351"/>
+ <SubTexture name="未命名文件夹 1/翅膀6" width="187" height="341" cocos2d_pX="94" cocos2d_pY="171" x="197" y="0"/>
+ <SubTexture name="未命名文件夹 1/翅膀5" width="132" height="284" cocos2d_pX="66" cocos2d_pY="142" x="888" y="0"/>
+ <SubTexture name="未命名文件夹 1/翅膀4" width="220" height="172" cocos2d_pX="110" cocos2d_pY="86" x="659" y="286"/>
+ <SubTexture name="未命名文件夹 1/翅膀3" width="240" height="111" cocos2d_pX="120" cocos2d_pY="56" x="765" y="592"/>
+ <SubTexture name="未命名文件夹 1/翅膀2" width="263" height="187" cocos2d_pX="132" cocos2d_pY="94" x="0" y="424"/>
+ <SubTexture name="未命名文件夹 1/翅膀1" width="219" height="284" cocos2d_pX="110" cocos2d_pY="142" x="667" y="0"/>
+ <SubTexture name="未命名文件夹 1/shaodw" width="95" height="30" cocos2d_pX="10" cocos2d_pY="-2" x="80" y="351"/>
+</TextureAtlas>

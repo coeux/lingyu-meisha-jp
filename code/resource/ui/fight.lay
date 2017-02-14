@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UISystem>
+    <UserControl Size="W:436.000000 H:46.000000" Type="DebugItemTemplate">
+        <Panel Background="fight.cf_huadongFramne1" Name="DebugItemTemplate" Pick="false" Size="W:436.000000 H:46.000000">
+            <Label Font="huakang_13_noborder" Margin="L:15.000000 T:10.000000 R:0.000000 B:0.000000" Name="name" Pick="false" Size="W:59.000000 H:22.000000" Text="123ff" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:54.000000 T:2.000000 R:0.000000 B:0.000000" Name="curskill" Pick="false" Size="W:175.000000 H:18.000000" Text="skillsdf" TextColor="0xff000000" />
+            <Label AutoNewline="true" Font="huakang_13_noborder" Margin="L:56.000000 T:19.000000 R:0.000000 B:0.000000" Name="buff" Pick="false" Size="W:362.000000 H:26.000000" Text="buff" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:240.000000 T:2.000000 R:0.000000 B:0.000000" Name="action" Pick="false" Size="W:77.000000 H:20.000000" Text="action" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:322.000000 T:4.000000 R:0.000000 B:0.000000" Name="state" Pick="false" Size="W:69.000000 H:16.000000" Text="state" TextColor="0xff000000" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:162.000000 H:210.000000" Type="PlayerTemplate">
+        <Panel Name="PlayerTemplate" Pick="false" Size="W:162.000000 H:210.000000">
+            <Panel HLayout="Center" Name="bg" Size="W:240.000000 H:240.000000" />
+            <Panel Margin="L:10.000000 T:0.000000 R:0.000000 B:10.000000" Name="left" Pick="false" Size="W:80.000000 H:99.000000" VLayout="Bottom" ZOrder="1" />
+            <ProgressBar HLayout="Stretch" Margin="L:15.000000 T:-1.000000 R:15.000000 B:-1.000000" Name="hpbar" ShowText="false" Size="W:0.000000 H:10.000000" VLayout="Bottom" ZOrder="1" />
+            <Panel HLayout="Right" Margin="L:0.000000 T:0.000000 R:10.000000 B:10.000000" Name="right" Pick="false" Size="W:80.000000 H:99.000000" VLayout="Bottom" ZOrder="2" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:116.000000 H:161.000000" Type="SkillCard">
+        <Label Background="fight.battle_card" Size="W:116.000000 H:161.000000" />
+    </UserControl>
+    <UserControl Size="W:436.000000 H:46.000000" Type="TraceItemTemplate">
+        <Panel Background="fight.cf_huadongFramne1" Name="TraceItemTemplate" Pick="false" Size="W:436.000000 H:46.000000">
+            <Label Font="huakang_13_noborder" Margin="L:15.000000 T:10.000000 R:0.000000 B:0.000000" Name="id" Pick="false" Size="W:59.000000 H:22.000000" Text="id" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:54.000000 T:2.000000 R:0.000000 B:0.000000" Name="actor" Pick="false" Size="W:115.000000 H:18.000000" Text="actor" TextColor="0xff000000" />
+            <Label AutoNewline="true" Font="huakang_13_noborder" Margin="L:56.000000 T:19.000000 R:0.000000 B:0.000000" Name="pos" Pick="false" Size="W:368.000000 H:26.000000" Text="pos" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:176.000000 T:2.000000 R:0.000000 B:0.000000" Name="type" Pick="false" Size="W:77.000000 H:20.000000" Text="type" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:322.000000 T:4.000000 R:0.000000 B:0.000000" Name="time" Pick="false" Size="W:69.000000 H:16.000000" Text="time" TextColor="0xff000000" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:180.000000 H:160.000000" Type="fightLoseTemplate">
+        <Panel Background="godsSenki.explain_bg" Name="fightLoseTemplate" Size="W:180.000000 H:160.000000">
+            <Label Font="huakang_18RGB38190" HLayout="Center" Name="typeName" Size="W:100.000000 H:30.000000" Text="スキルを強化し" TextAlignStyle="MiddleCenter" />
+            <ImageElement AutoSize="false" HLayout="Center" Margin="L:0.000000 T:35.000000 R:0.000000 B:0.000000" Name="img" Size="W:153.000000 H:49.000000" />
+            <Button Background="godsSenki.green40_button1" CoverBrush="godsSenki.green40_button1" Font="huakang_24_Miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:-50.000000" Name="gotoBtn" NormalBrush="godsSenki.green40_button1" PressBrush="godsSenki.green40_button2" Size="W:180.000000 H:40.000000" Text="スキルを強化し" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:90.000000 R:0.000000 B:0.000000" Name="describe1" Size="W:155.000000 H:26.000000" Text="キャラ画面で" TextAlignStyle="MiddleCenter" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:110.000000 R:0.000000 B:0.000000" Name="describe2" Size="W:155.000000 H:26.000000" Text="キャラを選択して" TextAlignStyle="MiddleCenter" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:130.000000 R:0.000000 B:0.000000" Name="describe3" Size="W:155.000000 H:26.000000" Text="効果をアップさせましょう" TextAlignStyle="MiddleCenter" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:77.000000 H:98.000000" Type="handCardTemplate">
+        <ImageElement AutoSize="false" Image="Empty" Name="handCardTemplate" Size="W:77.000000 H:98.000000">
+            <ImageElement AutoSize="false" HLayout="Stretch" Margin="L:2.000000 T:2.000000 R:2.000000 B:0.000000" Name="item" Size="W:85.000000 H:73.000000" />
+            <ImageElement AutoSize="false" HLayout="Right" Margin="L:0.000000 T:-4.000000 R:-7.000000 B:0.000000" Name="desc" Size="W:40.000000 H:40.000000" ZOrder="2" />
+            <Label Font="huakang_14_noborder" HLayout="Stretch" Margin="L:4.000000 T:0.000000 R:4.000000 B:1.000000" Name="name" Size="W:96.000000 H:18.000000" Text="やあ元気かい" TextAlignStyle="MiddleCenter" VLayout="Bottom" ZOrder="2" />
+            <ImageElement AutoSize="false" Image="Empty" Margin="L:2.000000 T:2.000000 R:0.000000 B:0.000000" Name="type" Size="W:41.000000 H:23.000000" ZOrder="2" />
+            <ImageElement AutoSize="false" Image="fight_card1" Name="frame" Size="W:77.000000 H:98.000000" ZOrder="1" />
+        </ImageElement>
+    </UserControl>
+    <UserControl Size="W:22.000000 H:22.000000" Type="heartTemplate3">
+        <Panel Name="heartTemplate3" Size="W:22.000000 H:22.000000">
+            <BrushElement Margin="L:8.000000 T:1.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:9.000000 H:9.000000" />
+            <BrushElement Margin="L:3.000000 T:7.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:9.000000 H:9.000000" Skew="X:270.000000 Y:270.000000" />
+            <BrushElement Margin="L:8.000000 T:12.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:9.000000 H:9.000000" Skew="X:180.000000 Y:180.000000" />
+            <BrushElement Margin="L:13.000000 T:7.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:9.000000 H:9.000000" Skew="X:90.000000 Y:90.000000" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:100.000000 H:105.000000" Type="memberResultTemplate">
+        <Panel Name="memberReward" Size="W:100.000000 H:105.000000">
+            <ImageElement Image="battle_skilltouxiang" Name="image" Size="W:100.000000 H:57.000000" />
+            <Label Background="fight.result_exp1" Margin="L:5.000000 T:80.000000 R:0.000000 B:0.000000" Name="explabel" Size="W:43.000000 H:16.000000" />
+            <Label Font="huakang_13" Margin="L:50.000000 T:78.000000 R:0.000000 B:0.000000" Name="exp" Size="W:46.000000 H:18.000000" Text="+1000" />
+            <EffectProgressBar Background="fight.result_exp_progressFrame" CurValue="58" Font="huakang_13" ForwardBrush="fight.result_exp_process1" Margin="L:5.000000 T:60.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProgress" ShowText="true" Size="W:90.000000 H:10.000000" Text="58/100" TextAlignStyle="MiddleCenter" />
+            <ImageElement AutoSize="false" Margin="L:55.000000 T:0.000000 R:0.000000 B:0.000000" Name="grade" Size="W:45.000000 H:23.000000" />
+            <ImageElement AlwaysOnTop="true" AutoSize="false" Image="result_lv up" Margin="L:0.000000 T:30.000000 R:0.000000 B:0.000000" Name="lvlup" Size="W:100.000000 H:25.000000" ZOrder="10" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:107.000000 H:115.000000" Type="playerPanelTemplate">
+        <Panel Margin="L:0.000000 T:0.000000 R:0.000000 B:10.000000" Name="playerPanel1" Size="W:107.000000 H:115.000000" Tag="1" VLayout="Center">
+            <ImageElement AutoSize="false" HLayout="Center" Margin="L:0.000000 T:7.000000 R:0.000000 B:0.000000" Name="headPic" Pick="false" Size="W:70.000000 H:70.000000" />
+            <BrushElement Background="fight.fight_boss_nuqi" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:12.000000" Size="W:110.000000 H:16.000000" VLayout="Bottom" />
+            <ProgressBar CurValue="100" ForwardBrush="fight.fight_boss_nuqi1" Margin="L:0.000000 T:0.000000 R:0.000000 B:16.000000" MaxValue="100" Name="angerProb" Pick="false" ShowText="false" Size="W:105.000000 H:8.000000" VLayout="Bottom" />
+            <BrushElement Background="fight.fight_zhuzhan" HLayout="Right" Margin="L:0.000000 T:33.000000 R:0.000000 B:0.000000" Name="assist" Size="W:22.000000 H:44.000000" />
+            <BrushElement Background="login.chuangjianjuese_zhiye1" Margin="L:0.000000 T:52.000000 R:0.000000 B:0.000000" Name="jobIcon" Size="W:25.000000 H:25.000000" />
+            <BrushElement Background="fight.fight_renwu_xuetiao" HLayout="Center" Margin="L:0.000000 T:76.000000 R:0.000000 B:0.000000" Size="W:110.000000 H:16.000000" />
+            <ProgressBar CurValue="100" ForwardBrush="fight.fullHpForwardBrush" Margin="L:2.000000 T:78.000000 R:0.000000 B:0.000000" MaxValue="100" Name="hpProb" Pick="false" ShowText="false" Size="W:101.000000 H:13.000000" />
+            <BrushElement Background="fight.fight_starbg" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:1.000000" Size="W:105.000000 H:12.000000" VLayout="Bottom" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:102.000000 R:0.000000 B:0.000000" Name="starsList" Orientation="Horizontal" Size="W:105.000000 H:12.000000" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:80.000000 H:107.000000" Type="playerPanelTemplate1">
+        <Panel Name="playerPanelTemplate" Size="W:80.000000 H:107.000000" Tag="1">
+            <ItemCell Background="fight.personInfo_cell" Checked="false" Margin="L:1.000000 T:-2.000000 R:0.000000 B:0.000000" Name="item" Size="W:80.000000 H:84.000000">
+                <ImageElement Margin="L:49.000000 T:1.000000 R:0.000000 B:0.000000" Name="ele" Size="W:25.000000 H:27.000000" />
+                <BrushElement Background="fight.personInfo_diban" Margin="L:4.000000 T:64.000000 R:0.000000 B:0.000000" Size="W:73.000000 H:16.000000" />
+                <Label Font="huakang_15" Margin="L:20.000000 T:65.000000 R:0.000000 B:0.000000" Size="W:23.000000 H:13.000000" Text="LV." TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                <Label Font="huakang_15" Margin="L:42.000000 T:65.000000 R:0.000000 B:0.000000" Name="LV" Size="W:23.000000 H:13.000000" Text="01" />
+            </ItemCell>
+            <Label Font="huakang_15" Margin="L:5.000000 T:0.000000 R:0.000000 B:-8.000000" Name="expIcon" Size="W:29.000000 H:19.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" VLayout="Bottom" />
+            <ImageElement Image="fight_win_jiantou" Margin="L:34.000000 T:0.000000 R:0.000000 B:-4.000000" Size="W:8.000000 H:13.000000" VLayout="Bottom" />
+            <Label Font="huakang_13" HLayout="Right" Margin="L:0.000000 T:0.000000 R:5.000000 B:-7.000000" Name="coinValue" Size="W:29.000000 H:18.000000" Text="100" TextColor="0xff00ff00" VLayout="Bottom" />
+            <ProgressBar Background="fight.fight_jindutiao" CurValue="80" ForwardBrush="login.fight_expBlood" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:10.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:72.000000 H:10.000000" VLayout="Bottom" />
+        </Panel>
+    </UserControl>
+    <UserControl Size="W:75.000000 H:75.000000" Type="rewardItemTemplate">
+        <ItemCell Background="godsSenki.SaoDang_cell" Checked="false" ItemNum="5" ItemNumFont="huakang_20" Name="rewardItemTemplate" Size="W:75.000000 H:75.000000" />
+    </UserControl>
+    <Desktop Margin="L:198.000000 T:208.000000 R:0.000000 B:0.000000" Name="fight" Size="W:960.000000 H:640.000000">
+        <InnerControl>
+            <SimpleTooltip AlwaysOnTop="true" DisplayTime="10000.00" FadeTime="1000.00" HoverTime="1000.00" Pick="false" TextColor="0xffffffff" Visibility="Hidden" />
+        </InnerControl>
+        <ProgressBar CurValue="11" HLayout="Right" Margin="L:0.000000 T:-38.000000 R:36.000000 B:0.000000" MaxValue="12" Name="angerBar" Scale="X:0.400000 Y:0.400000" ShowText="false" Size="W:64.000000 H:437.000000" StepOrientation="Bottom2Top" VLayout="Center" Visibility="Hidden" ZOrder="-1" />
+        <ProgressBar CurValue="11" HLayout="Right" Margin="L:0.000000 T:-37.000000 R:0.000000 B:0.000000" MaxValue="12" Name="enemyAngerBar" Scale="X:0.400000 Y:0.400000" ShowText="false" Size="W:64.000000 H:437.000000" StepOrientation="Bottom2Top" VLayout="Center" Visibility="Hidden" ZOrder="-1" />
+        <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:22.000000 R:0.000000 B:0.000000" Name="enemyPanelList" Orientation="Horizontal" Pick="false" Size="W:575.000000 H:50.000000" Space="10.00" />
+        <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:43.000000" Name="allyPanelList" Orientation="Horizontal" Pick="false" Scale="X:-1.000000 Y:1.000000" Size="W:667.000000 H:50.000000" Space="10.00" VLayout="Bottom" />
+        <Button HLayout="Right" Margin="L:0.000000 T:0.000000 R:0.000000 B:62.000000" Name="speed" Size="W:136.000000 H:60.000000" VLayout="Bottom" Visibility="Hidden">
+            <Events>
+                <Event Name="Button::ClickEvent" Subscriber="FightManager:OnAddSpeed" />
+            </Events>
+        </Button>
+        <Label Font="huakang_25" HLayout="Center" Margin="L:0.000000 T:133.000000 R:0.000000 B:0.000000" Name="energyTip" Pick="false" Size="W:350.000000 H:50.000000" Text="エネルギーが足りません" TextAlignStyle="MiddleCenter" TextColor="0xff0000ff" Visibility="Hidden" />
+        <Panel Margin="L:4.000000 T:474.000000 R:0.000000 B:0.000000" Name="panelNuqi" Size="W:139.000000 H:161.000000" Visibility="Hidden">
+            <Label Margin="L:19.000000 T:124.000000 R:0.000000 B:0.000000" Name="label_nuqi" Size="W:79.000000 H:22.000000" />
+            <ArmatureUI Margin="L:25.000000 T:31.000000 R:0.000000 B:0.000000" Name="anim_nuqi" Size="W:85.000000 H:83.000000" />
+        </Panel>
+        <Button Background="fight.fight_auto_press" CoverBrush="fight.fight_auto_press" Margin="L:87.000000 T:16.000000 R:0.000000 B:0.000000" Name="btnCancelAuto" NormalBrush="fight.fight_auto_press" PressBrush="fight.fight_auto_press" Size="W:65.000000 H:65.000000" Visibility="Hidden">
+            <Events>
+                <Event Name="Button::ClickEvent" Subscriber="FightManager:OnAutoClick" />
+            </Events>
+        </Button>
+        <Panel HLayout="Center" Margin="L:-153.000000 T:119.000000 R:0.000000 B:0.000000" Name="panelCounter" Size="W:300.000000 H:115.000000" Visibility="Hidden">
+            <Label HLayout="Center" Margin="L:10.000000 T:8.000000 R:0.000000 B:0.000000" Name="labelCounter" Size="W:173.000000 H:80.000000" />
+        </Panel>
+        <StackPanel Alignment="Center" HLayout="Center" Margin="L:-12.000000 T:0.000000 R:0.000000 B:5.000000" Orientation="Horizontal" Size="W:866.000000 H:161.000000" Space="9.00" VLayout="Bottom" Visibility="Hidden">
+            <SkillCard Margin="L:204.000000 T:207.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:229.000000 T:81.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:388.000000 T:84.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:423.000000 T:60.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:616.000000 T:53.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:693.000000 T:38.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+            <SkillCard Margin="L:666.000000 T:58.000000 R:0.000000 B:0.000000" Size="W:116.000000 H:161.000000" />
+        </StackPanel>
+        <Panel Margin="L:-1.000000 T:0.000000 R:0.000000 B:10.000000" Name="playerPanel1" Size="W:107.000000 H:115.000000" Tag="1" VLayout="Center" Visibility="Hidden">
+            <ImageElement AutoSize="false" HLayout="Center" Margin="L:0.000000 T:7.000000 R:0.000000 B:0.000000" Name="headPic" Pick="false" Size="W:70.000000 H:70.000000" />
+            <BrushElement Background="fight.fight_boss_nuqi" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:12.000000" Size="W:110.000000 H:16.000000" VLayout="Bottom" />
+            <ProgressBar CurValue="100" Margin="L:0.000000 T:0.000000 R:0.000000 B:16.000000" MaxValue="100" Name="angerProb" Pick="false" ShowText="false" Size="W:105.000000 H:8.000000" VLayout="Bottom" />
+            <BrushElement HLayout="Right" Margin="L:0.000000 T:33.000000 R:0.000000 B:0.000000" Name="assist" Size="W:22.000000 H:44.000000" />
+            <BrushElement Margin="L:0.000000 T:52.000000 R:0.000000 B:0.000000" Name="jobIcon" Size="W:25.000000 H:25.000000" />
+            <BrushElement Background="fight.fight_renwu_xuetiao" HLayout="Center" Margin="L:0.000000 T:76.000000 R:0.000000 B:0.000000" Size="W:110.000000 H:16.000000" />
+            <ProgressBar CurValue="100" ForwardBrush="fight.fullHpForwardBrush" Margin="L:2.000000 T:78.000000 R:0.000000 B:0.000000" MaxValue="100" Name="hpProb" Pick="false" ShowText="false" Size="W:101.000000 H:13.000000" />
+            <BrushElement Background="fight.fight_starbg" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:1.000000" Size="W:105.000000 H:12.000000" VLayout="Bottom" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:102.000000 R:0.000000 B:0.000000" Name="starsList" Orientation="Horizontal" Size="W:105.000000 H:12.000000" />
+        </Panel>
+        <Panel Margin="L:265.000000 T:392.000000 R:0.000000 B:0.000000" Name="rewardTemplate" Size="W:90.000000 H:85.000000" Visibility="Hidden">
+            <ImageElement AutoSize="false" Margin="L:11.000000 T:9.000000 R:0.000000 B:0.000000" Name="rewardImage" Size="W:62.000000 H:65.000000" ZOrder="5" />
+            <Label Font="huakang_16" Margin="L:12.000000 T:56.000000 R:0.000000 B:0.000000" Name="rewardNum" Size="W:62.000000 H:16.000000" ZOrder="10" />
+        </Panel>
+        <Panel Margin="L:100.000000 T:100.000000 R:0.000000 B:0.000000" Name="memberReward" Size="W:100.000000 H:105.000000" Visibility="Hidden">
+            <ImageElement Image="Empty" Name="image" Size="W:100.000000 H:57.000000" />
+            <Label Background="fight.result_exp1" Margin="L:5.000000 T:80.000000 R:0.000000 B:0.000000" Name="explabel" Size="W:43.000000 H:16.000000" />
+            <Label Font="huakang_13" Margin="L:50.000000 T:78.000000 R:0.000000 B:0.000000" Name="exp" Size="W:46.000000 H:18.000000" Text="+1000" />
+            <EffectProgressBar Background="fight.result_exp_progressFrame" CurValue="58" Font="huakang_13" ForwardBrush="fight.result_exp_process1" Margin="L:5.000000 T:60.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProgress" ShowText="true" Size="W:90.000000 H:10.000000" Text="58/100" TextAlignStyle="MiddleCenter" />
+            <ImageElement AutoSize="false" Margin="L:55.000000 T:0.000000 R:0.000000 B:0.000000" Name="grade" Size="W:45.000000 H:23.000000" />
+            <ImageElement AlwaysOnTop="true" AutoSize="false" Image="Empty" Margin="L:0.000000 T:30.000000 R:0.000000 B:0.000000" Name="lvlup" Size="W:100.000000 H:25.000000" ZOrder="10" />
+        </Panel>
+        <Panel Margin="L:0.000000 T:145.000000 R:0.000000 B:0.000000" Name="bulletsPanel" Pick="false" Size="W:24.000000 H:31.000000" Visibility="Hidden">
+            <Label Margin="L:0.000000 T:11.000000 R:0.000000 B:0.000000" Name="bullet1" Size="W:107.000000 H:50.000000" />
+            <Label Margin="L:0.000000 T:52.000000 R:0.000000 B:0.000000" Name="bullet2" Size="W:98.000000 H:50.000000" />
+            <Label Margin="L:0.000000 T:87.000000 R:0.000000 B:0.000000" Name="bullet3" Size="W:159.000000 H:50.000000" Visibility="Hidden" />
+            <Label Margin="L:0.000000 T:126.000000 R:0.000000 B:0.000000" Name="bullet4" Size="W:145.000000 H:50.000000" />
+            <Label Margin="L:0.000000 T:174.000000 R:0.000000 B:0.000000" Name="bullet5" Size="W:93.000000 H:50.000000" />
+        </Panel>
+        <StackPanel Alignment="Center" HLayout="Center" Margin="L:-12.000000 T:0.000000 R:0.000000 B:19.000000" Name="StackPanel2" Orientation="Horizontal" Size="W:866.000000 H:161.000000" Space="9.00" VLayout="Bottom" Visibility="Hidden" />
+        <Panel HLayout="Center" Margin="L:0.000000 T:142.000000 R:0.000000 B:0.000000" Name="lose_pvp" Size="W:490.000000 H:376.000000" Visibility="Hidden">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:56.000000 R:0.000000 B:0.000000" Name="line1" Size="W:350.000000 H:5.000000" />
+            <Button Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:24.000000" Name="return" Size="W:125.000000 H:55.000000" Text="戻  る" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                </Events>
+            </Button>
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:134.000000 R:0.000000 B:0.000000" Name="line2" Size="W:350.000000 H:5.000000" />
+            <BrushElement HLayout="Center" Margin="L:-3.000000 T:-32.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:271.000000 H:64.000000" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:74.000000 R:0.000000 B:0.000000" Name="stackpanel" Orientation="Horizontal" Size="W:234.000000 H:50.000000" Space="50.00">
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="zhanli" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Name="icon" Size="W:38.000000 H:42.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+                <CombinedElement Alignment="Center" Margin="L:33.000000 T:229.000000 R:0.000000 B:0.000000" Name="jinbi" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="shengwang" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Margin="L:0.000000 T:6.000000 R:0.000000 B:0.000000" Name="icon" Size="W:30.000000 H:24.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+            </StackPanel>
+            <TextElement Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:257.000000 R:0.000000 B:0.000000" Size="W:246.000000 H:30.000000" Text="キャラを強化して再挑戦だ！" TextColor="LT:0xfff3f3f4 LB:0xff878787 RT:0xfff3f3f4 RB:0xff878787" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:143.000000 R:0.000000 B:0.000000" Name="btnList" Orientation="Horizontal" Size="W:363.000000 H:104.000000" Space="30.00">
+                <Button HLayout="Right" Margin="L:0.000000 T:143.000000 R:57.000000 B:0.000000" Name="refine" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PvpLosePanel:onRefineClick" />
+                    </Events>
+                </Button>
+                <Button HLayout="Center" Margin="L:0.000000 T:143.000000 R:0.000000 B:0.000000" Name="gemStone" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PvpLosePanel:onGemStoneClick" />
+                    </Events>
+                </Button>
+                <Button Margin="L:57.000000 T:143.000000 R:0.000000 B:0.000000" Name="equipStrength" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PvpLosePanel:onEquipStrengthClick" />
+                    </Events>
+                </Button>
+                <Button HLayout="Center" Margin="L:0.000000 T:230.000000 R:0.000000 B:0.000000" Name="skill" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PvpLosePanel:onSkillClick" />
+                    </Events>
+                </Button>
+            </StackPanel>
+        </Panel>
+        <Panel HLayout="Stretch" Name="win_pve" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <Panel HLayout="Stretch" Name="center" Size="W:960.000000 H:640.000000" VLayout="Center">
+                <Button Font="huakang_25" Margin="L:817.000000 T:179.000000 R:0.000000 B:0.000000" Name="btn_reChallenge" Size="W:153.000000 H:56.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" />
+                <Button Font="huakang_25" Margin="L:820.000000 T:335.000000 R:0.000000 B:0.000000" Name="btn_exit" Size="W:153.000000 H:56.000000" Text="撤退" TextAlignStyle="MiddleCenter">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                    </Events>
+                </Button>
+                <StackPanel Margin="L:200.000000 T:370.000000 R:0.000000 B:0.000000" Name="rewardThing" Orientation="Horizontal" Size="W:460.000000 H:95.000000" />
+                <StackPanel Margin="L:200.000000 T:255.000000 R:0.000000 B:0.000000" Name="teamRewardPanel" Orientation="Horizontal" Size="W:525.000000 H:100.000000" Space="2.00" />
+                <Panel Margin="L:249.000000 T:51.000000 R:0.000000 B:0.000000" Name="taskPanel" Size="W:475.000000 H:121.000000">
+                    <Panel Margin="L:10.000000 T:10.000000 R:0.000000 B:0.000000" Name="task1" Size="W:456.000000 H:30.000000">
+                        <BrushElement Name="normal" Size="W:455.000000 H:30.000000" />
+                        <BrushElement Name="finish" Size="W:455.000000 H:30.000000" ZOrder="5" />
+                        <BrushElement Margin="L:410.000000 T:0.000000 R:0.000000 B:0.000000" Name="star" Size="W:30.000000 H:30.000000" ZOrder="10" />
+                        <BrushElement Margin="L:388.000000 T:-18.000000 R:0.000000 B:0.000000" Size="W:72.000000 H:72.000000" ZOrder="7" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:1.000000 R:0.000000 B:0.000000" Name="taskFont" Size="W:245.000000 H:28.000000" Text="30秒以内にクリア" ZOrder="10" />
+                    </Panel>
+                    <Panel Margin="L:10.000000 T:47.000000 R:0.000000 B:0.000000" Name="task2" Size="W:456.000000 H:30.000000">
+                        <BrushElement Name="normal" Size="W:455.000000 H:30.000000" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:1.000000 R:0.000000 B:0.000000" Name="taskFont" Size="W:245.000000 H:28.000000" Text="30秒以内にクリア" ZOrder="10" />
+                        <BrushElement Margin="L:410.000000 T:0.000000 R:0.000000 B:0.000000" Name="star" Size="W:30.000000 H:30.000000" ZOrder="10" />
+                        <BrushElement Margin="L:388.000000 T:-18.000000 R:0.000000 B:0.000000" Size="W:72.000000 H:72.000000" ZOrder="7" />
+                        <BrushElement Name="finish" Size="W:455.000000 H:30.000000" ZOrder="5" />
+                    </Panel>
+                    <Panel Margin="L:10.000000 T:84.000000 R:0.000000 B:0.000000" Name="task3" Size="W:456.000000 H:30.000000">
+                        <BrushElement Name="normal" Size="W:455.000000 H:30.000000" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:1.000000 R:0.000000 B:0.000000" Name="taskFont" Size="W:245.000000 H:28.000000" Text="30秒以内にクリア" ZOrder="10" />
+                        <BrushElement Margin="L:410.000000 T:0.000000 R:0.000000 B:0.000000" Name="star" Size="W:30.000000 H:30.000000" ZOrder="10" />
+                        <BrushElement Margin="L:388.000000 T:-18.000000 R:0.000000 B:0.000000" Size="W:72.000000 H:72.000000" ZOrder="7" />
+                        <BrushElement Name="finish" Size="W:455.000000 H:30.000000" ZOrder="5" />
+                    </Panel>
+                </Panel>
+                <Panel AlwaysOnTop="true" Margin="L:151.000000 T:179.000000 R:0.000000 B:0.000000" Name="rewardPanel" Size="W:640.000000 H:56.000000">
+                    <Label Margin="L:146.000000 T:9.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:71.000000 H:37.000000" />
+                    <Button Font="huakang_20" Margin="L:546.000000 T:10.000000 R:0.000000 B:0.000000" Name="btn_achieve" Size="W:66.000000 H:39.000000" Text="成就" TextAlignStyle="MiddleCenter" />
+                    <BrushElement Background="fight.result_gold" Margin="L:392.000000 T:7.000000 R:0.000000 B:0.000000" Name="coinIcon" Size="W:50.000000 H:50.000000" />
+                    <Label Font="huakang_20" Margin="L:455.000000 T:5.000000 R:0.000000 B:0.000000" Name="coinValue" Size="W:66.000000 H:50.000000" Text="+1000" />
+                    <Label Font="huakang_20" Margin="L:257.000000 T:2.000000 R:0.000000 B:0.000000" Name="expValue" Size="W:66.000000 H:50.000000" Text="+1000" />
+                </Panel>
+            </Panel>
+            <BrushElement Background="fight.team_shader" HLayout="Stretch" Size="W:960.000000 H:640.000000" VLayout="Stretch" ZOrder="-10" />
+        </Panel>
+        <Panel Name="playerPanelTemplate" Size="W:80.000000 H:107.000000" Tag="1" Visibility="Hidden">
+            <ItemCell Background="fight.personInfo_cell" Checked="false" Margin="L:1.000000 T:-2.000000 R:0.000000 B:0.000000" Name="item" Size="W:80.000000 H:84.000000">
+                <ImageElement Margin="L:49.000000 T:1.000000 R:0.000000 B:0.000000" Name="ele" Size="W:25.000000 H:27.000000" />
+                <BrushElement Background="fight.personInfo_diban" Margin="L:4.000000 T:64.000000 R:0.000000 B:0.000000" Size="W:73.000000 H:16.000000" />
+                <Label Font="huakang_15" Margin="L:20.000000 T:65.000000 R:0.000000 B:0.000000" Size="W:23.000000 H:13.000000" Text="LV." TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                <Label Font="huakang_15" Margin="L:42.000000 T:65.000000 R:0.000000 B:0.000000" Name="LV" Size="W:23.000000 H:13.000000" Text="01" />
+            </ItemCell>
+            <Label Font="huakang_15" Margin="L:5.000000 T:0.000000 R:0.000000 B:-8.000000" Name="expIcon" Size="W:29.000000 H:19.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" VLayout="Bottom" />
+            <ImageElement Image="fight_win_jiantou" Margin="L:34.000000 T:0.000000 R:0.000000 B:-4.000000" Size="W:8.000000 H:13.000000" VLayout="Bottom" />
+            <Label Font="huakang_13" HLayout="Right" Margin="L:0.000000 T:0.000000 R:5.000000 B:-7.000000" Name="coinValue" Size="W:29.000000 H:18.000000" Text="100" TextColor="0xff00ff00" VLayout="Bottom" />
+            <ProgressBar Background="fight.fight_jindutiao" CurValue="80" ForwardBrush="login.fight_expBlood" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:10.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:72.000000 H:10.000000" VLayout="Bottom" />
+        </Panel>
+        <ImageElement AutoSize="false" HLayout="Stretch" Image="Empty" Margin="L:0.000000 T:1.000000 R:0.000000 B:1.000000" Name="waarning" Size="W:964.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden" />
+        <ItemCell Checked="false" ItemNum="5" ItemNumFont="huakang_20" Margin="L:24.000000 T:2.000000 R:0.000000 B:0.000000" Name="rewardItemTemplate" Size="W:75.000000 H:75.000000" Visibility="Hidden" />
+        <Panel HLayout="Stretch" Name="win_pve2" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="fight.team_shader" HLayout="Stretch" Margin="L:0.000000 T:1.000000 R:0.000000 B:1.000000" Size="W:960.000000 H:640.000000" VLayout="Stretch" ZOrder="-10" />
+            <Panel Margin="L:205.000000 T:0.000000 R:0.000000 B:0.000000" Name="center" Size="W:555.000000 H:344.000000" VLayout="Center">
+                <Button Font="huakang_18_miaobian" HLayout="Right" Margin="L:0.000000 T:0.000000 R:106.000000 B:-71.000000" Name="btn_reChallenge" PressBrush="login.login_YButton2" PressTextColor="0xff001326" Size="W:115.000000 H:49.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+                <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_18_miaobian" Margin="L:115.000000 T:0.000000 R:0.000000 B:-74.000000" Name="btn_sure" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" Size="W:115.000000 H:54.000000" Text="確定" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+                <StackPanel Margin="L:113.000000 T:0.000000 R:0.000000 B:15.000000" Name="rewardThing" Orientation="Horizontal" Size="W:336.000000 H:79.000000" VLayout="Bottom" />
+                <Panel HLayout="Right" Margin="L:0.000000 T:-55.000000 R:221.000000 B:0.000000" Name="starPanel" Size="W:175.000000 H:117.000000">
+                    <BrushElement Margin="L:170.000000 T:19.000000 R:0.000000 B:0.000000" Name="star4" Size="W:64.000000 H:61.000000" ZOrder="10" />
+                    <BrushElement Margin="L:115.000000 T:-13.000000 R:0.000000 B:0.000000" Name="star3" Size="W:64.000000 H:61.000000" ZOrder="10" />
+                    <BrushElement Margin="L:57.000000 T:-13.000000 R:0.000000 B:0.000000" Name="star2" Size="W:64.000000 H:61.000000" ZOrder="10" />
+                    <BrushElement Margin="L:2.000000 T:18.000000 R:0.000000 B:0.000000" Name="star1" Size="W:64.000000 H:61.000000" ZOrder="10" />
+                </Panel>
+                <BrushElement Background="godsSenki.reward_diban" HLayout="Center" Margin="L:0.000000 T:-102.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:342.000000 H:205.000000" Visibility="Hidden" />
+                <Panel Margin="L:65.000000 T:27.000000 R:0.000000 B:0.000000" Size="W:92.000000 H:50.000000" />
+                <BrushElement Background="fight.fight_win_diban2" Margin="L:34.000000 T:115.000000 R:0.000000 B:0.000000" Size="W:479.000000 H:125.000000" />
+                <StackPanel Margin="L:48.000000 T:117.000000 R:0.000000 B:0.000000" Name="rolePanel" Orientation="Horizontal" Size="W:465.000000 H:125.000000" Space="28.00" />
+                <Button Font="huakang_18_miaobian" HLayout="Right" Margin="L:0.000000 T:0.000000 R:106.000000 B:-71.000000" Name="btn_saodang" PressBrush="login.login_YButton2" PressTextColor="0xff001326" Size="W:115.000000 H:49.000000" Text="再討伐する" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+                <Panel AlwaysOnTop="true" Margin="L:30.000000 T:50.000000 R:0.000000 B:0.000000" Name="rewardPanel" Size="W:468.000000 H:57.000000">
+                    <Label Font="huakang_16" Margin="L:146.000000 T:2.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:34.000000 H:37.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                    <BrushElement Background="fight.result_gold" Margin="L:398.000000 T:9.000000 R:0.000000 B:0.000000" Name="coinIcon" Size="W:20.000000 H:20.000000" />
+                    <Label Font="huakang_13" Margin="L:418.000000 T:-5.000000 R:0.000000 B:0.000000" Name="coinValue" Size="W:66.000000 H:50.000000" Text="+1000" TextColor="0xff00c000" />
+                    <Label Font="huakang_13" Margin="L:354.000000 T:-5.000000 R:0.000000 B:0.000000" Name="expValue" Size="W:38.000000 H:50.000000" Text="1000" />
+                    <ImageElement Image="fight_win_jiantou" Margin="L:347.000000 T:14.000000 R:0.000000 B:0.000000" Size="W:5.000000 H:13.000000" />
+                    <ProgressBar Background="fight.fight_jindutiao" CurValue="100" ForwardBrush="login.fight_expBlood" Margin="L:187.000000 T:0.000000 R:0.000000 B:30.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:148.000000 H:12.000000" VLayout="Bottom" />
+                </Panel>
+            </Panel>
+        </Panel>
+        <ImageElement AutoSize="false" Image="Empty" Margin="L:-1.000000 T:0.000000 R:0.000000 B:0.000000" Name="handCardTemplate" Size="W:77.000000 H:98.000000" Visibility="Hidden">
+            <ImageElement AutoSize="false" HLayout="Stretch" Margin="L:2.000000 T:2.000000 R:2.000000 B:0.000000" Name="item" Size="W:85.000000 H:73.000000" />
+            <ImageElement AutoSize="false" Image="fight_card1" Name="frame" Size="W:77.000000 H:98.000000" ZOrder="1" />
+            <ImageElement AutoSize="false" Image="Empty" Margin="L:2.000000 T:2.000000 R:0.000000 B:0.000000" Name="type" Size="W:41.000000 H:23.000000" ZOrder="2" />
+            <Label Font="huakang_14_noborder" HLayout="Stretch" Margin="L:4.000000 T:0.000000 R:4.000000 B:1.000000" Name="name" Size="W:96.000000 H:18.000000" Text="やあ元気かい" TextAlignStyle="MiddleCenter" VLayout="Bottom" ZOrder="2" />
+            <ImageElement AutoSize="false" HLayout="Right" Margin="L:0.000000 T:-4.000000 R:-7.000000 B:0.000000" Name="desc" Size="W:40.000000 H:40.000000" ZOrder="2" />
+        </ImageElement>
+        <Panel HLayout="Stretch" Margin="L:-1.000000 T:0.000000 R:-1.000000 B:0.000000" Name="lose_pvp2" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Name="shader" Opacity="0.85" Size="W:50.000000 H:50.000000" VLayout="Stretch" />
+            <StackPanel AutoSize="true" Enable="false" HLayout="Center" Name="partySystemReward" Orientation="Horizontal" ShaderType="1" Size="W:-25.000000 H:60.000000" Space="25.00" VLayout="Center" Visibility="Hidden">
+                <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+            </StackPanel>
+            <BrushElement Background="godsSenki.ShuXingShiLian_diban2" HLayout="Center" Margin="L:0.000000 T:-20.000000 R:0.000000 B:0.000000" Name="rewardsPanel" Size="W:360.000000 H:120.000000" VLayout="Center" ZOrder="20">
+                <StackPanel Enable="false" HLayout="Center" Name="goodsPanel" Orientation="Horizontal" ShaderType="1" Size="W:150.000000 H:60.000000" Space="25.00" VLayout="Center">
+                    <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                </StackPanel>
+            </BrushElement>
+            <Panel HLayout="Center" Margin="L:0.000000 T:306.000000 R:0.000000 B:0.000000" Name="rewardRankPanel" Size="W:400.000000 H:50.000000" Visibility="Hidden" ZOrder="20">
+                <Label Font="huakang_20" Margin="L:108.000000 T:2.000000 R:0.000000 B:0.000000" Size="W:84.000000 H:50.000000" Text="段位ポイント" TextColor="0xff80ffff" />
+                <TextElement Font="huakang_30" Margin="L:207.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:11.000000 H:45.000000" Text="-" TextColor="0xff0000c8" />
+                <TextElement Font="huakang_20" Margin="L:254.000000 T:15.000000 R:0.000000 B:0.000000" Name="value2" Size="W:36.000000 H:30.000000" Text="100" />
+            </Panel>
+            <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:177.000000" Name="sure" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" Size="W:125.000000 H:59.000000" Text="OK" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="40" />
+            <BrushElement Background="fight.fight_lose_name" HLayout="Center" Margin="L:0.000000 T:184.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:241.000000 H:69.000000" ZOrder="40" />
+            <Panel HLayout="Center" Margin="L:0.000000 T:306.000000 R:0.000000 B:0.000000" Name="rewardPanel" Size="W:400.000000 H:50.000000" ZOrder="20">
+                <BrushElement Margin="L:20.000000 T:6.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" />
+                <TextElement Font="huakang_30" Margin="L:70.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                <TextElement Font="huakang_20" Margin="L:100.000000 T:15.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                <Label Font="huakang_20" Margin="L:250.000000 T:2.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:50.000000" Text="手柄" TextColor="0xff80ffff" />
+                <TextElement Font="huakang_30" Margin="L:300.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                <TextElement Font="huakang_20" Margin="L:340.000000 T:15.000000 R:0.000000 B:0.000000" Name="value2" Size="W:36.000000 H:30.000000" Text="100" />
+            </Panel>
+            <BrushElement Background="godsSenki.reward_diban" HLayout="Center" Margin="L:0.000000 T:87.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:461.000000 H:319.000000" ZOrder="5" />
+            <BrushElement Background="fight.battle_our_combo_diban" HLayout="Center" Margin="L:0.000000 T:-12.000000 R:0.000000 B:0.000000" Name="line1" Size="W:507.000000 H:45.000000" VLayout="Center" ZOrder="5" />
+            <Panel HLayout="Center" Name="rewardScufflePanel" Size="W:286.000000 H:113.000000" VLayout="Center" Visibility="Hidden" ZOrder="40">
+                <Panel HLayout="Center" Name="rewardMoralePanel" Size="W:360.000000 H:50.000000" ZOrder="40">
+                    <TextElement Font="huakang_30" HLayout="Center" Margin="L:-3.000000 T:12.000000 R:0.000000 B:0.000000" Size="W:11.000000 H:45.000000" Text="-" TextColor="0xff0000c8" />
+                    <TextElement Font="huakang_20" Margin="L:216.000000 T:19.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                    <Label Font="huakang_20" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" Name="score" Size="W:86.000000 H:50.000000" Text="士気" TextColor="0xff80ffff" />
+                </Panel>
+                <Panel HLayout="Center" Margin="L:0.000000 T:48.000000 R:0.000000 B:0.000000" Name="rewardScorePanel" Size="W:360.000000 H:50.000000" ZOrder="40">
+                    <TextElement Font="huakang_30" HLayout="Center" Margin="L:-3.000000 T:12.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                    <TextElement Font="huakang_20" Margin="L:216.000000 T:19.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                    <Label Font="huakang_20" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" Name="score" Size="W:86.000000 H:50.000000" Text="ポイント" TextColor="0xff80ffff" />
+                </Panel>
+            </Panel>
+        </Panel>
+        <Panel HLayout="Right" Margin="L:0.000000 T:72.000000 R:-2.000000 B:0.000000" Name="win_pvp" Size="W:1049.000000 H:524.000000" Visibility="Hidden">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-18.000000 R:0.000000 B:0.000000" Name="includeArmature" Size="W:271.000000 H:64.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-77.000000 R:0.000000 B:0.000000" Size="W:178.000000 H:132.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:79.000000 R:0.000000 B:0.000000" Size="W:350.000000 H:5.000000" />
+            <Button Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:40.000000" Name="return" Size="W:125.000000 H:55.000000" Text="1112" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                </Events>
+            </Button>
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:159.000000 R:0.000000 B:0.000000" Size="W:350.000000 H:5.000000" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:98.000000 R:0.000000 B:0.000000" Name="stackpanel" Orientation="Horizontal" Size="W:394.000000 H:50.000000" Space="20.00">
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="zhanli" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Margin="L:1.000000 T:0.000000 R:0.000000 B:0.000000" Name="icon" Size="W:38.000000 H:42.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                    <TextElement Font="huakang_20" Margin="L:65.000000 T:193.000000 R:0.000000 B:0.000000" Name="vipzhanli" Size="W:106.000000 H:30.000000" Text="(VIP+20%)" TextColor="0xff00e392" />
+                </CombinedElement>
+                <CombinedElement Alignment="Center" Margin="L:33.000000 T:229.000000 R:0.000000 B:0.000000" Name="jinbi" Size="W:0.000000 H:0.000000" Space="6.00" Visibility="Hidden">
+                    <BrushElement Margin="L:1.000000 T:1.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+                <CombinedElement Alignment="Center" Margin="L:33.000000 T:229.000000 R:0.000000 B:0.000000" Name="jifen" Size="W:0.000000 H:0.000000" Space="6.00" Visibility="Hidden">
+                    <BrushElement Margin="L:1.000000 T:1.000000 R:0.000000 B:0.000000" Name="icon" Size="W:38.000000 H:42.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="shengwang" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Margin="L:1.000000 T:6.000000 R:0.000000 B:0.000000" Name="icon" Size="W:30.000000 H:24.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="value" Size="W:49.000000 H:30.000000" Text="+100" />
+                    <TextElement Font="huakang_20" Margin="L:65.000000 T:193.000000 R:0.000000 B:0.000000" Name="vipshengwang" Size="W:106.000000 H:30.000000" Text="(VIP+20%)" TextColor="0xff00e392" />
+                </CombinedElement>
+            </StackPanel>
+        </Panel>
+        <Panel HLayout="Stretch" Name="bigPicPanel" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Name="bg" Opacity="0.75" Size="W:960.000000 H:640.000000" VLayout="Stretch" />
+            <ImageElement HLayout="Right" Image="Empty" Margin="L:0.000000 T:0.000000 R:74.000000 B:29.000000" Name="star1" Size="W:333.000000 H:298.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="20" />
+            <ImageElement Image="Empty" Margin="L:-15.000000 T:86.000000 R:0.000000 B:0.000000" Name="star2" Size="W:167.000000 H:159.000000" Visibility="Hidden" ZOrder="20" />
+            <ImageElement HLayout="Right" Image="Empty" Margin="L:0.000000 T:0.000000 R:-49.000000 B:215.000000" Name="star3" Size="W:212.000000 H:146.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="20" />
+            <BrushElement Margin="L:-420.000000 T:34.000000 R:0.000000 B:0.000000" Name="light2" Size="W:1413.000000 H:580.000000" Visibility="Hidden" ZOrder="1" />
+            <BrushElement Margin="L:-583.000000 T:72.000000 R:0.000000 B:0.000000" Name="light1" Size="W:1413.000000 H:580.000000" Visibility="Hidden" ZOrder="1" />
+            <ImageElement Image="Empty" Name="navi" Size="W:65.000000 H:58.000000" VLayout="Center" ZOrder="3" />
+            <BrushElement Background="fight.fight_diban" HLayout="Stretch" Name="fg" Size="W:960.000000 H:81.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="10">
+                <Label Font="MiNi_33" HLayout="Center" Margin="L:1.000000 T:0.000000 R:0.000000 B:0.000000" Name="text" Size="W:959.000000 H:77.000000" Text="あたしの眼差しであんたなんてイチコロよ" TextAlignStyle="MiddleCenter" VLayout="Bottom" ZOrder="1" />
+            </BrushElement>
+            <Panel HLayout="Right" Margin="L:0.000000 T:217.000000 R:0.000000 B:0.000000" Name="layer" Size="W:530.000000 H:110.000000" Visibility="Hidden" ZOrder="10">
+                <Panel Clip="true" Name="skillPanel" Size="W:530.000000 H:110.000000" ZOrder="5">
+                    <BrushElement Background="fight.fight_diban2" Clip="true" Margin="L:5.000000 T:-4.000000 R:0.000000 B:0.000000" Name="bg" Size="W:516.000000 H:85.000000" />
+                    <Label Font="MiNi_60" Margin="L:30.000000 T:11.000000 R:0.000000 B:0.000000" Name="name" Size="W:418.000000 H:56.000000" Text="ノエリアⅠ" ZOrder="1" />
+                </Panel>
+            </Panel>
+        </Panel>
+        <Panel HLayout="Stretch" Name="win_fight_treasure" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Name="shader" Opacity="0.85" Size="W:50.000000 H:50.000000" VLayout="Stretch" />
+            <BrushElement Background="godsSenki.reward_diban" HLayout="Center" Margin="L:0.000000 T:87.000000 R:0.000000 B:0.000000" Size="W:461.000000 H:319.000000" ZOrder="2" />
+            <BrushElement Background="fight.battle_our_combo_diban" HLayout="Center" Margin="L:0.000000 T:-20.000000 R:0.000000 B:0.000000" Name="bg_panel" Size="W:500.000000 H:170.000000" VLayout="Center" ZOrder="5">
+                <StackPanel HLayout="Center" Margin="L:0.000000 T:-30.000000 R:0.000000 B:0.000000" Name="drops" Orientation="Horizontal" Size="W:70.000000 H:70.000000" Space="0.00" VLayout="Center">
+                    <Panel Name="1" Size="W:70.000000 H:70.000000" />
+                    <Panel Name="2" Size="W:70.000000 H:70.000000" />
+                    <Panel Name="3" Size="W:70.000000 H:70.000000" />
+                    <Panel Name="4" Size="W:70.000000 H:70.000000" />
+                    <Panel Name="5" Size="W:70.000000 H:70.000000" />
+                </StackPanel>
+                <Panel HLayout="Center" Margin="L:0.000000 T:40.000000 R:0.000000 B:0.000000" Name="rewardPanel" Size="W:400.000000 H:50.000000" VLayout="Center" ZOrder="20">
+                    <BrushElement Background="fight.result_gold" HLayout="Center" Margin="L:50.000000 T:6.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" />
+                    <TextElement Font="huakang_30" HLayout="Center" Margin="L:5.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                    <TextElement Font="huakang_20" HLayout="Center" Margin="L:-40.000000 T:15.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                </Panel>
+            </BrushElement>
+            <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:150.000000" Name="sure" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" Size="W:125.000000 H:59.000000" Text="確定" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Center" ZOrder="40" />
+            <BrushElement Background="fight.fight_win_name" HLayout="Center" Margin="L:0.000000 T:184.000000 R:0.000000 B:0.000000" Size="W:241.000000 H:69.000000" ZOrder="40" />
+        </Panel>
+        <Panel HLayout="Stretch" Name="lose2" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Name="shader" Opacity="0.85" Size="W:1136.000000 H:640.000000" VLayout="Stretch" ZOrder="-10" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:410.000000 R:0.000000 B:0.000000" Name="btnList" Orientation="Horizontal" Size="W:365.000000 H:55.000000" Space="115.00">
+                <Button Background="godsSenki.yellow40_button1" CoverBrush="godsSenki.yellow40_button1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:-109.000000 T:0.000000 R:0.000000 B:168.000000" Name="fightAgain" NormalBrush="godsSenki.yellow40_button1" PressBrush="godsSenki.yellow40_button2" PressTextColor="0xff001326" Size="W:120.000000 H:60.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="5" />
+                <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:129.000000 T:0.000000 R:0.000000 B:166.000000" Name="return" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" Size="W:120.000000 H:60.000000" Text="戻る" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="5" />
+            </StackPanel>
+            <Button Background="godsSenki.normal40_button1" CoverBrush="godsSenki.normal40_button1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:4.000000 T:-1.000000 R:0.000000 B:0.000000" Name="strength" NormalBrush="godsSenki.normal40_button1" PressBrush="godsSenki.normal40_button2" PressTextColor="0xff001326" Size="W:85.000000 H:40.000000" Text="強化" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Center" ZOrder="6" />
+            <BrushElement Background="fight.fight_lose_guang" HLayout="Center" Margin="L:0.000000 T:124.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:363.000000 H:244.000000" ZOrder="5" />
+            <BrushElement Background="fight.battle_our_combo_diban" HLayout="Center" Margin="L:-7.000000 T:-47.000000 R:0.000000 B:0.000000" Name="line1" Size="W:568.000000 H:45.000000" VLayout="Center" ZOrder="5" />
+            <BrushElement Background="fight.fight_lose_name" HLayout="Center" Margin="L:3.000000 T:184.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:257.000000 H:69.000000" ZOrder="5" />
+            <TextElement Font="huakang_22" HLayout="Center" Margin="L:-7.000000 T:-47.000000 R:0.000000 B:0.000000" Size="W:270.000000 H:33.000000" Text="キャラを強化して再挑戦だ！" VLayout="Center" ZOrder="10" />
+        </Panel>
+        <Panel Margin="L:447.000000 T:303.000000 R:0.000000 B:0.000000" Name="heartTemplate3" Size="W:22.000000 H:22.000000" Visibility="Hidden">
+            <BrushElement Margin="L:8.000000 T:1.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:9.000000 H:9.000000" />
+            <BrushElement Margin="L:3.000000 T:7.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:9.000000 H:9.000000" Skew="X:270.000000 Y:270.000000" />
+            <BrushElement Margin="L:8.000000 T:12.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:9.000000 H:9.000000" Skew="X:180.000000 Y:180.000000" />
+            <BrushElement Margin="L:13.000000 T:7.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:9.000000 H:9.000000" Skew="X:90.000000 Y:90.000000" />
+        </Panel>
+        <Panel HLayout="Center" Name="pveLosePanel" Size="W:960.000000 H:640.000000" VLayout="Center" Visibility="Hidden">
+            <ImageElement HLayout="Stretch" Image="home_menghui" Margin="L:-500.000000 T:-500.000000 R:-500.000000 B:-1000.000000" Name="bg" Size="W:1600.000000 H:1200.000000" VLayout="Stretch" />
+            <ImageElement HLayout="Center" Image="ShuXingShiLian_diban2" Margin="L:0.000000 T:260.000000 R:0.000000 B:0.000000" Name="blackBG" Size="W:562.000000 H:159.000000" Visibility="Hidden" />
+            <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_24_Miaobian" HLayout="Center" Margin="L:0.000000 T:500.000000 R:0.000000 B:0.000000" Name="sureBtn" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" Size="W:137.000000 H:54.000000" Text="確定" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+            <ImageElement HLayout="Center" Image="Empty" Margin="L:0.000000 T:60.000000 R:0.000000 B:0.000000" Name="lightImg" Size="W:350.000000 H:263.000000" ZOrder="-1" />
+            <StackPanel AutoSize="true" HLayout="Center" Margin="L:0.000000 T:235.000000 R:0.000000 B:0.000000" Name="stackPanel" Orientation="Horizontal" Size="W:-20.000000 H:160.000000" Space="20.00" />
+            <Label Font="huakang_24_RGB38190_miaobian" HLayout="Center" Margin="L:0.000000 T:450.000000 R:0.000000 B:0.000000" Size="W:320.000000 H:40.000000" Text="キャラを強化して再挑戦だ！" TextAlignStyle="MiddleCenter" ZOrder="10" />
+            <ImageElement HLayout="Center" Image="fight_lose_name" Margin="L:0.000000 T:120.000000 R:0.000000 B:0.000000" Name="titileImg" Size="W:265.000000 H:73.000000" ZOrder="10" />
+            <Button Background="godsSenki.top_button1" CoverBrush="godsSenki.top_button1" Font="huakang_24_Miaobian" HLayout="Center" Margin="L:0.000000 T:299.000000 R:0.000000 B:0.000000" Name="strongBtn" NormalBrush="godsSenki.top_button1" PressBrush="godsSenki.top_button2" Size="W:85.000000 H:40.000000" Text="強化" TextAlignStyle="MiddleCenter" TextColor="0xff001326" Visibility="Hidden" ZOrder="100" />
+        </Panel>
+        <Panel HLayout="Stretch" Name="win_pvp2" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Name="shader" Opacity="0.85" Size="W:50.000000 H:50.000000" VLayout="Stretch" />
+            <StackPanel AutoSize="true" Enable="false" HLayout="Center" Name="partySystemReward" Orientation="Horizontal" ShaderType="1" Size="W:-25.000000 H:60.000000" Space="25.00" VLayout="Center">
+                <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+                <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" Visibility="Hidden" />
+            </StackPanel>
+            <Panel HLayout="Center" Name="rewardScufflePanel" Size="W:286.000000 H:113.000000" VLayout="Center" Visibility="Hidden" ZOrder="40">
+                <Panel HLayout="Center" Name="rewardMoralePanel" Size="W:360.000000 H:50.000000" ZOrder="40">
+                    <TextElement Font="huakang_30" HLayout="Center" Margin="L:-3.000000 T:12.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                    <TextElement Font="huakang_20" Margin="L:216.000000 T:19.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                    <Label Font="huakang_20" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" Name="score" Size="W:86.000000 H:50.000000" Text="士気" TextColor="0xff80ffff" />
+                </Panel>
+                <Panel HLayout="Center" Margin="L:0.000000 T:48.000000 R:0.000000 B:0.000000" Name="rewardScorePanel" Size="W:360.000000 H:50.000000" ZOrder="40">
+                    <TextElement Font="huakang_30" HLayout="Center" Margin="L:-3.000000 T:12.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                    <TextElement Font="huakang_20" Margin="L:216.000000 T:19.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                    <Label Font="huakang_20" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" Name="score" Size="W:86.000000 H:50.000000" Text="ポイント" TextColor="0xff80ffff" />
+                </Panel>
+            </Panel>
+            <Panel HLayout="Center" Margin="L:0.000000 T:130.000000 R:0.000000 B:0.000000" Name="armaturePanel" VLayout="Center" ZOrder="10">
+                <ArmatureUI HLayout="Center" Name="armature" Size="W:1.000000 H:1.000000" VLayout="Center" />
+            </Panel>
+            <BrushElement Background="godsSenki.reward_diban" HLayout="Center" Margin="L:0.000000 T:87.000000 R:0.000000 B:0.000000" Size="W:461.000000 H:319.000000" Visibility="Hidden" ZOrder="5" />
+            <ImageElement HLayout="Center" Image="ShuXingShiLian_diban2" Margin="L:0.000000 T:-10.000000 R:0.000000 B:0.000000" Name="blackBG" Size="W:640.000000 H:220.000000" VLayout="Center" ZOrder="10">
+                <StackPanel HLayout="Center" Margin="L:0.000000 T:15.000000 R:0.000000 B:0.000000" Name="stackPanel" Orientation="Horizontal" Size="W:500.000000 H:90.000000" Space="25.00">
+                    <ItemCell Checked="false" Name="hero1" Size="W:75.000000 H:75.000000" ZOrder="100">
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                        <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                        <Label Font="huakang_20" Margin="L:30.000000 T:100.000000 R:0.000000 B:0.000000" Name="value" Size="W:30.000000 H:20.000000" Text="0" TextAlignStyle="MiddleCenter" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:100.000000 R:0.000000 B:0.000000" Name="label" Size="W:20.000000 H:20.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" />
+                    </ItemCell>
+                    <ItemCell Checked="false" Name="hero2" Size="W:75.000000 H:75.000000" ZOrder="100">
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                        <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                        <Label Font="huakang_20" Margin="L:30.000000 T:100.000000 R:0.000000 B:0.000000" Name="value" Size="W:30.000000 H:20.000000" Text="0" TextAlignStyle="MiddleCenter" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:100.000000 R:0.000000 B:0.000000" Name="label" Size="W:20.000000 H:20.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" />
+                    </ItemCell>
+                    <ItemCell Checked="false" Name="hero3" Size="W:75.000000 H:75.000000" ZOrder="100">
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                        <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                        <Label Font="huakang_20" Margin="L:30.000000 T:100.000000 R:0.000000 B:0.000000" Name="value" Size="W:30.000000 H:20.000000" Text="0" TextAlignStyle="MiddleCenter" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:100.000000 R:0.000000 B:0.000000" Name="label" Size="W:20.000000 H:20.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" />
+                    </ItemCell>
+                    <ItemCell Checked="false" Name="hero4" Size="W:75.000000 H:75.000000" ZOrder="100">
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                        <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                        <Label Font="huakang_20" Margin="L:30.000000 T:100.000000 R:0.000000 B:0.000000" Name="value" Size="W:30.000000 H:20.000000" Text="0" TextAlignStyle="MiddleCenter" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:100.000000 R:0.000000 B:0.000000" Name="label" Size="W:20.000000 H:20.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" />
+                    </ItemCell>
+                    <ItemCell Checked="false" Name="hero5" Size="W:75.000000 H:75.000000" ZOrder="100">
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                        <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                        <Label Font="huakang_20" Margin="L:30.000000 T:100.000000 R:0.000000 B:0.000000" Name="value" Size="W:30.000000 H:20.000000" Text="0" TextAlignStyle="MiddleCenter" />
+                        <Label Font="huakang_20" Margin="L:10.000000 T:100.000000 R:0.000000 B:0.000000" Name="label" Size="W:20.000000 H:20.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" />
+                    </ItemCell>
+                </StackPanel>
+                <StackPanel Enable="false" HLayout="Center" Margin="L:0.000000 T:150.000000 R:0.000000 B:0.000000" Name="goodsPanel" Orientation="Horizontal" ShaderType="1" Size="W:150.000000 H:60.000000" Space="25.00">
+                    <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods4" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods5" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                </StackPanel>
+                <Label Font="huakang_16" Margin="L:40.000000 T:-10.000000 R:0.000000 B:0.000000" Name="EXPLabel" Size="W:40.000000 H:20.000000" Text="EXP" TextAlignStyle="MiddleCenter" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" VLayout="Center" ZOrder="50" />
+            </ImageElement>
+            <Button Background="godsSenki.green40_button1" CoverBrush="godsSenki.green40_button1" Font="huakang_22_miaobian" HLayout="Center" Margin="L:2.000000 T:-160.000000 R:0.000000 B:0.000000" Name="sure" NormalBrush="godsSenki.green40_button1" PressBrush="godsSenki.green40_button2" PressTextColor="0xff001326" Size="W:110.000000 H:50.000000" Text="OK" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Center" ZOrder="40" />
+            <BrushElement Background="fight.fight_win_name" HLayout="Center" Margin="L:0.000000 T:150.000000 R:0.000000 B:0.000000" Name="winImg" Size="W:240.000000 H:70.000000" VLayout="Center" ZOrder="40" />
+            <BrushElement Background="godsSenki.ShuXingShiLian_diban2" HLayout="Center" Margin="L:0.000000 T:-20.000000 R:0.000000 B:0.000000" Name="goldReward" Size="W:360.000000 H:120.000000" VLayout="Center" ZOrder="20">
+                <StackPanel Enable="false" HLayout="Center" Name="goodsPanel" Orientation="Horizontal" ShaderType="1" Size="W:150.000000 H:60.000000" Space="25.00" VLayout="Center">
+                    <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                </StackPanel>
+            </BrushElement>
+            <Panel HLayout="Center" Margin="L:0.000000 T:306.000000 R:0.000000 B:0.000000" Name="arenaRewardPanel" Size="W:360.000000 H:50.000000" Visibility="Hidden" ZOrder="40">
+                <BrushElement Margin="L:20.000000 T:6.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" />
+                <TextElement Font="huakang_30" HLayout="Center" Margin="L:80.000000 T:10.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                <TextElement Font="huakang_20" HLayout="Center" Margin="L:50.000000 T:17.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                <Label Font="huakang_20" HLayout="Center" Margin="L:-60.000000 T:6.000000 R:0.000000 B:0.000000" Name="gongxun" Size="W:50.000000 H:50.000000" Text="手柄" TextColor="0xff80ffff" />
+                <TextElement Font="huakang_30" HLayout="Center" Margin="L:-90.000000 T:10.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                <TextElement Font="huakang_20" HLayout="Center" Margin="L:-125.000000 T:17.000000 R:0.000000 B:0.000000" Name="value2" Size="W:36.000000 H:30.000000" Text="100" />
+                <Label Font="huakang_20" HLayout="Center" Margin="L:115.000000 T:6.000000 R:0.000000 B:0.000000" Name="shenngwang" Size="W:50.000000 H:50.000000" Text="名声" TextColor="0xff80ffff" />
+            </Panel>
+            <Panel HLayout="Center" Margin="L:0.000000 T:306.000000 R:0.000000 B:0.000000" Name="cardEventPanel" Size="W:360.000000 H:50.000000" ZOrder="40">
+                <BrushElement Margin="L:107.000000 T:0.000000 R:0.000000 B:0.000000" Name="icon" Size="W:40.000000 H:40.000000" VLayout="Center" />
+                <Label Font="huakang_20" HLayout="Center" Margin="L:40.000000 T:0.000000 R:0.000000 B:0.000000" Name="score" Size="W:70.000000 H:30.000000" Text="ポイント" TextColor="0xff80ffff" VLayout="Center" />
+                <Label Font="huakang_30" HLayout="Center" Margin="L:-7.000000 T:0.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:30.000000" Text="+" TextAlignStyle="MiddleCenter" TextColor="0xff00c000" VLayout="Center" />
+                <Label Font="huakang_20" HLayout="Center" Margin="L:-45.000000 T:0.000000 R:0.000000 B:0.000000" Name="value1" Size="W:56.000000 H:30.000000" Text="1200" VLayout="Center" />
+            </Panel>
+            <Panel HLayout="Center" Margin="L:0.000000 T:306.000000 R:0.000000 B:0.000000" Name="rewardRankPanel" Size="W:360.000000 H:50.000000" Visibility="Hidden" ZOrder="40">
+                <TextElement Font="huakang_30" HLayout="Center" Margin="L:-22.000000 T:12.000000 R:0.000000 B:0.000000" Size="W:17.000000 H:45.000000" Text="+" TextColor="0xff00c000" />
+                <TextElement Font="huakang_20" Margin="L:216.000000 T:19.000000 R:0.000000 B:0.000000" Name="value1" Size="W:36.000000 H:30.000000" Text="100" />
+                <Label Font="huakang_20" Margin="L:106.000000 T:6.000000 R:0.000000 B:0.000000" Name="score" Size="W:86.000000 H:50.000000" Text="段位ポイント" TextColor="0xff80ffff" />
+            </Panel>
+        </Panel>
+        <Panel Background="fight.cf_huadongFramne1" Margin="L:17.000000 T:88.000000 R:0.000000 B:0.000000" Name="DebugItemTemplate" Pick="false" Size="W:436.000000 H:46.000000" Visibility="Hidden">
+            <Label Font="huakang_13_noborder" Margin="L:15.000000 T:10.000000 R:0.000000 B:0.000000" Name="name" Pick="false" Size="W:59.000000 H:22.000000" Text="123ff" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:54.000000 T:2.000000 R:0.000000 B:0.000000" Name="curskill" Pick="false" Size="W:175.000000 H:18.000000" Text="skillsdf" TextColor="0xff000000" />
+            <Label AutoNewline="true" Font="huakang_13_noborder" Margin="L:56.000000 T:19.000000 R:0.000000 B:0.000000" Name="buff" Pick="false" Size="W:362.000000 H:26.000000" Text="buff" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:240.000000 T:2.000000 R:0.000000 B:0.000000" Name="action" Pick="false" Size="W:77.000000 H:20.000000" Text="action" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:322.000000 T:4.000000 R:0.000000 B:0.000000" Name="state" Pick="false" Size="W:69.000000 H:16.000000" Text="state" TextColor="0xff000000" />
+        </Panel>
+        <Panel Background="fight.cf_huadongFramne1" Margin="L:17.000000 T:88.000000 R:0.000000 B:0.000000" Name="TraceItemTemplate" Pick="false" Size="W:436.000000 H:46.000000" Visibility="Hidden">
+            <Label Font="huakang_13_noborder" Margin="L:15.000000 T:10.000000 R:0.000000 B:0.000000" Name="id" Pick="false" Size="W:59.000000 H:22.000000" Text="id" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:54.000000 T:2.000000 R:0.000000 B:0.000000" Name="actor" Pick="false" Size="W:115.000000 H:18.000000" Text="actor" TextColor="0xff000000" />
+            <Label AutoNewline="true" Font="huakang_13_noborder" Margin="L:56.000000 T:19.000000 R:0.000000 B:0.000000" Name="pos" Pick="false" Size="W:368.000000 H:26.000000" Text="pos" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:176.000000 T:2.000000 R:0.000000 B:0.000000" Name="type" Pick="false" Size="W:77.000000 H:20.000000" Text="type" TextColor="0xff000000" />
+            <Label Font="huakang_13_noborder" Margin="L:322.000000 T:4.000000 R:0.000000 B:0.000000" Name="time" Pick="false" Size="W:69.000000 H:16.000000" Text="time" TextColor="0xff000000" />
+        </Panel>
+        <Panel Background="godsSenki.explain_bg" Name="fightLoseTemplate" Size="W:180.000000 H:160.000000" Visibility="Hidden">
+            <Label Font="huakang_18RGB38190" HLayout="Center" Name="typeName" Size="W:100.000000 H:30.000000" Text="スキルを強化し" TextAlignStyle="MiddleCenter" />
+            <ImageElement AutoSize="false" HLayout="Center" Margin="L:0.000000 T:35.000000 R:0.000000 B:0.000000" Name="img" Size="W:153.000000 H:49.000000" />
+            <Button Background="godsSenki.green40_button1" CoverBrush="godsSenki.green40_button1" Font="huakang_24_Miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:-50.000000" Name="gotoBtn" NormalBrush="godsSenki.green40_button1" PressBrush="godsSenki.green40_button2" Size="W:180.000000 H:40.000000" Text="スキルを強化し" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:90.000000 R:0.000000 B:0.000000" Name="describe1" Size="W:155.000000 H:26.000000" Text="キャラ画面で" TextAlignStyle="MiddleCenter" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:110.000000 R:0.000000 B:0.000000" Name="describe2" Size="W:155.000000 H:26.000000" Text="キャラを選択して" TextAlignStyle="MiddleCenter" />
+            <Label Font="huangkang_16RGB38190" HLayout="Center" Margin="L:0.000000 T:130.000000 R:0.000000 B:0.000000" Name="describe3" Size="W:155.000000 H:26.000000" Text="効果をアップさせましょう" TextAlignStyle="MiddleCenter" />
+        </Panel>
+        <Panel Margin="L:105.000000 T:4.000000 R:0.000000 B:0.000000" Name="ComboLinkPanel" Size="W:537.000000 H:122.000000" Visibility="Hidden">
+            <StackPanel Alignment="Center" Margin="L:14.000000 T:28.000000 R:0.000000 B:0.000000" Name="ComboLinkStack" Orientation="Horizontal" Size="W:430.000000 H:102.000000" />
+        </Panel>
+        <Label Background="fight.battle_our_combo_diban" HLayout="Center" Margin="L:-4.000000 T:118.000000 R:0.000000 B:0.000000" Name="Combodi" Pick="false" Size="W:900.000000 H:94.000000" Visibility="Hidden">
+            <ImageElement AutoSize="false" Image="Empty" Margin="L:235.000000 T:5.000000 R:0.000000 B:0.000000" Name="Skilltouxiang" Size="W:80.000000 H:80.000000">
+                <BrushElement HLayout="Center" Margin="L:19.000000 T:-1.000000 R:0.000000 B:0.000000" Name="daojishiFrame" Size="W:86.000000 H:104.000000" Visibility="Hidden">
+                    <ProgressBar Margin="L:-3.000000 T:-1.000000 R:0.000000 B:0.000000" Name="daijishiProgress" ShowText="true" Size="W:90.000000 H:104.000000" />
+                </BrushElement>
+            </ImageElement>
+            <BrushElement Background="fight.battle_our_combo1" Margin="L:522.000000 T:81.000000 R:0.000000 B:0.000000" Name="daojishiFrame" Size="W:223.000000 H:3.000000" Visibility="Hidden">
+                <BrushElement Background="fight.battle_our_combo2" Margin="L:220.000000 T:-8.000000 R:0.000000 B:0.000000" Name="daijishiItem" Size="W:26.000000 H:20.000000" />
+            </BrushElement>
+            <Panel HLayout="Center" Margin="L:-182.000000 T:13.000000 R:0.000000 B:0.000000" Name="comboPanel" Size="W:228.000000 H:60.000000">
+                <ImageElement HLayout="Center" Name="Combo" Scale="X:1.200000 Y:1.200000" Size="W:160.000000 H:50.000000" TransformPoint="X:0.000000 Y:0.500000" VLayout="Bottom" />
+            </Panel>
+            <Label Font="huakang_27_miaobian_yellow" Margin="L:333.000000 T:52.000000 R:0.000000 B:0.000000" Name="skillType" Size="W:180.000000 H:30.000000" Text="始動" TextAlignStyle="MiddleCenter" />
+            <Label Font="huakang_25" Margin="L:332.000000 T:7.000000 R:0.000000 B:0.000000" Name="skillName" Size="W:180.000000 H:36.000000" Text="スキル名" TextAlignStyle="MiddleCenter" />
+            <Label AlwaysOnTop="true" Font="combo1" HLayout="Center" Margin="L:-200.000000 T:-7.000000 R:0.000000 B:0.000000" Name="ComboNumber" Scale="X:2.000000 Y:2.000000" Size="W:140.000000 H:40.000000" Text="9999" TextAlignStyle="MiddleCenter" />
+        </Label>
+        <Panel Name="PlayerTemplate" Pick="false" Size="W:162.000000 H:210.000000" Visibility="Hidden">
+            <Panel HLayout="Center" Name="bg" Size="W:240.000000 H:240.000000" />
+            <Panel HLayout="Right" Margin="L:0.000000 T:0.000000 R:10.000000 B:10.000000" Name="right" Pick="false" Size="W:80.000000 H:99.000000" VLayout="Bottom" ZOrder="2" />
+            <ProgressBar HLayout="Stretch" Margin="L:15.000000 T:-1.000000 R:15.000000 B:-1.000000" Name="hpbar" ShowText="false" Size="W:0.000000 H:10.000000" VLayout="Bottom" ZOrder="1" />
+            <Panel Margin="L:10.000000 T:0.000000 R:0.000000 B:10.000000" Name="left" Pick="false" Size="W:80.000000 H:99.000000" VLayout="Bottom" ZOrder="1" />
+        </Panel>
+        <Panel HLayout="Center" Name="loveMaxPanel" Size="W:500.000000 H:460.000000" VLayout="Center" Visibility="Hidden">
+            <Panel Background="EidolonSystem.Black" HLayout="Stretch" Margin="L:-1000.000000 T:-1000.000000 R:-1000.000000 B:-1000.000000" Name="bg" Opacity="0.90" Size="W:50.000000 H:50.000000" VLayout="Stretch" />
+            <ImageElement AutoSize="false" HLayout="Center" Name="bgPic" Size="W:322.000000 H:290.000000" VLayout="Center" ZOrder="10">
+                <Label Font="huakang_18_miaobian" HLayout="Center" Margin="L:0.000000 T:55.000000 R:0.000000 B:0.000000" Name="topLabel" Size="W:200.000000 H:30.000000" Text="絆を深めました" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                <Panel HLayout="Center" Margin="L:0.000000 T:7.000000 R:0.000000 B:0.000000" Name="rolePanel" Size="W:80.000000 H:80.000000" VLayout="Center" />
+                <Label Font="huakang_16_miaobian" HLayout="Center" Margin="L:0.000000 T:190.000000 R:0.000000 B:0.000000" Name="bottomLabel" Size="W:200.000000 H:30.000000" Text="恋愛ミッション" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+                <ImageElement AutoSize="false" Margin="L:-50.000000 T:-25.000000 R:0.000000 B:0.000000" Name="loveMaxPic" Size="W:138.000000 H:93.000000" />
+                <ImageElement AutoSize="false" Image="love_flower" Margin="L:-46.000000 T:48.000000 R:0.000000 B:0.000000" Name="leftBigFlw" Size="W:100.000000 H:100.000000" />
+                <ImageElement AutoSize="false" Image="love_flower" Margin="L:-26.000000 T:141.000000 R:0.000000 B:0.000000" Name="leftSmallFlw" Size="W:50.000000 H:50.000000" Skew="X:50.000000 Y:50.000000" />
+                <ImageElement AutoSize="false" Image="love_flower" Margin="L:291.000000 T:168.000000 R:0.000000 B:0.000000" Name="rightSmallFlw" Size="W:50.000000 H:50.000000" Skew="X:50.000000 Y:50.000000" />
+                <ImageElement AutoSize="false" Image="love_flower" Margin="L:256.000000 T:217.000000 R:0.000000 B:0.000000" Name="rightBigFlw" Size="W:100.000000 H:100.000000" />
+                <Button Background="fight.close_btn" CoverBrush="fight.close_btn" HLayout="Right" Margin="L:0.000000 T:-11.000000 R:-12.000000 B:0.000000" Name="closeBtn" NormalBrush="fight.close_btn" PressBrush="fight.close_btn" Size="W:40.000000 H:40.000000" />
+            </ImageElement>
+            <Button Background="godsSenki.task_go1" CoverBrush="godsSenki.task_go1" Font="huakang_20_miaobian" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:15.000000" Name="gotoBtn" NormalBrush="godsSenki.task_go1" PressBrush="godsSenki.task_go2" Size="W:130.000000 H:45.000000" Text="親密度UP" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" ZOrder="10" />
+        </Panel>
+        <Panel HLayout="Stretch" Name="win_pve3" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden">
+            <BrushElement Background="EidolonSystem.Black" HLayout="Stretch" Opacity="0.85" Size="W:960.000000 H:640.000000" VLayout="Stretch" ZOrder="-10" />
+            <Panel HLayout="Center" Name="center" Size="W:560.000000 H:350.000000" VLayout="Center">
+                <Button Background="godsSenki.yellow40_button1" CoverBrush="godsSenki.yellow40_button1" Font="huakang_18_miaobian" HLayout="Center" Margin="L:115.000000 T:0.000000 R:0.000000 B:-75.000000" Name="btn_reChallenge" NormalBrush="godsSenki.yellow40_button1" PressBrush="godsSenki.yellow40_button2" PressTextColor="0xff001326" Size="W:120.000000 H:60.000000" Text="次へ" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+                <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_18_miaobian" HLayout="Center" Margin="L:-115.000000 T:0.000000 R:0.000000 B:-75.000000" Name="btn_sure" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" Size="W:120.000000 H:60.000000" Text="ホームへ" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom" />
+                <StackPanel HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:15.000000" Name="rewardThing" Orientation="Horizontal" Size="W:395.000000 H:71.000000" Space="10.00" VLayout="Bottom">
+                    <Panel Name="1" Size="W:71.000000 H:72.000000">
+                        <ImageElement AutoSize="false" Margin="L:7.000000 T:7.000000 R:0.000000 B:0.000000" Name="img" Size="W:59.000000 H:57.000000" />
+                        <Label Margin="L:34.000000 T:46.000000 R:0.000000 B:0.000000" Name="num" Size="W:30.000000 H:23.000000" />
+                    </Panel>
+                    <Panel Name="2" Size="W:71.000000 H:72.000000">
+                        <ImageElement AutoSize="false" Margin="L:7.000000 T:7.000000 R:0.000000 B:0.000000" Name="img" Size="W:59.000000 H:57.000000" />
+                        <Label Margin="L:34.000000 T:46.000000 R:0.000000 B:0.000000" Name="num" Size="W:30.000000 H:23.000000" />
+                    </Panel>
+                    <Panel Name="3" Size="W:71.000000 H:72.000000">
+                        <ImageElement AutoSize="false" Margin="L:7.000000 T:7.000000 R:0.000000 B:0.000000" Name="img" Size="W:59.000000 H:57.000000" />
+                        <Label Margin="L:34.000000 T:46.000000 R:0.000000 B:0.000000" Name="num" Size="W:30.000000 H:23.000000" />
+                    </Panel>
+                    <Panel Name="4" Size="W:71.000000 H:72.000000">
+                        <ImageElement AutoSize="false" Margin="L:7.000000 T:7.000000 R:0.000000 B:0.000000" Name="img" Size="W:59.000000 H:57.000000" />
+                        <Label Margin="L:34.000000 T:46.000000 R:0.000000 B:0.000000" Name="num" Size="W:30.000000 H:23.000000" />
+                    </Panel>
+                    <Panel Name="5" Size="W:71.000000 H:72.000000">
+                        <ImageElement AutoSize="false" Margin="L:7.000000 T:7.000000 R:0.000000 B:0.000000" Name="img" Size="W:59.000000 H:57.000000" />
+                        <Label Margin="L:34.000000 T:46.000000 R:0.000000 B:0.000000" Name="num" Size="W:30.000000 H:23.000000" />
+                    </Panel>
+                </StackPanel>
+                <StackPanel HLayout="Center" Margin="L:0.000000 T:215.000000 R:0.000000 B:0.000000" Name="barPanel" Orientation="Horizontal" Size="W:435.000000 H:40.000000" Visibility="Hidden">
+                    <Panel Name="1" Size="W:100.000000 H:40.000000">
+                        <Label Font="huakang_16" Margin="L:10.000000 T:22.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:30.000000 H:20.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                        <Label Font="huakang_16" Margin="L:55.000000 T:22.000000 R:0.000000 B:0.000000" Name="exp" Size="W:40.000000 H:20.000000" Text="500" TextColor="0xff37ef2d" />
+                        <ImageElement Image="fight_win_jiantou" Margin="L:42.000000 T:25.000000 R:0.000000 B:0.000000" Size="W:7.000000 H:13.000000" />
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" HLayout="Center" Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:80.000000 H:10.000000" />
+                    </Panel>
+                    <Panel Name="2" Size="W:100.000000 H:40.000000">
+                        <Label Font="huakang_16" Margin="L:10.000000 T:22.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:30.000000 H:20.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                        <Label Font="huakang_16" Margin="L:55.000000 T:22.000000 R:0.000000 B:0.000000" Name="exp" Size="W:40.000000 H:20.000000" Text="500" TextColor="0xff37ef2d" />
+                        <ImageElement Image="fight_win_jiantou" Margin="L:42.000000 T:25.000000 R:0.000000 B:0.000000" Size="W:7.000000 H:13.000000" />
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" HLayout="Center" Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:80.000000 H:10.000000" />
+                    </Panel>
+                    <Panel Name="3" Size="W:100.000000 H:40.000000">
+                        <Label Font="huakang_16" Margin="L:10.000000 T:22.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:30.000000 H:20.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                        <Label Font="huakang_16" Margin="L:55.000000 T:22.000000 R:0.000000 B:0.000000" Name="exp" Size="W:40.000000 H:20.000000" Text="500" TextColor="0xff37ef2d" />
+                        <ImageElement Image="fight_win_jiantou" Margin="L:42.000000 T:25.000000 R:0.000000 B:0.000000" Size="W:7.000000 H:13.000000" />
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" HLayout="Center" Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:80.000000 H:10.000000" />
+                    </Panel>
+                    <Panel Name="4" Size="W:100.000000 H:40.000000">
+                        <Label Font="huakang_16" Margin="L:10.000000 T:22.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:30.000000 H:20.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                        <Label Font="huakang_16" Margin="L:55.000000 T:22.000000 R:0.000000 B:0.000000" Name="exp" Size="W:40.000000 H:20.000000" Text="500" TextColor="0xff37ef2d" />
+                        <ImageElement Image="fight_win_jiantou" Margin="L:42.000000 T:25.000000 R:0.000000 B:0.000000" Size="W:7.000000 H:13.000000" />
+                        <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" HLayout="Center" Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:80.000000 H:10.000000" />
+                    </Panel>
+                </StackPanel>
+                <BrushElement Background="godsSenki.reward_diban" HLayout="Center" Margin="L:0.000000 T:-102.000000 R:0.000000 B:0.000000" Name="rewardAnimation" Size="W:342.000000 H:205.000000" Visibility="Hidden" />
+                <Panel Margin="L:60.000000 T:100.000000 R:0.000000 B:0.000000" Name="heroPanel" Size="W:100.000000 H:95.000000" />
+                <BrushElement Background="fight.fight_win_diban2" HLayout="Center" Margin="L:0.000000 T:85.000000 R:0.000000 B:0.000000" Name="brushBg" Size="W:480.000000 H:166.000000" />
+                <StackPanel HLayout="Center" Margin="L:0.000000 T:115.000000 R:0.000000 B:0.000000" Name="rolePanel" Orientation="Horizontal" Size="W:435.000000 H:100.000000" Visibility="Hidden">
+                    <Panel Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" Name="1" Size="W:100.000000 H:95.000000" />
+                    <Panel Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" Name="2" Size="W:100.000000 H:95.000000" />
+                    <Panel Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" Name="3" Size="W:100.000000 H:95.000000" />
+                    <Panel Margin="L:0.000000 T:5.000000 R:0.000000 B:0.000000" Name="4" Size="W:100.000000 H:95.000000" />
+                </StackPanel>
+                <BrushElement Background="common.color_bg1" Margin="L:10.000000 T:10.000000 R:0.000000 B:0.000000" Opacity="0.55" Size="W:560.000000 H:350.000000" ZOrder="-20" />
+                <Panel HLayout="Center" Margin="L:0.000000 T:-102.000000 R:0.000000 B:0.000000" Name="successAnimation" Size="W:342.000000 H:205.000000" />
+                <BrushElement Background="fight.fight_win_name" HLayout="Center" Margin="L:0.000000 T:-40.000000 R:0.000000 B:0.000000" Name="no_star" Size="W:241.000000 H:69.000000" Visibility="Hidden" ZOrder="40" />
+                <Panel HLayout="Center" Margin="L:0.000000 T:-60.000000 R:0.000000 B:0.000000" Name="starPanel" Size="W:280.000000 H:140.000000" ZOrder="10">
+                    <ImageElement AutoSize="false" Image="FuBen_star" Margin="L:20.000000 T:30.000000 R:0.000000 B:0.000000" Name="star1" Size="W:70.000000 H:70.000000" />
+                    <ImageElement AutoSize="false" Image="FuBen_star" Margin="L:75.000000 T:0.000000 R:0.000000 B:0.000000" Name="star2" Size="W:70.000000 H:70.000000" />
+                    <ImageElement AutoSize="false" Image="FuBen_star" Margin="L:135.000000 T:0.000000 R:0.000000 B:0.000000" Name="star3" Size="W:70.000000 H:70.000000" />
+                    <ImageElement AutoSize="false" Image="FuBen_star" Margin="L:190.000000 T:30.000000 R:0.000000 B:0.000000" Name="star4" Size="W:70.000000 H:70.000000" />
+                </Panel>
+                <Panel AlwaysOnTop="true" Margin="L:30.000000 T:130.000000 R:0.000000 B:0.000000" Name="rewardPanel" Size="W:468.000000 H:57.000000">
+                    <Label Font="huakang_16" Margin="L:146.000000 T:2.000000 R:0.000000 B:0.000000" Name="expIcon" Size="W:34.000000 H:37.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                    <BrushElement Background="fight.result_gold" Margin="L:398.000000 T:9.000000 R:0.000000 B:0.000000" Name="coinIcon" Size="W:20.000000 H:20.000000" />
+                    <Label Font="huakang_13" Margin="L:418.000000 T:-5.000000 R:0.000000 B:0.000000" Name="coinValue" Size="W:66.000000 H:50.000000" Text="+1000" TextColor="0xff00c000" />
+                    <Label Font="huakang_13" Margin="L:354.000000 T:-5.000000 R:0.000000 B:0.000000" Name="expValue" Size="W:38.000000 H:50.000000" Text="1000" />
+                    <ImageElement Image="fight_win_jiantou" Margin="L:345.000000 T:14.000000 R:0.000000 B:0.000000" Size="W:7.000000 H:13.000000" />
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:187.000000 T:0.000000 R:0.000000 B:30.000000" MaxValue="100" Name="expProb" Pick="false" ShowText="false" Size="W:148.000000 H:12.000000" VLayout="Bottom" />
+                </Panel>
+            </Panel>
+        </Panel>
+        <ScaleButton Background="fight.fight_auto_nomal" CoverBrush="fight.fight_auto_nomal" Font="huakang_20" Margin="L:135.000000 T:14.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="btnShow" NormalBrush="fight.fight_auto_nomal" PressBrush="fight.fight_auto_nomal" ScaleTime="0.10" Size="W:61.000000 H:61.000000" TextAlignStyle="MiddleCenter" Visibility="Hidden" />
+        <EffectProgressBar Background="fight.fight_angerball_gray" CurValue="50" Font="huakang_18" ForwardBrush="fight.angerBall" Margin="L:10.000000 T:0.000000 R:0.000000 B:0.000000" MaxValue="100" Name="newAngerBar" ShowText="true" Size="W:105.000000 H:105.000000" StepOrientation="Bottom2Top" StepValue="1" Text="50/100" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+        <Panel Background="fight.love_navidiban" HLayout="Right" Margin="L:0.000000 T:56.000000 R:87.000000 B:0.000000" Name="FightGuidePanel" Size="W:323.000000 H:102.000000" Visibility="Hidden">
+            <Label AutoNewline="true" Font="FZ_18_miaobiao_R8G48B144" Margin="L:12.000000 T:12.000000 R:0.000000 B:0.000000" Name="info" Size="W:300.000000 H:80.000000" Text="スキルを使うための『スキルカード』は&#x0A;7秒ごとに1枚獲得できます" TextAlignStyle="MiddleCenter" />
+            <BrushElement Background="fight.love_jiantou" Margin="L:260.000000 T:-41.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:59.000000" Skew="X:30.000000 Y:30.000000" />
+        </Panel>
+        <Panel Margin="L:484.000000 T:314.000000 R:0.000000 B:0.000000" Name="guidePanel" Size="W:50.000000 H:50.000000" />
+        <Panel Background="fight.worldBoss_bg" HLayout="Right" Margin="L:0.000000 T:23.000000 R:5.000000 B:0.000000" Name="bossPanel1" Pick="false" Size="W:400.000000 H:85.000000" Visibility="Hidden">
+            <Label Font="huakang_24_nobroad" Margin="L:290.000000 T:53.000000 R:0.000000 B:0.000000" Name="hpProbCount" Pick="false" Size="W:40.000000 H:20.000000" Text="x99" TextColor="0xff001326" />
+            <BrushElement Margin="L:84.000000 T:-7.000000 R:0.000000 B:0.000000" Name="actorFrame" Size="W:477.000000 H:87.000000" />
+            <ImageElement AutoSize="false" Image="Empty" Margin="L:340.000000 T:20.000000 R:0.000000 B:0.000000" Name="headPic" Pick="false" Size="W:55.000000 H:55.000000" />
+            <Label Font="huakang_16_noborder" Margin="L:239.000000 T:15.000000 R:0.000000 B:0.000000" Name="name" Size="W:93.000000 H:20.000000" Text="BOSS名" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+            <Label Font="huakang_18" Margin="L:190.000000 T:15.000000 R:0.000000 B:0.000000" Size="W:32.000000 H:20.000000" Text="LV." TextColor="LT:0xff80ffff LB:0xff00ffff RT:0xff80ffff RB:0xff00ffff" />
+            <Label Font="huakang_19_noborder" Margin="L:220.000000 T:15.000000 R:0.000000 B:0.000000" Name="lv" Size="W:25.000000 H:20.000000" Text="99" TextColor="0xff001326" />
+            <Label Font="huakang_24_nobroad" Margin="L:15.000000 T:33.000000 R:0.000000 B:0.000000" Size="W:30.000000 H:20.000000" Text="HP" TextColor="0xff5c5cf4" />
+            <BrushElement Background="fight.worldboss_biankuang" Margin="L:325.000000 T:5.000000 R:0.000000 B:0.000000" Size="W:85.000000 H:85.000000" ZOrder="5" />
+            <EffectProgressBar AlwaysOnTop="true" Background="godsSenki.worldBoss_HpProgress" CurValue="50" EffectSpeed="20" Font="huakang_20_noborder" ForwardBrush="godsSenki.worldBoss_HpBar" Margin="L:45.000000 T:33.000000 R:0.000000 B:0.000000" MaxValue="100" Name="hpProb2" Pick="false" ShowText="false" Size="W:270.000000 H:22.000000" TextAlignStyle="MiddleCenter" ZOrder="10" />
+            <EffectProgressBar AlwaysOnTop="true" CurValue="50" EffectSpeed="20" Font="huakang_20_noborder" ForwardBrush="godsSenki.worldBoss_HpBar" Margin="L:45.000000 T:33.000000 R:0.000000 B:0.000000" MaxValue="100" Name="hpProb1" Pick="false" ShowText="false" Size="W:270.000000 H:22.000000" TextAlignStyle="MiddleCenter" ZOrder="20" />
+        </Panel>
+        <Panel HLayout="Center" Margin="L:1.000000 T:0.000000 R:0.000000 B:0.000000" Name="pveWinPanel" Size="W:960.000000 H:640.000000" VLayout="Center" Visibility="Hidden">
+            <ImageElement AutoSize="false" HLayout="Stretch" Image="home_menghui" Margin="L:-1000.000000 T:-1000.000000 R:-500.000000 B:-500.000000" Name="bg" Size="W:160.000000 H:120.000000" VLayout="Stretch" />
+            <Button Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_18_miaobian" HLayout="Center" Margin="L:-150.000000 T:480.000000 R:0.000000 B:0.000000" Name="goBackCityBtn" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" Size="W:120.000000 H:60.000000" Text="進む" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+            <Button Background="godsSenki.yellow40_button1" CoverBrush="godsSenki.yellow40_button1" Font="huakang_18_miaobian" HLayout="Center" Margin="L:150.000000 T:480.000000 R:0.000000 B:0.000000" Name="tryAgainBtn" NormalBrush="godsSenki.yellow40_button1" PressBrush="godsSenki.yellow40_button2" Size="W:120.000000 H:60.000000" Text="再戦" TextAlignStyle="MiddleCenter" TextColor="0xff001326" />
+            <ImageElement AutoSize="false" HLayout="Center" Image="fight_win_name" Margin="L:-1.000000 T:110.000000 R:0.000000 B:0.000000" Name="titileImg" Size="W:265.000000 H:76.000000" ZOrder="10" />
+            <ImageElement AutoSize="false" HLayout="Center" Image="reward_diban" Margin="L:0.000000 T:67.000000 R:0.000000 B:0.000000" Name="lightImg" Size="W:260.000000 H:237.000000" ZOrder="10" />
+            <ImageElement HLayout="Center" Image="ShuXingShiLian_diban2" Margin="L:0.000000 T:230.000000 R:0.000000 B:0.000000" Name="blackBG" Size="W:640.000000 H:220.000000" ZOrder="10">
+                <ImageElement HLayout="Center" Image="ShuXingShiLian_diban2" Margin="L:0.000000 T:15.000000 R:10.000000 B:0.000000" Name="heroBG" Size="W:500.000000 H:120.000000" />
+                <StackPanel Enable="false" HLayout="Center" Margin="L:0.000000 T:150.000000 R:0.000000 B:0.000000" Name="goodsPanel" Orientation="Horizontal" ShaderType="1" Size="W:150.000000 H:60.000000" Space="30.00">
+                    <Panel Enable="false" Name="goods1" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods2" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods3" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods4" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods5" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                    <Panel Enable="false" Name="goods6" ShaderType="1" Size="W:60.000000 H:60.000000" />
+                </StackPanel>
+                <Label Font="huakang_16" Margin="L:50.000000 T:95.000000 R:0.000000 B:0.000000" Name="EXPLabel" Size="W:40.000000 H:20.000000" Text="EXP" TextAlignStyle="MiddleCenter" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" ZOrder="50" />
+                <Label Font="huakang_16" Margin="L:32.000000 T:115.000000 R:0.000000 B:0.000000" Name="loveLabel" Size="W:58.000000 H:20.000000" Text="親密度" TextAlignStyle="MiddleCenter" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" ZOrder="50" />
+                <ItemCell Checked="false" HLayout="Center" Margin="L:90.000000 T:20.000000 R:0.000000 B:0.000000" Name="oneHero" Size="W:75.000000 H:75.000000" Visibility="Hidden" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:132.000000 T:20.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:100.000000 H:15.000000" />
+                    <Label Font="huakang_16" Margin="L:95.000000 T:18.000000 R:0.000000 B:0.000000" Name="EXPLabel" Size="W:33.000000 H:20.000000" Text="EXP" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                    <Label Font="huakang_16" Margin="L:90.000000 T:41.000000 R:0.000000 B:0.000000" Name="loveLabel" Size="W:53.000000 H:20.000000" Text="親密度" TextColor="LT:0xffc0ffff LB:0xff80ffff RT:0xffc0ffff RB:0xff80ffff" />
+                    <heartTemplate3 Margin="L:144.000000 T:40.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:169.000000 T:40.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:194.000000 T:40.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:219.000000 T:40.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+                <ItemCell Checked="false" Margin="L:90.000000 T:20.000000 R:0.000000 B:0.000000" Name="hero1" Size="W:75.000000 H:75.000000" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                    <heartTemplate3 Margin="L:-3.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:16.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:35.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:53.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+                <ItemCell Checked="false" Margin="L:190.000000 T:20.000000 R:0.000000 B:0.000000" Name="hero2" Size="W:75.000000 H:75.000000" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                    <heartTemplate3 Margin="L:-3.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:16.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:35.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:53.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+                <ItemCell Checked="false" Margin="L:290.000000 T:20.000000 R:0.000000 B:0.000000" Name="hero3" Size="W:75.000000 H:75.000000" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                    <heartTemplate3 Margin="L:-3.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:16.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:35.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:53.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+                <ItemCell Checked="false" Margin="L:390.000000 T:20.000000 R:0.000000 B:0.000000" Name="hero4" Size="W:75.000000 H:75.000000" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                    <heartTemplate3 Margin="L:-3.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart1" Pick="false" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:16.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:35.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:53.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+                <ItemCell Checked="false" Margin="L:490.000000 T:20.000000 R:0.000000 B:0.000000" Name="hero5" Size="W:75.000000 H:75.000000" ZOrder="100">
+                    <EffectProgressBar Background="fight.exp_background" CurValue="50" ForwardBrush="fight.exp_forward" Margin="L:0.000000 T:80.000000 R:0.000000 B:0.000000" MaxValue="100" Name="exp1" ShowText="false" Size="W:75.000000 H:10.000000" />
+                    <heartTemplate3 Margin="L:-3.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart1" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:16.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart2" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:35.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart3" Size="W:22.000000 H:22.000000" />
+                    <heartTemplate3 Margin="L:53.000000 T:93.000000 R:0.000000 B:0.000000" Name="heart4" Size="W:22.000000 H:22.000000" />
+                    <Panel Name="hero" Size="W:75.000000 H:75.000000" />
+                </ItemCell>
+            </ImageElement>
+        </Panel>
+        <Panel HLayout="Stretch" Margin="L:-1.000000 T:1.000000 R:-1.000000 B:1.000000" Name="FightCardPanel" Pick="false" Size="W:50.000000 H:50.000000" VLayout="Stretch">
+            <StackPanel Alignment="Bottom" HLayout="Stretch" Margin="L:115.000000 T:0.000000 R:0.000000 B:0.000000" Name="playerStack" Orientation="Horizontal" Size="W:58.000000 H:240.000000" VLayout="Bottom" />
+        </Panel>
+        <ScaleButton Background="fight.fight_auto_nomal" CoverBrush="fight.fight_auto_nomal" Font="huakang_20" Margin="L:87.000000 T:16.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="btnAuto" NormalBrush="fight.fight_auto_nomal" PressBrush="fight.fight_auto_nomal" ScaleTime="0.10" Size="W:65.000000 H:65.000000" TextAlignStyle="MiddleCenter">
+            <Events>
+                <Event Name="Button::ClickEvent" Subscriber="FightManager:OnAutoClick" />
+            </Events>
+        </ScaleButton>
+        <Panel Margin="L:-1.000000 T:8.000000 R:0.000000 B:0.000000" Name="shezhidiPanel" Pick="false" Size="W:542.000000 H:75.000000">
+            <ScaleButton Font="huakang_16" HLayout="Right" Margin="L:0.000000 T:19.000000 R:120.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="InputBullets" ScaleTime="0.10" Size="W:112.000000 H:39.000000" TextAlignStyle="MiddleCenter" Visibility="Hidden">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightManager:OnStartInput" />
+                </Events>
+            </ScaleButton>
+            <ScaleButton AlwaysOnTop="true" Background="fight.battle_btn_zanting1" CoverBrush="fight.battle_btn_zanting1" Font="huakang_20" Margin="L:14.000000 T:8.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="btnFightConfig" NormalBrush="fight.battle_btn_zanting1" PressBrush="fight.battle_btn_zanting2" ScaleTime="0.10" Size="W:65.000000 H:65.000000" TextAlignStyle="MiddleCenter">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightManager:OnFightConfigClick" />
+                </Events>
+            </ScaleButton>
+            <ScaleButton AlwaysOnTop="true" Background="fight.battle_btn_det1" CoverBrush="fight.battle_btn_det1" Font="huakang_20" Margin="L:12.000000 T:80.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="infoBtn" NormalBrush="fight.battle_btn_det1" PressBrush="fight.battle_btn_det2" ScaleTime="0.10" Size="W:65.000000 H:65.000000" TextAlignStyle="MiddleCenter" />
+            <ScaleButton AlwaysOnTop="true" Background="fight.battle_btn_addspeed1" CoverBrush="fight.battle_btn_addspeed1" Font="huakang_20" Margin="L:87.000000 T:80.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="addBtn" NormalBrush="fight.battle_btn_addspeed1" PressBrush="fight.battle_btn_addspeed1" ScaleTime="0.10" Size="W:65.000000 H:65.000000" TextAlignStyle="MiddleCenter" />
+            <ScaleButton AlwaysOnTop="true" Background="fight.battle_btn_addspeed3" CoverBrush="fight.battle_btn_addspeed3" Font="huakang_20" Margin="L:87.000000 T:80.000000 R:0.000000 B:0.000000" MaxScale="X:1.000000 Y:1.000000" Name="addBtnCancel" NormalBrush="fight.battle_btn_addspeed3" PressBrush="fight.battle_btn_addspeed3" ScaleTime="0.10" Size="W:65.000000 H:65.000000" TextAlignStyle="MiddleCenter" Visibility="Hidden" />
+        </Panel>
+        <Panel Background="godsSenki.common_black_colorbg" HLayout="Center" Margin="L:4.000000 T:80.000000 R:0.000000 B:0.000000" Name="fightConfigPanel" Size="W:560.000000 H:417.000000" Visibility="Hidden" ZOrder="10">
+            <Label Font="huakang_22_B" HLayout="Center" Margin="L:98.000000 T:93.000000 R:0.000000 B:0.000000" Size="W:97.000000 H:27.000000" Text="BGM" TextAlignStyle="MiddleCenter" TextColor="0xffb0fbfe" VLayout="Center" />
+            <Label Font="huakang_22_B" HLayout="Center" Margin="L:98.000000 T:23.000000 R:0.000000 B:0.000000" Size="W:97.000000 H:27.000000" Text="SE" TextAlignStyle="MiddleCenter" TextColor="0xffb0fbfe" VLayout="Center" />
+            <Label Font="huakang_22_B" HLayout="Center" Margin="L:98.000000 T:-20.000000 R:0.000000 B:0.000000" Size="W:97.000000 H:27.000000" Text="战斗弹幕" TextAlignStyle="MiddleCenter" TextColor="0xffb0fbfe" VLayout="Center" Visibility="Hidden" />
+            <Panel Background="fight.cf_danxuankuangG" Margin="L:306.000000 T:232.000000 R:0.000000 B:0.000000" Name="bulletPanel" Size="W:130.000000 H:50.000000" Visibility="Hidden">
+                <RadioButton AlwaysOnTop="true" GroupID="100" Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Name="bulletOff" SelectedBrush="fight.cf_selectON" Size="W:65.000000 H:47.000000" ZOrder="10" />
+                <RadioButton AlwaysOnTop="true" Background="fight.cf_selectOFF" GroupID="100" Margin="L:64.000000 T:1.000000 R:0.000000 B:0.000000" Name="bulletOn" Selected="true" SelectedBrush="fight.cf_selectOFF" Size="W:65.000000 H:47.000000" ZOrder="10" />
+            </Panel>
+            <ScaleButton Background="godsSenki.gem_Rbutton1" CoverBrush="godsSenki.gem_Rbutton1" Font="huakang_20_miaobian" HLayout="Center" Margin="L:130.000000 T:0.000000 R:0.000000 B:41.000000" MaxScale="X:1.000000 Y:1.000000" Name="btnLeave" NormalBrush="godsSenki.gem_Rbutton1" PressBrush="godsSenki.gem_Rbutton2" PressTextColor="0xff001326" ScaleTime="0.10" Size="W:120.000000 H:60.000000" Text="撤退" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightConfigPanel:onClose" />
+                </Events>
+            </ScaleButton>
+            <BrushElement Background="fight.cf_huadongFramne1" Margin="L:295.000000 T:170.000000 R:0.000000 B:0.000000" Size="W:150.000000 H:36.000000" />
+            <ScaleButton Background="godsSenki.yellow40_button1" CoverBrush="godsSenki.yellow40_button1" Font="huakang_20_miaobian" HLayout="Center" Margin="L:-125.000000 T:0.000000 R:0.000000 B:45.000000" MaxScale="X:1.000000 Y:1.000000" Name="btnContinue" NormalBrush="godsSenki.yellow40_button1" PressBrush="godsSenki.yellow40_button2" PressTextColor="0xff001326" ScaleTime="0.10" Size="W:114.000000 H:54.000000" Text="再開" TextAlignStyle="MiddleCenter" TextColor="0xff001326" VLayout="Bottom">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightConfigPanel:onContinue" />
+                </Events>
+            </ScaleButton>
+            <Label Font="huakang_22_B" Margin="L:120.000000 T:-54.000000 R:0.000000 B:0.000000" Size="W:129.000000 H:27.000000" Text="エフェクト" TextAlignStyle="MiddleCenter" TextColor="0xffb0fbfe" VLayout="Center" />
+            <Panel Background="fight.cf_danxuankuang" Margin="L:308.000000 T:242.000000 R:0.000000 B:0.000000" Name="animPanel" Size="W:130.000000 H:50.000000">
+                <RadioButton AlwaysOnTop="true" GroupID="105" Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Name="animOff" SelectedBrush="fight.cf_selectON" Size="W:65.000000 H:47.000000" ZOrder="10" />
+                <RadioButton AlwaysOnTop="true" Background="fight.cf_selectOFF" GroupID="105" Margin="L:63.000000 T:1.000000 R:0.000000 B:0.000000" Name="animOn" Selected="true" SelectedBrush="fight.cf_selectOFF" Size="W:65.000000 H:47.000000" ZOrder="10" />
+            </Panel>
+            <BrushElement Background="fight.cf_huadongFramne1" Margin="L:295.000000 T:100.000000 R:0.000000 B:0.000000" Size="W:150.000000 H:36.000000" />
+            <BrushElement HLayout="Stretch" Margin="L:8.000000 T:8.000000 R:8.000000 B:8.000000" Size="W:50.000000 H:50.000000" VLayout="Stretch" ZOrder="-1" />
+            <Label Font="huakang_30" HLayout="Center" Margin="L:0.000000 T:25.000000 R:0.000000 B:0.000000" Name="title" Size="W:249.000000 H:49.000000" Text="チャプター名" TextAlignStyle="MiddleCenter" ZOrder="10" />
+            <BrushElement Background="godsSenki.common_black_title" HLayout="Center" Margin="L:1.000000 T:7.000000 R:0.000000 B:0.000000" Size="W:539.000000 H:70.000000" ZOrder="5" />
+            <ProgressBar Clip="true" CurValue="50" ForwardBrush="fight.cf_huadongtiao2" LineGap="7" Margin="L:300.000000 T:105.000000 R:0.000000 B:0.000000" MaxValue="100" Name="bgmProgressBar" ShowText="false" Size="W:140.000000 H:26.000000" ZOrder="5" />
+            <ProgressBar CurValue="50" ForwardBrush="fight.cf_huadongtiao2" Margin="L:300.000000 T:175.000000 R:0.000000 B:0.000000" MaxValue="100" Name="soundProgressBar" ShowText="false" Size="W:140.000000 H:26.000000" ZOrder="5" />
+            <TrackBar CurValue="50" Margin="L:300.000000 T:105.000000 R:0.000000 B:0.000000" Name="bgmVolume" Size="W:140.000000 H:26.000000" ZOrder="50">
+                <InnerControl>
+                    <Button Background="fight.cf_huadonganniu" CoverBrush="fight.cf_huadonganniu" Margin="L:0.000000 T:-7.000000 R:0.000000 B:0.000000" NormalBrush="fight.cf_huadonganniu" PressBrush="fight.cf_huadonganniu" Size="W:40.000000 H:40.000000" />
+                </InnerControl>
+                <Events>
+                    <Event Name="TrackBar::ValueChangedEvent" Subscriber="FightConfigPanel:OnChangeBgmVolume" />
+                </Events>
+            </TrackBar>
+            <TrackBar CurValue="50" Margin="L:300.000000 T:175.000000 R:0.000000 B:0.000000" Name="soundVolume" Size="W:140.000000 H:26.000000" ZOrder="50">
+                <InnerControl>
+                    <Button Background="fight.cf_huadonganniu" CoverBrush="fight.cf_huadonganniu" Margin="L:0.000000 T:-7.000000 R:0.000000 B:0.000000" NormalBrush="fight.cf_huadonganniu" PressBrush="fight.cf_huadonganniu" Size="W:38.000000 H:39.000000" />
+                </InnerControl>
+                <Events>
+                    <Event Name="TrackBar::ValueChangedEvent" Subscriber="FightConfigPanel:OnChangeEffectVolume" />
+                </Events>
+            </TrackBar>
+        </Panel>
+        <Panel HLayout="Stretch" Name="info" Size="W:960.000000 H:640.000000" VLayout="Stretch" Visibility="Hidden" ZOrder="100">
+            <BrushElement Background="godsSenki.explain_bg" HLayout="Center" Margin="L:0.000000 T:115.000000 R:0.000000 B:0.000000" Name="infoPanel" Size="W:680.000000 H:475.000000">
+                <Label Font="FZ_24_noborder" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:-8.000000" Name="tipInfo" Size="W:610.000000 H:73.000000" Text="タップでバトルに戻る" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+                <TouchScrollPanel Clip="true" HLayout="Center" Margin="L:0.000000 T:70.000000 R:0.000000 B:0.000000" Name="scrollPanel" Size="W:580.000000 H:337.000000">
+                    <InnerControl>
+                        <VScrollBar HLayout="Right" LargeChange="81.12" Maximum="1063.00" Minimum="0.00" Pick="false" Size="W:20.000000 H:100.000000" SmallChange="0.10" VLayout="Stretch" Value="0.00">
+                            <InnerControl>
+                                <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" VLayout="Bottom" />
+                                <Button Name="Bar" Pick="false" Translate="X:0.000000 Y:20.000000" />
+                            </InnerControl>
+                        </VScrollBar>
+                        <HScrollBar HLayout="Stretch" LargeChange="0.00" Maximum="0.00" Minimum="0.00" Pick="false" Size="W:100.000000 H:20.000000" SmallChange="0.10" VLayout="Bottom" Value="0.00">
+                            <InnerControl>
+                                <Button Name="UpButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button HLayout="Right" Name="DownButton" Pick="false" Size="W:20.000000 H:20.000000" />
+                                <Button Name="Bar" Pick="false" Translate="X:-1.#IND00 Y:0.000000" />
+                            </InnerControl>
+                        </HScrollBar>
+                    </InnerControl>
+                    <Panel Name="panel" Size="W:580.000000 H:1400.000000">
+                        <Label AutoNewline="true" Font="FZ_20_noborder" LineGap="-3" Name="label" Size="W:580.000000 H:1400.000000" TextAlignStyle="TopLeft" />
+                    </Panel>
+                </TouchScrollPanel>
+                <Label Font="FZ_20_noborder" HLayout="Center" Margin="L:0.000000 T:25.000000 R:0.000000 B:0.000000" Size="W:580.000000 H:40.000000" Text="バトルヘルプ：" ZOrder="50" />
+                <BrushElement Background="godsSenki.common_black_title" HLayout="Center" Size="W:680.000000 H:70.000000" ZOrder="5" />
+            </BrushElement>
+        </Panel>
+        <Panel Background="fight.love_navidiban" Margin="L:139.000000 T:0.000000 R:0.000000 B:123.000000" Name="AngerGuidePanel" Size="W:290.000000 H:111.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="2000">
+            <Label AutoNewline="true" Font="FZ_18_miaobiao_R8G48B144" Margin="L:21.000000 T:15.000000 R:0.000000 B:0.000000" Name="info" Size="W:247.000000 H:83.000000" Text="攻撃によりSPが上昇します&#x0A;この値が100になっても&#x0A;スキルカードを獲得できます" TextAlignStyle="MiddleCenter" />
+            <BrushElement Background="fight.love_jiantou" Margin="L:-33.000000 T:65.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:59.000000" Skew="X:-130.000000 Y:-130.000000" />
+        </Panel>
+        <Panel HLayout="Stretch" Name="TraceEffectPanel" Opacity="0.50" Pick="false" Size="W:105.000000 H:38.000000" VLayout="Stretch" Visibility="Hidden" ZOrder="99999">
+            <StackPanel Alignment="Left" Margin="L:0.000000 T:65.000000 R:0.000000 B:0.000000" Name="leftList" Pick="false" Size="W:492.000000 H:561.000000" />
+        </Panel>
+        <BrushElement HLayout="Stretch" Name="shader" Size="W:50.000000 H:50.000000" VLayout="Stretch" Visibility="Hidden" ZOrder="5" />
+        <Panel Background="common.color_bg1" HLayout="Center" Name="win_treasure" Size="W:430.000000 H:200.000000" VLayout="Center" Visibility="Hidden" ZOrder="10">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-32.000000 R:0.000000 B:0.000000" Name="includeArmature" Size="W:271.000000 H:64.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-75.000000 R:0.000000 B:0.000000" Size="W:178.000000 H:132.000000" />
+            <Button Background="godsSenki.green40_button1" CoverBrush="godsSenki.green40_button1" Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:23.000000" Name="return" NormalBrush="godsSenki.green40_button1" PressBrush="godsSenki.green40_button2" Size="W:125.000000 H:55.000000" Text="戻  る" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                <Events>
+                    <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                </Events>
+            </Button>
+            <TextElement Font="huakang_24" Margin="L:41.000000 T:50.000000 R:0.000000 B:0.000000" Size="W:517.000000 H:36.000000" Text="おめでとうございます!採掘場の蔵を占領しました!" TextColor="LT:0xff07cdff LB:0xffd1f9ff RT:0xff07cdff RB:0xffd1f9ff" Visibility="Hidden" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:27.000000 R:0.000000 B:0.000000" Size="W:175.000000 H:144.000000" VLayout="Center" />
+            <Label AutoNewline="true" Font="huakang_24" HLayout="Center" Margin="L:-20.000000 T:14.000000 R:0.000000 B:0.000000" Size="W:321.000000 H:109.000000" Text="おめでとうございます!&#x0A;採掘場の蔵を占領しました!" TextColor="LT:0xff07cdff LB:0xffd1f9ff RT:0xff07cdff RB:0xffd1f9ff" />
+        </Panel>
+        <Panel HLayout="Center" Margin="L:2.000000 T:0.000000 R:0.000000 B:0.000000" Name="win" Size="W:530.000000 H:450.000000" VLayout="Center" Visibility="Hidden" ZOrder="10">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-18.000000 R:0.000000 B:0.000000" Name="includeArmature" Size="W:271.000000 H:64.000000">
+                <ArmatureUI HLayout="Center" Size="W:1.000000 H:1.000000" VLayout="Center" />
+            </BrushElement>
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-77.000000 R:0.000000 B:0.000000" Size="W:178.000000 H:132.000000" />
+            <BrushElement HLayout="Center" Margin="L:56.000000 T:47.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <BrushElement HLayout="Center" Margin="L:-54.000000 T:47.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <Label Font="huakang_24" HLayout="Center" Margin="L:0.000000 T:99.000000 R:0.000000 B:0.000000" Name="levelUp" Size="W:453.000000 H:50.000000" Text="おめでとうございます！Lv18になりました！" TextAlignStyle="MiddleCenter" TextColor="LT:0xff03a4ff LB:0xff99f9ff RT:0xff03a4ff RB:0xff99f9ff" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:150.000000 R:0.000000 B:0.000000" Size="W:350.000000 H:5.000000" />
+            <StackPanel Alignment="Top" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:232.000000 R:0.000000 B:0.000000" Name="itemList" Orientation="Horizontal" Size="W:321.000000 H:115.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:203.000000 R:0.000000 B:0.000000" Name="line2" Size="W:350.000000 H:5.000000" />
+            <Label Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:285.000000 R:0.000000 B:0.000000" Name="tips" Size="W:420.000000 H:50.000000" Text="いいことをすると、アイテムのドロップ率が高くなるよ^^" TextAlignStyle="MiddleCenter" TextColor="0xffc0c0c0" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:379.000000 R:0.000000 B:0.000000" Name="btnList" Orientation="Horizontal" Size="W:430.000000 H:55.000000" Space="90.00">
+                <Button Font="huakang_20" HLayout="Center" Margin="L:6.000000 T:0.000000 R:0.000000 B:-54.000000" Name="fightAgain" Size="W:120.000000 H:55.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnTryAgain" />
+                    </Events>
+                </Button>
+                <Button Font="huakang_20" Margin="L:357.000000 T:0.000000 R:0.000000 B:-62.000000" Name="return" Size="W:120.000000 H:55.000000" Text="戻  る" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                    </Events>
+                </Button>
+            </StackPanel>
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:153.000000 R:0.000000 B:0.000000" Name="rewardList" Orientation="Horizontal" Size="W:487.000000 H:50.000000" Space="50.00">
+                <Panel Margin="L:85.000000 T:133.000000 R:0.000000 B:0.000000" Name="gold" Size="W:80.000000 H:40.000000">
+                    <BrushElement Size="W:40.000000 H:40.000000" />
+                    <Label Font="huakang_20" Margin="L:44.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:77.000000 H:30.000000" Text="+555" />
+                </Panel>
+                <Panel Margin="L:199.000000 T:133.000000 R:0.000000 B:0.000000" Name="exp" Size="W:80.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:6.000000 R:0.000000 B:0.000000" Size="W:41.000000 H:28.000000" />
+                    <Label Font="huakang_20" Margin="L:46.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:76.000000 H:30.000000" Text="+555" />
+                </Panel>
+                <Panel Margin="L:353.000000 T:133.000000 R:0.000000 B:0.000000" Name="rmb" Size="W:77.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Size="W:29.000000 H:34.000000" />
+                    <Label Font="huakang_20" Margin="L:35.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:35.000000 H:30.000000" Text="+10" />
+                </Panel>
+                <Panel Margin="L:353.000000 T:133.000000 R:0.000000 B:0.000000" Name="soul" Size="W:77.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Size="W:40.000000 H:40.000000" />
+                    <Label Font="huakang_20" Margin="L:43.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:41.000000 H:30.000000" Text="+20" />
+                </Panel>
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="zhanli" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Name="icon" Size="W:38.000000 H:42.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="num" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+            </StackPanel>
+            <BrushElement HLayout="Center" Margin="L:1.000000 T:54.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-69.000000 R:0.000000 B:0.000000" Name="limitRoundBrush" Size="W:175.000000 H:144.000000" VLayout="Center" />
+            <BrushElement HLayout="Center" Margin="L:55.000000 T:47.000000 R:0.000000 B:0.000000" Name="xing1" Size="W:48.000000 H:46.000000" ZOrder="1" />
+            <BrushElement HLayout="Center" Margin="L:-55.000000 T:47.000000 R:0.000000 B:0.000000" Name="xing3" Size="W:48.000000 H:46.000000" ZOrder="1" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:54.000000 R:0.000000 B:0.000000" Name="xing2" Size="W:48.000000 H:46.000000" ZOrder="1" />
+        </Panel>
+        <Panel HLayout="Center" Margin="L:2.000000 T:0.000000 R:0.000000 B:0.000000" Name="win_nolv" Size="W:530.000000 H:428.000000" VLayout="Center" Visibility="Hidden" ZOrder="10">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-18.000000 R:0.000000 B:0.000000" Name="includeArmature" Size="W:271.000000 H:64.000000">
+                <ArmatureUI HLayout="Center" Size="W:1.000000 H:1.000000" VLayout="Center" />
+            </BrushElement>
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-77.000000 R:0.000000 B:0.000000" Size="W:178.000000 H:132.000000" />
+            <BrushElement HLayout="Center" Margin="L:56.000000 T:47.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <BrushElement HLayout="Center" Margin="L:1.000000 T:54.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <BrushElement HLayout="Center" Margin="L:-54.000000 T:47.000000 R:0.000000 B:0.000000" Size="W:48.000000 H:46.000000" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:109.000000 R:0.000000 B:0.000000" Size="W:350.000000 H:5.000000" />
+            <StackPanel Alignment="Top" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:105.000000" Name="itemList" Orientation="Horizontal" Size="W:1.000000 H:115.000000" VLayout="Bottom" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:192.000000 R:0.000000 B:0.000000" Name="line2" Size="W:350.000000 H:5.000000" />
+            <Label Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:123.000000" Name="tips" Size="W:422.000000 H:50.000000" Text="いいことをすると、アイテムのドロップ率が高くなるよ^^" TextAlignStyle="MiddleCenter" TextColor="0xffc0c0c0" VLayout="Bottom" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:18.000000" Name="btnList" Orientation="Horizontal" Size="W:330.000000 H:55.000000" Space="90.00" VLayout="Bottom">
+                <Button Font="huakang_20" HLayout="Center" Margin="L:-17.000000 T:0.000000 R:0.000000 B:3.000000" Name="fightAgain" Size="W:120.000000 H:55.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnTryAgain" />
+                    </Events>
+                </Button>
+                <Button Font="huakang_20" Margin="L:379.000000 T:0.000000 R:0.000000 B:3.000000" Name="return" Size="W:120.000000 H:55.000000" Text="戻  る" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                    </Events>
+                </Button>
+            </StackPanel>
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:129.000000 R:0.000000 B:0.000000" Name="rewardList" Orientation="Horizontal" Size="W:337.000000 H:50.000000" Space="50.00">
+                <Panel Margin="L:85.000000 T:133.000000 R:0.000000 B:0.000000" Name="gold" Size="W:80.000000 H:40.000000">
+                    <BrushElement Size="W:40.000000 H:40.000000" />
+                    <Label Font="huakang_20" Margin="L:44.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:77.000000 H:30.000000" Text="+555" />
+                </Panel>
+                <Panel Margin="L:199.000000 T:133.000000 R:0.000000 B:0.000000" Name="exp" Size="W:80.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:6.000000 R:0.000000 B:0.000000" Size="W:41.000000 H:28.000000" />
+                    <Label Font="huakang_20" Margin="L:46.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:76.000000 H:30.000000" Text="+555" />
+                </Panel>
+                <Panel Margin="L:353.000000 T:133.000000 R:0.000000 B:0.000000" Name="rmb" Size="W:77.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Size="W:29.000000 H:34.000000" />
+                    <Label Font="huakang_20" Margin="L:35.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:35.000000 H:30.000000" Text="+10" />
+                </Panel>
+                <Panel Margin="L:353.000000 T:133.000000 R:0.000000 B:0.000000" Name="soul" Size="W:77.000000 H:40.000000">
+                    <BrushElement Margin="L:0.000000 T:1.000000 R:0.000000 B:0.000000" Size="W:40.000000 H:40.000000" />
+                    <Label Font="huakang_20" Margin="L:43.000000 T:7.000000 R:0.000000 B:0.000000" Name="num" Size="W:41.000000 H:30.000000" Text="+20" />
+                </Panel>
+                <CombinedElement Alignment="Center" Margin="L:34.000000 T:186.000000 R:0.000000 B:0.000000" Name="zhanli" Size="W:0.000000 H:0.000000" Space="6.00">
+                    <BrushElement Name="icon" Size="W:38.000000 H:42.000000" />
+                    <TextElement Font="huakang_20" Margin="L:49.000000 T:6.000000 R:0.000000 B:0.000000" Name="num" Size="W:49.000000 H:30.000000" Text="+100" />
+                </CombinedElement>
+            </StackPanel>
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-60.000000 R:0.000000 B:0.000000" Name="limitRoundBrush" Size="W:175.000000 H:144.000000" VLayout="Center" />
+            <BrushElement HLayout="Center" Margin="L:55.000000 T:47.000000 R:0.000000 B:0.000000" Name="xing1" Size="W:48.000000 H:46.000000" ZOrder="1" />
+            <BrushElement HLayout="Center" Margin="L:-55.000000 T:47.000000 R:0.000000 B:0.000000" Name="xing3" Size="W:48.000000 H:46.000000" ZOrder="1" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:54.000000 R:0.000000 B:0.000000" Name="xing2" Size="W:48.000000 H:46.000000" ZOrder="1" />
+            <TrackBar AlwaysOnTop="true" CurValue="26" Margin="L:196.000000 T:284.000000 R:0.000000 B:0.000000" Name="bgmVolume" Size="W:207.000000 H:30.000000">
+                <InnerControl>
+                    <Button />
+                </InnerControl>
+            </TrackBar>
+        </Panel>
+        <Panel HLayout="Center" Name="lose" Size="W:490.000000 H:450.000000" VLayout="Center" Visibility="Hidden" ZOrder="10">
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:68.000000 R:0.000000 B:0.000000" Size="W:189.000000 H:165.000000">
+                <BrushElement HLayout="Center" Margin="L:0.000000 T:-51.000000 R:0.000000 B:0.000000" Size="W:198.000000 H:187.000000" />
+            </BrushElement>
+            <ArmatureUI HLayout="Center" Margin="L:0.000000 T:185.000000 R:0.000000 B:0.000000" Name="leaf" Size="W:50.000000 H:50.000000" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:375.000000 R:0.000000 B:0.000000" Name="btnList" Orientation="Horizontal" Size="W:330.000000 H:55.000000" Space="90.00">
+                <Button Font="huakang_20" Margin="L:7.000000 T:0.000000 R:0.000000 B:-139.000000" Name="fightAgain" Size="W:120.000000 H:55.000000" Text="再挑戦する" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnTryAgain" />
+                    </Events>
+                </Button>
+                <Button Font="huakang_20" Margin="L:602.000000 T:0.000000 R:0.000000 B:-41.000000" Name="return" Size="W:120.000000 H:55.000000" Text="戻  る" TextAlignStyle="MiddleCenter" VLayout="Bottom">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="FightOverUIManager:OnBackToPveBarrier" />
+                    </Events>
+                </Button>
+            </StackPanel>
+            <TextElement Font="huakang_20" HLayout="Center" Margin="L:0.000000 T:340.000000 R:0.000000 B:0.000000" Size="W:246.000000 H:30.000000" Text="キャラを強化して再挑戦だ！" TextColor="LT:0xfff3f3f4 LB:0xff878787 RT:0xfff3f3f4 RB:0xff878787" />
+            <BrushElement HLayout="Center" Margin="L:0.000000 T:-31.000000 R:0.000000 B:0.000000" ShaderType="1" Size="W:271.000000 H:64.000000" />
+            <StackPanel Alignment="Center" AutoSize="true" HLayout="Center" Margin="L:0.000000 T:230.000000 R:0.000000 B:0.000000" Name="stackpanel" Orientation="Horizontal" Size="W:363.000000 H:104.000000" Space="30.00">
+                <Button Margin="L:57.000000 T:230.000000 R:0.000000 B:0.000000" Name="gemStone" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PveLosePanel:onGemStoneClick" />
+                    </Events>
+                </Button>
+                <Button HLayout="Right" Margin="L:0.000000 T:230.000000 R:57.000000 B:0.000000" Name="refine" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PveLosePanel:onRefineClick" />
+                    </Events>
+                </Button>
+                <Button HLayout="Center" Margin="L:0.000000 T:230.000000 R:0.000000 B:0.000000" Name="equipStrength" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PveLosePanel:onEquipStrengthClick" />
+                    </Events>
+                </Button>
+                <Button HLayout="Center" Margin="L:0.000000 T:230.000000 R:0.000000 B:0.000000" Name="skill" Size="W:101.000000 H:104.000000">
+                    <Events>
+                        <Event Name="Button::ClickEvent" Subscriber="PveLosePanel:onSkillClick" />
+                    </Events>
+                </Button>
+            </StackPanel>
+        </Panel>
+        <Panel Background="fight.fight_card_diban" HLayout="Stretch" Name="DebugPanel" Opacity="0.50" Pick="false" Size="W:105.000000 H:38.000000" VLayout="Stretch" Visibility="Hidden" ZOrder="99999">
+            <StackPanel Alignment="Left" Margin="L:0.000000 T:65.000000 R:0.000000 B:0.000000" Name="leftList" Pick="false" Size="W:492.000000 H:561.000000" />
+            <StackPanel HLayout="Right" Margin="L:0.000000 T:65.000000 R:0.000000 B:0.000000" Name="rightList" Pick="false" Size="W:492.000000 H:397.000000" />
+        </Panel>
+        <Panel HLayout="Stretch" Margin="L:0.000000 T:8.000000 R:0.000000 B:8.000000" Name="GuidePanel" Pick="false" Size="W:0.000000 H:0.000000" VLayout="Stretch" ZOrder="5000" />
+        <Panel Background="fight.love_navidiban" Margin="L:105.000000 T:0.000000 R:0.000000 B:424.000000" Name="InfoGuidePanel" Size="W:290.000000 H:85.000000" VLayout="Bottom" Visibility="Hidden" ZOrder="2000">
+            <Label AutoNewline="true" Font="FZ_18_miaobiao_R8G48B144" Margin="L:19.000000 T:12.000000 R:0.000000 B:0.000000" Name="info" Size="W:247.000000 H:60.000000" Text="7秒ごとにスキルカードを1枚獲得可能です" TextAlignStyle="MiddleCenter" />
+            <BrushElement Background="fight.love_jiantou" Margin="L:-43.000000 T:-17.000000 R:0.000000 B:0.000000" Size="W:50.000000 H:59.000000" Skew="X:-45.000000 Y:-45.000000" />
+        </Panel>
+        <Panel HLayout="Stretch" Name="fightImageGuidePanel" Size="W:50.000000 H:50.000000" VLayout="Stretch" Visibility="Hidden" ZOrder="10">
+            <ImageElement HLayout="Stretch" Image="home_menghui" Margin="L:-1000.000000 T:-1000.000000 R:-1000.000000 B:-1000.000000" Name="imgBG" Size="W:50.000000 H:50.000000" VLayout="Stretch" Visibility="Hidden" />
+            <Panel Background="EidolonSystem.Black" HLayout="Stretch" Margin="L:-1000.000000 T:-1000.000000 R:-1000.000000 B:-1000.000000" Name="imgBackGround" Opacity="0.90" Size="W:50.000000 H:50.000000" VLayout="Stretch" />
+            <Panel Background="godsSenki.explain_bg" HLayout="Center" Name="guidePanel" Pick="false" Size="W:700.000000 H:470.000000" VLayout="Center" ZOrder="10">
+                <Label Font="huakang_20miaobian_R38G19B0" HLayout="Center" Margin="L:0.000000 T:15.000000 R:0.000000 B:0.000000" Name="title" Pick="false" Size="W:300.000000 H:40.000000" Text="コンボ説明" TextAlignStyle="MiddleCenter" />
+                <ImageElement AutoSize="false" HLayout="Center" Image="qiandao_friend_line" Margin="L:0.000000 T:50.000000 R:0.000000 B:0.000000" Name="lineImg" Pick="false" Size="W:576.000000 H:3.000000" />
+                <Label Font="FZ_20_miaobian_R38G19B0" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:-40.000000" Name="continueLabel" Pick="false" Size="W:183.000000 H:40.000000" Text="タップして続ける" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+                <ImageElement AutoSize="false" HLayout="Center" Margin="L:0.000000 T:57.000000 R:0.000000 B:0.000000" Name="img" Pick="false" Size="W:576.000000 H:342.000000" />
+                <Panel HLayout="Center" Margin="L:0.000000 T:410.000000 R:0.000000 B:0.000000" Name="panel" Size="W:400.000000 H:50.000000">
+                    <StackPanel AutoSize="true" HLayout="Center" Name="stackPanel" Size="W:400.000000 H:-5.000000" Space="0.00">
+                        <Label AutoNewline="true" Font="huakang_16_miaobian_R108G3B130" HLayout="Center" Margin="L:0.000000 T:0.000000 R:0.000000 B:-12.000000" Name="tip1" Pick="false" Size="W:700.000000 H:52.000000" Text="始動" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+                        <Label Font="huakang_16_miaobian_R108G3B130" HLayout="Center" Name="tip2" Pick="false" Size="W:700.000000 H:20.000000" Text="始動" TextAlignStyle="MiddleCenter" VLayout="Bottom" />
+                    </StackPanel>
+                </Panel>
+            </Panel>
+        </Panel>
+        <Label AlwaysOnTop="true" Font="huakang_24" HLayout="Right" Margin="L:0.000000 T:-1.000000 R:-4.000000 B:0.000000" Name="labelTimeRest" Size="W:120.000000 H:30.000000" Text="00:00:00" TextAlignStyle="MiddleCenter" />
+        <Panel AlwaysOnTop="true" Margin="L:49.000000 T:141.000000 R:0.000000 B:0.000000" Name="gesturePowerPanel" Size="W:70.000000 H:437.000000" Visibility="Hidden">
+            <ProgressBar CurValue="11" HLayout="Center" MaxValue="12" Name="powerProgressBar" ShowText="false" Size="W:70.000000 H:437.000000" StepOrientation="Bottom2Top" VLayout="Center" ZOrder="-1" />
+            <BrushElement Margin="L:30.000000 T:274.000000 R:0.000000 B:0.000000" Name="step1" Size="W:47.000000 H:34.000000" Visibility="Hidden">
+                <BrushElement Background="fight.fight_gou" Margin="L:16.000000 T:4.000000 R:0.000000 B:0.000000" Size="W:28.000000 H:26.000000" />
+            </BrushElement>
+            <BrushElement Margin="L:30.000000 T:165.000000 R:0.000000 B:0.000000" Name="step3" Size="W:47.000000 H:34.000000" Visibility="Hidden">
+                <BrushElement Margin="L:17.000000 T:4.000000 R:0.000000 B:0.000000" Size="W:28.000000 H:26.000000" />
+            </BrushElement>
+            <BrushElement Margin="L:30.000000 T:201.000000 R:0.000000 B:0.000000" Name="step2" Size="W:47.000000 H:34.000000" Visibility="Hidden">
+                <BrushElement Margin="L:15.000000 T:3.000000 R:0.000000 B:0.000000" Size="W:28.000000 H:26.000000" />
+            </BrushElement>
+            <BrushElement Margin="L:30.000000 T:38.000000 R:0.000000 B:0.000000" Name="step4" Size="W:47.000000 H:34.000000" Visibility="Hidden">
+                <BrushElement Margin="L:16.000000 T:2.000000 R:0.000000 B:0.000000" Size="W:28.000000 H:26.000000" />
+            </BrushElement>
+        </Panel>
+    </Desktop>
+</UISystem>

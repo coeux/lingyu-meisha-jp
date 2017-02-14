@@ -1,0 +1,12 @@
+<TextureAtlas name="H029_gongji" width="256" height="512">
+  <SubTexture name="重复项目文件夹/元件 5 副本" width="111" height="55" cocos2d_pX="56" cocos2d_pY="28" x="100" y="190"/>
+  <SubTexture name="重复项目文件夹/元件 4 副本" width="98" height="46" cocos2d_pX="49" cocos2d_pY="23" x="0" y="178"/>
+  <SubTexture name="重复项目文件夹/元件 3 副本" width="82" height="55" cocos2d_pX="41" cocos2d_pY="28" x="73" y="247"/>
+  <SubTexture name="重复项目文件夹/元件 2" width="94" height="41" cocos2d_pX="47" cocos2d_pY="21" x="157" y="247"/>
+  <SubTexture name="重复项目文件夹/元件 13" width="28" height="20" cocos2d_pX="14" cocos2d_pY="10" x="196" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 12" width="71" height="69" cocos2d_pX="36" cocos2d_pY="35" x="0" y="226"/>
+  <SubTexture name="重复项目文件夹/元件 11" width="90" height="73" cocos2d_pX="45" cocos2d_pY="37" x="0" y="103"/>
+  <SubTexture name="重复项目文件夹/元件 10" width="99" height="101" cocos2d_pX="50" cocos2d_pY="51" x="0" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 9" width="93" height="97" cocos2d_pX="47" cocos2d_pY="49" x="101" y="0"/>
+  <SubTexture name="重复项目文件夹/元件 8" width="88" height="89" cocos2d_pX="44" cocos2d_pY="45" x="101" y="99"/>
+</TextureAtlas>

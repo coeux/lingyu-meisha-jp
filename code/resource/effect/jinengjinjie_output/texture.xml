@@ -1,0 +1,22 @@
+<TextureAtlas name="jinengjinjie - 副本 (2)" width="512" height="512">
+  <SubTexture name="补间 29" width="130" height="128" x="132" y="0"/>
+  <SubTexture name="补间 28" width="130" height="128" x="264" y="0"/>
+  <SubTexture name="补间 27" width="130" height="128" x="0" y="0"/>
+  <SubTexture name="补间 26" width="127" height="120" x="0" y="130"/>
+  <SubTexture name="补间 25" width="121" height="122" x="129" y="130"/>
+  <SubTexture name="补间 24" width="108" height="111" x="396" y="0"/>
+  <SubTexture name="补间 23" width="95" height="98" x="396" y="113"/>
+  <SubTexture name="shengjiechenggong" width="168" height="55" x="318" y="291"/>
+  <SubTexture name="元件 5" width="90" height="87" x="252" y="130"/>
+  <SubTexture name="元件 1" width="38" height="36" x="344" y="130"/>
+  <SubTexture name="重复项目文件夹/元件 6" width="10" height="10" x="493" y="113"/>
+  <SubTexture name="补间 38" width="33" height="33" x="344" y="168"/>
+  <SubTexture name="补间 37" width="59" height="55" x="190" y="254"/>
+  <SubTexture name="补间 36" width="67" height="55" x="121" y="254"/>
+  <SubTexture name="补间 35" width="65" height="70" x="411" y="213"/>
+  <SubTexture name="补间 34" width="65" height="76" x="344" y="213"/>
+  <SubTexture name="补间 33" width="51" height="73" x="68" y="252"/>
+  <SubTexture name="补间 32" width="66" height="60" x="0" y="252"/>
+  <SubTexture name="补间 31" width="71" height="57" x="252" y="219"/>
+  <SubTexture name="补间 30" width="65" height="43" x="251" y="278"/>
+</TextureAtlas>

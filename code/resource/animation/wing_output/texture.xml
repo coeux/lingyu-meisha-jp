@@ -1,0 +1,54 @@
+<TextureAtlas name="wing1" width="1024" height="1024">
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀2" width="184" height="85" cocos2d_pX="92" cocos2d_pY="43" x="807" y="290"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀3" width="124" height="123" cocos2d_pX="62" cocos2d_pY="62" x="381" y="309"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀2_2" width="191" height="96" cocos2d_pX="99" cocos2d_pY="47" x="750" y="0"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀3_2" width="155" height="126" cocos2d_pX="87" cocos2d_pY="59" x="519" y="116"/>
+ <SubTexture name="翅膀4" width="141" height="51" cocos2d_pX="71" cocos2d_pY="26" x="304" y="538"/>
+ <SubTexture name="元件 74" width="90" height="87" cocos2d_pX="45" cocos2d_pY="44" x="711" y="388"/>
+ <SubTexture name="元件 73" width="88" height="85" cocos2d_pX="44" cocos2d_pY="43" x="0" y="547"/>
+ <SubTexture name="元件 72" width="90" height="84" cocos2d_pX="45" cocos2d_pY="42" x="711" y="477"/>
+ <SubTexture name="元件 71" width="90" height="83" cocos2d_pX="45" cocos2d_pY="42" x="201" y="543"/>
+ <SubTexture name="元件 70" width="89" height="83" cocos2d_pX="45" cocos2d_pY="41" x="771" y="584"/>
+ <SubTexture name="元件 69" width="88" height="84" cocos2d_pX="44" cocos2d_pY="42" x="862" y="587"/>
+ <SubTexture name="元件 68" width="89" height="81" cocos2d_pX="45" cocos2d_pY="41" x="293" y="591"/>
+ <SubTexture name="元件 67" width="92" height="78" cocos2d_pX="46" cocos2d_pY="39" x="447" y="589"/>
+ <SubTexture name="元件 66" width="89" height="77" cocos2d_pX="45" cocos2d_pY="39" x="725" y="669"/>
+ <SubTexture name="元件 65" width="88" height="74" cocos2d_pX="44" cocos2d_pY="37" x="0" y="634"/>
+ <SubTexture name="元件 64" width="89" height="83" cocos2d_pX="45" cocos2d_pY="42" x="680" y="563"/>
+ <SubTexture name="元件 63" width="89" height="81" cocos2d_pX="45" cocos2d_pY="41" x="541" y="596"/>
+ <SubTexture name="元件 62" width="89" height="80" cocos2d_pX="44" cocos2d_pY="40" x="90" y="610"/>
+ <SubTexture name="元件 61" width="91" height="75" cocos2d_pX="46" cocos2d_pY="37" x="181" y="628"/>
+ <SubTexture name="元件 60" width="90" height="76" cocos2d_pX="45" cocos2d_pY="38" x="384" y="669"/>
+ <SubTexture name="元件 59" width="91" height="75" cocos2d_pX="46" cocos2d_pY="37" x="632" y="648"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/光环" width="88" height="29" cocos2d_pX="44" cocos2d_pY="15" x="816" y="673"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/头翅" width="52" height="66" cocos2d_pX="27" cocos2d_pY="32" x="676" y="116"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/头翅_2" width="60" height="70" cocos2d_pX="31" cocos2d_pY="34" x="943" y="0"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/头翅_3" width="57" height="68" cocos2d_pX="30" cocos2d_pY="35" x="943" y="72"/>
+ <SubTexture name="元件 16" width="100" height="104" cocos2d_pX="50" cocos2d_pY="52" x="507" y="379"/>
+ <SubTexture name="元件 15" width="100" height="105" cocos2d_pX="50" cocos2d_pY="53" x="0" y="335"/>
+ <SubTexture name="元件 14" width="101" height="104" cocos2d_pX="51" cocos2d_pY="52" x="139" y="300"/>
+ <SubTexture name="元件 13" width="102" height="102" cocos2d_pX="51" cocos2d_pY="51" x="807" y="377"/>
+ <SubTexture name="元件 12" width="100" height="102" cocos2d_pX="50" cocos2d_pY="51" x="381" y="434"/>
+ <SubTexture name="元件 11" width="101" height="104" cocos2d_pX="51" cocos2d_pY="52" x="139" y="194"/>
+ <SubTexture name="元件 10" width="99" height="101" cocos2d_pX="50" cocos2d_pY="50" x="803" y="481"/>
+ <SubTexture name="元件 9" width="99" height="105" cocos2d_pX="49" cocos2d_pY="53" x="102" y="406"/>
+ <SubTexture name="元件 8" width="100" height="104" cocos2d_pX="50" cocos2d_pY="52" x="911" y="377"/>
+ <SubTexture name="元件 7" width="97" height="102" cocos2d_pX="49" cocos2d_pY="51" x="904" y="483"/>
+ <SubTexture name="元件 6" width="99" height="103" cocos2d_pX="49" cocos2d_pY="52" x="203" y="438"/>
+ <SubTexture name="元件 5" width="97" height="100" cocos2d_pX="49" cocos2d_pY="50" x="581" y="494"/>
+ <SubTexture name="元件 4" width="96" height="102" cocos2d_pX="48" cocos2d_pY="51" x="483" y="485"/>
+ <SubTexture name="元件 3" width="100" height="104" cocos2d_pX="50" cocos2d_pY="52" x="609" y="388"/>
+ <SubTexture name="元件 2" width="98" height="103" cocos2d_pX="49" cocos2d_pY="52" x="0" y="442"/>
+ <SubTexture name="元件 1" width="99" height="95" cocos2d_pX="49" cocos2d_pY="47" x="100" y="513"/>
+ <SubTexture name="元件 77" width="135" height="133" cocos2d_pX="68" cocos2d_pY="67" x="516" y="244"/>
+ <SubTexture name="元件 76" width="137" height="129" cocos2d_pX="69" cocos2d_pY="64" x="242" y="307"/>
+ <SubTexture name="元件 75" width="137" height="139" cocos2d_pX="68" cocos2d_pY="70" x="0" y="194"/>
+ <SubTexture name="元件 58" width="142" height="141" cocos2d_pX="71" cocos2d_pY="70" x="750" y="98"/>
+ <SubTexture name="元件 52" width="137" height="142" cocos2d_pX="69" cocos2d_pY="71" x="258" y="163"/>
+ <SubTexture name="元件 49" width="129" height="145" cocos2d_pX="65" cocos2d_pY="73" x="676" y="241"/>
+ <SubTexture name="元件 19" width="124" height="146" cocos2d_pX="62" cocos2d_pY="73" x="894" y="142"/>
+ <SubTexture name="元件 18" width="117" height="144" cocos2d_pX="59" cocos2d_pY="72" x="397" y="163"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀1" width="229" height="114" cocos2d_pX="116" cocos2d_pY="56" x="519" y="0"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀1_2" width="259" height="161" cocos2d_pX="132" cocos2d_pY="75" x="258" y="0"/>
+ <SubTexture name="翅膀-改2.psd 资源 1/翅膀1_3" width="256" height="192" cocos2d_pX="129" cocos2d_pY="80" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,467 @@
+set names utf8;
+
+create table if not exists UserID(
+uid int(10) unsigned NOT NULL comment '角色id',
+aid int(10) unsigned not null default '0' comment '帐号id',
+resid smallint(5) unsigned default '0' comment '职业',
+hostnum smallint(5) unsigned not null default '0' comment '服务器编号',
+nickname varchar(30) character set utf8 default null comment '角色名',
+grade smallint(5) unsigned not null default '0' comment '等级',
+viplevel tinyint(3) unsigned not null default '0' comment 'vip等级',
+wingid int(5) unsigned not null default '0' comment '翅膀表格id',
+state tinyint(10) not null default '0' comment '角色状态，是否被删除,0:正常,1:删除,2:封号,4:禁言',
+isoverdue tinyint(3) unsigned not null default '0' comment 'cache过期',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid),
+unique key(nickname),
+key(aid,hostnum))engine=innodb;
+
+create table if not exists UserInfo(
+uid int(10) unsigned NOT NULL default '0' comment '角色id',
+aid int(10) unsigned not null default '0' comment '帐号id',
+resid smallint(5) unsigned not null default '0' comment '职业',
+nickname varchar(30) character set utf8 default null comment '角色名',
+hostnum smallint(5) unsigned not null default '0' comment '服务器编号',
+vipexp int(10) unsigned not null default '0' comment 'vip经验',
+viplevel tinyint(3) unsigned not null default '0' comment 'vip等级',
+fpoint int(10) unsigned not null default '0' comment '友情点',
+gold int(10) unsigned not null default '0' comment '金币',
+payyb int(10) unsigned not null default '0' comment '付费水晶',
+freeyb int(10) unsigned not null default '0' comment '免费水晶',
+exp int(10) unsigned not null default '0' comment '经验',
+grade smallint(5) unsigned not null default '0' comment '等级',
+isnew smallint(5) unsigned not null default '0' comment '新手引导步骤',
+/*酒馆刷新相关*/
+fpflushfirst tinyint(3) not null default '0' comment '友情点第一次刷新伙伴',
+ybflushfirst tinyint(3) not null default '0' comment '元宝第一次刷新伙伴',
+ybflushround int(10) unsigned not null default '0' comment '元宝刷新次数',
+ybflushtimes int(10) unsigned not null default '0' comment '元宝刷新时间',
+kgflushfirst tinyint(3) not null default '0' comment '至尊第一次刷新伙伴',
+kgflushround int(10) unsigned not null default '0' comment '至尊刷新次数',
+kgflushtimes int(10) unsigned not null default '0' comment '至尊刷新时间',
+tkgflushfirst tinyint(3) not null default '0' comment '至尊十连抽第一次刷新伙伴',
+/*酒馆刷新相关*/
+ybflushpub tinyint(3) not null default '0' comment '元宝刷新伙伴',
+ybround tinyint(3) not null default '0' comment '元宝刷新步骤',
+hybflushpub tinyint(3) not null default '0' comment '至尊刷新伙伴',
+hybround tinyint(3) not null default '0' comment '至尊刷新步骤',
+hybgold tinyint(3) not null default '0' comment '至尊刷新是否已出',
+autopub tinyint(3) not null default '0' comment '第一次自动刷新',
+power smallint(5) unsigned not null default '0' comment '体力',
+energy smallint(5) unsigned not null default '0' comment '活力',
+quality tinyint(3) unsigned not null default '0' comment '品质',
+potential tinyint(3) unsigned not null default '0' comment '潜力',
+battlexp int(10) unsigned not null default '0' comment '战历',
+runechip int(10) unsigned not null default '0' comment '符文碎片数',
+sceneid smallint(5) unsigned not null default '1001' comment '场景id',
+roundid smallint(5) unsigned not null default '0' comment '最大普通关卡',
+eliteid smallint(5) unsigned not null default '0' comment '最大精英关卡',
+zodiacid smallint(5) unsigned not null default '0' comment '最大12宫关卡',
+zodiacstamp int(10) unsigned not null default '0' comment '十二宫时间戳',
+questid smallint(5) unsigned not null default '0' comment '主线任务id',
+treasure smallint(5) unsigned not null default '0' comment '巨龙宝库id',
+lastquit int(10) unsigned not null default '0' comment '最后退出时间',
+roundstars varchar(1024) default '' comment '关卡评级', 
+rank smallint(5) unsigned not null default '1500' comment '竞技场排名',
+fp mediumint(8) unsigned not null default '0' comment '战斗力',
+helphero smallint(5) unsigned not null default '0' comment '出战英雄',
+hhresid int(10) not null default '0' comment '出战英雄的resid',
+frd smallint(5) not null default '0' comment '好友数',
+ggid int(10) unsigned not null default '0' comment '公会id',
+totaltime int(10) unsigned not null default '0' comment '总在线时长',
+bagn smallint(5) not null default '0' comment '背包购买次数',
+func bigint(10) unsigned not null default '0' comment '附加功能点',
+utype tinyint(3) not null default '0' comment '0:游戏玩家,1:机器人',
+boxe int(10) not null default '0' comment '黄金宝箱紫装获得次数',
+boxn int(10) not null default '0' comment '黄金宝箱开启次数',
+firstpay tinyint(3) not null default '0' comment '首冲奖励',
+soul int(10) not null default '0' comment '灵能',
+caveid smallint(5) unsigned not null default '0' comment '最大英雄魔窟关卡',
+honor int(10) not null default '0' comment '竞技场荣誉值',
+hm_maxid int(10) unsigned not null default '0' comment '全服邮件当前最大接收id',
+twoprecord int(10) unsigned not null default '0' comment 'tw操作记录',
+limitround int(10) unsigned not null default '0' comment '限时副本次数',
+ctime timestamp not null default CURRENT_TIMESTAMP comment '帐号建立时间',
+primary key(uid),
+unique key(nickname),
+key(grade))engine=innodb;
+
+create table if not exists Partner(
+uid int(10) unsigned not null default '0' comment '角色id',
+pid int(10) unsigned not null default '0' comment '角色id',
+resid smallint(5) unsigned not null default '0' comment '伙伴类型',
+grade smallint(5) unsigned not null default '0' comment '等级',
+exp int(10) unsigned not null default '0' comment '经验',
+quality tinyint(3) not null default '0' comment '品质',
+potential tinyint(3) not null default '0' comment '潜力',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,resid))engine=innodb;
+
+create table if not exists PartnerChip(
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0' comment '道具种类',
+count smallint(5) unsigned not null default '0' comment '道具个数',
+ctime timestamp not null default CURRENT_TIMESTAMP comment '帐号建立时间',
+primary key(uid,resid))engine=innodb;
+
+create table if not exists Item(
+uid int(10) unsigned not null default '0',
+itid int(10) unsigned not null comment '道具id',
+resid smallint(5) not null default '0' comment '道具种类',
+count smallint(5) not null default '0' comment '道具个数',
+ctime timestamp not null default CURRENT_TIMESTAMP comment '帐号建立时间',
+primary key(uid,itid))engine=innodb;
+
+create table if not exists Equip(
+uid int(10) unsigned not null default '0',
+eid int(10) unsigned not null ,
+resid smallint(5) not null default '0' comment '装备种类',
+pid int(10) not null default '0' comment '被谁穿了',
+gresid1 smallint(5) not null default '-1',
+gresid2 smallint(5) not null default '-1',
+gresid3 smallint(5) not null default '-1',
+strenlevel smallint(5) not null default '0' comment '强化等级',
+isweared int(10) not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,eid))engine=innodb;
+
+create table if not exists Skill(
+uid int(10) unsigned not null default '0',
+skid int(10) unsigned not null ,
+resid smallint(5) unsigned not null default '0',
+pid int(10) unsigned not null default '0',
+level tinyint(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,skid))engine=innodb;
+
+/*p1~10出战位置,p11~p20伙伴位置*/
+create table if not exists Team(
+uid int(10) unsigned not null ,
+p1 int(10) not null default '0' comment '0:uid，>0:pid, -1:unused, -2:invalid',
+p2 int(10) not null default '-1',
+p3 int(10) not null default '-1',
+p4 int(10) not null default '-1',
+p5 int(10) not null default '-1',
+p11 int(10) not null default '-1' comment '0:uid，>0:pid, -1:unused, -2:invalid',
+p12 int(10) not null default '-1',
+p13 int(10) not null default '-1',
+p14 int(10) not null default '-1',
+p15 int(10) not null default '-1',
+p16 int(10) not null default '-1',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;
+
+create table if not exists Server(
+serid smallint(5) unsigned not null default '0',
+maxlv smallint(5) unsigned not null default '0',
+wbcut int(10) unsigned not null default '0',
+bosslv smallint(5) unsigned not null default '0',
+result_rank_stamp int(10) unsigned not null default '0' comment 'system reward rank stamp',
+ctime int(10) unsigned not null default '0' comment 'server create stamp',
+primary key(serid))engine=innodb;
+
+create table if not exists Reward(
+uid int(10) unsigned not null default '0',
+vip1 tinyint(3) not null default '0',
+vip2 tinyint(3) not null default '0',
+vip3 tinyint(3) not null default '0',
+vip4 tinyint(3) not null default '0',
+vip5 tinyint(3) not null default '0',
+vip6 tinyint(3) not null default '0',
+vip7 tinyint(3) not null default '0',
+vip8 tinyint(3) not null default '0',
+vip9 tinyint(3) not null default '0',
+vip10 tinyint(3) not null default '0',
+vip11 tinyint(3) not null default '0',
+vip12 tinyint(3) not null default '0',
+given_power_stamp int(10) unsigned not null default '0' comment 'user reward power stamp',
+given_rank_stamp int(10) unsigned not null default '0' comment 'user reward rank stamp',
+first_yb tinyint(3) not null default '0',
+acc_yb1 tinyint(3) not null default '0',
+acc_yb2 tinyint(3) not null default '0',
+acc_yb3 tinyint(3) not null default '0',
+acc_yb4 tinyint(3) not null default '0',
+acc_yb5 tinyint(3) not null default '0',
+acc_yb6 tinyint(3) not null default '0',
+acc_yb7 tinyint(3) not null default '0',
+yblevel tinyint(3) not null default '0',
+con_lg1 tinyint(3) not null default '0',
+con_lg2 tinyint(3) not null default '0',
+con_lg3 tinyint(3) not null default '0',
+con_lg4 tinyint(3) not null default '0',
+con_lg5 tinyint(3) not null default '0',
+con_lg6 tinyint(3) not null default '0',
+con_lg7 tinyint(3) not null default '0',
+conlglevel tinyint(3) not null default '0',
+conhero tinyint(3) not null default '0',
+conequip tinyint(3) not null default '0',
+conlgturn int(10) not null default '0',
+acc_lg1 tinyint(3) not null default '0',
+acc_lg2 tinyint(3) not null default '0',
+acc_lg3 tinyint(3) not null default '0',
+acc_lg4 tinyint(3) not null default '0',
+acc_lg5 tinyint(3) not null default '0',
+acc_lg6 tinyint(3) not null default '0',
+acc_lg7 tinyint(3) not null default '0',
+acc_lg8 tinyint(3) not null default '0',
+acc_lg9 tinyint(3) not null default '0',
+acc_lg10 tinyint(3) not null default '0',
+acc_lg11 tinyint(3) not null default '0',
+acc_lg12 tinyint(3) not null default '0',
+acc_lg13 tinyint(3) not null default '0',
+acc_lg14 tinyint(3) not null default '0',
+acc_lg15 tinyint(3) not null default '0',
+acc_lg16 tinyint(3) not null default '0',
+acc_lg17 tinyint(3) not null default '0',
+acc_lg18 tinyint(3) not null default '0',
+acc_lg19 tinyint(3) not null default '0',
+acc_lg20 tinyint(3) not null default '0',
+acc_lg21 tinyint(3) not null default '0',
+acc_lg22 tinyint(3) not null default '0',
+acc_lg23 tinyint(3) not null default '0',
+acc_lg24 tinyint(3) not null default '0',
+acclglevel tinyint(3) not null default '0',
+acclgexp tinyint(3) not null default '0',
+first_login int(10) unsigned not null default '0',
+last_login int(10) unsigned not null default '0',
+invcode int(10) not null default '0',
+inviter int(10) not null default '0' comment '邀请者',
+inv_reward1 tinyint(3) not null default '0',
+inv_reward2 tinyint(3) not null default '0',
+inv_reward3 tinyint(3) not null default '0',
+inv_reward4 tinyint(3) not null default '0',
+online tinyint(3) not null default '0',
+lv_20 tinyint(3) not null default '0',
+lv_25 tinyint(3) not null default '0',
+lv_30 tinyint(3) not null default '0',
+lv_35 tinyint(3) not null default '0',
+lv_40 tinyint(3) not null default '0',
+lv_45 tinyint(3) not null default '0',
+lv_50 tinyint(3) not null default '0',
+lv_55 tinyint(3) not null default '0',
+lv_60 tinyint(3) not null default '0',
+lv_65 tinyint(3) not null default '0',
+lv_70 tinyint(3) not null default '0',
+cumureward int(10) unsigned not null default '0',
+cumulevel tinyint(3) unsigned not null default '0',
+mcardtm int(10) unsigned not null default '0' comment '月卡奖励领取时间戳',
+mcardn int(10) not null default '0' comment '月卡奖励剩余可领取次数',
+mcardbuytm int(10) unsigned not null default '0' comment '月卡奖励购买时间戳',
+fpreward int(10) unsigned NOT NULL DEFAULT '0' comment '战斗力排名奖励',
+cumu_yb_exp int(10) unsigned not null default '0' comment '消费水晶总额',
+cumu_yb_reward tinyint(3) unsigned not null default '0' comment '消费水晶奖励',
+daily_pay int(10) unsigned not null default '0' comment '每日充值额度',
+daily_pay_reward int(10) unsigned not null default '0' comment '每日充值奖励',
+daily_pay_stamp int(10) unsigned not null default '0' comment '每日充值时间戳',
+adt_reward int(10) unsigned not null default '0' comment '活跃度奖励',
+adt_stamp int(10) unsigned not null default '0' comment '活跃度时间戳',
+vip_package_stamp int(10) unsigned not null default '0' comment 'vip每日奖励时间戳',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;
+
+create table if not exists Task(
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0',
+step tinyint(3) unsigned not null default '0',
+state tinyint(3) not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid, resid))engine=innodb;
+
+drop table if exists Friend;
+create table if not exists Friend(
+uid int(10) unsigned not null default '0',
+fuid int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,fuid))engine=innodb;
+
+drop table if exists Rune;
+create table if not exists Rune(
+uid int(10) unsigned not null default '0',
+rid int(10) unsigned not null default '0',
+pid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0',
+exp int(10) unsigned not null default '0',
+pos tinyint(3) unsigned not null default '0',
+primary key(uid,rid),
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+unique key(uid,pid,pos))engine=innodb;
+
+drop table if exists Gang;
+create table if not exists Gang(
+ggid int(10) unsigned not null default '0',
+hostnum int(10) not null default '0' comment 'game server id',
+level int(10) unsigned not null default '1',
+exp int(10) unsigned not null default '0',
+name varchar(30) character set utf8 default null,
+notice varchar(420) character set utf8 default null,
+bossday int(10) unsigned not null default '0' comment 'boss日期, 0:sunday, 1~6:dayofweek',
+bosslv int(10) unsigned not null default '30' comment 'boss等级',
+lastboss int(10) unsigned not null default '0' comment '上一次boss开放时间',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(ggid, hostnum))engine=innodb;
+
+create table if not exists GangUser(
+uid int(10) unsigned not null default '0',
+ggid int(10) unsigned not null default '0',
+hostnum int(10) not null default '0' comment 'game server id',
+flag tinyint(3) unsigned not null default '0' comment '0:一般会员,1:官员,2:会长',
+gm int(10) unsigned not null default '0' comment '公会贡献',
+totalgm int(10) unsigned not null default '0' comment '公会总贡献',
+nickname varchar(30) character set utf8 default null comment '角色名',
+grade int(10) unsigned not null default '0' comment '用户等级',
+rank int(10) unsigned not null default '0' comment '竞技场排名',
+lastquit int(10) unsigned not null default '0' comment '上一次退出的时间',
+lastboss int(10) unsigned not null default '0' comment '上一次挑战公会boss的时间',
+state int(10) unsigned not null default '0' comment '0:非公会成员，1:公会成员',
+skl1 int(10) unsigned not null default '0',
+skl2 int(10) unsigned not null default '0',
+skl3 int(10) unsigned not null default '0',
+skl4 int(10) unsigned not null default '0',
+skl5 int(10) unsigned not null default '0',
+skl6 int(10) unsigned not null default '0',
+skl7 int(10) unsigned not null default '0',
+skl8 int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid),
+key(hostnum))engine=innodb;
+
+create table if not exists Compensate(
+id int(10) unsigned auto_increment,
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0' comment '补偿类型',
+count int(10) unsigned not null default '0' comment '道具个数',
+state tinyint(10) not null default '0' comment '补偿状态，0,未领取,1,已领取',
+givenstamp int(10) unsigned not null default '0' comment '领取时间',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(id),
+key(uid))engine=innodb;
+
+create table if not exists Star(
+uid int(10) unsigned not null default '0',
+pid int(10) unsigned not null default '0',
+lv tinyint(3) unsigned not null default '0',
+pos tinyint(3) unsigned not null default '0',
+att tinyint(3) not null default '0',
+value smallint(5) not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,pid,lv,pos))engine=innodb;
+
+create table if not exists RoundStarReward(
+uid int(10) unsigned not null default '0' comment '用户id',
+rpid int(10) unsigned not null default '0' comment '关卡页id',
+r1 tinyint(3) unsigned not null default '0' comment '10星奖励',
+r2 tinyint(3) unsigned not null default '0' comment '20星奖励',
+r3 tinyint(3) unsigned not null default '0' comment '30星奖励',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,rpid))engine=innodb;
+
+create table if not exists Mail(
+id int(10) unsigned auto_increment,
+uid int(10) unsigned not null default '0',
+info varchar(200) character set utf8 default null,
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(id),
+key(uid))engine=innodb;
+
+create table if not exists Maquee(
+hostnum int(10) unsigned not null default '0',
+platname varchar(20) character set utf8 default '', 
+notice1 varchar(100) character set utf8 default '', 
+notice2 varchar(100) character set utf8 default '', 
+notice3 varchar(100) character set utf8 default '', 
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(hostnum,platname))engine=innodb;
+
+create table if not exists Shop(
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0',
+count smallint(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid, resid))engine=innodb;
+
+create table if not exists Vip(
+uid int(10) unsigned not null default '0',
+vop smallint(5) unsigned not null default '0',
+num int(3) unsigned not null default '0',
+stamp int(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid, vop))engine=innodb;
+
+create table if not exists Arena(
+uid int(10) unsigned not null default '0',
+fight_count int(3) unsigned not null default '0',
+n_buy int(3) unsigned not null default '0',
+stamp int(3) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;
+
+/*活动表*/
+create table if not exists Activity(
+uid int(10) unsigned NOT NULL comment '角色id',
+hostnum smallint(5) unsigned not null default '0' comment '服务器编号',
+nickname varchar(30) character set utf8 default null comment '角色名',
+grade smallint(5) unsigned not null default '0' comment '等级',
+cumu_yb_rank int(3) unsigned not null default '0' comment '累计消费排名',
+cumu_yb_rank_exp int(10) unsigned not null default '0' comment '累计消费值',
+cumu_yb_rank_stamp int(10) unsigned not null default '0' comment '累计消费排名时间戳',
+con_wing_stamp int(10) unsigned not null default '0' comment '活动翅膀的时间戳',
+con_wing_score int(10) not null default '0' comment '活动翅膀积分',
+con_wing_rank int(10) not null default '0' comment '活动翅膀排名',
+con_wing_given int(10) not null default '0' comment '活动翅膀领取标记位',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid))engine=innodb;
+
+create table if not exists GMail(
+mid int(10) unsigned not null default '0',
+uid int(10) unsigned not null default '0',
+resid int(10) unsigned not null default '0',
+flag tinyint(3) unsigned not null default '0',
+opened tinyint(3) unsigned not null default '0',
+rewarded tinyint(3) unsigned not null default '0',
+item1 int(10) unsigned not null default '0',
+count1 int(10) unsigned not null default '0',
+item2 int(10) unsigned not null default '0',
+count2 int(10) unsigned not null default '0',
+item3 int(10) unsigned not null default '0',
+count3 int(10) unsigned not null default '0',
+item4 int(10) unsigned not null default '0',
+count4 int(10) unsigned not null default '0',
+item5 int(10) unsigned not null default '0',
+count5 int(10) unsigned not null default '0',
+title varchar(64) character set utf8 default null,
+sender varchar(32) character set utf8 default null,
+info varchar(256) character set utf8 default null,
+stamp int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(mid, uid))engine=innodb;
+
+create table if not exists HostGMail(
+mid int(10) unsigned auto_increment,
+hostnum int(10) unsigned not null default '0',
+jstr varchar(2048) character set utf8 default null,
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(mid, hostnum))engine=innodb;
+
+create table if not exists ActDailyTask(
+uid int(10) unsigned not null default '0',
+resid smallint(5) unsigned not null default '0',
+step tinyint(3) unsigned not null default '0',
+stamp int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid, resid))engine=innodb;
+
+create table if not exists Wing(
+uid int(10) unsigned not null default '0',
+wid int(10) unsigned not null default '0',
+resid int(5) unsigned not null default '0',
+isweared tinyint(3) not null default '0',
+atk int(10) unsigned not null default '0',
+mgc int(10) unsigned not null default '0',
+def int(10) unsigned not null default '0',
+res int(10) unsigned not null default '0',
+hp int(10) unsigned not null default '0',
+crit int(10) unsigned not null default '0',
+acc int(10) unsigned not null default '0',
+dodge int(10) unsigned not null default '0',
+ctime timestamp not null default CURRENT_TIMESTAMP comment 'create time',
+primary key(uid,wid))engine=innodb;

@@ -1,0 +1,1 @@
+XCopy E:\god\design\export\*.txt .

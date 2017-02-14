@@ -1,0 +1,22 @@
+<TextureAtlas name="S290" width="512" height="256">
+ <SubTexture name="重复项目文件夹/元件 15" width="41" height="71" cocos2d_pX="21" cocos2d_pY="36" x="100" y="106"/>
+ <SubTexture name="重复项目文件夹/元件 7" width="48" height="65" cocos2d_pX="24" cocos2d_pY="33" x="223" y="101"/>
+ <SubTexture name="重复项目文件夹/元件 6" width="48" height="65" cocos2d_pX="24" cocos2d_pY="33" x="281" y="97"/>
+ <SubTexture name="重复项目文件夹/元件 4" width="26" height="43" cocos2d_pX="13" cocos2d_pY="22" x="482" y="0"/>
+ <SubTexture name="重复项目文件夹/元件 5" width="22" height="39" cocos2d_pX="11" cocos2d_pY="20" x="482" y="45"/>
+ <SubTexture name="重复项目文件夹/元件 8" width="22" height="22" cocos2d_pX="11" cocos2d_pY="11" x="482" y="86"/>
+ <SubTexture name="重复项目文件夹/元件 14" width="111" height="55" cocos2d_pX="56" cocos2d_pY="28" x="0" y="0"/>
+ <SubTexture name="元件 13" width="44" height="89" cocos2d_pX="22" cocos2d_pY="45" x="333" y="94"/>
+ <SubTexture name="元件 12" width="49" height="88" cocos2d_pX="25" cocos2d_pY="44" x="379" y="95"/>
+ <SubTexture name="元件 11" width="45" height="83" cocos2d_pX="23" cocos2d_pY="42" x="176" y="97"/>
+ <SubTexture name="元件 10" width="47" height="93" cocos2d_pX="24" cocos2d_pY="47" x="383" y="0"/>
+ <SubTexture name="元件 9" width="48" height="91" cocos2d_pX="24" cocos2d_pY="46" x="432" y="0"/>
+ <SubTexture name="元件 8" width="61" height="104" cocos2d_pX="31" cocos2d_pY="52" x="113" y="0"/>
+ <SubTexture name="元件 7" width="53" height="95" cocos2d_pX="26" cocos2d_pY="48" x="176" y="0"/>
+ <SubTexture name="元件 6" width="48" height="99" cocos2d_pX="24" cocos2d_pY="50" x="231" y="0"/>
+ <SubTexture name="元件 5" width="48" height="92" cocos2d_pX="24" cocos2d_pY="46" x="333" y="0"/>
+ <SubTexture name="元件 4" width="49" height="89" cocos2d_pX="25" cocos2d_pY="45" x="49" y="57"/>
+ <SubTexture name="元件 3" width="47" height="90" cocos2d_pX="24" cocos2d_pY="45" x="432" y="93"/>
+ <SubTexture name="元件 2" width="50" height="95" cocos2d_pX="25" cocos2d_pY="48" x="281" y="0"/>
+ <SubTexture name="元件 1" width="47" height="92" cocos2d_pX="24" cocos2d_pY="46" x="0" y="57"/>
+</TextureAtlas>

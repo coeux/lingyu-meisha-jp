@@ -1,0 +1,40 @@
+<skeleton name="q_xuli_2" frameRate="25" version="2.1">
+ <armatures>
+  <armature name="q_xuli_2">
+   <b name="图层 1" x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0">
+    <d name="元件 2" pX="-17.32" pY="-86.57"/>
+    <d name="元件 3" pX="-14.32" pY="-22.07"/>
+    <d name="元件 4" pX="-6.32" pY="-22.07"/>
+    <d name="元件 5" pX="-9.82" pY="-24.57"/>
+    <d name="元件 6" pX="-18.32" pY="-21.57"/>
+    <d name="元件 7" pX="-15.32" pY="-19.07"/>
+    <d name="元件 8" pX="-16.32" pY="-17.57"/>
+    <d name="元件 9" pX="-6.82" pY="-15.07"/>
+    <d name="元件 10" pX="-7.32" pY="-12.07"/>
+    <d name="元件 1" pX="-30.82" pY="-20.07"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="q_xuli_2">
+   <mov name="play" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="0" dr="2"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="1" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="2" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="3" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="4" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="5" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="6" dr="1"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="7" dr="2"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="8" dr="2"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="9" twE="0" dr="2"/>
+     <f x="26.18" y="-71.8" kX="0" kY="0" cX="1" cY="1" pX="67" pY="78.25" z="0" dI="9" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="17" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

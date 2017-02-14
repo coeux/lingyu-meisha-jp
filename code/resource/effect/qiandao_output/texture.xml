@@ -1,0 +1,4 @@
+<TextureAtlas name="chouquwupin" width="256" height="256">
+  <SubTexture name="0.0.00" width="87" height="214" cocos2d_pX="43.5" cocos2d_pY="106.5" x="0" y="0"/>
+  <SubTexture name="元件 6" width="135" height="135" cocos2d_pX="67.5" cocos2d_pY="67.5" x="89" y="0"/>
+</TextureAtlas>

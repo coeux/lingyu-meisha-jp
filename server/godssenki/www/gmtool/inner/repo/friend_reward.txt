@@ -1,0 +1,6 @@
+number	number	number	number	number	number
+id	好友数量	等级需要	奖励ID	奖励数量	英雄ID
+1	10	20	15043	1	0
+2	8	30	15044	1	0
+3	5	40	15045	1	0
+4	2	50	0	0	2049

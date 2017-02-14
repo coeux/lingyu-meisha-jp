@@ -1,0 +1,295 @@
+<?php
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
+include "hosts/host.php";
+
+//$start_time = microtime();
+
+function check_version($a, $b){
+    $a_ret = preg_split('/\./', $a);
+    $b_ret = preg_split('/\./', $b);
+    for($i=0;$i<count($a_ret);$i++){
+        if (intval($a_ret[$i]) < intval($b_ret[$i]))
+            return 1;
+        if (intval($a_ret[$i]) > intval($b_ret[$i]))
+            return -1;
+    }
+    return 0;
+}
+
+//a>b
+function is_big($a, $b){
+    $ret = check_version($a, $b);
+    if ($ret < 0) return 1;
+    return 0;
+}
+
+function vtrim($v){
+    $vv = preg_split('/\./', $v);
+    if ($vv[2]==null)
+        $vv[2] = 0;
+    $ret = $vv[0].'.'.$vv[1].'.'.$vv[2];
+    return $ret;
+}
+
+?>
+
+<?php
+    $inner_ip = array(
+        '101.45.79.17'=>1
+    );
+
+    $iipp = $_SERVER["REMOTE_ADDR"];
+    date_default_timezone_set('PRC');
+
+    //error_log(date("[Y-m-d H:i:s]")."[$iipp]\n", 3, './log/errlog');
+
+    $app_suffix = array(
+        'Win32' => array('name'=>'com.phoenix.godofwar','suffix'=>'zip'),
+        'Android'=>array('name'=>'com.phoenix.godofwar','suffix'=>'apk'),
+        'iOS'=>array('name'=>'com.phoenix.godofwar','suffix'=>'ipa'),
+    );
+    $routes = array(
+        'android'=> array(
+            'out' => array('ip'=>'125.209.207.87', 'port'=>51100),
+            'inner' => array('ip'=>'10.0.128.204', 'port'=>51100),
+            'test' => array('ip'=>'125.209.194.52', 'port'=>51100)
+            //'test' => array('ip'=>'1.255.56.232', 'port'=>51100)
+        ),
+        'ios'=> array(
+            //'out' => array('ip'=>'125.209.207.87', 'port'=>51100),
+            'out' => array('ip'=>'125.209.194.119', 'port'=>51100),
+            'inner' => array('ip'=>'10.0.128.204', 'port'=>51100),
+            'test' => array('ip'=>'125.209.194.119', 'port'=>51100)
+        ),
+    );
+    //route for 99x server
+    $routes_test = array(
+        'android' => '125.209.194.52',
+        //'android' => '1.255.56.232',
+        'ios' => '125.209.194.119',
+    );
+
+    $out_url = 'http://god.123u.com/god/';
+    $out_url = 'http://cdn.athena.ilovewebgame.co.kr/athena/';
+    //$out_url = 'chuangshizhanshen-mventertainment.cdn.hinet.net/god/';
+    $inner_url = 'http://god.123u.com/god_test/';
+    //$inner_url = 'http://cdn.athena.ilovewebgame.co.kr/athena/';
+
+    $json = file_get_contents("php://input");
+    $req = json_decode($json);
+
+    $tag="OUT";
+    if ($inner_ip[$iipp] == 1)
+    {
+        $tag="INNER";
+    }
+
+    //error_log(date("[Y-m-d H:i:s]")."[$tag][$json]\n", 3, './log/errlog');
+
+    $version = vtrim($req->version);
+    $domain = strtolower($req->domain);
+    $system = $req->system;
+    $sys = strtolower($req->system);
+
+
+    $rkey = strtolower($system);
+    if ($domain=="appstore")
+        $rkey = "appstore";
+
+    //0:运营,1:维护
+    $ini_path = "cfg/$sys.ini";
+    $ini = parse_ini_file($ini_path);
+    $state = (int)$ini['state'];
+    //内部测试，不需要内部测试:flag设置0，flag设置1去offic测试，在维护状态下设置2去外网测试
+    $flag = (int)$ini['flag'];
+    $test = (int)$ini['test'];
+    $test_version = $ini['test_version'];
+    $open_version = "";
+    if (isset($ini['open_version']))
+        $open_version = $ini['open_version'];
+    $info=$ini['info'];
+
+    if ($iipp == "140.207.49.170" || $iipp == "211.72.246.201")
+    {
+        //$flag = 1;
+    }
+
+    //============================================================
+    //更新url地址
+    $url = '';
+    //服务器route的ip和端口
+    $route = null;
+
+    //测试过滤平台,只对外网用户
+    $test_open_domain = array(
+    );
+
+    //正式运营状态
+    if($state == 0)
+    {
+        $url = $out_url;
+        $route = $routes[$rkey]['out'];
+    }
+
+    //如果测试打开，则外网用户或者没有开任何测试标记，只要满足版本号，则进入测试服
+    $isinner = $inner_ip[$iipp];
+    if ($sys == 'ios')
+    {
+        $isinner = 1;
+
+        error_log(date("[Y-m-d H:i:s]")."[ios change to inner]\n", 3, './log/errlog');
+    }
+
+    if ($test == 1 && (is_big($version, $test_version) || $version == $test_version))
+    {   
+        $state = 0;
+        $url = $inner_url;
+        //$route = $routes[$rkey]['test'];
+        error_log(date("[Y-m-d H:i:s]")."[It is inner test]\n", 3, './log/errlog');
+        $route = $routes[$rkey]['out'];
+    }   
+    //当填写有测试版本号，且测试标记被关闭的情况下，则不允许测试用户登陆，注意：如果正式发布版本，则一定要去除测试版本号!!!!
+    else if ($test == 0 && $test_version == $version) 
+    {
+        $state = 1;
+    }
+    //如果开放版本大于提交版本，则禁止进入游戏
+    else if ($open_version != "" && is_big($open_version, $version))
+    {
+        $state = 1;
+    }
+
+    //内网用户跳转到内网服,不受state,test,open_version字段影响
+    if ($flag == 1)
+    {
+        //if ($inner_ip[$iipp] == 1)
+	if ($isinner == 1)
+        {
+            $state = 0;
+            $url = $inner_url;
+            $route = $routes[$rkey]['inner'];
+        }
+    }
+
+    //内网用户直接跳转到外网测试服,不受state,test,open_version字段影响
+    if ($flag == 2)
+    {
+        //if ($inner_ip[$iipp] == 1)
+	if ($isinner == 1)
+        {
+            $state = 0;
+            $url = $inner_url;
+            $route = $routes[$rkey]['test'];
+        }
+    }
+    
+    //如果flag为3，则所有的内网用户都处于维护中,这个字段仅用于测试
+    if ($flag == 3)
+    {
+        //if ($inner_ip[$iipp] == 1)
+	if ($isinner == 1)
+        {
+            $state = 1;
+            $url = $inner_url;
+            $route = $routes[$rkey]['inner'];
+        }
+    }
+        
+    //内网用户跳转到外网正式服，无视state,test,open_version,使用内部更新链接
+    if ($flag == 4)
+    {
+        //if ($inner_ip[$iipp] == 1)
+	if ($isinner == 1)
+        {
+            $state = 0;
+            $url = $inner_url;
+            $route = $routes[$rkey]['out'];
+        }
+    }
+
+    $appUrl = array(
+    );
+
+    //读取version.json文件
+    if($inner_url == $url)
+        $vpath = 'version_test/'.$domain.'/version.json';
+    if($out_url == $url)
+        $vpath = 'version/'.$domain.'/version.json';
+        
+    $vfile = file_get_contents($vpath);
+
+    $filter = array(
+        //1=>1,
+    );
+
+    //$host_conf = include "hosts/host.conf.php";
+    //$hosts = $host_conf[$rkey];
+    //error_log(date("[Y-m-d H:i:s]")."[$rkey]\n", 3, './log/errlog');
+    $hosts = get_hosts($rkey, $isinner);
+    $rethost = array();
+    foreach($hosts as $k=>$v){
+        
+        /*
+        if ($test == 1 && (is_big($version, $test_version) || $version == $test_version))
+        {
+            if ($v['hostnum'] >= 990)
+            {
+                $hosts[$k]['name'] = $v['hostnum']."区-".$v['name'];
+                $rethost[] = $hosts[$k];
+                continue;
+            }
+        }
+
+        //非内网用户会过滤测试服
+        if ($inner_ip[$iipp] != 1)
+        {
+            if ($version == $test_version && $v['hostnum'] < 990)
+                continue;
+            if ($version != $test_version && $v['hostnum'] >= 990)
+                continue;
+        }
+
+        //非内网用户，可以通过过滤剔除掉要过滤的服务器
+        if ($inner_ip[$iipp] != 1 && $filter[$v['hostnum']] == 1)
+        {
+            continue;
+        }
+        */
+
+        $hosts[$k]['name'] = $v['hostnum']."区-".$v['name'];
+        $rethost[] = $hosts[$k];
+    }
+    $rethost[] = array('recom'=>1, 'hostnum'=>999, 'name'=>'外网测试', 'serid'=>999, 'state'=>0, 'flag'=>1, 'dec'=>'',);
+    $rethost[] = array('recom'=>1, 'hostnum'=>998, 'name'=>'外网测试', 'serid'=>998, 'state'=>0, 'flag'=>1, 'dec'=>'',);
+
+    $localappUrl = $url.'Client/'.$domain.'/'.$system.'/'.$app_suffix[$system]['name'].".$domain.".$app_suffix[$system]['suffix'];
+    $curappUrl = $appUrl[$domain] == null ?  $localappUrl : $appUrl[$domain];
+
+
+    $url = 'http://cdn.athena.ilovewebgame.co.kr/athena/';
+    //返回结果
+    $ret = array(
+        'ip'=>$iipp,
+        'state' => $state,
+        'route' => $route,
+        //'test_route' => '125.209.194.52',
+        'test_route'=> $routes_test[$rkey],
+        //'appUrl' => $url.'Client/'.$domain.'/'.$system.'/'.$app_suffix[$system]['name'].".$domain.".$app_suffix[$system]['suffix'],
+        'appUrl' => $curappUrl,
+        'pkgUrl' => $url.'Client/'.$domain.'/PKG/',
+        'versionUrl' => $url.'Client/'.$domain.'/PKG/version.json',
+        'versionFile'=>$vfile,
+        'hosts'=>$rethost,
+        'info'=>$info,
+    );
+
+    $str=json_encode($ret);
+    //if ($isinner == 1)
+    if ($sys == 'ios' || $version == "1.17.0")
+        error_log(date("[Y-m-d H:i:s]")."[$str]\n", 3, './log/errlog');
+    echo $str;
+
+    //$off = microtime()-$start_time;
+    //error_log(date("[Y-m-d H:i:s]")."[$off]\n", 3, './log/errlog');
+?>

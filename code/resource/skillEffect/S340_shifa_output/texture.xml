@@ -1,0 +1,12 @@
+<TextureAtlas name="S340_shifa" width="512" height="512">
+ <SubTexture name="未命名文件夹 1/元件 16" width="85" height="53" cocos2d_pX="43" cocos2d_pY="27" x="230" y="378"/>
+ <SubTexture name="未命名文件夹 1/元件 15" width="106" height="72" cocos2d_pX="53" cocos2d_pY="36" x="138" y="256"/>
+ <SubTexture name="未命名文件夹 1/元件 14" width="96" height="77" cocos2d_pX="48" cocos2d_pY="39" x="379" y="256"/>
+ <SubTexture name="未命名文件夹 1/元件 13" width="90" height="77" cocos2d_pX="45" cocos2d_pY="39" x="138" y="330"/>
+ <SubTexture name="未命名文件夹 1/元件 12" width="81" height="68" cocos2d_pX="41" cocos2d_pY="34" x="379" y="335"/>
+ <SubTexture name="未命名文件夹 1/元件 11" width="77" height="61" cocos2d_pX="39" cocos2d_pY="31" x="0" y="401"/>
+ <SubTexture name="未命名文件夹 1/元件 10" width="254" height="254" cocos2d_pX="127" cocos2d_pY="127" x="256" y="0"/>
+ <SubTexture name="未命名文件夹 1/元件 9" width="254" height="254" cocos2d_pX="127" cocos2d_pY="127" x="0" y="0"/>
+ <SubTexture name="元件 2" width="136" height="143" cocos2d_pX="68" cocos2d_pY="72" x="0" y="256"/>
+ <SubTexture name="未命名文件夹 1/元件 7" width="131" height="120" cocos2d_pX="66" cocos2d_pY="60" x="246" y="256"/>
+</TextureAtlas>

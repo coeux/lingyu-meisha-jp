@@ -1,0 +1,127 @@
+<skeleton name="S810" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S810_1">
+   <b name="70001.png" x="-3" y="-0.07" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+    <d name="元件 36" pX="34.67" pY="32.4"/>
+    <d name="元件 37" pX="31.5" pY="31.13"/>
+    <d name="元件 38" pX="32.78" pY="33.53"/>
+    <d name="元件 39" pX="33.03" pY="32.9"/>
+    <d name="元件 40" pX="31.78" pY="31.75"/>
+    <d name="元件 41" pX="30.88" pY="30.88"/>
+    <d name="元件 42" pX="33.15" pY="31.63"/>
+    <d name="元件 43" pX="32.15" pY="31"/>
+    <d name="元件 44" pX="34.05" pY="33.28"/>
+    <d name="元件 45" pX="31.13" pY="31.63"/>
+    <d name="元件 46" pX="31.13" pY="29.75"/>
+    <d name="元件 47" pX="34.67" pY="29.1"/>
+    <d name="元件 48" pX="31.13" pY="28.73"/>
+    <d name="元件 49" pX="32.4" pY="32.15"/>
+    <d name="元件 50" pX="32.4" pY="31.13"/>
+    <d name="元件 51" pX="30.78" pY="30.88"/>
+   </b>
+  </armature>
+  <armature name="S810_2">
+   <b name="80001.png" x="-173" y="9.55" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.02" pY="0" z="0">
+    <d name="元件 55" pX="128" pY="22.43"/>
+    <d name="元件 29" pX="55.15" pY="56.25"/>
+    <d name="元件 58" pX="69.72" pY="48.3"/>
+    <d name="元件 57" pX="88.83" pY="66.9"/>
+    <d name="元件 59" pX="49.23" pY="42.55"/>
+    <d name="元件 60" pX="49.38" pY="40.78"/>
+    <d name="元件 54" pX="82.43" pY="60.38"/>
+    <d name="元件 35" pX="68.28" pY="63.38"/>
+    <d name="元件 23" pX="42.68" pY="14.53"/>
+    <d name="元件 17" pX="31" pY="18.5"/>
+    <d name="元件 21" pX="6.8" pY="6.43"/>
+    <d name="元件 22" pX="6.1" pY="7.58"/>
+   </b>
+   <b name="图层 22" x="-127.22" y="13.05" kX="0" kY="0" cX="1" cY="1.35" pX="-0.02" pY="0" z="1">
+    <d name="元件 55" pX="128" pY="22.43"/>
+    <d name="元件 24" pX="16.18" pY="13.13"/>
+   </b>
+   <b name="图层 18" x="74.47" y="-66.62" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+    <d name="元件 25" pX="18.68" pY="16.4"/>
+    <d name="元件 19" pX="6.78" pY="6.53"/>
+   </b>
+   <b name="图层 19" x="65.55" y="53.28" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+    <d name="元件 26" pX="37.65" pY="23.15"/>
+    <d name="元件 20" pX="8.07" pY="7.03"/>
+   </b>
+   <b name="图层 20" x="-50.75" y="51.58" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4">
+    <d name="元件 27" pX="29.58" pY="36.53"/>
+    <d name="元件 18" pX="20.33" pY="31.43"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S810_1">
+   <mov name="play" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+    <b name="70001.png" sc="1" dl="0">
+     <f x="-3" y="-0.07" cocos2d_x="-3" cocos2d_y="0" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="1.3" y="1.93" cocos2d_x="2" cocos2d_y="2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="4.8" y="-2.37" cocos2d_x="5" cocos2d_y="-2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="4.3" y="-1.07" cocos2d_x="5" cocos2d_y="-1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="2.8" y="0.13" cocos2d_x="3" cocos2d_y="1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="2.05" y="1.93" cocos2d_x="3" cocos2d_y="2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1"/>
+     <f x="4.05" y="4.43" cocos2d_x="5" cocos2d_y="5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="6" dr="1"/>
+     <f x="3.05" y="5.73" cocos2d_x="4" cocos2d_y="6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="7" dr="1"/>
+     <f x="-2.25" y="12.28" cocos2d_x="-2" cocos2d_y="13" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="8" dr="1"/>
+     <f x="2.55" y="9.53" cocos2d_x="3" cocos2d_y="10" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="4.05" y="8.78" cocos2d_x="5" cocos2d_y="9" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="10" dr="1"/>
+     <f x="-3" y="8.48" cocos2d_x="-3" cocos2d_y="9" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="11" dr="1"/>
+     <f x="1.55" y="9.28" cocos2d_x="2" cocos2d_y="10" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="12" dr="1"/>
+     <f x="5.6" y="3.48" cocos2d_x="6" cocos2d_y="4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="13" dr="1"/>
+     <f x="3.05" y="10.03" cocos2d_x="4" cocos2d_y="11" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="14" dr="1"/>
+     <f x="0.25" y="11.58" cocos2d_x="1" cocos2d_y="12" kX="0" kY="0" cX="2" cY="2" pX="-0.02" pY="0" z="0" dI="15" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="S810_2">
+   <mov name="play" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+    <b name="80001.png" sc="1" dl="0">
+     <f x="-173" y="9.55" cocos2d_x="-172" cocos2d_y="10" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.02" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-9.82" y="3.03" cocos2d_x="-9" cocos2d_y="4" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.02" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-29.57" y="-3.25" cocos2d_x="-29" cocos2d_y="-3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="-0.7" y="1.02" cocos2d_x="0" cocos2d_y="2" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="3" dr="1"/>
+     <f x="21.08" y="-7.07" cocos2d_x="22" cocos2d_y="-7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="24.6" y="-0.5" cocos2d_x="25" cocos2d_y="0" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="5" dr="1"/>
+     <f x="32.7" y="2.53" cocos2d_x="33" cocos2d_y="3" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f x="9.9" y="3.55" cocos2d_x="10" cocos2d_y="4" kX="0" kY="0" cX="1.35" cY="1.35" pX="-0.05" pY="0" z="0" dI="7" dr="1"/>
+     <f x="5.88" y="-14.52" cocos2d_x="6" cocos2d_y="-14" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="8" dr="2"/>
+     <f x="75.28" y="61.2" cocos2d_x="76" cocos2d_y="62" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="1"/>
+     <f x="49.33" y="-19.98" cocos2d_x="50" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="10" dr="1"/>
+     <f x="51.83" y="-19.85" cocos2d_x="52" cocos2d_y="-19" kX="-5.21" kY="-5.21" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="10" dr="1"/>
+     <f x="52.6" y="-19.67" cocos2d_x="53" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="11" dr="1"/>
+     <f x="55.08" y="-19.67" cocos2d_x="56" cocos2d_y="-19" kX="-3.21" kY="-3.21" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="11" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+    <b name="图层 22" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="-127.22" y="13.05" cocos2d_x="-127" cocos2d_y="14" kX="0" kY="0" cX="1" cY="1.35" pX="-0.02" pY="0" z="1" dI="0" dr="1"/>
+     <f dr="7" dI="-1"/>
+     <f x="-55.77" y="-38.22" cocos2d_x="-55" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="1" dI="1" dr="2"/>
+     <f dr="6" dI="-1"/>
+    </b>
+    <b name="图层 18" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="74.47" y="-66.62" cocos2d_x="75" cocos2d_y="-66" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" dr="2"/>
+     <f x="-27.1" y="-21.65" cocos2d_x="-27" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="-0.02" z="1" dI="1" dr="1"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <b name="图层 19" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="65.55" y="53.28" cocos2d_x="66" cocos2d_y="54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="2"/>
+     <f x="45.08" y="-19.55" cocos2d_x="46" cocos2d_y="-19" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="1" dr="1"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <b name="图层 20" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="-50.75" y="51.58" cocos2d_x="-50" cocos2d_y="52" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4" dI="0" dr="2"/>
+     <f x="-62.52" y="59.55" cocos2d_x="-62" cocos2d_y="60" kX="0" kY="0" cX="1" cY="1" pX="-0.02" pY="0" z="3" dI="1" dr="1"/>
+     <f dr="5" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

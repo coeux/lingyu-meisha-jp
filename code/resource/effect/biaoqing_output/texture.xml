@@ -1,0 +1,66 @@
+<TextureAtlas name="biaoqing" width="256" height="256">
+  <SubTexture name="001/54654551" width="62" height="62" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="ganjiang/nuannan_1" width="28" height="20" cocos2d_pX="15" cocos2d_pY="9" x="30" y="86"/>
+  <SubTexture name="ganjiang/nuannan_2" width="28" height="20" cocos2d_pX="15" cocos2d_pY="9" x="30" y="64"/>
+  <SubTexture name="ganjiang/nuannan" width="28" height="20" cocos2d_pX="15" cocos2d_pY="9" x="100" y="83"/>
+  <SubTexture name="ganjiang/元件 18" width="34" height="59" cocos2d_pX="17" cocos2d_pY="30" x="64" y="0"/>
+  <SubTexture name="ganjiang/元件 17" width="29" height="51" cocos2d_pX="15" cocos2d_pY="26" x="192" y="36"/>
+  <SubTexture name="zuiba" width="8" height="5" cocos2d_pX="-50" cocos2d_pY="-64" x="233" y="118"/>
+  <SubTexture name="ganjiang/nuchi" width="26" height="12" cocos2d_pX="14" cocos2d_pY="6" x="110" y="126"/>
+  <SubTexture name="ganjiang/shangxin" width="23" height="12" cocos2d_pX="12" cocos2d_pY="6" x="190" y="132"/>
+  <SubTexture name="元件 8" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="206" y="111"/>
+  <SubTexture name="元件 7" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="168" y="113"/>
+  <SubTexture name="元件 6" width="9" height="6" cocos2d_pX="5" cocos2d_pY="3" x="245" y="111"/>
+  <SubTexture name="元件 5" width="10" height="6" cocos2d_pX="5" cocos2d_pY="3" x="233" y="110"/>
+  <SubTexture name="元件 12" width="25" height="11" cocos2d_pX="13" cocos2d_pY="6" x="50" y="140"/>
+  <SubTexture name="元件 11" width="25" height="10" cocos2d_pX="13" cocos2d_pY="5" x="77" y="141"/>
+  <SubTexture name="元件 10" width="25" height="11" cocos2d_pX="13" cocos2d_pY="6" x="110" y="140"/>
+  <SubTexture name="元件 9" width="25" height="11" cocos2d_pX="13" cocos2d_pY="6" x="138" y="136"/>
+  <SubTexture name="ganjiang/元件 7" width="6" height="4" cocos2d_pX="3" cocos2d_pY="2" x="180" y="92"/>
+  <SubTexture name="ganjiang/元件 1" width="14" height="11" cocos2d_pX="7" cocos2d_pY="6" x="217" y="108"/>
+  <SubTexture name="ganjiang/元件 2" width="22" height="20" cocos2d_pX="11" cocos2d_pY="10" x="144" y="94"/>
+  <SubTexture name="ganjiang/元件 3" width="14" height="29" cocos2d_pX="7" cocos2d_pY="15" x="223" y="36"/>
+  <SubTexture name="ganjiang/元件 4" width="15" height="25" cocos2d_pX="8" cocos2d_pY="13" x="169" y="45"/>
+  <SubTexture name="ganjiang/元件 5" width="14" height="24" cocos2d_pX="7" cocos2d_pY="12" x="239" y="62"/>
+  <SubTexture name="ganjiang/元件 6" width="49" height="34" cocos2d_pX="25" cocos2d_pY="17" x="192" y="0"/>
+  <SubTexture name="ganjiang/shuaixiao" width="26" height="20" cocos2d_pX="14" cocos2d_pY="8" x="189" y="89"/>
+  <SubTexture name="ganjiang/元件 8" width="46" height="46" cocos2d_pX="23" cocos2d_pY="23" x="100" y="0"/>
+  <SubTexture name="ganjiang/元件 13" width="11" height="21" cocos2d_pX="6" cocos2d_pY="11" x="223" y="67"/>
+  <SubTexture name="ganjiang/元件 14" width="28" height="16" cocos2d_pX="14" cocos2d_pY="8" x="0" y="95"/>
+  <SubTexture name="ganjiang/元件 15" width="9" height="23" cocos2d_pX="3" cocos2d_pY="10" x="133" y="72"/>
+  <SubTexture name="tongziqie/元件 21" width="9" height="6" cocos2d_pX="5" cocos2d_pY="-3" x="86" y="117"/>
+  <SubTexture name="tongziqie/元件 24" width="3" height="2" cocos2d_pX="2" cocos2d_pY="1" x="250" y="47"/>
+  <SubTexture name="tongziqie/biaoqing_daku _2" width="24" height="19" cocos2d_pX="12" cocos2d_pY="4" x="180" y="111"/>
+  <SubTexture name="tongziqie/biaoqing_daku _1" width="24" height="19" cocos2d_pX="12" cocos2d_pY="4" x="99" y="105"/>
+  <SubTexture name="tongziqie/biaoqing_daku _4" width="24" height="19" cocos2d_pX="12" cocos2d_pY="5" x="0" y="113"/>
+  <SubTexture name="tongziqie/biaoqing_daku" width="24" height="19" cocos2d_pX="12" cocos2d_pY="5" x="30" y="108"/>
+  <SubTexture name="tongziqie/元件 22" width="3" height="9" cocos2d_pX="2" cocos2d_pY="5" x="250" y="32"/>
+  <SubTexture name="001/0" width="12" height="22" cocos2d_pX="0" cocos2d_pY="0" x="133" y="48"/>
+  <SubTexture name="001/895" width="28" height="29" cocos2d_pX="0" cocos2d_pY="0" x="0" y="64"/>
+  <SubTexture name="001/089" width="19" height="47" cocos2d_pX="0" cocos2d_pY="0" x="148" y="45"/>
+  <SubTexture name="tongziqie/元件 23" width="8" height="5" cocos2d_pX="4" cocos2d_pY="3" x="206" y="119"/>
+  <SubTexture name="tongziqie/biaoqing_maimeng" width="24" height="20" cocos2d_pX="12" cocos2d_pY="5" x="60" y="98"/>
+  <SubTexture name="tongziqie/biaoqing_deyi" width="22" height="16" cocos2d_pX="11" cocos2d_pY="3" x="26" y="129"/>
+  <SubTexture name="tongziqie/元件 26" width="10" height="10" cocos2d_pX="5" cocos2d_pY="5" x="130" y="97"/>
+  <SubTexture name="tongziqie/biaoqing_shengqi" width="24" height="18" cocos2d_pX="12" cocos2d_pY="4" x="140" y="116"/>
+  <SubTexture name="tongziqie/元件 25" width="11" height="4" cocos2d_pX="6" cocos2d_pY="2" x="86" y="111"/>
+  <SubTexture name="tongziqie/biaoqing_shihuai" width="26" height="13" cocos2d_pX="13" cocos2d_pY="4" x="82" y="126"/>
+  <SubTexture name="tongziqie/元件 20" width="3" height="2" cocos2d_pX="2" cocos2d_pY="1" x="186" y="45"/>
+  <SubTexture name="tongziqie/元件 19" width="3" height="2" cocos2d_pX="2" cocos2d_pY="1" x="250" y="43"/>
+  <SubTexture name="tongziqie/元件 1" width="9" height="19" cocos2d_pX="5" cocos2d_pY="10" x="169" y="92"/>
+  <SubTexture name="tongziqie/元件 2" width="12" height="16" cocos2d_pX="6" cocos2d_pY="8" x="217" y="90"/>
+  <SubTexture name="tongziqie/元件 3" width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="236" y="88"/>
+  <SubTexture name="tongziqie/元件 4" width="6" height="21" cocos2d_pX="3" cocos2d_pY="11" x="247" y="88"/>
+  <SubTexture name="tongziqie/元件 5" width="7" height="22" cocos2d_pX="4" cocos2d_pY="11" x="90" y="87"/>
+  <SubTexture name="tongziqie/元件 6" width="7" height="30" cocos2d_pX="4" cocos2d_pY="18" x="243" y="0"/>
+  <SubTexture name="tongziqie/元件 7" width="18" height="18" cocos2d_pX="9" cocos2d_pY="9" x="169" y="72"/>
+  <SubTexture name="tongziqie/元件 8" width="13" height="11" cocos2d_pX="7" cocos2d_pY="6" x="125" y="109"/>
+  <SubTexture name="tongziqie/元件 9" width="42" height="43" cocos2d_pX="21" cocos2d_pY="15" x="148" y="0"/>
+  <SubTexture name="tongziqie/biaoqing_biyan" width="22" height="15" cocos2d_pX="11" cocos2d_pY="2" x="166" y="132"/>
+  <SubTexture name="tongziqie/biaoqing_ban" width="24" height="18" cocos2d_pX="12" cocos2d_pY="5" x="216" y="125"/>
+  <SubTexture name="tongziqie/biaoqing " width="24" height="18" cocos2d_pX="12" cocos2d_pY="5" x="56" y="120"/>
+  <SubTexture name="tongziqie/元件 10" width="31" height="33" cocos2d_pX="16" cocos2d_pY="17" x="100" y="48"/>
+  <SubTexture name="tongziqie/元件 11" width="5" height="28" cocos2d_pX="3" cocos2d_pY="16" x="243" y="32"/>
+  <SubTexture name="tongziqie/元件 12" width="8" height="24" cocos2d_pX="5" cocos2d_pY="13" x="90" y="61"/>
+  <SubTexture name="tongziqie/元件 13" width="24" height="35" cocos2d_pX="11" cocos2d_pY="27" x="64" y="61"/>
+</TextureAtlas>

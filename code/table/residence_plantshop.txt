@@ -1,0 +1,9 @@
+number	number	string	number	number	number	number	number
+id	item_id	name	money_type	price	ishot	islimited	hide
+1	25001	作物种子1	10001	999	1	1	0
+2	25002	作物种子2	10001	999	1	1	0
+3	25003	作物种子3	10001	999	1	1	0
+4	25004	作物种子4	10001	999	0	2	0
+5	25005	作物种子5	10001	99	0	2	0
+6	25006	作物种子6	10003	99	0	2	0
+7	25007	作物种子7	10003	99	0	3	0

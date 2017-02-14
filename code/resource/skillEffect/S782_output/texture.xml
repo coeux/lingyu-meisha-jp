@@ -1,0 +1,18 @@
+<TextureAtlas name="S782" width="512" height="256">
+ <SubTexture name="重复项目文件夹/元件 24" width="53" height="18" cocos2d_pX="27" cocos2d_pY="9" x="418" y="169"/>
+ <SubTexture name="元件 25" width="65" height="92" cocos2d_pX="33" cocos2d_pY="46" x="438" y="0"/>
+ <SubTexture name="元件 26" width="113" height="116" cocos2d_pX="57" cocos2d_pY="58" x="129" y="0"/>
+ <SubTexture name="元件 27" width="127" height="128" cocos2d_pX="64" cocos2d_pY="64" x="0" y="0"/>
+ <SubTexture name="元件 52" width="87" height="68" cocos2d_pX="44" cocos2d_pY="34" x="338" y="89"/>
+ <SubTexture name="元件 51" width="105" height="67" cocos2d_pX="53" cocos2d_pY="34" x="0" y="130"/>
+ <SubTexture name="元件 50" width="103" height="67" cocos2d_pX="52" cocos2d_pY="34" x="107" y="182"/>
+ <SubTexture name="元件 48" width="113" height="62" cocos2d_pX="57" cocos2d_pY="31" x="129" y="118"/>
+ <SubTexture name="yujian3/元件 16" width="15" height="20" cocos2d_pX="-29" cocos2d_pY="-13" x="107" y="130"/>
+ <SubTexture name="yujian3/元件 14" width="29" height="69" cocos2d_pX="-16" cocos2d_pY="34" x="297" y="167"/>
+ <SubTexture name="yujian3/元件 12" width="51" height="68" cocos2d_pX="2" cocos2d_pY="32" x="244" y="167"/>
+ <SubTexture name="yujian3/元件 10" width="84" height="67" cocos2d_pX="22" cocos2d_pY="32" x="244" y="98"/>
+ <SubTexture name="yujian3/元件 8" width="86" height="64" cocos2d_pX="23" cocos2d_pY="30" x="330" y="159"/>
+ <SubTexture name="yujian3/元件 7" width="98" height="87" cocos2d_pX="37" cocos2d_pY="33" x="338" y="0"/>
+ <SubTexture name="yujian3/元件 6" width="92" height="96" cocos2d_pX="35" cocos2d_pY="52" x="244" y="0"/>
+ <SubTexture name="元件 3" width="78" height="73" cocos2d_pX="39" cocos2d_pY="37" x="427" y="94"/>
+</TextureAtlas>

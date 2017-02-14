@@ -1,0 +1,7 @@
+<TextureAtlas name="yjdaoguang" width="256" height="128">
+ <SubTexture name="元件 16" width="21" height="29" cocos2d_pX="0" cocos2d_pY="0" x="192" y="0"/>
+ <SubTexture name="元件 15" width="29" height="97" cocos2d_pX="0" cocos2d_pY="0" x="124" y="0"/>
+ <SubTexture name="元件 14" width="46" height="107" cocos2d_pX="0" cocos2d_pY="0" x="76" y="0"/>
+ <SubTexture name="元件 13" width="74" height="122" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ <SubTexture name="元件 12" width="35" height="30" cocos2d_pX="0" cocos2d_pY="0" x="155" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<skeleton name="feibiao" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="feibiao">
+   <b name="图层 1" x="-16.02" y="0.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="元件 1" pX="34.1" pY="6.48"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="feibiao">
+   <mov name="play" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-16.02" y="0.1" cocos2d_x="-16" cocos2d_y="1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="6"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

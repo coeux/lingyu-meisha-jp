@@ -1,0 +1,29 @@
+<TextureAtlas name="N017" width="256" height="128">
+ <SubTexture name="编码娘1.psd 资源 9/qiu_2" width="16" height="16" cocos2d_pX="8" cocos2d_pY="8" x="235" y="44"/>
+ <SubTexture name="yuanjian/BianMN_daima_2" width="43" height="87" cocos2d_pX="6" cocos2d_pY="9" x="0" y="0"/>
+ <SubTexture name="yuanjian/BianMN_daima_1" width="45" height="82" cocos2d_pX="10" cocos2d_pY="7" x="45" y="0"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_4" width="17" height="11" cocos2d_pX="7" cocos2d_pY="7" x="235" y="62"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_1" width="33" height="25" cocos2d_pX="17" cocos2d_pY="13" x="200" y="22"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_2" width="11" height="42" cocos2d_pX="6" cocos2d_pY="21" x="241" y="0"/>
+ <SubTexture name="head_2" width="26" height="27" cocos2d_pX="13" cocos2d_pY="14" x="197" y="49"/>
+ <SubTexture name="head" width="26" height="27" cocos2d_pX="13" cocos2d_pY="14" x="136" y="39"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_arm_up" width="6" height="12" cocos2d_pX="3" cocos2d_pY="6" x="225" y="63"/>
+ <SubTexture name="yuanjian/BianMN_xiongbu" width="19" height="12" cocos2d_pX="0" cocos2d_pY="0" x="92" y="57"/>
+ <SubTexture name="yuanjian/BianMN_body" width="24" height="41" cocos2d_pX="12" cocos2d_pY="14" x="174" y="0"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_arm" width="7" height="11" cocos2d_pX="4" cocos2d_pY="6" x="164" y="54"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_hand" width="7" height="9" cocos2d_pX="4" cocos2d_pY="5" x="185" y="64"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_arm_up" width="8" height="12" cocos2d_pX="4" cocos2d_pY="6" x="225" y="49"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_arm" width="7" height="7" cocos2d_pX="4" cocos2d_pY="4" x="164" y="67"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_hsnd" width="7" height="7" cocos2d_pX="4" cocos2d_pY="4" x="124" y="69"/>
+ <SubTexture name="编码娘1.psd 资源 9/piaodai" width="10" height="10" cocos2d_pX="5" cocos2d_pY="5" x="124" y="57"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_leg_up" width="10" height="19" cocos2d_pX="5" cocos2d_pY="10" x="185" y="43"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_leg_up" width="9" height="20" cocos2d_pX="5" cocos2d_pY="10" x="113" y="57"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_leg" width="13" height="9" cocos2d_pX="7" cocos2d_pY="5" x="149" y="68"/>
+ <SubTexture name="编码娘1.psd 资源 9/L_foot" width="12" height="9" cocos2d_pX="6" cocos2d_pY="5" x="92" y="71"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_leg" width="11" height="14" cocos2d_pX="6" cocos2d_pY="7" x="136" y="68"/>
+ <SubTexture name="编码娘1.psd 资源 9/R_foot" width="8" height="13" cocos2d_pX="5" cocos2d_pY="7" x="164" y="39"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_3" width="9" height="31" cocos2d_pX="5" cocos2d_pY="16" x="174" y="43"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_5" width="42" height="55" cocos2d_pX="21" cocos2d_pY="26" x="92" y="0"/>
+ <SubTexture name="编码娘1.psd 资源 9/hair_6" width="36" height="37" cocos2d_pX="18" cocos2d_pY="18" x="136" y="0"/>
+ <SubTexture name="yuanjian/BianMN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="200" y="0"/>
+</TextureAtlas>

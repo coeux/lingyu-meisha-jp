@@ -1,0 +1,6 @@
+生成礼包，参数分别为数量，截止日期，礼包码索引，生成文件存放在data文件夹中
+./generate.py 6000 2016-7-1 6
+将生成礼包码数据复制到对应数据库，where后条件区别档次添加与之前礼包                                                                
+insert into niceserver2.Cdkey(sn,flag,expire_date,gentm) select sn,flag,expiredate,gentm from cdkey.Cdkey  WHERE `gentm` >= '2015-10-26 14:00:00' and flag <=19 and flag >=16
+根据配置表将domain 修改成 礼包码平台对应domain
+UPDATE `Cdkey` SET domain="qihoo360"  WHERE `gentm` >= '2015-10-26 14:00:00' and flag <=19 and flag >=16     

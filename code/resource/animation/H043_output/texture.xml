@@ -1,0 +1,40 @@
+<TextureAtlas name="H043" width="512" height="512">
+ <SubTexture name="红军2.psd 资源 9/hair_1" width="41" height="82" cocos2d_pX="17" cocos2d_pY="41" x="340" y="298"/>
+ <SubTexture name="红军2.psd 资源 9/left_arm_up" width="25" height="43" cocos2d_pX="13" cocos2d_pY="22" x="82" y="254"/>
+ <SubTexture name="红军2.psd 资源 9/left_arm" width="29" height="54" cocos2d_pX="15" cocos2d_pY="27" x="307" y="328"/>
+ <SubTexture name="红军2.psd 资源 9/hand" width="19" height="20" cocos2d_pX="10" cocos2d_pY="7" x="238" y="379"/>
+ <SubTexture name="红军2.psd 资源 9/kou_1" width="17" height="19" cocos2d_pX="9" cocos2d_pY="10" x="386" y="220"/>
+ <SubTexture name="红军2.psd 资源 9/paoguan" width="17" height="51" cocos2d_pX="9" cocos2d_pY="26" x="386" y="167"/>
+ <SubTexture name="红军2.psd 资源 9/paoxiang" width="72" height="83" cocos2d_pX="51" cocos2d_pY="25" x="405" y="210"/>
+ <SubTexture name="红军2.psd 资源 9/maozi" width="148" height="142" cocos2d_pX="74" cocos2d_pY="71" x="196" y="116"/>
+ <SubTexture name="红军2.psd 资源 9/hair_2" width="43" height="71" cocos2d_pX="22" cocos2d_pY="36" x="262" y="328"/>
+ <SubTexture name="红军2.psd 资源 9/hair_3" width="62" height="66" cocos2d_pX="31" cocos2d_pY="33" x="276" y="260"/>
+ <SubTexture name="红军2.psd 资源 9/hair_4" width="38" height="81" cocos2d_pX="21" cocos2d_pY="46" x="346" y="215"/>
+ <SubTexture name="红军2.psd 资源 9/元件 3" width="89" height="208" cocos2d_pX="45" cocos2d_pY="104" x="408" y="0"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing_1" width="80" height="60" cocos2d_pX="20" cocos2d_pY="62" x="194" y="260"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing" width="80" height="54" cocos2d_pX="20" cocos2d_pY="62" x="109" y="296"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing_4" width="80" height="60" cocos2d_pX="19" cocos2d_pY="69" x="0" y="254"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing_2" width="69" height="55" cocos2d_pX="11" cocos2d_pY="60" x="191" y="322"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing_6" width="80" height="54" cocos2d_pX="20" cocos2d_pY="60" x="386" y="295"/>
+ <SubTexture name="红军2.psd 资源 9/biaoqing_5" width="80" height="60" cocos2d_pX="20" cocos2d_pY="66" x="112" y="234"/>
+ <SubTexture name="红军2.psd 资源 9/head" width="110" height="117" cocos2d_pX="62" cocos2d_pY="53" x="0" y="135"/>
+ <SubTexture name="红军2.psd 资源 9/xingxing" width="23" height="23" cocos2d_pX="11" cocos2d_pY="12" x="82" y="299"/>
+ <SubTexture name="红军2.psd 资源 9/body" width="70" height="97" cocos2d_pX="42" cocos2d_pY="75" x="112" y="135"/>
+ <SubTexture name="红军2.psd 资源 9/qunzi_1" width="19" height="49" cocos2d_pX="10" cocos2d_pY="25" x="386" y="116"/>
+ <SubTexture name="红军2.psd 资源 9/qunzi_2" width="44" height="57" cocos2d_pX="22" cocos2d_pY="29" x="383" y="351"/>
+ <SubTexture name="红军2.psd 资源 9/qunzi_3" width="72" height="53" cocos2d_pX="36" cocos2d_pY="27" x="0" y="316"/>
+ <SubTexture name="红军2.psd 资源 9/right_arm_up" width="27" height="37" cocos2d_pX="14" cocos2d_pY="19" x="35" y="371"/>
+ <SubTexture name="红军2.psd 资源 9/元件 2" width="24" height="75" cocos2d_pX="12" cocos2d_pY="38" x="479" y="210"/>
+ <SubTexture name="红军2.psd 资源 9/right_arm" width="30" height="50" cocos2d_pX="15" cocos2d_pY="25" x="108" y="352"/>
+ <SubTexture name="红军2.psd 资源 9/right_hand" width="19" height="22" cocos2d_pX="-15" cocos2d_pY="11" x="217" y="379"/>
+ <SubTexture name="红军2.psd 资源 9/left_up_leg" width="38" height="74" cocos2d_pX="19" cocos2d_pY="37" x="468" y="344"/>
+ <SubTexture name="红军2.psd 资源 9/left_down_leg" width="33" height="67" cocos2d_pX="17" cocos2d_pY="34" x="429" y="351"/>
+ <SubTexture name="红军2.psd 资源 9/left_foot" width="33" height="34" cocos2d_pX="17" cocos2d_pY="17" x="0" y="371"/>
+ <SubTexture name="红军2.psd 资源 9/right_up_leg" width="32" height="69" cocos2d_pX="16" cocos2d_pY="35" x="74" y="324"/>
+ <SubTexture name="红军2.psd 资源 9/right_down_leg" width="29" height="55" cocos2d_pX="15" cocos2d_pY="28" x="479" y="287"/>
+ <SubTexture name="红军2.psd 资源 9/right_foot" width="34" height="39" cocos2d_pX="17" cocos2d_pY="20" x="140" y="352"/>
+ <SubTexture name="红军2.psd 资源 9/hair_6" width="38" height="97" cocos2d_pX="19" cocos2d_pY="49" x="346" y="116"/>
+ <SubTexture name="红军2.psd 资源 9/weapon_2" width="194" height="133" cocos2d_pX="89" cocos2d_pY="59" x="0" y="0"/>
+ <SubTexture name="红军2.psd 资源 9/weapon" width="210" height="114" cocos2d_pX="112" cocos2d_pY="57" x="196" y="0"/>
+ <SubTexture name="yuanjian/name_1_121_62592" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="176" y="379"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+number	string	number	number	number	number	number	number	number	number	number	number	number
+id	name	icon	min_atk	max_atk	min_mgc	max_mgc	min_def	max_def	min_res	max_res	min_hp	max_hp
+1	地	19001	7	150	7	150	4	95	4	95	11	220
+2	日	19002	8	175	8	175	5	115	5	115	13	260
+3	月	19003	10	200	10	200	6	135	6	135	15	300
+4	天	19004	12	250	12	250	8	160	8	160	19	375
+5	精	19005	15	300	15	300	10	200	10	200	23	450

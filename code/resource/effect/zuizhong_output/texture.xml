@@ -1,0 +1,7 @@
+<TextureAtlas name="zuizhong" width="1024" height="512">
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_660_014.png.imag" width="94" height="93" x="686" y="0"/>
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_660_005.png.imag" width="50" height="50" x="782" y="0"/>
+  <SubTexture name="assets¥flash¥ui¥unit¥img¥ef_654_001.png.imag" width="39" height="39" x="834" y="0"/>
+  <SubTexture name="シンボル 6" width="179" height="169" x="505" y="0"/>
+  <SubTexture name="トゥイーン 2" width="503" height="499" x="0" y="0"/>
+</TextureAtlas>

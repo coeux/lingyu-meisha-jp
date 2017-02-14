@@ -1,0 +1,50 @@
+<skeleton name="H059_4" frameRate="24" version="2.1">
+ <armatures>
+  <armature name="H059_4_2">
+   <b name="90001.png 副本" x="73.2" y="-113.96" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="补间 6" pX="97.2" pY="78.8"/>
+    <d name="补间 7" pX="86" pY="115.16"/>
+    <d name="补间 8" pX="99.6" pY="94.4"/>
+    <d name="补间 9" pX="96.8" pY="81.16"/>
+    <d name="补间 10" pX="93.6" pY="67.56"/>
+    <d name="补间 11" pX="89.6" pY="62.8"/>
+    <d name="补间 12" pX="85.2" pY="56"/>
+   </b>
+  </armature>
+  <armature name="H059_4_1">
+   <b name="80001.png" x="-26.4" y="-50.76" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="补间 1" pX="72.8" pY="38"/>
+    <d name="补间 2" pX="76" pY="82.4"/>
+    <d name="补间 3" pX="58.4" pY="77.2"/>
+    <d name="补间 4" pX="64.8" pY="49.2"/>
+    <d name="补间 5" pX="48.8" pY="20.4"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="H059_4_2">
+   <mov name="play" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+    <b name="90001.png 副本" sc="1" dl="0">
+     <f x="73.2" y="-113.96" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+     <f x="27.6" y="-87.2" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="27.6" y="-55.96" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="16.8" y="-54" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="16" y="-37.2" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="20.8" y="-29.2" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="13.2" y="-34.4" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+  <animation name="H059_4_1">
+   <mov name="play" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+    <b name="80001.png" sc="1" dl="0">
+     <f x="-26.4" y="-50.76" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+     <f x="-12.8" y="-9.56" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1"/>
+     <f x="-20.8" y="-5.16" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f x="-19.2" y="23.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="-20" y="54.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

@@ -1,0 +1,8 @@
+<TextureAtlas name="技能2施法" width="512" height="256">
+ <SubTexture name="元件 2" width="105" height="85" x="0" y="128"/>
+ <SubTexture name="元件 3" width="139" height="112" x="296" y="0"/>
+ <SubTexture name="元件 4" width="156" height="126" x="0" y="0"/>
+ <SubTexture name="元件 5" width="136" height="116" x="158" y="0"/>
+ <SubTexture name="元件 6" width="131" height="118" x="296" y="114"/>
+ <SubTexture name="元件 7" width="133" height="114" x="158" y="118"/>
+</TextureAtlas>

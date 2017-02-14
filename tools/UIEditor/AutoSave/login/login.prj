@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="login" ResourceFileName="godsSenki.res" LayoutFileName="login.lay">
+	<AssistLine P0="0, 678" P1="4096, 678" Width="2" Color="Gold" />
+	<AssistLine P0="975, 0" P1="975, 4096" Width="2" Color="Gold" />
+	<AssistLine P0="0, 730" P1="4096, 730" Width="2" Color="Gold" />
+	<GlobalStyles />
+</Project>

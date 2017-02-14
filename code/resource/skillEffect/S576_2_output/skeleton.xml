@@ -1,0 +1,29 @@
+<skeleton name="S576_2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="S576_2">
+   <b name="10001.png" x="7.25" y="-7.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0">
+    <d name="元件 13" pX="32.88" pY="15.9"/>
+    <d name="元件 15" pX="63.25" pY="36.15"/>
+    <d name="元件 17" pX="68.43" pY="39.4"/>
+    <d name="元件 19" pX="46" pY="42.28"/>
+    <d name="元件 21" pX="38.5" pY="32.7"/>
+    <d name="元件 23" pX="35.3" pY="22.7"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S576_2">
+   <mov name="play" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+    <b name="10001.png" sc="1" dl="0">
+     <f x="7.25" y="-7.75" cocos2d_x="8" cocos2d_y="-7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="0" dr="2"/>
+     <f x="6.75" y="-48.25" cocos2d_x="7" cocos2d_y="-48" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="1" dr="2"/>
+     <f x="5.85" y="-54.75" cocos2d_x="6" cocos2d_y="-54" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="2" dr="2"/>
+     <f x="7.5" y="-60.5" cocos2d_x="8" cocos2d_y="-60" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.02" z="0" dI="3" dr="2"/>
+     <f x="0.25" y="-41.35" cocos2d_x="1" cocos2d_y="-41" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="2"/>
+     <f x="3.85" y="-21.35" cocos2d_x="4" cocos2d_y="-21" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

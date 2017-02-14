@@ -1,0 +1,31 @@
+<skeleton name="M012_pugong_2" frameRate="24" version="2.2">
+ <armatures>
+  <armature name="M012_pugong_2">
+   <b name="20001.png" x="15.25" y="5.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0">
+    <d name="元件 1" pX="55.75" pY="39.75"/>
+    <d name="元件 2" pX="112.73" pY="89.25"/>
+    <d name="元件 3" pX="109.48" pY="87.63"/>
+    <d name="元件 4" pX="111.85" pY="88.63"/>
+    <d name="元件 6" pX="113.85" pY="88.63"/>
+    <d name="元件 7" pX="111.23" pY="86.25"/>
+    <d name="元件 8" pX="108.6" pY="85.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="M012_pugong_2">
+   <mov name="play" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+    <b name="20001.png" sc="1" dl="0">
+     <f x="15.25" y="5.25" cocos2d_x="16" cocos2d_y="6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.02" z="0" dI="0" dr="1"/>
+     <f x="47.48" y="2.53" cocos2d_x="48" cocos2d_y="3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="44.98" y="3.15" cocos2d_x="45" cocos2d_y="4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1"/>
+     <f x="45.85" y="2.65" cocos2d_x="46" cocos2d_y="3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2"/>
+     <f x="47.85" y="1.9" cocos2d_x="48" cocos2d_y="2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1"/>
+     <f x="44.73" y="3.03" cocos2d_x="45" cocos2d_y="4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="2"/>
+     <f x="44.85" y="2.78" cocos2d_x="45" cocos2d_y="3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" dr="2"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

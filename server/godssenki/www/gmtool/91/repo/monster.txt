@@ -1,0 +1,203 @@
+number	string	number	string	string	string	string	number	number	number	number	number	number	number	number	number	number	number	number
+怪物ID	怪物名称	职业	怪物形象	目录	普通攻击脚本	普通被击脚本	动作时间	技能取消时间	体型宽度	体型高度	移动速度	攻击频率	攻击范围	对应技能ID	攻击怒气获得	被击怒气获得	阴影	普功是否轨迹
+3001	绿色史莱姆	2	M001	M001_output	M001_normal_attack	hit_31	0.2	0	50	90	30	1.45	40		300	300	1	0
+3002	红色史莱姆	2	M002	M002_output	M002_normal_attack	hit_31	0.2	0	50	90	30	1.45	40		300	300	1	0
+3003	蓝色史莱姆	2	M003	M003_output	M003_normal_attack	hit_31	0.2	0	50	90	30	1.45	40		300	300	1	0
+3004	金色史莱姆	2	M004	M004_output	M004_normal_attack	hit_31	0.2	0	50	90	30	1.45	40		300	300	1	0
+3005	史莱姆女王	1	M005	M005_output	M005_normal_attack	hit_31	0.1	0	70	130	100	1.8	20	101	300	300	2	0
+3006	史莱姆国王	2	M006	M006_output	M006_normal_attack	hit_31	0.1	0.2	70	130	100	1.45	40	221	300	300	2	0
+3007	斯芬克斯	1	M008	M008_output	M008_normal_attack		0.1	0.1	150	210	320	1.8	20	121	300	100	3	0
+3008	狮鹫	2	M007	M007_output	M007_normal_attack	hit_51	0.1	0.2	170	200	80	1.45	40	221	300	300	3	0
+3009	巨鹰	2	M009	M009_output	M009_normal_attack	hit_51	0.1	0	60	200	220	1.45	40		300	300	1	0
+3010	大雕	1	M010	M010_output	M010_normal_attack	hit_51	0.1	0	60	200	220	1.45	40		300	300	1	0
+3011	火凤凰	2	M011	M011_output	M011_normal_attack		0.1	0	100	230	220	1.45	40		300	300	1	0
+3012	孔雀	2	M012	M012_output	M012_normal_attack		0.1	0	100	230	220	1.45	40		300	300	1	0
+3013	拉冬	4	M013	M013_output	M013_normal_attack		0.1	0.1	350	350	150	1.65	80	402	300	300	3	0
+3014	许德拉	4	M014	M014_output	M014_normal_attack		0.1	0.1	350	320	190	1.65	80	402	300	300	3	0
+3015	斯库拉	2	M015	M015_output	M015_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	3	0
+3016	耶梦加得	2	M016	M016_output	M016_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	3	0
+3017	洞穴食人妖	2	M017	M017_output	M017_normal_attack	hit_11	0.1	0.1	140	240	33	1.45	40	221	300	300	2	0
+3018	山领食人妖	2	M018	M018_output	M018_normal_attack	hit_11	0.1	0.1	140	240	33	1.45	40	221	300	300	2	0
+3019	雪地食人妖	2	M019	M019_output	M019_normal_attack	hit_11	0.2	0.2	140	240	33	1.45	40	221	300	300	2	0
+3020	重装食人妖	2	M020	M020_output	M020_normal_attack	hit_11	1	221	140	240	33	1.45	40	221	300	300	2	0
+3021	牧神潘	2	M021	M021_output	M021_normal_attack	hit_11	0.1	0.1	80	160	160	1.45	60	201	300	300	1	0
+3022	羊头人武士	2	M022	M022_output	M022_normal_attack	hit_11	0.1	0	80	160	180	1.45	40		300	300	1	0
+3023	羊头人战士	2	M023	M022_output	M023_normal_attack	hit_11	0.1	0	100	160	180	1.45	40		300	300	1	0
+3024	黑色羊头人武士	2	M024	M024_output	M024_normal_attack	hit_11	0.1	0	80	160	180	1.45	40		300	300	1	0
+3025	黑色羊头人战士	2	M025	M024_output	M025_normal_attack	hit_11	0.1	0	100	160	180	1.45	40		300	300	1	0
+3026	黑龙	4	M026	M026_output	M026_normal_attack	hit_41	0.1	0.1	70	400	160	1.65	280	402	300	300	2	1
+3027	红龙	4	M027	M027_output	M027_normal_attack	hit_42	0.1	0.1	70	400	160	1.65	280	412	300	300	2	1
+3028	绿龙	4	M028	M028_output	M028_normal_attack	hit_42	0.1	0.1	70	400	160	1.65	280	412	300	300	2	1
+3029	金龙	4	M029	M029_output	M029_normal_attack	hit_43	0.1	0.1	70	400	160	1.65	280	422	300	300	2	1
+3030	蓝龙	4	M030	M030_output	M030_normal_attack	hit_43	0.1	0.1	70	400	160	1.65	280	422	300	300	2	1
+3031	小黑龙	2	M031	M031_output	M031_normal_attack	hit_42	0.2	0	100	190	220	1.45	40		300	300	1	0
+3032	小红龙	2	M032	M032_output	M032_normal_attack	hit_42	0.2	0	100	190	220	1.45	40		300	300	1	0
+3033	小绿龙	2	M033	M033_output	M033_normal_attack	hit_42	0.2	0	100	190	220	1.45	40		300	300	1	0
+3034	小金龙	2	M034	M034_output	M034_normal_attack	hit_11	0.2	0	60	190	220	1.45	40		300	300	1	0
+3035	小蓝龙	2	M035	M035_output	M035_normal_attack	hit_11	0.2	0	60	190	220	1.45	40		300	300	1	0
+3036	绿羽鹰身女妖	2	M036	M036_output	M036_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3037	褐羽鹰身女妖	2	M037	M037_output	M037_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3038	黑羽鹰身女妖	2	M038	M038_output	M038_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3039	彩色鹰身女妖	2	M039	M039_output	M039_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3040	绿羽鹰身女妖之王	2	M040	M040_output	M040_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3041	彩色鹰身女妖之王	2	M041	M041_output	M041_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3042	石像鬼	2	M042	M042_output	M042_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3043	地狱石像鬼	2	M043	M043_output	M043_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3044	大石像鬼	2	M044	M044_output	M044_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3045	青色撕咬蝙蝠	2	M045	M045_output	M045_normal_attack	hit_11	1	0	45	200	220	1.45	40		300	300	1	0
+3046	褐色撕咬蝙蝠	2	M046	M046_output	M046_normal_attack	hit_11	1	0	45	200	220	1.45	40		300	300	1	0
+3047	红色喷火蝙蝠	2	M047	M047_output	M047_normal_attack	hit_11	1	0	45	200	220	1.45	40		300	300	1	0
+3048	黑色喷火蝙蝠	2	M048	M048_output	M048_normal_attack	hit_11	1	0	45	200	220	1.45	40		300	300	1	0
+3049	撕咬蝙蝠王	2	M049	M049_output	M049_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3050	喷火蝙蝠王	2	M050	M050_output	M050_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3051	刻耳柏洛斯	2	M051	M051_output	M051_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3052	奇美拉	2	M052	M052_output	M052_normal_attack	hit_11	1	0	60	200	220	1.45	40		300	300	1	0
+3053	芬里尔	2	M053	M053_output	M053_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3054	加姆	2	M054	M054_output	M054_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3055	恶犬	2	M055	M055_output	M055_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3056	深红恶犬	2	M056	M056_output	M056_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3057	座狼	2	M057	M057_output	M057_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3058	座狼首领	2	M058	M058_output	M058_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3059	塔罗斯	2	M059	M059_output	M059_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3060	白银塔罗斯	2	M060	M060_output	M060_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3061	金色塔罗斯	2	M061	M061_output	M061_normal_attack	hit_11	2	0	80	160	220	1.45	40		300	300	1	0
+3062	钢铁塔罗斯	2	M062	M062_output	M062_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3063	青铜塔罗斯	2	M063	M063_output	M063_normal_attack	hit_11	1	0	80	160	220	1.45	40		300	300	1	0
+3064	弥诺陶洛斯	2	M064	M064_output	M064_normal_attack	hit_11	0.1	0.4	100	230	110	1.45	40	221	300	300	2	0
+3065	火牛	2	M065	M065_output	M065_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3066	牛头人斧兵	2	M066	M066_output	M066_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3067	高级牛头人斧兵	2	M067	M067_output	M067_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3068	牛头人锤兵	2	M068	M068_output	M068_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3069	高级牛头人锤兵	2	M069	M069_output	M069_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3070	独眼巨人之王	2	M070	M070_output	M070_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3071	独眼巨人狼牙棒	2	M071	M071_output	M071_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3072	独眼巨人树干	2	M072	M072_output	M072_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3073	百臂巨人	2	M073	M073_output	M073_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3074	战争古树	2	M074	M074_output	M074_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3075	战争之树	2	M075	M075_output	M075_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3076	智慧古树	2	M076	M076_output	M076_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3077	智慧之树	2	M077	M077_output	M077_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3078	远古守护者	2	M078	M078_output	M078_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3079	树人保护者	2	M079	M079_output	M079_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3080	冰霜巨人之王	2	M080	M080_output	M080_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3081	火巨人之王	2	M081	M081_output	M081_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3082	石巨人之王	2	M082	M082_output	M082_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3083	雷电巨人之王	2	M083	M083_output	M083_normal_attack	hit_11	1	0	80	200	220	1.45	40		300	300	1	0
+3084	小冰霜巨人	2	M084	M084_output	M084_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3085	小火巨人	2	M085	M085_output	M085_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3086	小石巨人	2	M086	M086_output	M086_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3087	小雷电巨人	2	M087	M087_output	M087_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3094	蓝色塞壬法师	4	M088	M088_output	M088_normal_attack	hit_11	1	0	60	160	160	1.65	280		300	300	1	0
+3095	红色塞壬法师	4	M089	M089_output	M089_normal_attack	hit_11	1	0	60	160	160	1.65	280		300	300	1	0
+3096	绿色塞壬战士	2	M090	M090_output	M090_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3097	金色塞壬战士	2	M091	M091_output	M091_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3098	金色塞壬之王	2	M092	M092_output	M092_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3099	绿色塞壬之王	2	M093	M093_output	M093_normal_attack	hit_11	1	0	60	160	220	1.45	40		300	300	1	0
+3100	地狱九头蛇	2	M094	M094_output	M094_normal_attack	hit_11	1	402	80	200	220	1.45	40	402	100	100	1	0
+3101	七头红龙撒旦	2	M095	M095_output	M095_normal_attack	hit_11	1	402	80	200	220	1.45	40	402	100	100	1	0
+3102	八岐大蛇	2	M096	M096_output	M096_normal_attack	hit_11	1	412	80	200	220	1.45	40	412	100	100	1	0
+3103	上古凶神相柳	2	M097	M097_output	M097_normal_attack	hit_11	1	422	80	200	220	1.45	40	422	100	100	1	0
+3104	真·法夫纳	2	M098	M098_output	M098_normal_attack	hit_11	1	422	80	200	220	1.45	40	422	100	100	1	0
+4001	奥德修斯	4	H001	H001_output	H001_normal_attack	hit_41	0.4	0.2	60	200	100	1.65	280	401	300	300	1	0
+4002	雅典娜	1	H002	H002_output	H002_normal_attack	hit_11	0.2	0.1	110	195	180	1.8	20	101	300	100	1	0
+4003	宙斯	4	H003	H003_output	H003_normal_attack	hit_41	0.4	0.2	80	260	150	1.65	280	401	300	300	1	0
+4004	阿波罗	3	H004	H004_output	H004_normal_attack	hit_31	0.2	0.2	80	200	210	1.6	240	321	300	300	1	1
+4005	维纳斯	4	H005	H005_output	H005_normal_attack	hit_11	0.3	0.1	80	220	120	1.65	280	421	300	300	1	1
+4006	丘比特	3	H006	H006_output	H006_normal_attack	hit_31	0.3	0.2	60	170	200	1.6	240	301	300	300	1	1
+4007	阿瑞斯	2	H007	H007_output	H007_normal_attack	hit_11	0.1	0.1	100	230	80	1.45	60	211	300	300	2	0
+4008	普罗米修斯	2	H008	H008_output	H008_normal_attack	hit_42	0.5	0.5	80	230	140	1.45	40	411	300	300	1	0
+4009	海格力斯	2	H009	H009_output	H009_normal_attack	hit_11	0.2	0.1	60	160	210	1.45	40	211	300	300	1	0
+4010	角斗士	2	H010	H010_output	H010_normal_attack	hit_11	0.1	0	120	180	100	1.45	40		300	300	2	0
+4011	狂战士	2	H011	H011_output	H011_normal_attack	hit_11	0.2	0	120	190	100	1.45	40		300	300	2	0
+4012	奥丁	3	H012	H012_output	H012_normal_attack	hit_31	0.1	0.2	120	240	160	1.6	240	311	300	300	2	1
+4013	芙蕾	3	H013	H013_output	H013_normal_attack	hit_31	0.3	0.1	100	180	140	1.6	240	321	300	300	1	1
+4014	瓦尔基里	1	H014	H014_output	H014_normal_attack	hit_11	0.2	0.3	90	190	210	1.8	20	111	300	100	1	0
+4015	布伦希尔德	1	H015	H015_output	H015_normal_attack	hit_11	0.2	0.5	90	190	210	1.8	20	111	300	100	1	0
+4016	诗寇蒂	4	H016	H016_output	H016_normal_attack	hit_42	0.2	0.5	60	190	180	1.65	280	411	300	300	1	1
+4017	斯露德	3	H017	H017_output	H017_normal_attack	hit_31	0.4	0.8	100	190	180	1.6	240	301	300	300	1	1
+4018	托尔	2	H018	H018_output	H018_normal_attack	hit_11	0.4	0.2	80	210	220	1.45	40	221	300	300	2	0
+4019	洛基	4	H019	H019_output	H019_normal_attack	hit_43	0.2	0.2	100	200	150	1.65	280	421	300	300	1	1
+4020	海姆达尔	1	H020	H020_output	H020_normal_attack	hit_11	0.2	0.2	80	230	150	1.8	20	101	300	100	1	0
+4021	齐格弗里德	2	H021	H021_output	H021_normal_attack	hit_11	0.2	0.3	100	200	200	1.45	40	201	300	300	1	0
+4022	美杜莎	3	H022	H022_output	H022_normal_attack		0.2	0.2	100	210	130	1.6	260	301	300	300	2	1
+4023	戈尔贡姐妹	3	H023	H023_output	H023_normal_attack	hit_31	0.2	0	80	190	130	1.6	255		300	300	2	1
+4024	愤怒戈尔贡	3	H024	H024_output	H024_normal_attack	hit_31	0.2	0	80	190	130	1.6	240		300	300	2	1
+4025	厄喀德那	2	H025	H025_output	H025_normal_attack	hit_11	0.2	0.2	100	210	160	1.45	40	211	300	300	2	0
+4026	蛇妖执法者	2	H026	H026_output	H026_normal_attack	hit_11	0.1	0	100	210	160	1.45	40		300	300	2	0
+4027	蛇妖破法者	2	H027	H027_output	H027_normal_attack	hit_11	0.1	0	100	210	160	1.45	40		300	300	2	0
+4028	蛇妖制裁者	4	H028	H028_output	H028_normal_attack	hit_42	0.2	0	90	210	160	1.65	280		300	300	2	1
+4029	蛇妖施法者	4	H029	H029_output	H029_normal_attack	hit_42	0.2	0	90	210	160	1.65	280		300	300	2	1
+4030	森林树妖	3	H030	H030_output	H030_normal_attack	hit_31	0.2	0	120	210	140	1.6	240		300	300	2	1
+4031	森林复仇者	3	H031	H031_output	H031_normal_attack	hit_31	0.2	0	120	210	140	1.6	240		300	300	2	1
+4032	波斯骑兵	1	H032	H032_output	H032_normal_attack	hit_11	0.2	0	120	230	120	1.8	20		300	300	2	0
+4033	波斯重装骑兵	1	H033	H033_output	H033_normal_attack	hit_11	0.2	0	120	230	120	1.8	20		300	300	2	0
+4034	波斯骑射手	3	H034	H032_output	H034_normal_attack	hit_11	0.2	0	120	230	120	1.6	240		300	300	2	1
+4035	波斯神射手	3	H035	H033_output	H035_normal_attack	hit_11	0.2	0	120	230	120	1.6	250		300	300	2	1
+4036	达提斯	2	H036	H036_output	H036_normal_attack	hit_11	0.2	0.2	140	230	110	1.45	40	221	300	300	2	0
+4037	薛西斯	3	H037	H037_output	H037_normal_attack	hit_31	0.3	0.2	100	230	110	1.6	260	301	300	300	2	1
+4038	阿伽门农	3	H038	H038_output	H038_normal_attack	hit_31	0.4	0.5	100	210	150	1.6	260	301	300	300	1	1
+4039	帕里斯	3	H039	H039_output	H039_normal_attack	hit_31	0.5	0.6	120	200	180	1.6	260	301	300	300	1	1
+4040	希腊弓兵	3	H040	H040_output	H040_normal_attack	hit_31	0.2	0	80	220	180	1.6	230		300	300	1	1
+4041	希腊神射手	3	H041	H041_output	H041_normal_attack	hit_31	0.2	0.2	80	240	180	1.6	240		300	300	1	1
+4042	特洛伊弓兵	3	H042	H042_output	H042_normal_attack	hit_31	0.2	0	80	200	180	1.6	240		300	300	1	1
+4043	特洛伊神射手	3	H043	H043_output	H043_normal_attack	hit_31	0.2	0	80	210	180	1.6	250		300	300	1	1
+4044	赫克托尔	2	H044	H044_output	H044_normal_attack	hit_11	0.4	0.2	120	220	180	1.45	40	101	300	100	1	0
+4045	希腊士兵	2	H045	H045_output	H045_normal_attack	hit_11	0.2	0	80	210	220	1.45	40		300	300	1	0
+4046	希腊精兵	2	H046	H046_output	H046_normal_attack	hit_11	0.2	0	80	220	220	1.45	40		300	300	1	0
+4047	特洛伊士兵	2	H047	H047_output	H047_normal_attack	hit_11	0.2	0	100	210	200	1.45	40		300	300	1	0
+4048	特洛伊精兵	2	H048	H048_output	H048_normal_attack	hit_11	0.2	0	100	210	200	1.45	40		300	300	1	0
+4049	列奥尼达	1	H049	H049_output	H049_normal_attack	hit_11	0.4	0.3	100	220	200	1.8	20	121	300	100	2	0
+4050	希腊勇士	1	H050	H045_output	H045_normal_attack	hit_11	0.2	0	90	210	220	1.8	20		300	300	1	0
+4051	希腊方阵兵	1	H051	H046_output	H051_normal_attack	hit_11	0.2	0	100	220	220	1.8	20		300	300	1	0
+4052	特洛伊勇士	1	H052	H047_output	H052_normal_attack	hit_11	0.2	0	80	210	180	1.8	20		300	300	1	0
+4053	特洛伊方阵兵	1	H053	H048_output	H053_normal_attack	hit_11	0.1	0	80	210	180	1.8	20		300	300	1	0
+4054	伊阿宋	2	H054	H054_output	H054_normal_attack	hit_11	0.3	0.4	120	210	170	1.45	40	201	300	300	1	0
+4055	阿喀琉斯	2	H055	H055_output	H055_normal_attack	hit_11	0.3	0.2	80	210	200	1.45	40	221	300	300	1	0
+4056	精灵射手	3	H056	H056_output	H056_normal_attack	hit_31	0.3	0	80	190	160	1.6	240		300	300	1	1
+4057	黑暗精灵射手	3	H057	H057_output	H057_normal_attack	hit_31	0.2	0.2	80	190	160	1.6	250		300	300	1	1
+4058	泰兰德	2	H058	H058_output	H058_normal_attack	hit_11	0.2	0.3	70	200	220	1.45	40	221	300	300	1	0
+4059	精灵战士	2	H059	H059_output	H059_normal_attack	hit_11	0.1	0	60	190	190	1.45	40		300	300	1	0
+4060	黑暗精灵战士	2	H060	H060_output	H060_normal_attack	hit_11	0.2	0.2	60	190	190	1.45	40		300	300	1	0
+4061	希尔瓦娜斯	3	H061	H061_output	H061_normal_attack	hit_31	0.5	0.5	100	200	170	1.6	260	301	300	300	1	1
+4062	精灵法师	4	H062	H062_output	H062_normal_attack	hit_42	0.2	0	80	190	200	1.65	280		300	300	1	1
+4063	黑暗精灵法师	4	H063	H063_output	H063_normal_attack	hit_42	0.3	0.3	80	190	200	1.65	280		300	300	1	1
+4064	凯兰崔尔	4	H064	H064_output	H064_normal_attack	hit_42	0.3	0.4	90	200	110	1.65	280	411	300	300	1	1
+4065	精灵禁卫军	3	H065	H065_output	H065_normal_attack	hit_11	0.2	0.2	140	210	320	1.6	240	301	300	300	3	1
+4066	圣地守护者	2	H066	H066_output	H066_normal_attack	hit_11	0.1	0.1	140	210	320	1.45	40	221	300	300	3	0
+4067	黑暗精灵禁卫军	3	H067	H067_output	H067_normal_attack	hit_11	0.2	0.2	140	210	320	1.6	240	301	300	300	3	1
+4068	黑暗圣地守护者	2	H068	H068_output	H068_normal_attack	hit_11	0.1	0.1	140	210	320	1.45	40	221	300	300	3	0
+4069	索林·橡木盾	1	H069	H069_output	H069_normal_attack	hit_11	0.2	0	100	170	100	1.8	20	101	300	100	1	0
+4070	法夫纳	4	H070	H070_output	H070_normal_attack	hit_42	0.3	0.2	80	170	110	1.65	280	411	300	300	1	1
+4071	深火氏族战士	2	H071	H071_output	H071_normal_attack	hit_11	0.2	0	60	150	200	1.45	40		300	300	1	0
+4072	寒铁氏族战士	2	H072	H072_output	H072_normal_attack	hit_11	0.2	0	60	150	200	1.45	40		300	300	1	0
+4073	深火氏族投手	3	H073	H073_output	H073_normal_attack	hit_11	0.2	0	60	150	150	1.6	240		300	300	1	0
+4074	寒铁氏族投手	3	H074	H074_output	H074_normal_attack	hit_11	0.2	0	60	150	150	1.6	245		300	300	1	0
+4075	赫拉	2	H075	H075_output	H075_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4076	波塞冬	2	H076	H076_output	H076_normal_attack	hit_11	0.2	0.2	80	215	180	1.45	40	211	300	300	1	0
+4077	哈迪斯	1	H077	H077_output	H077_normal_attack	hit_11	0.2	0.2	120	210	350	1.8	20	121	300	100	1	0
+4078	阿尔忒弥斯	2	H078	H078_output	H078_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4079	赫斐斯托斯	2	H079	H079_output	H079_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4080	塔那托斯	2	H080	H080_output	H080_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4081	珀修斯	2	H081	H081_output	H081_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4082	俄耳甫斯	2	H082	H082_output	H082_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4083	红缪斯女神	2	H083	H083_output	H083_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4084	蓝缪斯女神	2	H084	H084_output	H084_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4085	绿缪斯女神	2	H085	H085_output	H085_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4086	金缪斯女神	2	H086	H086_output	H086_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4087	俄狄浦斯王	2	H087	H087_output	H087_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4088	吟游诗人	2	H088	H088_output	H088_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4089	盲眼歌者	2	H089	H089_output	H089_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4090	贝瑟芬妮	2	H090	H090_output	H090_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4091	冥后侍女	2	H091	H091_output	H091_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4092	地狱巫女	2	H092	H092_output	H092_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4093	喀戎	2	H093	H093_output	H093_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4094	人马剑士	2	H094	H094_output	H094_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4095	人马无双剑士	2	H095	H095_output	H095_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4096	人马勇士	2	H096	H096_output	H096_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4097	人马无双勇士	2	H097	H097_output	H097_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4098	人马射手	2	H098	H098_output	H098_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4099	人马无双射手	2	H099	H099_output	H099_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4100	亚马逊女王	2	H100	H100_output	H100_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4101	亚马逊战姬	2	H101	H101_output	H101_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4102	亚马逊射手	2	H102	H102_output	H102_normal_attack	hit_11	1	0	60	150	220	1.45	40		300	300	1	0
+4103	火热丘比特	3	H103	H103_output	H103_normal_attack	hit_31	0.3	0.2	60	170	200	1.6	240	301	300	300	1	1

@@ -1,0 +1,37 @@
+<TextureAtlas name="H042_Wuniform" width="256" height="256">
+  <SubTexture name="小丑.psd 资源/head 副本" width="0" height="0" x="254" y="6"/>
+  <SubTexture name="wing_up_left_3" width="0" height="0" x="254" y="4"/>
+  <SubTexture name="wing_down_left_3" width="0" height="0" x="254" y="2"/>
+  <SubTexture name="wing_up_right_3" width="0" height="0" x="254" y="8"/>
+  <SubTexture name="wing_down_right_3" width="0" height="0" x="254" y="0"/>
+  <SubTexture name="小丑.psd 资源/hair_3" width="23" height="38" x="113" y="133"/>
+  <SubTexture name="小丑.psd 资源/hair_4" width="29" height="60" x="211" y="0"/>
+  <SubTexture name="小丑.psd 资源/hair_5" width="17" height="40" x="192" y="144"/>
+  <SubTexture name="小丑.psd 资源/hair_6" width="91" height="99" x="0" y="0"/>
+  <SubTexture name="biaoqing_6" width="46" height="36" x="197" y="106"/>
+  <SubTexture name="biaoqing_1" width="46" height="38" x="0" y="101"/>
+  <SubTexture name="小丑.psd 资源/head" width="63" height="65" x="146" y="0"/>
+  <SubTexture name="baiyuanjian/元件 1" width="19" height="36" x="233" y="144"/>
+  <SubTexture name="baiyuanjian/元件 2" width="13" height="26" x="168" y="173"/>
+  <SubTexture name="baiyuanjian/元件 3" width="12" height="16" x="242" y="25"/>
+  <SubTexture name="baiyuanjian/元件 4" width="38" height="35" x="48" y="101"/>
+  <SubTexture name="baiyuanjian/元件 5" width="10" height="23" x="242" y="0"/>
+  <SubTexture name="baiyuanjian/元件 6" width="14" height="18" x="144" y="174"/>
+  <SubTexture name="baiyuanjian/元件 7" width="49" height="61" x="146" y="67"/>
+  <SubTexture name="baiyuanjian/元件 8" width="25" height="42" x="141" y="130"/>
+  <SubTexture name="baiyuanjian/元件 9" width="35" height="42" x="211" y="62"/>
+  <SubTexture name="baiyuanjian/元件 10" width="23" height="38" x="88" y="133"/>
+  <SubTexture name="baiyuanjian/元件 11" width="21" height="19" x="16" y="163"/>
+  <SubTexture name="baiyuanjian/元件 12" width="22" height="41" x="168" y="130"/>
+  <SubTexture name="baiyuanjian/元件 13" width="16" height="42" x="70" y="138"/>
+  <SubTexture name="baiyuanjian/元件 14" width="21" height="19" x="88" y="173"/>
+  <SubTexture name="baiyuanjian/元件 15" width="20" height="38" x="48" y="138"/>
+  <SubTexture name="baiyuanjian/元件 16" width="14" height="37" x="0" y="163"/>
+  <SubTexture name="baiyuanjian/元件 17" width="20" height="35" x="211" y="144"/>
+  <SubTexture name="baiyuanjian/元件 18" width="16" height="24" x="111" y="173"/>
+  <SubTexture name="baiyuanjian/元件 19" width="13" height="16" x="39" y="178"/>
+  <SubTexture name="小丑.psd 资源/hair_2" width="46" height="42" x="93" y="89"/>
+  <SubTexture name="小丑.psd 资源/hair_1" width="13" height="23" x="129" y="174"/>
+  <SubTexture name="小丑.psd 资源/maozi" width="51" height="87" x="93" y="0"/>
+  <SubTexture name="yuanjian/shaodw" width="39" height="20" x="0" y="141"/>
+</TextureAtlas>

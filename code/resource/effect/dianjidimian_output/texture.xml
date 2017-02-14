@@ -1,0 +1,4 @@
+<TextureAtlas name="dianjidimian" width="256" height="256">
+ <SubTexture name="元件 6" width="5" height="5" cocos2d_pX="2.85" cocos2d_pY="2.35" x="190" y="0"/>
+ <SubTexture name="元件 3" width="188" height="188" cocos2d_pX="91.95" cocos2d_pY="92.9" x="0" y="0"/>
+</TextureAtlas>

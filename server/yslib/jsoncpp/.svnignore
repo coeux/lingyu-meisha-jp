@@ -1,0 +1,5 @@
+Makefile
+.libs
+.deps
+Makefile.in
+libjsoncpp.a

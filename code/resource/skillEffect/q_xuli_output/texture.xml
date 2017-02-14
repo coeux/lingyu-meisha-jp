@@ -1,0 +1,7 @@
+<TextureAtlas name="吟唱_1" width="256" height="512">
+  <SubTexture name="10005.png" width="105" height="105" cocos2d_pX="0" cocos2d_pY="0" x="0" y="214"/>
+  <SubTexture name="10004.png" width="105" height="105" cocos2d_pX="0" cocos2d_pY="0" x="107" y="107"/>
+  <SubTexture name="10003.png" width="105" height="105" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="10002.png" width="105" height="105" cocos2d_pX="0" cocos2d_pY="0" x="107" y="0"/>
+  <SubTexture name="10001.png" width="105" height="105" cocos2d_pX="0" cocos2d_pY="0" x="0" y="107"/>
+</TextureAtlas>

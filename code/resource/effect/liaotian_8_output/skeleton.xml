@@ -1,0 +1,40 @@
+<skeleton name="liaotian_8" frameRate="24" version="2.2">
+  <armatures>
+    <armature name="liaotian_8">
+      <b name="图层 4" x="-0.05" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="元件 24" pX="22.45" pY="23.95"/>
+      </b>
+      <b name="图层 3" x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="元件 3" pX="8.85" pY="10.2"/>
+        <d name="元件 4" pX="9.45" pY="9.45"/>
+        <d name="元件 5" pX="14" pY="8.1"/>
+        <d name="元件 2" pX="10.2" pY="7.05"/>
+        <d name="元件 1" pX="10.2" pY="6"/>
+        <d name="元件 6" pX="10.2" pY="5.3"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="liaotian_8">
+      <mov name="play" dr="8" to="0" drTW="8" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-0.05" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-0.05" y="1.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-0.8" y="2.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+          <f x="-1.1" y="1.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3"/>
+          <f x="-0.95" y="0.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="3" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="4" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="5" dr="1"/>
+          <f x="-8.9" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="4" dr="1"/>
+          <f x="-8.9" y="-11.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="3" dr="1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+</skeleton>

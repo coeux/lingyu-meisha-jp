@@ -1,0 +1,46 @@
+<skeleton name="S320shouji" frameRate="25" version="2.2">
+ <armatures>
+  <armature name="S320shouji">
+   <b name="图层 1" x="0" y="0.23" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0">
+    <d name="10037.png" pX="0" pY="0"/>
+    <d name="10038.png" pX="0" pY="0"/>
+    <d name="10039.png" pX="0" pY="0"/>
+    <d name="10040.png" pX="0" pY="0"/>
+    <d name="10041.png" pX="0" pY="0"/>
+    <d name="10042.png" pX="0" pY="0"/>
+    <d name="10043.png" pX="0" pY="0"/>
+    <d name="10044.png" pX="0" pY="0"/>
+    <d name="10045.png" pX="0" pY="0"/>
+    <d name="10046.png" pX="0" pY="0"/>
+    <d name="10047.png" pX="0" pY="0"/>
+    <d name="10048.png" pX="0" pY="0"/>
+    <d name="10049.png" pX="0" pY="0"/>
+    <d name="10050.png" pX="0" pY="0"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="S320shouji">
+   <mov name="play" dr="16" to="6" drTW="16" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="0" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="1" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="2" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="3" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="4" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="5" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="6" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="7" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="8" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="9" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="10" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="11" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="12" dr="1"/>
+     <f x="0" y="0.23" cocos2d_x="-50" cocos2d_y="-49" kX="0" kY="0" cX="1" cY="1" pX="50" pY="50" z="0" dI="13" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+</skeleton>

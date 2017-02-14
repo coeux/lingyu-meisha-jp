@@ -1,0 +1,3 @@
+<TextureAtlas name="体力" width="32" height="32">
+ <SubTexture name="元件 1" width="21" height="22" cocos2d_pX="10.3" cocos2d_pY="10.8" x="0" y="0"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<TextureAtlas name="普攻" width="128" height="256">
+  <SubTexture name="元件 9" width="74" height="37" cocos2d_pX="37" cocos2d_pY="16" x="0" y="53"/>
+  <SubTexture name="元件 8" width="73" height="31" cocos2d_pX="37" cocos2d_pY="14" x="0" y="92"/>
+  <SubTexture name="元件 7" width="69" height="34" cocos2d_pX="35" cocos2d_pY="17" x="0" y="125"/>
+  <SubTexture name="元件 6" width="66" height="51" cocos2d_pX="33" cocos2d_pY="20" x="0" y="0"/>
+</TextureAtlas>

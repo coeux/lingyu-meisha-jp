@@ -1,0 +1,29 @@
+<TextureAtlas name="菊花怪" width="512" height="512">
+  <SubTexture name="yuanjian/元件 3" width="35" height="36" cocos2d_pX="0" cocos2d_pY="0" x="80" y="280"/>
+  <SubTexture name="yuanjian/元件 4" width="39" height="22" cocos2d_pX="0" cocos2d_pY="0" x="152" y="453"/>
+  <SubTexture name="yuanjian/元件 5" width="69" height="92" cocos2d_pX="0" cocos2d_pY="0" x="0" y="401"/>
+  <SubTexture name="yuanjian/元件 6" width="118" height="89" cocos2d_pX="0" cocos2d_pY="0" x="0" y="189"/>
+  <SubTexture name="yuanjian/元件 7" width="125" height="96" cocos2d_pX="0" cocos2d_pY="0" x="353" y="88"/>
+  <SubTexture name="yuanjian/元件 8" width="70" height="95" cocos2d_pX="0" cocos2d_pY="0" x="420" y="371"/>
+  <SubTexture name="yuanjian/元件 9" width="88" height="101" cocos2d_pX="0" cocos2d_pY="0" x="330" y="356"/>
+  <SubTexture name="yuanjian/元件 10" width="79" height="48" cocos2d_pX="0" cocos2d_pY="0" x="71" y="453"/>
+  <SubTexture name="yuanjian/元件 2" width="15" height="14" cocos2d_pX="0" cocos2d_pY="0" x="480" y="112"/>
+  <SubTexture name="yuanjian/biaoqing_3" width="117" height="85" cocos2d_pX="-1" cocos2d_pY="-8" x="337" y="269"/>
+  <SubTexture name="yuanjian/biaoqing_1" width="117" height="96" cocos2d_pX="0" cocos2d_pY="0" x="220" y="135"/>
+  <SubTexture name="yuanjian/biaoqing_2" width="117" height="85" cocos2d_pX="-1" cocos2d_pY="-8" x="218" y="233"/>
+  <SubTexture name="yuanjian/huahua" width="98" height="98" cocos2d_pX="0" cocos2d_pY="1" x="117" y="293"/>
+  <SubTexture name="yuanjian/huapen" width="218" height="187" cocos2d_pX="1" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="yuanjian/yezi_1" width="131" height="133" cocos2d_pX="-8" cocos2d_pY="0" x="220" y="0"/>
+  <SubTexture name="yuanjian/yezi_2" width="96" height="102" cocos2d_pX="-6" cocos2d_pY="1" x="120" y="189"/>
+  <SubTexture name="yuanjian/zhi_3" width="84" height="50" cocos2d_pX="0" cocos2d_pY="1" x="209" y="447"/>
+  <SubTexture name="yuanjian/zhi_1" width="10" height="110" cocos2d_pX="-2" cocos2d_pY="-22" x="495" y="0"/>
+  <SubTexture name="yuanjian/zhi_2" width="36" height="86" cocos2d_pX="0" cocos2d_pY="1" x="471" y="186"/>
+  <SubTexture name="yuanjian/yezi_3" width="140" height="86" cocos2d_pX="-4" cocos2d_pY="-6" x="353" y="0"/>
+  <SubTexture name="yuanjian/yezi_4" width="130" height="81" cocos2d_pX="-9" cocos2d_pY="0" x="339" y="186"/>
+  <SubTexture name="yuanjian/yezi_5" width="127" height="58" cocos2d_pX="1" cocos2d_pY="0" x="80" y="393"/>
+  <SubTexture name="yuanjian/yezi_6" width="117" height="42" cocos2d_pX="1" cocos2d_pY="1" x="209" y="403"/>
+  <SubTexture name="yuanjian/yezi_7" width="78" height="119" cocos2d_pX="0" cocos2d_pY="0" x="0" y="280"/>
+  <SubTexture name="yuanjian/yezi_8" width="51" height="95" cocos2d_pX="0" cocos2d_pY="0" x="456" y="274"/>
+  <SubTexture name="yuanjian/yezi_9" width="111" height="81" cocos2d_pX="-14" cocos2d_pY="1" x="217" y="320"/>
+  <SubTexture name="yuanjian/BianMN_shaodw" width="39" height="20" cocos2d_pX="-6" cocos2d_pY="0" x="295" y="459"/>
+</TextureAtlas>
